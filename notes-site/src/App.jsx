@@ -35,6 +35,33 @@ function App() {
                       <p key={paragraph}>{paragraph}</p>
                     ))}
 
+                    {section.faqs ? (
+                      <div className="faq-list">
+                        {section.faqs.map((item) => (
+                          <details className="faq-item" key={item.question}>
+                            <summary>{item.question}</summary>
+                            <div className="faq-answer">
+                              {item.answer.map((paragraph) => (
+                                <p key={paragraph}>{paragraph}</p>
+                              ))}
+
+                              {item.links ? (
+                                <ul className="reference-list">
+                                  {item.links.map((link) => (
+                                    <li key={link.href}>
+                                      <a href={link.href} target="_blank" rel="noreferrer">
+                                        {link.label}
+                                      </a>
+                                    </li>
+                                  ))}
+                                </ul>
+                              ) : null}
+                            </div>
+                          </details>
+                        ))}
+                      </div>
+                    ) : null}
+
                     {section.bullets ? (
                       <ul>
                         {section.bullets.map((bullet) => (
@@ -42,7 +69,6 @@ function App() {
                         ))}
                       </ul>
                     ) : null}
-
                     {section.code ? (
                       <pre className="code-block">
                         <code>{section.code}</code>

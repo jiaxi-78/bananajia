@@ -93,9 +93,68 @@
   color: var(--muted);
 }
 
+.faq-list {
+  display: grid;
+  gap: 12px;
+}
+
+.faq-item {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.02);
+  overflow: hidden;
+}
+
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 16px 18px;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: '+';
+  float: right;
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+.faq-item[open] summary::after {
+  content: '−';
+}
+
+.faq-answer {
+  padding: 0 18px 12px;
+}
+
+.faq-answer p {
+  margin: 0 0 10px;
+}
+
 .post-section ul {
   margin: 0;
   padding-left: 18px;
+}
+
+.reference-list {
+  margin-top: 6px;
+}
+
+.reference-list a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.reference-list a:hover {
+  color: var(--ink);
+  border-color: currentColor;
 }
 
 .code-block {
