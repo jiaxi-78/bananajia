@@ -1,8 +1,31 @@
 import './App.css'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { notes, site, categories } from './content.js'
 
 const noteNumbers = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
+
+function readRouteFromHash() {
+  const [categoryId, noteId] = window.location.hash
+    .replace(/^#\/?/, '')
+    .split('/')
+    .map((part) => decodeURIComponent(part))
+    .filter(Boolean)
+
+  return { categoryId: categoryId ?? null, noteId: noteId ?? null }
+}
+
+function writeRouteToHash(categoryId, noteId) {
+  if (!categoryId) {
+    window.history.pushState(null, '', window.location.pathname + window.location.search)
+    return
+  }
+
+  const route = noteId
+    ? `#/${encodeURIComponent(categoryId)}/${encodeURIComponent(noteId)}`
+    : `#/${encodeURIComponent(categoryId)}`
+
+  window.history.pushState(null, '', route)
+}
 
 function OptimizerVisualSection({ items }) {
   return (
@@ -94,8 +117,7 @@ function HubView({ onPickCategory, counts }) {
   )
 }
 
-function CategoryView({ category, categoryNotes, onBack }) {
-  const [activeNoteId, setActiveNoteId] = useState(categoryNotes[0]?.id ?? null)
+function CategoryView({ category, categoryNotes, activeNoteId, onPickNote, onBack }) {
   const activeNote = categoryNotes.find((n) => n.id === activeNoteId) ?? categoryNotes[0]
 
   const accentClass = `accent-${category.accent}`
@@ -137,7 +159,7 @@ function CategoryView({ category, categoryNotes, onBack }) {
                   key={note.id}
                   type="button"
                   className={`note-nav-item${isActive ? ' is-active' : ''}`}
-                  onClick={() => setActiveNoteId(note.id)}
+                  onClick={() => onPickNote(note.id)}
                   aria-pressed={isActive}
                 >
                   <span className="note-nav-index">{label}</span>
@@ -223,7 +245,7 @@ function CategoryView({ category, categoryNotes, onBack }) {
 }
 
 function App() {
-  const [activeCategoryId, setActiveCategoryId] = useState(null)
+  const [route, setRoute] = useState(() => readRouteFromHash())
 
   const counts = useMemo(() => {
     const map = {}
@@ -234,10 +256,42 @@ function App() {
     return map
   }, [])
 
-  const activeCategory = categories.find((c) => c.id === activeCategoryId)
+  useEffect(() => {
+    const syncRoute = () => setRoute(readRouteFromHash())
+    window.addEventListener('hashchange', syncRoute)
+    window.addEventListener('popstate', syncRoute)
+
+    return () => {
+      window.removeEventListener('hashchange', syncRoute)
+      window.removeEventListener('popstate', syncRoute)
+    }
+  }, [])
+
+  const activeCategory = categories.find((c) => c.id === route.categoryId)
   const categoryNotes = activeCategory
     ? notes.filter((n) => n.categoryId === activeCategory.id)
     : []
+  const activeNoteId = categoryNotes.some((note) => note.id === route.noteId)
+    ? route.noteId
+    : categoryNotes[0]?.id ?? null
+
+  const openCategory = (categoryId) => {
+    const firstNote = notes.find((note) => note.categoryId === categoryId)
+    const nextRoute = { categoryId, noteId: firstNote?.id ?? null }
+    setRoute(nextRoute)
+    writeRouteToHash(nextRoute.categoryId, nextRoute.noteId)
+  }
+
+  const openNote = (noteId) => {
+    const nextRoute = { categoryId: activeCategory.id, noteId }
+    setRoute(nextRoute)
+    writeRouteToHash(nextRoute.categoryId, nextRoute.noteId)
+  }
+
+  const openHub = () => {
+    setRoute({ categoryId: null, noteId: null })
+    writeRouteToHash(null, null)
+  }
 
   return (
     <main className="shell">
@@ -245,10 +299,12 @@ function App() {
         <CategoryView
           category={activeCategory}
           categoryNotes={categoryNotes}
-          onBack={() => setActiveCategoryId(null)}
+          activeNoteId={activeNoteId}
+          onPickNote={openNote}
+          onBack={openHub}
         />
       ) : (
-        <HubView counts={counts} onPickCategory={setActiveCategoryId} />
+        <HubView counts={counts} onPickCategory={openCategory} />
       )}
     </main>
   )
