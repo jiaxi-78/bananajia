@@ -1,8 +1,8 @@
 import './App.css'
-import { useState } from 'react'
-import { notes, site } from './content.js'
+import { useMemo, useState } from 'react'
+import { notes, site, categories } from './content.js'
 
-const noteNumbers = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十']
+const noteNumbers = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
 
 function OptimizerVisualSection({ items }) {
   return (
@@ -43,26 +43,92 @@ function OptimizerVisualSection({ items }) {
   )
 }
 
-function App() {
-  const [activeNoteId, setActiveNoteId] = useState(notes[0]?.id ?? null)
-  const activeNote = notes.find((note) => note.id === activeNoteId) ?? notes[0]
-
+function HubView({ onPickCategory, counts }) {
   return (
-    <main className="blog-shell">
-      <header className="blog-header">
-        <h1>{site.title}</h1>
-        {site.intro ? <p className="blog-intro">{site.intro}</p> : null}
+    <section className="hub">
+      <header className="hub-header">
+        <p className="hub-eyebrow">&gt;_ {site.tagline}</p>
+        <h1 className="hub-title">
+          <span className="glitch" data-text={site.title}>{site.title}</span>
+        </h1>
+        {site.intro ? <p className="hub-intro">{site.intro}</p> : null}
       </header>
 
-      <section className="category-block" aria-labelledby="category-title">
-        <div className="category-head">
-          <p className="category-label">Category</p>
-          <h2 id="category-title">{site.category}</h2>
-        </div>
+      <div className="hub-grid">
+        {categories.map((cat) => {
+          const count = counts[cat.id] ?? 0
+          return (
+            <button
+              key={cat.id}
+              type="button"
+              className={`hub-card accent-${cat.accent}`}
+              onClick={() => onPickCategory(cat.id)}
+              aria-label={`Open ${cat.name}`}
+            >
+              <div className="hub-card-corners" aria-hidden="true">
+                <span /><span /><span /><span />
+              </div>
+              <div className="hub-card-top">
+                <span className="hub-card-tag">{cat.tag}</span>
+                <span className="hub-card-code">{cat.code}</span>
+              </div>
+              <h2 className="hub-card-name">{cat.name}</h2>
+              <p className="hub-card-tagline">{cat.tagline}</p>
+              <p className="hub-card-desc">{cat.description}</p>
+              <div className="hub-card-bottom">
+                <span className="hub-card-count">
+                  {count > 0 ? `${count} entries` : 'coming soon'}
+                </span>
+                <span className="hub-card-arrow" aria-hidden="true">&rarr;</span>
+              </div>
+            </button>
+          )
+        })}
+      </div>
 
+      <footer className="hub-footer">
+        <span className="status-dot" aria-hidden="true" />
+        <span>connection stable · signal {new Date().getFullYear()}</span>
+      </footer>
+    </section>
+  )
+}
+
+function CategoryView({ category, categoryNotes, onBack }) {
+  const [activeNoteId, setActiveNoteId] = useState(categoryNotes[0]?.id ?? null)
+  const activeNote = categoryNotes.find((n) => n.id === activeNoteId) ?? categoryNotes[0]
+
+  const accentClass = `accent-${category.accent}`
+
+  return (
+    <section className={`category-view ${accentClass}`}>
+      <nav className="category-topbar">
+        <button type="button" className="back-btn" onClick={onBack}>
+          <span aria-hidden="true">&larr;</span> back to hub
+        </button>
+        <span className="category-topbar-tag">{category.tag}</span>
+      </nav>
+
+      <header className="category-header">
+        <p className="category-eyebrow">&gt;_ {category.tagline}</p>
+        <h1 className="category-title glitch" data-text={category.name}>
+          {category.name}
+        </h1>
+        <p className="category-desc">{category.description}</p>
+      </header>
+
+      {categoryNotes.length === 0 ? (
+        <div className="empty-state">
+          <div className="empty-frame">
+            <p className="empty-label">// NO SIGNAL</p>
+            <h3>这个分类还在建设中</h3>
+            <p>这门课的笔记还没写，等我学到能分享的阶段就会在这里出现。</p>
+          </div>
+        </div>
+      ) : (
         <div className="note-browser">
           <nav className="note-nav" aria-label="Notes">
-            {notes.map((note, index) => {
+            {categoryNotes.map((note, index) => {
               const isActive = note.id === activeNote?.id
               const label = noteNumbers[index] ?? String(index + 1)
 
@@ -88,7 +154,7 @@ function App() {
             <article className="post-card" key={activeNote.id}>
               <div className="post-meta">
                 {activeNote.date ? <span>{activeNote.date}</span> : null}
-                {activeNote.course ? <span>{activeNote.course}</span> : null}
+                {activeNote.course ? <span>// {activeNote.course}</span> : null}
               </div>
 
               {activeNote.title ? <h3>{activeNote.title}</h3> : null}
@@ -151,7 +217,39 @@ function App() {
             </article>
           ) : null}
         </div>
-      </section>
+      )}
+    </section>
+  )
+}
+
+function App() {
+  const [activeCategoryId, setActiveCategoryId] = useState(null)
+
+  const counts = useMemo(() => {
+    const map = {}
+    for (const note of notes) {
+      const cid = note.categoryId ?? 'uncategorized'
+      map[cid] = (map[cid] ?? 0) + 1
+    }
+    return map
+  }, [])
+
+  const activeCategory = categories.find((c) => c.id === activeCategoryId)
+  const categoryNotes = activeCategory
+    ? notes.filter((n) => n.categoryId === activeCategory.id)
+    : []
+
+  return (
+    <main className="shell">
+      {activeCategory ? (
+        <CategoryView
+          category={activeCategory}
+          categoryNotes={categoryNotes}
+          onBack={() => setActiveCategoryId(null)}
+        />
+      ) : (
+        <HubView counts={counts} onPickCategory={setActiveCategoryId} />
+      )}
     </main>
   )
 }

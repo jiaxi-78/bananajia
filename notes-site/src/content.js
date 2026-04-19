@@ -1,30 +1,52 @@
 export const site = {
   title: 'bananajia',
-  intro: '',
-  category: 'CS336 Learning Notes',
+  tagline: '// Personal Signal · Learning Log',
+  intro: '记录我正在学的几门课、写下来的笔记，还有偶尔做饭的心得。选一个分区开始。',
 }
 
-export const stats = [
+export const categories = [
   {
-    value: '01',
-    label: '当前课程',
-    description: '先围绕 DIY LLM 建站，把每次作业都沉淀成可复用页面。',
+    id: 'diy-llm',
+    name: 'DIY LLM',
+    code: '01',
+    tag: 'COURSE/01',
+    accent: 'cyan',
+    tagline: '从零实现一个语言模型',
+    description: '跟着 CS336 / DIY LLM 一步步搭起来的笔记，从分词器、优化器到训练流水线。',
   },
   {
-    value: '03',
-    label: '站点栏目',
-    description: '首页、笔记、作业，结构先简单但能持续扩展。',
+    id: 'agentic-ai',
+    name: 'Agentic AI',
+    code: '02',
+    tag: 'COURSE/02',
+    accent: 'magenta',
+    tagline: '智能体开发',
+    description: '围绕单体智能体的感知、工具使用、记忆、规划等能力建立系统认知。',
   },
   {
-    value: 'Ready',
-    label: '可视化能力',
-    description: '后面可以直接接 Recharts、ECharts 或 Plotly 展示实验结果。',
+    id: 'multi-agent',
+    name: 'Multi-Agent',
+    code: '03',
+    tag: 'COURSE/03',
+    accent: 'violet',
+    tagline: '多 Agent 设计与工程化',
+    description: '多 Agent 协同、通信协议、角色分工、落地时的工程权衡。',
+  },
+  {
+    id: 'cooking',
+    name: 'Cooking',
+    code: '04',
+    tag: 'LIFE/01',
+    accent: 'amber',
+    tagline: '厨房里的小实验',
+    description: '偶尔记录做过的菜、学到的手法，和一些失败也值得分享的翻车现场。',
   },
 ]
 
 export const notes = [
   {
     id: 'cs336-note-01',
+    categoryId: 'diy-llm',
     course: 'CS336',
     date: 'Card 01',
     title: 'llm-为什么从零开始构建语言模型？',
@@ -194,6 +216,7 @@ export const notes = [
   },
   {
     id: 'diy-llm-tokenizer-note-02',
+    categoryId: 'diy-llm',
     course: 'DIY LLM',
     date: 'Chapter 02',
     title: '读《分词器》的一些思考',
@@ -353,6 +376,7 @@ export const notes = [
   },
   {
     id: 'cs336-note-02-in-progress',
+    categoryId: 'diy-llm',
     course: 'CS336',
     date: 'Card 02',
     title: 'PyTorch 与资源核算',
@@ -504,6 +528,7 @@ export const notes = [
   },
   {
     id: 'cs336-note-03-optimizers',
+    categoryId: 'diy-llm',
     course: 'CS336',
     date: 'Card 03',
     title: '第二节课补充｜常用优化器可视化',
