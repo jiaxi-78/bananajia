@@ -43,10 +43,42 @@ export const categories = [
   },
 ]
 
+export const chapters = [
+  {
+    id: 'lesson-1',
+    categoryId: 'diy-llm',
+    code: '01',
+    title: '第一节课｜从零构建语言模型',
+    description: '课程哲学、分词、模型架构、Scaling Laws 与对齐的第一轮总览。',
+  },
+  {
+    id: 'chapter-2',
+    categoryId: 'diy-llm',
+    code: '02',
+    title: 'Chapter 2｜分词器',
+    description: '围绕 tokenizer、BPE、数据预处理和系统成本整理的章节笔记。',
+  },
+  {
+    id: 'lesson-2',
+    categoryId: 'diy-llm',
+    code: '03',
+    title: '第二节课｜PyTorch 与优化器',
+    description: '张量视图、stride、einsum、反向传播和常用优化器的可视化笔记。',
+  },
+  {
+    id: 'chapter-4',
+    categoryId: 'diy-llm',
+    code: '04',
+    title: 'Chapter 4｜语言模型架构和训练细节',
+    description: '位置编码、Transformer 数据流、注意力细节、归一化、GLU 与 RoPE。',
+  },
+]
+
 export const notes = [
   {
     id: 'cs336-note-01',
     categoryId: 'diy-llm',
+    chapterId: 'lesson-1',
     course: 'CS336',
     date: 'Card 01',
     title: 'llm-为什么从零开始构建语言模型？',
@@ -217,6 +249,7 @@ export const notes = [
   {
     id: 'diy-llm-tokenizer-note-02',
     categoryId: 'diy-llm',
+    chapterId: 'chapter-2',
     course: 'DIY LLM',
     date: 'Chapter 02',
     title: '读《分词器》的一些思考',
@@ -377,6 +410,7 @@ export const notes = [
   {
     id: 'cs336-note-02-in-progress',
     categoryId: 'diy-llm',
+    chapterId: 'lesson-2',
     course: 'CS336',
     date: 'Card 02',
     title: 'PyTorch 与资源核算',
@@ -529,6 +563,7 @@ export const notes = [
   {
     id: 'cs336-note-03-optimizers',
     categoryId: 'diy-llm',
+    chapterId: 'lesson-2',
     course: 'CS336',
     date: 'Card 03',
     title: '第二节课补充｜常用优化器可视化',
@@ -661,6 +696,972 @@ export const notes = [
           'AdaGrad：按历史梯度自适应缩放学习率，但后期容易太慢。',
           'RMSProp：保留 AdaGrad 的自适应优点，同时避免学习率持续塌缩。',
           'Adam：把 Momentum 和 RMSProp 结合起来，是最常见的默认优化器。',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'chapter4-position-encoding-visual',
+    categoryId: 'diy-llm',
+    chapterId: 'chapter-4',
+    course: 'DIY LLM',
+    date: 'Card 04',
+    title: 'Chapter 4｜位置编码可视化：我爱你 vs 你爱我',
+    summary:
+      '用同一组 token 的不同排列，直观看 Transformer 为什么必须知道“谁在第几个位置”。',
+    tags: [],
+    sections: [
+      {
+        heading: '第一组：为什么同样三个字，模型要区分顺序',
+        paragraphs: [
+          '“我爱你”和“你爱我”用到的 token 完全一样，都是“我、爱、你”。如果只看 token 集合，它们没有区别；但语言含义完全不同，因为主语和宾语交换了。',
+          '位置编码做的事情，就是把每个 token 和它所在的位置绑定起来。于是模型看到的不是单独的“我”，而是“我在第 0 位”或“我在第 2 位”。',
+        ],
+        positionEncodingVisual: {
+          bag: [
+            { text: '我', key: 'wo' },
+            { text: '爱', key: 'ai' },
+            { text: '你', key: 'ni' },
+          ],
+          sentences: [
+            {
+              label: '我爱你',
+              tokens: [
+                { text: '我', key: 'wo', pos: 0 },
+                { text: '爱', key: 'ai', pos: 1 },
+                { text: '你', key: 'ni', pos: 2 },
+              ],
+            },
+            {
+              label: '你爱我',
+              tokens: [
+                { text: '你', key: 'ni', pos: 0 },
+                { text: '爱', key: 'ai', pos: 1 },
+                { text: '我', key: 'wo', pos: 2 },
+              ],
+            },
+          ],
+          differences: [
+            {
+              title: '“爱”没有变',
+              body: '两句话里的“爱”都在 pos 1，所以它拿到的是同一个位置身份。中间这个动作词的位置没有变化。',
+            },
+            {
+              title: '“我”和“你”换了位置身份',
+              body: '“我爱你”里是 我@0、你@2；“你爱我”里是 你@0、我@2。词本身一样，但和位置相加后的输入向量已经不同。',
+            },
+            {
+              title: '注意力看到的是带位置的表示',
+              body: '模型后面计算 Q/K/V 时，用的是 Token Embedding + Positional Encoding 后的结果，所以它可以学到“第 0 位更像主语，第 2 位更像宾语”这类顺序模式。',
+            },
+          ],
+        },
+      },
+      {
+        heading: '第二组：把公式翻译成人话',
+        bullets: [
+          'Token embedding 负责表示“这个字/词是什么意思”。',
+          'Position encoding 负责表示“它在句子里的第几个位置”。',
+          '最终输入是二者相加：X = Token + PE(pos)。',
+          '所以同一个“我”，放在 pos 0 和 pos 2，会得到两个不同的输入向量。',
+          '位置编码不是直接告诉模型语法规则，而是给模型提供区分顺序的线索。',
+        ],
+        emphasisCards: [
+          {
+            title: '正余弦位置编码是“加”',
+            body: 'pos 0、1、2、3 都会生成固定的位置向量 PE(pos)，然后和 token embedding 相加：X = Token + PE(pos)。',
+          },
+          {
+            title: '不是把 token 向量乘上一个位置值',
+            body: '这里不是“我”的向量乘以 pos 0 的值，而是“我”的向量加上 PE(0)。同一个 token 加不同位置向量后，身份就变了。',
+          },
+          {
+            title: 'RoPE 才更像“旋转/乘矩阵”',
+            body: '后面讲 RoPE 时，它不是把 PE 直接加到 token 上，而是在注意力里按位置旋转 Q/K 向量。',
+          },
+        ],
+      },
+      {
+        heading: '第三组：把位置编码公式画出来',
+        paragraphs: [
+          '公式里最重要的不是要背下 sin 和 cos，而是理解：每个位置 pos 会在很多条不同频率的波上取值，最后这些取值拼成一个“位置指纹”。',
+          '低维通常变化快，适合区分相邻位置；高维变化慢，适合提供更长距离的平滑位置信号。一个位置不是靠单个数字表示，而是靠一整组高低频信号共同表示。',
+        ],
+        positionFormulaVisual: {
+          waves: [
+            {
+              label: 'dim 0 / sin',
+              note: '高频：相邻位置差异明显',
+              points: [
+                { x: 0, y: 50 },
+                { x: 8, y: 28 },
+                { x: 16, y: 12 },
+                { x: 24, y: 18 },
+                { x: 32, y: 42 },
+                { x: 40, y: 68 },
+                { x: 48, y: 86 },
+                { x: 56, y: 78 },
+                { x: 64, y: 54 },
+                { x: 72, y: 30 },
+                { x: 80, y: 14 },
+                { x: 88, y: 24 },
+                { x: 96, y: 50 },
+              ],
+            },
+            {
+              label: 'dim 1 / cos',
+              note: '和 sin 成对，提供相位方向',
+              points: [
+                { x: 0, y: 12 },
+                { x: 8, y: 18 },
+                { x: 16, y: 40 },
+                { x: 24, y: 66 },
+                { x: 32, y: 84 },
+                { x: 40, y: 78 },
+                { x: 48, y: 55 },
+                { x: 56, y: 28 },
+                { x: 64, y: 14 },
+                { x: 72, y: 22 },
+                { x: 80, y: 45 },
+                { x: 88, y: 72 },
+                { x: 96, y: 88 },
+              ],
+            },
+            {
+              label: 'dim 6 / sin',
+              note: '低频：变化更慢，覆盖更远',
+              points: [
+                { x: 0, y: 50 },
+                { x: 8, y: 46 },
+                { x: 16, y: 42 },
+                { x: 24, y: 38 },
+                { x: 32, y: 34 },
+                { x: 40, y: 31 },
+                { x: 48, y: 29 },
+                { x: 56, y: 27 },
+                { x: 64, y: 26 },
+                { x: 72, y: 27 },
+                { x: 80, y: 29 },
+                { x: 88, y: 33 },
+                { x: 96, y: 38 },
+              ],
+            },
+          ],
+          positions: [
+            {
+              pos: 0,
+              values: [54, 92, 54, 92, 54, 92],
+              caption: 'pos 0 的位置指纹',
+            },
+            {
+              pos: 1,
+              values: [88, 70, 61, 90, 56, 92],
+              caption: 'pos 1 的位置指纹',
+            },
+            {
+              pos: 2,
+              values: [91, 30, 68, 86, 58, 91],
+              caption: 'pos 2 的位置指纹',
+            },
+          ],
+          steps: [
+            {
+              title: '1. 每个位置取一组波形值',
+              body: 'pos 是横坐标。pos=0、1、2 会在每条 sin/cos 曲线上取到不同高度。',
+            },
+            {
+              title: '2. 不同维度使用不同频率',
+              body: '有的维度变化快，有的维度变化慢；组合起来既能区分近邻，也能表达远距离。',
+            },
+            {
+              title: '3. 这些值拼成位置向量',
+              body: '把所有维度的取值合在一起，就是 PE(pos)。它会和 token embedding 相加。',
+            },
+          ],
+        },
+      },
+      {
+        heading: '第四组：一句话总结',
+        paragraphs: [
+          '没有位置编码时，“我爱你”和“你爱我”像同一袋词；加上位置编码后，它们变成两组不同的 token@position 组合。Transformer 正是靠这种位置身份，才能把相同词汇的不同顺序区分开。',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'chapter4-transformer-flow-visual',
+    categoryId: 'diy-llm',
+    chapterId: 'chapter-4',
+    course: 'DIY LLM',
+    date: 'Card 05',
+    title: 'Chapter 4｜Transformer 标准流程可视化',
+    summary:
+      '把 4.1 节的位置编码、多头注意力、残差归一化和前馈网络重新串成一条数据流，看清一个 token 表示如何穿过 Transformer block。',
+    tags: [],
+    sections: [
+      {
+        heading: '第一组：先看总流程，不先看零件',
+        paragraphs: [
+          '4.1 节原文的问题不是知识点错，而是讲法偏“组件罗列”：先讲位置编码，再讲多头注意力，再讲 LayerNorm/残差，再讲 FFN。这样适合查概念，但不太适合建立整体流程。',
+          '更好抓的主线是：输入 token 先变成带位置的向量，然后反复经过 N 个 Transformer block。每个 block 里先做“全局信息交换”的注意力，再做“逐位置特征加工”的 FFN，中间用残差和归一化保证信息和梯度稳定。',
+        ],
+      },
+      {
+        heading: '第二组：一条数据流看完整 Transformer',
+        transformerFlow: {
+          steps: [
+            {
+              kind: 'input',
+              title: 'Tokens',
+              body: '文本先被分词，变成 token id 序列。',
+              shape: '[batch, seq]',
+              visual: {
+                type: 'tokens',
+                title: '文本先变成一串 token',
+                body: '模型不会直接读自然语言字符串，而是先把句子切成 token，再把 token 映射成 id。',
+                items: ['我', '爱', '你', '<eos>'],
+              },
+            },
+            {
+              kind: 'embed',
+              title: 'Token Embedding + Position',
+              body: '每个 token 查表变成向量，再加上位置编码，让模型知道顺序。',
+              shape: '[batch, seq, d_model]',
+              visual: {
+                type: 'embedding',
+                title: '每个 token 获得“词义 + 位置”身份',
+                body: 'Token embedding 表示“它是谁”，position encoding 表示“它站在哪里”，相加后才进入 Transformer。',
+                items: [
+                  { token: '我', pos: 'pos0', result: '我@0' },
+                  { token: '爱', pos: 'pos1', result: '爱@1' },
+                  { token: '你', pos: 'pos2', result: '你@2' },
+                ],
+              },
+            },
+            {
+              kind: 'attn',
+              title: 'Multi-Head Attention',
+              body: '每个位置和其他位置两两比较，决定该从上下文中拿哪些信息。',
+              shape: '[batch, seq, d_model]',
+              visual: {
+                type: 'attention',
+                title: '注意力矩阵：每个位置看其他位置',
+                body: '颜色越亮，表示当前位置越关注另一个位置。多头就是多张这样的关系图并行计算。',
+                cells: [0.95, 0.45, 0.25, 0.3, 0.9, 0.5, 0.22, 0.52, 0.88],
+              },
+            },
+            {
+              kind: 'norm',
+              title: 'Add & Norm',
+              body: '残差保留原信息，LayerNorm 稳住数值分布。',
+              shape: '[batch, seq, d_model]',
+              visual: {
+                type: 'norm',
+                title: 'Add & Norm：修正量加回主干，再稳定数值',
+                body: '残差像捷径，LayerNorm 像调音量。一个保信息，一个稳分布。',
+              },
+            },
+            {
+              kind: 'ffn',
+              title: 'Feed Forward',
+              body: '对每个位置独立做 MLP：先扩维、激活、再压回 d_model。',
+              shape: '512 -> 2048 -> 512',
+              visual: {
+                type: 'ffn',
+                title: 'FFN：每个 token 自己做非线性加工',
+                body: '注意力负责混合上下文；FFN 负责把混合后的每个位置单独消化加工。',
+              },
+            },
+            {
+              kind: 'norm',
+              title: 'Add & Norm',
+              body: '再次用残差和归一化，把 FFN 的修正量稳定地合回主干。',
+              shape: '[batch, seq, d_model]',
+              visual: {
+                type: 'norm',
+                title: '第二次 Add & Norm：把 FFN 的加工结果接回主干',
+                body: '每个 block 通常有两次 Add & Norm：一次跟在 Attention 后，一次跟在 FFN 后。',
+              },
+            },
+            {
+              kind: 'stack',
+              title: 'Repeat N Blocks',
+              body: '同样的 block 堆叠多层，表示逐层被更新。',
+              shape: 'x N',
+              visual: {
+                type: 'stack',
+                title: '堆叠多层：表示一层层变丰富',
+                body: '每层都重复“交流 -> 稳定 -> 加工 -> 稳定”，越往后表示越抽象。',
+                layers: ['Block 1', 'Block 2', 'Block 3', '...', 'Block N'],
+              },
+            },
+            {
+              kind: 'output',
+              title: 'Output / LM Head',
+              body: '最后映射到词表维度，预测下一个 token 的概率。',
+              shape: '[batch, seq, vocab]',
+              visual: {
+                type: 'output',
+                title: '输出层：把 hidden 向量变成词表概率',
+                body: '语言模型最后会给每个候选 token 一个分数，再通过 softmax 变成概率。',
+                items: [
+                  { token: '你', score: 82 },
+                  { token: '我', score: 38 },
+                  { token: '他', score: 24 },
+                  { token: '了', score: 58 },
+                ],
+              },
+            },
+          ],
+          block: [
+            {
+              kind: 'main',
+              title: '输入表示 X',
+              body: '已经包含 token 含义 + 位置信息',
+            },
+            {
+              kind: 'attn',
+              title: 'Self-Attention',
+              body: '让每个 token 看见其他 token',
+            },
+            {
+              kind: 'skip',
+              title: '残差连接',
+              body: 'X + Attention(X)',
+            },
+            {
+              kind: 'norm',
+              title: 'LayerNorm',
+              body: '把分布拉回稳定范围',
+            },
+            {
+              kind: 'ffn',
+              title: 'FFN',
+              body: '逐 token 的非线性特征加工',
+            },
+            {
+              kind: 'skip',
+              title: '残差连接',
+              body: '再次保留主干信息',
+            },
+            {
+              kind: 'norm',
+              title: 'LayerNorm',
+              body: '输出给下一层',
+            },
+          ],
+          takeaways: [
+            {
+              title: 'Attention 是“横向交流”',
+              body: '它在 sequence 维度上工作，让第 i 个位置可以读取第 j 个位置的信息。',
+            },
+            {
+              title: 'FFN 是“纵向加工”',
+              body: '它不混合不同 token，而是对每个位置自己的 hidden 向量做非线性变换。',
+            },
+            {
+              title: '残差和归一化是“稳定主干”',
+              body: '它们不是负责理解语义的主角，但决定深层模型能不能稳定训练。',
+            },
+          ],
+        },
+      },
+      {
+        heading: '第三组：4.1 节应该怎么读',
+        bullets: [
+          '位置编码：解决“Transformer 本身不知道顺序”的问题。',
+          '多头注意力：解决“每个 token 如何从上下文拿信息”的问题。',
+          '残差连接：解决“深层网络别把原信息弄丢”的问题。',
+          'LayerNorm：解决“每层输出分布别乱飘”的问题。',
+          'FFN：解决“注意力混完信息后，每个位置如何进一步加工特征”的问题。',
+          '这几个模块合起来，才是一个可堆叠的 Transformer block。',
+        ],
+      },
+      {
+        heading: '第四组：多头注意力为什么计算量和单头相当',
+        paragraphs: [
+          '这里容易误解。“多头”听起来像是把注意力算了 h 次，所以计算量应该变成 h 倍。但 Transformer 不是让每个头都用完整的 d_model 维度，而是把 d_model 拆成 h 个更小的 head_dim。',
+          '比如原始 Transformer 里 d_model = 512，heads = 8，那么每个头的 d_k = 512 / 8 = 64。也就是说，不是 8 个头各自算 512 维注意力，而是 8 个头各自算 64 维注意力。',
+        ],
+        multiHeadComputeVisual: {
+          single: {
+            title: '单头注意力',
+            width: '512 dim',
+            body: '一个头直接看完整 512 维空间。',
+          },
+          multi: {
+            title: '多头注意力',
+            heads: ['64', '64', '64', '64', '64', '64', '64', '64'],
+            body: '8 个头各看 64 维，总宽度仍然是 512。',
+          },
+          equations: [
+            { label: '单头主维度', value: '1 x 512 = 512' },
+            { label: '多头主维度', value: '8 x 64 = 512' },
+            { label: '核心直觉', value: '切开并行，不是复制 8 份' },
+          ],
+        },
+        bullets: [
+          '单头：一次用完整 512 维做注意力。',
+          '多头：8 个头，每个头只用 64 维做注意力。',
+          '总维度仍然是 8 x 64 = 512。',
+          '所以总计算量大致没有变成 8 倍，而是把同一份总维度拆开并行算。',
+        ],
+        emphasisCards: [
+          {
+            title: '多头不是复制 8 份完整模型',
+            body: '它更像把一个 512 维的大空间切成 8 个 64 维的小空间，每个头负责一个子空间。',
+          },
+          {
+            title: '为什么适合 GPU',
+            body: '多个头之间相互独立，可以被组织成批量矩阵乘法并行计算，而不是一个头算完再算下一个头。',
+          },
+          {
+            title: '表达更丰富',
+            body: '计算总量接近，但模型可以从多个子空间看关系：有的头看局部依赖，有的头看长距离关系，有的头看语义相似。',
+          },
+        ],
+      },
+      {
+        heading: '第五组：为什么注意力分数要除以 sqrt(d_k)',
+        paragraphs: [
+          '注意力分数来自 Q 和 K 的点积。点积不是一个数乘一个数，而是把 d_k 个维度上的乘积加起来：score = q1k1 + q2k2 + ... + q_dk k_dk。',
+          '如果 d_k 很大，加起来的项就很多。即使每一项本身不大，总和的波动也会随着维度变大而变大。直觉上，64 个小数相加通常比 4 个小数相加更容易得到绝对值很大的结果。',
+          'softmax 对特别大的正数和特别小的负数很敏感。如果分数差距太大，softmax 会变得非常尖：最大的那个位置接近 1，其他位置接近 0。这样模型太早变得“只看一个 token”，而且反向传播时梯度会很弱。',
+        ],
+        softmaxScaleVisual: {
+          panels: [
+            {
+              kind: 'sharp',
+              title: '不除 sqrt(d_k)',
+              bars: [8, 12, 18, 92, 10, 14],
+              body: '点积分数跨度太大，softmax 变尖，几乎只剩一个位置有权重。',
+            },
+            {
+              kind: 'smooth',
+              title: '除以 sqrt(d_k)',
+              bars: [34, 42, 48, 64, 38, 44],
+              body: '分数尺度被拉回，多个位置仍有梯度和竞争空间。',
+            },
+          ],
+          rule: {
+            title: '为什么是 sqrt(d_k)',
+            body: '点积的方差随 d_k 增大，标准差随 sqrt(d_k) 增大；除以 sqrt(d_k) 是把典型波动尺度压回稳定范围。',
+          },
+        },
+        bullets: [
+          '不缩放：d_k 越大，QK 点积的数值范围越容易变大。',
+          '分数过大：softmax 输出会过度尖锐，接近 one-hot。',
+          '过度尖锐：很多位置概率接近 0，梯度也会变小。',
+          '除以 sqrt(d_k)：把点积分数拉回相对稳定的尺度。',
+          '结果：不同 head_dim 下，softmax 输入都比较温和，训练更稳定。',
+        ],
+        emphasisCards: [
+          {
+            title: '不是除以 d_k，而是除以 sqrt(d_k)',
+            body: '因为点积方差大致随 d_k 增长，标准差随 sqrt(d_k) 增长；除以 sqrt(d_k) 是在稳定标准差尺度。',
+          },
+          {
+            title: '“合理范围”是什么意思',
+            body: '不是保证每个值都固定在某个区间，而是让分数的典型大小不要随着 d_k 增大而越来越夸张。',
+          },
+          {
+            title: '它保护 softmax 的梯度',
+            body: 'softmax 太尖时，大部分位置梯度很小；缩放后分布更平滑，注意力权重还有可学习空间。',
+          },
+        ],
+      },
+      {
+        heading: '第六组：归一化和残差到底在干什么',
+        paragraphs: [
+          '残差连接和 LayerNorm 经常一起出现，但它们解决的是两个不同问题。残差关心“信息通道别断”，LayerNorm 关心“数值分布别乱”。',
+          '残差连接就是把输入 x 直接绕过子层，加到子层输出上：output = x + Sublayer(x)。这意味着即使 Sublayer 暂时学得不好，模型至少还能保留原始输入，不至于每过一层就把信息洗掉。',
+          'LayerNorm 则是在每个 token 的 hidden 向量内部做标准化。它会把这一层输出的数值拉到比较稳定的分布，再交给下一层。这样层数变深以后，数值不容易一层层放大或漂移。',
+        ],
+        blockMechanicsVisual: {
+          cards: [
+            {
+              kind: 'residual',
+              title: 'Residual：信息走捷径',
+              body: '子层负责提出修正，原输入沿捷径保留下来，最后相加。',
+            },
+            {
+              kind: 'norm',
+              title: 'LayerNorm：数值重新拉齐',
+              bars: [
+                { before: 90, after: 56 },
+                { before: 20, after: 45 },
+                { before: 72, after: 60 },
+                { before: 34, after: 48 },
+                { before: 96, after: 58 },
+              ],
+              body: '左边高低差很乱，右边被调到更稳定的尺度。',
+            },
+            {
+              kind: 'ffn',
+              title: 'FFN：逐 token 加工',
+              body: '每个位置单独经过 512 -> 2048 -> 512 的非线性变换。',
+            },
+          ],
+        },
+        bullets: [
+          '残差连接：提供一条信息高速公路，避免深层网络把原信息弄丢。',
+          '残差连接：也让梯度更容易反向传回前面的层。',
+          'LayerNorm：把每个 token 的 hidden 向量重新标准化。',
+          'LayerNorm：减少分布漂移，让下一层看到更稳定的输入。',
+          'Add & Norm：先把子层修正量加回主干，再把结果稳定住。',
+        ],
+        emphasisCards: [
+          {
+            title: '残差像“保底原文”',
+            body: '子层可以尝试修改表示，但原表示会被直接加回来，所以模型不用每层都从零重建信息。',
+          },
+          {
+            title: 'LayerNorm 像“调音量”',
+            body: '它不是改变语义主线，而是把 hidden 向量的数值尺度拉稳定，避免后面的层输入忽大忽小。',
+          },
+          {
+            title: '两者合在一起才适合堆深',
+            body: '残差保信息和梯度，归一化稳数值分布，所以 Transformer block 才能一层层堆起来。',
+          },
+        ],
+      },
+      {
+        heading: '第七组：前馈网络 FFN 是什么，为什么放在注意力后面',
+        paragraphs: [
+          'FFN 全称是 Feed Forward Network，在 Transformer block 里它不是处理整段序列关系的模块，而是对每个位置的 hidden 向量单独做一次小型 MLP。',
+          '注意力层负责让 token 之间交流：第 i 个 token 可以从其他 token 那里拿信息。交流完成后，每个位置已经混入了上下文信息。FFN 接着对每个位置的新表示做进一步加工：先扩维、过激活函数、再压回原维度。',
+          '所以它放在注意力后面是有道理的：先让每个 token 收集上下文，再让每个 token 独立消化这些上下文信息。如果只有注意力，没有 FFN，模型的非线性加工能力会弱很多。',
+        ],
+        bullets: [
+          'Attention：混合不同 token 之间的信息。',
+          'FFN：不再混 token，而是加工每个 token 自己的 hidden 表示。',
+          '原始 Transformer：512 -> 2048 -> ReLU -> 512。',
+          '扩维：给模型更大的中间空间来组合特征。',
+          '激活函数：引入非线性，否则多层线性变换仍然等价于一层线性变换。',
+          '压回 d_model：保持维度不变，方便残差连接和下一层继续处理。',
+        ],
+        emphasisCards: [
+          {
+            title: 'Attention 负责“看别人”',
+            body: '它回答：这个位置应该从序列中哪些位置拿信息？',
+          },
+          {
+            title: 'FFN 负责“想一想”',
+            body: '它回答：拿到上下文以后，这个位置自己的表示应该怎样被非线性加工？',
+          },
+          {
+            title: '为什么最后还回到 d_model',
+            body: 'Transformer block 要可堆叠，每层输入输出维度必须一致，残差连接也要求两边形状能相加。',
+          },
+        ],
+      },
+      {
+        heading: '第八组：一句话总结',
+        paragraphs: [
+          '标准 Transformer 的流程可以记成：先把 token 变成带位置的向量，然后在每个 block 里做“注意力交换信息 -> 残差归一化稳定 -> FFN 加工特征 -> 残差归一化稳定”，最后重复多层并映射到输出。',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'chapter4-modern-transformer-variants',
+    categoryId: 'diy-llm',
+    chapterId: 'chapter-4',
+    course: 'DIY LLM',
+    date: 'Card 06',
+    title: 'Chapter 4｜4.2 现代 Transformer 变体笔记',
+    summary:
+      '整理 4.2.1 到 4.2.4：归一化、门控前馈网络、GELU/GLU，以及 RoPE 为什么把绝对位置变成相对距离。',
+    tags: [],
+    sections: [
+      {
+        heading: '第一组：归一化从 Post-LN 到 Pre-LN，再到 RMSNorm',
+        paragraphs: [
+          '这里先纠正一个容易看反的点：原始 Transformer 用的是 Post-LN，也就是“子层 -> 残差 -> LayerNorm”；现代大模型更常用的是 Pre-LN，也就是“LayerNorm -> 子层 -> 残差”。通常说的是 Pre-LN 训练更稳定，而不是 Post-LN 优于 Pre-LN。',
+          'Post-LN 的问题是 LayerNorm 放在残差之后，可能干扰残差这条“信息和梯度高速公路”。Pre-LN 把归一化放到子层前面，残差主干更干净，所以深层模型更稳定。',
+          'RMSNorm 是对 LayerNorm 的简化：不减均值，也通常不加 beta 偏置，只按均方根缩放。它少算一步、少读一些参数，速度更快，而效果通常相当甚至略好，所以 LLaMA、PaLM、T5 等都大量使用。',
+        ],
+        normModernVisual: {
+          cards: [
+            {
+              kind: 'post',
+              title: 'Post-LN：原始论文',
+              steps: ['Sublayer', '+ Residual', 'LayerNorm'],
+              body: '先做子层和残差相加，再归一化。原始 Transformer 这样做，但深层训练更不稳定。',
+            },
+            {
+              kind: 'pre',
+              title: 'Pre-LN：现代主流',
+              steps: ['LayerNorm', 'Sublayer', '+ Residual'],
+              body: '先归一化再进子层，残差主干更直接，深层训练更稳定。',
+            },
+            {
+              kind: 'rms',
+              title: 'RMSNorm：更轻量',
+              steps: ['No mean', 'RMS scale', 'γ only'],
+              body: '不减均值，主要按向量长度缩放；计算更省，效果仍然很好。',
+            },
+          ],
+        },
+        emphasisCards: [
+          {
+            title: '更准确的总结',
+            body: '现代主流不是“后归一化优于前归一化”，而是 Pre-LN 通常比 Post-LN 更稳定；RMSNorm 又进一步替代了很多 LayerNorm 场景。',
+          },
+          {
+            title: 'RMSNorm 的收益',
+            body: '主要收益是更快、更省、更稳定地达到类似效果；它不是换了模型能力核心，而是把稳定化组件做得更轻。',
+          },
+          {
+            title: '残差里的关键',
+            body: '残差希望信息和梯度能直接穿过很多层；如果归一化位置不合适，就可能打扰这条直通路径。',
+          },
+        ],
+      },
+      {
+        heading: '第二组：Hadamard 积、GELU 和门控 FFN',
+        paragraphs: [
+          'Hadamard 积就是逐元素相乘。两个形状相同的向量，不做矩阵乘法，而是第 1 个乘第 1 个、第 2 个乘第 2 个。GLU 里的 ⊙ 就是这个意思。',
+          'GLU 可以理解成两条通道：一条内容通道 xW 产生候选信息，一条门控通道 σ(xV) 或 GELU(xV) 决定每个维度放行多少。它不是全开/全关，而是每个维度一个连续开度。',
+          'GELU 是 Gaussian Error Linear Unit。直觉上，它像一个平滑版 ReLU：不是小于 0 直接切掉、大于 0 直接通过，而是根据输入大小平滑地决定保留多少。它在 0 附近更柔和，梯度更平滑。',
+        ],
+        gateVisual: {
+          content: {
+            title: '内容通道 xW',
+            values: [72, 34, 88, 52, 66, 42],
+            body: '先生成一组候选特征：这些是“可能要表达的内容”。',
+          },
+          gate: {
+            title: '门控通道 GELU(xV)',
+            values: [0.9, 0.25, 0.72, 0.45, 0.8, 0.35],
+            body: '再为每个维度生成开度：哪些特征多放行，哪些少放行。',
+          },
+          output: {
+            title: 'Hadamard 积后输出',
+            values: [65, 9, 63, 24, 53, 15],
+            body: '逐元素相乘后，输出变成“被门控筛过的内容”。',
+          },
+        },
+        emphasisCards: [
+          {
+            title: 'Hadamard 积是什么',
+            body: '[a,b,c] ⊙ [x,y,z] = [ax, by, cz]。它是逐元素乘，不是矩阵乘法。',
+          },
+          {
+            title: 'GELU 是什么',
+            body: 'GELU 是平滑激活函数，可以理解成“按概率/置信度柔和放行输入”，比 ReLU 的硬切更平滑。',
+          },
+          {
+            title: '门控改变带来的提升',
+            body: '最终提升是：FFN 不再只是统一激活，而能根据输入动态筛选特征；梯度更平滑，表达更灵活，经验上损失和任务表现通常更好。',
+          },
+        ],
+      },
+      {
+        heading: '第三组：RoPE 的相对距离到底是谁和谁相对',
+        paragraphs: [
+          'RoPE 讨论的相对距离，是注意力里 query 所在位置 m 和 key 所在位置 n 的相对距离。也就是“当前 token 在看另一个 token 时，两者隔了多远”。',
+          '普通绝对位置编码是把 PE(pos) 加到输入上；RoPE 则是在注意力层里对 Q 和 K 做旋转。位置 m 的 Q 旋转 mθ，位置 n 的 K 旋转 nθ。它们做内积时，绝对的 m 和 n 会组合成 m - n，所以注意力分数天然带有相对距离。',
+          '为什么 R(n) 的转置等于 R(-n)？因为旋转矩阵是正交矩阵，转置等于逆；而“逆旋转 n 度”就是“旋转 -n 度”。所以 R(n)^T = R(n)^{-1} = R(-n)。',
+        ],
+        ropeVisual: {
+          planes: [
+            {
+              title: '二维子块 1',
+              original: -25,
+              rotated: 24,
+              body: '一对维度形成一个小平面，向量在这个平面里按位置旋转。',
+            },
+            {
+              title: '二维子块 2',
+              original: -25,
+              rotated: 58,
+              body: '另一对维度用不同 θ，旋转速度不同，负责另一种频率的位置感。',
+            },
+          ],
+          blocks: [
+            { label: 'dim 0-1', speed: 'fast θ0' },
+            { label: 'dim 2-3', speed: 'medium θ1' },
+            { label: 'dim 4-5', speed: 'slow θ2' },
+            { label: 'dim 6-7', speed: 'slower θ3' },
+          ],
+        },
+        emphasisCards: [
+          {
+            title: 'm 是位置索引',
+            body: 'm 不是向量维度，而是 token 在序列里的位置。第 0 个 token m=0，第 10 个 token m=10。',
+          },
+          {
+            title: 'θ_i 是维度对的频率',
+            body: '每一对二维子空间有自己的旋转速度 θ_i。有的维度对转得快，擅长近距离；有的转得慢，擅长远距离。',
+          },
+          {
+            title: '相对位置来自 m - n',
+            body: 'Q 在位置 m，K 在位置 n。二者内积后出现 R(m-n)，所以模型看到的是“这两个 token 相隔多少”。',
+          },
+        ],
+      },
+      {
+        heading: '第四组：为什么把高维向量切成多个二维子块',
+        paragraphs: [
+          '高维当然也可以有旋转，但高维旋转不是唯一直观的一个角度。二维旋转很简单：一个平面、一个角度、一个 2x2 矩阵。高维空间里可以在很多平面上旋转，参数和解释都会复杂很多。',
+          'RoPE 选择把高维向量拆成很多个二维小平面，是因为这样既简单高效，又能保留旋转矩阵的好性质：长度不变、可逆、相对距离能通过角度差表达。',
+          'θ_i = 10000^{-2i/d} 里的 10000 不是训练学出来的，而是沿用正弦位置编码的频率基准。它控制不同维度频率从快到慢地铺开。实际模型里这个 base 可以调整，比如为了长上下文会改成别的值或做 scaling。',
+        ],
+        bullets: [
+          '二维旋转：一个 2x2 矩阵就能表达，非常清楚。',
+          '高维旋转：有很多可能旋转平面，不再是一个简单角度。',
+          '分块旋转：把高维问题变成很多个二维问题。',
+          '每个二维块一个 θ_i：不同块负责不同频率。',
+          '10000 是频率尺度基准，不是神秘常数，也不是唯一选择。',
+        ],
+      },
+      {
+        heading: '第五组：一句话总结',
+        paragraphs: [
+          '4.2 的主线可以记成：归一化从 Post-LN 走向更稳定更轻的 Pre-LN/RMSNorm；FFN 从普通 ReLU MLP 走向按输入动态筛选特征的 GLU/SwiGLU；位置编码从“给 token 加绝对位置”走向“在 Q/K 内积中自然出现相对距离”的 RoPE。',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'chapter4-attention-efficiency-stability',
+    categoryId: 'diy-llm',
+    chapterId: 'chapter-4',
+    course: 'DIY LLM',
+    date: 'Card 07',
+    title: 'Chapter 4｜4.2.5-4.3 注意力变体、参数量与训练稳定性',
+    summary:
+      '把 MQA/GQA/MLA/DSA、稀疏注意力、长上下文外推、FFN 参数、权重衰减、z-loss、QK Norm 和软截断拆成可视化笔记。',
+    tags: [],
+    sections: [
+      {
+        heading: '第一组：先复习 Q/K/V 原来怎么用',
+        paragraphs: [
+          '自注意力里，每个 token 的 hidden 向量会分别乘三组权重，得到 Q、K、V。Q 像“我要找什么”，K 像“我有什么标签可被别人匹配”，V 像“如果别人关注我，我实际贡献什么内容”。',
+          '计算时，某个位置的 Q 会和所有位置的 K 做点积，得到注意力分数；softmax 后变成权重；这些权重再去加权求和所有位置的 V。也就是说，K 决定“看谁”，V 决定“拿什么”。',
+          '在多头注意力 MHA 里，每个 head 都有自己的一套 Q/K/V，所以每个 head 都能用自己的方式判断相关性，也能保存自己的一份 KV cache。推理长上下文时，KV cache 很贵，后面的 MQA/GQA/MLA 都是在想办法让 KV 更省。',
+        ],
+        emphasisCards: [
+          {
+            title: 'Q 是当前 token 的问题',
+            body: '当前位置拿 Q 去问：我应该关注上下文里的哪些 token？',
+          },
+          {
+            title: 'K 是每个 token 的索引标签',
+            body: '所有历史 token 的 K 会被拿来和当前 Q 匹配，决定注意力权重。',
+          },
+          {
+            title: 'V 是真正被汇总的信息',
+            body: 'softmax 权重出来后，模型不是加权 K，而是加权 V。',
+          },
+        ],
+      },
+      {
+        heading: '第二组：MHA、MQA、GQA、MLA 到底差在哪里',
+        paragraphs: [
+          'MHA 是“每个 Q head 配一套自己的 K/V”。表达力强，但推理时每层每个 token 都要缓存很多 K/V。',
+          'MQA 是“很多 Q head 共享同一套 K/V”。为什么可以共享？因为 Q 仍然可以有很多个头，负责提出不同问题；但被查询的历史内容 K/V 可以压成同一份公共记忆。代价是不同头看到的 K/V 记忆变少，表达灵活度下降一些。',
+          'GQA 是 MHA 和 MQA 中间态：不是所有 Q head 共享一套 K/V，而是每一组 Q head 共享一套 K/V。比如 8 个 Q head 分成 2 组，每组 4 个 Q head 共享一套 K/V。它比 MHA 省 cache，比 MQA 保留更多多样性。',
+          'MLA 可以理解成更进一步：不是直接缓存完整 K/V，而是先把 K/V 联合压到一个低维 latent 里，需要时再从 latent 还原出注意力需要的信息。低秩联合压缩的意思是：用更小的中间表示，近似承载原来高维 K/V 的主要信息，就像用少量主成分描述一张大表。',
+        ],
+        attentionVariantVisual: {
+          variants: [
+            {
+              kind: 'mha',
+              label: 'MHA',
+              title: '每头独立 K/V',
+              q: ['Q1', 'Q2', 'Q3', 'Q4'],
+              kv: ['K/V1', 'K/V2', 'K/V3', 'K/V4'],
+              body: '表达最灵活，但 KV cache 最大。',
+            },
+            {
+              kind: 'mqa',
+              label: 'MQA',
+              title: '所有头共享 K/V',
+              q: ['Q1', 'Q2', 'Q3', 'Q4'],
+              kv: ['shared K/V'],
+              body: 'Q 仍有多头，但历史记忆只有一份，推理 cache 很省。',
+            },
+            {
+              kind: 'gqa',
+              label: 'GQA',
+              title: '分组共享 K/V',
+              q: ['Q1', 'Q2', 'Q3', 'Q4'],
+              kv: ['K/V group A', 'K/V group B'],
+              body: '介于 MHA 和 MQA 之间：省一部分 cache，也保留一部分多样性。',
+            },
+            {
+              kind: 'mla',
+              label: 'MLA',
+              title: '低维 latent 存记忆',
+              q: ['Q1', 'Q2', 'Q3', 'Q4'],
+              kv: ['compressed latent'],
+              body: '把 K/V 联合压缩成低维表示，减少缓存，再按需还原。',
+            },
+          ],
+        },
+      },
+      {
+        heading: '第三组：稀疏注意力为什么能获得更大的注意力窗口',
+        paragraphs: [
+          '完整注意力的成本随上下文长度平方增长。一个 token 如果能看 128k 个历史 token，那么每层都要对巨大的注意力矩阵做计算和读写。窗口越长，成本越夸张。',
+          '稀疏注意力的核心不是“窗口真的免费变大”，而是“候选上下文很长，但每次只认真看其中一部分”。比如滑动窗口只看附近 token，global token 偶尔全局连通，top-k 稀疏注意力先筛出最相关的一小批 token，再只对它们做完整注意力。',
+          '这样模型名义上可以接收更长上下文，因为它不用为每个 token 都和所有历史 token 两两计算。代价是：被稀疏模式跳过的信息不能被当前层直接读取，所以设计重点变成“哪些位置必须看，哪些位置可以跳过”。',
+        ],
+        sparseWindowVisual: {
+          cells: Array.from({ length: 144 }, (_, index) => {
+            const row = Math.floor(index / 12)
+            const col = index % 12
+            if (Math.abs(row - col) <= 1) return 'local'
+            if (row % 4 === 0 || col % 4 === 0) return 'global'
+            if ((row + col) % 7 === 0) return 'skip'
+            return 'off'
+          }),
+          legend: [
+            {
+              kind: 'local',
+              title: '滑动窗口',
+              body: '每个 token 主要看附近邻居，RoPE 只需要处理局部距离。',
+            },
+            {
+              kind: 'global',
+              title: '偶尔全局注意力',
+              body: '少数层或少数位置做完整连通，帮助远距离信息跨窗口传递。',
+            },
+            {
+              kind: 'skip',
+              title: '动态选中的远处 token',
+              body: 'top-k 或 indexer 先筛选，再对少量重要远处 token 做注意力。',
+            },
+          ],
+        },
+      },
+      {
+        heading: '第四组：什么叫长度外推，为什么“无位置嵌入的完全注意力”有用',
+        paragraphs: [
+          '外推就是：训练时主要见过较短长度，比如 8k 或 32k；推理时希望模型能处理更长长度，比如 128k、1M。模型在没充分训练过的长度上还能工作，就叫长度外推。',
+          'RoPE 这类位置方法会把“距离”编码进角度。训练时如果只见过短距离，推理时突然出现很大的位置索引，角度模式可能落到训练分布外，模型会不稳。滑动窗口的好处是 RoPE 只处理局部距离，外推压力变小。',
+          '原文说的“四块组合”可以这样理解：每四层里，一层做没有位置嵌入的全局自注意力，它不知道绝对位置，所以不受超长位置索引的外推困扰，但能让远处 token 互相交换信息；另外三层用带 RoPE 的滑动窗口注意力，负责局部顺序和局部语义。',
+          '这招很巧：全局层偶尔出现，成本可控；局部层多数出现，位置感知稳定；远距离依赖通过无位置全局层传过去，避免 RoPE 被迫解释超长距离。',
+        ],
+        emphasisCards: [
+          {
+            title: '外推不是“推理”',
+            body: '这里的 extrapolation 指长度超出训练分布，不是模型思考能力的推理。',
+          },
+          {
+            title: '无位置全局层像“远程广播”',
+            body: '它不关心谁在第几位，只负责让远处信息能碰到一起。',
+          },
+          {
+            title: '带 RoPE 滑窗层像“局部精读”',
+            body: '它只在附近窗口里使用位置感，避免 RoPE 面对训练外的超长距离。',
+          },
+        ],
+      },
+      {
+        heading: '第五组：DSA 的“细粒度动态稀疏”是什么意思，最近是不是很多人在用',
+        paragraphs: [
+          '细粒度是说稀疏选择可以细到 token 或小块 token 级别，而不是粗暴地规定“只能看固定窗口”或“只能看固定模式”。动态是说每个 query 会根据当前内容选择该看哪些 token，不是提前写死一张永远不变的稀疏图。',
+          'DSA 可以理解成两步：先用一个轻量 indexer 在很长上下文里快速找候选，再从候选里挑 top-k token，让标准注意力只处理这些被选中的位置。这样既保留长上下文的可能性，又把真正昂贵的注意力算子限制在少量 token 上。',
+          '它是不是最近用得很多？更准确说：截至 2026-04，它是 DeepSeek-V3.2-Exp 引入的很新的实验性方向，已经被 vLLM 等推理生态快速适配，但还不能说已经像 MQA/GQA/RoPE 那样成为所有主流模型的常规标配。它更像“长上下文稀疏注意力正在升温的一条代表路线”。',
+        ],
+        emphasisCards: [
+          {
+            title: '细粒度',
+            body: '不是整段整段地固定跳过，而是可以细到 token 级选择。',
+          },
+          {
+            title: '动态',
+            body: '不是固定稀疏图，而是每个 query 根据内容临时选重要 token。',
+          },
+          {
+            title: 'DSA 的位置',
+            body: '它目前更像前沿实验和工程适配热点，不是已经完全替代普通注意力的通用默认项。',
+          },
+        ],
+      },
+      {
+        heading: '第六组：4.3 里参数为什么和模型维度、宽度、深度有关',
+        paragraphs: [
+          '模型维度 d_model 就是每个 token hidden 向量的长度，也常被直觉地叫“模型宽度”。比如 d_model=4096，意思是每个位置用 4096 个数字表示。',
+          '深度一般就是 Transformer block 的层数。层数越多，同一类模块重复越多，参数量也越多。',
+          'FFN 的参数和输入维度有关，因为 FFN 是线性层：输入 d_model，先投影到中间维度 d_ff，再投影回 d_model。两块权重大约是 d_model x d_ff 和 d_ff x d_model，所以大约 2 x d_model x d_ff。',
+          'GLU 也有参数，因为它不是一个免费开关。它通常有内容分支、门控分支、输出分支：xW_up、xW_gate、再 W_down。门控那条路也要通过一个线性层学出来，所以会多一组权重。',
+        ],
+        bullets: [
+          '注意力常见参数：Wq、Wk、Wv、Wo。',
+          'FFN 常见参数：W_up、W_down；如果是 GLU/SwiGLU，还会多 W_gate。',
+          '归一化参数：LayerNorm/RMSNorm 的缩放参数 gamma，有时还有 beta。',
+          'embedding 参数：词表大小 vocab_size x d_model。',
+          '宽度：通常指 hidden size / d_model 变大。',
+          '深度：通常指 Transformer 层数变多。',
+        ],
+      },
+      {
+        heading: '第七组：权重衰减到底带来了什么',
+        paragraphs: [
+          '权重衰减可以理解成“别让权重长得太夸张”的约束。优化器每次更新时，除了按梯度降低 loss，也会轻轻把权重往 0 拉一点。',
+          '它带来的主要收益是正则化：减少模型过度依赖某些特别大的权重，让表示更平滑，泛化更好。在大模型训练里，它也能让参数尺度更可控，减少一些数值和优化上的坏习惯。',
+          '但权重衰减不是越大越好。如果拉得太狠，模型会学不动或表达能力下降。所以它是一种“温和刹车”，不是主发动机。',
+        ],
+      },
+      {
+        heading: '第八组：softmax、z-loss、QK Norm 和软截断在控制什么',
+        paragraphs: [
+          '这里要先拆一个误会：LayerNorm 不是 softmax。LayerNorm 是把一个向量的数值尺度标准化；softmax 是把一组分数变成概率分布。一个是调数值范围，一个是做概率归一化。',
+          '注意力里的 softmax 输入是 QK 点积分数。如果这些分数过大，softmax 会极度尖锐：一个 token 权重接近 1，其他接近 0；如果 logit 尺度持续膨胀，还可能导致训练不稳定。这就是所谓“不良行为”：注意力过早塌缩、梯度变差、数值尺度失控。',
+          'z-loss 控制的是 softmax 的归一化因子 z，也就是 exp(logits) 的总量对应的 log-sum-exp。它惩罚过大的 log-sum-exp，让 logits 不要整体膨胀。QK Norm 则是在 softmax 之前先规范 Q 和 K，让点积分数天然别太大。',
+          '软截断是截断 logits 或 attention scores 的极端值，但不是硬 clip 到一个死边界，而是用平滑函数把过大的值压弯。反对意见是：它可能压掉有用的强信号，导致困惑度变差；而 QK Norm 更像从源头控制 Q/K 的尺度，常常允许更激进学习率，让优化器更有空间发挥。',
+        ],
+        stabilityControlVisual: {
+          controls: [
+            {
+              kind: 'raw',
+              title: '原始 QK 分数',
+              bars: [18, 22, 36, 92, 14, 20],
+              body: '分数跨度很大，softmax 容易变尖。',
+            },
+            {
+              kind: 'zloss',
+              title: 'z-loss',
+              bars: [20, 28, 40, 70, 18, 24],
+              body: '惩罚整体 log-sum-exp 膨胀，别让 logits 集体长太大。',
+            },
+            {
+              kind: 'qknorm',
+              title: 'QK Norm',
+              bars: [36, 42, 50, 62, 34, 40],
+              body: '先规范 Q/K，再点积，从源头控制 softmax 输入范围。',
+            },
+            {
+              kind: 'softcap',
+              title: '软截断',
+              bars: [24, 30, 42, 58, 22, 28],
+              body: '把极端值平滑压弯，但可能压掉有用强信号。',
+            },
+          ],
+        },
+        emphasisCards: [
+          {
+            title: 'LayerNorm 不是 softmax',
+            body: 'LayerNorm 调一条向量的尺度；softmax 把一组分数变成概率。',
+          },
+          {
+            title: 'QK Norm 控制输入',
+            body: '它不去修 softmax 输出，而是在 softmax 前让 QK 分数别失控。',
+          },
+          {
+            title: '软截断的争议',
+            body: '稳定不等于效果更好；如果把有用的大分数也压掉，困惑度可能变差。',
+          },
+        ],
+      },
+      {
+        heading: '第九组：一句话总结',
+        paragraphs: [
+          '这一段的主线是：注意力变体主要在省 KV cache 和长上下文成本；稀疏注意力主要在“长上下文里只认真看少量重要位置”；4.3 的参数量由宽度 d_model、FFN 中间维度、层数和模块结构共同决定；训练稳定性方法则是在控制 softmax 前后的数值尺度，避免注意力分布和 logits 失控。',
         ],
       },
     ],
