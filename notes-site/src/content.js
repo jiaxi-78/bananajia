@@ -1,5 +1,5 @@
 export const site = {
-  title: 'bananajia',
+  title: '鼠的学习空间',
   tagline: '// Personal Signal · Learning Log',
   intro: '记录我正在学的几门课、写下来的笔记，还有偶尔做饭的心得。选一个分区开始。',
 }
@@ -9,7 +9,7 @@ export const categories = [
     id: 'diy-llm',
     name: 'DIY LLM',
     code: '01',
-    tag: 'COURSE/01',
+    tag: 'LEARNING/01',
     accent: 'cyan',
     tagline: '从零实现一个语言模型',
     description: '跟着 CS336 / DIY LLM 一步步搭起来的笔记，从分词器、优化器到训练流水线。',
@@ -18,7 +18,7 @@ export const categories = [
     id: 'agentic-ai',
     name: 'Agentic AI',
     code: '02',
-    tag: 'COURSE/02',
+    tag: 'LEARNING/02',
     accent: 'magenta',
     tagline: '智能体开发',
     description: '围绕单体智能体的感知、工具使用、记忆、规划等能力建立系统认知。',
@@ -27,7 +27,7 @@ export const categories = [
     id: 'multi-agent',
     name: 'Multi-Agent',
     code: '03',
-    tag: 'COURSE/03',
+    tag: 'LEARNING/03',
     accent: 'violet',
     tagline: '多 Agent 设计与工程化',
     description: '多 Agent 协同、通信协议、角色分工、落地时的工程权衡。',
