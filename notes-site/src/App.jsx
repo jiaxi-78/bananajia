@@ -1,6 +1,22 @@
 import './App.css'
 import { useEffect, useMemo, useState } from 'react'
-import { notes, site, categories, chapters } from './content.js'
+import { notes as rawNotes, site as rawSite, categories as rawCategories, chapters as rawChapters } from './content.js'
+
+function flattenBilingual(obj) {
+  if (Array.isArray(obj)) return obj.map(flattenBilingual)
+  if (obj && typeof obj === 'object') {
+    if (obj.zh !== undefined && obj.en !== undefined) return obj.zh
+    const result = {}
+    for (const [k, v] of Object.entries(obj)) result[k] = flattenBilingual(v)
+    return result
+  }
+  return obj
+}
+
+const notes = flattenBilingual(rawNotes)
+const site = flattenBilingual(rawSite)
+const categories = flattenBilingual(rawCategories)
+const chapters = flattenBilingual(rawChapters)
 
 const noteNumbers = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
 
@@ -200,13 +216,13 @@ function PositionFormulaVisualSection({ data }) {
   )
 }
 
-function EmphasisCards({ items }) {
+function EmphasisCards({ items, t = (v) => v }) {
   return (
     <div className="emphasis-grid">
-      {items.map((item) => (
-        <article className="emphasis-card" key={item.title}>
-          <strong>{item.title}</strong>
-          <p>{item.body}</p>
+      {items.map((item, i) => (
+        <article className="emphasis-card" key={i}>
+          <strong>{t(item.title)}</strong>
+          <p>{t(item.body)}</p>
         </article>
       ))}
     </div>
@@ -611,15 +627,15 @@ function StabilityControlVisual({ data }) {
   )
 }
 
-function HubView({ onPickCategory, counts }) {
+function HubView({ onPickCategory, counts, t }) {
   return (
     <section className="hub">
       <header className="hub-header">
-        <p className="hub-eyebrow">&gt;_ {site.tagline}</p>
+        <p className="hub-eyebrow">&gt;_ {t(site.tagline)}</p>
         <h1 className="hub-title">
-          <span className="glitch" data-text={site.title}>{site.title}</span>
+          <span className="glitch" data-text={t(site.title)}>{t(site.title)}</span>
         </h1>
-        {site.intro ? <p className="hub-intro">{site.intro}</p> : null}
+        {site.intro ? <p className="hub-intro">{t(site.intro)}</p> : null}
       </header>
 
       <div className="hub-grid">
@@ -631,7 +647,7 @@ function HubView({ onPickCategory, counts }) {
               type="button"
               className={`hub-card accent-${cat.accent}`}
               onClick={() => onPickCategory(cat.id)}
-              aria-label={`Open ${cat.name}`}
+              aria-label={`Open ${t(cat.name)}`}
             >
               <div className="hub-card-corners" aria-hidden="true">
                 <span /><span /><span /><span />
@@ -640,9 +656,9 @@ function HubView({ onPickCategory, counts }) {
                 <span className="hub-card-tag">{cat.tag}</span>
                 <span className="hub-card-code">{cat.code}</span>
               </div>
-              <h2 className="hub-card-name">{cat.name}</h2>
-              <p className="hub-card-tagline">{cat.tagline}</p>
-              <p className="hub-card-desc">{cat.description}</p>
+              <h2 className="hub-card-name">{t(cat.name)}</h2>
+              <p className="hub-card-tagline">{t(cat.tagline)}</p>
+              <p className="hub-card-desc">{t(cat.description)}</p>
               <div className="hub-card-bottom">
                 <span className="hub-card-count">
                   {count > 0 ? `${count} entries` : 'coming soon'}
@@ -671,6 +687,7 @@ function CategoryView({
   onPickChapter,
   onPickNote,
   onBack,
+  t,
 }) {
   const activeChapter = categoryChapters.find((chapter) => chapter.id === activeChapterId)
     ?? categoryChapters[0]
@@ -688,19 +705,19 @@ function CategoryView({
       </nav>
 
       <header className="category-header">
-        <p className="category-eyebrow">&gt;_ {category.tagline}</p>
-        <h1 className="category-title glitch" data-text={category.name}>
-          {category.name}
+        <p className="category-eyebrow">&gt;_ {t(category.tagline)}</p>
+        <h1 className="category-title glitch" data-text={t(category.name)}>
+          {t(category.name)}
         </h1>
-        <p className="category-desc">{category.description}</p>
+        <p className="category-desc">{t(category.description)}</p>
       </header>
 
       {categoryChapters.length === 0 ? (
         <div className="empty-state">
           <div className="empty-frame">
             <p className="empty-label">// NO SIGNAL</p>
-            <h3>这个分类还在建设中</h3>
-            <p>这门课的笔记还没写，等我学到能分享的阶段就会在这里出现。</p>
+            <h3>{t({ zh: '这个分类还在建设中', en: 'This section is under construction' })}</h3>
+            <p>{t({ zh: '这门课的笔记还没写，等我学到能分享的阶段就会在这里出现。', en: 'Notes for this course haven\'t been written yet. They\'ll appear here once I have something worth sharing.' })}</p>
           </div>
         </div>
       ) : (
@@ -722,8 +739,8 @@ function CategoryView({
                 >
                   <span className="chapter-card-code">{chapter.code}</span>
                   <span className="chapter-card-copy">
-                    <span className="chapter-card-title">{chapter.title}</span>
-                    <span className="chapter-card-desc">{chapter.description}</span>
+                    <span className="chapter-card-title">{t(chapter.title)}</span>
+                    <span className="chapter-card-desc">{t(chapter.description)}</span>
                     <span className="chapter-card-count">{noteCount} cards</span>
                   </span>
                 </button>
@@ -734,8 +751,8 @@ function CategoryView({
           {activeChapter ? (
             <div className="chapter-section-head">
               <span>{activeChapter.code}</span>
-              <h2>{activeChapter.title}</h2>
-              <p>{activeChapter.description}</p>
+              <h2>{t(activeChapter.title)}</h2>
+              <p>{t(activeChapter.description)}</p>
             </div>
           ) : null}
 
@@ -755,7 +772,7 @@ function CategoryView({
                   <span className="note-nav-index">{label}</span>
                   <span className="note-nav-copy">
                     <span className="note-nav-date">{note.date}</span>
-                    <span className="note-nav-title">{note.title}</span>
+                    <span className="note-nav-title">{t(note.title)}</span>
                   </span>
                 </button>
               )
@@ -769,26 +786,26 @@ function CategoryView({
                 {activeNote.course ? <span>// {activeNote.course}</span> : null}
               </div>
 
-              {activeNote.title ? <h3>{activeNote.title}</h3> : null}
-              {activeNote.summary ? <p className="post-summary">{activeNote.summary}</p> : null}
+              {activeNote.title ? <h3>{t(activeNote.title)}</h3> : null}
+              {activeNote.summary ? <p className="post-summary">{t(activeNote.summary)}</p> : null}
 
               <div className="post-content">
                 {activeNote.sections.map((section) => (
-                  <section className="post-section" key={section.heading}>
-                    <h4>{section.heading}</h4>
+                  <section className="post-section" key={t(section.heading)}>
+                    <h4>{t(section.heading)}</h4>
 
-                    {section.paragraphs?.map((paragraph) => (
-                      <p key={paragraph}>{paragraph}</p>
+                    {section.paragraphs?.map((paragraph, pi) => (
+                      <p key={pi}>{t(paragraph)}</p>
                     ))}
 
                     {section.faqs ? (
                       <div className="faq-list">
                         {section.faqs.map((item) => (
-                          <details className="faq-item" key={item.question}>
-                            <summary>{item.question}</summary>
+                          <details className="faq-item" key={t(item.question)}>
+                            <summary>{t(item.question)}</summary>
                             <div className="faq-answer">
-                              {item.answer.map((paragraph) => (
-                                <p key={paragraph}>{paragraph}</p>
+                              {item.answer.map((paragraph, ai) => (
+                                <p key={ai}>{t(paragraph)}</p>
                               ))}
 
                               {item.links ? (
@@ -810,8 +827,8 @@ function CategoryView({
 
                     {section.bullets ? (
                       <ul>
-                        {section.bullets.map((bullet) => (
-                          <li key={bullet}>{bullet}</li>
+                        {section.bullets.map((bullet, bi) => (
+                          <li key={bi}>{t(bullet)}</li>
                         ))}
                       </ul>
                     ) : null}
@@ -825,7 +842,7 @@ function CategoryView({
                       <PositionFormulaVisualSection data={section.positionFormulaVisual} />
                     ) : null}
                     {section.emphasisCards ? (
-                      <EmphasisCards items={section.emphasisCards} />
+                      <EmphasisCards items={section.emphasisCards} t={t} />
                     ) : null}
                     {section.transformerFlow ? (
                       <TransformerFlowSection data={section.transformerFlow} />
@@ -859,7 +876,7 @@ function CategoryView({
                     ) : null}
                     {section.code ? (
                       <pre className="code-block">
-                        <code>{section.code}</code>
+                        <code>{t(section.code)}</code>
                       </pre>
                     ) : null}
                   </section>
@@ -873,8 +890,34 @@ function CategoryView({
   )
 }
 
+function LangToggle({ lang, onToggle }) {
+  return (
+    <button
+      type="button"
+      className="lang-toggle"
+      onClick={onToggle}
+      aria-label={`Switch to ${lang === 'zh' ? 'English' : '中文'}`}
+    >
+      <span className={lang === 'zh' ? 'is-active' : ''}>中</span>
+      <span className={lang === 'en' ? 'is-active' : ''}>EN</span>
+    </button>
+  )
+}
+
+function makeT(lang) {
+  return function t(value) {
+    if (value && typeof value === 'object' && !Array.isArray(value) && (value.zh || value.en)) {
+      return value[lang] ?? value.zh ?? value.en
+    }
+    return value
+  }
+}
+
 function App() {
   const [route, setRoute] = useState(() => readRouteFromHash())
+  const [lang, setLang] = useState('zh')
+  const t = useMemo(() => makeT(lang), [lang])
+  const toggleLang = () => setLang((prev) => (prev === 'zh' ? 'en' : 'zh'))
 
   const counts = useMemo(() => {
     const map = {}
@@ -957,6 +1000,7 @@ function App() {
 
   return (
     <main className="shell">
+      <LangToggle lang={lang} onToggle={toggleLang} />
       {activeCategory ? (
         <CategoryView
           category={activeCategory}
@@ -967,9 +1011,10 @@ function App() {
           onPickChapter={openChapter}
           onPickNote={openNote}
           onBack={openHub}
+          t={t}
         />
       ) : (
-        <HubView counts={counts} onPickCategory={openCategory} />
+        <HubView counts={counts} onPickCategory={openCategory} t={t} />
       )}
     </main>
   )

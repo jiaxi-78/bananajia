@@ -9,6 +9,36 @@
   position: relative;
 }
 
+/* Language toggle */
+.lang-toggle {
+  position: fixed;
+  top: 18px;
+  right: 24px;
+  z-index: 999;
+  display: flex;
+  gap: 0;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  background: var(--bg-card);
+  padding: 0;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  overflow: hidden;
+}
+
+.lang-toggle span {
+  padding: 6px 12px;
+  color: var(--ink-muted);
+  transition: background 0.15s, color 0.15s;
+}
+
+.lang-toggle span.is-active {
+  background: var(--neon-cyan);
+  color: var(--bg);
+}
+
 /* ============================================
    HUB (landing) view
    ============================================ */
