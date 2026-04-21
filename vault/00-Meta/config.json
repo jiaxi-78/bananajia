@@ -100,8 +100,8 @@
         "en": "From architecture concepts to engineering intuition"
       },
       "description": {
-        "zh": "整理系统设计阅读中的关键概念、容量估算、扩容路径和限流器里的工程权衡。",
-        "en": "Notes on system design concepts, capacity estimation, scaling paths, and engineering trade-offs in rate limiting."
+        "zh": "从单机到分布式系统的完整进阶路线，涵盖扩容、估算、面试框架、限流、一致性哈希、KV Store、短链、爬虫、通知、信息流、聊天、搜索、视频、云盘等 16 个章节。",
+        "en": "Complete system design course from single server to distributed systems."
       }
     }
   ],
@@ -172,55 +172,224 @@
       }
     },
     {
-      "id": "system-design-basics",
+      "id": "00_前言",
       "categoryId": "system-design",
       "code": "01",
       "title": {
-        "zh": "基础概念｜Stateless 与聚合指标",
-        "en": "Basics | Stateless and Aggregated Metrics"
+        "zh": "前言",
+        "en": "前言"
       },
       "description": {
-        "zh": "Stateless Web Tier、serverless 的区别，以及 aggregated metrics 和 instance-level metrics 怎么配合。",
-        "en": "The difference between stateless web tiers and serverless, plus how aggregated metrics work with instance-level metrics."
+        "zh": "前言相关笔记。",
+        "en": "Notes on 前言."
       }
     },
     {
-      "id": "system-design-estimation",
+      "id": "01_扩容路径_从零到百万用户",
       "categoryId": "system-design",
       "code": "02",
       "title": {
-        "zh": "容量估算｜纸上估算",
-        "en": "Capacity | Back-of-the-envelope Estimation"
+        "zh": "扩容路径｜从零到百万用户",
+        "en": "扩容路径｜从零到百万用户"
       },
       "description": {
-        "zh": "用合理假设、单位换算和数量级思维估算 QPS、存储、带宽和可用性。",
-        "en": "Using assumptions, units, and order-of-magnitude thinking to estimate QPS, storage, bandwidth, and availability."
+        "zh": "扩容路径｜从零到百万用户相关笔记。",
+        "en": "Notes on 扩容路径｜从零到百万用户."
       }
     },
     {
-      "id": "system-design-scaling",
+      "id": "02_容量估算_纸上估算",
       "categoryId": "system-design",
       "code": "03",
       "title": {
-        "zh": "扩容路径｜从零到百万用户",
-        "en": "Scaling | From Zero to Millions"
+        "zh": "容量估算｜纸上估算",
+        "en": "容量估算｜纸上估算"
       },
       "description": {
-        "zh": "单机、负载均衡、数据库复制、缓存、CDN、无状态服务、消息队列和分片的演进顺序。",
-        "en": "The evolution from a single server to load balancing, replication, cache, CDN, stateless services, queues, and sharding."
+        "zh": "容量估算｜纸上估算相关笔记。",
+        "en": "Notes on 容量估算｜纸上估算."
       }
     },
     {
-      "id": "system-design-rate-limiter",
+      "id": "03_面试框架_四步推进法",
       "categoryId": "system-design",
       "code": "04",
       "title": {
-        "zh": "限流器｜分布式状态与计数器",
-        "en": "Rate Limiter | Distributed State and Counters"
+        "zh": "面试框架｜四步推进法",
+        "en": "面试框架｜四步推进法"
       },
       "description": {
-        "zh": "固定窗口、middleware、中心 Redis、TTL、分片和分层限流。",
-        "en": "Fixed windows, middleware, central Redis, TTLs, sharding, and layered rate limiting."
+        "zh": "面试框架｜四步推进法相关笔记。",
+        "en": "Notes on 面试框架｜四步推进法."
+      }
+    },
+    {
+      "id": "04_限流器_算法与架构",
+      "categoryId": "system-design",
+      "code": "05",
+      "title": {
+        "zh": "限流器｜算法与架构",
+        "en": "限流器｜算法与架构"
+      },
+      "description": {
+        "zh": "限流器｜算法与架构相关笔记。",
+        "en": "Notes on 限流器｜算法与架构."
+      }
+    },
+    {
+      "id": "05_一致性哈希",
+      "categoryId": "system-design",
+      "code": "06",
+      "title": {
+        "zh": "一致性哈希",
+        "en": "一致性哈希"
+      },
+      "description": {
+        "zh": "一致性哈希相关笔记。",
+        "en": "Notes on 一致性哈希."
+      }
+    },
+    {
+      "id": "06_分布式_key_value_store",
+      "categoryId": "system-design",
+      "code": "07",
+      "title": {
+        "zh": "分布式 Key-Value Store",
+        "en": "分布式 Key-Value Store"
+      },
+      "description": {
+        "zh": "分布式 Key-Value Store相关笔记。",
+        "en": "Notes on 分布式 Key-Value Store."
+      }
+    },
+    {
+      "id": "07_分布式唯一_id",
+      "categoryId": "system-design",
+      "code": "08",
+      "title": {
+        "zh": "分布式唯一 ID",
+        "en": "分布式唯一 ID"
+      },
+      "description": {
+        "zh": "分布式唯一 ID相关笔记。",
+        "en": "Notes on 分布式唯一 ID."
+      }
+    },
+    {
+      "id": "08_url_短链接系统",
+      "categoryId": "system-design",
+      "code": "09",
+      "title": {
+        "zh": "URL 短链接系统",
+        "en": "URL 短链接系统"
+      },
+      "description": {
+        "zh": "URL 短链接系统相关笔记。",
+        "en": "Notes on URL 短链接系统."
+      }
+    },
+    {
+      "id": "09_网络爬虫",
+      "categoryId": "system-design",
+      "code": "10",
+      "title": {
+        "zh": "网络爬虫",
+        "en": "网络爬虫"
+      },
+      "description": {
+        "zh": "网络爬虫相关笔记。",
+        "en": "Notes on 网络爬虫."
+      }
+    },
+    {
+      "id": "10_通知系统",
+      "categoryId": "system-design",
+      "code": "11",
+      "title": {
+        "zh": "通知系统",
+        "en": "通知系统"
+      },
+      "description": {
+        "zh": "通知系统相关笔记。",
+        "en": "Notes on 通知系统."
+      }
+    },
+    {
+      "id": "11_news_feed_信息流",
+      "categoryId": "system-design",
+      "code": "12",
+      "title": {
+        "zh": "News Feed 信息流",
+        "en": "News Feed 信息流"
+      },
+      "description": {
+        "zh": "News Feed 信息流相关笔记。",
+        "en": "Notes on News Feed 信息流."
+      }
+    },
+    {
+      "id": "12_聊天系统",
+      "categoryId": "system-design",
+      "code": "13",
+      "title": {
+        "zh": "聊天系统",
+        "en": "聊天系统"
+      },
+      "description": {
+        "zh": "聊天系统相关笔记。",
+        "en": "Notes on 聊天系统."
+      }
+    },
+    {
+      "id": "13_搜索自动补全",
+      "categoryId": "system-design",
+      "code": "14",
+      "title": {
+        "zh": "搜索自动补全",
+        "en": "搜索自动补全"
+      },
+      "description": {
+        "zh": "搜索自动补全相关笔记。",
+        "en": "Notes on 搜索自动补全."
+      }
+    },
+    {
+      "id": "14_视频平台_youtube",
+      "categoryId": "system-design",
+      "code": "15",
+      "title": {
+        "zh": "视频平台｜YouTube",
+        "en": "视频平台｜YouTube"
+      },
+      "description": {
+        "zh": "视频平台｜YouTube相关笔记。",
+        "en": "Notes on 视频平台｜YouTube."
+      }
+    },
+    {
+      "id": "15_云盘系统_google_drive",
+      "categoryId": "system-design",
+      "code": "16",
+      "title": {
+        "zh": "云盘系统｜Google Drive",
+        "en": "云盘系统｜Google Drive"
+      },
+      "description": {
+        "zh": "云盘系统｜Google Drive相关笔记。",
+        "en": "Notes on 云盘系统｜Google Drive."
+      }
+    },
+    {
+      "id": "16_继续学习",
+      "categoryId": "system-design",
+      "code": "17",
+      "title": {
+        "zh": "继续学习",
+        "en": "继续学习"
+      },
+      "description": {
+        "zh": "继续学习相关笔记。",
+        "en": "Notes on 继续学习."
       }
     }
   ]

@@ -11,10 +11,14 @@
             "id": "dc9e7de1855ce0c1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "System Design/00-前言/conversion-principles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conversion-principles"
             }
           }
         ]
@@ -176,17 +180,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "dc9e7de1855ce0c1",
+  "active": "47cb1f905ae90c81",
   "lastOpenFiles": [
-    "DIY LLM/Chapter 4｜语言模型架构和训练细节/Chapter 4｜位置编码可视化：我爱你 vs 你爱我.md",
-    "DIY LLM/Chapter 4｜语言模型架构和训练细节/Chapter 4｜Transformer 标准流程可视化.md",
-    "随笔/LLM 应用的三层能力｜从纯对话到 RAG/LLM 应用的三层能力：纯对话、Tool Calling 和 RAG.md",
+    "System Design/00-前言/course-map.md",
+    "System Design/00-前言/conversion-principles.md",
+    "System Design/🗺️ 课程地图.md",
+    "System Design/04-限流器｜算法与架构/补充-很多用户的限流计数器怎么扛.md",
+    "System Design/04-限流器｜算法与架构/补充-Rate Limiter：几个真正容易卡住的问题.md",
+    "System Design/01-扩容路径｜从零到百万用户/补充-从零扩展到百万用户.md",
+    "System Design/02-容量估算｜纸上估算/补充-纸上估算：用数量级判断系统能不能跑.md",
+    "System Design/01-扩容路径｜从零到百万用户/补充-Stateless Web Tier 和聚合指标怎么理解.md",
+    "00-Meta/课程模板/lesson-template.md",
+    "00-Meta/课程模板/explanation-quality-standard.md",
+    "00-Meta/课程模板/chapter-splitting-rules.md",
+    "00-Meta/课程模板/chapter-breakdown.md",
+    "00-Meta/课程模板",
+    "System Design/16-继续学习/02-engineering-blogs-learning-loop.md",
+    "System Design/16-继续学习/01-real-world-architecture-reading.md",
+    "System Design/16-继续学习",
+    "System Design/15-云盘系统｜Google Drive/05-storage-failure-tradeoffs.md",
+    "System Design/15-云盘系统｜Google Drive/04-upload-download-notification.md",
+    "System Design/15-云盘系统｜Google Drive/03-block-server-consistency.md",
+    "System Design/15-云盘系统｜Google Drive/02-single-server-to-high-level.md",
+    "System Design/15-云盘系统｜Google Drive/01-drive-scope-estimation.md",
+    "System Design/15-云盘系统｜Google Drive",
+    "System Design/14-视频平台｜YouTube/05-failure-wrap-up.md",
+    "System Design/14-视频平台｜YouTube/04-optimization-security-cost.md",
+    "System Design/14-视频平台｜YouTube/03-transcoding-dag.md",
+    "System Design/14-视频平台｜YouTube/02-upload-streaming-high-level.md",
+    "System Design/14-视频平台｜YouTube/01-youtube-scope-cost.md",
+    "System Design/14-视频平台｜YouTube",
+    "System Design/13-搜索自动补全/04-production-autocomplete.md",
+    "System Design/13-搜索自动补全/03-trie-optimization.md",
+    "System Design/13-搜索自动补全",
+    "System Design/12-聊天系统",
+    "System Design/11-News Feed 信息流",
+    "System Design/10-通知系统",
+    "System Design/09-网络爬虫",
+    "System Design/08-URL 短链接系统",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "随笔/Untitled 1.base",
-    "00-Meta/Categories.md",
-    "随笔/Untitled.base",
-    "DIY LLM/第二节课｜PyTorch 与优化器/PyTorch 与资源核算.md",
-    "Multi-Agent/README.md"
+    "Untitled.canvas"
   ]
 }
