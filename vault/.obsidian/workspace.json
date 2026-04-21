@@ -1,0 +1,132 @@
+{
+  "main": {
+    "id": "e1df0da8849f43b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "672d29ae8e06004f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc9e7de1855ce0c1",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "随笔/Untitled 1.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c19723a066c86897",
+    "type": "split",
+    "children": [
+      {
+        "id": "04f0503ffe23013d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "473f8c72371ee6c8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fc1fa9de1fdb0ca1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6337a5d5855af144",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c40624d909a6f07",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2c3a7ed40babf717",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e765825889786805",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "dc9e7de1855ce0c1",
+  "lastOpenFiles": [
+    "00-Meta/Categories.md",
+    "随笔/Untitled 1.base",
+    "随笔/Untitled.base",
+    "Untitled 1.canvas",
+    "DIY LLM/第二节课｜PyTorch 与优化器/PyTorch 与资源核算.md",
+    "Multi-Agent/README.md",
+    "Untitled.canvas"
+  ]
+}

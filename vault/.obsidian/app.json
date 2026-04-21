@@ -1,0 +1,12 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "随笔",
+  "attachmentFolderPath": "00-Meta/Attachments",
+  "promptDelete": false,
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "tabSize": 2,
+  "useMarkdownLinks": false,
+  "useTab": false
+}

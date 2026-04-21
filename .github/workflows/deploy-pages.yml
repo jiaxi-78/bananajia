@@ -5,6 +5,8 @@ on:
     branches:
       - main
     paths:
+      - vault/**
+      - scripts/**
       - notes-site/**
       - .github/workflows/deploy-pages.yml
   workflow_dispatch:
@@ -19,9 +21,6 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: notes-site
 
     steps:
       - name: Checkout
@@ -34,11 +33,18 @@ jobs:
           cache: npm
           cache-dependency-path: notes-site/package-lock.json
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install root dependencies
+        run: |
+          cd notes-site
+          npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Build content.js from vault
+        run: node scripts/build-content.mjs
+
+      - name: Build site
+        run: |
+          cd notes-site
+          npm run build
 
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v4

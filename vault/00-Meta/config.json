@@ -1,0 +1,227 @@
+{
+  "site": {
+    "title": {
+      "zh": "鼠的学习空间",
+      "en": "Shu's Learning Space"
+    },
+    "tagline": "// Personal Signal · Learning Log",
+    "intro": {
+      "zh": "记录我正在学的几门课、写下来的笔记，还有偶尔做饭的心得。选一个分区开始。",
+      "en": "Notes from courses I'm taking, things I've written down, and occasional cooking experiments. Pick a section to start."
+    }
+  },
+  "categories": [
+    {
+      "id": "diy-llm",
+      "name": "DIY LLM",
+      "code": "01",
+      "tag": "LEARNING/01",
+      "accent": "cyan",
+      "tagline": {
+        "zh": "从零实现一个语言模型",
+        "en": "Build a language model from scratch"
+      },
+      "description": {
+        "zh": "跟着 CS336 / DIY LLM 一步步搭起来的笔记，从分词器、优化器到训练流水线。",
+        "en": "Step-by-step notes following CS336 / DIY LLM, from tokenizers and optimizers to the training pipeline."
+      }
+    },
+    {
+      "id": "agentic-ai",
+      "name": "Agentic AI",
+      "code": "02",
+      "tag": "LEARNING/02",
+      "accent": "magenta",
+      "tagline": {
+        "zh": "智能体开发",
+        "en": "Agentic AI development"
+      },
+      "description": {
+        "zh": "围绕单体智能体的感知、工具使用、记忆、规划等能力建立系统认知。",
+        "en": "Building a systematic understanding of single-agent capabilities: perception, tool use, memory, and planning."
+      }
+    },
+    {
+      "id": "multi-agent",
+      "name": "Multi-Agent",
+      "code": "03",
+      "tag": "LEARNING/03",
+      "accent": "violet",
+      "tagline": {
+        "zh": "多 Agent 设计与工程化",
+        "en": "Multi-agent design and engineering"
+      },
+      "description": {
+        "zh": "多 Agent 协同、通信协议、角色分工、落地时的工程权衡。",
+        "en": "Multi-agent collaboration, communication protocols, role assignment, and engineering trade-offs in production."
+      }
+    },
+    {
+      "id": "cooking",
+      "name": "Cooking",
+      "code": "04",
+      "tag": "LIFE/01",
+      "accent": "amber",
+      "tagline": {
+        "zh": "厨房里的小实验",
+        "en": "Little experiments in the kitchen"
+      },
+      "description": {
+        "zh": "偶尔记录做过的菜、学到的手法，和一些失败也值得分享的翻车现场。",
+        "en": "Occasional notes on dishes I've made, techniques I've picked up, and kitchen disasters worth sharing."
+      }
+    },
+    {
+      "id": "essays",
+      "name": {
+        "zh": "随笔",
+        "en": "Essays"
+      },
+      "code": "05",
+      "tag": "LIFE/02",
+      "accent": "teal",
+      "tagline": {
+        "zh": "读代码时的碎片思考",
+        "en": "Fragments from reading code"
+      },
+      "description": {
+        "zh": "读源码、拆项目时随手记下的问题和理解，不求体系，只求想清楚。",
+        "en": "Questions and thoughts jotted down while reading source code and dissecting projects. No system — just clarity."
+      }
+    },
+    {
+      "id": "system-design",
+      "name": "System Design",
+      "code": "06",
+      "tag": "LEARNING/04",
+      "accent": "lime",
+      "tagline": {
+        "zh": "从架构概念到工程直觉",
+        "en": "From architecture concepts to engineering intuition"
+      },
+      "description": {
+        "zh": "整理系统设计阅读中的关键概念、容量估算、扩容路径和限流器里的工程权衡。",
+        "en": "Notes on system design concepts, capacity estimation, scaling paths, and engineering trade-offs in rate limiting."
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lesson-1",
+      "categoryId": "diy-llm",
+      "code": "01",
+      "title": {
+        "zh": "第一节课｜从零构建语言模型",
+        "en": "Lesson 1 | Building a Language Model from Scratch"
+      },
+      "description": {
+        "zh": "课程哲学、分词、模型架构、Scaling Laws 与对齐的第一轮总览。",
+        "en": "A first overview of course philosophy, tokenization, model architecture, scaling laws, and alignment."
+      }
+    },
+    {
+      "id": "chapter-2",
+      "categoryId": "diy-llm",
+      "code": "02",
+      "title": {
+        "zh": "Chapter 2｜分词器",
+        "en": "Chapter 2 | Tokenizers"
+      },
+      "description": {
+        "zh": "围绕 tokenizer、BPE、数据预处理和系统成本整理的章节笔记。",
+        "en": "Chapter notes on tokenizers, BPE, data preprocessing, and system-level costs."
+      }
+    },
+    {
+      "id": "lesson-2",
+      "categoryId": "diy-llm",
+      "code": "03",
+      "title": {
+        "zh": "第二节课｜PyTorch 与优化器",
+        "en": "Lesson 2 | PyTorch and Optimizers"
+      },
+      "description": {
+        "zh": "张量视图、stride、einsum、反向传播和常用优化器的可视化笔记。",
+        "en": "Visual notes on tensor views, stride, einsum, backpropagation, and common optimizers."
+      }
+    },
+    {
+      "id": "chapter-4",
+      "categoryId": "diy-llm",
+      "code": "04",
+      "title": {
+        "zh": "Chapter 4｜语言模型架构和训练细节",
+        "en": "Chapter 4 | Language Model Architecture and Training Details"
+      },
+      "description": {
+        "zh": "位置编码、Transformer 数据流、注意力细节、归一化、GLU 与 RoPE。",
+        "en": "Positional encoding, Transformer data flow, attention details, normalization, GLU, and RoPE."
+      }
+    },
+    {
+      "id": "llm-quickstart-template",
+      "categoryId": "essays",
+      "code": "01",
+      "title": {
+        "zh": "LLM 应用的三层能力｜从纯对话到 RAG",
+        "en": "Three Layers of LLM Apps | From Chat to RAG"
+      },
+      "description": {
+        "zh": "纯对话、Tool Calling 和 RAG 各自在做什么，怎么实现，直接 SDK 和 LangChain 怎么选。",
+        "en": "What plain chat, tool calling, and RAG each do, how they work, and when to use raw SDK vs LangChain."
+      }
+    },
+    {
+      "id": "system-design-basics",
+      "categoryId": "system-design",
+      "code": "01",
+      "title": {
+        "zh": "基础概念｜Stateless 与聚合指标",
+        "en": "Basics | Stateless and Aggregated Metrics"
+      },
+      "description": {
+        "zh": "Stateless Web Tier、serverless 的区别，以及 aggregated metrics 和 instance-level metrics 怎么配合。",
+        "en": "The difference between stateless web tiers and serverless, plus how aggregated metrics work with instance-level metrics."
+      }
+    },
+    {
+      "id": "system-design-estimation",
+      "categoryId": "system-design",
+      "code": "02",
+      "title": {
+        "zh": "容量估算｜纸上估算",
+        "en": "Capacity | Back-of-the-envelope Estimation"
+      },
+      "description": {
+        "zh": "用合理假设、单位换算和数量级思维估算 QPS、存储、带宽和可用性。",
+        "en": "Using assumptions, units, and order-of-magnitude thinking to estimate QPS, storage, bandwidth, and availability."
+      }
+    },
+    {
+      "id": "system-design-scaling",
+      "categoryId": "system-design",
+      "code": "03",
+      "title": {
+        "zh": "扩容路径｜从零到百万用户",
+        "en": "Scaling | From Zero to Millions"
+      },
+      "description": {
+        "zh": "单机、负载均衡、数据库复制、缓存、CDN、无状态服务、消息队列和分片的演进顺序。",
+        "en": "The evolution from a single server to load balancing, replication, cache, CDN, stateless services, queues, and sharding."
+      }
+    },
+    {
+      "id": "system-design-rate-limiter",
+      "categoryId": "system-design",
+      "code": "04",
+      "title": {
+        "zh": "限流器｜分布式状态与计数器",
+        "en": "Rate Limiter | Distributed State and Counters"
+      },
+      "description": {
+        "zh": "固定窗口、middleware、中心 Redis、TTL、分片和分层限流。",
+        "en": "Fixed windows, middleware, central Redis, TTLs, sharding, and layered rate limiting."
+      }
+    }
+  ]
+}

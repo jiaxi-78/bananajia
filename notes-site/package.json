@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build:content": "node ../scripts/build-content.mjs",
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
