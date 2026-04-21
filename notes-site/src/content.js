@@ -50,6 +50,15 @@ export const categories = [
     tagline: { zh: '读代码时的碎片思考', en: 'Fragments from reading code' },
     description: { zh: '读源码、拆项目时随手记下的问题和理解，不求体系，只求想清楚。', en: 'Questions and thoughts jotted down while reading source code and dissecting projects. No system — just clarity.' },
   },
+  {
+    id: 'system-design',
+    name: 'System Design',
+    code: '06',
+    tag: 'LEARNING/04',
+    accent: 'lime',
+    tagline: { zh: '从架构概念到工程直觉', en: 'From architecture concepts to engineering intuition' },
+    description: { zh: '整理系统设计阅读中的关键概念、容量估算、扩容路径和限流器里的工程权衡。', en: 'Notes on system design concepts, capacity estimation, scaling paths, and engineering trade-offs in rate limiting.' },
+  },
 ]
 
 export const chapters = [
@@ -87,6 +96,34 @@ export const chapters = [
     code: '01',
     title: { zh: 'LLM 应用的三层能力｜从纯对话到 RAG', en: 'Three Layers of LLM Apps | From Chat to RAG' },
     description: { zh: '纯对话、Tool Calling 和 RAG 各自在做什么，怎么实现，直接 SDK 和 LangChain 怎么选。', en: 'What plain chat, tool calling, and RAG each do, how they work, and when to use raw SDK vs LangChain.' },
+  },
+  {
+    id: 'system-design-basics',
+    categoryId: 'system-design',
+    code: '01',
+    title: { zh: '基础概念｜Stateless 与聚合指标', en: 'Basics | Stateless and Aggregated Metrics' },
+    description: { zh: 'Stateless Web Tier、serverless 的区别，以及 aggregated metrics 和 instance-level metrics 怎么配合。', en: 'The difference between stateless web tiers and serverless, plus how aggregated metrics work with instance-level metrics.' },
+  },
+  {
+    id: 'system-design-estimation',
+    categoryId: 'system-design',
+    code: '02',
+    title: { zh: '容量估算｜纸上估算', en: 'Capacity | Back-of-the-envelope Estimation' },
+    description: { zh: '用合理假设、单位换算和数量级思维估算 QPS、存储、带宽和可用性。', en: 'Using assumptions, units, and order-of-magnitude thinking to estimate QPS, storage, bandwidth, and availability.' },
+  },
+  {
+    id: 'system-design-scaling',
+    categoryId: 'system-design',
+    code: '03',
+    title: { zh: '扩容路径｜从零到百万用户', en: 'Scaling | From Zero to Millions' },
+    description: { zh: '单机、负载均衡、数据库复制、缓存、CDN、无状态服务、消息队列和分片的演进顺序。', en: 'The evolution from a single server to load balancing, replication, cache, CDN, stateless services, queues, and sharding.' },
+  },
+  {
+    id: 'system-design-rate-limiter',
+    categoryId: 'system-design',
+    code: '04',
+    title: { zh: '限流器｜分布式状态与计数器', en: 'Rate Limiter | Distributed State and Counters' },
+    description: { zh: '固定窗口、middleware、中心 Redis、TTL、分片和分层限流。', en: 'Fixed windows, middleware, central Redis, TTLs, sharding, and layered rate limiting.' },
   },
 ]
 
@@ -2039,6 +2076,318 @@ rows = conn.execute("""
         heading: { zh: '第八组：一句话总结', en: 'Part 8: One-Line Summary' },
         paragraphs: [
           { zh: '纯对话是 while 循环 + 消息列表 + API 调用；Tool Calling 在此基础上加了 agentic loop，让模型决定调什么工具、你的代码负责执行；RAG 把外部知识通过向量检索塞进上下文，让模型能回答训练数据之外的问题。三层能力逐级递进，每一层的核心机制都不复杂，复杂度主要来自不同 API 之间的格式差异。', en: 'Plain chat is a while loop + message list + API call; Tool Calling adds an agentic loop on top, letting the model decide which tool to call while your code handles execution; RAG injects external knowledge into the context via vector retrieval so the model can answer beyond its training data. Three layers of capability, each building on the last — none of the core mechanisms are complex; the complexity mainly comes from format differences across APIs.' },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'system-design-basics-note-01',
+    categoryId: 'system-design',
+    chapterId: 'system-design-basics',
+    course: 'System Design',
+    date: 'Card 01',
+    title: { zh: 'Stateless Web Tier 和聚合指标怎么理解', en: 'Understanding Stateless Web Tiers and Aggregated Metrics' },
+    summary: {
+      zh: '无状态 Web 层不是 serverless，而是把 session 等状态移到共享存储；聚合指标是在 tier 层级观察整体健康状况。',
+      en: 'A stateless web tier is not serverless. It moves session state into shared storage, while aggregated metrics observe health at the tier level.',
+    },
+    tags: [],
+    sections: [
+      {
+        heading: { zh: '第一组：Stateless Web Tier', en: 'Part 1: Stateless Web Tier' },
+        faqs: [
+          {
+            question: { zh: '为什么水平扩展 Web 层时，要把 session 从 Web server 里拿出去？', en: 'Why move sessions out of web servers when scaling horizontally?' },
+            answer: [
+              { zh: '思考：多台 Web server 后，请求会被负载均衡分发到不同实例。如果 session 只在某台机器内存里，下一次请求落到另一台机器就可能找不到状态。', en: 'Thinking: With multiple web servers, a load balancer can route requests to different instances. If the session only lives in one instance memory, the next request may lose that state.' },
+              { zh: '结论：状态一旦绑定在某台机器上，扩缩容、故障替换和负载均衡都会变复杂。', en: 'Conclusion: Once state is tied to a specific machine, scaling, failover, and load balancing become harder.' },
+            ],
+          },
+          {
+            question: { zh: 'Stateless 和 serverless 是一回事吗？前端会直接访问数据库吗？', en: 'Are stateless and serverless the same? Does the frontend access the database directly?' },
+            answer: [
+              { zh: '思考：stateless 描述的是状态是否绑定在某个实例上。serverless 描述的是服务是否由函数平台或托管运行环境管理。', en: 'Thinking: Stateless describes whether state is tied to an instance. Serverless describes whether execution is managed by a function platform or hosted runtime.' },
+              { zh: '结论：正常路径仍然是客户端到后端 Web tier，再由后端访问 Redis 或数据库，不是浏览器直接连数据库。', en: 'Conclusion: The normal path is client to backend web tier, then backend to Redis or database. The browser does not connect to the database directly.' },
+            ],
+          },
+        ],
+      },
+      {
+        heading: { zh: '第二组：Aggregated Level Metrics', en: 'Part 2: Aggregated Level Metrics' },
+        faqs: [
+          {
+            question: { zh: 'Aggregated level metrics 是什么意思？', en: 'What are aggregated level metrics?' },
+            answer: [
+              { zh: '思考：它不是盯着某一台机器，而是把同一层里的多个实例汇总起来看，比如整个 database tier、cache tier、web tier 的整体表现。', en: 'Thinking: They aggregate all instances in the same tier, such as the whole database tier, cache tier, or web tier.' },
+              { zh: '结论：聚合指标回答的是“这一整层健不健康”，instance-level 指标回答的是“哪台机器有问题”。', en: 'Conclusion: Aggregated metrics answer whether the whole tier is healthy. Instance-level metrics answer which machine has a problem.' },
+            ],
+          },
+          {
+            question: { zh: '数据库层和缓存层分别应该看哪些聚合指标？', en: 'Which aggregated metrics matter for database and cache tiers?' },
+            answer: [
+              { zh: '思考：database tier 可以看整体 QPS、p95/p99 查询延迟、错误率、连接池使用率、慢查询数量。cache tier 可以看整体命中率、ops/sec、p99 latency、eviction rate、内存使用率。', en: 'Thinking: For the database tier, watch total QPS, p95/p99 query latency, error rate, connection pool usage, and slow queries. For the cache tier, watch hit rate, ops/sec, p99 latency, eviction rate, and memory usage.' },
+              { zh: '结论：先用聚合指标定位是哪一层退化，再下钻到实例级别排查热点、故障节点或配置问题。', en: 'Conclusion: Use aggregated metrics to find the degraded tier first, then drill into instance-level metrics to find hotspots, failed nodes, or configuration issues.' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'system-design-estimation-note-02',
+    categoryId: 'system-design',
+    chapterId: 'system-design-estimation',
+    course: 'System Design',
+    date: 'Card 02',
+    title: { zh: '纸上估算：用数量级判断系统能不能跑', en: 'Back-of-the-envelope Estimation: Judging Feasibility by Order of Magnitude' },
+    summary: {
+      zh: '估算题不是考精确算术，而是训练合理假设、单位意识和数量级判断。',
+      en: 'Estimation questions are not about exact arithmetic. They train assumptions, units, and order-of-magnitude judgment.',
+    },
+    tags: [],
+    sections: [
+      {
+        heading: { zh: '第一组：估算的核心', en: 'Part 1: The Core of Estimation' },
+        faqs: [
+          {
+            question: { zh: 'Back-of-the-envelope estimation 的重点是算得准吗？', en: 'Is the point of back-of-the-envelope estimation to be exact?' },
+            answer: [
+              { zh: '思考：这类题要把模糊系统拆成用户数、请求量、峰值、存储、带宽这些可估算部分。', en: 'Thinking: The task is to decompose a vague system into estimable pieces: users, requests, peak traffic, storage, and bandwidth.' },
+              { zh: '结论：假设清楚、单位清楚、数量级合理比精确到个位数更重要。', en: 'Conclusion: Clear assumptions, clear units, and reasonable order of magnitude matter more than exact digits.' },
+            ],
+          },
+          {
+            question: { zh: '为什么要熟悉容量单位、延迟数字和几个 9？', en: 'Why memorize capacity units, latency numbers, and availability nines?' },
+            answer: [
+              { zh: '思考：KB、MB、GB、TB、PB 是容量估算地基；延迟数字提醒我们内存、磁盘、网络差几个数量级；99.9%、99.99%、99.999% 分别对应不同停机预算。', en: 'Thinking: KB, MB, GB, TB, and PB are the base of capacity estimation. Latency numbers show order-of-magnitude gaps between memory, disk, and networks. 99.9%, 99.99%, and 99.999% map to different downtime budgets.' },
+              { zh: '结论：这些数量级会直接影响缓存、顺序 I/O、CDN、多 region、异步复制和冗余设计。', en: 'Conclusion: These magnitudes directly affect caching, sequential I/O, CDN, multi-region design, async replication, and redundancy.' },
+            ],
+          },
+        ],
+      },
+      {
+        heading: { zh: '第二组：Twitter 估算套路', en: 'Part 2: Twitter Estimation Pattern' },
+        faqs: [
+          {
+            question: { zh: '如何从 MAU 估算写入 QPS 和媒体存储？', en: 'How do we estimate write QPS and media storage from MAU?' },
+            answer: [
+              { zh: '思考：先把 MAU 转成 DAU，再乘以每人每天请求数，最后除以 86400 秒。3 亿 MAU、50% DAU、每人 2 条 tweet，平均写入约 3500 QPS。', en: 'Thinking: Convert MAU to DAU, multiply by requests per user per day, then divide by 86400 seconds. With 300M MAU, 50% DAU, and 2 tweets per user per day, average write traffic is about 3500 QPS.' },
+              { zh: '结论：如果 10% tweet 带 1 MB 媒体，每天约 30 TB；保存 5 年约 55 PB。这个结果会自然引出对象存储、CDN、冷热分层和生命周期管理。', en: 'Conclusion: If 10% of tweets include 1 MB media, daily media storage is about 30 TB. Keeping it for 5 years is about 55 PB, which leads to object storage, CDN, hot/cold tiering, and lifecycle management.' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'system-design-scale-note-03',
+    categoryId: 'system-design',
+    chapterId: 'system-design-scaling',
+    course: 'System Design',
+    date: 'Card 03',
+    title: { zh: '从零扩展到百万用户', en: 'Scale From Zero to Millions of Users' },
+    summary: {
+      zh: '系统扩容不是一开始就设计最终形态，而是随着瓶颈出现逐步演进。',
+      en: 'Scaling is not about designing the final architecture on day one. It is gradual evolution as bottlenecks appear.',
+    },
+    tags: [],
+    sections: [
+      {
+        heading: { zh: '第一组：扩容路径', en: 'Part 1: The Scaling Path' },
+        faqs: [
+          {
+            question: { zh: '为什么说系统扩容是渐进式演化？', en: 'Why is scaling an iterative evolution?' },
+            answer: [
+              { zh: '思考：早期 MVP 用单机最快。等流量增长后，再把瓶颈层拆出来独立扩容。', en: 'Thinking: A single server is fastest for an MVP. As traffic grows, split out the bottlenecked tier and scale it independently.' },
+              { zh: '结论：不要为了未来的百万用户一开始就堆满 Kubernetes、微服务和多机房。先跑通业务，再按瓶颈演进。', en: 'Conclusion: Do not start with Kubernetes, microservices, and multiple data centers just for future scale. Make the product work first, then evolve by bottleneck.' },
+            ],
+          },
+          {
+            question: { zh: '最常见的扩容顺序是什么？', en: 'What is the common scaling sequence?' },
+            answer: [
+              { zh: '思考：单机部署，拆分应用层和数据层，加入负载均衡，数据库主从复制，缓存，CDN，无状态 Web 层，多数据中心，消息队列，数据库分片，最后才是微服务化。', en: 'Thinking: Single server, separate app and data tiers, load balancer, database replication, cache, CDN, stateless web tier, multiple data centers, message queue, database sharding, then microservices.' },
+              { zh: '结论：每一步都应该回答一个具体问题，而不是为了架构图好看。', en: 'Conclusion: Every step should solve a specific problem, not just make the architecture diagram look advanced.' },
+            ],
+          },
+          {
+            question: { zh: 'Load Balancer、DB Replication、Cache 分别解决什么？', en: 'What do load balancers, database replication, and cache each solve?' },
+            answer: [
+              { zh: '思考：LB 把流量分到多个 App Server；DB Replication 让写走主库、读走从库；Cache 把热点数据放内存，减少数据库访问。', en: 'Thinking: A load balancer spreads traffic across app servers; database replication sends writes to the primary and reads to replicas; cache keeps hot data in memory to reduce database hits.' },
+              { zh: '结论：可以记成：LB 救应用层，主从救读压力，缓存救数据库。', en: 'Conclusion: Memory hook: load balancer saves the app layer, replicas save read pressure, cache saves the database.' },
+            ],
+          },
+          {
+            question: { zh: 'CDN、Stateless、MQ、Sharding 什么时候出现？', en: 'When do CDN, stateless services, queues, and sharding appear?' },
+            answer: [
+              { zh: '思考：全球用户访问慢时加 CDN；多台 App Server 后把 session 放到 Redis/DB/JWT；耗时副作用变多后用 MQ；单库太大或写入太高时做 sharding。', en: 'Thinking: Add CDN when global users are slow; move sessions to Redis, DB, or JWT when app servers multiply; use queues when side effects become expensive; shard when one database is too large or write-heavy.' },
+              { zh: '结论：CDN 救延迟，Stateless 救弹性伸缩，MQ 救同步链路和流量峰值，Sharding 救容量和写入瓶颈。', en: 'Conclusion: CDN saves latency, statelessness saves elasticity, queues save synchronous paths and spikes, and sharding saves capacity and write bottlenecks.' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'system-design-rate-limiter-note-04',
+    categoryId: 'system-design',
+    chapterId: 'system-design-rate-limiter',
+    course: 'System Design',
+    date: 'Card 04',
+    title: { zh: 'Rate Limiter：几个真正容易卡住的问题', en: 'Rate Limiter: Questions That Actually Cause Confusion' },
+    summary: {
+      zh: '固定窗口为什么会有问题，中间件到底是什么，分布式限流为什么常常还要 Redis，以及大量用户计数器怎么扛。',
+      en: 'Why fixed windows are tricky, what middleware means, why distributed rate limiting often still uses Redis, and how large counter sets are handled.',
+    },
+    tags: [],
+    sections: [
+      {
+        heading: { zh: '第一组：固定窗口和 burst', en: 'Part 1: Fixed Windows and Bursts' },
+        faqs: [
+          {
+            question: { zh: '固定窗口不是针对单个用户的吗，为什么用户多了会出问题？', en: 'If fixed windows are per user, why does scale create problems?' },
+            answer: [
+              { zh: '思考：固定窗口通常按 key 限流，key 可以是 user_id、IP、api_key，也可以是全局系统。单用户也会有窗口边界问题：12:00:59 发 5 次，12:01:00 再发 5 次，2 秒内通过 10 次。', en: 'Thinking: Fixed windows usually limit by key: user_id, IP, api_key, or even a global key. A single user can still hit the boundary problem: 5 requests at 12:00:59 and 5 more at 12:01:00 means 10 requests in 2 seconds.' },
+              { zh: '结论：人多不是唯一问题。真正的问题包括窗口边界 burst、大量活跃 key、热点 key、TTL 管理和多节点同步。', en: 'Conclusion: Many users are not the only issue. The real issues include boundary bursts, many active keys, hot keys, TTL management, and multi-node synchronization.' },
+            ],
+          },
+          {
+            question: { zh: 'Token Bucket 为什么更适合突发流量？', en: 'Why is token bucket better for bursts?' },
+            answer: [
+              { zh: '思考：Token Bucket 按固定速率补充 token，也允许桶里积攒一部分 token。平时流量低时积累，突发流量来时先消耗存量，再回到稳定速率。', en: 'Thinking: Token bucket refills tokens at a fixed rate and allows some tokens to accumulate. Low traffic builds a reserve; burst traffic spends that reserve and then returns to the steady rate.' },
+              { zh: '结论：它是在允许短时突发和限制长期平均速率之间做折中。', en: 'Conclusion: It balances short bursts with long-term average rate control.' },
+            ],
+          },
+        ],
+      },
+      {
+        heading: { zh: '第二组：Middleware 和分布式状态', en: 'Part 2: Middleware and Distributed State' },
+        faqs: [
+          {
+            question: { zh: 'Middleware 到底是什么，是第三方服务吗？', en: 'What is middleware? Is it a third-party service?' },
+            answer: [
+              { zh: '思考：Middleware 是夹在客户端和业务服务之间、处理公共能力的软件层，比如限流、鉴权、日志、API gateway、load balancer。它可以自己写，也可以用 Cloudflare、Kong、AWS API Gateway、Nginx 插件。', en: 'Thinking: Middleware is a software layer between the client and business service that handles common capabilities such as rate limiting, auth, logging, API gateway, and load balancing. It can be custom code or a product such as Cloudflare, Kong, AWS API Gateway, or an Nginx plugin.' },
+              { zh: '结论：它不是必须第三方，也不是前端，而是业务逻辑外面的一层通用处理链路。', en: 'Conclusion: It is not necessarily third-party and it is not frontend code. It is a common processing layer around business logic.' },
+            ],
+          },
+          {
+            question: { zh: '分布式限流讲了很多，最后还是要中心 Redis 吗？', en: 'After all the distributed discussion, do we still often use central Redis?' },
+            answer: [
+              { zh: '思考：很多现实系统是中心化状态 + 分布式执行。多个 rate limiter 节点执行判断，但计数器、token、窗口状态放到 Redis Cluster 这类共享状态存储里。', en: 'Thinking: Many real systems use centralized state plus distributed execution. Multiple rate limiter nodes make decisions, but counters, tokens, and window state live in shared storage such as Redis Cluster.' },
+              { zh: '结论：原因很直接：多个节点必须看到同一个用户已经用了多少额度。Redis 本身再通过 cluster、分片、replica、Multi-AZ 降低单点风险。', en: 'Conclusion: The reason is direct: every node must see how much quota the same user has used. Redis then uses clustering, sharding, replicas, and Multi-AZ to reduce single-point risk.' },
+            ],
+          },
+          {
+            question: { zh: '每个用户一个计数器，用户很多时怎么解决？', en: 'How do we handle one counter per user at large scale?' },
+            answer: [
+              { zh: '思考：不要为所有注册用户永久保存计数器，只为最近活跃用户保存短生命周期状态。比如固定窗口 1 分钟限流，key 设置 60 到 65 秒 TTL，窗口过去自动删除。', en: 'Thinking: Do not keep counters forever for all registered users. Keep short-lived state only for recently active users. For a 1-minute fixed window, set a 60 to 65 second TTL and let the key expire.' },
+              { zh: '结论：内存压力约等于当前活跃用户数 × 每个限流状态大小，而不是总注册用户数。再配合 Redis Cluster 分片、粗细两层限流、省内存算法和热点 key 特殊处理。', en: 'Conclusion: Memory pressure is roughly active users times per-key state size, not total registered users. Combine this with Redis Cluster sharding, layered coarse and fine limiting, memory-efficient algorithms, and special handling for hot keys.' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'system-design-rate-limiter-counters-note-05',
+    categoryId: 'system-design',
+    chapterId: 'system-design-rate-limiter',
+    course: 'System Design',
+    date: 'Card 05',
+    title: { zh: '很多用户的限流计数器怎么扛', en: 'Handling Rate Limit Counters for Many Users' },
+    summary: {
+      zh: '不要把“很多用户 = 很多计数器”理解成必须由一台机器硬扛。现实里靠短生命周期状态、分片、分层、近似和热点处理组合解决。',
+      en: 'Do not interpret many users and many counters as something one machine must handle alone. Real systems combine short-lived state, sharding, layered limits, approximation, and hot-key handling.',
+    },
+    tags: [],
+    sections: [
+      {
+        heading: { zh: '第一组：问题从哪里来', en: 'Part 1: Where the Problem Comes From' },
+        faqs: [
+          {
+            question: { zh: '为什么 user 级限流会产生很多计数器？', en: 'Why does user-level rate limiting create many counters?' },
+            answer: [
+              { zh: '思考：如果规则是每个 user 每分钟最多 100 次，那么每个活跃用户在当前窗口里都需要一个状态，例如 rate_limit:user123:202604211030 -> 37。活跃用户达到几百万时，key 数量、内存占用、热点访问、过期清理都会变成真实成本。', en: 'Thinking: If the rule is 100 requests per user per minute, every active user needs state for the current window, such as rate_limit:user123:202604211030 -> 37. With millions of active users, key count, memory usage, hot access, and expiration cleanup become real costs.' },
+              { zh: '结论：关键不是总注册用户数，而是当前窗口内的活跃用户集合有多大。', en: 'Conclusion: The key variable is not total registered users, but the active user set in the current window.' },
+            ],
+          },
+          {
+            question: { zh: '最重要的第一招是什么？', en: 'What is the most important first technique?' },
+            answer: [
+              { zh: '思考：给限流 key 设置 TTL。比如固定窗口 1 分钟限流，key = rl:user:123:minute:202604211030，TTL 设置为 60 到 65 秒，窗口过去后自动删除。', en: 'Thinking: Set a TTL on rate-limit keys. For a 1-minute fixed window, key = rl:user:123:minute:202604211030 with a TTL of 60 to 65 seconds, so the key disappears after the window.' },
+              { zh: '结论：这会把“无限增长”变成“只保存当前或最近几个窗口”，内存约等于当前活跃用户数 × 每个状态大小。', en: 'Conclusion: This turns unbounded growth into keeping only the current or recent windows. Memory is roughly active users times state size.' },
+            ],
+          },
+        ],
+      },
+      {
+        heading: { zh: '第二组：分片和分层', en: 'Part 2: Sharding and Layering' },
+        faqs: [
+          {
+            question: { zh: '一个 Redis 放不下所有计数器怎么办？', en: 'What if one Redis instance cannot hold all counters?' },
+            answer: [
+              { zh: '思考：用 Redis Cluster 或自定义分片，把 user_id 通过 hash 映射到不同 shard。每台 Redis 只负责一部分用户的限流状态。', en: 'Thinking: Use Redis Cluster or custom sharding. Hash user_id to a shard, so each Redis node owns only part of the users rate-limit state.' },
+              { zh: '结论：这和数据库分库分表是同一个直觉：不是一本大本子记所有人，而是很多本子各记一部分人。', en: 'Conclusion: This is the same intuition as database sharding: not one giant ledger for everyone, but many ledgers each owning part of the population.' },
+            ],
+          },
+          {
+            question: { zh: '为什么不是所有请求都做 user 级限流？', en: 'Why not rate-limit every request at user level?' },
+            answer: [
+              { zh: '思考：限流维度应该按业务成本选择。公开接口可以先按 IP 粗限流，登录后或敏感接口再按 user_id；昂贵接口按 API 维度，B 端场景按 tenant 或 app key。', en: 'Thinking: The rate-limit dimension should match business cost. Public endpoints may first use coarse IP limits; logged-in or sensitive endpoints use user_id; expensive endpoints use API-level rules; B2B systems may use tenant or app key.' },
+              { zh: '结论：只给真正需要精细控制的维度建计数器，能显著减少状态数量。', en: 'Conclusion: Build counters only for dimensions that need fine-grained control, and the state count drops significantly.' },
+            ],
+          },
+          {
+            question: { zh: '“粗 + 细”两层限流怎么工作？', en: 'How does coarse-plus-fine layered rate limiting work?' },
+            answer: [
+              { zh: '思考：第一层在网关、Nginx、Envoy 或边缘节点做粗限流，比如单 IP 每秒最多 200。第二层再到 Redis 做细限流，比如单 user 每分钟最多 20 次发帖。', en: 'Thinking: The first layer does coarse limiting at the gateway, Nginx, Envoy, or edge, such as 200 requests per IP per second. The second layer uses Redis for fine-grained limits, such as 20 posts per user per minute.' },
+              { zh: '结论：大部分垃圾流量在第一层被挡掉，中心 Redis 不需要为所有乱请求维护细粒度状态。', en: 'Conclusion: Most noisy traffic is blocked at the first layer, so central Redis does not need fine-grained state for every bad request.' },
+            ],
+          },
+        ],
+      },
+      {
+        heading: { zh: '第三组：算法和热点', en: 'Part 3: Algorithms and Hot Keys' },
+        faqs: [
+          {
+            question: { zh: '为什么限流算法会影响内存？', en: 'Why does the rate-limit algorithm affect memory usage?' },
+            answer: [
+              { zh: '思考：固定窗口和令牌桶通常每个 key 只需要 count、token 数、上次 refill 时间这类少量状态。滑动窗口日志要保存很多 timestamp，精确但更贵。', en: 'Thinking: Fixed windows and token buckets usually need only small per-key state: count, token count, or last refill time. Sliding window logs store many timestamps, which is precise but expensive.' },
+              { zh: '结论：用户量巨大时，常优先选 token bucket、fixed window 或 sliding window counter，而不是最重的 sliding log。', en: 'Conclusion: At large user scale, systems often prefer token bucket, fixed window, or sliding window counter over the heavier sliding log.' },
+            ],
+          },
+          {
+            question: { zh: '热点用户或大客户 key 怎么处理？', en: 'How do we handle hot users or large customer keys?' },
+            answer: [
+              { zh: '思考：明星用户、大客户 app key、爆款接口可能让单个 key 被疯狂更新。可以拆成多个子 key 再聚合，给大客户单独配额池，或由中心 Redis 预分配一批 token 给边缘节点本地扣。', en: 'Thinking: Celebrity users, large customer app keys, or viral endpoints can make one key extremely hot. Options include splitting into sub-keys and aggregating, assigning a dedicated quota pool, or pre-allocating tokens from central Redis to edge nodes for local spending.' },
+              { zh: '结论：热点不是靠平均分片自动解决的，必须单独识别和处理。', en: 'Conclusion: Hot keys are not automatically solved by average sharding; they need explicit detection and handling.' },
+            ],
+          },
+        ],
+      },
+      {
+        heading: { zh: '第四组：近似和本地同步', en: 'Part 4: Approximation and Local Sync' },
+        faqs: [
+          {
+            question: { zh: '极大规模时可以不追求 100% 精确吗？', en: 'Can very large systems avoid 100% precision?' },
+            answer: [
+              { zh: '思考：可以，但要看场景。Count-Min Sketch、Bloom Filter、HyperLogLog 这类近似结构更适合防刷、风控、粗筛，不适合作为严格限流的唯一依据。', en: 'Thinking: Sometimes, depending on the scenario. Approximate structures such as Count-Min Sketch, Bloom Filter, and HyperLogLog are useful for abuse detection, risk control, and coarse filtering, but are not usually the only source for strict limits.' },
+              { zh: '结论：便宜方法先大致判断谁可疑，再对可疑对象做精细限流。', en: 'Conclusion: Use cheap approximations to identify suspicious traffic, then apply precise limits to those cases.' },
+            ],
+          },
+          {
+            question: { zh: '本地计数 + 中心同步适合什么时候？', en: 'When does local counting plus central sync make sense?' },
+            answer: [
+              { zh: '思考：如果每次请求都查 Redis 压力太大，可以让 edge node 本地先记小计数，定期或按批量同步到中心。这样更快，也减轻 Redis 压力。', en: 'Thinking: If checking Redis on every request is too expensive, edge nodes can count locally and periodically or batch-sync to the center. This is faster and reduces Redis pressure.' },
+              { zh: '结论：代价是不再绝对精确，可能短暂超发。这就是精确性和性能的 trade-off。', en: 'Conclusion: The cost is loss of perfect precision and possible short-term over-allowance. This is the precision versus performance trade-off.' },
+            ],
+          },
+          {
+            question: { zh: '真正的工程答案是什么？', en: 'What is the practical engineering answer?' },
+            answer: [
+              { zh: '思考：通常不是单独一招，而是 TTL 自动过期、Redis Cluster 分片、网关粗限流、Redis 细限流、省内存算法、热点 key 特殊处理一起用。', en: 'Thinking: It is usually not one technique. Real systems combine TTL expiration, Redis Cluster sharding, coarse gateway limits, fine Redis-backed limits, memory-efficient algorithms, and special hot-key handling.' },
+              { zh: '结论：用户很多、计数器很多，不是靠单点硬扛，而是靠短生命周期状态 + 分片存储 + 分层限流 + 省内存算法一起解决。', en: 'Conclusion: Many users and many counters are not handled by one machine brute-forcing the load. They are handled through short-lived state, sharded storage, layered limits, and memory-efficient algorithms.' },
+            ],
+          },
         ],
       },
     ],
