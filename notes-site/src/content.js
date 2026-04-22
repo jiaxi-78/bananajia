@@ -178,11 +178,11 @@ export const chapters = [
     code: '01',
     title: {
       zh: '前言',
-      en: '前言'
+      en: 'Preface'
     },
     description: {
       zh: '前言相关笔记。',
-      en: 'Notes on 前言.'
+      en: 'Notes on Preface.'
     }
   },
   {
@@ -191,11 +191,11 @@ export const chapters = [
     code: '02',
     title: {
       zh: '扩容路径｜从零到百万用户',
-      en: '扩容路径｜从零到百万用户'
+      en: 'Scaling Path | From Zero to Million Users'
     },
     description: {
       zh: '扩容路径｜从零到百万用户相关笔记。',
-      en: 'Notes on 扩容路径｜从零到百万用户.'
+      en: 'Notes on Scaling Path.'
     }
   },
   {
@@ -204,11 +204,11 @@ export const chapters = [
     code: '03',
     title: {
       zh: '容量估算｜纸上估算',
-      en: '容量估算｜纸上估算'
+      en: 'Capacity Estimation | Back-of-the-envelope'
     },
     description: {
       zh: '容量估算｜纸上估算相关笔记。',
-      en: 'Notes on 容量估算｜纸上估算.'
+      en: 'Notes on Capacity Estimation.'
     }
   },
   {
@@ -217,11 +217,11 @@ export const chapters = [
     code: '04',
     title: {
       zh: '面试框架｜四步推进法',
-      en: '面试框架｜四步推进法'
+      en: 'Interview Framework | Four-step Approach'
     },
     description: {
       zh: '面试框架｜四步推进法相关笔记。',
-      en: 'Notes on 面试框架｜四步推进法.'
+      en: 'Notes on Interview Framework.'
     }
   },
   {
@@ -230,11 +230,11 @@ export const chapters = [
     code: '05',
     title: {
       zh: '限流器｜算法与架构',
-      en: '限流器｜算法与架构'
+      en: 'Rate Limiter | Algorithms and Architecture'
     },
     description: {
       zh: '限流器｜算法与架构相关笔记。',
-      en: 'Notes on 限流器｜算法与架构.'
+      en: 'Notes on Rate Limiter.'
     }
   },
   {
@@ -243,11 +243,11 @@ export const chapters = [
     code: '06',
     title: {
       zh: '一致性哈希',
-      en: '一致性哈希'
+      en: 'Consistent Hashing'
     },
     description: {
       zh: '一致性哈希相关笔记。',
-      en: 'Notes on 一致性哈希.'
+      en: 'Notes on Consistent Hashing.'
     }
   },
   {
@@ -256,11 +256,11 @@ export const chapters = [
     code: '07',
     title: {
       zh: '分布式 Key-Value Store',
-      en: '分布式 Key-Value Store'
+      en: 'Distributed Key-Value Store'
     },
     description: {
       zh: '分布式 Key-Value Store相关笔记。',
-      en: 'Notes on 分布式 Key-Value Store.'
+      en: 'Notes on Distributed Key-Value Store.'
     }
   },
   {
@@ -269,11 +269,11 @@ export const chapters = [
     code: '08',
     title: {
       zh: '分布式唯一 ID',
-      en: '分布式唯一 ID'
+      en: 'Distributed Unique ID'
     },
     description: {
       zh: '分布式唯一 ID相关笔记。',
-      en: 'Notes on 分布式唯一 ID.'
+      en: 'Notes on Distributed Unique ID.'
     }
   },
   {
@@ -282,11 +282,11 @@ export const chapters = [
     code: '09',
     title: {
       zh: 'URL 短链接系统',
-      en: 'URL 短链接系统'
+      en: 'URL Shortener'
     },
     description: {
       zh: 'URL 短链接系统相关笔记。',
-      en: 'Notes on URL 短链接系统.'
+      en: 'Notes on URL Shortener.'
     }
   },
   {
@@ -295,11 +295,11 @@ export const chapters = [
     code: '10',
     title: {
       zh: '网络爬虫',
-      en: '网络爬虫'
+      en: 'Web Crawler'
     },
     description: {
       zh: '网络爬虫相关笔记。',
-      en: 'Notes on 网络爬虫.'
+      en: 'Notes on Web Crawler.'
     }
   },
   {
@@ -308,11 +308,11 @@ export const chapters = [
     code: '11',
     title: {
       zh: '通知系统',
-      en: '通知系统'
+      en: 'Notification System'
     },
     description: {
       zh: '通知系统相关笔记。',
-      en: 'Notes on 通知系统.'
+      en: 'Notes on Notification System.'
     }
   },
   {
@@ -321,11 +321,11 @@ export const chapters = [
     code: '12',
     title: {
       zh: 'News Feed 信息流',
-      en: 'News Feed 信息流'
+      en: 'News Feed'
     },
     description: {
       zh: 'News Feed 信息流相关笔记。',
-      en: 'Notes on News Feed 信息流.'
+      en: 'Notes on News Feed.'
     }
   },
   {
@@ -334,11 +334,11 @@ export const chapters = [
     code: '13',
     title: {
       zh: '聊天系统',
-      en: '聊天系统'
+      en: 'Chat System'
     },
     description: {
       zh: '聊天系统相关笔记。',
-      en: 'Notes on 聊天系统.'
+      en: 'Notes on Chat System.'
     }
   },
   {
@@ -347,11 +347,11 @@ export const chapters = [
     code: '14',
     title: {
       zh: '搜索自动补全',
-      en: '搜索自动补全'
+      en: 'Search Autocomplete'
     },
     description: {
       zh: '搜索自动补全相关笔记。',
-      en: 'Notes on 搜索自动补全.'
+      en: 'Notes on Search Autocomplete.'
     }
   },
   {
@@ -360,11 +360,11 @@ export const chapters = [
     code: '15',
     title: {
       zh: '视频平台｜YouTube',
-      en: '视频平台｜YouTube'
+      en: 'Video Platform | YouTube'
     },
     description: {
       zh: '视频平台｜YouTube相关笔记。',
-      en: 'Notes on 视频平台｜YouTube.'
+      en: 'Notes on Video Platform.'
     }
   },
   {
@@ -373,11 +373,11 @@ export const chapters = [
     code: '16',
     title: {
       zh: '云盘系统｜Google Drive',
-      en: '云盘系统｜Google Drive'
+      en: 'Cloud Storage | Google Drive'
     },
     description: {
       zh: '云盘系统｜Google Drive相关笔记。',
-      en: 'Notes on 云盘系统｜Google Drive.'
+      en: 'Notes on Cloud Storage.'
     }
   },
   {
@@ -386,248 +386,43 @@ export const chapters = [
     code: '17',
     title: {
       zh: '继续学习',
-      en: '继续学习'
+      en: 'Learning Continues'
     },
     description: {
       zh: '继续学习相关笔记。',
-      en: 'Notes on 继续学习.'
+      en: 'Notes on Learning Continues.'
     }
   }
 ]
 
 export const notes = [
   {
-    id: '🗺️ 课程地图',
-    categoryId: '',
-    chapterId: null,
+    id: '_coverpage',
+    categoryId: 'system-design',
+    chapterId: '_coverpage.md',
     course: '',
     date: '',
     title: '',
     summary: '',
     tags: [],
-    sections: [
-      {
-        heading: '前言',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[conversion-principles.md|转换原则]]',
-          '[[course-map.md|课程地图]]',
-          '[[glossary.md|术语表]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '扩容路径｜从零到百万用户',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-single-server-request-flow.md|从单机系统开始理解请求路径]]',
-          '[[02-database-and-basic-scaling.md|拆出数据库并选择合适的数据存储]]',
-          '[[03-load-balancer-and-replication.md|用负载均衡和数据库复制提高可用性]]',
-          '[[04-cache-and-cdn.md|用缓存和 CDN 加速系统响应]]',
-          '[[05-stateless-web-tier-and-autoscaling.md|把状态移出 Web 层，实现无状态扩展]]',
-          '[[06-data-centers-and-message-queue.md|多数据中心与消息队列：走向分布式系统]]',
-          '[[07-observability-and-database-sharding.md|可观测性与数据库分片]]',
-          '[[08-scaling-playbook.md|从零到百万用户的扩展清单]]',
-          '[[补充-Stateless Web Tier 和聚合指标怎么理解.md|补充：Stateless Web Tier 和聚合指标怎么理解]]',
-          '[[补充-从零扩展到百万用户.md|补充：从零扩展到百万用户]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '容量估算｜纸上估算',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-units-and-latency-basics.md|估算前的基本单位和延迟直觉]]',
-          '[[02-availability-and-sla.md|用几个 9 衡量可用性]]',
-          '[[03-qps-and-storage-estimation.md|用 Twitter 示例练习 QPS 与存储估算]]',
-          '[[补充-纸上估算：用数量级判断系统能不能跑.md|补充：纸上估算：用数量级判断系统能不能跑]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '面试框架｜四步推进法',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-interview-mindset-and-scope.md|系统设计面试不是抢答题]]',
-          '[[02-high-level-design.md|提出高层设计并获得共识]]',
-          '[[03-design-deep-dive.md|深入关键组件，而不是陷入所有细节]]',
-          '[[04-wrap-up-dos-and-donts.md|收尾、复盘与面试节奏控制]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '限流器｜算法与架构',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-rate-limiter-problem-and-requirements.md|认识 Rate Limiter 与设计范围]]',
-          '[[02-placement-and-api-gateway.md|限流器应该放在哪里]]',
-          '[[03-token-leaky-fixed-window.md|三种基础限流算法]]',
-          '[[04-sliding-window-algorithms.md|滑动窗口算法：准确性与内存的取舍]]',
-          '[[05-high-level-architecture.md|限流器的高层架构]]',
-          '[[06-rules-distributed-and-race-conditions.md|规则、并发与分布式限流]]',
-          '[[07-optimization-monitoring-and-wrap-up.md|优化、监控与限流器设计总结]]',
-          '[[补充-Rate Limiter：几个真正容易卡住的问题.md|补充：Rate Limiter：几个真正容易卡住的问题]]',
-          '[[补充-很多用户的限流计数器怎么扛.md|补充：很多用户的限流计数器怎么扛]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '一致性哈希',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-rehashing-problem.md|为什么普通哈希扩容会崩]]',
-          '[[02-hash-ring-lookup.md|一致性哈希环如何定位服务器]]',
-          '[[03-node-change-affected-keys.md|节点增删时只迁移必要数据]]',
-          '[[04-virtual-nodes-tradeoff.md|虚拟节点让负载更均衡]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '分布式 Key-Value Store',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-scope-and-single-server.md|从单机 KV 到分布式 KV]]',
-          '[[02-cap-and-tradeoffs.md|CAP 下的设计取舍]]',
-          '[[03-partition-and-replication.md|数据如何分片与复制]]',
-          '[[04-quorum-versioning-vector-clock.md|Quorum 与版本冲突处理]]',
-          '[[05-failure-detection-and-repair.md|故障检测、临时接管与副本修复]]',
-          '[[06-architecture-read-write-path.md|KV Store 的整体架构与读写路径]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '分布式唯一 ID',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-requirements-and-candidate-solutions.md|唯一 ID 生成器的需求边界]]',
-          '[[02-compare-id-generation-options.md|四种 ID 生成方案对比]]',
-          '[[03-snowflake-deep-dive.md|Snowflake 式 64-bit ID 设计]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: 'URL 短链接系统',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-requirements-and-apis.md|短链接系统的需求与 API]]',
-          '[[02-redirect-flow-and-status-code.md|重定向流程与 301/302 选择]]',
-          '[[03-hash-function-and-base62.md|短码生成：Hash 还是 Base62]]',
-          '[[04-data-model-and-end-to-end-flow.md|短链接系统的完整架构]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '网络爬虫',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-crawler-scope.md|从“抓网页”到“设计爬虫系统”]]',
-          '[[02-crawler-pipeline.md|爬虫系统的核心流水线]]',
-          '[[03-url-frontier-scheduling.md|URL Frontier 与抓取调度]]',
-          '[[04-downloader-robustness.md|Downloader 的鲁棒性设计]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '通知系统',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-notification-scope.md|通知系统的范围与需求]]',
-          '[[02-high-level-flow.md|通知发送链路与高层架构]]',
-          '[[03-reliability-and-controls.md|通知可靠性、幂等与用户控制]]',
-          '[[04-monitoring-security-analytics.md|通知系统的监控、安全与分析]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: 'News Feed 信息流',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-news-feed-scope-apis.md|News Feed 的范围、数据模型与 API]]',
-          '[[02-feed-publishing-fanout.md|Feed Publishing 与 Fanout 取舍]]',
-          '[[03-feed-retrieval-scaling.md|Feed 读取、缓存与扩展]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '聊天系统',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-chat-scope-protocols.md|Chat System 的范围与通信协议]]',
-          '[[02-architecture-storage-model.md|聊天系统架构与存储模型]]',
-          '[[03-service-discovery-one-to-one-flow.md|服务发现与一对一消息流]]',
-          '[[04-multi-device-group-chat.md|多设备同步与群聊设计]]',
-          '[[05-presence-and-wrap-up.md|Online Presence、断线处理与扩展话题]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '搜索自动补全',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-autocomplete-scope-estimation.md|从需求到容量估算：什么是快的自动补全]]',
-          '[[02-high-level-data-query-service.md|高层设计：数据收集服务与查询服务]]',
-          '[[03-trie-optimization.md|Trie 深入：用空间换时间的 Top K 缓存]]',
-          '[[04-production-autocomplete.md|生产化自动补全：日志、缓存、过滤与分片]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '视频平台｜YouTube',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-youtube-scope-cost.md|YouTube 需求边界与成本估算]]',
-          '[[02-upload-streaming-high-level.md|高层架构：上传流与播放流分离]]',
-          '[[03-transcoding-dag.md|视频转码：DAG 工作流与并行处理]]',
-          '[[04-optimization-security-cost.md|优化视频系统：速度、安全与 CDN 成本]]',
-          '[[05-failure-wrap-up.md|故障处理与扩展讨论]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '云盘系统｜Google Drive',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-drive-scope-estimation.md|云盘需求：可靠、同步、低带宽]]',
-          '[[02-single-server-to-high-level.md|从单机存储到高层架构]]',
-          '[[03-block-server-consistency.md|Block Server：增量同步与强一致性]]',
-          '[[04-upload-download-notification.md|上传、下载与通知服务]]',
-          '[[05-storage-failure-tradeoffs.md|存储优化、故障处理与设计取舍]]'
-        ],
-        emphasisCards: []
-      },
-      {
-        heading: '继续学习',
-        paragraphs: [],
-        faqs: [],
-        bullets: [
-          '[[01-real-world-architecture-reading.md|从真实系统架构中继续学习]]',
-          '[[02-engineering-blogs-learning-loop.md|工程博客与长期学习闭环]]'
-        ],
-        emphasisCards: []
-      }
-    ]
+    sections: []
   },
   {
-    id: '01_autocomplete_scope_estimation',
+    id: '_sidebar',
+    categoryId: 'system-design',
+    chapterId: '_sidebar.md',
+    course: '',
+    date: '',
+    title: '',
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '01-autocomplete-scope-estimation',
     categoryId: 'system-design',
     chapterId: 'part13_autocomplete',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -650,6 +445,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Autocomplete（自动补全）`：自动补全是回答“Autocomplete 系统到底要满足哪些体验和规模约束？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Typeahead（边输入边提示）`：边输入边提示是回答“Autocomplete 系统到底要满足哪些体验和规模约束？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Top K（前 K 个结果）`：前 K 个结果是回答“Autocomplete 系统到底要满足哪些体验和规模约束？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Peak QPS（峰值 QPS）`：峰值 QPS是回答“Autocomplete 系统到底要满足哪些体验和规模约束？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -731,10 +538,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_chat_scope_protocols',
+    id: '01-chat-scope-protocols',
     categoryId: 'system-design',
     chapterId: 'part12_chat_system',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -756,6 +563,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`1-on-1 Chat（一对一聊天）`：一对一聊天是回答“设计聊天系统前，为什么必须先确定聊天类型、规模和通信方式？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Group Chat（群聊）`：群聊是回答“设计聊天系统前，为什么必须先确定聊天类型、规模和通信方式？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Long Polling（长轮询）`：长轮询是回答“设计聊天系统前，为什么必须先确定聊天类型、规模和通信方式？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`WebSocket（双向长连接）`：WebSocket 在客户端和服务端之间保持长连接，允许服务端主动推消息。聊天系统用它降低实时消息延迟。'
+        ],
         emphasisCards: []
       },
       {
@@ -836,10 +655,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_crawler_scope',
+    id: '01-crawler-scope',
     categoryId: 'system-design',
     chapterId: 'part09_web_crawler',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -861,6 +680,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Web Crawler（网络爬虫）`：网络爬虫是回答“为什么一个看似简单的 crawler（网络爬虫）会变成复杂的系统设计题？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Seed URL（种子 URL）`：种子 URL是回答“为什么一个看似简单的 crawler（网络爬虫）会变成复杂的系统设计题？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Politeness（礼貌性）`：礼貌性是回答“为什么一个看似简单的 crawler（网络爬虫）会变成复杂的系统设计题？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Robustness（鲁棒性）`：鲁棒性是回答“为什么一个看似简单的 crawler（网络爬虫）会变成复杂的系统设计题？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -942,10 +773,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_drive_scope_estimation',
+    id: '01-drive-scope-estimation',
     categoryId: 'system-design',
     chapterId: 'part15_google_drive',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -968,6 +799,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`File Sync（文件同步）`：文件同步是回答“Google Drive 的核心难点是什么？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Revision（文件版本）`：文件版本是回答“Google Drive 的核心难点是什么？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Strong Consistency（强一致性）`：强一致性是描述多个副本或多个读写路径看到的数据是否一致。越强的一致性通常越影响延迟和可用性。',
+          '`Bandwidth Usage（带宽使用）`：带宽使用是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。'
+        ],
         emphasisCards: []
       },
       {
@@ -1049,10 +892,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_interview_mindset_and_scope',
+    id: '01-interview-mindset-and-scope',
     categoryId: 'system-design',
     chapterId: 'part03_interview_framework',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -1074,6 +917,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Ambiguity（模糊问题）`：模糊问题是回答“为什么一开始就给方案反而是危险信号？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Requirement Clarification（需求澄清）`：需求澄清是回答“为什么一开始就给方案反而是危险信号？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Assumption（假设）`：假设是回答“为什么一开始就给方案反而是危险信号？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Over-engineering（过度设计）`：过度设计是回答“为什么一开始就给方案反而是危险信号？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -1155,10 +1010,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_news_feed_scope_apis',
+    id: '01-news-feed-scope-apis',
     categoryId: 'system-design',
     chapterId: 'part11_news_feed',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -1180,6 +1035,17 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Feed Publishing（动态发布）`：动态发布是回答“news feed system 需要支持哪些核心动作？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Newsfeed Retrieval（信息流读取）`：信息流读取是按字符前缀组织数据，适合自动补全。它用更多内存换取更快的前缀查询。',
+          '`Reverse Chronological Order（倒序时间线）`：倒序时间线是回答“news feed system 需要支持哪些核心动作？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -1260,10 +1126,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_notification_scope',
+    id: '01-notification-scope',
     categoryId: 'system-design',
     chapterId: 'part10_notification_system',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -1285,6 +1151,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Mobile Push（移动推送）`：移动推送是回答“notification system 到底要支持哪些通知，以及这些通知有什么差异？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`SMS（短信）`：短信是回答“notification system 到底要支持哪些通知，以及这些通知有什么差异？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Email（邮件）`：邮件是回答“notification system 到底要支持哪些通知，以及这些通知有什么差异？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Device Token（设备令牌）`：设备令牌是回答“notification system 到底要支持哪些通知，以及这些通知有什么差异？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -1366,10 +1244,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_rate_limiter_problem_and_requirements',
+    id: '01-rate-limiter-problem-and-requirements',
     categoryId: 'system-design',
     chapterId: 'part04_rate_limiter',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -1391,6 +1269,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Rate Limiter（限流器）`：Rate Limiter 用来限制某个用户、IP、设备或 API 在一段时间内能发起多少请求。它的目标不是让系统更快，而是在流量异常、滥用或突发高峰时保护后端资源。',
+          '`Throttling（节流）`：Throttling 是把过快的请求压下来：超出规则的请求可能被拒绝、延迟、排队或降级。它强调“控制进入系统的速度”。',
+          '`DoS（拒绝服务攻击）`：DoS 指攻击者或异常客户端用大量请求耗尽系统资源，让正常用户无法访问。限流器是缓解 DoS 的一层防线，但通常还要配合 WAF、黑名单和网络层防护。',
+          '`HTTP 429（请求过多）`：HTTP 429 是告诉客户端“请求太多了”的状态码。好的 429 响应通常还会带上重试时间或限流规则提示，让客户端能退避重试，而不是立刻继续打爆服务。'
+        ],
         emphasisCards: []
       },
       {
@@ -1472,10 +1362,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_real_world_architecture_reading',
+    id: '01-real-world-architecture-reading',
     categoryId: 'system-design',
     chapterId: 'part16_learning_continues',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -1498,6 +1388,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Real-world Architecture（真实系统架构）`：真实系统架构是回答“读完案例后，如何继续提升系统设计能力？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Denormalization（反范式化）`：反范式化是回答“读完案例后，如何继续提升系统设计能力？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Distributed Storage（分布式存储）`：分布式存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
+          '`Scalability Case Study（可扩展性案例）`：可扩展性案例是回答“读完案例后，如何继续提升系统设计能力？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -1579,10 +1481,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_rehashing_problem',
+    id: '01-rehashing-problem',
     categoryId: 'system-design',
     chapterId: 'part05_consistent_hashing',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -1604,6 +1506,17 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Rehashing Problem（重哈希问题）`：重哈希问题指节点数量变化后，原来的 `hash(key) % N` 结果大面积改变，导致大量 key 被映射到新位置。它会让缓存命中率骤降，甚至把数据库打爆。',
+          '`Horizontal Scaling（水平扩展）`：水平扩展指通过增加更多机器来提高系统容量，而不是只给单机加 CPU 或内存。它的难点是请求、状态和数据如何在多台机器之间分配。',
+          '`Cache Miss Storm（缓存未命中风暴）`：缓存未命中风暴指大量请求同时绕过缓存打到后端。扩容、缓存失效或热点迁移时很容易出现这种情况。'
+        ],
         emphasisCards: []
       },
       {
@@ -1689,10 +1602,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_requirements_and_apis',
+    id: '01-requirements-and-apis',
     categoryId: 'system-design',
     chapterId: 'part08_url_shortener',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -1714,6 +1627,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`URL Shortening（短链接）`：短链接是回答“URL shortener 需要支持哪些核心操作和规模指标？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Redirect（重定向）`：重定向是让客户端从一个 URL 跳到另一个 URL。短链接系统要在缓存效果和访问统计之间选择 301 或 302。',
+          '`REST API`：REST API是定义客户端或服务之间如何交互。它需要把参数、权限、错误码、幂等性和版本演进说清楚。',
+          '`Short Code（短码）`：短码是回答“URL shortener 需要支持哪些核心操作和规模指标？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -1797,10 +1722,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_requirements_and_candidate_solutions',
+    id: '01-requirements-and-candidate-solutions',
     categoryId: 'system-design',
     chapterId: 'part07_unique_id',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -1822,6 +1747,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Unique ID（唯一 ID）`：唯一 ID是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
+          '`Sortable ID（可排序 ID）`：可排序 ID是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
+          '`Auto Increment（自增）`：自增是回答“为什么数据库 `auto_increment` 不适合分布式 ID？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Distributed Generation（分布式生成）`：分布式生成是回答“为什么数据库 `auto_increment` 不适合分布式 ID？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -1908,10 +1845,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_scope_and_single_server',
+    id: '01-scope-and-single-server',
     categoryId: 'system-design',
     chapterId: 'part06_key_value_store',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -1933,6 +1870,17 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Key-Value Pair（键值对）`：键值对是回答“为什么简单 hash table 不能支撑大规模 key-value store？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Opaque Value（不透明值）`：不透明值是回答“为什么简单 hash table 不能支撑大规模 key-value store？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Hot/Cold Data（冷热数据）`：冷热数据是回答“为什么简单 hash table 不能支撑大规模 key-value store？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -2018,10 +1966,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_single_server_request_flow',
+    id: '01-single-server-request-flow',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -2043,6 +1991,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`DNS（域名解析）`：DNS 负责把用户输入的域名解析成服务器 IP。它通常是一次请求链路的第一步；如果 DNS 配置错误，后端服务即使正常，用户也可能根本到不了系统。',
+          '`HTTP Request/Response（请求与响应）`：HTTP Request/Response 是客户端和服务端最常见的交互方式。客户端带着路径、参数、头部和正文发请求，服务端返回状态码、头部和数据。',
+          '`Web Server（业务服务器）`：Web Server 承接用户请求，执行路由、鉴权、业务逻辑和响应组装。系统刚起步时它可以和数据库在同一台机器上，规模变大后通常要单独扩展。',
+          '`JSON API（接口数据格式）`：JSON API 用结构化文本表达客户端和服务端之间的数据。它比 HTML 页面更适合移动端、前后端分离和服务间调用。'
+        ],
         emphasisCards: []
       },
       {
@@ -2124,10 +2084,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_units_and_latency_basics',
+    id: '01-units-and-latency-basics',
     categoryId: 'system-design',
     chapterId: 'part02_estimation',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -2149,6 +2109,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Power of Two（2 的幂）`：2 的幂是回答“系统设计面试中，为什么需要掌握数量级和常见延迟？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Byte/KB/MB/GB/TB/PB（容量单位）`：容量单位是回答“系统设计面试中，为什么需要掌握数量级和常见延迟？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Latency（延迟）`：延迟是衡量请求从发出到完成的时间。系统设计里要区分网络延迟、排队延迟、计算延迟和存储延迟。',
+          '`Memory vs Disk（内存与磁盘）`：内存与磁盘是回答“系统设计面试中，为什么需要掌握数量级和常见延迟？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -2230,10 +2202,10 @@ export const notes = [
     ]
   },
   {
-    id: '01_youtube_scope_cost',
+    id: '01-youtube-scope-cost',
     categoryId: 'system-design',
     chapterId: 'part14_youtube',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -2256,6 +2228,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Video Streaming（视频流）`：视频流是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
+          '`CDN（内容分发网络）`：CDN 把静态或大媒体内容缓存到离用户更近的边缘节点。它降低延迟和源站带宽压力，但要处理缓存失效和成本。',
+          '`Blob Storage（对象存储）`：对象存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
+          '`Bandwidth Cost（带宽成本）`：带宽成本是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。'
+        ],
         emphasisCards: []
       },
       {
@@ -2337,10 +2321,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_architecture_storage_model',
+    id: '02-architecture-storage-model',
     categoryId: 'system-design',
     chapterId: 'part12_chat_system',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -2362,6 +2346,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Stateless Service（无状态服务）`：无状态服务是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Stateful Chat Server（有状态聊天服务器）`：有状态聊天服务器是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Message ID（消息 ID）`：消息 ID是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
+          '`Channel ID（会话 ID）`：会话 ID是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。'
+        ],
         emphasisCards: []
       },
       {
@@ -2442,10 +2438,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_availability_and_sla',
+    id: '02-availability-and-sla',
     categoryId: 'system-design',
     chapterId: 'part02_estimation',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -2467,6 +2463,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`High Availability（高可用）`：高可用是描述系统在故障和维护下仍能服务用户的能力。更高可用性通常意味着冗余、自动切换和更高成本。',
+          '`SLA（服务等级协议）`：服务等级协议是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Uptime（正常运行时间）`：正常运行时间是描述系统在故障和维护下仍能服务用户的能力。更高可用性通常意味着冗余、自动切换和更高成本。',
+          '`Downtime（停机时间）`：停机时间是描述系统在故障和维护下仍能服务用户的能力。更高可用性通常意味着冗余、自动切换和更高成本。'
+        ],
         emphasisCards: []
       },
       {
@@ -2548,10 +2556,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_cap_and_tradeoffs',
+    id: '02-cap-and-tradeoffs',
     categoryId: 'system-design',
     chapterId: 'part06_key_value_store',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -2573,6 +2581,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`CAP Theorem（CAP 定理）`：CAP Theorem 说明在网络分区发生时，分布式系统必须在一致性和可用性之间做取舍。它不是公式，而是故障场景下的设计提醒。',
+          '`Consistency（一致性）`：一致性是描述多个副本或多个读写路径看到的数据是否一致。越强的一致性通常越影响延迟和可用性。',
+          '`Availability（可用性）`：可用性是描述系统在故障和维护下仍能服务用户的能力。更高可用性通常意味着冗余、自动切换和更高成本。',
+          '`Partition Tolerance（分区容错）`：分区容错是把数据或任务拆到多个节点上处理。关键是选择分片键、避免热点，并准备好扩容和重分片方案。'
+        ],
         emphasisCards: []
       },
       {
@@ -2664,10 +2684,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_compare_id_generation_options',
+    id: '02-compare-id-generation-options',
     categoryId: 'system-design',
     chapterId: 'part07_unique_id',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -2689,6 +2709,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`UUID（通用唯一标识符）`：UUID 是随机或半随机生成的全局唯一标识。它简单可靠，但通常较长，也不天然按时间排序。',
+          '`Ticket Server（发号服务器）`：发号服务器是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Single Point of Failure（单点故障）`：单点故障是回答“哪些方案简单但不满足 64-bit、排序或高可用要求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Snowflake`：Snowflake 把时间戳、机器标识和序列号拼成 64-bit ID。它能在分布式环境里生成趋势递增、全局唯一的 ID。'
+        ],
         emphasisCards: []
       },
       {
@@ -2777,10 +2809,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_crawler_pipeline',
+    id: '02-crawler-pipeline',
     categoryId: 'system-design',
     chapterId: 'part09_web_crawler',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -2802,6 +2834,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`URL Frontier（待抓 URL 队列）`：URL Frontier 是待抓 URL 的调度队列。它不仅保存 URL，还决定抓取顺序、优先级和对同一站点的访问频率。',
+          '`HTML Downloader（页面下载器）`：页面下载器是回答“一个 crawler 从 seed URL 到存储网页内容，完整链路经过哪些组件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Content Parser（内容解析器）`：内容解析器是回答“一个 crawler 从 seed URL 到存储网页内容，完整链路经过哪些组件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`URL Seen（URL 去重）`：URL 去重是回答“一个 crawler 从 seed URL 到存储网页内容，完整链路经过哪些组件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -2882,10 +2926,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_database_and_basic_scaling',
+    id: '02-database-and-basic-scaling',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -2907,6 +2951,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`RDBMS/SQL（关系型数据库）`：关系型数据库是是持久化核心数据的地方。系统变大后，要考虑读写分离、索引、复制、分片和跨分片查询。',
+          '`NoSQL（非关系型数据库）`：非关系型数据库是是持久化核心数据的地方。系统变大后，要考虑读写分离、索引、复制、分片和跨分片查询。',
+          '`Vertical Scaling（纵向扩展）`：纵向扩展是回答“为什么要把 Web Tier（业务层）和 Data Tier（数据层）分离？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Horizontal Scaling（横向扩展）`：水平扩展指通过增加更多机器来提高系统容量，而不是只给单机加 CPU 或内存。它的难点是请求、状态和数据如何在多台机器之间分配。'
+        ],
         emphasisCards: []
       },
       {
@@ -2988,10 +3044,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_engineering_blogs_learning_loop',
+    id: '02-engineering-blogs-learning-loop',
     categoryId: 'system-design',
     chapterId: 'part16_learning_continues',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3014,6 +3070,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Engineering Blog（工程博客）`：工程博客是回答“如何把公司工程博客变成系统设计训练材料？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Postmortem（事故复盘）`：事故复盘是回答“如何把公司工程博客变成系统设计训练材料？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`A/B Testing（实验平台）`：实验平台是回答“如何把公司工程博客变成系统设计训练材料？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Learning Loop（学习闭环）`：学习闭环是回答“如何把公司工程博客变成系统设计训练材料？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -3095,10 +3163,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_feed_publishing_fanout',
+    id: '02-feed-publishing-fanout',
     categoryId: 'system-design',
     chapterId: 'part11_news_feed',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3120,6 +3188,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Fanout on Write（写时分发）`：Fanout on Write 在用户发布内容时就把内容 ID 写入关注者的 feed。读取很快，但大 V 发布会造成巨大写入压力。',
+          '`Fanout on Read（读时拉取）`：Fanout on Read 在用户打开 feed 时再拉取关注对象的新内容。写入轻，但读取时需要实时聚合，延迟更高。',
+          '`Celebrity User（大 V 用户）`：大 V 用户是回答“用户发帖后，系统应该立即推给所有好友，还是等好友打开时再拉取？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Hotkey Problem（热点问题）`：热点问题是回答“用户发帖后，系统应该立即推给所有好友，还是等好友打开时再拉取？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -3200,10 +3280,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_hash_ring_lookup',
+    id: '02-hash-ring-lookup',
     categoryId: 'system-design',
     chapterId: 'part05_consistent_hashing',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3225,6 +3305,17 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Consistent Hashing（一致性哈希）`：Consistent Hashing 把 key 和节点映射到同一个哈希环上。节点增删时只影响环上的局部区间，避免普通取模哈希导致大规模迁移。',
+          '`Hash Ring（哈希环）`：Hash Ring 是一致性哈希的环形空间。key 沿顺时针找到的第一个节点负责存储它。',
+          '`Clockwise Lookup（顺时针查找）`：顺时针查找是回答“如何不用取模，也能把 key 稳定映射到服务器？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -3309,10 +3400,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_high_level_data_query_service',
+    id: '02-high-level-data-query-service',
     categoryId: 'system-design',
     chapterId: 'part13_autocomplete',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3335,6 +3426,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Frequency Table（频率表）`：频率表是回答“如何把统计搜索词和实时返回建议拆成两个子系统？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Query Service（查询服务）`：查询服务是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Data Gathering（数据采集）`：数据采集是回答“如何把统计搜索词和实时返回建议拆成两个子系统？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`读写路径分离`：读写路径分离是回答“如何把统计搜索词和实时返回建议拆成两个子系统？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -3416,10 +3519,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_high_level_design',
+    id: '02-high-level-design',
     categoryId: 'system-design',
     chapterId: 'part03_interview_framework',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3441,6 +3544,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`High-level Design（高层设计）`：高层设计是回答“如何从需求进入可讨论的系统蓝图？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Box Diagram（方框图）`：方框图是回答“如何从需求进入可讨论的系统蓝图？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Use Case（用例）`：用例是回答“如何从需求进入可讨论的系统蓝图？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`API/Schema Boundary（接口和数据模型边界）`：接口和数据模型边界是定义客户端或服务之间如何交互。它需要把参数、权限、错误码、幂等性和版本演进说清楚。'
+        ],
         emphasisCards: []
       },
       {
@@ -3522,10 +3637,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_high_level_flow',
+    id: '02-high-level-flow',
     categoryId: 'system-design',
     chapterId: 'part10_notification_system',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3547,6 +3662,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Notification Server（通知服务器）`：通知服务器是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Message Queue（消息队列）`：Message Queue 把生产者和消费者解耦。上游先把任务放进队列，下游按能力慢慢处理，从而削峰、重试和隔离故障。',
+          '`Worker`：Worker是回答“一条通知从业务服务发出，到最终抵达用户，中间经过哪些系统组件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Payload（通知载荷）`：通知载荷是回答“一条通知从业务服务发出，到最终抵达用户，中间经过哪些系统组件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -3627,10 +3754,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_placement_and_api_gateway',
+    id: '02-placement-and-api-gateway',
     categoryId: 'system-design',
     chapterId: 'part04_rate_limiter',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3652,6 +3779,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Client-side Limiting（客户端限流）`：客户端限流只能约束正常客户端，不能阻止恶意用户篡改代码或绕过限制。因此它适合改善体验，不适合作为强制安全边界。',
+          '`Server-side Limiting（服务端限流）`：服务端限流在可信边界内执行，能真正保护 API、数据库和下游服务。代价是每个请求都要经过规则判断和计数更新。',
+          '`Middleware（中间件）`：Middleware 位于请求进入业务逻辑之前，适合做通用检查，例如鉴权、日志、限流和参数校验。它让限流逻辑不必散落在每个业务接口里。',
+          '`API Gateway（API 网关）`：API Gateway 是微服务入口层，可以统一做认证、路由、限流、SSL 终止和监控。它适合跨服务统一治理，但也可能成为关键路径上的复杂组件。'
+        ],
         emphasisCards: []
       },
       {
@@ -3733,10 +3872,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_redirect_flow_and_status_code',
+    id: '02-redirect-flow-and-status-code',
     categoryId: 'system-design',
     chapterId: 'part08_url_shortener',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3758,6 +3897,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`301 Redirect（永久重定向）`：301 是永久重定向，浏览器和搜索引擎可能缓存结果。它能减少短链服务压力，但不利于统计每次访问。',
+          '`302 Redirect（临时重定向）`：302 是临时重定向，客户端下次通常仍会访问短链服务。它更适合需要统计点击、风控或动态跳转的场景。',
+          '`Browser Cache（浏览器缓存）`：浏览器缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
+          '`Analytics（访问统计）`：访问统计是回答“访问短链接时，系统应该返回永久跳转还是临时跳转？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -3846,10 +3997,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_single_server_to_high_level',
+    id: '02-single-server-to-high-level',
     categoryId: 'system-design',
     chapterId: 'part15_google_drive',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3872,6 +4023,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Namespace（命名空间）`：命名空间是回答“一个简单文件服务器如何演化成百万用户云盘？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Object Storage（对象存储）`：对象存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
+          '`Metadata（元数据）`：元数据是回答“一个简单文件服务器如何演化成百万用户云盘？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Sharding（分片）`：分片是把数据或任务拆到多个节点上处理。关键是选择分片键、避免热点，并准备好扩容和重分片方案。'
+        ],
         emphasisCards: []
       },
       {
@@ -3953,10 +4116,10 @@ export const notes = [
     ]
   },
   {
-    id: '02_upload_streaming_high_level',
+    id: '02-upload-streaming-high-level',
     categoryId: 'system-design',
     chapterId: 'part14_youtube',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -3979,6 +4142,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`API Server（接口服务）`：接口服务是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Metadata DB（元数据数据库）`：元数据数据库是是持久化核心数据的地方。系统变大后，要考虑读写分离、索引、复制、分片和跨分片查询。',
+          '`Original Storage（原始视频存储）`：原始视频存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
+          '`Transcoding Server（转码服务）`：转码服务是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。'
+        ],
         emphasisCards: []
       },
       {
@@ -4060,10 +4235,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_block_server_consistency',
+    id: '03-block-server-consistency',
     categoryId: 'system-design',
     chapterId: 'part15_google_drive',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -4086,6 +4261,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Block Server（块服务器）`：Block Server 把文件切成块，处理压缩、加密和上传。云盘系统用它实现增量同步，避免每次修改都重传整个文件。',
+          '`Delta Sync（增量同步）`：Delta Sync 只同步发生变化的部分。它能显著减少云盘、文档和大文件场景下的上传带宽。',
+          '`Compression（压缩）`：压缩是回答“如何避免每次修改都重新上传整个文件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Encryption（加密）`：加密是回答“如何避免每次修改都重新上传整个文件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -4167,10 +4354,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_design_deep_dive',
+    id: '03-design-deep-dive',
     categoryId: 'system-design',
     chapterId: 'part03_interview_framework',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -4192,6 +4379,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Bottleneck（瓶颈）`：瓶颈是回答“如何选择系统设计中的深挖点？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Tradeoff（取舍）`：取舍是回答“如何选择系统设计中的深挖点？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Critical Path（关键路径）`：关键路径是回答“如何选择系统设计中的深挖点？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Component Deep Dive（组件深挖）`：组件深挖是回答“如何选择系统设计中的深挖点？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -4273,10 +4472,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_feed_retrieval_scaling',
+    id: '03-feed-retrieval-scaling',
     categoryId: 'system-design',
     chapterId: 'part11_news_feed',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -4298,6 +4497,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`News Feed Cache（信息流缓存）`：信息流缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
+          '`Post ID List（帖子 ID 列表）`：帖子 ID 列表是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
+          '`Hydration（内容补全）`：内容补全是回答“用户刷新 feed 时，系统如何快速返回完整、可展示的信息流？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`CDN`：CDN 把静态或大媒体内容缓存到离用户更近的边缘节点。它降低延迟和源站带宽压力，但要处理缓存失效和成本。'
+        ],
         emphasisCards: []
       },
       {
@@ -4378,10 +4589,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_hash_function_and_base62',
+    id: '03-hash-function-and-base62',
     categoryId: 'system-design',
     chapterId: 'part08_url_shortener',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -4403,6 +4614,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Hash Function（哈希函数）`：哈希函数是把输入映射到固定空间，常用于分布、查找和去重。系统设计里要关注分布是否均匀，以及节点变化时映射是否稳定。',
+          '`Collision Resolution（碰撞解决）`：碰撞解决是回答“如何把长 URL 映射成足够短且不冲突的字符串？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Base62`：Base62 用 0-9、a-z、A-Z 表示数字，比十进制更短。短链接系统常把唯一数字 ID 转成 Base62 作为短码。',
+          '`Bloom Filter（布隆过滤器）`：Bloom Filter 是一种节省空间的概率结构，用来判断某个元素是否可能存在。它可能误判存在，但不会漏掉真实存在的元素。'
+        ],
         emphasisCards: []
       },
       {
@@ -4489,10 +4712,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_load_balancer_and_replication',
+    id: '03-load-balancer-and-replication',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -4514,6 +4737,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Load Balancer（负载均衡器）`：负载均衡器是回答“如何避免单个 Web Server 或单个数据库宕机导致系统不可用？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Private IP（内网 IP）`：内网 IP是回答“如何避免单个 Web Server 或单个数据库宕机导致系统不可用？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Failover（故障切换）`：故障切换是回答“如何避免单个 Web Server 或单个数据库宕机导致系统不可用？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Database Replication（数据库复制）`：数据库复制是是持久化核心数据的地方。系统变大后，要考虑读写分离、索引、复制、分片和跨分片查询。'
+        ],
         emphasisCards: []
       },
       {
@@ -4595,10 +4830,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_node_change_affected_keys',
+    id: '03-node-change-affected-keys',
     categoryId: 'system-design',
     chapterId: 'part05_consistent_hashing',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -4620,6 +4855,17 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Affected Range（受影响区间）`：受影响区间是回答“服务器加入或离开时，如何找出受影响的 key 范围？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Server Add/Remove（节点增删）`：节点增删是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Local Redistribution（局部重分布）`：局部重分布是回答“服务器加入或离开时，如何找出受影响的 key 范围？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -4709,10 +4955,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_partition_and_replication',
+    id: '03-partition-and-replication',
     categoryId: 'system-design',
     chapterId: 'part06_key_value_store',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -4734,6 +4980,17 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Data Partition（数据分区）`：数据分区是把数据或任务拆到多个节点上处理。关键是选择分片键、避免热点，并准备好扩容和重分片方案。',
+          '`Replication Factor（副本数）`：副本数是通过保存多份副本提高可用性和读吞吐。它解决单点故障，但会引入复制延迟和一致性问题。',
+          '`Virtual Nodes（虚拟节点）`：Virtual Nodes 让一台真实服务器在环上占多个位置。这样可以让负载更均匀，也能按机器能力配置不同权重。'
+        ],
         emphasisCards: []
       },
       {
@@ -4819,10 +5076,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_qps_and_storage_estimation',
+    id: '03-qps-and-storage-estimation',
     categoryId: 'system-design',
     chapterId: 'part02_estimation',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -4844,6 +5101,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`DAU（日活用户）`：日活用户是回答“如何从用户数和使用频率推导系统吞吐与存储需求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`QPS（每秒查询数）`：每秒查询数是回答“如何从用户数和使用频率推导系统吞吐与存储需求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Peak QPS（峰值 QPS）`：峰值 QPS是回答“如何从用户数和使用频率推导系统吞吐与存储需求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Storage Requirement（存储需求）`：存储需求是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。'
+        ],
         emphasisCards: []
       },
       {
@@ -4925,10 +5194,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_reliability_and_controls',
+    id: '03-reliability-and-controls',
     categoryId: 'system-design',
     chapterId: 'part10_notification_system',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -4950,6 +5219,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Retry（重试）`：重试是回答“如何让通知系统既可靠，又不把用户打扰到关闭通知？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Notification Template（通知模板）`：通知模板是回答“如何让通知系统既可靠，又不把用户打扰到关闭通知？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Opt-in/Opt-out（订阅设置）`：订阅设置是回答“如何让通知系统既可靠，又不把用户打扰到关闭通知？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Rate Limiting（限流）`：限流是用于控制请求进入系统的速度。它保护后端资源，但规则过严会误伤正常用户。'
+        ],
         emphasisCards: []
       },
       {
@@ -5030,10 +5311,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_service_discovery_one_to_one_flow',
+    id: '03-service-discovery-one-to-one-flow',
     categoryId: 'system-design',
     chapterId: 'part12_chat_system',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -5055,6 +5336,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Service Discovery（服务发现）`：服务发现是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Zookeeper`：Zookeeper是回答“用户登录后，系统如何选择 chat server，并把消息从 A 送到 B？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`WebSocket Connection（连接）`：WebSocket 是客户端和服务端之间的持久双向连接。聊天和在线状态这类实时场景，用它可以让服务端主动推送消息。',
+          '`Message Sync Queue（消息同步队列）`：消息同步队列是用来把请求或任务排起来，让生产者和消费者解耦。它能削峰、重试和异步处理，但也会带来积压、顺序和幂等问题。'
+        ],
         emphasisCards: []
       },
       {
@@ -5135,10 +5428,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_snowflake_deep_dive',
+    id: '03-snowflake-deep-dive',
     categoryId: 'system-design',
     chapterId: 'part07_unique_id',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -5160,6 +5453,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Timestamp Bits（时间戳位）`：时间戳位是回答“如何把时间、机房、机器和序列号组合成唯一 ID？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Datacenter ID（机房号）`：机房号是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
+          '`Machine ID（机器号）`：机器号是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
+          '`Sequence Number（序列号）`：序列号是回答“如何把时间、机房、机器和序列号组合成唯一 ID？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -5245,10 +5550,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_token_leaky_fixed_window',
+    id: '03-token-leaky-fixed-window',
     categoryId: 'system-design',
     chapterId: 'part04_rate_limiter',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -5270,6 +5575,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Token Bucket（令牌桶）`：Token Bucket 按固定速率往桶里放令牌，请求拿到令牌才能通过。它允许短时间突发，因为桶里可以提前积累令牌。',
+          '`Leaking Bucket（漏桶）`：Leaking Bucket 把请求放进队列，再按固定速率流出。它能平滑下游压力，但突发流量太大时队列会满，新请求会被丢弃或拒绝。',
+          '`Fixed Window Counter（固定窗口计数器）`：Fixed Window Counter 把时间切成固定窗口，例如每分钟计数一次。实现简单，但窗口边界可能让用户在两分钟交界处连续打出两倍请求。',
+          '`Bucket Size（桶容量）`：桶容量是是限流算法里衡量时间和容量的结构。它决定短时突发能否通过、计数是否准确、内存成本有多高。'
+        ],
         emphasisCards: []
       },
       {
@@ -5351,10 +5668,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_transcoding_dag',
+    id: '03-transcoding-dag',
     categoryId: 'system-design',
     chapterId: 'part14_youtube',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -5377,6 +5694,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Transcoding（视频转码）`：视频转码是回答“如何把一个视频处理成多设备、多码率、多格式可播放的版本？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Bitrate（码率）`：码率是用于控制请求进入系统的速度。它保护后端资源，但规则过严会误伤正常用户。',
+          '`DAG（有向无环图）`：DAG 是有向无环图，适合描述视频转码里的任务依赖。不同转码、截图、水印任务可以并行执行，也可以失败重试。',
+          '`GOP（画面组）`：画面组是回答“如何把一个视频处理成多设备、多码率、多格式可播放的版本？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -5458,10 +5787,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_trie_optimization',
+    id: '03-trie-optimization',
     categoryId: 'system-design',
     chapterId: 'part13_autocomplete',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -5484,6 +5813,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Trie（前缀树）`：Trie 是前缀树，适合按输入前缀查候选词。自动补全系统常在每个节点缓存 Top K，提高查询速度。',
+          '`Prefix Node（前缀节点）`：前缀节点是 Trie 中代表某个输入前缀的位置，例如 `app` 节点代表所有以 `app` 开头的候选。查询定位到这个节点后，才能读取对应的候选列表。',
+          '`Top K Cache（节点热门结果缓存）`：节点热门结果缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
+          '`Space-Time Tradeoff（空间换时间）`：空间换时间指用更多存储或内存保存预计算结果，从而减少在线请求的计算时间。自动补全里，每个节点保存 Top K 就是典型例子。'
+        ],
         emphasisCards: []
       },
       {
@@ -5565,10 +5906,10 @@ export const notes = [
     ]
   },
   {
-    id: '03_url_frontier_scheduling',
+    id: '03-url-frontier-scheduling',
     categoryId: 'system-design',
     chapterId: 'part09_web_crawler',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -5590,6 +5931,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`BFS（广度优先）`：广度优先是回答“crawler 如何决定先抓哪个 URL，并避免对同一 host 发起过多请求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Priority（优先级）`：优先级是回答“crawler 如何决定先抓哪个 URL，并避免对同一 host 发起过多请求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Freshness（新鲜度）`：新鲜度是回答“crawler 如何决定先抓哪个 URL，并避免对同一 host 发起过多请求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Host-based Queue（按主机分队列）`：按主机分队列是用来把请求或任务排起来，让生产者和消费者解耦。它能削峰、重试和异步处理，但也会带来积压、顺序和幂等问题。'
+        ],
         emphasisCards: []
       },
       {
@@ -5670,10 +6023,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_cache_and_cdn',
+    id: '04-cache-and-cdn',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -5695,6 +6048,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Cache（缓存）`：缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
+          '`TTL（过期时间）`：过期时间是回答“如何减少数据库压力，并让全球用户更快获取静态资源？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Eviction Policy（淘汰策略）`：淘汰策略是回答“如何减少数据库压力，并让全球用户更快获取静态资源？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`CDN（内容分发网络）`：CDN 把静态或大媒体内容缓存到离用户更近的边缘节点。它降低延迟和源站带宽压力，但要处理缓存失效和成本。'
+        ],
         emphasisCards: []
       },
       {
@@ -5776,10 +6141,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_data_model_and_end_to_end_flow',
+    id: '04-data-model-and-end-to-end-flow',
     categoryId: 'system-design',
     chapterId: 'part08_url_shortener',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -5801,6 +6166,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Mapping Table（映射表）`：映射表是回答“创建和访问短链接时，数据库、缓存、Web 层如何协作？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Cache（缓存）`：缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
+          '`Stateless Web Tier（无状态 Web 层）`：无状态 Web 层是回答“创建和访问短链接时，数据库、缓存、Web 层如何协作？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Rate Limiter（限流器）`：Rate Limiter 用来限制某个用户、IP、设备或 API 在一段时间内能发起多少请求。它的目标不是让系统更快，而是在流量异常、滥用或突发高峰时保护后端资源。'
+        ],
         emphasisCards: []
       },
       {
@@ -5886,10 +6263,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_downloader_robustness',
+    id: '04-downloader-robustness',
     categoryId: 'system-design',
     chapterId: 'part09_web_crawler',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -5911,6 +6288,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`robots.txt（爬虫访问规则）`：robots.txt 是网站声明爬虫访问规则的文件。遵守它是爬虫系统礼貌性和合规性的基础。',
+          '`DNS Cache（DNS 缓存）`：DNS 缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
+          '`Crawler Trap（爬虫陷阱）`：爬虫陷阱是回答“crawler 如何在复杂互联网环境中稳定运行，并避开重复、垃圾和陷阱内容？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Spam Filtering（垃圾过滤）`：垃圾过滤是回答“crawler 如何在复杂互联网环境中稳定运行，并避开重复、垃圾和陷阱内容？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -5991,10 +6380,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_monitoring_security_analytics',
+    id: '04-monitoring-security-analytics',
     categoryId: 'system-design',
     chapterId: 'part10_notification_system',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6016,6 +6405,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Authentication（认证）`：认证是回答“通知发出去之后，系统如何知道它是否健康、是否安全、是否有效？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Queue Depth（队列积压）`：队列积压是用来把请求或任务排起来，让生产者和消费者解耦。它能削峰、重试和异步处理，但也会带来积压、顺序和幂等问题。',
+          '`Alerting（告警）`：告警是回答“通知发出去之后，系统如何知道它是否健康、是否安全、是否有效？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Click Rate（点击率）`：点击率是用于控制请求进入系统的速度。它保护后端资源，但规则过严会误伤正常用户。'
+        ],
         emphasisCards: []
       },
       {
@@ -6097,10 +6498,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_multi_device_group_chat',
+    id: '04-multi-device-group-chat',
     categoryId: 'system-design',
     chapterId: 'part12_chat_system',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6122,6 +6523,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Message Synchronization（消息同步）`：消息同步是回答“同一个账号登录多台设备时，如何保证每台设备都能同步消息？群聊又如何扩展？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`cur_max_message_id`：cur_max_message_id是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
+          '`Device Sync（设备同步）`：设备同步是回答“同一个账号登录多台设备时，如何保证每台设备都能同步消息？群聊又如何扩展？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Group Chat Flow（群聊流程）`：群聊流程是回答“同一个账号登录多台设备时，如何保证每台设备都能同步消息？群聊又如何扩展？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -6202,10 +6615,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_optimization_security_cost',
+    id: '04-optimization-security-cost',
     categoryId: 'system-design',
     chapterId: 'part14_youtube',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6228,6 +6641,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Resumable Upload（断点续传）`：断点续传是回答“如何让上传更快、视频更安全、分发更便宜？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Pre-signed URL（预签名地址）`：预签名地址是回答“如何让上传更快、视频更安全、分发更便宜？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`DRM（数字版权管理）`：数字版权管理是回答“如何让上传更快、视频更安全、分发更便宜？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Long-tail Distribution（长尾分发）`：长尾分发是回答“如何让上传更快、视频更安全、分发更便宜？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -6309,10 +6734,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_production_autocomplete',
+    id: '04-production-autocomplete',
     categoryId: 'system-design',
     chapterId: 'part13_autocomplete',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6335,6 +6760,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Analytics Logs（分析日志）`：分析日志是回答“如何把 Trie 方案扩展到高流量、多地区、可维护的线上系统？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Aggregator（聚合器）`：聚合器是回答“如何把 Trie 方案扩展到高流量、多地区、可维护的线上系统？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Trie Cache（前缀树缓存）`：前缀树缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
+          '`Shard Map Manager（分片映射管理器）`：分片映射管理器是把数据或任务拆到多个节点上处理。关键是选择分片键、避免热点，并准备好扩容和重分片方案。'
+        ],
         emphasisCards: []
       },
       {
@@ -6416,10 +6853,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_quorum_versioning_vector_clock',
+    id: '04-quorum-versioning-vector-clock',
     categoryId: 'system-design',
     chapterId: 'part06_key_value_store',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6441,6 +6878,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Quorum（法定票数）`：Quorum 是读写操作需要获得的最小副本确认数。通过调整 R、W、N，可以在读延迟、写延迟和一致性之间取舍。',
+          '`Read/Write Quorum（读写多数派）`：读写多数派是回答“多副本写入后，系统如何判断读到的是足够新的数据？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Vector Clock（向量时钟）`：Vector Clock 记录不同节点上版本演进的因果关系。它能发现两个版本是先后覆盖，还是并发写入造成冲突。',
+          '`Conflict Resolution（冲突解决）`：冲突解决是回答“多副本写入后，系统如何判断读到的是足够新的数据？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -6523,10 +6972,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_sliding_window_algorithms',
+    id: '04-sliding-window-algorithms',
     categoryId: 'system-design',
     chapterId: 'part04_rate_limiter',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6548,6 +6997,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Sliding Window Log（滑动窗口日志）`：Sliding Window Log 保存每次请求的时间戳，判断最近一段时间内请求数是否超限。它很准确，但高流量用户会占用较多内存。',
+          '`Timestamp Log（时间戳日志）`：时间戳日志是回答“如何在滚动时间范围内更准确地限制请求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Sliding Window Counter（滑动窗口计数器）`：Sliding Window Counter 用当前窗口和上一个窗口的加权计数近似最近一段时间的请求数。它比日志省内存，但牺牲一点精度。',
+          '`Approximation（近似计算）`：近似计算是回答“如何在滚动时间范围内更准确地限制请求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -6629,10 +7090,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_upload_download_notification',
+    id: '04-upload-download-notification',
     categoryId: 'system-design',
     chapterId: 'part15_google_drive',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6655,6 +7116,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Upload Flow（上传流程）`：上传流程是回答“一个设备修改文件后，其他设备如何及时同步？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Download Flow（下载流程）`：下载流程是回答“一个设备修改文件后，其他设备如何及时同步？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Notification Service（通知服务）`：通知服务是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Long Polling（长轮询）`：长轮询是回答“一个设备修改文件后，其他设备如何及时同步？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -6736,10 +7209,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_virtual_nodes_tradeoff',
+    id: '04-virtual-nodes-tradeoff',
     categoryId: 'system-design',
     chapterId: 'part05_consistent_hashing',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6761,6 +7234,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Virtual Nodes（虚拟节点）`：Virtual Nodes 让一台真实服务器在环上占多个位置。这样可以让负载更均匀，也能按机器能力配置不同权重。',
+          '`Partition Size（分区大小）`：分区大小是把数据或任务拆到多个节点上处理。关键是选择分片键、避免热点，并准备好扩容和重分片方案。',
+          '`Hotspot Key（热点 key）`：热点 key是回答“为什么真实服务器直接上环仍可能分布不均？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Heterogeneous Capacity（异构容量）`：异构容量是回答“为什么真实服务器直接上环仍可能分布不均？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -6849,10 +7334,10 @@ export const notes = [
     ]
   },
   {
-    id: '04_wrap_up_dos_and_donts',
+    id: '04-wrap-up-dos-and-donts',
     categoryId: 'system-design',
     chapterId: 'part03_interview_framework',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6874,6 +7359,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Recap（复盘）`：复盘是回答“怎样把系统设计面试自然收束，并留下可靠印象？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Failure Cases（故障场景）`：故障场景是回答“怎样把系统设计面试自然收束，并留下可靠印象？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Operational Concerns（运维问题）`：运维问题是回答“怎样把系统设计面试自然收束，并留下可靠印象？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Scale Curve（下一阶段规模）`：下一阶段规模是回答“怎样把系统设计面试自然收束，并留下可靠印象？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -6955,10 +7452,10 @@ export const notes = [
     ]
   },
   {
-    id: '05_failure_detection_and_repair',
+    id: '05-failure-detection-and-repair',
     categoryId: 'system-design',
     chapterId: 'part06_key_value_store',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -6980,6 +7477,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Gossip Protocol（流言协议）`：Gossip Protocol 让节点像传消息一样互相交换集群状态。它不依赖中心节点，适合大规模系统里的故障检测和状态传播。',
+          '`Hinted Handoff（提示移交）`：提示移交是回答“节点挂掉后，系统怎样继续服务并恢复一致？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Anti-entropy（反熵修复）`：反熵修复是回答“节点挂掉后，系统怎样继续服务并恢复一致？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Merkle Tree（默克尔树）`：Merkle Tree 用树状哈希快速比较两份数据集合差异。副本修复时，不必逐条比较全部 key，只要定位不一致的子树。'
+        ],
         emphasisCards: []
       },
       {
@@ -7067,10 +7576,10 @@ export const notes = [
     ]
   },
   {
-    id: '05_failure_wrap_up',
+    id: '05-failure-wrap-up',
     categoryId: 'system-design',
     chapterId: 'part14_youtube',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -7093,6 +7602,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Recoverable Error（可恢复错误）`：可恢复错误是回答“视频平台怎样在局部失败时继续服务用户？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Retry（重试）`：重试是回答“视频平台怎样在局部失败时继续服务用户？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Replica（副本）`：副本是通过保存多份副本提高可用性和读吞吐。它解决单点故障，但会引入复制延迟和一致性问题。',
+          '`Live Streaming（直播）`：直播是回答“视频平台怎样在局部失败时继续服务用户？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -7174,10 +7695,10 @@ export const notes = [
     ]
   },
   {
-    id: '05_high_level_architecture',
+    id: '05-high-level-architecture',
     categoryId: 'system-design',
     chapterId: 'part04_rate_limiter',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -7199,6 +7720,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Rate Limiting Middleware（限流中间件）`：限流中间件是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
+          '`Redis（内存数据存储）`：Redis 是内存型数据存储，适合保存限流计数器、短期状态和缓存。它支持过期时间和原子操作，比用数据库做实时计数更合适。',
+          '`INCR（自增命令）`：INCR 是 Redis 的原子自增命令，适合把某个 key 的请求计数加一。配合过期时间可以实现固定窗口计数。',
+          '`EXPIRE（过期命令）`：EXPIRE 用来给 Redis key 设置过期时间。限流计数器如果不过期，会无限增长并污染后续窗口。'
+        ],
         emphasisCards: []
       },
       {
@@ -7280,10 +7813,10 @@ export const notes = [
     ]
   },
   {
-    id: '05_presence_and_wrap_up',
+    id: '05-presence-and-wrap-up',
     categoryId: 'system-design',
     chapterId: 'part12_chat_system',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -7305,6 +7838,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Online Presence（在线状态）`：在线状态是回答“聊天系统如何显示在线/离线，又不被频繁网络波动拖垮？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Heartbeat（心跳）`：心跳是回答“聊天系统如何显示在线/离线，又不被频繁网络波动拖垮？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Disconnect Handling（断线处理）`：断线处理是回答“聊天系统如何显示在线/离线，又不被频繁网络波动拖垮？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Status Subscription（状态订阅）`：状态订阅是回答“聊天系统如何显示在线/离线，又不被频繁网络波动拖垮？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -7385,10 +7930,10 @@ export const notes = [
     ]
   },
   {
-    id: '05_stateless_web_tier_and_autoscaling',
+    id: '05-stateless-web-tier-and-autoscaling',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -7410,6 +7955,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Stateful Architecture（有状态架构）`：有状态架构是回答“为什么 Stateful Server 会阻碍横向扩展？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Stateless Architecture（无状态架构）`：无状态架构是回答“为什么 Stateful Server 会阻碍横向扩展？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Session Store（会话存储）`：会话存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
+          '`Autoscaling（自动扩缩容）`：自动扩缩容是回答“为什么 Stateful Server 会阻碍横向扩展？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -7491,10 +8048,10 @@ export const notes = [
     ]
   },
   {
-    id: '05_storage_failure_tradeoffs',
+    id: '05-storage-failure-tradeoffs',
     categoryId: 'system-design',
     chapterId: 'part15_google_drive',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -7517,6 +8074,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Deduplication（去重）`：去重是回答“云盘如何在可靠性、成本和复杂度之间平衡？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Cold Storage（冷存储）`：冷存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
+          '`Version Retention（版本保留）`：版本保留是回答“云盘如何在可靠性、成本和复杂度之间平衡？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Failover（故障切换）`：故障切换是回答“云盘如何在可靠性、成本和复杂度之间平衡？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -7598,10 +8167,10 @@ export const notes = [
     ]
   },
   {
-    id: '06_architecture_read_write_path',
+    id: '06-architecture-read-write-path',
     categoryId: 'system-design',
     chapterId: 'part06_key_value_store',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -7623,6 +8192,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Coordinator Node（协调节点）`：协调节点是回答“一次 `put` 和 `get` 在分布式 KV store 内部如何流动？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Commit Log（提交日志）`：提交日志是回答“一次 `put` 和 `get` 在分布式 KV store 内部如何流动？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`SSTable（有序字符串表）`：有序字符串表是回答“一次 `put` 和 `get` 在分布式 KV store 内部如何流动？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Bloom Filter（布隆过滤器）`：Bloom Filter 是一种节省空间的概率结构，用来判断某个元素是否可能存在。它可能误判存在，但不会漏掉真实存在的元素。'
+        ],
         emphasisCards: []
       },
       {
@@ -7706,10 +8287,10 @@ export const notes = [
     ]
   },
   {
-    id: '06_data_centers_and_message_queue',
+    id: '06-data-centers-and-message-queue',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -7731,6 +8312,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Data Center（数据中心）`：数据中心是回答“如何支持跨地域访问，并让系统组件解耦？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`GeoDNS（地理解析）`：地理解析是回答“如何支持跨地域访问，并让系统组件解耦？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Data Synchronization（数据同步）`：数据同步是回答“如何支持跨地域访问，并让系统组件解耦？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Message Queue（消息队列）`：Message Queue 把生产者和消费者解耦。上游先把任务放进队列，下游按能力慢慢处理，从而削峰、重试和隔离故障。'
+        ],
         emphasisCards: []
       },
       {
@@ -7812,10 +8405,10 @@ export const notes = [
     ]
   },
   {
-    id: '06_rules_distributed_and_race_conditions',
+    id: '06-rules-distributed-and-race-conditions',
     categoryId: 'system-design',
     chapterId: 'part04_rate_limiter',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -7837,6 +8430,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Rate Limiting Rules（限流规则）`：限流规则是用于控制请求进入系统的速度。它保护后端资源，但规则过严会误伤正常用户。',
+          '`Race Condition（竞态条件）`：Race Condition 指多个请求并发读写同一个状态时，执行顺序不同会得到不同结果。限流中如果读计数和写计数不是原子的，就可能多放请求进来。',
+          '`Synchronization（同步）`：同步是回答“限流器在多服务器和高并发下会遇到哪些问题？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Atomic Operation（原子操作）`：Atomic Operation 是不可被打断的操作。限流器常用 Redis 原子命令或 Lua 脚本把读取、判断、更新合成一步，避免并发漏洞。'
+        ],
         emphasisCards: []
       },
       {
@@ -7918,10 +8523,10 @@ export const notes = [
     ]
   },
   {
-    id: '07_observability_and_database_sharding',
+    id: '07-observability-and-database-sharding',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -7943,6 +8548,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Logging（日志）`：日志是回答“系统规模扩大后，如何发现问题并继续扩展数据层？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Metrics（指标）`：指标是回答“系统规模扩大后，如何发现问题并继续扩展数据层？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Automation（自动化）`：自动化是回答“系统规模扩大后，如何发现问题并继续扩展数据层？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Sharding（数据库分片）`：数据库分片是是持久化核心数据的地方。系统变大后，要考虑读写分离、索引、复制、分片和跨分片查询。'
+        ],
         emphasisCards: []
       },
       {
@@ -8024,10 +8641,10 @@ export const notes = [
     ]
   },
   {
-    id: '07_optimization_monitoring_and_wrap_up',
+    id: '07-optimization-monitoring-and-wrap-up',
     categoryId: 'system-design',
     chapterId: 'part04_rate_limiter',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -8049,6 +8666,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Edge Server（边缘服务器）`：边缘服务器是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
+          '`Multi-data Center（多数据中心）`：多数据中心是回答“限流器上线后，如何判断它真的有效且没有伤害正常用户？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Monitoring（监控）`：监控是回答“限流器上线后，如何判断它真的有效且没有伤害正常用户？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Backoff（退避重试）`：退避重试是回答“限流器上线后，如何判断它真的有效且没有伤害正常用户？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
+        ],
         emphasisCards: []
       },
       {
@@ -8130,10 +8759,10 @@ export const notes = [
     ]
   },
   {
-    id: '08_scaling_playbook',
+    id: '08-scaling-playbook',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -8155,6 +8784,18 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '关键概念',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Redundancy（冗余）`：冗余是回答“面对持续增长，哪些架构原则最值得优先记住？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Stateless Tier（无状态层）`：无状态层是回答“面对持续增长，哪些架构原则最值得优先记住？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
+          '`Caching Everywhere（尽量缓存）`：尽量缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
+          '`Service Decoupling（服务解耦）`：服务解耦是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。'
+        ],
         emphasisCards: []
       },
       {
@@ -8228,6 +8869,80 @@ export const notes = [
         heading: '下一节预告',
         paragraphs: [
           '下一部分会进入估算：用基本单位、延迟直觉、可用性和 QPS，把设计从“感觉可行”推进到“数字上站得住”。'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      }
+    ]
+  },
+  {
+    id: 'chapter-breakdown',
+    categoryId: 'system-design',
+    chapterId: 'templates',
+    course: '',
+    date: '',
+    title: '',
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: 'chapter-splitting-rules',
+    categoryId: 'system-design',
+    chapterId: 'templates',
+    course: '',
+    date: '',
+    title: '',
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: '什么时候拆',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '原章超过 2500 中文字。',
+          '原章有多个并列概念。',
+          '原章既讲背景又讲方法又讲案例。',
+          '读者需要先理解术语，才能进入后面的推理。',
+          '页面会出现连续 5 个以上二级/三级标题。'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '常见拆法',
+        paragraphs: [
+          '| 原章类型 | 推荐拆法 |\n| --- | --- |\n| 概念密集 | 背景 -> 核心概念 -> 例子 -> 常见误区 |\n| 技术流程 | 问题 -> 架构 -> 步骤 -> 错误处理 -> 实战 |\n| 案例章节 | 案例背景 -> 决策过程 -> 结果分析 -> 可迁移经验 |\n| 方法论章节 | 原则 -> 操作步骤 -> 检查清单 -> 练习 |'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '每节标题',
+        paragraphs: [
+          '标题要像课程小节，不要像论文目录。',
+          '好：',
+          '弱：'
+        ],
+        faqs: [],
+        bullets: [
+          '`为什么需要权限系统`',
+          '`默认模式如何保护你`',
+          '`把规则串成一条审批流水线`',
+          '`权限系统（一）`',
+          '`第 5 章总结`',
+          '`其他内容`'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '交付格式',
+        paragraphs: [
+          '每个拆分结果都应写成：',
+          '```markdown\n原书章节：第 X 章\n建议拆成：N 节',
+          '1. 文件名：01-title.md\n标题：\n主问题：\n本节目标：\n小结要点：\n思考题：\n下一节预告：\n```'
         ],
         faqs: [],
         bullets: [],
@@ -10128,10 +10843,10 @@ export const notes = [
     ]
   },
   {
-    id: 'conversion_principles',
+    id: 'conversion-principles',
     categoryId: 'system-design',
     chapterId: 'part00_preface',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -10198,10 +10913,10 @@ export const notes = [
     ]
   },
   {
-    id: 'course_map',
+    id: 'course-map',
     categoryId: 'system-design',
     chapterId: 'part00_preface',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
@@ -11127,15 +11842,251 @@ export const notes = [
     ]
   },
   {
+    id: 'explanation-quality-standard',
+    categoryId: 'system-design',
+    chapterId: 'templates',
+    course: '',
+    date: '',
+    title: '',
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: '必须讲清的 6 件事',
+        paragraphs: [
+          '1. **问题从哪里来**',
+          '2. **核心机制怎么工作**',
+          '3. **关键概念的差异**',
+          '4. **一个具体例子**',
+          '5. **取舍和常见坑**',
+          '6. **面试表达**'
+        ],
+        faqs: [],
+        bullets: [
+          '描述没有这个设计时系统会怎样失败。',
+          '给出具体压力来源：流量、状态、延迟、容量、一致性、成本、故障。',
+          '用步骤解释数据或请求如何流动。',
+          '不允许只说“加入某组件”。',
+          '对容易混淆的概念做对比。',
+          '说明它们分别解决什么问题。',
+          '例子必须能推导出机制，而不只是类比。',
+          '技术章节优先给请求流、数据流、读写流、故障流。',
+          '说明方案带来的新成本。',
+          '至少指出一个面试或工程实现中的常见误区。',
+          '给出一句可以在面试中说出口的总结。',
+          '让读者知道如何把这一节转成答案。'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '推荐页面结构',
+        paragraphs: [
+          '```markdown\n# 标题'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '本节目标',
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '先说结论',
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '为什么会有这个问题',
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '核心机制',
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '具体例子',
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '取舍与常见坑',
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '面试表达',
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '小结',
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '思考题',
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '下一节预告',
+        paragraphs: [
+          '```'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '禁止项',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '不要用“这是本节需要抓住的关键词”。',
+          '不要用“先不要急着背组件名”。',
+          '不要只定义术语，不解释机制。',
+          '不要用同一段通用系统设计话术填充不同页面。',
+          '不要让例子只停留在比喻；例子要能帮助读者推导设计。'
+        ],
+        emphasisCards: []
+      }
+    ]
+  },
+  {
     id: 'glossary',
     categoryId: 'system-design',
     chapterId: 'part00_preface',
-    course: 'System Design',
+    course: '',
     date: '',
     title: '',
     summary: '',
     tags: [],
     sections: []
+  },
+  {
+    id: 'lesson-template',
+    categoryId: 'system-design',
+    chapterId: 'templates',
+    course: '',
+    date: '',
+    title: '',
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: '本节目标',
+        paragraphs: [
+          '读完这一节，你应该能够：'
+        ],
+        faqs: [],
+        bullets: [
+          '目标 1',
+          '目标 2',
+          '目标 3'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '先说结论',
+        paragraphs: [
+          '用 2-4 句话先把本节最重要的结论讲清楚，让读者知道自己要抓住什么。'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '拆开理解',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '1. 小概念一',
+            answer: [
+              '只讲一个点。用原创语言解释，必要时配一个小例子。'
+            ],
+            links: []
+          },
+          {
+            question: '2. 小概念二',
+            answer: [
+              '继续推进，但不要把多个复杂概念塞在同一段里。'
+            ],
+            links: []
+          },
+          {
+            question: '3. 小概念三',
+            answer: [
+              '如果这一节超过三个小概念，考虑拆成下一节。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '一个例子',
+        paragraphs: [
+          '给一个具体例子、类比、代码、场景或流程。例子要服务于本节目标。'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '小结',
+        paragraphs: [
+          '用 3-5 条 bullet 总结本节：'
+        ],
+        faqs: [],
+        bullets: [
+          '关键点 1',
+          '关键点 2',
+          '关键点 3'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '思考题',
+        paragraphs: [
+          '1. 检查理解的问题。\n2. 应用到真实场景的问题。\n3. 和下一节有关的铺垫问题。'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '下一节预告',
+        paragraphs: [
+          '下一节会讲 `<下一节主题>`。你会看到 `<承接点>` 如何进一步展开成 `<新的概念或实践>`。'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      }
+    ]
   },
   {
     id: 'llm-quickstart-template-note-01',
@@ -11289,362 +12240,6 @@ export const notes = [
           '纯对话是 while 循环 + 消息列表 + API 调用；Tool Calling 在此基础上加了 agentic loop，让模型决定调什么工具、你的代码负责执行；RAG 把外部知识通过向量检索塞进上下文，让模型能回答训练数据之外的问题。三层能力逐级递进，每一层的核心机制都不复杂，复杂度主要来自不同 API 之间的格式差异。'
         ],
         faqs: [],
-        bullets: [],
-        emphasisCards: []
-      }
-    ]
-  },
-  {
-    id: '补充-Rate Limiter：几个真正容易卡住的问题',
-    categoryId: '',
-    chapterId: null,
-    course: '',
-    date: '',
-    title: '',
-    summary: '',
-    tags: [],
-    sections: [
-      {
-        heading: '第一组：固定窗口和 burst',
-        paragraphs: [],
-        faqs: [
-          {
-            question: '固定窗口不是针对单个用户的吗，为什么用户多了会出问题？',
-            answer: [
-              '思考：固定窗口通常按 key 限流，key 可以是 user_id、IP、api_key，也可以是全局系统。单用户也会有窗口边界问题：12:00:59 发 5 次，12:01:00 再发 5 次，2 秒内通过 10 次。',
-              '结论：人多不是唯一问题。真正的问题包括窗口边界 burst、大量活跃 key、热点 key、TTL 管理和多节点同步。'
-            ],
-            links: []
-          },
-          {
-            question: 'Token Bucket 为什么更适合突发流量？',
-            answer: [
-              '思考：Token Bucket 按固定速率补充 token，也允许桶里积攒一部分 token。平时流量低时积累，突发流量来时先消耗存量，再回到稳定速率。',
-              '结论：它是在允许短时突发和限制长期平均速率之间做折中。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '第二组：Middleware 和分布式状态',
-        paragraphs: [],
-        faqs: [
-          {
-            question: 'Middleware 到底是什么，是第三方服务吗？',
-            answer: [
-              '思考：Middleware 是夹在客户端和业务服务之间、处理公共能力的软件层，比如限流、鉴权、日志、API gateway、load balancer。它可以自己写，也可以用 Cloudflare、Kong、AWS API Gateway、Nginx 插件。',
-              '结论：它不是必须第三方，也不是前端，而是业务逻辑外面的一层通用处理链路。'
-            ],
-            links: []
-          },
-          {
-            question: '分布式限流讲了很多，最后还是要中心 Redis 吗？',
-            answer: [
-              '思考：很多现实系统是中心化状态 + 分布式执行。多个 rate limiter 节点执行判断，但计数器、token、窗口状态放到 Redis Cluster 这类共享状态存储里。',
-              '结论：原因很直接：多个节点必须看到同一个用户已经用了多少额度。Redis 本身再通过 cluster、分片、replica、Multi-AZ 降低单点风险。'
-            ],
-            links: []
-          },
-          {
-            question: '每个用户一个计数器，用户很多时怎么解决？',
-            answer: [
-              '思考：不要为所有注册用户永久保存计数器，只为最近活跃用户保存短生命周期状态。比如固定窗口 1 分钟限流，key 设置 60 到 65 秒 TTL，窗口过去自动删除。',
-              '结论：内存压力约等于当前活跃用户数 × 每个限流状态大小，而不是总注册用户数。再配合 Redis Cluster 分片、粗细两层限流、省内存算法和热点 key 特殊处理。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      }
-    ]
-  },
-  {
-    id: '补充-Stateless Web Tier 和聚合指标怎么理解',
-    categoryId: '',
-    chapterId: null,
-    course: '',
-    date: '',
-    title: '',
-    summary: '',
-    tags: [],
-    sections: [
-      {
-        heading: '第一组：Stateless Web Tier',
-        paragraphs: [],
-        faqs: [
-          {
-            question: '为什么水平扩展 Web 层时，要把 session 从 Web server 里拿出去？',
-            answer: [
-              '思考：多台 Web server 后，请求会被负载均衡分发到不同实例。如果 session 只在某台机器内存里，下一次请求落到另一台机器就可能找不到状态。',
-              '结论：状态一旦绑定在某台机器上，扩缩容、故障替换和负载均衡都会变复杂。'
-            ],
-            links: []
-          },
-          {
-            question: 'Stateless 和 serverless 是一回事吗？前端会直接访问数据库吗？',
-            answer: [
-              '思考：stateless 描述的是状态是否绑定在某个实例上。serverless 描述的是服务是否由函数平台或托管运行环境管理。',
-              '结论：正常路径仍然是客户端到后端 Web tier，再由后端访问 Redis 或数据库，不是浏览器直接连数据库。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '第二组：Aggregated Level Metrics',
-        paragraphs: [],
-        faqs: [
-          {
-            question: 'Aggregated level metrics 是什么意思？',
-            answer: [
-              '思考：它不是盯着某一台机器，而是把同一层里的多个实例汇总起来看，比如整个 database tier、cache tier、web tier 的整体表现。',
-              '结论：聚合指标回答的是“这一整层健不健康”，instance-level 指标回答的是“哪台机器有问题”。'
-            ],
-            links: []
-          },
-          {
-            question: '数据库层和缓存层分别应该看哪些聚合指标？',
-            answer: [
-              '思考：database tier 可以看整体 QPS、p95/p99 查询延迟、错误率、连接池使用率、慢查询数量。cache tier 可以看整体命中率、ops/sec、p99 latency、eviction rate、内存使用率。',
-              '结论：先用聚合指标定位是哪一层退化，再下钻到实例级别排查热点、故障节点或配置问题。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      }
-    ]
-  },
-  {
-    id: '补充-从零扩展到百万用户',
-    categoryId: '',
-    chapterId: null,
-    course: '',
-    date: '',
-    title: '',
-    summary: '',
-    tags: [],
-    sections: [
-      {
-        heading: '第一组：扩容路径',
-        paragraphs: [],
-        faqs: [
-          {
-            question: '为什么说系统扩容是渐进式演化？',
-            answer: [
-              '思考：早期 MVP 用单机最快。等流量增长后，再把瓶颈层拆出来独立扩容。',
-              '结论：不要为了未来的百万用户一开始就堆满 Kubernetes、微服务和多机房。先跑通业务，再按瓶颈演进。'
-            ],
-            links: []
-          },
-          {
-            question: '最常见的扩容顺序是什么？',
-            answer: [
-              '思考：单机部署，拆分应用层和数据层，加入负载均衡，数据库主从复制，缓存，CDN，无状态 Web 层，多数据中心，消息队列，数据库分片，最后才是微服务化。',
-              '结论：每一步都应该回答一个具体问题，而不是为了架构图好看。'
-            ],
-            links: []
-          },
-          {
-            question: 'Load Balancer、DB Replication、Cache 分别解决什么？',
-            answer: [
-              '思考：LB 把流量分到多个 App Server；DB Replication 让写走主库、读走从库；Cache 把热点数据放内存，减少数据库访问。',
-              '结论：可以记成：LB 救应用层，主从救读压力，缓存救数据库。'
-            ],
-            links: []
-          },
-          {
-            question: 'CDN、Stateless、MQ、Sharding 什么时候出现？',
-            answer: [
-              '思考：全球用户访问慢时加 CDN；多台 App Server 后把 session 放到 Redis/DB/JWT；耗时副作用变多后用 MQ；单库太大或写入太高时做 sharding。',
-              '结论：CDN 救延迟，Stateless 救弹性伸缩，MQ 救同步链路和流量峰值，Sharding 救容量和写入瓶颈。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      }
-    ]
-  },
-  {
-    id: '补充-很多用户的限流计数器怎么扛',
-    categoryId: '',
-    chapterId: null,
-    course: '',
-    date: '',
-    title: '',
-    summary: '',
-    tags: [],
-    sections: [
-      {
-        heading: '第一组：问题从哪里来',
-        paragraphs: [],
-        faqs: [
-          {
-            question: '为什么 user 级限流会产生很多计数器？',
-            answer: [
-              '思考：如果规则是每个 user 每分钟最多 100 次，那么每个活跃用户在当前窗口里都需要一个状态，例如 rate_limit:user123:202604211030 -> 37。活跃用户达到几百万时，key 数量、内存占用、热点访问、过期清理都会变成真实成本。',
-              '结论：关键不是总注册用户数，而是当前窗口内的活跃用户集合有多大。'
-            ],
-            links: []
-          },
-          {
-            question: '最重要的第一招是什么？',
-            answer: [
-              '思考：给限流 key 设置 TTL。比如固定窗口 1 分钟限流，key = rl:user:123:minute:202604211030，TTL 设置为 60 到 65 秒，窗口过去后自动删除。',
-              '结论：这会把“无限增长”变成“只保存当前或最近几个窗口”，内存约等于当前活跃用户数 × 每个状态大小。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '第二组：分片和分层',
-        paragraphs: [],
-        faqs: [
-          {
-            question: '一个 Redis 放不下所有计数器怎么办？',
-            answer: [
-              '思考：用 Redis Cluster 或自定义分片，把 user_id 通过 hash 映射到不同 shard。每台 Redis 只负责一部分用户的限流状态。',
-              '结论：这和数据库分库分表是同一个直觉：不是一本大本子记所有人，而是很多本子各记一部分人。'
-            ],
-            links: []
-          },
-          {
-            question: '为什么不是所有请求都做 user 级限流？',
-            answer: [
-              '思考：限流维度应该按业务成本选择。公开接口可以先按 IP 粗限流，登录后或敏感接口再按 user_id；昂贵接口按 API 维度，B 端场景按 tenant 或 app key。',
-              '结论：只给真正需要精细控制的维度建计数器，能显著减少状态数量。'
-            ],
-            links: []
-          },
-          {
-            question: '“粗 + 细”两层限流怎么工作？',
-            answer: [
-              '思考：第一层在网关、Nginx、Envoy 或边缘节点做粗限流，比如单 IP 每秒最多 200。第二层再到 Redis 做细限流，比如单 user 每分钟最多 20 次发帖。',
-              '结论：大部分垃圾流量在第一层被挡掉，中心 Redis 不需要为所有乱请求维护细粒度状态。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '第三组：算法和热点',
-        paragraphs: [],
-        faqs: [
-          {
-            question: '为什么限流算法会影响内存？',
-            answer: [
-              '思考：固定窗口和令牌桶通常每个 key 只需要 count、token 数、上次 refill 时间这类少量状态。滑动窗口日志要保存很多 timestamp，精确但更贵。',
-              '结论：用户量巨大时，常优先选 token bucket、fixed window 或 sliding window counter，而不是最重的 sliding log。'
-            ],
-            links: []
-          },
-          {
-            question: '热点用户或大客户 key 怎么处理？',
-            answer: [
-              '思考：明星用户、大客户 app key、爆款接口可能让单个 key 被疯狂更新。可以拆成多个子 key 再聚合，给大客户单独配额池，或由中心 Redis 预分配一批 token 给边缘节点本地扣。',
-              '结论：热点不是靠平均分片自动解决的，必须单独识别和处理。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '第四组：近似和本地同步',
-        paragraphs: [],
-        faqs: [
-          {
-            question: '极大规模时可以不追求 100% 精确吗？',
-            answer: [
-              '思考：可以，但要看场景。Count-Min Sketch、Bloom Filter、HyperLogLog 这类近似结构更适合防刷、风控、粗筛，不适合作为严格限流的唯一依据。',
-              '结论：便宜方法先大致判断谁可疑，再对可疑对象做精细限流。'
-            ],
-            links: []
-          },
-          {
-            question: '本地计数 + 中心同步适合什么时候？',
-            answer: [
-              '思考：如果每次请求都查 Redis 压力太大，可以让 edge node 本地先记小计数，定期或按批量同步到中心。这样更快，也减轻 Redis 压力。',
-              '结论：代价是不再绝对精确，可能短暂超发。这就是精确性和性能的 trade-off。'
-            ],
-            links: []
-          },
-          {
-            question: '真正的工程答案是什么？',
-            answer: [
-              '思考：通常不是单独一招，而是 TTL 自动过期、Redis Cluster 分片、网关粗限流、Redis 细限流、省内存算法、热点 key 特殊处理一起用。',
-              '结论：用户很多、计数器很多，不是靠单点硬扛，而是靠短生命周期状态 + 分片存储 + 分层限流 + 省内存算法一起解决。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      }
-    ]
-  },
-  {
-    id: '补充-纸上估算：用数量级判断系统能不能跑',
-    categoryId: '',
-    chapterId: null,
-    course: '',
-    date: '',
-    title: '',
-    summary: '',
-    tags: [],
-    sections: [
-      {
-        heading: '第一组：估算的核心',
-        paragraphs: [],
-        faqs: [
-          {
-            question: 'Back-of-the-envelope estimation 的重点是算得准吗？',
-            answer: [
-              '思考：这类题要把模糊系统拆成用户数、请求量、峰值、存储、带宽这些可估算部分。',
-              '结论：假设清楚、单位清楚、数量级合理比精确到个位数更重要。'
-            ],
-            links: []
-          },
-          {
-            question: '为什么要熟悉容量单位、延迟数字和几个 9？',
-            answer: [
-              '思考：KB、MB、GB、TB、PB 是容量估算地基；延迟数字提醒我们内存、磁盘、网络差几个数量级；99.9%、99.99%、99.999% 分别对应不同停机预算。',
-              '结论：这些数量级会直接影响缓存、顺序 I/O、CDN、多 region、异步复制和冗余设计。'
-            ],
-            links: []
-          }
-        ],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '第二组：Twitter 估算套路',
-        paragraphs: [],
-        faqs: [
-          {
-            question: '如何从 MAU 估算写入 QPS 和媒体存储？',
-            answer: [
-              '思考：先把 MAU 转成 DAU，再乘以每人每天请求数，最后除以 86400 秒。3 亿 MAU、50% DAU、每人 2 条 tweet，平均写入约 3500 QPS。',
-              '结论：如果 10% tweet 带 1 MB 媒体，每天约 30 TB；保存 5 年约 55 PB。这个结果会自然引出对象存储、CDN、冷热分层和生命周期管理。'
-            ],
-            links: []
-          }
-        ],
         bullets: [],
         emphasisCards: []
       }

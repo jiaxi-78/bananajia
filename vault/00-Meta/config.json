@@ -172,224 +172,224 @@
       }
     },
     {
-      "id": "00_前言",
+      "id": "part00_preface",
       "categoryId": "system-design",
       "code": "01",
       "title": {
         "zh": "前言",
-        "en": "前言"
+        "en": "Preface"
       },
       "description": {
         "zh": "前言相关笔记。",
-        "en": "Notes on 前言."
+        "en": "Notes on Preface."
       }
     },
     {
-      "id": "01_扩容路径_从零到百万用户",
+      "id": "part01_scale_from_zero",
       "categoryId": "system-design",
       "code": "02",
       "title": {
         "zh": "扩容路径｜从零到百万用户",
-        "en": "扩容路径｜从零到百万用户"
+        "en": "Scaling Path | From Zero to Million Users"
       },
       "description": {
         "zh": "扩容路径｜从零到百万用户相关笔记。",
-        "en": "Notes on 扩容路径｜从零到百万用户."
+        "en": "Notes on Scaling Path."
       }
     },
     {
-      "id": "02_容量估算_纸上估算",
+      "id": "part02_estimation",
       "categoryId": "system-design",
       "code": "03",
       "title": {
         "zh": "容量估算｜纸上估算",
-        "en": "容量估算｜纸上估算"
+        "en": "Capacity Estimation | Back-of-the-envelope"
       },
       "description": {
         "zh": "容量估算｜纸上估算相关笔记。",
-        "en": "Notes on 容量估算｜纸上估算."
+        "en": "Notes on Capacity Estimation."
       }
     },
     {
-      "id": "03_面试框架_四步推进法",
+      "id": "part03_interview_framework",
       "categoryId": "system-design",
       "code": "04",
       "title": {
         "zh": "面试框架｜四步推进法",
-        "en": "面试框架｜四步推进法"
+        "en": "Interview Framework | Four-step Approach"
       },
       "description": {
         "zh": "面试框架｜四步推进法相关笔记。",
-        "en": "Notes on 面试框架｜四步推进法."
+        "en": "Notes on Interview Framework."
       }
     },
     {
-      "id": "04_限流器_算法与架构",
+      "id": "part04_rate_limiter",
       "categoryId": "system-design",
       "code": "05",
       "title": {
         "zh": "限流器｜算法与架构",
-        "en": "限流器｜算法与架构"
+        "en": "Rate Limiter | Algorithms and Architecture"
       },
       "description": {
         "zh": "限流器｜算法与架构相关笔记。",
-        "en": "Notes on 限流器｜算法与架构."
+        "en": "Notes on Rate Limiter."
       }
     },
     {
-      "id": "05_一致性哈希",
+      "id": "part05_consistent_hashing",
       "categoryId": "system-design",
       "code": "06",
       "title": {
         "zh": "一致性哈希",
-        "en": "一致性哈希"
+        "en": "Consistent Hashing"
       },
       "description": {
         "zh": "一致性哈希相关笔记。",
-        "en": "Notes on 一致性哈希."
+        "en": "Notes on Consistent Hashing."
       }
     },
     {
-      "id": "06_分布式_key_value_store",
+      "id": "part06_key_value_store",
       "categoryId": "system-design",
       "code": "07",
       "title": {
         "zh": "分布式 Key-Value Store",
-        "en": "分布式 Key-Value Store"
+        "en": "Distributed Key-Value Store"
       },
       "description": {
         "zh": "分布式 Key-Value Store相关笔记。",
-        "en": "Notes on 分布式 Key-Value Store."
+        "en": "Notes on Distributed Key-Value Store."
       }
     },
     {
-      "id": "07_分布式唯一_id",
+      "id": "part07_unique_id",
       "categoryId": "system-design",
       "code": "08",
       "title": {
         "zh": "分布式唯一 ID",
-        "en": "分布式唯一 ID"
+        "en": "Distributed Unique ID"
       },
       "description": {
         "zh": "分布式唯一 ID相关笔记。",
-        "en": "Notes on 分布式唯一 ID."
+        "en": "Notes on Distributed Unique ID."
       }
     },
     {
-      "id": "08_url_短链接系统",
+      "id": "part08_url_shortener",
       "categoryId": "system-design",
       "code": "09",
       "title": {
         "zh": "URL 短链接系统",
-        "en": "URL 短链接系统"
+        "en": "URL Shortener"
       },
       "description": {
         "zh": "URL 短链接系统相关笔记。",
-        "en": "Notes on URL 短链接系统."
+        "en": "Notes on URL Shortener."
       }
     },
     {
-      "id": "09_网络爬虫",
+      "id": "part09_web_crawler",
       "categoryId": "system-design",
       "code": "10",
       "title": {
         "zh": "网络爬虫",
-        "en": "网络爬虫"
+        "en": "Web Crawler"
       },
       "description": {
         "zh": "网络爬虫相关笔记。",
-        "en": "Notes on 网络爬虫."
+        "en": "Notes on Web Crawler."
       }
     },
     {
-      "id": "10_通知系统",
+      "id": "part10_notification_system",
       "categoryId": "system-design",
       "code": "11",
       "title": {
         "zh": "通知系统",
-        "en": "通知系统"
+        "en": "Notification System"
       },
       "description": {
         "zh": "通知系统相关笔记。",
-        "en": "Notes on 通知系统."
+        "en": "Notes on Notification System."
       }
     },
     {
-      "id": "11_news_feed_信息流",
+      "id": "part11_news_feed",
       "categoryId": "system-design",
       "code": "12",
       "title": {
         "zh": "News Feed 信息流",
-        "en": "News Feed 信息流"
+        "en": "News Feed"
       },
       "description": {
         "zh": "News Feed 信息流相关笔记。",
-        "en": "Notes on News Feed 信息流."
+        "en": "Notes on News Feed."
       }
     },
     {
-      "id": "12_聊天系统",
+      "id": "part12_chat_system",
       "categoryId": "system-design",
       "code": "13",
       "title": {
         "zh": "聊天系统",
-        "en": "聊天系统"
+        "en": "Chat System"
       },
       "description": {
         "zh": "聊天系统相关笔记。",
-        "en": "Notes on 聊天系统."
+        "en": "Notes on Chat System."
       }
     },
     {
-      "id": "13_搜索自动补全",
+      "id": "part13_autocomplete",
       "categoryId": "system-design",
       "code": "14",
       "title": {
         "zh": "搜索自动补全",
-        "en": "搜索自动补全"
+        "en": "Search Autocomplete"
       },
       "description": {
         "zh": "搜索自动补全相关笔记。",
-        "en": "Notes on 搜索自动补全."
+        "en": "Notes on Search Autocomplete."
       }
     },
     {
-      "id": "14_视频平台_youtube",
+      "id": "part14_youtube",
       "categoryId": "system-design",
       "code": "15",
       "title": {
         "zh": "视频平台｜YouTube",
-        "en": "视频平台｜YouTube"
+        "en": "Video Platform | YouTube"
       },
       "description": {
         "zh": "视频平台｜YouTube相关笔记。",
-        "en": "Notes on 视频平台｜YouTube."
+        "en": "Notes on Video Platform."
       }
     },
     {
-      "id": "15_云盘系统_google_drive",
+      "id": "part15_google_drive",
       "categoryId": "system-design",
       "code": "16",
       "title": {
         "zh": "云盘系统｜Google Drive",
-        "en": "云盘系统｜Google Drive"
+        "en": "Cloud Storage | Google Drive"
       },
       "description": {
         "zh": "云盘系统｜Google Drive相关笔记。",
-        "en": "Notes on 云盘系统｜Google Drive."
+        "en": "Notes on Cloud Storage."
       }
     },
     {
-      "id": "16_继续学习",
+      "id": "part16_learning_continues",
       "categoryId": "system-design",
       "code": "17",
       "title": {
         "zh": "继续学习",
-        "en": "继续学习"
+        "en": "Learning Continues"
       },
       "description": {
         "zh": "继续学习相关笔记。",
-        "en": "Notes on 继续学习."
+        "en": "Notes on Learning Continues."
       }
     }
   ]

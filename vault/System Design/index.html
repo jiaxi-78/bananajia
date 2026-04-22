@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Books2HTML</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Turn books into step-by-step HTML courses." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+    <style>
+      :root {
+        --theme-color: #2563eb;
+      }
+
+      .markdown-section {
+        max-width: 880px;
+      }
+
+      .markdown-section h1,
+      .markdown-section h2,
+      .markdown-section h3 {
+        letter-spacing: 0;
+      }
+
+      .sidebar-nav li > p {
+        font-weight: 700;
+      }
+
+      .cover-main h1 {
+        letter-spacing: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">Loading...</div>
+    <script>
+      window.$docsify = {
+        name: "Books2HTML",
+        repo: "",
+        loadSidebar: true,
+        coverpage: true,
+        subMaxLevel: 3,
+        auto2top: true,
+        search: {
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: "搜索",
+          noData: "没有结果",
+          depth: 4
+        },
+        pagination: {
+          previousText: "上一节",
+          nextText: "下一节",
+          crossChapter: true,
+          crossChapterText: true
+        },
+        copyCode: {
+          buttonText: "复制",
+          errorText: "失败",
+          successText: "已复制"
+        }
+      };
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  </body>
+</html>

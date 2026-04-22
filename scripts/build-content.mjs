@@ -222,11 +222,19 @@ for (const file of noteFiles) {
   const { data, body } = parseFrontmatter(text)
   const sections = parseBody(body)
 
+  // 根据文件路径推断 categoryId 和 chapterId（备份，当 frontmatter 缺失时使用）
+  const relativePath = path.relative(VAULT_DIR, file)
+  const pathParts = relativePath.split(path.sep)
+  const inferredCategory = pathParts[0].toLowerCase().replace(/\s+/g, '-')
+  const inferredChapter = pathParts.length > 1
+    ? pathParts[1].replace(/-/g, '_')
+    : null
+
   // 构建 note 对象
   const note = {
     id: data.id || path.basename(file, '.md'),
-    categoryId: data.category || '',
-    chapterId: data.chapter || null,
+    categoryId: data.category || inferredCategory || '',
+    chapterId: data.chapter || inferredChapter || null,
     course: data.course || '',
     date: data.date || '',
     title: data.title_en
