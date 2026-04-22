@@ -402,7 +402,7 @@ export const notes = [
     chapterId: '_coverpage.md',
     course: '',
     date: '',
-    title: '',
+    title: 'System Design Interview',
     summary: '',
     tags: [],
     sections: []
@@ -413,7 +413,7 @@ export const notes = [
     chapterId: '_sidebar.md',
     course: '',
     date: '',
-    title: '',
+    title: ' sidebar',
     summary: '',
     tags: [],
     sections: []
@@ -424,7 +424,7 @@ export const notes = [
     chapterId: 'part13_autocomplete',
     course: '',
     date: '',
-    title: '',
+    title: '从需求到容量估算：什么是快的自动补全',
     summary: '',
     tags: [],
     sections: [
@@ -543,7 +543,7 @@ export const notes = [
     chapterId: 'part12_chat_system',
     course: '',
     date: '',
-    title: '',
+    title: 'Chat System 的范围与通信协议',
     summary: '',
     tags: [],
     sections: [
@@ -660,7 +660,7 @@ export const notes = [
     chapterId: 'part09_web_crawler',
     course: '',
     date: '',
-    title: '',
+    title: '从“抓网页”到“设计爬虫系统”',
     summary: '',
     tags: [],
     sections: [
@@ -778,7 +778,7 @@ export const notes = [
     chapterId: 'part15_google_drive',
     course: '',
     date: '',
-    title: '',
+    title: '云盘需求：可靠、同步、低带宽',
     summary: '',
     tags: [],
     sections: [
@@ -897,7 +897,7 @@ export const notes = [
     chapterId: 'part03_interview_framework',
     course: '',
     date: '',
-    title: '',
+    title: '系统设计面试不是抢答题',
     summary: '',
     tags: [],
     sections: [
@@ -1015,7 +1015,7 @@ export const notes = [
     chapterId: 'part11_news_feed',
     course: '',
     date: '',
-    title: '',
+    title: 'News Feed 的范围、数据模型与 API',
     summary: '',
     tags: [],
     sections: [
@@ -1131,7 +1131,7 @@ export const notes = [
     chapterId: 'part10_notification_system',
     course: '',
     date: '',
-    title: '',
+    title: '通知系统的范围与需求',
     summary: '',
     tags: [],
     sections: [
@@ -1249,7 +1249,7 @@ export const notes = [
     chapterId: 'part04_rate_limiter',
     course: '',
     date: '',
-    title: '',
+    title: '认识 Rate Limiter 与设计范围',
     summary: '',
     tags: [],
     sections: [
@@ -1367,7 +1367,7 @@ export const notes = [
     chapterId: 'part16_learning_continues',
     course: '',
     date: '',
-    title: '',
+    title: '从真实系统架构中继续学习',
     summary: '',
     tags: [],
     sections: [
@@ -1486,7 +1486,7 @@ export const notes = [
     chapterId: 'part05_consistent_hashing',
     course: '',
     date: '',
-    title: '',
+    title: '为什么普通哈希扩容会崩',
     summary: '',
     tags: [],
     sections: [
@@ -1607,7 +1607,7 @@ export const notes = [
     chapterId: 'part08_url_shortener',
     course: '',
     date: '',
-    title: '',
+    title: '短链接系统的需求与 API',
     summary: '',
     tags: [],
     sections: [
@@ -1727,7 +1727,7 @@ export const notes = [
     chapterId: 'part07_unique_id',
     course: '',
     date: '',
-    title: '',
+    title: '唯一 ID 生成器的需求边界',
     summary: '',
     tags: [],
     sections: [
@@ -1850,7 +1850,7 @@ export const notes = [
     chapterId: 'part06_key_value_store',
     course: '',
     date: '',
-    title: '',
+    title: '从单机 KV 到分布式 KV',
     summary: '',
     tags: [],
     sections: [
@@ -1971,7 +1971,7 @@ export const notes = [
     chapterId: 'part01_scale_from_zero',
     course: '',
     date: '',
-    title: '',
+    title: '从单机系统开始理解请求路径',
     summary: '',
     tags: [],
     sections: [
@@ -2089,7 +2089,7 @@ export const notes = [
     chapterId: 'part02_estimation',
     course: '',
     date: '',
-    title: '',
+    title: '估算前的基本单位和延迟直觉',
     summary: '',
     tags: [],
     sections: [
@@ -2207,7 +2207,7 @@ export const notes = [
     chapterId: 'part14_youtube',
     course: '',
     date: '',
-    title: '',
+    title: 'YouTube 需求边界与成本估算',
     summary: '',
     tags: [],
     sections: [
@@ -2326,7 +2326,7 @@ export const notes = [
     chapterId: 'part12_chat_system',
     course: '',
     date: '',
-    title: '',
+    title: '聊天系统架构与存储模型',
     summary: '',
     tags: [],
     sections: [
@@ -2443,7 +2443,7 @@ export const notes = [
     chapterId: 'part02_estimation',
     course: '',
     date: '',
-    title: '',
+    title: '用几个 9 衡量可用性',
     summary: '',
     tags: [],
     sections: [
@@ -2561,7 +2561,7 @@ export const notes = [
     chapterId: 'part06_key_value_store',
     course: '',
     date: '',
-    title: '',
+    title: 'CAP 下的设计取舍',
     summary: '',
     tags: [],
     sections: [
@@ -2689,7 +2689,7 @@ export const notes = [
     chapterId: 'part07_unique_id',
     course: '',
     date: '',
-    title: '',
+    title: '四种 ID 生成方案对比',
     summary: '',
     tags: [],
     sections: [
@@ -2814,7 +2814,7 @@ export const notes = [
     chapterId: 'part09_web_crawler',
     course: '',
     date: '',
-    title: '',
+    title: '爬虫系统的核心流水线',
     summary: '',
     tags: [],
     sections: [
@@ -2931,7 +2931,7 @@ export const notes = [
     chapterId: 'part01_scale_from_zero',
     course: '',
     date: '',
-    title: '',
+    title: '拆出数据库并选择合适的数据存储',
     summary: '',
     tags: [],
     sections: [
@@ -3049,7 +3049,7 @@ export const notes = [
     chapterId: 'part16_learning_continues',
     course: '',
     date: '',
-    title: '',
+    title: '工程博客与长期学习闭环',
     summary: '',
     tags: [],
     sections: [
@@ -3168,7 +3168,7 @@ export const notes = [
     chapterId: 'part11_news_feed',
     course: '',
     date: '',
-    title: '',
+    title: 'Feed Publishing 与 Fanout 取舍',
     summary: '',
     tags: [],
     sections: [
@@ -3285,7 +3285,7 @@ export const notes = [
     chapterId: 'part05_consistent_hashing',
     course: '',
     date: '',
-    title: '',
+    title: '一致性哈希环如何定位服务器',
     summary: '',
     tags: [],
     sections: [
@@ -3405,7 +3405,7 @@ export const notes = [
     chapterId: 'part13_autocomplete',
     course: '',
     date: '',
-    title: '',
+    title: '高层设计：数据收集服务与查询服务',
     summary: '',
     tags: [],
     sections: [
@@ -3524,7 +3524,7 @@ export const notes = [
     chapterId: 'part03_interview_framework',
     course: '',
     date: '',
-    title: '',
+    title: '提出高层设计并获得共识',
     summary: '',
     tags: [],
     sections: [
@@ -3642,7 +3642,7 @@ export const notes = [
     chapterId: 'part10_notification_system',
     course: '',
     date: '',
-    title: '',
+    title: '通知发送链路与高层架构',
     summary: '',
     tags: [],
     sections: [
@@ -3759,7 +3759,7 @@ export const notes = [
     chapterId: 'part04_rate_limiter',
     course: '',
     date: '',
-    title: '',
+    title: '限流器应该放在哪里',
     summary: '',
     tags: [],
     sections: [
@@ -3877,7 +3877,7 @@ export const notes = [
     chapterId: 'part08_url_shortener',
     course: '',
     date: '',
-    title: '',
+    title: '重定向流程与 301/302 选择',
     summary: '',
     tags: [],
     sections: [
@@ -4002,7 +4002,7 @@ export const notes = [
     chapterId: 'part15_google_drive',
     course: '',
     date: '',
-    title: '',
+    title: '从单机存储到高层架构',
     summary: '',
     tags: [],
     sections: [
@@ -4121,7 +4121,7 @@ export const notes = [
     chapterId: 'part14_youtube',
     course: '',
     date: '',
-    title: '',
+    title: '高层架构：上传流与播放流分离',
     summary: '',
     tags: [],
     sections: [
@@ -4240,7 +4240,7 @@ export const notes = [
     chapterId: 'part15_google_drive',
     course: '',
     date: '',
-    title: '',
+    title: 'Block Server：增量同步与强一致性',
     summary: '',
     tags: [],
     sections: [
@@ -4359,7 +4359,7 @@ export const notes = [
     chapterId: 'part03_interview_framework',
     course: '',
     date: '',
-    title: '',
+    title: '深入关键组件，而不是陷入所有细节',
     summary: '',
     tags: [],
     sections: [
@@ -4477,7 +4477,7 @@ export const notes = [
     chapterId: 'part11_news_feed',
     course: '',
     date: '',
-    title: '',
+    title: 'Feed 读取、缓存与扩展',
     summary: '',
     tags: [],
     sections: [
@@ -4594,7 +4594,7 @@ export const notes = [
     chapterId: 'part08_url_shortener',
     course: '',
     date: '',
-    title: '',
+    title: '短码生成：Hash 还是 Base62',
     summary: '',
     tags: [],
     sections: [
@@ -4717,7 +4717,7 @@ export const notes = [
     chapterId: 'part01_scale_from_zero',
     course: '',
     date: '',
-    title: '',
+    title: '用负载均衡和数据库复制提高可用性',
     summary: '',
     tags: [],
     sections: [
@@ -4835,7 +4835,7 @@ export const notes = [
     chapterId: 'part05_consistent_hashing',
     course: '',
     date: '',
-    title: '',
+    title: '节点增删时只迁移必要数据',
     summary: '',
     tags: [],
     sections: [
@@ -4960,7 +4960,7 @@ export const notes = [
     chapterId: 'part06_key_value_store',
     course: '',
     date: '',
-    title: '',
+    title: '数据如何分片与复制',
     summary: '',
     tags: [],
     sections: [
@@ -5081,7 +5081,7 @@ export const notes = [
     chapterId: 'part02_estimation',
     course: '',
     date: '',
-    title: '',
+    title: '用 Twitter 示例练习 QPS 与存储估算',
     summary: '',
     tags: [],
     sections: [
@@ -5199,7 +5199,7 @@ export const notes = [
     chapterId: 'part10_notification_system',
     course: '',
     date: '',
-    title: '',
+    title: '通知可靠性、幂等与用户控制',
     summary: '',
     tags: [],
     sections: [
@@ -5316,7 +5316,7 @@ export const notes = [
     chapterId: 'part12_chat_system',
     course: '',
     date: '',
-    title: '',
+    title: '服务发现与一对一消息流',
     summary: '',
     tags: [],
     sections: [
@@ -5433,7 +5433,7 @@ export const notes = [
     chapterId: 'part07_unique_id',
     course: '',
     date: '',
-    title: '',
+    title: 'Snowflake 式 64-bit ID 设计',
     summary: '',
     tags: [],
     sections: [
@@ -5555,7 +5555,7 @@ export const notes = [
     chapterId: 'part04_rate_limiter',
     course: '',
     date: '',
-    title: '',
+    title: '三种基础限流算法',
     summary: '',
     tags: [],
     sections: [
@@ -5673,7 +5673,7 @@ export const notes = [
     chapterId: 'part14_youtube',
     course: '',
     date: '',
-    title: '',
+    title: '视频转码：DAG 工作流与并行处理',
     summary: '',
     tags: [],
     sections: [
@@ -5792,7 +5792,7 @@ export const notes = [
     chapterId: 'part13_autocomplete',
     course: '',
     date: '',
-    title: '',
+    title: 'Trie 深入：用空间换时间的 Top K 缓存',
     summary: '',
     tags: [],
     sections: [
@@ -5911,7 +5911,7 @@ export const notes = [
     chapterId: 'part09_web_crawler',
     course: '',
     date: '',
-    title: '',
+    title: 'URL Frontier 与抓取调度',
     summary: '',
     tags: [],
     sections: [
@@ -6028,7 +6028,7 @@ export const notes = [
     chapterId: 'part01_scale_from_zero',
     course: '',
     date: '',
-    title: '',
+    title: '用缓存和 CDN 加速系统响应',
     summary: '',
     tags: [],
     sections: [
@@ -6146,7 +6146,7 @@ export const notes = [
     chapterId: 'part08_url_shortener',
     course: '',
     date: '',
-    title: '',
+    title: '短链接系统的完整架构',
     summary: '',
     tags: [],
     sections: [
@@ -6268,7 +6268,7 @@ export const notes = [
     chapterId: 'part09_web_crawler',
     course: '',
     date: '',
-    title: '',
+    title: 'Downloader 的鲁棒性设计',
     summary: '',
     tags: [],
     sections: [
@@ -6385,7 +6385,7 @@ export const notes = [
     chapterId: 'part10_notification_system',
     course: '',
     date: '',
-    title: '',
+    title: '通知系统的监控、安全与分析',
     summary: '',
     tags: [],
     sections: [
@@ -6503,7 +6503,7 @@ export const notes = [
     chapterId: 'part12_chat_system',
     course: '',
     date: '',
-    title: '',
+    title: '多设备同步与群聊设计',
     summary: '',
     tags: [],
     sections: [
@@ -6620,7 +6620,7 @@ export const notes = [
     chapterId: 'part14_youtube',
     course: '',
     date: '',
-    title: '',
+    title: '优化视频系统：速度、安全与 CDN 成本',
     summary: '',
     tags: [],
     sections: [
@@ -6739,7 +6739,7 @@ export const notes = [
     chapterId: 'part13_autocomplete',
     course: '',
     date: '',
-    title: '',
+    title: '生产化自动补全：日志、缓存、过滤与分片',
     summary: '',
     tags: [],
     sections: [
@@ -6858,7 +6858,7 @@ export const notes = [
     chapterId: 'part06_key_value_store',
     course: '',
     date: '',
-    title: '',
+    title: 'Quorum 与版本冲突处理',
     summary: '',
     tags: [],
     sections: [
@@ -6977,7 +6977,7 @@ export const notes = [
     chapterId: 'part04_rate_limiter',
     course: '',
     date: '',
-    title: '',
+    title: '滑动窗口算法：准确性与内存的取舍',
     summary: '',
     tags: [],
     sections: [
@@ -7095,7 +7095,7 @@ export const notes = [
     chapterId: 'part15_google_drive',
     course: '',
     date: '',
-    title: '',
+    title: '上传、下载与通知服务',
     summary: '',
     tags: [],
     sections: [
@@ -7214,7 +7214,7 @@ export const notes = [
     chapterId: 'part05_consistent_hashing',
     course: '',
     date: '',
-    title: '',
+    title: '虚拟节点让负载更均衡',
     summary: '',
     tags: [],
     sections: [
@@ -7339,7 +7339,7 @@ export const notes = [
     chapterId: 'part03_interview_framework',
     course: '',
     date: '',
-    title: '',
+    title: '收尾、复盘与面试节奏控制',
     summary: '',
     tags: [],
     sections: [
@@ -7457,7 +7457,7 @@ export const notes = [
     chapterId: 'part06_key_value_store',
     course: '',
     date: '',
-    title: '',
+    title: '故障检测、临时接管与副本修复',
     summary: '',
     tags: [],
     sections: [
@@ -7581,7 +7581,7 @@ export const notes = [
     chapterId: 'part14_youtube',
     course: '',
     date: '',
-    title: '',
+    title: '故障处理与扩展讨论',
     summary: '',
     tags: [],
     sections: [
@@ -7700,7 +7700,7 @@ export const notes = [
     chapterId: 'part04_rate_limiter',
     course: '',
     date: '',
-    title: '',
+    title: '限流器的高层架构',
     summary: '',
     tags: [],
     sections: [
@@ -7818,7 +7818,7 @@ export const notes = [
     chapterId: 'part12_chat_system',
     course: '',
     date: '',
-    title: '',
+    title: 'Online Presence、断线处理与扩展话题',
     summary: '',
     tags: [],
     sections: [
@@ -7935,7 +7935,7 @@ export const notes = [
     chapterId: 'part01_scale_from_zero',
     course: '',
     date: '',
-    title: '',
+    title: '把状态移出 Web 层，实现无状态扩展',
     summary: '',
     tags: [],
     sections: [
@@ -8053,7 +8053,7 @@ export const notes = [
     chapterId: 'part15_google_drive',
     course: '',
     date: '',
-    title: '',
+    title: '存储优化、故障处理与设计取舍',
     summary: '',
     tags: [],
     sections: [
@@ -8172,7 +8172,7 @@ export const notes = [
     chapterId: 'part06_key_value_store',
     course: '',
     date: '',
-    title: '',
+    title: 'KV Store 的整体架构与读写路径',
     summary: '',
     tags: [],
     sections: [
@@ -8292,7 +8292,7 @@ export const notes = [
     chapterId: 'part01_scale_from_zero',
     course: '',
     date: '',
-    title: '',
+    title: '多数据中心与消息队列：走向分布式系统',
     summary: '',
     tags: [],
     sections: [
@@ -8410,7 +8410,7 @@ export const notes = [
     chapterId: 'part04_rate_limiter',
     course: '',
     date: '',
-    title: '',
+    title: '规则、并发与分布式限流',
     summary: '',
     tags: [],
     sections: [
@@ -8528,7 +8528,7 @@ export const notes = [
     chapterId: 'part01_scale_from_zero',
     course: '',
     date: '',
-    title: '',
+    title: '可观测性与数据库分片',
     summary: '',
     tags: [],
     sections: [
@@ -8646,7 +8646,7 @@ export const notes = [
     chapterId: 'part04_rate_limiter',
     course: '',
     date: '',
-    title: '',
+    title: '优化、监控与限流器设计总结',
     summary: '',
     tags: [],
     sections: [
@@ -8764,7 +8764,7 @@ export const notes = [
     chapterId: 'part01_scale_from_zero',
     course: '',
     date: '',
-    title: '',
+    title: '从零到百万用户的扩展清单',
     summary: '',
     tags: [],
     sections: [
@@ -8882,7 +8882,7 @@ export const notes = [
     chapterId: 'templates',
     course: '',
     date: '',
-    title: '',
+    title: '章节拆解表',
     summary: '',
     tags: [],
     sections: []
@@ -8893,7 +8893,7 @@ export const notes = [
     chapterId: 'templates',
     course: '',
     date: '',
-    title: '',
+    title: '章节拆分规则',
     summary: '',
     tags: [],
     sections: [
@@ -10848,7 +10848,7 @@ export const notes = [
     chapterId: 'part00_preface',
     course: '',
     date: '',
-    title: '',
+    title: '转换原则',
     summary: '',
     tags: [],
     sections: [
@@ -10918,7 +10918,7 @@ export const notes = [
     chapterId: 'part00_preface',
     course: '',
     date: '',
-    title: '',
+    title: '课程地图',
     summary: '',
     tags: [],
     sections: [
@@ -11847,7 +11847,7 @@ export const notes = [
     chapterId: 'templates',
     course: '',
     date: '',
-    title: '',
+    title: '解释质量标准',
     summary: '',
     tags: [],
     sections: [
@@ -11980,7 +11980,7 @@ export const notes = [
     chapterId: 'part00_preface',
     course: '',
     date: '',
-    title: '',
+    title: '术语表',
     summary: '',
     tags: [],
     sections: []
@@ -11991,7 +11991,7 @@ export const notes = [
     chapterId: 'templates',
     course: '',
     date: '',
-    title: '',
+    title: 'Lesson Title',
     summary: '',
     tags: [],
     sections: [

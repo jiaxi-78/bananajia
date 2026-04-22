@@ -230,6 +230,22 @@ for (const file of noteFiles) {
     ? pathParts[1].replace(/-/g, '_')
     : null
 
+  // 推断 title：frontmatter > body 第一个 h1 > 第一个 section heading > 格式化文件名
+  let inferredTitle = data.title || ''
+  if (!inferredTitle) {
+    const h1Match = body.match(/^#\s+(.+)$/m)
+    if (h1Match) {
+      inferredTitle = h1Match[1].trim()
+    } else if (sections.length > 0 && sections[0].heading) {
+      inferredTitle = sections[0].heading
+    } else {
+      inferredTitle = path.basename(file, '.md')
+        .replace(/^\d+[-_]/, '')
+        .replace(/-/g, ' ')
+        .replace(/_/g, ' ')
+    }
+  }
+
   // 构建 note 对象
   const note = {
     id: data.id || path.basename(file, '.md'),
@@ -238,8 +254,8 @@ for (const file of noteFiles) {
     course: data.course || '',
     date: data.date || '',
     title: data.title_en
-      ? { zh: data.title_zh || data.title, en: data.title_en }
-      : (data.title_zh || data.title || ''),
+      ? { zh: data.title_zh || inferredTitle, en: data.title_en }
+      : inferredTitle,
     summary: data.summary_en
       ? { zh: data.summary_zh || data.summary, en: data.summary_en }
       : (data.summary_zh || data.summary || ''),
