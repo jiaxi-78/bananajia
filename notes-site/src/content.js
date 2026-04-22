@@ -173,7 +173,7 @@ export const chapters = [
     }
   },
   {
-    id: '00_前言',
+    id: 'part00_preface',
     categoryId: 'system-design',
     code: '01',
     title: {
@@ -186,7 +186,7 @@ export const chapters = [
     }
   },
   {
-    id: '01_扩容路径_从零到百万用户',
+    id: 'part01_scale_from_zero',
     categoryId: 'system-design',
     code: '02',
     title: {
@@ -199,7 +199,7 @@ export const chapters = [
     }
   },
   {
-    id: '02_容量估算_纸上估算',
+    id: 'part02_estimation',
     categoryId: 'system-design',
     code: '03',
     title: {
@@ -212,7 +212,7 @@ export const chapters = [
     }
   },
   {
-    id: '03_面试框架_四步推进法',
+    id: 'part03_interview_framework',
     categoryId: 'system-design',
     code: '04',
     title: {
@@ -225,7 +225,7 @@ export const chapters = [
     }
   },
   {
-    id: '04_限流器_算法与架构',
+    id: 'part04_rate_limiter',
     categoryId: 'system-design',
     code: '05',
     title: {
@@ -238,7 +238,7 @@ export const chapters = [
     }
   },
   {
-    id: '05_一致性哈希',
+    id: 'part05_consistent_hashing',
     categoryId: 'system-design',
     code: '06',
     title: {
@@ -251,7 +251,7 @@ export const chapters = [
     }
   },
   {
-    id: '06_分布式_key_value_store',
+    id: 'part06_key_value_store',
     categoryId: 'system-design',
     code: '07',
     title: {
@@ -264,7 +264,7 @@ export const chapters = [
     }
   },
   {
-    id: '07_分布式唯一_id',
+    id: 'part07_unique_id',
     categoryId: 'system-design',
     code: '08',
     title: {
@@ -277,7 +277,7 @@ export const chapters = [
     }
   },
   {
-    id: '08_url_短链接系统',
+    id: 'part08_url_shortener',
     categoryId: 'system-design',
     code: '09',
     title: {
@@ -290,7 +290,7 @@ export const chapters = [
     }
   },
   {
-    id: '09_网络爬虫',
+    id: 'part09_web_crawler',
     categoryId: 'system-design',
     code: '10',
     title: {
@@ -303,7 +303,7 @@ export const chapters = [
     }
   },
   {
-    id: '10_通知系统',
+    id: 'part10_notification_system',
     categoryId: 'system-design',
     code: '11',
     title: {
@@ -316,7 +316,7 @@ export const chapters = [
     }
   },
   {
-    id: '11_news_feed_信息流',
+    id: 'part11_news_feed',
     categoryId: 'system-design',
     code: '12',
     title: {
@@ -329,7 +329,7 @@ export const chapters = [
     }
   },
   {
-    id: '12_聊天系统',
+    id: 'part12_chat_system',
     categoryId: 'system-design',
     code: '13',
     title: {
@@ -342,7 +342,7 @@ export const chapters = [
     }
   },
   {
-    id: '13_搜索自动补全',
+    id: 'part13_autocomplete',
     categoryId: 'system-design',
     code: '14',
     title: {
@@ -355,7 +355,7 @@ export const chapters = [
     }
   },
   {
-    id: '14_视频平台_youtube',
+    id: 'part14_youtube',
     categoryId: 'system-design',
     code: '15',
     title: {
@@ -368,7 +368,7 @@ export const chapters = [
     }
   },
   {
-    id: '15_云盘系统_google_drive',
+    id: 'part15_google_drive',
     categoryId: 'system-design',
     code: '16',
     title: {
@@ -381,7 +381,7 @@ export const chapters = [
     }
   },
   {
-    id: '16_继续学习',
+    id: 'part16_learning_continues',
     categoryId: 'system-design',
     code: '17',
     title: {
