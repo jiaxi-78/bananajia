@@ -13,6 +13,39 @@ function flattenBilingual(obj) {
   return obj
 }
 
+// 解析 Markdown 行内格式：`code` 、**bold** 、*italic*
+function parseInlineMarkdown(text) {
+  if (!text || typeof text !== 'string') return text
+
+  const parts = []
+  let lastIndex = 0
+  const regex = /(`[^`]+`|\*\*[^*]+\*\*|\*[^*]+\*)/g
+
+  let match
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index))
+    }
+
+    const content = match[0]
+    if (content.startsWith('`') && content.endsWith('`')) {
+      parts.push(<code key={match.index} className="inline-code">{content.slice(1, -1)}</code>)
+    } else if (content.startsWith('**') && content.endsWith('**')) {
+      parts.push(<strong key={match.index}>{content.slice(2, -2)}</strong>)
+    } else if (content.startsWith('*') && content.endsWith('*')) {
+      parts.push(<em key={match.index}>{content.slice(1, -1)}</em>)
+    }
+
+    lastIndex = regex.lastIndex
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex))
+  }
+
+  return parts.length === 0 ? text : parts
+}
+
 const notes = flattenBilingual(rawNotes)
 const site = flattenBilingual(rawSite)
 const categories = flattenBilingual(rawCategories)
@@ -221,8 +254,8 @@ function EmphasisCards({ items, t = (v) => v }) {
     <div className="emphasis-grid">
       {items.map((item, i) => (
         <article className="emphasis-card" key={i}>
-          <strong>{t(item.title)}</strong>
-          <p>{t(item.body)}</p>
+          <strong>{parseInlineMarkdown(t(item.title))}</strong>
+          <p>{parseInlineMarkdown(t(item.body))}</p>
         </article>
       ))}
     </div>
@@ -795,7 +828,7 @@ function CategoryView({
                     <h4>{t(section.heading)}</h4>
 
                     {section.paragraphs?.map((paragraph, pi) => (
-                      <p key={pi}>{t(paragraph)}</p>
+                      <p key={pi}>{parseInlineMarkdown(t(paragraph))}</p>
                     ))}
 
                     {section.faqs ? (
@@ -805,7 +838,7 @@ function CategoryView({
                             <summary>{t(item.question)}</summary>
                             <div className="faq-answer">
                               {item.answer.map((paragraph, ai) => (
-                                <p key={ai}>{t(paragraph)}</p>
+                                <p key={ai}>{parseInlineMarkdown(t(paragraph))}</p>
                               ))}
 
                               {item.links ? (
@@ -828,7 +861,7 @@ function CategoryView({
                     {section.bullets ? (
                       <ul>
                         {section.bullets.map((bullet, bi) => (
-                          <li key={bi}>{t(bullet)}</li>
+                          <li key={bi}>{parseInlineMarkdown(t(bullet))}</li>
                         ))}
                       </ul>
                     ) : null}
