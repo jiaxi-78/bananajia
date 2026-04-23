@@ -337,13 +337,23 @@ function mergeBilingualSections(zhSections, enSections) {
 function buildNote(file, sections, isBilingual = false) {
   const text = fs.readFileSync(file, 'utf-8')
   const { data, body } = parseFrontmatter(text)
-
+  // 根据文件路径推断 categoryId 和 chapterId（备份，当 frontmatter 缺失时使用）
   const relativePath = path.relative(VAULT_DIR, file)
   const pathParts = relativePath.split(path.sep)
   const inferredCategory = pathParts[0].toLowerCase().replace(/\s+/g, '-')
-  const inferredChapter = pathParts.length > 1
-    ? pathParts[1].replace(/-/g, '_')
-    : null
+
+  // 处理双语目录结构：Cooking/docs-zh/part01-primer/file.md → chapterId 应该是 part01_primer
+  let inferredChapter = null
+  if (pathParts.length > 1) {
+    const isBilingualSubdir = Object.keys(BILINGUAL_DIRS).some(zhDir =>
+      relativePath.startsWith(zhDir + path.sep)
+    )
+    if (isBilingualSubdir && pathParts.length > 2) {
+      inferredChapter = pathParts[2].replace(/-/g, '_')
+    } else {
+      inferredChapter = pathParts[1].replace(/-/g, '_')
+    }
+  }
 
   let inferredTitle = data.title || ''
   if (!inferredTitle) {

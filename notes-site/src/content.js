@@ -566,7 +566,7 @@ export const notes = [
   {
     id: '_sidebar',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: '_sidebar.md',
     course: '',
     date: '',
     title: ' sidebar',
@@ -588,7 +588,7 @@ export const notes = [
   {
     id: '01-a-historic-brew-reimagined',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -721,7 +721,7 @@ export const notes = [
   {
     id: '01-broadening-our-horizons',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -852,7 +852,7 @@ export const notes = [
   {
     id: '01-content',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part10_equipment',
     course: '',
     date: '',
     title: 'content',
@@ -1100,7 +1100,7 @@ export const notes = [
   {
     id: '01-got-to-have-the-funk',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -1703,7 +1703,7 @@ export const notes = [
   {
     id: '01-really-slow-cooking',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part09_black',
     course: '',
     date: '',
     title: {
@@ -1838,7 +1838,7 @@ export const notes = [
   {
     id: '01-rené-redzepi',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part00_preface',
     course: '',
     date: '',
     title: {
@@ -2483,7 +2483,7 @@ export const notes = [
   {
     id: '01-the-magic-mold',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -2497,7 +2497,7 @@ export const notes = [
   {
     id: '01-the-worlds-most-popular-fermented-flavor',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part07_shoyu',
     course: '',
     date: '',
     title: {
@@ -2511,7 +2511,7 @@ export const notes = [
   {
     id: '01-turning-sweet-to-sour',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -2643,7 +2643,7 @@ export const notes = [
   {
     id: '01-vinegar-improves-practically-anything',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -2657,7 +2657,7 @@ export const notes = [
   {
     id: '01-whatisfermentation',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -2790,7 +2790,7 @@ export const notes = [
   {
     id: '02-about-this-book',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part00_preface',
     course: '',
     date: '',
     title: {
@@ -3039,7 +3039,7 @@ export const notes = [
   {
     id: '02-beyond-the-cucumber',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -3181,7 +3181,7 @@ export const notes = [
   {
     id: '02-carthaginian-fish-sauce',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -3320,7 +3320,7 @@ export const notes = [
   {
     id: '02-cooperative-fermentation',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -4279,7 +4279,7 @@ export const notes = [
   {
     id: '02-how-shoyu-gets-made',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part07_shoyu',
     course: '',
     date: '',
     title: {
@@ -4293,7 +4293,7 @@ export const notes = [
   {
     id: '02-oryzae-loves-grains',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -4550,7 +4550,7 @@ export const notes = [
   {
     id: '02-redox-redux',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part09_black',
     course: '',
     date: '',
     title: {
@@ -4683,7 +4683,7 @@ export const notes = [
   {
     id: '02-soy-story',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -4697,7 +4697,7 @@ export const notes = [
   {
     id: '02-the-acid-test-of-time',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -4830,7 +4830,7 @@ export const notes = [
   {
     id: '02-what-makes-fermentation-delicious',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -4844,7 +4844,7 @@ export const notes = [
   {
     id: '03-beyond-rice',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -5212,7 +5212,7 @@ export const notes = [
   {
     id: '03-fish-digesting-fish',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -5349,7 +5349,7 @@ export const notes = [
   {
     id: '03-historical-methods-and-hand-taste',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -5727,7 +5727,7 @@ export const notes = [
   {
     id: '03-putting-lab-to-work',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -5976,7 +5976,7 @@ export const notes = [
   {
     id: '03-running-your-own-blackening-experiments',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part09_black',
     course: '',
     date: '',
     title: {
@@ -6107,7 +6107,7 @@ export const notes = [
   {
     id: '03-setting-the-table-for-microbes',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -6121,7 +6121,7 @@ export const notes = [
   {
     id: '03-shoyu-then-and-now',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part07_shoyu',
     course: '',
     date: '',
     title: {
@@ -6257,7 +6257,7 @@ export const notes = [
   {
     id: '03-the-quicker-quick-process',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -6271,7 +6271,7 @@ export const notes = [
   {
     id: '03-the-sweet-spot',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -6758,7 +6758,7 @@ export const notes = [
   {
     id: '04-black-garlic',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part09_black',
     course: '',
     date: '',
     title: {
@@ -7059,7 +7059,7 @@ export const notes = [
   {
     id: '04-caring-for-your-scoby',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -7312,7 +7312,7 @@ export const notes = [
   {
     id: '04-lactic-acid-bacteria-lab',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -7339,7 +7339,7 @@ export const notes = [
   {
     id: '04-making-our-peaso',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -7588,7 +7588,7 @@ export const notes = [
   {
     id: '04-nordic-shoyu',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part07_shoyu',
     course: '',
     date: '',
     title: {
@@ -7959,7 +7959,7 @@ export const notes = [
   {
     id: '04-remove-the-air',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -7973,7 +7973,7 @@ export const notes = [
   {
     id: '04-saltwater',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -8105,7 +8105,7 @@ export const notes = [
   {
     id: '04-spirit-vinegars',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -8119,7 +8119,7 @@ export const notes = [
   {
     id: '04-the-many-faces-of-koji',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -8495,7 +8495,7 @@ export const notes = [
   {
     id: '05-a-place-for-koji-to-call-home',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -8509,7 +8509,7 @@ export const notes = [
   {
     id: '05-acetic-acid-bacteria-aab',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -8544,7 +8544,7 @@ export const notes = [
   {
     id: '05-better-living-through-koji',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -8558,7 +8558,7 @@ export const notes = [
   {
     id: '05-black-apples',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part09_black',
     course: '',
     date: '',
     title: {
@@ -9053,7 +9053,7 @@ export const notes = [
   {
     id: '05-lemon-verbena-kombucha',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -9425,7 +9425,7 @@ export const notes = [
   {
     id: '05-salt-sufficiently',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -9676,7 +9676,7 @@ export const notes = [
   {
     id: '05-the-angels-share',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -9690,7 +9690,7 @@ export const notes = [
   {
     id: '05-yellow-pea-shoyu',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part07_shoyu',
     course: '',
     date: '',
     title: {
@@ -9969,7 +9969,7 @@ export const notes = [
   {
     id: '05-yellow-peaso',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -10410,7 +10410,7 @@ export const notes = [
   {
     id: '06-beef-garum',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -10630,7 +10630,7 @@ export const notes = [
   {
     id: '06-black-chestnuts',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part09_black',
     course: '',
     date: '',
     title: {
@@ -10730,7 +10730,7 @@ export const notes = [
   {
     id: '06-choose-your-products-wisely-and-clean-them-lightly',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -10862,7 +10862,7 @@ export const notes = [
   {
     id: '06-dryads-saddle-shoyu',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part07_shoyu',
     course: '',
     date: '',
     title: {
@@ -10970,7 +10970,7 @@ export const notes = [
   {
     id: '06-fungi',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -10984,7 +10984,7 @@ export const notes = [
   {
     id: '06-pearl-barley-koji',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -11259,7 +11259,7 @@ export const notes = [
   {
     id: '06-perry-vinegar',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -11506,7 +11506,7 @@ export const notes = [
   {
     id: '06-rose-kombucha',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -11652,7 +11652,7 @@ export const notes = [
   {
     id: '06-rose-peaso',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -11989,7 +11989,7 @@ export const notes = [
   {
     id: '07-apple-kombucha',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -12106,7 +12106,7 @@ export const notes = [
   {
     id: '07-black-hazelnuts',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part09_black',
     course: '',
     date: '',
     title: {
@@ -12223,7 +12223,7 @@ export const notes = [
   {
     id: '07-cep-shoyu',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part07_shoyu',
     course: '',
     date: '',
     title: {
@@ -12376,7 +12376,7 @@ export const notes = [
   {
     id: '07-citric-barley-koji',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -12465,7 +12465,7 @@ export const notes = [
   {
     id: '07-control-the-climate',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -12715,7 +12715,7 @@ export const notes = [
   {
     id: '07-plum-vinegar',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -12848,7 +12848,7 @@ export const notes = [
   {
     id: '07-rose-and-shrimp-garum',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -12977,7 +12977,7 @@ export const notes = [
   {
     id: '07-ryeso',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -13110,7 +13110,7 @@ export const notes = [
   {
     id: '07-saccharomyces-cerevisiae',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -13137,7 +13137,7 @@ export const notes = [
   {
     id: '08-brettanomyces',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -13164,7 +13164,7 @@ export const notes = [
   {
     id: '08-celery-vinegar',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -13347,7 +13347,7 @@ export const notes = [
   {
     id: '08-coffee-shoyu',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part07_shoyu',
     course: '',
     date: '',
     title: {
@@ -13469,7 +13469,7 @@ export const notes = [
   {
     id: '08-consider-accessorizing',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -13483,7 +13483,7 @@ export const notes = [
   {
     id: '08-elderflower-kombucha',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -13603,7 +13603,7 @@ export const notes = [
   {
     id: '08-maizo',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -13837,7 +13837,7 @@ export const notes = [
   {
     id: '08-squid-garum',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -13970,7 +13970,7 @@ export const notes = [
   {
     id: '08-sweet-citric-koji-water',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -14062,7 +14062,7 @@ export const notes = [
   {
     id: '08-waxed-black-shallots',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part09_black',
     course: '',
     date: '',
     title: {
@@ -14166,7 +14166,7 @@ export const notes = [
   {
     id: '09-aspergillus-oryzae',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -14193,7 +14193,7 @@ export const notes = [
   {
     id: '09-butternut-squash-vinegar',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -14395,7 +14395,7 @@ export const notes = [
   {
     id: '09-coffee-kombucha',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -14524,7 +14524,7 @@ export const notes = [
   {
     id: '09-masa',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -14600,7 +14600,7 @@ export const notes = [
   {
     id: '09-roasted-chicken-wing-garum',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -14745,7 +14745,7 @@ export const notes = [
   {
     id: '09-sparkling-citric-koji-amazake',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -14854,7 +14854,7 @@ export const notes = [
   {
     id: '09-watch-the-timing',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -14868,7 +14868,7 @@ export const notes = [
   {
     id: '10-aspergillus-luchuensis',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -14915,7 +14915,7 @@ export const notes = [
   {
     id: '10-dried-koji-and-koji-flour',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -15106,7 +15106,7 @@ export const notes = [
   {
     id: '10-grasshopper-garum',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -15235,7 +15235,7 @@ export const notes = [
   {
     id: '10-hazelnut-miso',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -15377,7 +15377,7 @@ export const notes = [
   {
     id: '10-maple-kombucha',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -15511,7 +15511,7 @@ export const notes = [
   {
     id: '10-wait-dont-throw-that-away',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -15525,7 +15525,7 @@ export const notes = [
   {
     id: '10-whiskey-vinegar',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -15674,7 +15674,7 @@ export const notes = [
   {
     id: '11-bee-pollen-garum',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -15808,7 +15808,7 @@ export const notes = [
   {
     id: '11-breadso',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -15942,7 +15942,7 @@ export const notes = [
   {
     id: '11-gammel-dansk-vinegar',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -16042,7 +16042,7 @@ export const notes = [
   {
     id: '11-lacto-koji-water',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -16158,7 +16158,7 @@ export const notes = [
   {
     id: '11-lacto-plums',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -16492,7 +16492,7 @@ export const notes = [
   {
     id: '11-mango-kombucha',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part03_kombucha',
     course: '',
     date: '',
     title: {
@@ -16621,7 +16621,7 @@ export const notes = [
   {
     id: '11-wild-fermentation',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -16635,7 +16635,7 @@ export const notes = [
   {
     id: '12-backslopping',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -16649,7 +16649,7 @@ export const notes = [
   {
     id: '12-elderberry-wine-balsamic',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -16806,7 +16806,7 @@ export const notes = [
   {
     id: '12-lacto-cep-mushrooms',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -16955,7 +16955,7 @@ export const notes = [
   {
     id: '12-pumpkin-seed-miso',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part06_miso',
     course: '',
     date: '',
     title: {
@@ -17081,7 +17081,7 @@ export const notes = [
   {
     id: '12-roasted-koji-mole',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -17186,7 +17186,7 @@ export const notes = [
   {
     id: '12-yeast-garum',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part08_garum',
     course: '',
     date: '',
     title: {
@@ -17290,7 +17290,7 @@ export const notes = [
   {
     id: '13-black-garlic-balsamic',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part04_vinegar',
     course: '',
     date: '',
     title: {
@@ -17407,7 +17407,7 @@ export const notes = [
   {
     id: '13-cleanliness-pathogens-and-safety',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -17421,7 +17421,7 @@ export const notes = [
   {
     id: '13-koji-cure-shio-koji',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part05_koji',
     course: '',
     date: '',
     title: {
@@ -17514,7 +17514,7 @@ export const notes = [
   {
     id: '13-lacto-tomato-water',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -17693,7 +17693,7 @@ export const notes = [
   {
     id: '14-clostridium-botulinum',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -17728,7 +17728,7 @@ export const notes = [
   {
     id: '14-lacto-white-asparagus',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -17844,7 +17844,7 @@ export const notes = [
   {
     id: '15-escherichia-coli',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -17871,7 +17871,7 @@ export const notes = [
   {
     id: '15-lacto-blueberries',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -18004,7 +18004,7 @@ export const notes = [
   {
     id: '16-lacto-mango-scented-honey',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -18149,7 +18149,7 @@ export const notes = [
   {
     id: '16-salmonella',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -18176,7 +18176,7 @@ export const notes = [
   {
     id: '17-lacto-green-gooseberries',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part02_lacto',
     course: '',
     date: '',
     title: {
@@ -18306,7 +18306,7 @@ export const notes = [
   {
     id: '17-pathogenic-molds',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -18345,7 +18345,7 @@ export const notes = [
   {
     id: '18-potential-of-hydrogen-ph',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -18359,7 +18359,7 @@ export const notes = [
   {
     id: '19-salt-and-bakers-percentages',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -18373,7 +18373,7 @@ export const notes = [
   {
     id: '20-building-a-fermentation-chamber',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -18387,7 +18387,7 @@ export const notes = [
   {
     id: '21-building-a-fermentation-chamber-with-a-covered-spe',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -18401,7 +18401,7 @@ export const notes = [
   {
     id: '22-building-a-fermentation-chamber-out-of-a-styrofoam',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -18415,7 +18415,7 @@ export const notes = [
   {
     id: '23-thinking-outside-the-kraut',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -18429,7 +18429,7 @@ export const notes = [
   {
     id: '24-substituting-store-bought-ferments',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
@@ -18443,7 +18443,7 @@ export const notes = [
   {
     id: '25-weights-and-measures',
     categoryId: 'cooking',
-    chapterId: 'docs_zh',
+    chapterId: 'part01_primer',
     course: '',
     date: '',
     title: {
