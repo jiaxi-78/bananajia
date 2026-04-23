@@ -561,29 +561,24 @@ export const notes = [
     title: 'System Design Interview',
     summary: '',
     tags: [],
-    sections: []
-  },
-  {
-    id: '_sidebar',
-    categoryId: 'cooking',
-    chapterId: '_sidebar.md',
-    course: '',
-    date: '',
-    title: ' sidebar',
-    summary: '',
-    tags: [],
-    sections: []
-  },
-  {
-    id: '_sidebar',
-    categoryId: 'system-design',
-    chapterId: '_sidebar.md',
-    course: '',
-    date: '',
-    title: ' sidebar',
-    summary: '',
-    tags: [],
-    sections: []
+    sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# System Design Interview',
+          '[开始学习](README.md)'
+        ],
+        faqs: [],
+        bullets: [
+          '短篇幅学习',
+          '每节都有小结',
+          '每节都有思考题',
+          '每节都有下一节预告',
+          '按经典系统逐步推进'
+        ],
+        emphasisCards: []
+      }
+    ]
   },
   {
     id: '01-a-historic-brew-reimagined',
@@ -597,7 +592,64 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 重新构思的历史酿造',
+            en: '# A Historic Brew Reimagined'
+          },
+          {
+            zh: '*Kombucha was born in ancient China.*',
+            en: '*Kombucha was born in ancient China.*'
+          },
+          {
+            zh: '当我们第一次在 Noma 开始投入时间和精力来学习发酵时，我们阅读了所有可以获得的相关文献。每当我们在书中遇到一个不熟悉的术语时，都会感到兴奋。我们读到的东西可能已经有几个世纪的历史了，但对于我们这个世界的小角落来说，它们本质上是新的。例如，十年前，丹麦几乎没有人喝kombucha。当我们第一次尝试自己制作时，我们必须去Christiania——Copenhagen自称的自治嬉皮社区，游客会去那里购买哈希——寻找补给品。',
+            en: 'When we first began dedicating time and attention to learning about fermentation at Noma, we consumed every piece of relevant literature we could get our hands on. Each time we came across an unfamiliar term in a book, it gave us a thrill. The things we were reading about may have been centuries old, but they were essentially new to our little corner of the world. Ten years ago, for instance, hardly anyone in Denmark was drinking kombucha. When we first tried making our own, we had to go to Christiania—Copenhagen’s self-declared autonomous hippie neighborhood where tourists go to buy hash—to find supplies.'
+          },
+          {
+            zh: 'Kombucha 是一种酸味、轻度碳酸化的发酵饮料，传统上由加糖茶制成。据信，其神秘起源于公元前 200 年左右的满洲（即现在的中国东北部）。它从那里向东传播到日本，主要是通过一位名叫昆布的韩国传奇医生的努力。因此，kombucha（cha 在汉语中意为“茶”）。',
+            en: 'Kombucha is a soured and lightly carbonated fermented beverage, traditionally made from sweetened tea. Its murky origins are believed to lie in Manchuria (what is now northeastern China) around 200 BCE. From there it spread east to Japan, largely through the efforts of a fabled Korean physician named Kombu. Hence,kombucha(chabeing Chinese for “tea”).'
+          },
+          {
+            zh: '从历史上看，kombucha曾在日本、韩国、越南、中国和俄罗斯东部部分地区使用。但近年来，得益于巧妙的营销以及公众对益生菌的迷恋，kombucha 在北美和西欧迅速流行起来。',
+            en: 'Historically, kombucha has been consumed in Japan, Korea, Vietnam, China, and parts of eastern Russia. But in recent years, kombucha has exploded in popularity across North America and Western Europe, thanks to clever marketing and the public’s growing fascination with all things probiotic.'
+          },
+          {
+            zh: '在Noma，我们酿造kombucha作为一些果汁搭配的泡腾和充满活力的基础，我们的许多食客选择这些果汁搭配来代替或有时除了葡萄酒搭配之外。 Kombucha 为 Noma 开辟了我们的饮料服务范围，这令人难以置信。就像我们为菜单开发一道菜一样，我们将 kombucha 与新鲜果汁、香料、油甚至昆虫混合，创造出优雅平衡的饮料。',
+            en: 'At Noma, we brew kombuchas as effervescent and vibrant bases for some of the juice pairings that many of our diners choose in place of—or sometimes in addition to—wine pairings. Kombucha has been incredible for opening up the range of our drink service at Noma. In the same way that we might develop a dish for the menu, we mix kombuchas with fresh juices, spices, oils, and even insects to create elegantly balanced beverages.'
+          },
+          {
+            zh: '几乎任何含有足够糖分的液体都可以发酵成kombucha，因此虽然习惯上用加糖茶制作kombucha，但我们最喜欢的一些品种是由草药（草药浸剂）或果汁制成的，它们产生茶所没有的圆润和深度的风味。我们用洋甘菊、柠檬马鞭草、接骨木花、藏红花和玫瑰的浸液以及苹果、樱桃、胡萝卜和芦笋的果汁制作了很棒的kombucha。',
+            en: 'Almost any liquid with enough sugar can be fermented into kombucha, so while it’s customary to make kombucha from sweetened tea, some of the varieties that we enjoy most are made from tisanes (herbal infusions) or fruit juices, which yield a roundness and depth of flavor not found in tea. We’ve made great kombucha from infusions of chamomile, lemon verbena, elderflower, saffron, and rose, as well as from the juice of apples, cherries, carrots, and asparagus.'
+          },
+          {
+            zh: '我们正在追求的那种kombucha与人们强迫自己喝的酸液几乎没有什么相似之处，因为人们认为这对他们有好处。老实说，我们发现一般商店购买的茶kombucha有点无聊。茶的味道通常会消失在背景中，你留下的只是一种单一味道的饮料，它并不能真正带你进行任何类型的旅程。',
+            en: 'The kind of kombucha we’re chasing bears very little resemblance to the sour liquid people force themselves to drink because it’s supposedly good for them. To be perfectly honest, we find the average store-bought tea-based kombucha a bit boring. The flavor of the tea usually fades into the background, and you’re left with a one-note beverage that doesn’t really take you on any sort of a journey.'
+          },
+          {
+            zh: '*Carrot kombucha was one of Noma’s first forays into kombucha brewing.*',
+            en: '*Carrot kombucha was one of Noma’s first forays into kombucha brewing.*'
+          },
+          {
+            zh: '我们最早的尝试之一是胡萝卜kombucha，它让我们看到了kombucha的含义。它本身就像一道完美的汤，一种冷肉汤，仍然有一些胡萝卜的甜味，但带有一丝酸味。它已经转变为具有新维度的东西，补充了原来的味道而不掩盖它。从那时起，我们一直致力于从尽可能多的不同基地酿造kombucha。我们的一些探索让我们走出了一条不走寻常路的道路，用乳制品、树液和辣辣椒制成的汤进行实验。',
+            en: 'One of our earliest forays was a carrot kombucha that opened our eyes to what kombucha can be. It was like a perfect soup all on its own, a cold broth that still had some carrot-y sweetness, but with a touch of acidity. It had transformed into something with new dimensions that complemented the original flavor without obscuring it. Since then, we’ve been on an ongoing mission to brew kombucha from as many different bases as we can. Some of our explorations have taken us off the beaten path into experiments with dairy, tree saps, and stocks made with spicy chiles.'
+          },
+          {
+            zh: '我们也用kombucha做饭。一旦您不再将kombucha仅仅视为一种新时代健康饮料，您就会发现许多烹饪的可能性。发酵kombucha的时间越长，它的酸性就越强。一段时间后，它成为腌料或油醋汁中的活跃成分，或者是酱汁中白葡萄酒或香槟的有趣替代品。或者，您可以将平底锅中的kombucha 倒入神奇的糖浆中，这种糖浆是您真正想要在煎饼上添加的甜酸馅料。',
+            en: 'We cook with kombucha, too. Once you stop viewing kombucha as simply a New Age health drink, a number of culinary possibilities open up. The longer you ferment kombucha, the more acidic it grows. After a while, it becomes a lively ingredient in marinades or vinaigrettes, or an intriguing substitute for white wine or Champagne in sauces. Or you can reduce kombucha in a pan into a magical syrup—the kind of sweet, tart topping you really want on your pancakes.'
+          },
+          {
+            zh: '<!-- text/part0007_split_002.html -->',
+            en: '<!-- text/part0007_split_002.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-autocomplete-scope-estimation',
@@ -609,6 +661,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 从需求到容量估算：什么是快的自动补全'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -730,7 +791,68 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 拓宽我们的视野',
+            en: '# Broadening Our Horizons'
+          },
+          {
+            zh: 'Noma是一家逐步发展的餐厅。在我们刚开业的最初阶段，我们正在探索食材并熟悉每个季节的细节，寻找灵感来创造菜肴、菜单或身份。随着我们的进步和对皮肤的适应，我们发现自己有更多的时间和愿望不仅了解成分，而且了解技术、历史、故事和人。',
+            en: 'Noma is a restaurant that has evolved in stages. In our earliest stage, when we had barely opened our doors, we were exploring ingredients and becoming familiar with the particulars of each season, looking for nuggets of inspiration from which we could create a dish or a menu or an identity. As we progressed and became comfortable in our skin, we found ourselves with more time and desire to learn not only about ingredients, but also technique, history, stories, and people.'
+          },
+          {
+            zh: '我们开始深入挖掘北欧地区数百年历史的饮食方式，寻找可以定义我们自己的烹饪的支柱。但当我们仔细研究斯堪的纳维亚半岛、芬兰、格陵兰岛、法罗群岛和德国北部的传统时，我们所寻找的美食仍然令人沮丧地难以捉摸。回想起来，这是有道理的。我们的员工来自不同的背景——将我们的目光仅限于北欧地区是远远不够的。',
+            en: 'We began to dig deep into the centuries-old foodways of the Nordic region in search of pillars around which we could define our own cooking. But as we sifted through the traditions of Scandinavia, Finland, Greenland, the Faroe Islands, and northern Germany, the cuisine we were seeking remained frustratingly elusive. In retrospect, it makes sense. Our staff comes from a large and diverse set of backgrounds—to restrict our gaze to the Nordic region was never going to be enough.'
+          },
+          {
+            zh: '因此，在2009年或2010年的某个时候，为了更多地了解自己，我们开始把目光投向更远的地方。起初，我们认为我们应该关注与我们关系密切的国家，例如俄罗斯或德国，这些国家有许多共同的饮食传统。但很快我们就意识到我们需要走出舒适区。',
+            en: 'And so, sometime in 2009 or 2010, in order to learn more about ourselves, we began looking further afield. At first we thought we should focus on countries that were close to ours, like Russia or Germany, where there are a great many shared food traditions. But again, it quickly became apparent that we needed to look outside our comfort zone.'
+          },
+          {
+            zh: 'A few trips to Japan opened our eyes to the incredible rigor with which Japanese cooks and artisans pursue umami—the hard-to-describe yet deeply recognizable flavor of savoriness. shoyu、koji、miso有数千个品种，每种都有不同的特点和应用。因此，日本的厨师可以使用多种调味工具，所有这些工具的味道都独特，但也具有明显的日本特色。 We returned to Copenhagen knowing that in order to con-struct a flavor that could define our restaurant and possibly our entire region, we needed a similar pantry of our own.',
+            en: 'A few trips to Japan opened our eyes to the incredible rigor with which Japanese cooks and artisans pursue umami—the hard-to-describe yet deeply recognizable flavor of savoriness. There are thousands of varieties of shoyu, koji, and miso, each with different characteristics and applications. As a result, chefs in Japan have multitudes of seasoning tools at their disposal, all of which taste distinct but also distinctly Japanese. We returned to Copenhagen knowing that in order to con-struct a flavor that could define our restaurant and possibly our entire region, we needed a similar pantry of our own.'
+          },
+          {
+            zh: '我们的北欧版本miso也许是我们建造此类食品储藏室最成功的尝试。它的生命始于一块失败的豆腐。',
+            en: 'Our Nordic version of miso is perhaps the most successful attempt we’ve had at building such a pantry. And it began its life as a failed tofu.'
+          },
+          {
+            zh: '*Koji, legumes, and salt go into a bucket and emerge months later as miso.*',
+            en: '*Koji, legumes, and salt go into a bucket and emerge months later as miso.*'
+          },
+          {
+            zh: '我们试图看看是否可以将从当地黄豌豆中挤出的牛奶凝固成一种豆腐。我们花了数周的时间才意识到这种高蛋白豆类实际上可能更适合发酵。从那时起，我们遵循传统的miso制作技术——用北欧的输入代替日本的输入——最终得到了黄豌豆miso，又名peaso。',
+            en: 'We were trying to see if we could coagulate milk squeezed from local yellow peas into a sort of tofu. We committed weeks to the effort before realizing that this high-protein legume might actually be better suited for fermentation. From there, we followed traditional miso-making techniques—replacing Japanese inputs with Nordic ones—and ended up with yellow pea miso, aka peaso.'
+          },
+          {
+            zh: 'Peaso 的味道不像 miso——至少我们不这么认为。它具有明显的丹麦风味，使其既是我们独有的，又深受亚洲的影响。这是对世界这个地区来说陌生的概念与我们非常熟悉的成分的完美碰撞。这就是我们认为食品应该向前发展的方式。斯堪的纳维亚半岛乃至世界上大多数最好的事物都有类似的故事：他们被介绍到一个新的地方，他们适应，找到自己的生活，并最终成为这个地方的人。这就像移民。微生物迁移。',
+            en: 'Peaso doesn’t taste like miso—at least we don’t think so. It tastes distinctly of Denmark, making it both uniquely ours and still greatly indebted to Asia. It’s a perfect collision of a concept that is foreign to this part of the world with an ingredient with which we’re very well acquainted. That’s how we think food should move forward. Most of the best things in Scandinavia—and the world, for that matter—have a similar story: They get introduced to a new place, they adapt, find their own life, and eventually become of the place. It’s like immigration. Microbial immigration.'
+          },
+          {
+            zh: '自从取得初步成功以来，我们用黑麦面包、玉米和榛子制作了miso。我们尝试了来自斯堪的纳维亚半岛及其他地区的不同豆类，如羽扇豆和黑豆，以及不同的谷物。这是一个持续进行的项目，每时每刻都让我们感到惊讶和兴奋。它始于聆听我们自己之外的故事。',
+            en: 'Since that initial success, we’ve made miso from rye bread and corn and hazelnuts. We’ve tried different legumes, from Scandinavia and beyond, like lupin and black beans, and different grains as well. It’s an ongoing project that keeps surprising and thrilling us at every turn. And it began by listening to stories beyond our own.'
+          },
+          {
+            zh: '*Langoustine and Douglas Fir, Noma, 2018*',
+            en: '*Langoustine and Douglas Fir, Noma, 2018*'
+          },
+          {
+            zh: '*The pan-fried head of a Faroe Islands langoustine is served alongside its tail, which has been grilled over pine needles. Both are glazed with peaso tamari reduction.*',
+            en: '*The pan-fried head of a Faroe Islands langoustine is served alongside its tail, which has been grilled over pine needles. Both are glazed with peaso tamari reduction.*'
+          },
+          {
+            zh: '<!-- text/part0010_split_002.html -->',
+            en: '<!-- text/part0010_split_002.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-chat-scope-protocols',
@@ -742,6 +864,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Chat System 的范围与通信协议'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -858,7 +989,3008 @@ export const notes = [
     title: 'content',
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '<!-- text/part0014_split_000.html -->',
+            en: '<!-- text/part0014_split_000.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '设备',
+            en: 'Equipment'
+          },
+          {
+            zh: '发酵的方法有很多种，因此没有一套“正确”的设备。一些发酵罐会用祖母的传家宝陶瓷罐发誓，而另一些发酵罐则用改造后的泡菜罐来凑合。我们不会建议具体的项目，以免我们让您觉得除非您拥有我们所拥有的东西，否则您无法执行发酵项目。但如果您想知道在网上或当地发酵商店购买什么，这里有一些可供参考的基本信息。',
+            en: 'There are a multitude of different ways to go about fermentation, and thus there is no single set of “correct” equipment. Some fermenters will swear by their grandmother’s heirloom ceramic crock, while others make do with repurposed pickle jars. We’ll stop short of suggesting specific items, lest we make you feel like you can’t carry out a fermentation project unless you have exactly what we have. But here’s some basic information for reference, should you be wondering what to buy online or from your local fermentation store.'
+          },
+          {
+            zh: '<!-- text/part0014_split_001.html -->',
+            en: '<!-- text/part0014_split_001.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '气闸室是酿造酒精时必不可少的工具，也可用于 lacto 发酵，气闸室由插入橡胶塞的充满水的 S 形通风口组成。空气无法通过气闸进入，但当微生物在发酵容器内产生气体时，压力会不断增加，直到通过排气口排出。空气泵和空气石是用于给醋充气并为发酵的需氧细菌提供氧气的常见设备，在宠物店和家庭酿酒店都可以找到空气泵。许多都配有石制曝气器（空气石），但如果您发现它们随着时间的推移而恶化，您也可以找到金属曝气器。陶瓷缸陶瓷缸是用于发酵食品的久经考验的真正容器。它们是不透明的，因此光线无法进入（seesidebar），从而防止紫外线损坏微生物细胞。许多瓦罐都带有一个小护城河，盖子就位于其中。当装满水时，它起到气闸的作用。苹果酒压榨机通常用于通过平纹细布袋压榨发酵水果泥，苹果酒压榨机也可用于收获 shoyu 或 lacto 发酵水果和蔬菜的汁液。脱水机此台面设备将热空气吹过配料托盘，缓慢干燥它们。脱水机非常适合使用一系列发酵食品，从 lacto 发酵水果到黑色蔬菜。发酵砝码通常包含在发酵罐中，玻璃或陶瓷发酵砝码用于将原料压入水位线以下，不与空气接触。它们对于制作 miso 以及发酵更坚固的产品时特别有用。',
+            en: 'AirlocksAn indispensable tool when brewing alcohol, and useful for lacto-fermentation as well, an airlock consists of a water-filled S-shaped vent plugged into a rubber stopper. Air cannot enter through the airlock, but as microbes create gas inside the fermentation vessel, pressure builds until it is expelled through the vent.Air Pump and Air StoneCommon devices used to aerate vinegars and supply oxygen to the aerobic bacteria fermenting it, air pumps can be found at both pet stores and home-brew shops. Many come with stone aerators (air stones), but if you notice them deteriorating over time, you can also find metal aerators.Ceramic CrocksCeramic crocks are tried and true vessels for fermented foods. They’re opaque, so light can’t enter (seesidebar), which prevents UV rays from damaging microbial cells. Many crocks come with the added feature of a small moat in which the lid sits. When filled with water, it acts as an airlock.Cider PressNormally used to press the mash of fermented fruit through a muslin bag, a cider press can also be used to harvest shoyu or the juice of lacto-fermented fruits and vegetables.DehydratorThis countertop appliance blows warm air over trays of ingredients, drying them slowly. Dehydrators are great for making use of a range of fermented goods, from lacto-fermented fruits to black vegetables.Fermentation WeightsOften included with fermenting crocks, glass or ceramic fermentation weights are used to press ingredients down beneath a water line and out of contact with the air. They’re especially useful for making miso, and when lacto-fermenting sturdier products.'
+          },
+          {
+            zh: '<!-- text/part0014_split_002.html -->',
+            en: '<!-- text/part0014_split_002.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '玻璃罐（不同形状和尺寸） 玻璃是发酵 kombucha 和 lacto 发酵的绝佳介质，因为它是惰性的，可以让您直观地跟踪进度（参见侧栏）。旋转盖或螺旋盖同样可以接受。谷物抛光机在日本使用，通过在磨料表面上旋转谷物来去除大米的内果皮（外层），使 koji 更容易抓住。谷物抛光机同样适用于不太知名的谷物，如二粒小麦或科尼尼谷物。加湿器孵化 koji 需要一个小型加湿器。它们有多种形状和类型。有些使用超声波板产生超细雾，而另一些则通过蒸发将水分散到空气中。两者都可以，但一般来说，越小越好。榨汁机对于提取醋和 kombucha 的水果和蔬菜汁来说是必不可少的，榨汁机有多种形状和样式。Kioke 传统上用于日本发酵清酒、miso 和 shoyu 的喇叭形开顶桶，kioke 通常由雪松制成，可为发酵赋予独特的风味。开放式顶部允许搅拌混合物或用重物压下。Koji摇床您正在寻找糖霜/糖粉摇床：一个简单的金属圆筒，配有丝网盖。摇床可以让您将曲霉孢子分散到蒸米饭或大麦的托盘上。',
+            en: 'Glass Jars (Different Shapes and Sizes)Glass is a great medium for fermenting kombuchas and lacto-ferments because it is inert and allows you to track your progress visually (seesidebar). Swing-top or screw-on lids are equally acceptable.Grain PolisherUsed in Japan to remove the endocarp (outer layer) of rice by whirring the grains against an abrasive surface, making it easier for koji to take hold. A grain polisher will work equally well with lesser-known grains, like emmer or konini.HumidifierA small humidifier is necessary for incubating koji. These come in many shapes and types. Some operate with an ultrasonic plate that creates an ultrafine mist, while others disperse water into the air through evaporation. Either will work, but in general, smaller is better.JuicerIndispensable for extracting fruit and vegetable juices for vinegars and kombuchas, juicers come in many shapes and styles.KiokeFlared, open-top barrels traditionally used in Japan to ferment sake, miso, and shoyu, kioke are usually made of cedar, which imparts a distinct flavor to the ferment. The open top allows the mixture to be stirred or pressed down with weights.Koji ShakerYou’re looking for an icing/powdered sugar shaker: a simple metal cylinder outfitted with a wire screen lid. A shaker allows you to distribute Aspergillus spores onto trays of steamed rice or barley.'
+          },
+          {
+            zh: '<!-- text/part0014_split_003.html -->',
+            en: '<!-- text/part0014_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '平纹细布或粗棉布可用于过滤糊状物和澄清冰的肉汤和高汤，它们由乙烯基或棉花制成，可以在彻底清洗后重复使用。尼龙网过滤器也称为鱼网，这是一个配有细尼龙网的金属丝或塑料环，用于过滤液体和筛分面粉。内衬粗棉布的细网筛具有相同的用途。穿孔钢托盘穿孔不锈钢托盘允许 koji 在接触氧气的卫生表面上生长。pH 仪表此手持式工具可对液体的 pH 进行精确的数字测量。pH 测试条这些化学反应纸条会根据溶液的 pH 改变颜色。您将条带浸入液体中，然后在视觉上将颜色与钥匙进行比较。 塑料桶食品级塑料桶是大批量发酵的理想容器，例如 kombucha、miso、garum、醋和酒精（配备气闸时）。请注意，塑料确实有吸收味道的倾向，因此最好不要将同一个桶用于不同的用途。',
+            en: 'Muslin or CheeseclothUseful for straining mashes and ice-clarifying broths and stocks, these are made of either vinyl or cotton and can be reused with a thorough washing.Nylon Mesh StrainerAlso called a fish net, this is a wire or plastic ring fitted with fine nylon mesh used to strain liquids and sift flours. A fine-mesh sieve lined with cheesecloth serves the same purpose.Perforated Steel TrayA perforated stainless-steel tray allows koji to grow on a sanitary surface with access to oxygen.pH MeterThis handheld tool provides an accurate, digital measurement of a liquid’s pH.pH Test StripsThese chemically reactive strips of paper change color depending on the pH of a solution. You dip the strips into a liquid, then visually compare the color to a key.Plastic BucketFood-grade plastic buckets are ideal vessels for larger batches of ferments like kombucha, miso, garum, vinegar, and alcohol (when equipped with an airlock). Note that plastic does have a tendency to absorb flavors, so it’s best not to use the same bucket for different purposes.'
+          },
+          {
+            zh: '<!-- text/part0014_split_004.html -->',
+            en: '<!-- text/part0014_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '锅和蒸锅简单的三件式装置（锅、盖子和穿孔蒸锅插件）用于烹饪谷物。折射计是一种可选但非常方便的工具，折射计可让您通过测量光的折射来确定液体的糖含量。 （水中溶解的糖越多，折射率越大。）电饭锅设置为“保温”的大型电饭锅可以作为需要在较高温度下保存的产品的发酵室，例如garum和黑色水果和蔬菜。一定要找到没有自动关闭功能的电饭锅。空间加热器或加热垫这些设备都可以用来加热隔热良好的发酵室。 （加热垫通常用于种子发芽或加热爬行动物玻璃容器，更适合较小的发酵室。）虽然许多加热器都配备了手动变阻器，但最好与温度控制器结合使用。聚苯乙烯泡沫塑料冷却器防水、绝缘良好、价格便宜且易于清洁，聚苯乙烯泡沫塑料冷却器是理想的发酵室。有关说明，请参阅聚苯乙烯泡沫塑料冷却器。平顶玻璃瓶非常适合储存成品液体发酵物，例如醋和 kombucha，因为它们的密封是气密的，瓶子也可用于碳酸kombucha：装满瓶子并将其放在冰箱中 1 至 2 周，然后食用。',
+            en: 'Pot and SteamerA simple three-piece setup (pot, lid, and perforated steamer insert) is used to cook grains.RefractometerAn optional but extremely handy tool, a refractometer allows you to determine the sugar content of a liquid by measuring the refraction of light. (The more sugar dissolved in water, the greater the refractive index.)Rice CookerA large rice cooker set to “keep warm” can serve as a fermentation chamber for products that need to be held at higher temperatures, such as garums and black fruits and vegetables. Be sure to find a rice cooker that does not come equipped with an auto-off feature.Space Heater or Heating MatEither of these devices can be used to heat a well-insulated fermentation chamber. (Heating mats—normally used to germinate seeds or heat reptile terrariums—are better suited for smaller chambers.) While many heaters are equipped with manual rheostats, they’re best when combined with a temperature controller.Styrofoam CoolerWaterproof, well-insulated, cheap, and easily cleaned, Styrofoam coolers make ideal fermentation chambers. Seestyrofoam coolerfor instructions.Swing-Top Glass BottlesPerfect for storing finished liquid ferments, such as vinegar and kombucha, because their seals are airtight, bottles can also be used to carbonate kombucha: Fill the bottles and leave them in the fridge for 1 to 2 weeks before consuming.'
+          },
+          {
+            zh: '<!-- text/part0014_split_005.html -->',
+            en: '<!-- text/part0014_split_005.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '温度控制器是一种用于调节发酵室温度的电子设备，它可以有效地充当恒温器，可以通过编程来控制您选择的热源。如果温度太热，某些型号还可以切换到冷却功能。真空密封机和真空袋台面真空密封机对于lacto发酵和完成后储存所有发酵物非常有用。透明的真空袋可以让您看到发酵过程中发生的情况，并且可以轻松切开以排出气体并重新密封。木桶木桶赋予独特的风味，并允许其容纳的液体非常缓慢地蒸发。酒精和醋是最常见的桶陈发酵物，但 garum 和 shoyu 也受益于在木材中的陈酿。木制 Koji 托盘通常由未经处理的雪松木板制成，koji 托盘是在稻米或大麦上种植 Aspergillus oryzae 的传统容器。如果一切顺利，则无需在 koji 批次之间清洗托盘，因为真菌会在托盘中生存。',
+            en: 'Temperature ControllerAn electronic device for regulating the temperature of a fermentation chamber, it effectively functions as a thermostat that can be programmed to control a heat source of your choosing. Some models can also switch over to a cooling function should the temperature get too hot.Vacuum Sealer and Vacuum BagsA countertop vacuum sealer is extremely useful for lacto-fermentation and storage of all your ferments once complete. Clear vacuum bags allow you to see what’s happening during fermentation and can easily be cut open to vent gas and resealed.Wooden BarrelBarrels impart unique flavors and allow for very slow evaporation of the liquids they hold. Alcohols and vinegars are the most common barrel-aged ferments, but garums and shoyus also benefit from aging in wood.Wooden Koji TrayTypically made from untreated planks of cedar, koji trays are the traditional vessel for growing Aspergillus oryzae on rice or barley. If all goes well, there’s no need to wash the trays between batches of koji, as the fungus comes to live in the trays themselves.'
+          },
+          {
+            zh: '<!-- text/part0015.html -->',
+            en: '<!-- text/part0015.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '来源',
+            en: 'Sources'
+          },
+          {
+            zh: '有机农贸市场或杂货店是本书中所要求的原材料的最佳来源。对于发酵专用物品，库存充足的自制啤酒或发酵店几乎可以提供您所需的一切。除此之外，有些东西你在网上找不到。以下是我们用来采购专业产品的一些来源。',
+            en: 'An organic farmers’ market or grocery store is your best source for the raw ingredients called for in this book. For fermentation-specific items, a well-stocked home-brew or fermentation shop will have almost everything you need. Beyond that, there are some things you can’t find online. Here are a few sources we’ve used to procure specialized products.'
+          },
+          {
+            zh: '蜂花粉',
+            en: 'Bee Pollen'
+          },
+          {
+            zh: '英国蜂花粉网站',
+            en: 'bee-pollen.co.uk'
+          },
+          {
+            zh: '911honey.com',
+            en: '911honey.com'
+          },
+          {
+            zh: '原始生活.eu',
+            en: 'rawliving.eu'
+          },
+          {
+            zh: '啤酒酵母',
+            en: 'Brewer’s Yeast'
+          },
+          {
+            zh: 'hopt-shop.dk',
+            en: 'hopt-shop.dk'
+          },
+          {
+            zh: 'themaltmiller.co.uk',
+            en: 'themaltmiller.co.uk'
+          },
+          {
+            zh: '酵母人网',
+            en: 'yeastman.com'
+          },
+          {
+            zh: '脱脂或低脂榛子粉',
+            en: 'Defatted or Low-Fat Hazelnut Meal'
+          },
+          {
+            zh: 'bosredmill.com',
+            en: 'bobsredmill.com'
+          },
+          {
+            zh: '欧洲制造商公司',
+            en: 'oelmanufaktur-rilli.de'
+          },
+          {
+            zh: '古天堂.de',
+            en: 'paleo-paradies.de'
+          },
+          {
+            zh: '蚱蜢和蜡蛾幼虫',
+            en: 'Grasshoppers and Wax Moth Larvae'
+          },
+          {
+            zh: 'delibugs.nl',
+            en: 'delibugs.nl'
+          },
+          {
+            zh: 'speedyworm.com',
+            en: 'speedyworm.com'
+          },
+          {
+            zh: '顶虫网',
+            en: 'topinsect.net'
+          },
+          {
+            zh: 'Koji孢子',
+            en: 'Koji Spores'
+          },
+          {
+            zh: '秋田今野.co.jp',
+            en: 'akita-konno.co.jp'
+          },
+          {
+            zh: '美国酿酒师网站',
+            en: 'americanbrewmaster.com'
+          },
+          {
+            zh: '宝石文化网',
+            en: 'gemcultures.com'
+          },
+          {
+            zh: '有机文化网站',
+            en: 'organic-cultures.com'
+          },
+          {
+            zh: 'Kombucha斯科比',
+            en: 'Kombucha SCOBY'
+          },
+          {
+            zh: '健康文化网站',
+            en: 'culturesforhealth.com'
+          },
+          {
+            zh: '费尔门特网站',
+            en: 'fairment.de'
+          },
+          {
+            zh: '快乐kombucha.co.uk',
+            en: 'happykombucha.co.uk'
+          },
+          {
+            zh: 'hjemmeriet.com',
+            en: 'hjemmeriet.com'
+          },
+          {
+            zh: 'kombuchakamp.com',
+            en: 'kombuchakamp.com'
+          },
+          {
+            zh: '<!-- text/part0016.html -->',
+            en: '<!-- text/part0016.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '致谢',
+            en: 'Acknowledgments'
+          },
+          {
+            zh: '尽管本书经历了曲折的迭代，两位作者还是要感谢许多人，他们要么帮助本书一路走来，要么为我们提供时间来撰写本书，其中包括 Thomas Frebel、Mette Brink Soberg、Benjamin Paul Ing、Junichi Takahashi、Jason White、Matt Orlando、Paula Troxler、Evan Sung、Jason Loucas、Laura 和 Andreja Lajh、Lizzie Ellison、Aralyn Beaumont、Paul D’Avino、Diego Gutierrez、Phil Hickman、Alex Petrician、Adriano Bruzzese、Anne Catherine Preißer、Priyanca Patel、Fiona Strouts 和 Alessio Marcato，以及整个 Noma 家族、Atelier Dyakova 的每个人以及 Artisan Books 的整个团队。',
+            en: 'For all the iterations this book has taken on its winding path to becoming what it is, both authors would like to thank the many individuals who either helped it along its way or afforded us the time to write it, among them, Thomas Frebel, Mette Brink Soberg, Benjamin Paul Ing, Junichi Takahashi, Jason White, Matt Orlando, Paula Troxler, Evan Sung, Jason Loucas, Laura and Andreja Lajh, Lizzie Ellison, Aralyn Beaumont, Paul D’Avino, Diego Gutierrez, Phil Hickman, Alex Petrician, Adriano Bruzzese, Anne Catherine Preißer, Priyanca Patel, Fiona Strouts, and Alessio Marcato, in addition to the entire Noma family, everyone at Atelier Dyakova, and the entire team at Artisan Books.'
+          },
+          {
+            zh: '我们还要感谢作者们的精彩作品，激励我们更深入地研究发酵的实践、历史和科学。威廉·舒特莱夫、青柳明子、哈罗德·麦吉和桑德尔·卡茨。',
+            en: 'We would also like to thank authors whose amazing bodies of work inspired us to delve deeper into the practice, history, and science of fermentation at all. William Shurtleff and Akiko Aoyagi, Harold McGee and Sandor Katz.'
+          },
+          {
+            zh: '尤其要特别感谢的是出色的编辑团队，他们帮助将本书的文字塑造成一本读起来和写起来一样令人愉快的书：Chris Ying、Martha Holmberg、Arielle Johnson 博士和我们的出版商 Lia Ronnen。',
+            en: 'Not least, very special thanks are in order to the team of amazing editors who helped shape the words of this book into a volume that is as enjoyable to read as it was to write: Chris Ying, Martha Holmberg, Dr. Arielle Johnson, and our publisher, Lia Ronnen.'
+          },
+          {
+            zh: 'RR&DZ',
+            en: 'RR & DZ'
+          },
+          {
+            zh: '<!-- text/part0017.html -->',
+            en: '<!-- text/part0017.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '关于作者',
+            en: 'About the Authors'
+          },
+          {
+            zh: 'René Redzepi 是 Copenhagen 中 Noma 的主厨和共同所有人，该餐厅四次被世界 50 家最佳餐厅评为世界最佳餐厅。 Redzepi 曾两次登上《时代》杂志封面（并被《时代》杂志评为全球 100 名最具影响力人物之一）；曾在《纽约时报》和《连线》等刊物上发表过专题报道；并在两部长篇纪录片和无数的国内和国际媒体中得到了报道。他的第一本书《Noma：北欧美食的时间与地点》荣获 IACP 和詹姆斯·比尔德奖。他也是《正在进行的工作》一书的作者。他与妻子 Nadine Levy Redzepi 以及三个孩子住在一起。通过 Instagram@reneredzepinoma 和@nomacph 找到他。',
+            en: 'René Redzepi is the chef and co-owner of Noma in Copenhagen, four times recognized as the world’s best by the World’s 50 Best Restaurants. Redzepi has twice appeared on the cover of Time magazine (and been named one of Time’s 100 Most Influential People in the World); been featured in publications from theNew York TimestoWired; and been profiled in two feature-length documentaries and countless national and international media outlets. His first book,Noma: Time and Place in Nordic Cuisine, was an IACP and James Beard Award winner. He is also the author ofA Work in Progress. He lives with his wife, Nadine Levy Redzepi, and their three children. Find him on Instagram@reneredzepinomaand@nomacph.'
+          },
+          {
+            zh: 'David Zilber 是一位来自加拿大多伦多的厨师和摄影师。他曾在北美各地烹饪过美食，最著名的是在温哥华 Hawksworth 餐厅担任副主厨。他自 2014 年起在 Noma 工作，并自 2016 年起担任其发酵实验室主任。他喜欢牙买加肉饼和量子物理。通过 Instagram@david_zilber 找到他。',
+            en: 'David Zilber is a chef and photographer who hails from Toronto, Canada. He has cooked from coast to coast across North America, most notably as a sous-chef at Hawksworth Restaurant in Vancouver. He has worked at Noma since 2014 and has served as director of its fermentation lab since 2016. He enjoys Jamaican patties and quantum physics. Find him on Instagram@david_zilber.'
+          },
+          {
+            zh: '<!-- text/part0018.html -->',
+            en: '<!-- text/part0018.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '索引',
+            en: 'Index'
+          },
+          {
+            zh: '注意：页码已从该电子版的索引中删除。要查找以下任何术语，请使用电子书阅读器的搜索功能。',
+            en: 'NOTE: Page numbers have been removed from the index for this electronic edition. To locate any of the following terms, please use the search feature of your e-book reader.'
+          },
+          {
+            zh: '一个',
+            en: 'A'
+          },
+          {
+            zh: '醋酸菌 (AAB)',
+            en: 'acetic acid bacteria (AAB)'
+          },
+          {
+            zh: '酸',
+            en: 'acids'
+          },
+          {
+            zh: '味之素集团',
+            en: 'Ajinomoto Group'
+          },
+          {
+            zh: 'Amazake、起泡柠檬Koji',
+            en: 'Amazake, Sparkling Citric Koji'
+          },
+          {
+            zh: '苹果',
+            en: 'apples'
+          },
+          {
+            zh: '苹果 Kombucha',
+            en: 'Apple Kombucha'
+          },
+          {
+            zh: '黑苹果',
+            en: 'Black Apples'
+          },
+          {
+            zh: '抗坏血酸',
+            en: 'ascorbic acid'
+          },
+          {
+            zh: '芦笋，Lacto 白',
+            en: 'Asparagus, Lacto White'
+          },
+          {
+            zh: 'Aspergillus luchuensis',
+            en: 'Aspergillus luchuensis'
+          },
+          {
+            zh: '柠檬大麦 Koji',
+            en: 'Citric Barley Koji'
+          },
+          {
+            zh: 'Aspergillus oryzae',
+            en: 'Aspergillus oryzae'
+          },
+          {
+            zh: '收获自己的孢子',
+            en: 'harvesting your own spores'
+          },
+          {
+            zh: '在miso中',
+            en: 'in miso'
+          },
+          {
+            zh: '的变种',
+            en: 'variants of'
+          },
+          {
+            zh: '另请参阅koji',
+            en: 'see alsokoji'
+          },
+          {
+            zh: '自溶',
+            en: 'autolysis'
+          },
+          {
+            zh: '乙',
+            en: 'B'
+          },
+          {
+            zh: '后倾',
+            en: 'backslopping'
+          },
+          {
+            zh: '培根牛肝菌油醋汁',
+            en: 'Bacon-Cep Vinaigrette'
+          },
+          {
+            zh: '细菌',
+            en: 'bacteria'
+          },
+          {
+            zh: '乙酸 (AAB)',
+            en: 'acetic acid (AAB)'
+          },
+          {
+            zh: '肉毒杆菌',
+            en: 'Clostridium botulinum'
+          },
+          {
+            zh: '大肠杆菌',
+            en: 'Escherichia coli'
+          },
+          {
+            zh: '乳酸（LAB）',
+            en: 'lactic acid (LAB)'
+          },
+          {
+            zh: '沙门氏菌',
+            en: 'Salmonella'
+          },
+          {
+            zh: '斯科比',
+            en: 'SCOBY'
+          },
+          {
+            zh: '面包师的百分比',
+            en: 'baker’s percentages'
+          },
+          {
+            zh: '香醋',
+            en: 'balsamic vinegar'
+          },
+          {
+            zh: '黑蒜香醋',
+            en: 'Black Garlic Balsamic'
+          },
+          {
+            zh: '接骨木酒香醋',
+            en: 'Elderberry Wine Balsamic'
+          },
+          {
+            zh: '大麦',
+            en: 'barley'
+          },
+          {
+            zh: '柠檬大麦 Koji',
+            en: 'Citric Barley Koji'
+          },
+          {
+            zh: '薏仁Koji',
+            en: 'Pearl Barley Koji'
+          },
+          {
+            zh: '烤Koji“鼹鼠”',
+            en: 'Roasted Koji “Mole,”'
+          },
+          {
+            zh: '甜柠檬Koji水',
+            en: 'Sweet Citric Koji Water'
+          },
+          {
+            zh: '烧烤酱Kombucha',
+            en: 'BBQ Sauce, Kombucha'
+          },
+          {
+            zh: '蛋黄酱、梨',
+            en: 'Béarnaise, Pear'
+          },
+          {
+            zh: '牛肉',
+            en: 'beef'
+          },
+          {
+            zh: '牛肉Garum',
+            en: 'Beef Garum'
+          },
+          {
+            zh: '汉堡',
+            en: 'burgers'
+          },
+          {
+            zh: '蒜蓉-Peaso烤牛肉',
+            en: 'Garlic-Peaso Grilled Beef'
+          },
+          {
+            zh: '蜂花粉Garum',
+            en: 'Bee Pollen Garum'
+          },
+          {
+            zh: '浆果',
+            en: 'berries'
+          },
+          {
+            zh: '浆果玫瑰果酱',
+            en: 'Berry-Rose Coulis'
+          },
+          {
+            zh: '面包黄油吐司配浆果和奶油',
+            en: 'Breadso-Buttered Toast with Berries and Cream'
+          },
+          {
+            zh: '夏季水果的搭配',
+            en: 'Dressing for Summer Fruits'
+          },
+          {
+            zh: 'Lacto蓝莓',
+            en: 'Lacto Blueberries'
+          },
+          {
+            zh: 'Lacto 绿色醋栗',
+            en: 'Lacto Green Gooseberries'
+          },
+          {
+            zh: 'β-淀粉酶',
+            en: 'beta-amylase'
+          },
+          {
+            zh: '饮料',
+            en: 'beverages'
+          },
+          {
+            zh: '黑榛子奶',
+            en: 'Black Hazelnut Milk'
+          },
+          {
+            zh: '杜松子酒和玫瑰鸡尾酒',
+            en: 'Gin and Rose Cocktail'
+          },
+          {
+            zh: '不是巧克力',
+            en: 'Not Chocolate'
+          },
+          {
+            zh: 'Quatre Épices 鸡尾酒',
+            en: 'Quatre Épices Cocktail'
+          },
+          {
+            zh: '起泡柠檬 Koji Amazake',
+            en: 'Sparkling Citric Koji Amazake'
+          },
+          {
+            zh: '甜柠檬Koji水',
+            en: 'Sweet Citric Koji Water'
+          },
+          {
+            zh: '另请参见kombucha',
+            en: 'see alsokombucha'
+          },
+          {
+            zh: '黑色水果和蔬菜',
+            en: 'black fruits and vegetables'
+          },
+          {
+            zh: '黑苹果',
+            en: 'Black Apples'
+          },
+          {
+            zh: '黑栗子',
+            en: 'Black Chestnuts'
+          },
+          {
+            zh: '黑蒜',
+            en: 'Black Garlic'
+          },
+          {
+            zh: '黑榛子',
+            en: 'Black Hazelnuts'
+          },
+          {
+            zh: '水分含量和保留',
+            en: 'moisture content and retention in'
+          },
+          {
+            zh: '辛辣味',
+            en: 'pungency in'
+          },
+          {
+            zh: '糖在',
+            en: 'sugar in'
+          },
+          {
+            zh: '打蜡黑葱',
+            en: 'Waxed Black Shallots'
+          },
+          {
+            zh: '蓝莓，Lacto',
+            en: 'Blueberries, Lacto'
+          },
+          {
+            zh: '肉毒中毒',
+            en: 'botulism'
+          },
+          {
+            zh: '白兰地黑苹果',
+            en: 'Brandied Black Apples'
+          },
+          {
+            zh: '布雷德索',
+            en: 'Breadso'
+          },
+          {
+            zh: '早餐',
+            en: 'breakfast'
+          },
+          {
+            zh: 'Kombucha糖浆',
+            en: 'Kombucha Syrup'
+          },
+          {
+            zh: 'Lacto蓝莓',
+            en: 'Lacto Blueberries'
+          },
+          {
+            zh: 'Brettanomyces',
+            en: 'Brettanomyces'
+          },
+          {
+            zh: '盐水',
+            en: 'brine'
+          },
+          {
+            zh: 'Brix，阿道夫',
+            en: 'Brix, Adolf'
+          },
+          {
+            zh: 'Brix规模',
+            en: 'Brix scale'
+          },
+          {
+            zh: '意式烤面包',
+            en: 'bruschetta'
+          },
+          {
+            zh: '肉汤',
+            en: 'broth'
+          },
+          {
+            zh: '牛肉Garum',
+            en: 'Beef Garum'
+          },
+          {
+            zh: '黑蒜皮汤',
+            en: 'Black Garlic Skin Broth'
+          },
+          {
+            zh: '隔夜鸡汤',
+            en: 'Overnight Chicken Broth'
+          },
+          {
+            zh: '拉面汤',
+            en: 'Ramen Broth'
+          },
+          {
+            zh: '褐宁',
+            en: 'browning'
+          },
+          {
+            zh: '黄油',
+            en: 'butter'
+          },
+          {
+            zh: '焦糖玫瑰黄油',
+            en: 'Caramelized Rose Butter'
+          },
+          {
+            zh: 'Cep Shoyu Beurre Blanc',
+            en: 'Cep Shoyu Beurre Blanc'
+          },
+          {
+            zh: '蚱蜢黄油',
+            en: 'Grasshopper Butter'
+          },
+          {
+            zh: 'Lacto Koji 黄油酱',
+            en: 'Lacto Koji Butter Sauce'
+          },
+          {
+            zh: 'Peaso黄油',
+            en: 'Peaso Butter'
+          },
+          {
+            zh: '盐Koji黄油',
+            en: 'Shio Koji Butter'
+          },
+          {
+            zh: '蝴蝶效应',
+            en: 'butterfly effect'
+          },
+          {
+            zh: '酪乳',
+            en: 'buttermilk'
+          },
+          {
+            zh: '酪乳醋栗酱',
+            en: 'Buttermilk-Gooseberry Dressing'
+          },
+          {
+            zh: 'Shoyu-酪乳炸鸡',
+            en: 'Shoyu-Buttermilk Fried Chicken'
+          },
+          {
+            zh: '奶油糖果、咖啡 Shoyu',
+            en: 'Butterscotch, Coffee Shoyu'
+          },
+          {
+            zh: 'C',
+            en: 'C'
+          },
+          {
+            zh: '卷心菜',
+            en: 'cabbage'
+          },
+          {
+            zh: '圣诞白菜',
+            en: 'Christmas Cabbage'
+          },
+          {
+            zh: '大蒜-Peaso卷心菜',
+            en: 'Garlic-Peaso Cabbage'
+          },
+          {
+            zh: '泡菜',
+            en: 'kimchi'
+          },
+          {
+            zh: '酸菜',
+            en: 'sauerkraut'
+          },
+          {
+            zh: '氢氧化钙',
+            en: 'calcium hydroxide'
+          },
+          {
+            zh: '焦糖，Shoyu',
+            en: 'Caramel, Shoyu'
+          },
+          {
+            zh: '焦糖化',
+            en: 'caramelization'
+          },
+          {
+            zh: '焦糖玫瑰黄油',
+            en: 'Caramelized Rose Butter'
+          },
+          {
+            zh: '胡萝卜，慢煮',
+            en: 'Carrots, Slow-Cooked'
+          },
+          {
+            zh: '腰果，烤',
+            en: 'Cashews, Roasted'
+          },
+          {
+            zh: '芹菜醋',
+            en: 'Celery Vinegar'
+          },
+          {
+            zh: '牛肝菌蘑菇',
+            en: 'cep mushrooms'
+          },
+          {
+            zh: 'Cep Shoyu',
+            en: 'Cep Shoyu'
+          },
+          {
+            zh: 'Cep Shoyu-釉面Cep',
+            en: 'Cep Shoyu-Glazed Ceps'
+          },
+          {
+            zh: 'Lacto牛肝菌蘑菇',
+            en: 'Lacto Cep Mushrooms'
+          },
+          {
+            zh: 'Ryeso Tamari 和 Ryeso 蘑菇釉',
+            en: 'Ryeso Tamari and Ryeso-Mushroom Glaze'
+          },
+          {
+            zh: '张大卫',
+            en: 'Chang, David'
+          },
+          {
+            zh: '混沌理论',
+            en: 'chaos theory'
+          },
+          {
+            zh: '奶酪、新鲜、芹菜香草醋',
+            en: 'Cheese, Fresh, Celery-Herb Vinegar with'
+          },
+          {
+            zh: '栗子，黑色',
+            en: 'Chestnuts, Black'
+          },
+          {
+            zh: '鸡',
+            en: 'chicken'
+          },
+          {
+            zh: '隔夜鸡汤',
+            en: 'Overnight Chicken Broth'
+          },
+          {
+            zh: '烤鸡翅Garum',
+            en: 'Roasted Chicken Wing Garum'
+          },
+          {
+            zh: 'Shoyu-酪乳炸鸡',
+            en: 'Shoyu-Buttermilk Fried Chicken'
+          },
+          {
+            zh: '巧克力黑苹果',
+            en: 'Chocolate-Covered Black Apples'
+          },
+          {
+            zh: '柠檬酸',
+            en: 'citric acid'
+          },
+          {
+            zh: '柠檬大麦 Koji',
+            en: 'Citric Barley Koji'
+          },
+          {
+            zh: '起泡柠檬 Koji Amazake',
+            en: 'Sparkling Citric Koji Amazake'
+          },
+          {
+            zh: '甜柠檬Koji水',
+            en: 'Sweet Citric Koji Water'
+          },
+          {
+            zh: '克拉克，亚瑟 C.',
+            en: 'Clarke, Arthur C.'
+          },
+          {
+            zh: '清洁和安全',
+            en: 'cleanliness and safety'
+          },
+          {
+            zh: '肉毒杆菌',
+            en: 'Clostridium botulinum'
+          },
+          {
+            zh: '咖啡',
+            en: 'coffee'
+          },
+          {
+            zh: '咖啡Kombucha',
+            en: 'Coffee Kombucha'
+          },
+          {
+            zh: '咖啡Shoyu',
+            en: 'Coffee Shoyu'
+          },
+          {
+            zh: '油封，Koji 油',
+            en: 'Confit, Koji Oil'
+          },
+          {
+            zh: '容器，玻璃与陶瓷',
+            en: 'containers, glass versus ceramic'
+          },
+          {
+            zh: '玉米',
+            en: 'corn'
+          },
+          {
+            zh: '舞藏',
+            en: 'Maizo'
+          },
+          {
+            zh: '玛莎',
+            en: 'Masa'
+          },
+          {
+            zh: '棒子上',
+            en: 'on the cob'
+          },
+          {
+            zh: '浆果玫瑰果酱',
+            en: 'Coulis, Berry-Rose'
+          },
+          {
+            zh: '奶油',
+            en: 'cream'
+          },
+          {
+            zh: '接骨木花鲜奶油',
+            en: 'Elderflower Crème Fraîche'
+          },
+          {
+            zh: '黑麦草霜',
+            en: 'Ryeso Cream'
+          },
+          {
+            zh: '油煎面包块，松脆 Koji',
+            en: 'Croutons, Crunchy Koji'
+          },
+          {
+            zh: '生菜',
+            en: 'Crudités'
+          },
+          {
+            zh: '黄瓜',
+            en: 'cucumbers'
+          },
+          {
+            zh: '黄瓜汤',
+            en: 'Cucumber Soup'
+          },
+          {
+            zh: '泡菜',
+            en: 'pickles'
+          },
+          {
+            zh: '治愈，Koji（盐Koji）',
+            en: 'Cure, Koji (Shio Koji)'
+          },
+          {
+            zh: '蛋奶冻、李子',
+            en: 'Custard, Plum'
+          },
+          {
+            zh: 'D',
+            en: 'D'
+          },
+          {
+            zh: '甜点',
+            en: 'desserts'
+          },
+          {
+            zh: '浆果玫瑰果酱',
+            en: 'Berry-Rose Coulis'
+          },
+          {
+            zh: '黑蒜冰淇淋',
+            en: 'Black Garlic Ice Cream'
+          },
+          {
+            zh: '白兰地黑苹果',
+            en: 'Brandied Black Apples'
+          },
+          {
+            zh: '面包黄油吐司配浆果和奶油',
+            en: 'Breadso-Buttered Toast with Berries and Cream'
+          },
+          {
+            zh: '蜜饯牛肝菌米格纳迪斯',
+            en: 'Candied Cep Mignardises'
+          },
+          {
+            zh: '巧克力黑苹果',
+            en: 'Chocolate-Covered Black Apples'
+          },
+          {
+            zh: '咖啡-Kombucha提拉米苏',
+            en: 'Coffee-Kombucha Tiramisu'
+          },
+          {
+            zh: '咖啡 Shoyu 奶油糖',
+            en: 'Coffee Shoyu Butterscotch'
+          },
+          {
+            zh: 'Koji“小杏仁饼”',
+            en: 'Koji “Marzipan,”'
+          },
+          {
+            zh: 'Kombucha糖浆',
+            en: 'Kombucha Syrup'
+          },
+          {
+            zh: '梅子奶冻',
+            en: 'Plum Custard'
+          },
+          {
+            zh: '南瓜子Miso“冰淇淋”，',
+            en: 'Pumpkin Seed Miso “Ice Cream,”'
+          },
+          {
+            zh: '黑麦草霜',
+            en: 'Ryeso Cream'
+          },
+          {
+            zh: 'Shoyu焦糖色',
+            en: 'Shoyu Caramel'
+          },
+          {
+            zh: '敷料',
+            en: 'dressings'
+          },
+          {
+            zh: '牛肉Garum乳液',
+            en: 'Beef Garum Emulsion'
+          },
+          {
+            zh: '酪乳醋栗酱',
+            en: 'Buttermilk-Gooseberry Dressing'
+          },
+          {
+            zh: '夏季水果的搭配',
+            en: 'Dressing for Summer Fruits'
+          },
+          {
+            zh: '树妖的鞍座 Shoyu',
+            en: 'Dryad’s Saddle Shoyu'
+          },
+          {
+            zh: '吉克尔帕克',
+            en: 'Dzikilpak'
+          },
+          {
+            zh: '乙',
+            en: 'E'
+          },
+          {
+            zh: '蛋黄酱',
+            en: 'Egg Yolk Sauce'
+          },
+          {
+            zh: '埃尔布利',
+            en: 'El Bulli'
+          },
+          {
+            zh: '接骨木酒香醋',
+            en: 'Elderberry Wine Balsamic'
+          },
+          {
+            zh: '接骨木花',
+            en: 'elderflower'
+          },
+          {
+            zh: '接骨木酒香醋',
+            en: 'Elderberry Wine Balsamic'
+          },
+          {
+            zh: '接骨木花 Kombucha',
+            en: 'Elderflower Kombucha'
+          },
+          {
+            zh: '酶',
+            en: 'enzymes'
+          },
+          {
+            zh: '褐变和',
+            en: 'browning and'
+          },
+          {
+            zh: '蛋白质分解',
+            en: 'protein-dismantling'
+          },
+          {
+            zh: '设备',
+            en: 'equipment'
+          },
+          {
+            zh: '大肠杆菌',
+            en: 'Escherichia coli'
+          },
+          {
+            zh: '乙醇（乙醇）',
+            en: 'ethanol (ethyl alcohol)'
+          },
+          {
+            zh: 'F',
+            en: 'F'
+          },
+          {
+            zh: '发酵',
+            en: 'fermentation'
+          },
+          {
+            zh: '后倾和',
+            en: 'backslopping and'
+          },
+          {
+            zh: '副产品来自',
+            en: 'by-products from'
+          },
+          {
+            zh: '清洁度和安全性',
+            en: 'cleanliness and safety in'
+          },
+          {
+            zh: '定义的',
+            en: 'defined'
+          },
+          {
+            zh: '设备',
+            en: 'equipment for'
+          },
+          {
+            zh: '尝试',
+            en: 'experimenting with'
+          },
+          {
+            zh: '微生物，参见微生物',
+            en: 'microbes in,seemicrobes'
+          },
+          {
+            zh: 'pH 在',
+            en: 'pH in'
+          },
+          {
+            zh: '小学和中学',
+            en: 'primary and secondary'
+          },
+          {
+            zh: '底漆',
+            en: 'primer on'
+          },
+          {
+            zh: '腐烂与',
+            en: 'rot versus'
+          },
+          {
+            zh: '盐入，见盐',
+            en: 'salt in,seesalt'
+          },
+          {
+            zh: '调味料和',
+            en: 'seasonings and'
+          },
+          {
+            zh: '商店购买的发酵剂',
+            en: 'store-bought ferments'
+          },
+          {
+            zh: '味道和',
+            en: 'taste and'
+          },
+          {
+            zh: '野生的',
+            en: 'wild'
+          },
+          {
+            zh: '鱼',
+            en: 'fish'
+          },
+          {
+            zh: '鱼露',
+            en: 'fish sauce'
+          },
+          {
+            zh: '另请参阅海鲜',
+            en: 'see alsoseafood'
+          },
+          {
+            zh: '发酵室',
+            en: 'fermentation chamber'
+          },
+          {
+            zh: '有盖速度架',
+            en: 'covered speed rack'
+          },
+          {
+            zh: '聚苯乙烯泡沫塑料',
+            en: 'Styrofoam'
+          },
+          {
+            zh: '面粉，Koji',
+            en: 'Flour, Koji'
+          },
+          {
+            zh: '托马斯·弗雷贝尔',
+            en: 'Frebel, Thomas'
+          },
+          {
+            zh: '水果',
+            en: 'fruits'
+          },
+          {
+            zh: '选择',
+            en: 'choosing'
+          },
+          {
+            zh: '另请参阅浆果',
+            en: 'see alsoberries'
+          },
+          {
+            zh: '真菌',
+            en: 'fungi'
+          },
+          {
+            zh: '另见模具；酵母菌',
+            en: 'see alsomolds; yeasts'
+          },
+          {
+            zh: 'G',
+            en: 'G'
+          },
+          {
+            zh: '加梅尔丹麦醋',
+            en: 'Gammel Dansk Vinegar'
+          },
+          {
+            zh: '大蒜',
+            en: 'garlic'
+          },
+          {
+            zh: '黑蒜',
+            en: 'Black Garlic'
+          },
+          {
+            zh: '黑蒜香醋',
+            en: 'Black Garlic Balsamic'
+          },
+          {
+            zh: '大蒜-Peaso卷心菜',
+            en: 'Garlic-Peaso Cabbage'
+          },
+          {
+            zh: '蒜蓉-Peaso烤牛肉',
+            en: 'Garlic-Peaso Grilled Beef'
+          },
+          {
+            zh: '烤蒜油',
+            en: 'Roasted-Garlic Oil'
+          },
+          {
+            zh: 'garum',
+            en: 'garum'
+          },
+          {
+            zh: '自溶于',
+            en: 'autolysis in'
+          },
+          {
+            zh: '牛肉Garum',
+            en: 'Beef Garum'
+          },
+          {
+            zh: '蜂花粉Garum',
+            en: 'Bee Pollen Garum'
+          },
+          {
+            zh: '蚱蜢 Garum',
+            en: 'Grasshopper Garum'
+          },
+          {
+            zh: '的历史',
+            en: 'history of'
+          },
+          {
+            zh: '烤鸡翅Garum',
+            en: 'Roasted Chicken Wing Garum'
+          },
+          {
+            zh: '玫瑰与虾 Garum',
+            en: 'Rose and Shrimp Garum'
+          },
+          {
+            zh: '盐入',
+            en: 'salt in'
+          },
+          {
+            zh: '鱿鱼Garum',
+            en: 'Squid Garum'
+          },
+          {
+            zh: '水在',
+            en: 'water in'
+          },
+          {
+            zh: '酵母Garum',
+            en: 'Yeast Garum'
+          },
+          {
+            zh: '西班牙凉菜汤、芒果',
+            en: 'Gazpacho, Mango'
+          },
+          {
+            zh: '小黄瓜',
+            en: 'gherkins'
+          },
+          {
+            zh: '尤尔·吉本斯',
+            en: 'Gibbons, Euell'
+          },
+          {
+            zh: '杜松子酒和玫瑰鸡尾酒',
+            en: 'Gin and Rose Cocktail'
+          },
+          {
+            zh: '朱斯蒂·丹',
+            en: 'Giusti, Dan'
+          },
+          {
+            zh: '谷氨酸盐',
+            en: 'glutamate'
+          },
+          {
+            zh: '单钠（味精）',
+            en: 'monosodium (MSG)'
+          },
+          {
+            zh: '谷氨酸',
+            en: 'glutamic acid'
+          },
+          {
+            zh: '醋栗',
+            en: 'gooseberries'
+          },
+          {
+            zh: 'Lacto 绿色醋栗',
+            en: 'Lacto Green Gooseberries'
+          },
+          {
+            zh: '谷物',
+            en: 'grains'
+          },
+          {
+            zh: '蚱蜢 Garum',
+            en: 'Grasshopper Garum'
+          },
+          {
+            zh: 'H',
+            en: 'H'
+          },
+          {
+            zh: '手尝',
+            en: 'hand taste'
+          },
+          {
+            zh: '榛子',
+            en: 'hazelnuts'
+          },
+          {
+            zh: '黑榛子',
+            en: 'Black Hazelnuts'
+          },
+          {
+            zh: '榛子 Miso',
+            en: 'Hazelnut Miso'
+          },
+          {
+            zh: '草药',
+            en: 'herbs'
+          },
+          {
+            zh: '苹果Kombucha香草补品',
+            en: 'Apple Kombucha Herb Tonic'
+          },
+          {
+            zh: '芹菜香草醋配新鲜奶酪',
+            en: 'Celery-Herb Vinegar with Fresh Cheese'
+          },
+          {
+            zh: '日本史（Kaempfer）',
+            en: 'History of Japan, The(Kaempfer)'
+          },
+          {
+            zh: '荷兰酱、梨',
+            en: 'Hollandaise, Pear'
+          },
+          {
+            zh: '蜂蜜，Lacto 芒果香',
+            en: 'Honey, Lacto Mango-Scented'
+          },
+          {
+            zh: '胡敏',
+            en: 'humin'
+          },
+          {
+            zh: '鹰嘴豆泥，烟熏',
+            en: 'Hummus, Smoked'
+          },
+          {
+            zh: '水解植物蛋白（HVP）',
+            en: 'hydrolized vegetable protein (HVP)'
+          },
+          {
+            zh: '我',
+            en: 'I'
+          },
+          {
+            zh: '冰淇淋、黑蒜',
+            en: 'Ice Cream, Black Garlic'
+          },
+          {
+            zh: '“冰淇淋”南瓜子Miso',
+            en: '“Ice Cream,” Pumpkin Seed Miso'
+          },
+          {
+            zh: '池田、菊苗',
+            en: 'Ikeda, Kikunae'
+          },
+          {
+            zh: '复杂性',
+            en: 'intricity'
+          },
+          {
+            zh: 'J',
+            en: 'J'
+          },
+          {
+            zh: '蒋',
+            en: 'jiangs'
+          },
+          {
+            zh: '帕特里克·约翰逊',
+            en: 'Johannson, Patrick'
+          },
+          {
+            zh: '约翰逊，阿丽尔',
+            en: 'Johnson, Arielle'
+          },
+          {
+            zh: 'K',
+            en: 'K'
+          },
+          {
+            zh: '坎普弗，恩格尔伯特',
+            en: 'Kaempfer, Engelbert'
+          },
+          {
+            zh: '托马斯·凯勒',
+            en: 'Keller, Thomas'
+          },
+          {
+            zh: '凯卡普马尼斯',
+            en: 'kecap manis'
+          },
+          {
+            zh: '金·斯科特',
+            en: 'Kim, Scott'
+          },
+          {
+            zh: '泡菜',
+            en: 'kimchi'
+          },
+          {
+            zh: '基奥克',
+            en: 'kioke'
+          },
+          {
+            zh: 'koji',
+            en: 'koji'
+          },
+          {
+            zh: '年龄，peaso',
+            en: 'age of, in peaso'
+          },
+          {
+            zh: 'Aspergillus luchuensis在',
+            en: 'Aspergillus luchuensisin'
+          },
+          {
+            zh: 'Aspergillus oryzae中，参见Aspergillus oryzae',
+            en: 'Aspergillus oryzaein,seeAspergillus oryzae'
+          },
+          {
+            zh: '柠檬大麦 Koji',
+            en: 'Citric Barley Koji'
+          },
+          {
+            zh: '干Koji和Koji面粉',
+            en: 'Dried Koji and Koji Flour'
+          },
+          {
+            zh: '树妖的马鞍和烤Koji酱',
+            en: 'Dryad’s Saddle and Roasted Koji Sauce'
+          },
+          {
+            zh: '谷物在',
+            en: 'grains in'
+          },
+          {
+            zh: '收获自己的孢子',
+            en: 'harvesting your own spores'
+          },
+          {
+            zh: 'Koji治愈（盐Koji）',
+            en: 'Koji Cure (Shio Koji)'
+          },
+          {
+            zh: 'Lacto Koji 水',
+            en: 'Lacto Koji Water'
+          },
+          {
+            zh: '在miso和peaso中',
+            en: 'in miso and peaso'
+          },
+          {
+            zh: '薏仁Koji',
+            en: 'Pearl Barley Koji'
+          },
+          {
+            zh: '烤Koji“鼹鼠”',
+            en: 'Roasted Koji “Mole,”'
+          },
+          {
+            zh: '起泡柠檬 Koji Amazake',
+            en: 'Sparkling Citric Koji Amazake'
+          },
+          {
+            zh: '甜柠檬Koji水',
+            en: 'Sweet Citric Koji Water'
+          },
+          {
+            zh: 'koji穆罗',
+            en: 'koji muro'
+          },
+          {
+            zh: 'kombucha',
+            en: 'kombucha'
+          },
+          {
+            zh: '苹果 Kombucha',
+            en: 'Apple Kombucha'
+          },
+          {
+            zh: '基本流程为',
+            en: 'basic process for'
+          },
+          {
+            zh: '装瓶',
+            en: 'bottling'
+          },
+          {
+            zh: '咖啡Kombucha',
+            en: 'Coffee Kombucha'
+          },
+          {
+            zh: '接骨木花 Kombucha',
+            en: 'Elderflower Kombucha'
+          },
+          {
+            zh: '柠檬马鞭草 Kombucha',
+            en: 'Lemon Verbena Kombucha'
+          },
+          {
+            zh: '芒果Kombucha',
+            en: 'Mango Kombucha'
+          },
+          {
+            zh: '枫树 Kombucha',
+            en: 'Maple Kombucha'
+          },
+          {
+            zh: '玫瑰Kombucha',
+            en: 'Rose Kombucha'
+          },
+          {
+            zh: '斯科比在',
+            en: 'SCOBY in'
+          },
+          {
+            zh: '糖在',
+            en: 'sugar in'
+          },
+          {
+            zh: '时间为',
+            en: 'timing for'
+          },
+          {
+            zh: 'L',
+            en: 'L'
+          },
+          {
+            zh: '乳酸菌（LAB）',
+            en: 'lactic acid bacteria (LAB)'
+          },
+          {
+            zh: 'lacto-发酵水果和蔬菜',
+            en: 'lacto-fermented fruits and vegetables'
+          },
+          {
+            zh: '盐水中',
+            en: 'brine in'
+          },
+          {
+            zh: '副产品来自',
+            en: 'by-products from'
+          },
+          {
+            zh: '选择水果和蔬菜',
+            en: 'choosing fruits and vegetables for'
+          },
+          {
+            zh: '黄瓜泡菜',
+            en: 'cucumber pickles'
+          },
+          {
+            zh: 'Lacto蓝莓',
+            en: 'Lacto Blueberries'
+          },
+          {
+            zh: 'Lacto牛肝菌蘑菇',
+            en: 'Lacto Cep Mushrooms'
+          },
+          {
+            zh: 'Lacto 绿色醋栗',
+            en: 'Lacto Green Gooseberries'
+          },
+          {
+            zh: 'Lacto Koji 水',
+            en: 'Lacto Koji Water'
+          },
+          {
+            zh: 'Lacto芒果香蜂蜜',
+            en: 'Lacto Mango-Scented Honey'
+          },
+          {
+            zh: 'Lacto李子',
+            en: 'Lacto Plums'
+          },
+          {
+            zh: 'Lacto番茄水',
+            en: 'Lacto Tomato Water'
+          },
+          {
+            zh: 'Lacto白芦笋',
+            en: 'Lacto White Asparagus'
+          },
+          {
+            zh: '除去空气中的空气',
+            en: 'removing air in'
+          },
+          {
+            zh: '盐入',
+            en: 'salt in'
+          },
+          {
+            zh: '调味料和',
+            en: 'seasonings and'
+          },
+          {
+            zh: '温度为',
+            en: 'temperature for'
+          },
+          {
+            zh: '时间为',
+            en: 'timing for'
+          },
+          {
+            zh: '安托万·拉瓦锡',
+            en: 'Lavoisier, Antoine'
+          },
+          {
+            zh: '皮革制品',
+            en: 'leathers'
+          },
+          {
+            zh: '黑苹果皮',
+            en: 'Black Apple Leather'
+          },
+          {
+            zh: '耐嚼干Lacto李子',
+            en: 'Chewy, Dried Lacto Plums'
+          },
+          {
+            zh: 'Lacto番茄皮',
+            en: 'Lacto Tomato Leather'
+          },
+          {
+            zh: '蒂格雷奶牛',
+            en: 'Leche de Tigre'
+          },
+          {
+            zh: '柠檬草芒果油醋汁',
+            en: 'Lemongrass-Mango Vinaigrette'
+          },
+          {
+            zh: '柠檬马鞭草 Kombucha',
+            en: 'Lemon Verbena Kombucha'
+          },
+          {
+            zh: '生菜，烤',
+            en: 'Lettuces, Grilled'
+          },
+          {
+            zh: '洛克，约翰',
+            en: 'Locke, John'
+          },
+          {
+            zh: '爱德华·诺顿·洛伦兹',
+            en: 'Lorenz, Edward Norton'
+          },
+          {
+            zh: '中号',
+            en: 'M'
+          },
+          {
+            zh: '疯狂研讨会',
+            en: 'MAD Symposium'
+          },
+          {
+            zh: '玛吉，朱利叶斯',
+            en: 'Maggi, Julius'
+          },
+          {
+            zh: 'Maillard，路易斯·卡米尔',
+            en: 'Maillard, Louis Camille'
+          },
+          {
+            zh: 'Maillard反应',
+            en: 'Maillard reaction'
+          },
+          {
+            zh: '舞藏',
+            en: 'Maizo'
+          },
+          {
+            zh: '苹果酸',
+            en: 'malic acid'
+          },
+          {
+            zh: '芒果',
+            en: 'mango'
+          },
+          {
+            zh: 'Lacto芒果香蜂蜜',
+            en: 'Lacto Mango-Scented Honey'
+          },
+          {
+            zh: '芒果Kombucha',
+            en: 'Mango Kombucha'
+          },
+          {
+            zh: '枫树 Kombucha',
+            en: 'Maple Kombucha'
+          },
+          {
+            zh: '腌料',
+            en: 'marinades'
+          },
+          {
+            zh: 'Koji治愈（盐Koji）',
+            en: 'Koji Cure (Shio Koji)'
+          },
+          {
+            zh: '烤肉或烤肉的腌料',
+            en: 'Marinade for Roasted or Grilled Meat'
+          },
+          {
+            zh: '“小杏仁饼”Koji',
+            en: '“Marzipan,” Koji'
+          },
+          {
+            zh: '玛莎',
+            en: 'Masa'
+          },
+          {
+            zh: '蛋黄酱，Koji',
+            en: 'Mayonnaise, Koji'
+          },
+          {
+            zh: '测量、重量和测量',
+            en: 'measurements,seeweights and measures'
+          },
+          {
+            zh: '肉类',
+            en: 'meats'
+          },
+          {
+            zh: '牛肉Garum',
+            en: 'Beef Garum'
+          },
+          {
+            zh: '汉堡',
+            en: 'burgers'
+          },
+          {
+            zh: '蒜蓉-Peaso烤牛肉',
+            en: 'Garlic-Peaso Grilled Beef'
+          },
+          {
+            zh: 'Koji治愈（盐Koji）',
+            en: 'Koji Cure (Shio Koji)'
+          },
+          {
+            zh: 'Kombucha烧烤酱',
+            en: 'Kombucha BBQ Sauce'
+          },
+          {
+            zh: 'Lacto梅粉',
+            en: 'Lacto Plum Powder'
+          },
+          {
+            zh: '烤肉用梅醋腌料',
+            en: 'Plum Vinegar Marinade for Roasted or Grilled Meat'
+          },
+          {
+            zh: '梅朱',
+            en: 'meju'
+          },
+          {
+            zh: '黑色素',
+            en: 'melanins'
+          },
+          {
+            zh: '氧化汞',
+            en: 'mercury oxide'
+          },
+          {
+            zh: '皮尔·安东尼奥·米凯利',
+            en: 'Micheli, Pier Antonio'
+          },
+          {
+            zh: '微生物（微生物）',
+            en: 'microbes (microorganisms)'
+          },
+          {
+            zh: '后倾和',
+            en: 'backslopping and'
+          },
+          {
+            zh: '工作中的清洁和安全',
+            en: 'cleanliness and safety in working with'
+          },
+          {
+            zh: '风土和',
+            en: 'terroir and'
+          },
+          {
+            zh: '另见细菌；真菌；模具；酵母菌',
+            en: 'see alsobacteria; fungi; molds; yeasts'
+          },
+          {
+            zh: 'Mignardises，蜜饯牛肝菌',
+            en: 'Mignardises, Candied Cep'
+          },
+          {
+            zh: '木犀草，Lacto-梅子汁',
+            en: 'Mignonette, Lacto-Plum Juice'
+          },
+          {
+            zh: 'miso 和 peaso',
+            en: 'misos and peaso'
+          },
+          {
+            zh: '布雷德索',
+            en: 'Breadso'
+          },
+          {
+            zh: '环境湿度和',
+            en: 'environmental humidity and'
+          },
+          {
+            zh: '调味料在',
+            en: 'flavorings in'
+          },
+          {
+            zh: '花香',
+            en: 'floral'
+          },
+          {
+            zh: '榛子 Miso',
+            en: 'Hazelnut Miso'
+          },
+          {
+            zh: 'miso的历史',
+            en: 'history of miso'
+          },
+          {
+            zh: 'koji 在',
+            en: 'koji in'
+          },
+          {
+            zh: 'Koji-Miso 汤',
+            en: 'Koji-Miso Soup'
+          },
+          {
+            zh: '舞藏',
+            en: 'Maizo'
+          },
+          {
+            zh: '的水分含量',
+            en: 'moisture content of'
+          },
+          {
+            zh: '压力和空气暴露',
+            en: 'pressure and air exposure in'
+          },
+          {
+            zh: '南瓜子Miso',
+            en: 'Pumpkin Seed Miso'
+          },
+          {
+            zh: '玫瑰Peaso',
+            en: 'Rose Peaso'
+          },
+          {
+            zh: '雷索',
+            en: 'Ryeso'
+          },
+          {
+            zh: '盐入',
+            en: 'salt in'
+          },
+          {
+            zh: '大豆在',
+            en: 'soy in'
+          },
+          {
+            zh: '制作步骤',
+            en: 'steps in making'
+          },
+          {
+            zh: '温度和时间在',
+            en: 'temperature and time in'
+          },
+          {
+            zh: '黄色Peaso',
+            en: 'Yellow Peaso'
+          },
+          {
+            zh: '模具',
+            en: 'molds'
+          },
+          {
+            zh: 'Aspergillus luchuensis',
+            en: 'Aspergillus luchuensis'
+          },
+          {
+            zh: 'Aspergillus oryzae，参见Aspergillus oryzae',
+            en: 'Aspergillus oryzae,seeAspergillus oryzae'
+          },
+          {
+            zh: '致病的',
+            en: 'pathogenic'
+          },
+          {
+            zh: '烤“鼹鼠”Koji',
+            en: '“Mole,” Roasted Koji'
+          },
+          {
+            zh: '莫罗米',
+            en: 'moromi'
+          },
+          {
+            zh: '味精（味精）',
+            en: 'MSG (monosodium glutamate)'
+          },
+          {
+            zh: '蘑菇',
+            en: 'mushrooms'
+          },
+          {
+            zh: 'Cep Shoyu',
+            en: 'Cep Shoyu'
+          },
+          {
+            zh: 'Cep Shoyu-釉面Cep',
+            en: 'Cep Shoyu-Glazed Ceps'
+          },
+          {
+            zh: '树妖的鞍座 Shoyu',
+            en: 'Dryad’s Saddle Shoyu'
+          },
+          {
+            zh: 'Lacto牛肝菌蘑菇',
+            en: 'Lacto Cep Mushrooms'
+          },
+          {
+            zh: 'Ryeso Tamari 和 Ryeso 蘑菇釉',
+            en: 'Ryeso Tamari and Ryeso-Mushroom Glaze'
+          },
+          {
+            zh: '氮',
+            en: 'N'
+          },
+          {
+            zh: 'Noma',
+            en: 'Noma'
+          },
+          {
+            zh: '鲍鱼炸肉排和布什调味品',
+            en: 'Abalone Schnitzel and Bush Condiments'
+          },
+          {
+            zh: '佛手柑 Kombucha 与天然薄荷',
+            en: 'Bergamot Kombucha with Native Mint'
+          },
+          {
+            zh: '浆果和蔬菜在醋中浸泡一年',
+            en: 'Berries and Greens Soaked in Vinegar for One Year'
+          },
+          {
+            zh: '冰鲜牡蛎和咸青醋栗',
+            en: 'Chilled Oysters and Salted Green Gooseberries'
+          },
+          {
+            zh: '来自捷豹本土可可和 Mixe Chile 的巧克力',
+            en: 'Chocolate from Native Jaguar Cocoa and Mixe Chile'
+          },
+          {
+            zh: '深海雪蟹和咸蛋黄',
+            en: 'Deep-Sea Snow Crab and Cured Egg Yolk'
+          },
+          {
+            zh: '大蒜花',
+            en: 'Garlic Flower'
+          },
+          {
+            zh: '刚煮熟的章鱼配“Dzikilpak”，',
+            en: 'Just-Cooked Octopus with “Dzikilpak,”'
+          },
+          {
+            zh: '海螯虾和花旗松',
+            en: 'Langoustine and Douglas Fir'
+          },
+          {
+            zh: '梨烤海带冰淇淋',
+            en: 'Pear and Roasted Kelp Ice Cream'
+          },
+          {
+            zh: '烤骨髓',
+            en: 'Roasted Bone Marrow'
+          },
+          {
+            zh: '海蜗牛汤',
+            en: 'Sea Snail Broth'
+          },
+          {
+            zh: '半熟鸡蛋和黑蒜',
+            en: 'Soft-Boiled Egg and Black Garlic'
+          },
+          {
+            zh: '甜豌豆、凝乳和海带片',
+            en: 'Sweet Peas, Milk Curd, and Sliced Kelp'
+          },
+          {
+            zh: '未成熟的澳洲坚果和扳手蟹',
+            en: 'Unripe Macadamia Nuts and Spanner Crab'
+          },
+          {
+            zh: 'Nordic Food Lab',
+            en: 'Nordic Food Lab'
+          },
+          {
+            zh: '坚果',
+            en: 'nuts'
+          },
+          {
+            zh: '黑栗子',
+            en: 'Black Chestnuts'
+          },
+          {
+            zh: '黑榛子',
+            en: 'Black Hazelnuts'
+          },
+          {
+            zh: '榛子 Miso',
+            en: 'Hazelnut Miso'
+          },
+          {
+            zh: '烤腰果',
+            en: 'Roasted Cashews'
+          },
+          {
+            zh: '氧',
+            en: 'O'
+          },
+          {
+            zh: '油类',
+            en: 'oils'
+          },
+          {
+            zh: 'Cep-油伴侣',
+            en: 'Cep-Oil Companion'
+          },
+          {
+            zh: 'Koji-注入油',
+            en: 'Koji-Infused Oil'
+          },
+          {
+            zh: '花粉油',
+            en: 'Pollen Oil'
+          },
+          {
+            zh: '烤蒜油',
+            en: 'Roasted-Garlic Oil'
+          },
+          {
+            zh: '洋葱',
+            en: 'onions'
+          },
+          {
+            zh: '洋葱沙拉',
+            en: 'Onion Salad'
+          },
+          {
+            zh: '洋葱汤',
+            en: 'Onion Soup'
+          },
+          {
+            zh: '皮萨拉迪埃',
+            en: 'Pissaladière'
+          },
+          {
+            zh: '奥兰多，马特',
+            en: 'Orlando, Matt'
+          },
+          {
+            zh: '氧化',
+            en: 'oxidation'
+          },
+          {
+            zh: '氧气',
+            en: 'oxygen'
+          },
+          {
+            zh: '磷',
+            en: 'P'
+          },
+          {
+            zh: '尼古拉·奥古斯特·帕利厄',
+            en: 'Paillieux, Nicolas-Auguste'
+          },
+          {
+            zh: '煎饼',
+            en: 'pancakes'
+          },
+          {
+            zh: 'Kombucha糖浆',
+            en: 'Kombucha Syrup'
+          },
+          {
+            zh: '美味煎饼',
+            en: 'Savory Pancakes'
+          },
+          {
+            zh: '咖啡釉防风草 Kombucha',
+            en: 'Parsnips Glazed with Coffee Kombucha'
+          },
+          {
+            zh: '面食',
+            en: 'pasta'
+          },
+          {
+            zh: '干lacto李子',
+            en: 'dried lacto plums in'
+          },
+          {
+            zh: '蛋黄酱意大利面',
+            en: 'Pasta with Egg Yolk Sauce'
+          },
+          {
+            zh: '酿意大利面',
+            en: 'Stuffed Pasta'
+          },
+          {
+            zh: '病原体',
+            en: 'pathogens'
+          },
+          {
+            zh: '豌豆',
+            en: 'peas'
+          },
+          {
+            zh: '新鲜, 烩饭',
+            en: 'fresh, risotto'
+          },
+          {
+            zh: '黄色，黄色豌豆',
+            en: 'yellow,seeyellow peas'
+          },
+          {
+            zh: '梨',
+            en: 'pears'
+          },
+          {
+            zh: '蜜煮梨',
+            en: 'Honey-Poached Pears'
+          },
+          {
+            zh: '佩里醋',
+            en: 'Perry Vinegar'
+          },
+          {
+            zh: 'peaso，参见miso和peaso',
+            en: 'peaso,seemisos and peaso'
+          },
+          {
+            zh: 'pH（氢势）',
+            en: 'pH (potential of hydrogen)'
+          },
+          {
+            zh: '酚类',
+            en: 'phenols'
+          },
+          {
+            zh: '泡菜',
+            en: 'pickles'
+          },
+          {
+            zh: '黄瓜',
+            en: 'cucumber'
+          },
+          {
+            zh: '快速泡菜',
+            en: 'Quick Pickles'
+          },
+          {
+            zh: '番茄水泡菜',
+            en: 'Tomato-Water Pickles'
+          },
+          {
+            zh: '皮萨拉迪埃',
+            en: 'Pissaladière'
+          },
+          {
+            zh: '李子',
+            en: 'plums'
+          },
+          {
+            zh: 'Lacto李子',
+            en: 'Lacto Plums'
+          },
+          {
+            zh: '梅醋',
+            en: 'Plum Vinegar'
+          },
+          {
+            zh: '鸭肉玫瑰梅酱',
+            en: 'Rose-Plum Sauce for Duck'
+          },
+          {
+            zh: '牛肝菌、西塞普蘑菇',
+            en: 'porcini mushrooms,seecep mushrooms'
+          },
+          {
+            zh: '土豆，Koji 鼹鼠釉面',
+            en: 'Potatoes, Koji Mole-Glazed'
+          },
+          {
+            zh: '家禽',
+            en: 'poultry'
+          },
+          {
+            zh: 'Koji治愈（盐Koji）',
+            en: 'Koji Cure (Shio Koji)'
+          },
+          {
+            zh: 'Kombucha烧烤酱',
+            en: 'Kombucha BBQ Sauce'
+          },
+          {
+            zh: '隔夜鸡汤',
+            en: 'Overnight Chicken Broth'
+          },
+          {
+            zh: '烤鸡翅Garum',
+            en: 'Roasted Chicken Wing Garum'
+          },
+          {
+            zh: '鸭肉玫瑰梅酱',
+            en: 'Rose-Plum Sauce for Duck'
+          },
+          {
+            zh: 'Ryeso Tamari 和 Ryeso 蘑菇釉',
+            en: 'Ryeso Tamari and Ryeso-Mushroom Glaze'
+          },
+          {
+            zh: 'Shoyu-酪乳炸鸡',
+            en: 'Shoyu-Buttermilk Fried Chicken'
+          },
+          {
+            zh: '约瑟夫牧师',
+            en: 'Priestly, Joseph'
+          },
+          {
+            zh: '蛋白质',
+            en: 'proteins'
+          },
+          {
+            zh: '南瓜子Miso',
+            en: 'Pumpkin Seed Miso'
+          },
+          {
+            zh: '热解',
+            en: 'pyrolysis'
+          },
+          {
+            zh: '问',
+            en: 'Q'
+          },
+          {
+            zh: 'Quatre Épices 鸡尾酒',
+            en: 'Quatre Épices Cocktail'
+          },
+          {
+            zh: '右',
+            en: 'R'
+          },
+          {
+            zh: '拉姆森卡珀斯',
+            en: 'ramson capers'
+          },
+          {
+            zh: '拉面汤',
+            en: 'Ramen Broth'
+          },
+          {
+            zh: '覆盆子汁',
+            en: 'raspberry juice'
+          },
+          {
+            zh: '里德，本',
+            en: 'Reade, Ben'
+          },
+          {
+            zh: '氧化还原反应',
+            en: 'redox reactions'
+          },
+          {
+            zh: '折射计',
+            en: 'refractometers'
+          },
+          {
+            zh: '品尝醋栗',
+            en: 'Relish Gooseberry'
+          },
+          {
+            zh: '米饭',
+            en: 'rice'
+          },
+          {
+            zh: '蜂花粉烩饭',
+            en: 'Bee Pollen Risotto'
+          },
+          {
+            zh: '豌豆烩饭',
+            en: 'pea risotto'
+          },
+          {
+            zh: '罗兰·里特曼',
+            en: 'Rittman, Roland'
+          },
+          {
+            zh: '玫瑰',
+            en: 'rose'
+          },
+          {
+            zh: '玫瑰与虾 Garum',
+            en: 'Rose and Shrimp Garum'
+          },
+          {
+            zh: '玫瑰Kombucha',
+            en: 'Rose Kombucha'
+          },
+          {
+            zh: '玫瑰Peaso',
+            en: 'Rose Peaso'
+          },
+          {
+            zh: '雷索',
+            en: 'Ryeso'
+          },
+          {
+            zh: '黑蒜醋和黑麦酱',
+            en: 'Black Garlic Vinegar and Ryeso Sauce'
+          },
+          {
+            zh: 'S',
+            en: 'S'
+          },
+          {
+            zh: 'Saccharomyces cerevisiae',
+            en: 'Saccharomyces cerevisiae'
+          },
+          {
+            zh: '安全和清洁',
+            en: 'safety and cleanliness'
+          },
+          {
+            zh: '沙门氏菌',
+            en: 'Salmonella'
+          },
+          {
+            zh: '盐',
+            en: 'salt'
+          },
+          {
+            zh: '盐水',
+            en: 'brine'
+          },
+          {
+            zh: '在garum中',
+            en: 'in garum'
+          },
+          {
+            zh: 'lacto-发酵和',
+            en: 'lacto-fermentations and'
+          },
+          {
+            zh: '测量和',
+            en: 'measurements and'
+          },
+          {
+            zh: '在miso和peaso中',
+            en: 'in miso and peaso'
+          },
+          {
+            zh: '的类型',
+            en: 'type of'
+          },
+          {
+            zh: '酸菜',
+            en: 'sauerkraut'
+          },
+          {
+            zh: '酱汁',
+            en: 'sauces'
+          },
+          {
+            zh: '黑蒜醋和黑麦酱',
+            en: 'Black Garlic Vinegar and Ryeso Sauce'
+          },
+          {
+            zh: '面包酱',
+            en: 'Breadso Sauce'
+          },
+          {
+            zh: 'Cep Shoyu Beurre Blanc',
+            en: 'Cep Shoyu Beurre Blanc'
+          },
+          {
+            zh: '咖啡 Shoyu 奶油糖',
+            en: 'Coffee Shoyu Butterscotch'
+          },
+          {
+            zh: '树妖的马鞍和烤Koji酱',
+            en: 'Dryad’s Saddle and Roasted Koji Sauce'
+          },
+          {
+            zh: '蛋黄酱',
+            en: 'Egg Yolk Sauce'
+          },
+          {
+            zh: 'Lacto Koji 黄油酱',
+            en: 'Lacto Koji Butter Sauce'
+          },
+          {
+            zh: '梨荷兰酱或蛋黄酱',
+            en: 'Pear Hollandaise or Béarnaise'
+          },
+          {
+            zh: '黑麦草霜',
+            en: 'Ryeso Cream'
+          },
+          {
+            zh: '格勒诺布洛兹鞋底',
+            en: 'Sole à la Grenobloise'
+          },
+          {
+            zh: '番茄酱',
+            en: 'Tomato Sauce'
+          },
+          {
+            zh: '威士忌醋酱',
+            en: 'Whiskey Vinegar Sauce'
+          },
+          {
+            zh: '斯科比',
+            en: 'SCOBY'
+          },
+          {
+            zh: '海鲜',
+            en: 'seafood'
+          },
+          {
+            zh: '焦糖玫瑰黄油',
+            en: 'Caramelized Rose Butter'
+          },
+          {
+            zh: '蛤蜊和鸟蛤',
+            en: 'Clams and Cockles'
+          },
+          {
+            zh: '鱼疗',
+            en: 'Fish Cure'
+          },
+          {
+            zh: '乳头鱼',
+            en: 'fish en papillote'
+          },
+          {
+            zh: '鱼釉',
+            en: 'Fish Glaze'
+          },
+          {
+            zh: 'Koji-面包屑鱼',
+            en: 'Koji-Breaded Fish'
+          },
+          {
+            zh: 'Koji治愈（盐Koji）',
+            en: 'Koji Cure (Shio Koji)'
+          },
+          {
+            zh: 'Lacto-酸梅汁木犀草',
+            en: 'Lacto-Plum Juice Mignonette'
+          },
+          {
+            zh: 'Lacto番茄水',
+            en: 'Lacto Tomato Water'
+          },
+          {
+            zh: '玫瑰与虾 Garum',
+            en: 'Rose and Shrimp Garum'
+          },
+          {
+            zh: '炒虾',
+            en: 'Sautéed Shrimp'
+          },
+          {
+            zh: 'Shoyu-牡蛎乳液',
+            en: 'Shoyu-Oyster Emulsion'
+          },
+          {
+            zh: '鱿鱼Garum',
+            en: 'Squid Garum'
+          },
+          {
+            zh: '调味料',
+            en: 'seasonings'
+          },
+          {
+            zh: 'Lacto蓝莓',
+            en: 'Lacto Blueberries'
+          },
+          {
+            zh: '蒂格雷奶牛',
+            en: 'Leche de Tigre'
+          },
+          {
+            zh: '青葱，打蜡黑',
+            en: 'Shallots, Waxed Black'
+          },
+          {
+            zh: '盐Koji（Koji治愈）',
+            en: 'Shio Koji (Koji Cure)'
+          },
+          {
+            zh: 'shoyu',
+            en: 'shoyu'
+          },
+          {
+            zh: '酸水解法',
+            en: 'acid hydrolysis method for'
+          },
+          {
+            zh: 'Cep Shoyu',
+            en: 'Cep Shoyu'
+          },
+          {
+            zh: '咖啡Shoyu',
+            en: 'Coffee Shoyu'
+          },
+          {
+            zh: '树妖的鞍座 Shoyu',
+            en: 'Dryad’s Saddle Shoyu'
+          },
+          {
+            zh: '方法论',
+            en: 'methodology for'
+          },
+          {
+            zh: '北欧',
+            en: 'Nordic'
+          },
+          {
+            zh: '黄豌豆Shoyu',
+            en: 'Yellow Pea Shoyu'
+          },
+          {
+            zh: '虾',
+            en: 'shrimp'
+          },
+          {
+            zh: '玫瑰与虾 Garum',
+            en: 'Rose and Shrimp Garum'
+          },
+          {
+            zh: '炒虾',
+            en: 'Sautéed Shrimp'
+          },
+          {
+            zh: '冰沙，苹果蔬菜',
+            en: 'Smoothie, Apple-Vegetable'
+          },
+          {
+            zh: '羊肚菌',
+            en: 'S’mores'
+          },
+          {
+            zh: '汤',
+            en: 'soups'
+          },
+          {
+            zh: '牛肉Garum',
+            en: 'Beef Garum'
+          },
+          {
+            zh: '面包汤',
+            en: 'Breadso Soup'
+          },
+          {
+            zh: '胡桃南瓜汤',
+            en: 'Butternut Squash Soup'
+          },
+          {
+            zh: '黄瓜汤',
+            en: 'Cucumber Soup'
+          },
+          {
+            zh: 'Koji-焯水蔬菜',
+            en: 'Koji-Blanched Vegetables'
+          },
+          {
+            zh: 'Koji-Miso 汤',
+            en: 'Koji-Miso Soup'
+          },
+          {
+            zh: '芒果西班牙凉菜汤',
+            en: 'Mango Gazpacho'
+          },
+          {
+            zh: '洋葱汤',
+            en: 'Onion Soup'
+          },
+          {
+            zh: '薏米Koji',
+            en: 'Pearl Barley Koji in'
+          },
+          {
+            zh: '大豆',
+            en: 'soy'
+          },
+          {
+            zh: '酱油，见shoyu',
+            en: 'soy sauce,seeshoyu'
+          },
+          {
+            zh: '比重',
+            en: 'specific gravity'
+          },
+          {
+            zh: '烈酒醋',
+            en: 'spirit vinegars'
+          },
+          {
+            zh: '壁球',
+            en: 'squash'
+          },
+          {
+            zh: '胡桃南瓜汤',
+            en: 'Butternut Squash Soup'
+          },
+          {
+            zh: '胡桃南瓜醋',
+            en: 'Butternut Squash Vinegar'
+          },
+          {
+            zh: '鱿鱼Garum',
+            en: 'Squid Garum'
+          },
+          {
+            zh: '追踪野生芦笋（长臂猿）',
+            en: 'Stalking the Wild Asparagus(Gibbons)'
+          },
+          {
+            zh: '库存，Koji',
+            en: 'Stock, Koji'
+          },
+          {
+            zh: '商店购买的发酵剂',
+            en: 'store-bought ferments'
+          },
+          {
+            zh: '糖',
+            en: 'sugar'
+          },
+          {
+            zh: '发黑中',
+            en: 'in blackening'
+          },
+          {
+            zh: 'Brix规模和',
+            en: 'Brix scale and'
+          },
+          {
+            zh: '在kombucha中',
+            en: 'in kombucha'
+          },
+          {
+            zh: 'Lacto 芒果香蜂蜜作为替代品',
+            en: 'Lacto Mango-Scented Honey as replacement for'
+          },
+          {
+            zh: '共生',
+            en: 'symbiosis'
+          },
+          {
+            zh: '糖浆',
+            en: 'syrups'
+          },
+          {
+            zh: 'Kombucha糖浆',
+            en: 'Kombucha Syrup'
+          },
+          {
+            zh: '枫Kombucha糖浆',
+            en: 'Maple Kombucha Syrup'
+          },
+          {
+            zh: '时间',
+            en: 'T'
+          },
+          {
+            zh: '酱油',
+            en: 'tamari'
+          },
+          {
+            zh: 'Peaso 酱油还原',
+            en: 'Peaso Tamari Reduction'
+          },
+          {
+            zh: 'Ryeso Tamari 和 Ryeso 蘑菇釉',
+            en: 'Ryeso Tamari and Ryeso-Mushroom Glaze'
+          },
+          {
+            zh: '味道',
+            en: 'taste'
+          },
+          {
+            zh: '鲜味',
+            en: 'umami'
+          },
+          {
+            zh: '提拉米苏、咖啡-Kombucha',
+            en: 'Tiramisu, Coffee-Kombucha'
+          },
+          {
+            zh: '西红柿',
+            en: 'tomatoes'
+          },
+          {
+            zh: 'Lacto番茄水',
+            en: 'Lacto Tomato Water'
+          },
+          {
+            zh: '烤西红柿',
+            en: 'Roasted Tomatoes'
+          },
+          {
+            zh: '补品、苹果 Kombucha 药草',
+            en: 'Tonic, Apple Kombucha Herb'
+          },
+          {
+            zh: '托斯塔达斯',
+            en: 'Tostadas'
+          },
+          {
+            zh: '拓',
+            en: 'tuong'
+          },
+          {
+            zh: 'U',
+            en: 'U'
+          },
+          {
+            zh: '鲜味',
+            en: 'umami'
+          },
+          {
+            zh: 'V',
+            en: 'V'
+          },
+          {
+            zh: '蔬菜',
+            en: 'vegetables'
+          },
+          {
+            zh: '苹果蔬菜冰沙',
+            en: 'Apple-Vegetable Smoothie'
+          },
+          {
+            zh: '选择',
+            en: 'choosing'
+          },
+          {
+            zh: '生菜',
+            en: 'Crudités'
+          },
+          {
+            zh: 'Koji-焯水蔬菜',
+            en: 'Koji-Blanched Vegetables'
+          },
+          {
+            zh: '根类蔬菜捣碎',
+            en: 'Mashed Root Vegetables'
+          },
+          {
+            zh: '托斯顿·维尔德加德',
+            en: 'Vildgaard, Torsten'
+          },
+          {
+            zh: '醋',
+            en: 'vinegar'
+          },
+          {
+            zh: '香醋',
+            en: 'balsamic'
+          },
+          {
+            zh: '桶老化',
+            en: 'barrel aging of'
+          },
+          {
+            zh: '黑蒜香醋',
+            en: 'Black Garlic Balsamic'
+          },
+          {
+            zh: '胡桃南瓜醋',
+            en: 'Butternut Squash Vinegar'
+          },
+          {
+            zh: '芹菜醋',
+            en: 'Celery Vinegar'
+          },
+          {
+            zh: '接骨木酒香醋',
+            en: 'Elderberry Wine Balsamic'
+          },
+          {
+            zh: '加梅尔丹麦醋',
+            en: 'Gammel Dansk Vinegar'
+          },
+          {
+            zh: '的历史',
+            en: 'history of'
+          },
+          {
+            zh: '佩里醋',
+            en: 'Perry Vinegar'
+          },
+          {
+            zh: '梅醋',
+            en: 'Plum Vinegar'
+          },
+          {
+            zh: '精神',
+            en: 'spirit'
+          },
+          {
+            zh: '两步过程',
+            en: 'two-step process for'
+          },
+          {
+            zh: '威士忌醋',
+            en: 'Whiskey Vinegar'
+          },
+          {
+            zh: '油醋汁',
+            en: 'vinaigrettes'
+          },
+          {
+            zh: '培根培根油醋汁',
+            en: 'Cep-Bacon Vinaigrette'
+          },
+          {
+            zh: '柠檬马鞭草Kombucha油醋汁',
+            en: 'Lemon Verbena Kombucha Vinaigrette'
+          },
+          {
+            zh: '芒果柠檬草油醋汁',
+            en: 'Mango-Lemongrass Vinaigrette'
+          },
+          {
+            zh: '佩里油醋汁',
+            en: 'Perry Vinaigrette'
+          },
+          {
+            zh: '伏特加',
+            en: 'vodka'
+          },
+          {
+            zh: '瓦',
+            en: 'W'
+          },
+          {
+            zh: '水活度',
+            en: 'water activity'
+          },
+          {
+            zh: '重量、发酵',
+            en: 'weights, fermentation'
+          },
+          {
+            zh: '度量衡',
+            en: 'weights and measures'
+          },
+          {
+            zh: '面包师的百分比',
+            en: 'baker’s percentages'
+          },
+          {
+            zh: '盐和',
+            en: 'salt and'
+          },
+          {
+            zh: '韦斯特，索伦',
+            en: 'Westh, Søren'
+          },
+          {
+            zh: '威士忌醋',
+            en: 'Whiskey Vinegar'
+          },
+          {
+            zh: '拉斯·威廉姆斯',
+            en: 'Williams, Lars'
+          },
+          {
+            zh: '索伦·维夫',
+            en: 'Wiuff, Søren'
+          },
+          {
+            zh: '是',
+            en: 'Y'
+          },
+          {
+            zh: '酵母菌',
+            en: 'yeasts'
+          },
+          {
+            zh: 'Brettanomyces',
+            en: 'Brettanomyces'
+          },
+          {
+            zh: '在kombucha中',
+            en: 'in kombucha'
+          },
+          {
+            zh: 'Saccharomyces cerevisiae',
+            en: 'Saccharomyces cerevisiae'
+          },
+          {
+            zh: '斯科比',
+            en: 'SCOBY'
+          },
+          {
+            zh: '酵母Garum',
+            en: 'Yeast Garum'
+          },
+          {
+            zh: '黄豌豆',
+            en: 'yellow peas'
+          },
+          {
+            zh: '黄豌豆Shoyu',
+            en: 'Yellow Pea Shoyu'
+          },
+          {
+            zh: '黄色Peaso',
+            en: 'Yellow Peaso'
+          },
+          {
+            zh: '另请参见miso和peaso',
+            en: 'see also misos and peaso'
+          },
+          {
+            zh: '<!-- text/part0019.html -->',
+            en: '<!-- text/part0019.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          },
+          {
+            zh: '退房',
+            en: 'Check out'
+          },
+          {
+            zh: '@nomafermentson Instagram 获取灵感，并使用主题标签 #nomaferments 在线分享您自己的创作。',
+            en: '@nomafermentson Instagram for inspiration, and share your own creations online with the hashtag #nomaferments.'
+          },
+          {
+            zh: '版权所有 © 2018',
+            en: 'Copyright © 2018 by'
+          },
+          {
+            zh: 'René Redzepi 和 David Zilber',
+            en: 'René Redzepi and David Zilber'
+          },
+          {
+            zh: '照片版权所有 © Evan Sung，第 16,64,113,214,226,273,282,370,410 页版权所有 © Jason Loucas；第 22,404 页版权所有 © Ditte Isager/Edge Reps；和第 21,63,159 页版权所有 © Laura L.P./HdG Photography',
+            en: 'Photographs copyright © by Evan Sung except on pages16,64,113,214,226,273,282,370,410copyright © by Jason Loucas; pages22,404copyright © by Ditte Isager/Edge Reps; and pages21,63,159copyright © by Laura L.P./HdG Photography'
+          },
+          {
+            zh: '插图版权所有 © 2018 Paula Troxler',
+            en: 'Illustrations copyright © 2018 by Paula Troxler'
+          },
+          {
+            zh: '免责声明：读者应遵循本书中提供的安全指南和警告；然而，作者和出版商明确表示不对因应用或误用本文所含信息而可能产生的任何不利影响承担责任。',
+            en: 'DISCLAIMER: Readers should follow the safety guidelines and warnings provided throughout the book; however, the authors and publisher expressly disclaim responsibility for any adverse effects that may result from the application or misapplication of the information contained herein.'
+          },
+          {
+            zh: '版权所有。未经出版商书面许可，不得以机械、电子或任何其他方式（包括影印）复制本书的任何部分。',
+            en: 'All rights reserved. No portion of this book may be reproduced—mechanically, electronically, or by any other means, including photocopying—without written permission of the publisher.'
+          },
+          {
+            zh: '美国国会图书馆出版编目数据已存档。',
+            en: 'Library of Congress Cataloging-in-Publication Data is on file.'
+          },
+          {
+            zh: '电子书号 978-1-57965-889-2',
+            en: 'eISBN 978-1-57965-889-2'
+          },
+          {
+            zh: '如需演讲活动，请联系speakersbureau@workman.com。',
+            en: 'For speaking engagements, contactspeakersbureau@workman.com.'
+          },
+          {
+            zh: '工匠出版',
+            en: 'Published by Artisan'
+          },
+          {
+            zh: 'Workman Publishing Co., Inc. 的一个部门',
+            en: 'A division of Workman Publishing Co., Inc.'
+          },
+          {
+            zh: '瓦里克街225号',
+            en: '225 Varick Street'
+          },
+          {
+            zh: '纽约州 10014-4381',
+            en: 'New York, NY 10014-4381'
+          },
+          {
+            zh: 'artisanbooks.com',
+            en: 'artisanbooks.com'
+          },
+          {
+            zh: 'Artisan 是 Workman Publishing Co., Inc. 的注册商标。',
+            en: 'Artisan is a registered trademark of Workman Publishing Co., Inc.'
+          },
+          {
+            zh: 'Thomas Allen & Son, Limited 在加拿大同时出版',
+            en: 'Published simultaneously in Canada by Thomas Allen & Son, Limited'
+          },
+          {
+            zh: '由 Atelier Dyakova 设计',
+            en: 'Design by Atelier Dyakova'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-crawler-scope',
@@ -870,6 +4002,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 从“抓网页”到“设计爬虫系统”'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -988,6 +4129,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 云盘需求：可靠、同步、低带宽'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -1109,7 +4259,60 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 必须放克',
+            en: '# Got to Have the Funk'
+          },
+          {
+            zh: '*Thomas Frebel, former head of Noma’s test kitchen, first suggested we make garum from meat rather than fish.*',
+            en: '*Thomas Frebel, former head of Noma’s test kitchen, first suggested we make garum from meat rather than fish.*'
+          },
+          {
+            zh: '当涉及到某些事情时，一点点就会大有帮助：诚实、善良、车轴润滑油。 。 。和鱼露。',
+            en: 'A little bit goes a long way, when it comes to certain things: honesty, kindness, axle grease . . . and fish sauce.'
+          },
+          {
+            zh: 'Garum——鱼露所属的大家族——在西方基本上是被遗忘的成分。它们曾经是欧洲美食的支柱，但现在几乎从食谱中消失了。在其最纯粹的形式中，garum 是鱼、盐和水的大块混合物，可以分解和腐烂（当然是以受控的方式）。我们在Noma中使用了更广泛的术语garum，并将成分扩展到包括更多的东西，而不仅仅是鱼。',
+            en: 'Garums—the larger family to which fish sauce belongs—are a largely forgotten ingredient in the West. Once a mainstay of European cuisine, they’ve all but disappeared from the recipes of today. In its purest form, garum is a chunky blend of fish, salt, and water that’s allowed to break down and putrefy (in a controlled manner, of course). We use the termgarumsomewhat more broadly at Noma, and expand the ingredients to include a lot more than just fish.'
+          },
+          {
+            zh: '托马斯·弗雷贝尔（Thomas Frebel）是我们测试厨房的前负责人，他是第一个建议我们尝试用肉而不是鱼制作garum的人。当时，我们一直在努力思考如何让像garum这样的古老传统焕然一新，并且明显属于我们。事实证明，托马斯的建议是一个绝妙的建议。',
+            en: 'Thomas Frebel, the former head of our test kitchen, was the first to suggest we try making garums with meat rather than fish. At the time, we’d been struggling with how we could make ancient traditions like garum feel new and distinctly ours. Thomas’s suggestion proved to be a brilliant one.'
+          },
+          {
+            zh: 'Garum 的生产相对容易，而且事实证明，该过程对于肉类和鱼类来说都同样有效。我们还发现，如果将 koji 添加到等式中，则可以将生成 garum 所需的时间减少一半以上。 （如果没有koji，我们制造的许多garum在技术上都不是发酵产物，而是自溶产物。稍后会详细介绍。）',
+            en: 'Garums are relatively easy to produce, and it turns out that the process works just as well with meat as it does with fish. We also found that if you add koji to the equation, you can reduce the time it takes to make garum by more than half. (Without the koji, many of the garums we make are technically not products of fermentation, but rather autolysis. More on this later.)'
+          },
+          {
+            zh: '经过大量的试验和错误，我们可以自信地说，我们在 Noma 中制造 garum 的方法（在温暖条件下用盐、水和 koji 发酵动物蛋白）是对传统方法的新颖转变。由此产生的 garum 很快就成为我们武器库中最方便的成分之一。它们并不扮演主角，但它们就在表面之下，为菜肴注入无形的魔力，集中并活跃自然风味。如果你能原谅我们发明了词语，它们赋予了事物复杂性，这是我们想出的组合词，用来捕捉发酵给烹饪带来的强度和电力。我们根本想不出其他方法来描述在一大锅蒸土豆中加入一茶匙鱿鱼garum的效果，其中蒸土豆与融化的黄油和一把切碎的欧芹一起搅拌。这些味道达到了一个点——它们有深度和鲜味，尝起来就像它们本身的增强版本。',
+            en: 'After a good amount of trial and error, we can say with confidence that the way that we make garum at Noma—fermenting animal protein in warm conditions with salt, water, and koji—is a novel twist on the traditional methodology. The resulting garums are quickly becoming among the handiest ingredients in our arsenal. They don’t play a starring role, but they’re there under the surface, imbuing dishes with an intangible magic, focusing and enlivening natural flavors. If you’ll forgive us for inventing words, they give thingsintricity, which is the portmanteau we’ve come up with to capture the intensity and electricity that ferments bring to cooking. There’s simply no other way we can think of to describe the effect of adding a teaspoon of squid garum to a big pot of steamed potatoes tossed with melted butter and a fistful of chopped parsley. The flavors come to a point—they have depth and umami, and taste like enhanced versions of themselves.'
+          },
+          {
+            zh: '*A little garum goes a long way.*',
+            en: '*A little garum goes a long way.*'
+          },
+          {
+            zh: '最令人兴奋的是，我们才刚刚开始了解 garum 的潜力。我们有时会使用garum来带来盐度和鲜味，而不是在食谱中伸手去拿一撮盐，而是一石二鸟。而在像Noma这样的餐厅，一年中的大部分时间里，肉类在菜单中都不起重要作用，而garum可以让您有一种吃完一块牛肉或鸡肉的满足感，但又不会感到沉重。当我们提供肉类时，我们经常会使用相应的garum来增加强度，无论这意味着在生牛肉条上滴几滴牛肉garum，还是鱿鱼garum来增强海带片之间腌制的鱿鱼片。',
+            en: 'The most exciting thing is that we’re only beginning to understand the potential of garums. Rather than reaching for a pinch of salt in a recipe, we’ll sometimes kill two birds with one stone by using garum to bring both salinity and umami. And at a restaurant like Noma, where meat doesn’t play a huge role in the menu for most of the year, garums can give you the satisfaction of having eaten a piece of beef or chicken without the heaviness. When we do serve meat, we’ll often use a corresponding garum to up the intensity, whether that means a few drops of beef garum on strips of raw beef, or squid garum to enhance pieces of squid cured between sheets of kelp.'
+          },
+          {
+            zh: '在某种程度上，garum让我们能够颠倒Noma中动物和蔬菜的角色，因此肉类成为调味料，蔬菜成为明星。洒上一点garum就可以将不起眼的卷心菜叶提升到令人满意且令人难忘的口感。无论如何，这确实是我们所有人都应该吃的方式。在肉类成为商品之前，它是一种奢侈品。当你能拿到它的时候，你必须把它坚持到最后。最早的中国酱是肉类、大豆和曲霉的混合物，它们在当地美食中占据着与garum类似的地位。在斯堪的纳维亚半岛，人们腌制鲱鱼已有数百年历史，并使用流出的液体作为调味料。他们没有将其称为“garum”，但他们认识到它的有用性。这一切都是为了充分利用你所拥有的资源——这种做法往往会带来美妙的创新。',
+            en: 'In a way, garums have allowed us to reverse the role of animals and vegetables at Noma, so meat becomes the seasoning and vegetables are the stars. A splash of garum can elevate an unassuming cabbage leaf to a satisfying and memorable bite. It’s really how we should all be eating, anyway. Before meat was a commodity, it was a luxury. When you could get your hands on it, you had to make it last. The earliest Chinesejiangs were mixtures of meat, soybeans, andAspergillus, and they occupied a similar place as garums in the local cuisine. And in Scandinavia, people have been curing herring for centuries, and using the liquid runoff as a seasoning. They didn’t call it “garum,” but they recognized its usefulness. It’s all about stretching the resources you’ve got—a practice that often leads to delicious innovations.'
+          },
+          {
+            zh: '<!-- text/part0012_split_002.html -->',
+            en: '<!-- text/part0012_split_002.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-interview-mindset-and-scope',
@@ -1121,6 +4324,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 系统设计面试不是抢答题'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -1240,6 +4452,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# News Feed 的范围、数据模型与 API'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能说明 News Feed 支持的核心动作：发帖、关注、读取首页、分页、排序和可见性控制；也要能区分帖子本体、关系数据、feed 索引和缓存。面试里不要把 feed 当成一个列表接口，它背后是关系、内容、排序和权限的组合。'
@@ -1355,6 +4576,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 通知系统的范围与需求'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -1474,6 +4704,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 认识 Rate Limiter 与设计范围'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '本节要讲清 Rate Limiter 到底保护什么、限制谁、按什么规则限制，以及限流后系统应该怎样响应。你要能把限流和认证、风控、熔断区分开，并在面试开场阶段把需求范围问清楚。'
@@ -1591,6 +4830,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 从真实系统架构中继续学习'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -1712,7 +4960,68 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 烹饪速度真的很慢',
+            en: '# Really Slow Cooking'
+          },
+          {
+            zh: '黑色水果和蔬菜成为西方烹饪的一部分至今只有大约二十年的时间。大约十五年前，在Noma，我们第一次尝到了黑蒜——一种典型的熏黑蔬菜，但我们最近才开始尝试熏黑其他水果、蔬菜和坚果的过程。',
+            en: 'Black fruits and vegetables have been part of the Western cooking repertoire for only about two decades now. At Noma, we got our first taste of black garlic—the prototypical blackened vegetable—about fifteen years ago, but we’ve only recently begun to experiment with the process of blackening other fruits, vegetables, and nuts.'
+          },
+          {
+            zh: '需要明确的是，变黑不是发酵。它在很大程度上是酶促过程，虽然所有发酵过程都是酶促过程，但并非所有酶促过程都是发酵过程。尽管如此，我们相信黑化在本书中占有一席之地，因为它与微生物发酵具有相同的变革魔力，而且因为它创造的产品在我们的食品储藏室中也有类似的位置。',
+            en: 'To be clear, blackening is not fermentation. It is in large part an enzymatic process, and while all fermentation processes are enzymatic, not all enzymatic processes are fermentation processes. Still, we believe that blackening has a place in this book because it shares the same transformative magic as microbial fermentation, and because the products it creates have a similar place in our pantry.'
+          },
+          {
+            zh: '实际的变黑过程是令人惊叹的。蔬菜慢慢地变成成熟的水果，尖锐的味道变得醇厚，坚硬的质地最终变得像油灰一样有延展性。以黑蒜为例。与众多发酵物一样，黑蒜的品质也多种多样，有些品种尝起来可能太生，不是特别令人愉快，但在最好的情况下，它就像完美的成年糖果，甜而坚韧，充满复杂性。',
+            en: 'The actual process of blackening is a sight to behold. Vegeta-bles slowly morph into ripe fruits, as sharp flavors mellow and hard textures end up putty-like and malleable. Take black garlic, for instance. As with so many ferments, there’s a wide range of quality in black garlics—some varieties can taste too raw and are not particularly enjoyable—but at its best, it’s like the perfect grown-up candy, sweet and leathery and full of complexity.'
+          },
+          {
+            zh: '要制作黑蒜，您只需将一头大蒜放入密封容器中，并在 60°C/140°F 的恒温下保存 6 至 8 周。这就是整个过程——至少在最广泛的层面上是这样。',
+            en: 'To make black garlic, all you have to do is place a head of garlic in a sealed container and keep it at a constant temperature of 60°C/140°F for 6 to 8 weeks. That’s the whole procedure—at least at the broadest level.'
+          },
+          {
+            zh: '温度是黑化不是发酵过程的原因。我们用于发酵的真菌和细菌无法在 60°C/140°F 的温度下生存，因此在缺乏微生物活性的情况下，我们只能进行化学过程。',
+            en: 'Temperature is the reason why blackening is not a fermentative process. The fungi and bacteria that we harness for fermentation can’t survive at 60°C/140°F, so in the absence of microbial activity, we’re left with only chemical processes.'
+          },
+          {
+            zh: '也许描述变黑的最简单方法是非常缓慢、非常深的褐变。本书的许多读者可能熟悉Maillard反应——这种现象导致了硬皮牛排、棕色洋葱、吐司、咖啡和无数其他主要美食的出现。 Maillard反应是黑色水果和蔬菜褐变的几种形式之一。还有焦糖化，即糖的热​​解。当在没有氧气的情况下对有机化合物施加热量时，它们会热分解。这就是热解。焦糖化产生了一系列挥发性的味道和香气，以及我们倾向于与美味事物联系在一起的一系列可爱的颜色。',
+            en: 'Perhaps the easiest way to describe blackening is as very slow, very dark browning. Many readers of this book may be familiar with the Maillard reaction—the phenomenon responsible for crusty steaks, browned onions, toast, coffee, and innumerable other pillars of cuisine. The Maillard reaction is one of several forms of browning at work in black fruits and vegetables. There’s also caramelization, which is the pyrolysis of sugar. As heat is applied to organic compounds in the absence of oxygen, they thermally decompose. That’s pyrolysis. Caramelization produces a flight of volatile flavors and aromas, as well as the lovely range of colors we tend to associate with delicious things.'
+          },
+          {
+            zh: '*Temperature is an average of the kinetic energy of countless molecules moving at different speeds.*',
+            en: '*Temperature is an average of the kinetic energy of countless molecules moving at different speeds.*'
+          },
+          {
+            zh: '我们习惯于在高温（通常为 170°C/340°F 或更高）下短时间内发生Maillard反应、热解和焦糖化。但如果你有耐心的话，这些反应的发生并不一定需要高温。变黑的目的是将这个过程延长几周。这是可能的，因为物体的温度实际上是数十亿个以不同速度运动的分子的平均值。在一瓣保持在 60°C/140°F 的大蒜中，99.9999% 的分子很可能移动得太慢而无法激发热解或Maillard反应。但有时，十亿个分子中的一个可能移动得足够快，足以引发这些高能化学反应之一。从那里开始，这些孤立的、稀疏的反应级联起来。',
+            en: 'We’re accustomed to the Maillard reaction, pyrolysis, and caramelization taking place over a short time at high heat—usually 170°C/340°F or higher. But high heat is not explicitly necessary for any of these reactions to take place, if you’re patient. The point of blackening is to stretch out the process over weeks. This is possible because the temperature of an object is actually the average ofbillions of billionsof molecules moving around at different speeds. In a clove of garlic held at 60°C/140°F, 99.9999 percent of the molecules might very well be moving too slowly to inspire a pyrolytic or Maillard reaction. But occasionally, one molecule out of a billion might be moving fast enough to spark one of these energetic chemical reactions. From there, these isolated, sparse reactions cascade.'
+          },
+          {
+            zh: '当热解将较大的糖分解成较小的部分时，它会释放出更多的分子，然后这些分子可用于参与进一步的反应。在几周的时间里，这些罕见且不可逆的化学反应的产物不断积累，产生了我们与黑蒜联系在一起的深色甜味。事实上，在这个温度下长时间放置，大蒜最终会燃烧。',
+            en: 'As pyrolysis breaks down larger sugars into smaller parts, it liberates more molecules, which are then available to take part in further reactions. Over the course of weeks, the products of these rare and irreversible chemical reactions accumulate, producing the dark sweetness we associate with black garlic. In fact, left long at this temperature, the garlic will eventually burn.'
+          },
+          {
+            zh: '热解、焦糖化和Maillard反应是非酶促褐变反应。另一方面，酶促褐变是水果和蔬菜随着时间的推移成熟和老化时发生的情况。多酚氧化酶对植物生长的健康非常重要，但一旦水果或蔬菜的果肉暴露在氧气中，这种酶就会开始改变植物组织中的酚类化合物并产生黑色素，从而导致水果变成棕色。 （酚类是一大类化合物，其中一些为许多植物的果肉和果皮赋予了颜色，还有一些在其风味和香气方面也发挥了重要作用。）在健康的植物中，在瘀伤或创伤部位产生黑色素有助于抵御感染，因为黑色素具有抗菌特性。在变黑过程中，它们使水果或蔬菜进一步变黑。',
+            en: 'Pyrolysis, caramelization, and the Maillard reaction are non-enzymatic browning reactions. Enzymatic browning, on the other hand, is what happens to fruits and vegetables as they ripen and age over time. The enzyme polyphenol oxidase is important to a plant’s health as it grows, but once a fruit’s or vegetable’s flesh is exposed to oxygen, the enzyme begins altering phenolic compounds in the plant’s tissue and producing melanins, which are responsible for fruit turning brown. (Phenols are a large group of compounds, some of which give the flesh and fruit skins of many plants their color, and some play a big role in their flavor and aroma as well.) In a healthy plant, the creation of melanins at the site of a bruise or trauma helps to ward off infection, as melanins have antibacterial properties. In the blackening process, they serve to further darken the fruit or vegetable.'
+          },
+          {
+            zh: '当你使水果变黑时，酶促反应和非酶促反应都会发生。目前还不清楚是谁首先融合了这些不同的过程来使食物变黑，尽管大多数迹象都指向韩国传奇的发酵文化，几个世纪前，人们在炎热的夏季将整头大蒜放在陶罐中陈酿。至于黑色水果和蔬菜的现代历史，我们再次把目光投向2004年的韩国。黑蒜在当代的普及要归功于一位名叫斯科特·金(Scott Kim)的人，他发明了一种使用热控湿度老化室制作黑蒜的简单方法。我们在Noma使用完全相同的方法来维持一个环境，该环境会导致一系列缓慢的化学反应，在几周或几个月的时间内彻底改变普通成分。',
+            en: 'When you blacken fruit, both enzymatic and non-enzymatic reactions are taking place. It’s unclear who first fused these various processes to blacken food, though most signs point to the storied fermenting culture of Korea, where centuries ago people were aging whole heads of garlic in earthenware pots during the hot summer months. As for the modern history of black fruits and vegetables, we again look to Korea, in the year 2004. The contemporary popularization of black garlic is credited to a man named Scott Kim, who devised a simple method for making black garlic using heat- and humidity-controlled aging chambers. We use the exact same methods at Noma to maintain an environment that leads to a cascade of slow chemical reactions, completely transforming ordinary ingredients over the course of weeks or months.'
+          },
+          {
+            zh: '<!-- text/part0013_split_002.html -->',
+            en: '<!-- text/part0013_split_002.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-rehashing-problem',
@@ -1724,6 +5033,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 为什么普通哈希扩容会崩'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -2009,6 +5327,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 短链接系统的需求与 API'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能定义短链接系统的功能需求、非功能需求和核心 API，并从读写比例、存储量、延迟和安全风险推导后续架构。'
@@ -2128,6 +5455,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 唯一 ID 生成器的需求边界'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -2252,6 +5588,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 从单机 KV 到分布式 KV'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能说清楚 Key-Value Store 的基本接口、单机实现能解决什么问题、为什么容量和可用性会逼着系统走向分布式。'
@@ -2373,6 +5718,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 从单机系统开始理解请求路径'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能把一个最小网站的请求路径从浏览器讲到数据库，再从数据库讲回响应；能说明单机架构为什么适合起步，也能指出它最早会被哪些压力打穿。系统设计不是从负载均衡器开始的，而是从一次请求到底经过了什么开始的。'
@@ -2492,7 +5846,80 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 神奇的模具',
+            en: '# The Magic Mold'
+          },
+          {
+            zh: '*Aspergillushyphae spread into a visible web as they grow.*',
+            en: '*Aspergillushyphae spread into a visible web as they grow.*'
+          },
+          {
+            zh: '“任何足够先进的技术都与魔法没有什么区别，”阿瑟·C·克拉克爵士说。地球上一些最引人注目的技术是生物系统，这些系统是在偶然和环境的影响下盲目完善的，是经过亿万年建立起来的。自然世界是无尽的奇迹源泉，其无限的变化是发现的无底井。',
+            en: '“Any sufficiently advanced technology is indistinguishable from magic,” said Sir Arthur C. Clarke. And some of the most remarkable technologies on earth are biological—systems blindly refined by chance and circumstance, built over eons. The natural world is an endless source of wonder, its infinite variation a bottomless well of discovery.'
+          },
+          {
+            zh: '我们发现koji与魔法没有什么区别——事实上，这是最好的魔法，因为任何人都可以使用它。要亲自体验koji的辉煌，您只需将一些放入口中并品尝即可。',
+            en: 'We find koji indistinguishable from magic—the best kind of magic, in fact, because anybody can wield it. To experience koji’s brilliance for yourself, you simply need to pop some in your mouth and taste it.'
+          },
+          {
+            zh: 'Koji是一个来自日本的术语，指的是接种了Aspergillus oryzae的大米或大麦，Aspergillus oryzae是一种真菌（准确地说是一种孢子霉菌），生长在温暖潮湿的环境中煮熟的谷物上。 （在英语世界中，我们将术语koji可互换地应用于接种的谷物、真菌和孢子。）',
+            en: 'Kojiis a term that comes from Japan, where it refers to rice or barley that has been inoculated withAspergillus oryzae, a species of fungus—a sporulating mold, to be exact—that grows on cooked grains in warm and humid environments. (In the English-speaking world, we apply the termkojiinterchange-ably to the inoculated grains, the fungus, and the spores.)'
+          },
+          {
+            zh: '*Aspergillus oryzae, the magic mold.*',
+            en: '*Aspergillus oryzae, the magic mold.*'
+          },
+          {
+            zh: '在适当的条件下，当Aspergillus oryzae的微小孢子落在煮熟的大麦或大米等合适的基质上时，孢子就会萌发菌丝——类似于纤细的白色根的分支真菌细胞。当真菌细胞繁殖时，菌丝会深入谷物，在生长过程中展开卷须，形成一个称为菌丝体的网络。最初，几片白色绒毛在两天内生长，形成一层致密的白色垫子，完全结合并包裹着谷物。由此产生的发霉谷物“蛋糕”是koji。最初的二十四小时后，它开始释放出令人陶醉的香味，带有百香果和杏子的香气。四十八岁之后，koji是甜美的、果味的、充满鲜味的。',
+            en: 'Under the right conditions, when the microscopic spores ofAspergillus oryzaeland on a suitable substrate like cooked barley or rice, the spores will sprout hyphae—branching fungal cells resembling wispy white roots. As the fungal cells multiply, the hyphae dig into the grains, spreading their tendrils as they grow to form a network known as a mycelium. What begins as a few patches of white fuzz grows over the course of two days to form a dense white mat that completely binds and encases the grains. The resulting “cake” of moldy grains is koji. After the first twenty-four hours it begins to release an intoxicating bouquet of smells, redolent of passion fruit and apricots. After forty-eight, the koji is sweet, fruity, and full of umami.'
+          },
+          {
+            zh: '负责koji风味和香气的化学物质是菌丝在生长到谷物中时释放的酶，消化外部底物，并吸收营养物质以促进其新陈代谢。这种真菌产生一系列酶，将淀粉（淀粉酶）、蛋白质（蛋白酶）和脂肪（脂肪酶）分别分解成单糖、氨基酸和脂肪酸的组成部分。 （您可以通过后缀-ase来识别酶；前缀描述了它作用的物质。）',
+            en: 'The chemicals responsible for koji’s flavor and aroma are enzymes released by the hyphae as they grow into the grains, digesting the substrate externally, and absorbing the nutrients in order to fuel its metabolism. The fungus produces a flight of enzymes that break down starches (amylase), proteins (protease), and fats (lipase) into their constituent building blocks of simple sugars, amino acids, and fatty acids, respectively. (You can identify an enzyme by the suffix-ase; the prefix describes the substance it works on.)'
+          },
+          {
+            zh: '一旦你开始探索发酵的世界，你很快就会陷入koji。几乎不可能不遇到它，就像去巴黎却看不到埃菲尔铁塔一样。然而koji在过去五到十年才真正在西式厨房中取得进展。对于Noma的我们来说，2010年的一次日本之行确实让我们大开眼界，看到了koji所呈现的可能性。',
+            en: 'Once you begin poking around the world of fermentation, you’ll stumble into koji very quickly. It’s nearly impossible not to encounter it, like going to Paris and not seeing the Eiffel Tower. Yet koji has only really made headway into Western kitchens in the past five or ten years. As for us at Noma, a trip to Japan in 2010 really opened our eyes to the possibilities that koji presents.'
+          },
+          {
+            zh: '味之素是一家负责生产各种调味品产品（包括世界上大部分味精）的公司，在东京运营着一家名为“鲜味信息中心”的研究机构。他们在那里认真工作，研究鲜味及其用途；虽然我们已经在Copenhagen中涉足了koji，但在中心之旅结束后，我们回到家，专注于进一步推进我们的鲜味工作。我们的测试厨房和发酵实验室花了数周的时间，并不是真正创造菜肴，而是探索从我们地区本土的事物中提取鲜味的方法。很快我们就发现koji将成为我们开启“第五品味”的钥匙。',
+            en: 'Ajinomoto—a company responsible for manufacturing all kinds of seasoning products, including much of the world’s MSG—operates a research facility in Tokyo called the Umami Information Center. They do serious work there, researching umami and its uses; and while we had already been dabbling with koji in Copenhagen, after our trip to the Center we returned home fixated on furthering our umami work. Our test kitchen and fermentation lab spent weeks not really creating dishes, but rather exploring ways of extracting umami from things native to our part of the world. It quickly became obvious that koji was going to be the key to unlocking the “fifth taste” for us.'
+          },
+          {
+            zh: '有很多成分本身就非常适合作为产品。许多其他工具作为烹饪工具效果更好。只有少数人擅长两者兼而有之。例如，鸡蛋本身就很美味，但用途也非常广泛。 Koji也属于这一类。',
+            en: 'There are plenty of ingredients that are excellent at being products unto themselves; many others function better as cooking tools. Only a handful are good at being both. Eggs, for example, can be delicious in their own right, but are also exceedingly versatile. Koji belongs in this category as well.'
+          },
+          {
+            zh: '多亏了koji，我们或多或少地停止了通过经典还原法制作长时间煮熟的肉汤和生产酱汁。在欧洲，关于酱汁的传统观念是，你要把骨头——鱼骨、牛骨、猪骨、龙虾壳——煮上几个小时，然后把汤煮下来，涂上黄油。通过将koji煮成清淡的肉汤，我们可以获得同样丰富、复杂的风味，而无需使用明胶和乳制品的厚重感。 Koji帮助我们找到原材料的精妙之处，突出它们的自然之美，而不至于使其窒息，就像在吱吱作响的门上喷洒适量的润滑剂，而不是涂一层厚厚的油脂。',
+            en: 'Thanks to koji, we’ve more or less stopped making long-cooked meat stocks and producing sauces via classical reductions. The conventional wisdom about sauces in Europe dictates that you boil bones—fish bones, beef bones, pork bones, lobster shells—for hours, then cook down the stock and mount it with butter. By cooking koji into a lighter broth, we can achieve the same rich, complex flavors without the heaviness of all that gelatin and dairy. Koji helps us find the finesse in our raw ingredients and highlight their natural beauty without smothering it, like adding a spray of just the right lubricant to a creaky door rather than a thick layer of grease.'
+          },
+          {
+            zh: '就像巫师的魔杖一样，koji可以改变其他成分，诱出甜味和咸味的表情。在 Noma 中，koji 对于豌豆 miso 和 shoyu 的生产至关重要。此外，虽然对于肉类garum和鱼类发酵物的生产来说不是必需的，但我们已经开始添加它，不仅是为了它的味道，也是为了利用它产生的酶。添加koji可加速发酵，更有效地分解蛋白质和淀粉。使用它的次数越多，它就越成为一把不可或缺的瑞士军刀，在各种意想不到的地方派上用场。',
+            en: 'Like a sorcerer’s wand, koji transforms other ingredients, coaxing out both sweet and savory expressions. At Noma, koji is essential for the production of our pea misos and shoyus. Additionally, while not essential to the production of meat garums and fish ferments, we’ve taken to adding it, not just for its flavor but also to exploit the enzymes it produces. Adding koji speeds up fermentation, breaking down proteins and starches more efficiently. The more you work with it, the more it becomes an indispensable Swiss Army knife, coming in handy in all manner of unexpected places.'
+          },
+          {
+            zh: '*Unripe Macadamia Nuts and Spanner Crab, Noma Australia, 2016*',
+            en: '*Unripe Macadamia Nuts and Spanner Crab, Noma Australia, 2016*'
+          },
+          {
+            zh: '*Slivers of unripe macadamia nuts rest in a chilled, clear broth of Australian spanner crab seasoned heavily with lacto koji water and rose oil.*',
+            en: '*Slivers of unripe macadamia nuts rest in a chilled, clear broth of Australian spanner crab seasoned heavily with lacto koji water and rose oil.*'
+          },
+          {
+            zh: '<!-- text/part0009_split_002.html -->',
+            en: '<!-- text/part0009_split_002.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-the-worlds-most-popular-fermented-flavor',
@@ -2506,7 +5933,67 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 世界上最受欢迎的发酵风味',
+            en: '# The World’s Most Popular Fermented Flavor'
+          },
+          {
+            zh: '*Shoyu makers learned that fermenting soybeans and wheat in brine led to greater yields.*',
+            en: '*Shoyu makers learned that fermenting soybeans and wheat in brine led to greater yields.*'
+          },
+          {
+            zh: '第一个<学期11>很可能是一次愉快的意外。一些中国厨师在发酵一批豆酱时注意到容器顶部有黑色液体聚集。他们尝了尝，毫无疑问被他们的发现所震惊。需要对美味有一种特殊的理解，才能看到整体的一部分并想，嘿，这本身就太棒了！但这正是发生的事情。 Shoyu（大多数西方世界都知道它是酱油）最初是一种副产品，几个世纪以来逐渐发展成为世界上最受欢迎的酱料之一。',
+            en: 'The first shoyu was, in all likelihood, a happy accident. Some Chinese cooks fermenting a batch of bean paste noticed a dark liquid pooling at the top of the container. They tasted it and were no doubt blown away by what they found. It takes a special understanding of deliciousness to look at one part of a whole and think,Hey, this is damn good in its own right!But that’s exactly what happened. Shoyu—or soy sauce, as most of the Western world knows it—began as a by-product and grew over centuries into one of the world’s most popular sauces.'
+          },
+          {
+            zh: '酱油最初被称为“酱油”，中文意思是“豆瓣酱”（酱）上的“油”（酱）。液体径流（实际上主要是水而不是油）的出现有两个原因。首先，酱是腌制的发酵物。盐通过渗透作用从煮熟的豆类中吸收水分，直到整个混合物的盐度达到平衡。我们在几天的时间内在 lacto 发酵中看到了同样的效果，但在像姜或 miso 这样的较浓发酵中，渗透作用的影响需要更长的时间才能变得明显。',
+            en: 'Soy sauce was originally known asjiang you—the Chinese term for the “oil” (you) that pooled on top of “fermented bean paste” (jiang). That liquid runoff (which is actually mostly water and not oil) appears for two reasons. First, jiangs are salted ferments. The salt draws moisture out of the cooked legumes through osmosis until the salinity reaches equilibrium throughout the mixture. We see this same effect occur in lacto-ferments over the course of a couple of days, but it takes more time for the effects of osmosis to become apparent in a thicker ferment like jiang or miso.'
+          },
+          {
+            zh: '第二个起作用的因素是酶的作用。大豆含有淀粉，煮熟后会吸收并保留水分。一旦豆类与koji（即接种了霉菌Aspergillus oryzae的谷物）混合，霉菌产生的淀粉酶就会分解淀粉。当淀粉分解成糖时，它们会失去与水形成胶凝的能力，并且混合物的粘性会降低。而且，由于传统上姜会被压重以防止空气进入，因此通过渗透和酶作用释放出的液体不可避免地会聚集并收集在顶部。',
+            en: 'The second factor at play is enzymatic action. Soybeans contain starches that soak up and retain water when cooked. Once the legumes are mixed with koji—that is, grains inoculated with the moldAspergillus oryzae—the enzyme amylase produced by the mold works to cleave apart the starch. As starches break down into sugars, they lose their ability to gel with water, and the mixture becomes less viscous. And because jiangs were traditionally weighted down to keep air out, the liquid freed through osmosis and enzymatic action inevitably pooled and collected on top.'
+          },
+          {
+            zh: '与酱油有关的术语可能有点模糊，所以在继续之前让我们先澄清一下。当中国僧侣在六世纪将姜带到日本时，姜演变成了miso，而聚集在miso顶部的液体被称为astamari。我们将继续以这种方式引用它。',
+            en: 'The terminology surrounding soy sauce can be a bit murky, so let’s clarify a bit before we proceed any further. When Chinese monks brought jiangs to Japan in the sixth century, jiangs evolved into misos, and the liquid that pooled on top of miso became known astamari. We’ll continue to refer to it that way.'
+          },
+          {
+            zh: '一旦有关酱油的消息传出，需求量猛增，日本工匠就想出了更多生产方法，而无需首先制作miso。我们将该产品称为shoyu，即“jian you”的日语发音。 （中文和日文有很多相同的书面文字，但发音却截然不同。）',
+            en: 'Once word got out about tamari and demand skyrocketed, Japanese artisans devised ways of producing it in greater quantities that didn’t involve first making miso. We refer to that product asshoyu, the Japanese pronunciation of the wordsjiang you. (Chinese and Japanese share many written words, but sound very different.)'
+          },
+          {
+            zh: '英国哲学家约翰·洛克在1679年的一篇日记中首次提到“saio”。不久之后，德国科学家和旅行家Engelbert Kaempfer在他的《日本史》中写下了shoyu，宣称日本的“sooja”比任何类似风格的中国酱料都美味。这些西方对单词shoyu的乱码是最早记录的一些后来成为单词soya的实例。有趣的是，在许多语言中，“大豆”这个词实际上来自于“shoyu”的这些错误发音。后来的出版物将制成“酱油”的豆子称为“大豆”。',
+            en: 'The English philosopher John Locke first mentioned “saio” in a journal entry in 1679. Soon after, the German scientist and traveler Engelbert Kaempfer wrote of shoyu in hisHistory of Japan, declaring Japanese “sooja” more delicious than any Chinese sauce of similar style. These Western garblings of the wordshoyuwere some of the first recorded instances of what would become the wordsoya. In a funny etymological twist, in many languages, the word for “soybeans” actually comes from these mispronunciations of “shoyu.” Later publications would refer to the bean from which “soya sauce” is made as “soybeans.”'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '<学期6>和<学期10>：<学期12>的祖先',
+              en: 'Koji and Miso: Shoyu’s Forebears'
+            },
+            answer: [
+              {
+                zh: '*Many of the technical aspects of producing shoyu flow directly from, or are closely linked to, those of koji and miso production. If you’re flipping through the book, this chapter will give you a thorough understanding of what shoyu is and how it’s made, but we strongly encourage you to read the preceding chapters to better understand this one.*',
+                en: '*Many of the technical aspects of producing shoyu flow directly from, or are closely linked to, those of koji and miso production. If you’re flipping through the book, this chapter will give you a thorough understanding of what shoyu is and how it’s made, but we strongly encourage you to read the preceding chapters to better understand this one.*'
+              },
+              {
+                zh: '<!-- text/part0011_split_002.html -->',
+                en: '<!-- text/part0011_split_002.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-turning-sweet-to-sour',
@@ -2520,7 +6007,76 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 变甜变酸',
+            en: '# Turning Sweet to Sour'
+          },
+          {
+            zh: 'Noma的菜单上没有一道菜，从第一口到最后一口，不涉及乳酸发酵（又名lacto-发酵）的某些元素。它的用处实际上是无限的。',
+            en: 'There’s not a dish on the menu at Noma, from the very first mouthful to the last, that doesn’t involve some element of lactic acid fermentation (aka lacto-fermentation). Its usefulness is practically limitless.'
+          },
+          {
+            zh: 'Lacto-发酵产品为接触到的所有东西带来果香、酸度和鲜味。例如，lacto-发酵牛肝菌（牛肝菌）会产生一种非常有效的液体，我们用它来调味新鲜的海胆。只需在海胆的每个舌头上滴一两滴，就会让您的头发竖起来 - 它以令人难以置信的方式增强并集中海胆的味道。这就像给海胆拍一张照片，然后将饱和度和对比度调高。至于真正的蘑菇，我们将其浸泡在糖浆中，干燥，然后浸入巧克力中，制成糖果，在餐后搭配咖啡。',
+            en: 'Lacto-fermented products bring fruitiness, acidity, and umami to everything they touch. For instance, lacto-fermenting cep mushrooms (porcinis) yields an incredibly potent liquid that we use to season fresh sea urchins. Just a drop or two over each tongue of sea urchin will make your hair stand up—it invigorates and focuses the flavor of the urchin in an unbelievable way. It’s like taking a picture of an urchin and cranking the saturation and contrast way up. As for the actual mushroom, we soak that in syrup, dry it, and dip it in chocolate to make a candy that accompanies coffee at the end of the meal.'
+          },
+          {
+            zh: '值得庆幸的是，lacto-发酵也非常简单。过程很简单：称量原料，添加按重量计 2% 的盐，然后等待。天数取决于您想要最终产品的酸度。',
+            en: 'Thankfully, lacto-fermentations are also incredibly straightforward to make. The process is simple: Weigh your ingredient, add 2% salt by weight, and wait. How many days depends on how sour you want the final product to be.'
+          },
+          {
+            zh: '这一切都是通过乳酸菌或Lacto芽孢杆菌（我们从现在开始将它们称为LAB）的辛勤工作而成为可能的。 LAB 将糖转化为乳酸，它们是酸泡菜和泡菜、黑麦面包和酸面团、酸奶和酸啤酒背后的秘密。他们还（在较小程度上）参与葡萄酒、奶酪和miso的酿造，为这些和许多其他标志性发酵食品的风味的细微差别和复杂性做出了贡献。',
+            en: 'It’s all made possible by the hard work of lactic acid bacteria, orLactobacillales(we’ll refer to them from here on out as LAB). LAB transform sugar into lactic acid, and they’re the secret behind sour pickles and sauerkraut, rye breads and sourdoughs, yogurt, and sour beer. They’re also involved (to a lesser extent) in making wine, cheese, and miso, contributing to the nuance and complexity of flavor that characterize these and many other iconic fermented foods.'
+          },
+          {
+            zh: '*It’s a microbe’s world. We’re just living in it.*',
+            en: '*It’s a microbe’s world. We’re just living in it.*'
+          },
+          {
+            zh: '一般来说，LAB是耐酸、耐盐、棒状和球形的细菌。它们是厌氧的，这意味着它们可以在没有氧气的情况下茂盛生长。 LAB消耗碳水化合物，主要以糖的形式，并产生乳酸作为代谢物（其代谢的副产品）。在不深入化学的情况下，该过程涉及细菌使用酶分解葡萄糖 (C6H12O6)，以利用其化学势能，从而将每个葡萄糖分子转化为两个乳酸分子 (C3H6O3)。',
+            en: 'Generally speaking, LAB are acid- and salt-tolerant, rod- and sphere-shaped bacteria. They’re anaerobic, meaning they can flourish in the absence of oxygen. LAB consume carbohydrates, mostly in the form of sugars, and produce lactic acid as a metabolite (a by-product of their metabolism). Without getting neck-deep in the chemistry, the process involves the bacteria using enzymes to break down glucose (C6H12O6) in order to harness its chemical potential energy, and thus converting each molecule of glucose into two molecules of lactic acid (C3H6O3).'
+          },
+          {
+            zh: '*Different strains of lactic acid bacteria produce different flavors.*',
+            en: '*Different strains of lactic acid bacteria produce different flavors.*'
+          },
+          {
+            zh: '仅专门将糖转化为乳酸的 LAB 物种被归类为同型发酵，而其他物种则属于异型发酵，这意味着它们的代谢物不仅可以包括乳酸，还可以包括其他分子，例如酒精、二氧化碳或乙酸。 LAB 的某些品种能够将蛋白质分解为氨基酸，从而赋予切达干酪和帕尔马干酪等奶酪难以形容的美味。',
+            en: 'Species of LAB that specialize solely in converting sugar into lactic acid are classified as being homofermentative, while others are heterofermentative, meaning their metabolites can include not only lactic acid but also other molecules such as alcohol, carbon dioxide, or acetic acid. Some species of LAB are able to break down proteins into amino acids, giving cheeses like cheddar and Parmigiano their unspeakable deliciousness.'
+          },
+          {
+            zh: '和人类一样，LAB也是勤劳的生物，已经成功占领了世界各地的环境。它们存在于哺乳动物的乳汁中，这意味着从你生命的第一刻起，你就与这些细菌有着棘手的关系。对我们来说幸运的是，LAB 几乎存在于您想要发酵的任何蔬菜或水果的皮和叶上，耐心等待有利于它们需求的条件。',
+            en: 'Like humans, LAB are industrious creatures that have managed to occupy environments the world over. They’re present in the milk of mammals, meaning you’ve been involved in an intractable relationship with these bacteria since the first moments of your life. And fortunately for us, LAB are present on the skins and leaves of just about any vegetable or fruit you would ever want to ferment, patiently waiting for conditions to favor their needs.'
+          },
+          {
+            zh: '在Noma，我们对几乎所有lacto发酵产品进行“野生发酵”，让食物上已经存在的正常细菌群启动发酵过程。在任何特定的野生发酵中，都会有多种细菌菌株争夺位置，在不同的时间开花和衰落，每种细菌都为味道的合唱增添了自己独特的声音。正是不同LAB之间这种复杂的相互作用使得野生发酵物变得如此美味。',
+            en: 'At Noma, we practice “wild fermentation” for nearly all our lacto-fermented products, allowing the normal populations of bacteria already living on our food to kick-start the fermentation process. In any given wild ferment, there will be multiple strains of bacteria vying for position, blooming and fading at different times, each adding its unique voice to the chorus of flavors. It’s the intricacy of this interaction between different LAB that makes wild ferments so delicious.'
+          },
+          {
+            zh: '*Bacteria can actually communicate with one another in a language of chemical gradients.*',
+            en: '*Bacteria can actually communicate with one another in a language of chemical gradients.*'
+          },
+          {
+            zh: 'Noma 的一位老朋友帕特里克·约翰森（又名黄油维京人）曾经将他制作的野生养殖黄油样本送到食品实验室进行分析，结果发现其中共存了 12 种不同的 LAB 物种。商业运作通常试图通过操纵发酵温度等因素来近似野生发酵的复杂性，调整条件以适应产生特定风味的不同细菌。 LAB 的行为有所不同，不仅取决于温度，还取决于营养物质的可用性、人口密度以及邻居是谁。化学线索允许微生物之间进行交流，从而告知从生长模式到繁殖率的一切。',
+            en: 'One of Noma’s longtime friends, Patrick Johannson (aka the Butter Viking), once sent a sample of the wild cultured butter he’d made to a food lab for analysis, and found twelve distinct species of LAB cohabiting within it. Commercial operations often try to approximate the intricacy of wild ferments by manipulating factors like the temperature of a ferment over time, tweaking the conditions to suit different bacteria that produce specific flavors. LAB behave differently depending not only on temperature, but also the availability of nutrients, population density, and who their neighbors are. Chemical cues allow for communication between microbes that informs everything from their growth patterns to their rate of reproduction.'
+          },
+          {
+            zh: '*Aided by nothing more than salt, LAB can perform incredible transformations.*',
+            en: '*Aided by nothing more than salt, LAB can perform incredible transformations.*'
+          },
+          {
+            zh: '<!-- text/part0006_split_002.html -->',
+            en: '<!-- text/part0006_split_002.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-units-and-latency-basics',
@@ -2532,6 +6088,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 估算前的基本单位和延迟直觉'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -2652,7 +6217,56 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 醋几乎可以改善一切',
+            en: '# Vinegar Improves Practically Anything'
+          },
+          {
+            zh: '在整个欧洲，甚至可能是整个西方世界，加一点醋是为您正在烹饪的食物注入一点新鲜感的流行方法。下次当你吃商店买的橙子果酱时，加一点醋和一小撮盐，让它立刻变得更有活力。如果您自己制作冰淇淋（取决于您制作的冰淇淋类型），一点果醋会给它带来意想不到的优势。很少有煮熟的蔬菜或水果不加一点醋就能改善味道。',
+            en: 'Throughout Europe and probably the entire Western world, adding a splash of vinegar is the prevailing method of injecting a bit of freshness into whatever you’re cooking. The next time you have some store-bought orange marmalade, add a little vinegar and a pinch of salt to make it instantly more vibrant. If you’re making your own ice cream—depending on the type you’re making—a little fruity vinegar will give it an unexpected edge. And very few cooked vegetables or fruits aren’t improved with a hit of vinegar.'
+          },
+          {
+            zh: '当Noma第一次打开时，醋或多或少是我们唯一可以依靠的为食物添加酸度的工具。我们将甜菜和苹果之类的东西配对，发现它们需要一个桥梁——果味和酸度的东西来连接两种主要成分的泥土味和甜味。陈年苹果醋通常可以胜任这项任务。',
+            en: 'When Noma first opened, vinegar was more or less the only tool we could depend on to instill our food with acidity. We’d pair the likes of, say, beets and apples, and find that they needed a bridge—something fruity, with acidity to link the earthiness and sweetness of the two main ingredients. Aged apple vinegars were often up to the task.'
+          },
+          {
+            zh: '在我们真正找到lacto发酵方法之前，我们在Noma进行的大部分腌制都是用醋。在斯堪的纳维亚半岛，醋泡菜随处可见，可能是因为它们的制作非常简单：将一份水、一份醋、少许盐和糖混合；添加水果或蔬菜；让他们坐下。现在，醋腌在Noma中的作用已经不大，但我们仍然会用芽、蘑菇和时令花卉等食材做一点醋腌。接骨木花、玫瑰花瓣、马蹄莲、洋甘菊或蒲公英花等强效花朵会在苹果醋中放在冰箱中至少几周成熟，然后腌制的花朵就会出现在从烤骨髓到甜点的各种菜肴中。作为一个令人高兴的副作用，醋呈现出花朵的颜色和香味，并且可以在泡菜本身消失很久之后用来给甜味和咸味菜肴带来酸味。同样的方法也适用于新鲜水果，效果也很好。您在杂货店找到的许多果醋都是通过将水果浸泡在中性风味的醋中而制成的。',
+            en: 'Before we really found our way with lacto-fermentation, most of the pickling we did at Noma was with vinegar. Here in Scandinavia, vinegar pickles are everywhere, likely because they’re so simple to make: Combine one part water, one part vinegar, and a little salt and sugar; add your fruits or vegetables; and let them sit. Vinegar-pickling plays less of a role at Noma now, but we still do a little bit of it with ingredients like shoots, mushrooms, and seasonal flowers. Potent blooms like elderflower, rose petals, colt’s foot, chamomile, or dandelion flowers are left to mature in apple vinegar for at least a few weeks in the fridge, before the pickled flowers find their way into all sorts of dishes, from roasted bone marrow to desserts. As a happy side effect, the vinegar takes on the flowers’ hue and fragrance and can be used to bring tartness to both sweet and savory dishes, long after the pickles themselves are gone. The same method can be applied to nice effect with fresh fruits. Many of the fruit vinegars you find at grocery stores are produced by soaking fruit in neutral-flavored vinegars.'
+          },
+          {
+            zh: '*Berries and Greens Soaked in Vinegar for One Year, Noma, 2016*',
+            en: '*Berries and Greens Soaked in Vinegar for One Year, Noma, 2016*'
+          },
+          {
+            zh: '*This palate-cleansing course includes lacto-fermented red gooseberries and wild cherries served with chanterelles marinated in pumpkin vinegar, wild rose petals in rosehip vinegar, elderflower and colt’s foot in apple vinegar, and black currant shoots in spruce vinegar.*',
+            en: '*This palate-cleansing course includes lacto-fermented red gooseberries and wild cherries served with chanterelles marinated in pumpkin vinegar, wild rose petals in rosehip vinegar, elderflower and colt’s foot in apple vinegar, and black currant shoots in spruce vinegar.*'
+          },
+          {
+            zh: '平衡的酸度对于 Noma 的膳食至关重要，这就是为什么我们总是发现醋是一种如此强大的成分。醋这个词来自拉丁文 acer，字面意思是“酸酒”。当然，这只是醋的表面性质。有些陈醋，例如香醋，具有质感和甜味。有些醋的酸度非常强，可以分解任何东西。另一方面，有些醋的酸度非常低（只有 1% 或 2%），您可以直接从瓶子里饮用，或者单独用作酱汁。我们在夏天用剩下的茴香顶部制作醋，这是后者的完美例子。较低的酸度让原始风味得以凸显，在不减损茴香的情况下带来额外的亮度。',
+            en: 'Balanced acidity is crucial to a meal at Noma, which is why we’ve always found vinegar to be such a powerful ingredient. The wordvinegarcomes from the Latinvinum acer—literally “sour wine.” But of course, that only scratches the surface of what vinegars can be. There are aged vinegars, such as balsamic, that have texture and sweetness. There are very strong vinegars that cut through anything with their acidity. On the other side of the spectrum, there are vinegars with very little acidity (only 1% or 2%) that you can drink straight from the bottle, or use as sauces in their own right. We make a vinegar from leftover fennel tops in the summer that’s a perfect example of the latter. The lower acidity lets the original flavor shine through, bringing an additional layer of brightness without detracting from the fennel.'
+          },
+          {
+            zh: '在设备齐全的超市里，您会发现数十种醋，因此即使您不选择自己制作醋，也没有理由不能开始尝试我们在本章中建议的不同应用。但如果您准备好进一步深入兔子洞，请继续阅读。',
+            en: 'You’ll find dozens of varieties of vinegar in a well-equipped supermarket, so even if you don’t choose to make your own vinegar, there’s no reason you can’t begin experimenting with the different applications we suggest in this chapter. But if you’re ready to go further down the rabbit hole, read on.'
+          },
+          {
+            zh: '*Acetic acid bacteria are rod-shaped, aerobic bacteria. While they may not be able to turn water into wine, they can turn wine into spectacular vinegars.*',
+            en: '*Acetic acid bacteria are rod-shaped, aerobic bacteria. While they may not be able to turn water into wine, they can turn wine into spectacular vinegars.*'
+          },
+          {
+            zh: '<!-- text/part0008_split_002.html -->',
+            en: '<!-- text/part0008_split_002.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-whatisfermentation',
@@ -2666,7 +6280,48 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 什么是发酵？',
+            en: '# WhatIsFermentation?'
+          },
+          {
+            zh: '在我们深入了解发酵的实际细节之前，让我们首先明确定义它是什么。',
+            en: 'Before we dive into the practical ins and outs of fermentation, let’s first clearly define what it is.'
+          },
+          {
+            zh: '在最基本的层面上，发酵是微生物（无论是细菌、酵母还是霉菌）对食物的转化。更具体地说，它是通过这些微生物产生的酶来转化食物。最后，按照最严格的科学定义，发酵是微生物在没有氧气的情况下将糖转化为另一种物质的过程。',
+            en: 'At the most basic level, fermentation is the transformation of food by microorganisms—whether bacteria, yeasts, or mold. To be slightly more specific, it is the transformation of food through enzymes produced by those microorganisms. And finally, in the strictest scientific definition, fermentation is the process by which a microorganism converts sugar into another substance in the absence of oxygen.'
+          },
+          {
+            zh: '“发酵”一词源自拉丁语“fervere”，意思是“煮沸”。古罗马人在看到大桶的葡萄自发冒泡并转化为葡萄酒后，用他们能想到的最接近的类比描述了这个过程。虽然那些冒泡的葡萄桶与煮沸无关，但从科学意义上来说，它们是真正的发酵物，因为酵母产生的酶将葡萄中的糖转化为酒精。',
+            en: 'The wordfermentationcomes from the Latin wordfervere, meaning “to boil.” The ancient Romans, upon seeing vats of grapes spontaneously bubble and transform into wine, described the process using the closest analogue they could think of. And while those bubbling vats of grapes had nothing to do with boiling, theyweretrue ferments in the scientific sense, as yeast-produced enzymes transformed the sugars in the grapes into alcohol.'
+          },
+          {
+            zh: '然而，并非所有我们认为是发酵的过程都完全符合它的简洁定义。例如，虽然 koji 忠实于定义，但 Noma 的 garum 却不然。在koji中，霉菌Aspergillus oryzae穿透大米或大麦的谷物并产生酶，将谷物的淀粉转化为单糖和其他代谢物。这就是所谓的初级发酵过程。另一方面，本书中的garum是二次发酵过程的产物。为了生产garum，我们将koji与动物蛋白混合，以利用初级发酵过程中产生的酶。',
+            en: 'However, not all the processes we consider to be fermentation fit neatly into tidy definitions of it. For instance, while koji is faithful to the definition, Noma’s garums are not. In koji, the moldAspergillus oryzaepenetrates grains of rice or barley and produces enzymes that convert the grain’s starches into simple sugars and other metabolites. This is what’s known as aprimaryfermentation process. The garums in this book, on the other hand, are the product of asecondaryfermentation process. To produce garum, we mix koji with animal proteins in order to take advantage of the enzymes produced during the primary fermentation process.'
+          },
+          {
+            zh: '在本书中，我们不区分初级发酵过程和次级发酵过程，但是当您找到发酵方法时，您可能会发现掌握这些定义很有帮助。',
+            en: 'We don’t differentiate between primary and secondary fermentation processes in this book, but you may find it helpful to have these definitions under your belt as you find your way with fermentation.'
+          },
+          {
+            zh: '*You taste as much with your brain as you do with your tongue.*',
+            en: '*You taste as much with your brain as you do with your tongue.*'
+          },
+          {
+            zh: '<!-- text/part0005_split_002.html -->',
+            en: '<!-- text/part0005_split_002.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '01-youtube-scope-cost',
@@ -2678,6 +6333,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# YouTube 需求边界与成本估算'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -2799,7 +6463,64 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 关于本书',
+            en: '# About This Book'
+          },
+          {
+            zh: '发酵产品有数千种，从啤酒、葡萄酒到奶酪、泡菜到酱油。当然，它们都是截然不同的创作，但它们通过相同的基本过程统一起来。微生物——细菌、霉菌、酵母或其组合——分解或转化食物中的分子，从而产生新的风味。以lacto发酵泡菜为例，其中细菌消耗糖并产生乳酸，使蔬菜及其所在的盐水变酸，同时保存它们并使它们变得更加美味。级联的次级反应带来了原始未发酵产品中不存在的风味和香气层次。最好的发酵物仍然保留了其大部分原始特征，无论是胡萝卜醋中残留的甜味还是玫瑰kombucha中野玫瑰的花香，同时转化为全新的东西。',
+            en: 'There are thousands of products of fermentation, from beer and wine to cheese to kimchi to soy sauce. They’re all dramatically different creations, of course, but they’re unified by the same basic process. Microbes—bacteria, molds, yeasts, or a combination thereof—break down or convert the molecules in food, producing new flavors as a result. Take lacto-fermented pickles, for instance, where bacteria consume sugar and generate lactic acid, souring the vegetables and the brine in which they sit, simultaneously preserving them and rendering them more delicious. Cascades of secondary reactions contribute layers of flavors and aromas that didn’t exist in the original, unfermented product. The best ferments still retain much of their original character, whether that’s a touch of residual sweetness in a carrot vinegar or the floral perfume of wild roses in a rose kombucha, while simultaneously being transformed into something entirely new.'
+          },
+          {
+            zh: '这本书是对我们在 Noma 使用的发酵的全面介绍，但它绝不是您可以采取发酵的所有不同方向的百科全书式指南。仅限于我们厨房中不可或缺的七种发酵：乳酸发酵、kombucha、醋、koji、miso、shoyu和garum。它还涵盖“黑色”水果和蔬菜，从技术上讲，它们不是发酵产品，但在我们厨房的制作和使用方式方面有很多共同点。',
+            en: 'This book is a comprehensive tour of the ferments we employ at Noma, but it is by no means an encyclopedic guide to all the various directions you can take fermentation. It is limited to seven types of fermentation that have become indispensable to our kitchen: lactic acid fermentation, kombucha, vinegar, koji, miso, shoyu, and garum. It also covers “black” fruits and vegetables, which aren’t technically products of fermentation but share a lot in common as far as how they’re made and used in our kitchen.'
+          },
+          {
+            zh: '值得注意的是，本书中没有对酒精发酵和熟食、乳制品和面包的研究。 （面包可以——而且值得——单独讨论。）当我们涉足糖发酵成酒精的过程时，它几乎总是在转化为其他东西的过程中，比如醋。我们一直与令人难以置信的酿酒师和酿酒师密切合作，不能假装自己是他们领域的大师。熟食在我们的菜单中尚未发挥重要作用，尽管在未来几年中，我们打算在每年秋天庆祝野味季节时更深入地研究发酵肉类。虽然我们在餐厅制作奶酪，但通常都是新鲜且未发酵的奶酪（尽管我们对酸奶和法式酸奶油并不陌生）。每当我们用手工陈酿奶酪烹饪时，我们都会将其生产交给斯堪的纳维亚半岛出色的奶农。',
+            en: 'Notably absent from this book are investigations of alcoholic fermentation and charcuterie, dairy, and bread. (Bread could take up—and deserves—its own separate discussion.) While we dabble with the fermentation of sugar into alcohol, it is almost always en route to something else, like vinegar. We’ve always worked closely with incredible winemakers and brewers and cannot pretend to be masters of their domain. Charcuterie is something that has not yet played a large role in our menus, though over the coming years we intend to dive deeper into fermenting meats as we celebrate the game season each fall. While we do make cheese at the restaurant, it’s often served fresh and unfermented (though we’re no strangers to yogurt and crème fraîche). Whenever we have cooked with artisanal aged cheeses, we’ve left their production in the hands of Scandinavia’s amazing dairy farmers.'
+          },
+          {
+            zh: '每一章都讨论一个骚动，提供一些历史背景和对起作用的科学机制的探索。不同发酵背后的许多想法和微生物参与者都是相互关联的，因此您会在本书的过程中看到一些概念的重新审视和发展。例如，为了制作shoyu、miso和garum，您首先需要了解如何制作koji，这是一种在煮熟的谷物上生长的美味霉菌，并利用其强大的酶。话虽这么说，你应该随意投入到你的兴趣所在的任何地方。无需阅读本书的其余部分，您仍然可以全面了解每种发酵。',
+            en: 'Each chapter tackles one ferment, providing some historical context and an exploration of the scientific mechanisms at work. Many of the ideas and microbial players behind different ferments are interconnected, so you’ll see some concepts revisited and developed over the course of the book. For example, in order to make shoyu, miso, and garum, you’ll first need to understand how to make koji, a delicious mold grown on cooked grains and harnessed for its powerful enzymes. That being said, you should feel free to dive in wherever your interests lead you. You’ll still get a thorough understanding of each ferment without reading the rest of the book.'
+          },
+          {
+            zh: '每一章都包含一个深入的基础配方，我们将想法付诸实践，并引导您完成制作每种发酵风格的代表性示例的步骤。在大多数情况下，没有单一的“正确”方法，因此在编写食谱时考虑了多种方法和可能的陷阱。我们会介绍相当多的细节——在某些情况下可能比您需要的更多——但我们希望您在制作这些发酵物时感到像我们自己的厨师第一次制作发酵物时一样自在。 Even though it may require a little patience and commitment, you can and absolutely should produce your own shoyus and misos and garums.一旦你尝到了努力的回报，就很难想象没有它们的烹饪。另外，第二次一切都会变得更容易。',
+            en: 'Included with each chapter is an in-depth base recipe, where we put ideas to work and walk you through the steps of making a representative example of each style of ferment. In most cases, there’s no single “right” way, so the recipes are written with multiple methods and possible pitfalls in mind. We go into quite a bit of detail—more than you may need in some instances—but we want you to feel as comfortable making these ferments as one of our own chefs would be if tasked with making one for the first time. Even though it may require a little patience and commitment, you can and absolutely should produce your own shoyus and misos and garums. Once you taste the rewards of your effort, it’s hard to imagine cooking without them. Plus, it all gets easier the second time around.'
+          },
+          {
+            zh: '在您深入阅读发酵的基本配方后，您可能已经准备好将相同的过程应用于其他成分，但为了给您一些灵感，每一章还包含几种变化，这可能会阐明同一技术的其他方面。在某些情况下，这些变化在方法上与基本配方有所不同，但请放心，我们将详细说明这些变化并解释我们进行这些变化的原因。',
+            en: 'After you’ve read the in-depth base recipe for a ferment, you may feel ready to apply the same process to other ingredients, but to give you some inspiration, each chapter also contains several variations, which may illuminate other facets of the same technique. In some cases, these variations diverge in method from the base recipe, but rest assured, we’ll detail these changes and explain why we’re making them.'
+          },
+          {
+            zh: '最后，按照每个食谱，您将看到发酵在日常烹饪中的一些实际应用，其中许多应用的灵感来自于我们在 Noma 中所做的准备工作。将它们想象成来自Noma的厨师使用书中的发酵物在家中做晚餐的东西。我们以一种更非正式的方式写了这些简短的食谱，受到博物学家尤尔吉本斯的启发，他写了关于觅食的精彩文章——我们的另一个关注点。吉本斯在他的《追踪野生芦笋》一书中详细介绍了如何识别和收获野生植物，然后以流畅的对话形式提供食谱——建议而不是规定如何处理你在户外可以找到的令人难以置信的成分。这与我们在这里尝试采用的方法相同。当谈到如何使用本书中的发酵时，我们不会详细介绍步骤，因为细节并不像可能性那么重要。即使您不想自己制作发酵物，您仍然会发现商店购买的发酵物的各种新用途。',
+            en: 'Finally, following each recipe, you’ll see a few practical applications for the ferment in your day-to-day cooking—many of which are inspired by preparations we make at Noma. Think of them as things that a cook from Noma would make for dinner at home using the ferments in the book. We’ve written these short recipes in a more informal manner, taking a cue from the naturalist Euell Gibbons, who wrote beautifully about foraging—another preoccupation of ours. In his bookStalking the Wild Asparagus, Gibbons details how to identify and harvest wild plants, and then provides recipes in a fluid, conversational format—suggesting rather than prescribing what to do with the incredible ingredients you can find outdoors. It’s the same approach we’re trying to take here. We don’t go into step-by-step detail when it comes to how you can employ the ferments in this book, because the specifics aren’t nearly as important as the possibilities. Even if you don’t feel up to making your own ferments, you’ll still find all manner of new uses for store-bought versions.'
+          },
+          {
+            zh: '*Roasted Bone Marrow, Noma, 2015*',
+            en: '*Roasted Bone Marrow, Noma, 2015*'
+          },
+          {
+            zh: '*The bone marrow is marinated in beef garum and elderberry vinegar, then roasted over coals. It’s served with cabbage leaves dressed with an emulsion of caramelized beef garum pulp and a sauce of white currant juice seasoned with lacto cep water.*',
+            en: '*The bone marrow is marinated in beef garum and elderberry vinegar, then roasted over coals. It’s served with cabbage leaves dressed with an emulsion of caramelized beef garum pulp and a sauce of white currant juice seasoned with lacto cep water.*'
+          },
+          {
+            zh: '这本书旨在为模糊的烹饪领域带来一些清晰度，充满了令人困惑和陌生的术语。在过去的十年里，我们一直在研究和揭开发酵的谜团，我们将尽力与您分享我们所学到的知识。但更重要的是，我们希望您在读完这本书后，能像我们每次制作和使用一种神奇的发酵产品时一样感到兴奋和惊奇。',
+            en: 'This is a book meant to bring some clarity to a hazy realm of cooking, full of confusing and unfamiliar terminology. We’ve spent the past decade investigating and unraveling fermentation for ourselves, and we’ll try to share what we’ve learned with you. But more important, we want you to come away from this book with the same feeling of exhilaration and wonderment that we have whenever we make and use one of the miraculous products of fermentation.'
+          },
+          {
+            zh: '*Chilled Oysters and Salted Green Gooseberries, Noma, 2010*',
+            en: '*Chilled Oysters and Salted Green Gooseberries, Noma, 2010*'
+          },
+          {
+            zh: '*A lightly poached Danish oyster is dressed with slivers of lacto-fermented green gooseberries and their juice.*',
+            en: '*A lightly poached Danish oyster is dressed with slivers of lacto-fermented green gooseberries and their juice.*'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '02-architecture-storage-model',
@@ -2811,6 +6532,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 聊天系统架构与存储模型'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -2928,6 +6658,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 用几个 9 衡量可用性'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -3048,7 +6787,48 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 超越黄瓜',
+            en: '# Beyond the Cucumber'
+          },
+          {
+            zh: '西方世界最常见的lacto发酵蔬菜是标准的酸黄瓜泡菜，它是在盐水中发酵的lacto。在Noma，我们寻找更远的地方来寻找lacto发酵的蔬菜，但我们始终牢记使基本莳萝泡菜吃起来如此愉快的特征。我们寻找的是（1）生时美味和（2）多汁但不糊状的东西。后一个特征很重要，因为泡菜的吸引力很大程度上在于它的嘎吱声。 （正如任何斯堪的纳维亚人都会告诉你的那样，腌制的鱼片配上腌制的蔬菜是生活中最好的质地伙伴之一。）我们在用白芦笋、小南瓜、甜菜和卷心菜茎制作lacto发酵泡菜方面取得了惊人的成功。豆瓣菜和拉姆森等绿叶蔬菜都是如此。 。 。回报较少。',
+            en: 'The most common lacto-fermented vegetable in the Western world is the standard-issue sour cucumber pickle, which is lacto-fermented in brine. At Noma we look further afield for vegetables to lacto-ferment, but we always keep in mind the characteristics that make a basic dill pickle so enjoyable to eat. We look for things that are (1) tasty when raw and (2) juicy but not mushy. The latter trait is important because so much of a pickle’s appeal is its crunch. (As any Scandinavian will tell you, slices of cured fish garnished with bits of pickled vegetables are one of life’s great textural partnerships.) We’ve had amazing success making lacto-fermented pickles from white asparagus, small pumpkins, beets, and cabbage stems. Leafy greens like watercress and ramsons have been . . . less rewarding.'
+          },
+          {
+            zh: '当然，泡菜只是你可以选择的一个方向。一旦您了解任何含糖的物质都可以<术语15>发酵，您就会打开一个充满潜力的世界。这是一个荒谬的基本认识，但一旦你想到这一点，你就无法停止思考，我还能给予lacto治疗吗？',
+            en: 'Of course, vegetable pickles are only one direction in which you can go. Once you understand that anything with sugar can be lacto-fermented, it opens up a world of potential. It’s an absurdly basic realization, but once it occurs to you, you can’t stop thinking,What else can I give the lacto treatment?'
+          },
+          {
+            zh: '每年九月，在浆果季节结束时，我们都会在餐厅lacto发酵蓝莓、覆盆子、桑葚、黑莓、白醋栗以及几乎所有其他我们能拿到的软质水果。尽管它缺乏发酵根类蔬菜的嘎吱声，但最终的果泥状糊状物本身就是一种奖品——既甜又咸，带有多层酸味。',
+            en: 'Every September at the restaurant, at the end of the berry season, we lacto-ferment blueberries, raspberries, mulberries, blackberries, white currants, and pretty much any other soft fruit we can get our hands on. Even though it lacks the crunch of a fermented root vegetable, the finished puree-like mash is a prize in itself—both sweet and savory, with multiple layers of sourness.'
+          },
+          {
+            zh: '*Lacto-fermented berries are powerhouses of flavor.*',
+            en: '*Lacto-fermented berries are powerhouses of flavor.*'
+          },
+          {
+            zh: '当LAB发酵糖时，产生的乳酸与水果中已有的酸混合。柠檬酸——最常见于柑橘类水果，但也存在于许多其他水果和浆果中——可能非常酸，几乎会产生灼烧感。苹果酸存在于葡萄和苹果中（想想澳洲青苹果的酸味），它的口感更加圆润，令人垂涎欲滴。抗坏血酸是尖锐而直接的，存在于从香蕉到番石榴的各种热带水果中。不同酸的相互作用是发酵水果最有趣、最美丽的方面之一。',
+            en: 'As LAB ferment sugar, the resultant lactic acid mingles with the acids already present in the fruit. Citric acid—most commonly associated with citrus fruits but also found in many other fruits and berries—can be quite tart and almost give off a burning sensation. Malic acid, found in grapes and apples (think of the tartness of a Granny Smith), is much rounder and mouthwatering. Ascorbic acid is sharp and direct, and can be found in all kinds of tropical fruits, from bananas to guava. The interplay of different acids is one of the most interesting and beautiful facets of fermented fruits.'
+          },
+          {
+            zh: '由于浆果在lacto发酵时通常会失去形状和质地，因此我们经常使用榨汁机来收获果汁。发酵浆果汁令人难以置信——它具有浓郁的泡腾感、咸味、甜味和酸味。将发酵的覆盆子汁与辛辣的橄榄油混合，加入一些碎花香料（可能是长花椒或粉花椒），然后将所得油醋汁浇在熟透的牛排番茄厚片上。撒上海盐、糖和几片撕碎的马郁兰叶，这就是夏末的完美蒸馏酒。并且不要扔掉浆果果肉。它会给一碗新鲜浆果带来细微差别和亮度，上面撒上新鲜的奶油。',
+            en: 'Because the berries usually lose their shape and texture when lacto-fermented, we often use a juice press to harvest the juices. Fermented berry juice is incredible—it has body and effervescence, saltiness, sweetness, and acidity. Mix fermented raspberry juice with a spicy olive oil, add a few grinds of floral spice—maybe long or pink peppercorns—and spoon the resulting vinaigrette over thick slices of ripe beefsteak tomatoes. Sprinkle it with sea salt, sugar, and a few torn leaves of marjoram, and it’s the perfect distillation of late summer. And don’t throw away the berry pulp. It will bring nuance and brightness to a bowl of fresh berries, topped with freshly whipped cream.'
+          },
+          {
+            zh: '<!-- text/part0006_split_003.html -->',
+            en: '<!-- text/part0006_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '02-cap-and-tradeoffs',
@@ -3060,6 +6840,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# CAP 下的设计取舍'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -3190,7 +6979,52 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 迦太基鱼露',
+            en: '# Carthaginian Fish Sauce'
+          },
+          {
+            zh: '*Ancient Carthaginian garum factories were carved out of limestone in ports along the Mediterranean Sea.*',
+            en: '*Ancient Carthaginian garum factories were carved out of limestone in ports along the Mediterranean Sea.*'
+          },
+          {
+            zh: 'Garum的故事开始于2500年前的北非，当时有围墙的腓尼基大都市迦太基是当今突尼斯境内一个蓬勃发展的港口。在城墙内，从地中海繁荣的水域捕获的剩余鱼类——金枪鱼、鲭鱼、凤尾鱼、沙丁鱼——被切成薄片，鳞片、鱼头、内脏等等，然后在石灰石桶中与盐分层并发酵。桶上挂着网，可以将较大的动物和苍蝇拒之门外。太阳的热量可以有效地煮熟鱼，而盐度可以防止有害微生物的繁殖。最重要的是，鱼的内脏含有酶，可以促进从大桶鱼的各个部分转变为有效的调味料。',
+            en: 'Garum’s story begins in North Africa 2,500 years ago, when the walled Phoenician metropolis of Carthage was a booming port in what is present-day Tunisia. Within the city walls, surpluses of fish harvested from the flourishing waters of the Mediterranean Sea—tuna, mackerel, anchovies, sardines—were sliced finely, scales, heads, guts, and all, then layered with salt in limestone vats and left to ferment. Nets draped over the vats would keep larger animals and flies out. The heat of the sun would effectively cook the fish, while the salinity would act as a safeguard against the propagation of harmful microbes. Most important, the guts of the fish contained enzymes that fueled the transformation from vat of fish parts to potent seasoning.'
+          },
+          {
+            zh: '迦太基人统治地中海近五百年，直到该城市在第二次布匿战争中落入罗马帝国手中。战利品归胜利者所有，随着迦太基易主，其烹饪方式也发生了变化。尽管该产品起源于北非，但罗马人被认为传播了garum——一个源自特定鱼类名称的拉丁词。西西里岛靠近迦太基，很可能是鱼露福音最早传播的地方，也是古罗马帝国garum生产的中心。',
+            en: 'The Carthaginians enjoyed a reign over the Mediterranean for close to five hundred years, until the city fell to the Roman Empire in the Second Punic Wars. To the victor go the spoils, and as Carthage changed hands, so did its culinary practices. Though the product originated in North Africa, the Romans are the ones credited with the dissemination ofgarum—a Latin word derived from the name of a specific fish species. Sicily, with its proximity to Carthage, was likely where the gospel of fish sauce first spread, and it served as the center of garum production in the ancient Roman Empire.'
+          },
+          {
+            zh: '就像 nuoc mam 在越南菜中用作蘸酱和调味料一样，garum 既可以在餐桌上享用，也可以在厨房中与葡萄酒一起用作烹饪酱，称为 oenogarum。 Garum也为罗马军队提供了良好的服务。士兵们可以将浓缩的咸味液体装在烧瓶中，并在战场上稀释。在第三次布匿战争和罗马吞并伊比利亚之后，garum向西传播。在西班牙南部，用石灰石凿成的garum工厂的废墟至今仍然矗立着。',
+            en: 'In much the same way that nuoc mam is used in Vietnamese cuisine as both a dipping sauce and a seasoning, garums would have been served at the table but also kept in the kitchen to be used with wine as a cooking sauce calledoenogarum. Garums served the Roman army well, too. Soldiers could carry the concentrated salty liquid in a flask and dilute it while in the field. After the Third Punic Wars and the Roman annexation of Iberia, garums spread west. In southern Spain, ruins of garum factories carved out of limestone are still standing to this day.'
+          },
+          {
+            zh: '随着garum的发展，专门的分类出现了。过滤一批garum后留下的沉淀物称为asalec。它被精英们认为是不可取的，并留给了平民。Muriawas garum由被去除内脏和头部的鱼制成，这将使成品酱汁不那么刺鼻。Haimation，一种仅由鱼内脏和血组成的发酵产品，是由渔业副产品制成的。它的深色也导致它被称为“黑色garum”。Liquamen曾经是一个与garum不同的术语，因为它在早期罗马时代同时使用，尽管目前还不完全清楚区别是什么。一些人认为这是对阿莱克进行第二次浸泡，试图从发酵的鱼中提取更多的产量。其他人将其解释为 garum 专门用整条鱼制成，而 garum 是相关酱料较大家族的总称。',
+            en: 'As garum grew, specialized classifications emerged. The sediment left over after straining a batch of garum was known asallec. It was deemed undesirable by elites and left to the commoners.Muriawas garum made from fish that were gutted and had their heads removed, which would have rendered the finished sauce less pungent.Haimation, a fermented product that consisted of nothing but the guts and blood of fish, was made from the by-products of fisheries. Its dark color also led it to be dubbed “black garum.”Liquamenwas once a term distinct from garum, as it was used concurrently in early Roman times, though it isn’t entirely clear what the difference was. Some believe it to be a second steeping of the allec in an attempt to extract more yield from the fermented fish. Others explain it as garum made specifically with whole fish, whereasgarumis an umbrella term for the larger family of related sauces.'
+          },
+          {
+            zh: '更不清楚的是为什么garum在西方不再流行。 garum在欧洲的最后遗迹是一种罕见的意大利酱汁，称为colatura di alici，传统上在塞塔拉小渔村制作。它的配方是中世纪的僧侣从更古老的罗马文献中找到的。与此同时，鱼露仍然是东南亚美食的基石，也是我们许多人更加熟悉的成分。制作过程非常相似。从泰国湾捕捞的凤尾鱼被放入大木桶中，按两到三份鱼与一份盐的比例分层撒上盐。将咸鱼压在铺有石块的竹席下，在热带阳光下放置 9 至 12 个月，然后进行压榨和过滤以获取汁液。你一生中吃过的大部分鱼露都是这样制作的。',
+            en: 'What’s even less clear is why garum fell out of fashion in the West. The last vestige of garum in Europe is a rare Italian sauce calledcolatura di alici, traditionally made in the small fishing village of Cetara. Its recipe was recovered by monks in the Middle Ages from much older Roman texts. Meanwhile, fish sauce remains a bedrock of Southeast Asian cuisine and an ingredient that many of us are far more familiar with. The process of making it is remarkably similar. Anchovies fished from the Gulf of Thailand are placed into large wooden vats, layered with salt in a ratio of two or three parts fish to one part salt. The salted fish are pressed beneath a bamboo mat weighted down with rocks and left in the tropical sun for 9 to 12 months, before being pressed and strained for their juices. Most of the fish sauce you’ve tasted in your life is made this way.'
+          },
+          {
+            zh: '关于亚洲鱼露的奇怪之处在于，七世纪之前该地区的历史文献中并没有太多提及它们。罗马帝国与亚洲之间的文化交流早在那时就已建立。鉴于garum对古罗马人的价值及其便携性，人们很容易将泰国鱼露和garum联系起来，而不是假设这两种产品都是独立开发的。想象东南亚和地中海截然不同的烹饪风格之间存在直接联系是很有趣的，但我们将把它留给更有资格的团体来决定。',
+            en: 'The curious thing about Asian fish sauces is that there aren’t many references to them in historical documents from the region before the seventh century. Cultural exchange between the Roman Empire and Asia was established long before then. Given garum’s value to ancient Romans and its portability, it’s tempting to draw a connection between Thai fish sauce and garum, as opposed to assuming both products were developed independently. It’s fun to imagine a direct line between the vastly disparate cooking styles of Southeast Asia and the Mediterranean, but we’ll leave that for more qualified parties to decide.'
+          },
+          {
+            zh: '<!-- text/part0012_split_003.html -->',
+            en: '<!-- text/part0012_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '02-compare-id-generation-options',
@@ -3202,6 +7036,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 四种 ID 生成方案对比'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -3329,7 +7172,94 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 协同发酵',
+            en: '# Cooperative Fermentation'
+          },
+          {
+            zh: 'Kombucha 由一组微生物产生，这些微生物同步工作，首先将糖转化为酒精，然后将酒精转化为乙酸（与醋中的酸相同）。当微生物执行其工作时，它们会形成一个可见的筏，通常被称为kombucha“母亲”，但有时也被容易混淆地称为“kombucha”。从技术上讲，它被称为 SCOBY（细菌和酵母的共生培养物），因此为了保持清晰，我们将使用术语 kombucha 表示成品，使用 SCOBY 表示生物体/母体。',
+            en: 'Kombucha is produced by a collective of microbes that works in sync to first turn sugar into alcohol, then alcohol into acetic acid (the same acid in vinegar). As the microbes perform their work, they form a visible raft that’s commonly known as the kombucha “mother,” but also sometimes confusingly referred to as the “kombucha.” Technically speaking, it’s called a SCOBY (Symbiotic Culture of Bacteria and Yeast), so to keep things clear, we’ll use the termskombuchafor the finished product andSCOBYfor the organisms/mother.'
+          },
+          {
+            zh: '产生kombucha的微生物的具体种类因地点、批次而异，但主要是酵母（一种单细胞真菌）和醋酸菌（简称AAB）。酵母通常是Saccharomyces cerevisiae，但也可以包括它的许多亲戚。 AAB 也可能是几个物种的组合，但来自葡萄糖醋杆菌属或醋杆菌属的一些代表将始终存在。',
+            en: 'The specific species of microbes that produce kombucha will vary from one place to another and from one batch to the next, but the main players are yeast (a unicellular fungus) and acetic acid bacteria (AAB, for short). The yeast is oftenSaccharomyces cerevisiae, but can also include many of its relatives. The AAB might also be a combination of several species, but some representative from the genusGluconacetobacterorAcetobacterwill always be present.'
+          },
+          {
+            zh: '*A young SCOBY acquired from a fermentation shop.*',
+            en: '*A young SCOBY acquired from a fermentation shop.*'
+          },
+          {
+            zh: '*And the same SCOBY after 7 days spent brewing a batch of kombucha.*',
+            en: '*And the same SCOBY after 7 days spent brewing a batch of kombucha.*'
+          },
+          {
+            zh: '一旦引入含糖液体，SCOBY 中的酵母就会通过消耗单糖并产生乙醇（葡萄酒、啤酒和烈酒中的主要酒精类型）和少量二氧化碳来启动级联发酵。然后，同居的AAB利用周围的氧气将乙醇氧化成乙酸，从而发酵乙醇。细菌能快速将酒精转化为酸，这意味着kombucha的酒精含量没有葡萄酒或啤酒那么多，但它也并非完全不含酒精。 kombucha的ABV（酒精体积比）徘徊在0.5%到1%附近。就上下文而言，典型的啤酒酒精度约为 5%，而葡萄酒则为十几度。',
+            en: 'Once introduced to a sugary liquid, the yeast in a SCOBY kicks off a cascade of fermentation by consuming simple sugars and producing ethanol—the primary type of alcohol in wine, beer, and spirits—and a bit of carbon dioxide. The cohabiting AAB then ferment the ethanol by oxidizing it into acetic acid, utilizing the oxygen from its surroundings. The bacteria’s quick work transforming alcohol into acid means kombucha doesn’t have as much alcohol as wine or beer, but it isn’t completely alcohol-free. The ABV (alcohol by volume) of kombucha hovers in the neighborhood of 0.5% to 1%. For context, a typical beer is around 5% ABV, and wines are in the low teens.'
+          },
+          {
+            zh: '作为粗略指南：',
+            en: 'As a rough guide:'
+          },
+          {
+            zh: 'SCOBY 中的关键词是共生，这个术语通常意味着和谐合作，但实际上涵盖了多种不同的关系。共生从希腊语翻译为“共同生活”，寄生虫、病原体和共生生物（那些从他人身上受益而不伤害他人的生物）都符合资格。在一种极端情况下，寄生虫会削弱甚至杀死宿主。另一方面，互利关系为双方带来利益。 AAB 与酵母共生：细菌从这种关系中获得更多，但不会伤害酵母。与 AAB 共存的酵母对酸性环境具有相当的耐受性，并且不会受到酸性伙伴的太大干扰。',
+            en: 'The operative word in SCOBY issymbiotic, a term that usually implies harmonious cooperation but actually covers a multitude of different relationships.Symbiosistranslates from Greek as “living together,” and parasites, pathogens, and commensal organisms (those that benefit from another without harming it) all qualify. At one extreme, parasites weaken or even kill their hosts. On the other end, mutualist relationships provide benefits to both parties. AAB are commensal to yeast: The bacteria get more out of the relationship, but they don’t harm the yeast. Yeast that cozies up to AAB is fairly tolerant of acidic environments and isn’t bothered much by its acidic partners.'
+          },
+          {
+            zh: 'SCOBY 中的细菌和酵母一起生活在一种称为动物垫（前面提到的筏）的结构上。当 SCOBY 中的细菌繁殖和繁殖时，它们会分泌纤维素，形成浮力片，像粘稠的水母一样漂浮在液体顶部。当混合物发酵时，垫子会生长，在液体表面上扩散到容器的边界，然后厚度增加。生活在垫子上可以使AAB与液体上方的空气直接接触，从而将酒精转化为酸。',
+            en: 'The bacteria and yeast in a SCOBY live together on a structure called a zoogleal mat (the aforementioned raft). As the bacteria in the SCOBY multiply and propagate, they excrete cellulose, forming a buoyant sheet that floats atop the liquid like a gloopy jellyfish. As the mixture ferments, the mat grows, spreading out on the surface of the liquid to the boundaries of the container, then increasing in thickness. Living on the mat allows the AAB to come into direct contact with the air above the liquid, which they require to convert alcohol to acid.'
+          },
+          {
+            zh: '醋的酸化过程非常相似，但有一个重要的区别：醋是两阶段发酵。在第一阶段，酵母将糖发酵成酒精。不同的酵母对其产生的酒精有不同的耐受性，一旦达到该水平就会死亡（或者只要醋制造商选择，它们就可以通过巴氏灭菌法杀死）。',
+            en: 'Vinegars are made sour in a very similar process, but with one important distinction: Vinegar is a two-stage fermentation. In the first stage, yeast ferments the sugar to alcohol. Different yeasts have different tolerances for the alcohol they produce, and will die off once that level is met (or they can be killed off by pasteurization whenever the vinegar maker chooses).'
+          },
+          {
+            zh: '在第二阶段，AAB将酒精发酵成酸，但如果没有酵母，细菌最终会耗尽燃料，发酵就会停止。选择一种会自行死亡的酵母菌株，或者在酵母产生适量的酒精后杀死酵母，是酿酒师控制这一过程的方式，从而控制醋的酸度。',
+            en: 'In the second stage, AAB ferment the alcohol into acid, but without the yeast, the bacteria will eventually run out of fuel and fermentation will stop. Choosing a strain of yeast that will die off on its own—or killing the yeast after it has produced just the right amount of alcohol—is how brewers control the process, and thus the sourness of their vinegar.'
+          },
+          {
+            zh: '*Bergamot Kombucha with Native Mint, Noma Australia, 2016*',
+            en: '*Bergamot Kombucha with Native Mint, Noma Australia, 2016*'
+          },
+          {
+            zh: '*A kombucha made from bergamot tea muddled with native Australian mint and fresh citrus for our juice pairing.*',
+            en: '*A kombucha made from bergamot tea muddled with native Australian mint and fresh citrus for our juice pairing.*'
+          },
+          {
+            zh: '另一方面，Kombucha是持续发酵。酵母不断地将糖发酵成乙醇，然后细菌将其转化为乙酸。这意味着，与醋不同，醋可以陈化数年甚至数十年，同时仍保持微甜，kombucha 会变得越来越酸，直到所有可用的糖都用完。即使您在正确的时间收获kombucha并将液体转移到冰箱中，它也会继续酸化。',
+            en: 'Kombucha, on the other hand, is a sustained fermentation. The yeast continually ferments sugar into ethanol for the bacteria to convert into acetic acid. That means that unlike vinegar, which can be aged for years or even decades while still remaining slightly sweet, a kombucha will become more and more sour until all the available sugar is used up. Even if you harvest a kombucha at the right moment and transfer the liquid to the fridge, it will continue to acidify.'
+          },
+          {
+            zh: '这就是为什么一些商业品种的 kombucha 尝起来发酵过度且酸味而不是清爽。制作精良的kombucha应该有足够的余甜来诱人，足够的酸度来活泼。糖和酸之间的理想平衡取决于kombucha共生体的第三个成员：人类。由我们来决定 kombucha 何时准备好收获。',
+            en: 'That’s why some commercial varieties of kombucha can taste overfermented and sour rather than refreshing. A well-made kombucha should have enough residual sweetness to be enticing and enough acidity to be lively. Striking the ideal balance between sugar and acid comes down to the third member of the kombucha symbiosis: humans. It’s up to us to determine when a kombucha is ready to harvest.'
+          },
+          {
+            zh: '有趣的是，人类所扮演的角色也延伸到了负责kombucha的细菌和酵母的进化历史。在微生物学出现之前，衡量 SCOBY 活力的最佳指标是视觉提示。强大的 SCOBY 很可能被视为一个好兆头，并受到kombucha制造者的重视，他们会保存并繁殖这些样本，从而优先考虑能够产生它们的细菌。虽然 SCOBY 中的微生物不需要动物胶垫就能发挥作用，但人类干预确保了 SCOBY 的生存，它们能产生厚厚的筏子。',
+            en: 'Interestingly, the role that humans play also extends to the evolutionary history of the bacteria and yeast responsible for kombucha. Before the advent of microbiology, the best indicators of a SCOBY’s vigor were visual cues. A robust SCOBY was likely taken as a good sign and prized by kombucha makers, who would save and propagate such specimens, thus giving precedence to the bacteria that were able to produce them. While the microbes in a SCOBY don’t need a zoogleal mat to function, human intervention has ensured the survival of SCOBYs that produce thick rafts.'
+          },
+          {
+            zh: '<!-- text/part0007_split_003.html -->',
+            en: '<!-- text/part0007_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ],
+        bullets: [
+          {
+            zh: '• 在理想条件下，酵母通常会将 2 单位的糖发酵成 1 单位的酒精。',
+            en: '• Under ideal conditions, yeast typically ferments 2 units of sugar into 1 unit of alcohol.'
+          },
+          {
+            zh: '• AAB 将 1 单位的酒精转化为略低于 1 单位的乙酸。',
+            en: '• AAB convert 1 unit of alcohol into just under 1 unit of acetic acid.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '02-crawler-pipeline',
@@ -3341,6 +7271,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 爬虫系统的核心流水线'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -3459,6 +7398,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 拆出数据库并选择合适的数据存储'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '这一节要让你理解为什么数据库通常会从应用服务器中拆出来，拆出来之后解决了什么问题，又带来了哪些新问题。你还要能区分关系型数据库、NoSQL、文件存储和缓存分别适合保存什么数据。'
@@ -3576,6 +7524,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 工程博客与长期学习闭环'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -3696,6 +7653,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# Feed Publishing 与 Fanout 取舍'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能区分写时分发和读时聚合，解释它们分别把成本放在发布路径还是读取路径，并能设计普通用户写时分发、大 V 读时聚合的混合方案。面试里这是 News Feed 最核心的扩展性取舍。'
@@ -3812,6 +7778,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 一致性哈希环如何定位服务器'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -3933,6 +7908,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 高层设计：数据收集服务与查询服务'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你应该能画出自动补全的两条主链路：一条从搜索日志、点击日志和业务词库生成候选词索引，另一条在用户输入前缀时快速返回建议。你还应该能解释为什么写入链路和查询链路必须分离，以及版本化索引、缓存和回滚怎样保证线上稳定。'
@@ -4052,6 +8036,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 提出高层设计并获得共识'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '本节要讲清楚高层设计的作用：不是把所有组件画满，而是用少量核心模块说明请求如何流动、数据如何保存、系统边界在哪里。你要能从需求推导出架构图，并知道何时停下来向面试官确认方向。'
@@ -4169,6 +8162,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 通知发送链路与高层架构'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -4288,7 +8290,56 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# Shoyu 是如何制作的',
+            en: '# How Shoyu Gets Made'
+          },
+          {
+            zh: '最早的中文“疆”模糊了我们现在所认为的 miso、garum 和 shoyu 独立领域之间的界限。它们通常含有肉类或海鲜，而酱油最初是一种浓稠、浑浊的液体——与我们今天所知的任何酱油都截然不同。同样，日本最早的miso也是当今产品的一个非常粗糙的版本。它们包含所有相同的成分，但buthishio（又名原始-miso）更像是miso和酱油的混合体。',
+            en: 'The earliest Chinese jiangs blurred the line between what we would now consider the separate realms of miso, garum, and shoyu. They often contained meat or seafood, and jiang you was originally a chunky, murky liquid—far different from any soy sauce we know today. Similarly, the earliest misos of Japan were a very rough version of today’s products. They contained all the same ingredients, buthishio(aka proto-miso) was more like a cross between a miso and a soy sauce.'
+          },
+          {
+            zh: '随着时间的推移，菱尾变得更加精致，最终成为我们今天所知的粘稠糊状物miso。起初，酱油仍然是副产品，但随着需求的增加，人们开始对传统的miso食谱进行调整，以收获更多的酱油。新型发酵桶的制造带有通向喷嘴的穿孔槽。实施了水比例较高的配方。但直到十七世纪，酱油的生产方法才演变成今天使用的第一个版本。',
+            en: 'Over time, hishio became more refined, eventually becoming the thick paste we know as miso today. At first, tamari remained a by-product, but as demand increased, people began making adjustments to traditional miso recipes in order to harvest more tamari. New styles of fermenting vats were manufactured with perforated troughs that led to spouts. Recipes with higher ratios of water were implemented. But it wasn’t until the seventeenth century that the method for producing soy sauce evolved into the first version employed today.'
+          },
+          {
+            zh: '我们将在这里详细介绍该方法，但首先请注意，shoyu 是通过Aspergillus oryzae 中的生化工具包创建的神奇食品的另一个例子。它的制作与koji，当然还有miso有相似之处，但是在shoyu的制作过程中存在一些根本的区别。为了制作miso，您将接种曲霉菌的大米或大麦与大豆混合，让它们一起发酵。在shoyu中，霉菌直接生长在煮过的大豆和烤碎的小麦的混合物上。当您制作传统的koji时，您最好蒸（而不是煮）米饭或大麦，以免曲霉菌过度饱和或淹没。但是像大豆这样的豆类如果蒸的话就不能很好地煮熟。它们需要浸入水中。小麦的作用是调节额外的水分。 （这就是为什么酱油不含麸质，但酱油则不含。）',
+            en: 'We’ll detail that method here, but first, let it be noted that shoyu is yet another example of a miraculous foodstuff created through the biochemical tool kit housed withinAspergillus oryzae. Its production bears similarities to koji and, of course, miso, but there are a couple of fundamental differences in the shoyu-making process. To make miso, you combineAspergillus-inoculated rice or barley with soybeans and allow them to ferment together. With shoyu, the mold is grown directly on a blend of boiled soybeans and toasted, cracked wheat. When you’re making a conventional koji, you would ideally steam—rather than boil—the rice or barley so as not to oversaturate or drown theAspergillus. But legumes like soybeans don’t cook properly if they’re steamed; they need to be submerged in water. The wheat is there to mediate the extra moisture. (This is why tamari is free of gluten, but soy sauce is not.)'
+          },
+          {
+            zh: '在清酒等产品的生产中，koji 用于释放淀粉中的简单糖，而在 shoyu 中，目标是使用曲霉将植物蛋白分解为氨基酸，从而构成酱油的丰富鲜味混合体。 （在许多酱油工厂，酱油曲霉是首选的曲霉菌株，因为它是专门为更强的蛋白酶活性而培育的。）通过直接在豆类和小麦上培养曲霉，真菌产生的蛋白酶可以直接作用于这些底物中的蛋白质。',
+            en: 'Whereas in the production of something like sake, where koji is harnessed to unlock simple sugars tied up in starch, in shoyu, the aim is to useAspergillusto break down vegetable proteins into the amino acids that make up soy sauce’s rich medley of umami flavors. (In many soy sauce factories,Aspergillus sojaeis the preferred strain ofAspergillus, as it’s been bred specifically for stronger protease activity.) By growing theAspergillusdirectly on the beans and wheat, the protease produced by the fungus gets to work directly on the proteins in those substrates.'
+          },
+          {
+            zh: '一旦接种，大豆-小麦koji就会进入盐度为20%至23%的盐水中。不同的配方需要不同比例的盐水与koji，但理想情况下，总混合物的盐度应为 15% 至 16%。营养丰富的液体暴露在空气中，高盐含量可防止有害微生物的生长。有益的耐盐（耐盐）微生物为最好的手工瓶shoyu添加了温和的酒精含量和丰富的复合酸香气。',
+            en: 'Once inoculated, the soybean-wheat koji goes into a brine of 20% to 23% salinity. Different recipes call for different ratios of salt brine to koji, but ideally the total mixture should have a salinity of 15% to 16%. The nutrient-rich fluid is left open to the air, and the high salt content prevents unwanted microbes from taking hold. Beneficial halotolerant (salt-tolerant) microbes add a mild alcohol content and rich bouquet of complex acids to the best bottles of artisanal shoyu.'
+          },
+          {
+            zh: '随着时间的推移，最初是由豆子和小麦片（称为 asmoromi，与清酒酿造中的类似步骤共享的一个术语）组成的异质汤，慢慢转变成具有婴儿食品粘稠质地的粘稠团块。与miso一样，koji产生的酶慢慢地将蛋白质剪切成氨基酸，使酱油充满谷氨酸以及其他美味的有机成分。酶在流体介质中比在粘性介质（如miso）中工作效率更高。',
+            en: 'Over time, what begins as a heterogeneous soup of beans and bits of wheat (known asmoromi—a term shared with an analogous step in sake brewing) slowly transforms into a gloopy mass with the viscous texture of baby food. As with miso, the enzymes produced by the koji slowly snip proteins into amino acids, leading soy sauce to be chock-full of glutamic acid, among other delicious organic building blocks. The enzymes work much more efficiently in a fluid medium than in a viscous one like miso.'
+          },
+          {
+            zh: '*Large batches ofmoromiare stirred in giant cedar vats calledkioke.*',
+            en: '*Large batches ofmoromiare stirred in giant cedar vats calledkioke.*'
+          },
+          {
+            zh: '传统上，shoyu 的生产将在称为 kioke 的大型雪松桶中进行，该桶宽约 2 米，深近 3 米。与miso一样，shoyu将在收获后的冬季月份开始，避免夏季高温，否则会不利地加速酶和微生物的活动。最初几周每天都会搅拌混合物，然后发酵长达三年。准备好后，醪将被舀到多张布上，并堆放在一个大型矩形木制压榨机中。一个巨大的杠杆会向下推动木板，将液体从醪中挤出。一旦从醪中提取出所有的shoyu，剩下的沉积物就会像纸板一样僵硬干燥。它经常被作为动物饲料交给农民。过滤后的shoyu将被静置，再次过滤，热处理，然后装瓶。',
+            en: 'Traditionally, shoyu production would take place in massive cedar vats calledkioke, measuring around 2 meters across and almost 3 meters deep. Like miso, shoyu would be started in the winter months after the harvest, avoiding high summer temperatures that could adversely speed up enzymatic and microbial activity. The mixture would be stirred every day for the first few weeks, then left to ferment for up to three years. Once ready, the moromi would be ladled onto multiple sheets of cloth and stacked in a large rectangular wooden press. A huge lever would drive a wooden plate downward, pressing the liquid out of the moromi. Once all the shoyu had been extracted from the moromi, the remaining sediment would be as stiff and dry as cardboard. It was often handed off to farmers as animal feed. The strained shoyu would be left to settle, strained once more, heat-treated, and bottled.'
+          },
+          {
+            zh: '<!-- text/part0011_split_003.html -->',
+            en: '<!-- text/part0011_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '02-oryzae-loves-grains',
@@ -4302,7 +8353,60 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 水稻喜欢谷物',
+            en: '# Oryzae Loves Grains'
+          },
+          {
+            zh: '许多野生霉菌相当投机取巧，会抓住任何可以产孢的地方，但Aspergillus oryzae有点挑剔。在Noma，我们尝试在各种植物和水果上种植它——从醋栗到胡萝卜——但很少有效果很好的。米粒喜欢谷物。',
+            en: 'Many wild molds are fairly opportunistic, taking hold of whatever they can lay their spores on, butAspergillus oryzaeis a bit finicky. At Noma, we’ve tried growing it on a variety of plants and fruits—from currants to carrots—but few have worked really well.A. oryzaeloves grains.'
+          },
+          {
+            zh: '谷物是草的种子。在自然界中，繁殖的成功往往是一系列的权衡。一次将你的时间和精力投入到一个后代身上，还是将你的资源投入到产生许多后代并希望其中一些能活到成熟，哪个更好？例如，鳄梨树需要很长时间才能成熟并结出果实，而且还需要大量能量才能生产。它们的种子又大又坚固——鳄梨树在把它们的孩子送到世界各地之前为他们准备了一顿美味的午餐。另一方面，草则更加节俭。它们提供最低限度的物质来让后代有一个良好的开端，但它们也产生大量的种子。它们为后代提供的能量以淀粉的形式存在，即长而复杂的糖链，包裹在保护性的外壳或壳内。一旦像大麦这样的草的种子发芽，幼芽就会开始产生淀粉酶，将淀粉分解成更简单的麦芽糖，促进其新陈代谢，直到它能够光合作用自己的食物。',
+            en: 'Grains are the seeds of grasses. In the natural world, reproductive success is often a series of trade-offs. Is it better to invest your time and energy into one offspring at a time or to put your resources into producing many offspring and hope that a few survive to maturity? Avocado trees, for instance, take a long time to reach maturity and bear fruits that also require considerable energy to produce. Their seeds are large and robust—avocado trees pack their kids a nice lunch before sending them into the world. Grasses, on the other hand, are more frugal. They supply the bare minimum to give their offspring a kick start, but they also produce a lot of seeds. The energy they pack for their offspring comes in the form of starch—long, complex chains of linked sugars—packed inside protective husks or shells. Once the seed of a grass like barley germinates, the baby sprout begins producing amylase to break down the starch into the simpler sugar maltose, fueling its metabolism until it can photosynthesize its own food.'
+          },
+          {
+            zh: '*The anatomy of a grain of barley.*',
+            en: '*The anatomy of a grain of barley.*'
+          },
+          {
+            zh: '*1. Hull or husk*',
+            en: '*1. Hull or husk*'
+          },
+          {
+            zh: '*2. Bran*',
+            en: '*2. Bran*'
+          },
+          {
+            zh: '*3. Starchy endosperm*',
+            en: '*3. Starchy endosperm*'
+          },
+          {
+            zh: '*4. Germ or embryo*',
+            en: '*4. Germ or embryo*'
+          },
+          {
+            zh: '巴比伦人和埃及人是世界上最早的啤酒酿造者，他们注意到谷物将淀粉分解成糖的天然能力，并利用它来创造麦芽制造过程（二糖麦芽糖由此得名）。麦芽制造商通过将谷物暴露在水分中来使其发芽，然后通过烘烤和干燥谷物来缩短其生命周期。从那里，他们将麦芽与热水混合，然后酵母可以将现已解锁的糖发酵成酒精，例如啤酒或威士忌麦芽浆。 oryzae 具有与制麦芽相同的功能。它可以作用于从未发芽的煮熟的谷物，解开并分裂其中的淀粉。但是，麦芽制造仅关注谷物中的淀粉，而koji也会分解谷物周围营养丰富的蛋白质外壳。',
+            en: 'The Babylonians and Egyptians, the world’s first beer brewers, took note of grain’s natural ability to unravel starch into sugar and harnessed it to create the process of malting (from which the disaccharidemaltosegets its name). Maltsters germinate grain by exposing it to moisture, then stop its life cycle short by roasting and drying the grain. From there, they mix the malt with hot water, after which yeast can ferment the now unlocked sugars into alcohols like beer or mash for whiskey.A. oryzaeperforms the same function as malting. It can work on cooked grains that have never been germinated, uncoiling and splitting the starches within. But where malting focuses solely on the starches in grain, koji also disassembles the nutrient-rich coat of protein that surrounds them.'
+          },
+          {
+            zh: '蛋白质由氨基酸组成，就像淀粉由单糖链组成一样。一旦解开，许多氨基酸就会在我们的舌头上留下鲜味的味道。 Koji 分解蛋白质（和少量脂肪）的能力是其非凡用途的关键。毕竟，甜味很重要，但不是一切。',
+            en: 'Protein is made up of amino acids, much like starch is composed of chains of simple sugars. Once unbound, many of these amino acids register on our tongue as the flavor umami. Koji’s ability to break down protein (and small amounts of fat) is the key to its extraordinary utility. After all, sweetness counts for a lot, but not everything.'
+          },
+          {
+            zh: '<!-- text/part0009_split_003.html -->',
+            en: '<!-- text/part0009_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '02-placement-and-api-gateway',
@@ -4314,6 +8418,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 限流器应该放在哪里'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -4432,6 +8545,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 重定向流程与 301/302 选择'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -4559,7 +8681,60 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 氧化还原还原',
+            en: '# Redox Redux'
+          },
+          {
+            zh: '在醋章节中，我们遇到了现代化学之父安托万·拉瓦锡（Antoine Lavoisier），他负责确定氧气是负责燃烧的试剂。然而，他实际上并不是第一个发表有关氧分子分离研究的人。拉瓦锡的合作者、英国化学家约瑟夫·普里斯特利实际上将此归功于此。牧师加热了一种金属化合物——氧化汞，当时被称为“红钙”——并观察到，随着烧瓶中的空气变得更加易燃，钙本身的重量也在减少。普里斯特利目睹的是减少反应（因卡尔克斯重量减轻而得名）。加热后，氧化汞 (HgO) 会分离成两种组成元素，释放出氧气，使空气更易燃烧。',
+            en: 'In theVinegarchapter, we met Antoine Lavoisier, the father of modern chemistry and the man responsible for identifying oxygen as the reagent responsible for combustion. However, he wasn’t actually the first person to publish research on the isolation of oxygen molecules. The English chemist Joseph Priestly, a collaborator of Lavoisier’s, actually takes the credit for that. Priestly heated a metallic compound—mercury oxide, then known as “red calx”—and observed that as the air in the flask was becoming more flammable, the calx itself was reducing in weight. What Priestly witnessed was areducingreaction (named because of the calx’s reduction in weight). Once heated, the mercury oxide (HgO) separated into its two constituent elements, releasing its oxygen and rendering the air more combustible.'
+          },
+          {
+            zh: '在分子水平上发生的是一种交换：当汞和氧首先结合形成氧化汞时，两个汞原子将每个电子传递给氧。当化合物分解时，该过程相反。电子回到原来的主人，气态氧被释放到空气中。科学家最初认为这种反应只涉及氧气，因此直到今天，分子或原子被剥夺电子的行为被称为“氧化”。在普里斯特利的实验中，汞正在被氧化，而汞正在还原氧气。像这样的并行化学反应被称为氧化还原反应。其中许多涉及氧气，但还有许多其他元素和化合物可以参与氧化还原反应。然而，关于氧化还原反应需要注意的一件事是它们是双向的。没有同时还原就没有氧化，反之亦然。任何时候当你听到某种东西被氧化时，你就可以确定另一些东西正在被还原。',
+            en: 'What’s happening on the molecular level is an exchange: When mercury and oxygen first join to form mercury oxide, two atoms of mercury are surrendering an electron each to the oxygen. When the compound decomposes, the process is reversed. The electrons go back to their original owners, and gaseous oxygen is released into the air. Scientists initially believed that such reactions dealt exclusively with oxygen, and so, to this day, the act of a molecule or atom being stripped of an electron is known as “oxidation.” In Priestly’s experiment, the mercury is beingoxidized, and the mercury isreducingthe oxygen. Parallel chemical reactions like this are known asredoxreactions. Many of them involve oxygen, but there are plenty of other elements and compounds that can take part in redox reactions. However, one thing to note about redox reactions is that they are a two-way street. There is no oxidation without simultaneous reduction, and vice versa. Any time you hear about something being oxidized, you can be sure that something else is being reduced.'
+          },
+          {
+            zh: '*The French physician Louis Camille Maillard first unlocked the secrets of browning. Maillard reactions are redox reactions that can take place between reducing sugars (found in starches) as well as amino acids (found in proteins).*',
+            en: '*The French physician Louis Camille Maillard first unlocked the secrets of browning. Maillard reactions are redox reactions that can take place between reducing sugars (found in starches) as well as amino acids (found in proteins).*'
+          },
+          {
+            zh: 'Maillard 反应是一种氧化还原反应，在高温烹饪食物时最常观察到。它得名于 Louis Camille Maillard，他是一位年轻的法国医生，1900 年代初在巴黎大学发现了​​这一过程。',
+            en: 'The Maillard reaction is a genre of redox reaction that is most frequently observed when cooking foods at high temperatures. It owes its name to Louis Camille Maillard, who was a young French physician when he discovered the process in the early 1900s at the University of Paris.'
+          },
+          {
+            zh: '如上所述，除了氧之外，还有许多其他元素和化合物可以参与氧化还原反应。这包括氨基酸。当食物被加热时，果糖或葡萄糖等糖或与淀粉结合的糖会与游离氨基酸或与蛋白质链结合的糖发生氧化还原反应。这些反应会产生高度不稳定的中间产物，然后以各种方式进一步分解，产生风味化合物，从而赋予棕色食物的颜色和美味。面包皮、扇贝烤焦的表面、棕色黄油——所有这些都是Maillard反应的产物。 （它不一定在这里派上用场，但碱性环境会加速反应，正如在烘烤前浸泡在稀碱溶液中的椒盐卷饼外壳中观察到的那样。）根据存在的氨基酸，会产生不同的味道。人工香料行业通过选择特定氨基酸进行氧化还原反应来完成许多工作。',
+            en: 'As mentioned above, there are many other elements and compounds besides oxygen that can participate in a redox reaction. This includes amino acids. When food is heated, sugars like fructose or glucose or those bound up in starch take part in redox reactions with free amino acids or those bound in protein chains. The reactions lead to highly unstable intermediary products that then further break down in a variety of ways, creating flavor compounds responsible for the color and delicious taste of browned food. The crust of bread, the seared surface of a scallop, brown butter—all these are products of the Maillard reaction. (It won’t necessarily come in handy here, but the reaction is expedited by alkaline environments, as observed in the crust of pretzels, which are soaked in a dilute lye solution before baking.) Different flavors will develop depending on which amino acids are present. The artificial-flavor industry accomplishes a lot of its work by choosing specific amino acids to undergo redox reactions.'
+          },
+          {
+            zh: '大多数 Maillard 反应发生在远高于 115°C/239°F 的温度下，此时有足够的动能迫使试剂相互作用。水非常善于吸收热能，无论添加多少热能，含水混合物在大部分水沸腾之前都不会升至水的沸点 100°C/212°F 以上。因此，在水环境中，Maillard反应发生需要更长的时间。 （除了这种热效应之外，水还可以抑制Maillard反应中某些产物的形成。）但正如本章前面和Miso章节中提到的，只要有足够的时间，即使在低温和潮湿环境下，Maillard反应也会发生。',
+            en: 'Most Maillard reactions take place at temperatures well in excess of 115°C/239°F, when there is enough kinetic energy to force the reagents to interact. Water is so good at absorbing heat energy that regardless of how much thermal energy you add, mixtures containing water don’t tend to rise above water’s boiling point of 100°C/212°F until most of the water has boiled away. Therefore, in watery environments, it takes much longer for a Maillard reaction to take place. (Beyond this thermal effect, water can also inhibit the formation of certain products of the Maillard reaction.) But as mentioned earlier in this chapter and in theMisochapter, given enough time, the Maillard reaction will occur, even at low temperatures and in wet environments.'
+          },
+          {
+            zh: '这可能涉及很多化学知识，但烹饪就是化学。每次你点燃烧烤、烤蛋糕或腌制火腿时，你都会发生多种化学反应。食品的褐变（和变黑）当然与化学有关。 Maillard反应只是发黑室中进行的化学过程之一。与往常一样，掌握科学知识有助于您日后做出调整或改进是值得的。',
+            en: 'That might be a lot of chemistry to take in, but cookingischemistry. Every time you light your barbecue, bake a cake, or cure a ham, you’re carrying out multiple chemical reactions. Browning (and blackening) food is certainly all about chemistry. The Maillard reaction is only one of the chemical processes at work in a blackening chamber. As always, it’s worth having a grasp on the science to help you make adjustments or improvements down the road.'
+          },
+          {
+            zh: '*Pear and Roasted Kelp Ice Cream, Noma, 2018*',
+            en: '*Pear and Roasted Kelp Ice Cream, Noma, 2018*'
+          },
+          {
+            zh: '*Black pears are blended into a paste and dried into fruit leather before being molded into imitation mussel shells and filled with kelp ice cream and licorice.*',
+            en: '*Black pears are blended into a paste and dried into fruit leather before being molded into imitation mussel shells and filled with kelp ice cream and licorice.*'
+          },
+          {
+            zh: '<!-- text/part0013_split_003.html -->',
+            en: '<!-- text/part0013_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '02-single-server-to-high-level',
@@ -4571,6 +8746,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 从单机存储到高层架构'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -4692,7 +8876,88 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 大豆故事',
+            en: '# Soy Story'
+          },
+          {
+            zh: 'Miso 是由煮熟的大豆、koji 和盐捣碎制成的发酵糊。与醋一样，miso 是两阶段发酵。首先，真菌Aspergillus oryzae在水稻或大麦上生长以产生koji（阅读Koji章节）以更深入地了解此过程。然后，利用koji产生的强大酶，即蛋白酶和淀粉酶，分解另一种底物（传统上是大豆）中的蛋白质和淀粉，分别将它们分解成氨基酸和单糖。随着miso陈年，野生酵母、乳酸菌和醋酸菌也增添了风味的神游。',
+            en: 'Miso is a fermented paste made from a mash of cooked soybeans, koji, and salt. Like vinegar, miso is a two-stage fermentation. First, the fungusAspergillus oryzaeis grown on either rice or barley to produce koji (read theKojichapter) for a deeper understanding of this process). Then the powerful enzymes produced by koji, namely protease and amylase, are harnessed to dismantle the protein and starch in another substrate (traditionally soybeans), cleaving them into amino acids and simple sugars, respectively. Wild yeast, lactic acid bacteria, and acetic acid bacteria also add to the fugue of flavors as the miso ages.'
+          },
+          {
+            zh: '很难想象天才的创造力和运气，激发了一些勇敢的灵魂将发霉的大米与煮熟的大豆混合，放置数月，然后品尝。我们永远感谢这种大胆的烹饪行为，因为miso是迄今为止发酵世界中最令人震惊的转变。时间、细菌和真菌共同将一维的日常主食转变为引人注目的新混合物。凭空创造出全新的物质似乎违反了物理定律。我没有把香蕉或坚果放在这里！香蕉和坚果的味道怎么这么浓！？',
+            en: 'It’s difficult to fathom the stroke of creative genius—and luck—that inspired some brave soul to combine moldy rice with cooked soybeans, let it sit for months, and then taste it. We are forever indebted to that act of culinary audacity, as miso is by far the most astounding transformation in the world of fermentation. Time, bacteria, and fungus conspire to convert one-dimensional, everyday staples into arresting new concoctions. One seemingly defies the laws of physics by creating wholly new matter out of thin air.I didn’t put bananas or nuts in here! How can this taste so strongly of bananas and nuts!?'
+          },
+          {
+            zh: '《TERM9》的完整故事与神圣大豆的驯化、中日之间复杂的历史以及非暴力的佛法哲学交织在一起。',
+            en: 'The full story of how miso came to be is intertwined with the domestication of the sacred soybean, the complicated history between China and Japan, and the dharmic philosophy of nonviolence.'
+          },
+          {
+            zh: '首先是大豆。',
+            en: 'First, the soybean.'
+          },
+          {
+            zh: '与几乎所有古代文明一样，中国的早期存在依赖于营养丰富的农作物的驯化。大豆之于东亚，就像玉米之于中美洲，鹰嘴豆之于中东一样。没有比种植大豆更有效的生产蛋白质的方法了。每公顷产生的蛋白质比放牧牛或使用土地种植饲料高出近二十倍。在我们的身体发挥功能所需的二十种氨基酸中，有九种是我们无法自行产生的。大豆是地球上为数不多的含有全部九种必需氨基酸的植物性食品之一。',
+            en: 'As with almost every ancient civilization, China’s early exis-tence hinged on the domestication of nutrient-rich crops. What maize was to Mesoamerica, or chickpeas to the Middle East, soybeans were to East Asia. There is no more efficient way to produce protein than to grow soy. It yields nearly twenty times more protein per hectare than grazing cattle or using the land for growing fodder. Of the twenty amino acids that our bodies require to function, there are nine that we can’t produce on our own. Soybeans are one of the few plant foods on earth that contain all nine of these essential amino acids.'
+          },
+          {
+            zh: '最早的证据表明，大约 7,600 年前，中国北方就开始种植小型野生大豆。大豆的选择性育种在中国至少开始于 5000 年前，但日本也可能在大约同一时间开始。不管其真正的起源如何，大豆已被证明对该地区的饮食方式绝对重要。在中国传说中，神话中的“农神”神农宣称五种农作物为神圣：水稻、小麦、大麦、小米和大豆。',
+            en: 'The earliest evidence points to the cultivation of small, wild soybeans about 7,600 years ago in northern China. The selective breeding of soybeans for increased size began at least 5,000 years ago in China, but may also have started around the same time in Japan. Regardless of its true origins, soy has proven absolutely essential to the region’s foodways. In Chinese lore, the “God Farmer” Shennong, a mythical deity, is said to have proclaimed five crops as sacred: rice, wheat, barley, millet, and soybeans.'
+          },
+          {
+            zh: '尽管具有营养价值，但直到大豆遇到发酵后，它真正的烹饪潜力才被实现。',
+            en: 'But nutritive value notwithstanding, it wasn’t until soy met fermentation that its true culinary potential was realized.'
+          },
+          {
+            zh: '在<学期9>之前，就有了酱。酱（大致翻译为“酱”）包含大量中国调味品和发酵物，其中许多根本不含发酵大豆。事实上，最古老的姜据说是由鱼或肉制成的，类似于garum（参见Garum章节）和miso之间的某种浓稠混合体。随着畜牧业实践的不断进步，保存野生肉类宝贵营养的必要性逐渐减弱，导致姜中的主要蛋白质来源从动物转向蔬菜。这些古老姜的后裔至今仍作为著名的调味品存在，包括海鲜、蚝油和豆豉。发酵黑豆 ordouchi 可能是最早从中国出现的发酵豆制品之一，其历史可追溯到公元前 90 年。',
+            en: 'Before miso, there wasjiang.Jiangs(translating roughly to “pastes”) encompass a large array of Chinese condiments and ferments—many that don’t contain fermented soybeans at all. In fact, the oldest jiangs were supposedly made from fish or meat, and resembled a sort of thick hybrid between garum (see the chapter onGarum) and miso. As practices of animal husbandry improved through the ages, the imperative to preserve the valuable nutrition of wild meats eased bit by bit, causing the main protein source within jiangs to shift from animals to vegetables over generations. Descendants of these ancient jiangs persist today as well-known condiments, including hoisin, oyster sauce, and fermented black bean paste. Fermented black soybeans, ordouchi, may be one of the first fermented soy products to come out of China, with references dating as far back as 90 BCE.'
+          },
+          {
+            zh: '*Glycine max, aka the soybean.*',
+            en: '*Glycine max, aka the soybean.*'
+          },
+          {
+            zh: '中国现存的与miso最接近的黄豆浆，是将大豆蒸熟，与一半重量的小​​麦粉混合，然后压成砖块，放在芦苇席上，在露天进行野生发酵。几周后，刷掉砖表面生长的野生霉菌，并将砖与盐水混合，进一步发酵成粘稠的咸糊状物。',
+            en: 'China’s closest living relative to miso ishuang jiang(“yellow paste”), where soybeans are steamed and mixed with half their weight in wheat flour before being pressed into bricks and placed on reed mats to undergo wild fermentation in the open air. After a couple of weeks, wild molds that have grown on the surface of the bricks are brushed off and the bricks are mixed with a saline brine, further fermenting into a viscous, salty paste.'
+          },
+          {
+            zh: '当中国佛教僧侣于六世纪抵达日本“开悟”岛国人民时，他们也带来了姜。日本人吸收了发酵大豆的想法并付诸实践。',
+            en: 'When Chinese Buddhist monks arrived in Japan in the sixth century to “enlighten” the people of the island nation, they brought jiangs with them. The Japanese would absorb the idea of fermenting soybeans and run with it.'
+          },
+          {
+            zh: '公元七世纪，根据最近传入的非暴力佛法信仰，日本天武天皇禁止食用养殖动物的肉类。这项命令持续了六十多年，在人们的饮食中造成了一个空白，必须用素食蛋白质来源来填补。新鲜毛豆、豆腐和miso形式的大豆、大米和其他谷物占据了中心舞台。随着miso重要性的增加，它的实用性和多样性也随之增加。首先，日本miso制造商在将大豆引入发酵过程之前，首先在谷物上培养霉菌，从而更好地控制发酵过程。',
+            en: 'In the seventh century, in accordance with the recently introduced dharmic belief in nonviolence, the Japanese emperor Tenmu banned the consumption of farmed animal meat. The mandate, which stayed in effect for more than six decades, created a void in people’s diets that had to be filled by vegetarian sources of protein. Soybeans, in the form of fresh edamame, tofu, and miso, took center stage, along with rice and other grains. As miso’s importance grew, so too did its utility and variety. For starters, Japanese miso makers brought greater control to the fermentation process by first growing mold on grains, before introducing soybeans to the process.'
+          },
+          {
+            zh: 'Miso 制作成为一个专业行业。早期的miso（hishio）更像是一种粘稠的糊状物，而不是浓稠的糊状物。几个世纪以来，食谱不断完善并分解为当地特色菜。在日本，miso的品种有几十种，款式也多种多样。在miso的制作过程中有许多变量需要考虑，每个变量都能够对结果产生深远的影响：用于接种koji的曲霉菌的特定菌株； koji 生长的水稻或大麦的类型；煮黄豆的方法；以及miso 老化的时间长度和条件。结果的范围可以是红色和土色miso；浓郁、巧克力、咸味八丁miso；前往sweetsaikyo<第9学期>。 2015 年，当 Noma 的工作人员有机会花几个月的时间穿越日本，在东京短暂停留时，我们感到完全被宠坏了。',
+            en: 'Miso making became a specialized industry. Early miso (hishio) was more a gloopy mash than a thick paste. Over centuries, recipes were refined and fractured into local specialties. In Japan there are dozens upon dozens of varieties of miso, made in myriad styles. There are a number of variables to play with in the miso-making process, each capable of having a profound effect on the outcome: the specific strain ofAspergillusmold used to inoculate the koji; the type of rice or barley upon which the koji grows; the method of cooking the soybeans; and the length of time and conditions in which you age the miso. The results can range from red and earthyakamiso; to rich, chocolaty, saltyhatchomiso; to sweetsaikyomiso. In 2015, when the Noma staff had the chance to spend several months traveling through Japan for a pop-up stint in Tokyo, we felt utterly spoiled for choice.'
+          },
+          {
+            zh: '更不用说亚洲其他地区的豆酱传统了。例如，韩国有自己广泛的 jang 谱系，与 miso 同时发展。和中国的酱一样，酱是一个总括术语，涵盖了一系列发酵产品，但并非全部都是由大豆制成的。Cheongguk酱是一种快速发酵的、类似于miso的厚块状类似物，是在枯草芽孢杆菌的帮助下制成的。另一方面，大酱是一种劳动密集型的大豆发酵产品，与中国古代的黄酱有着惊人的相似之处。首先是豆豆——将干大豆煮熟至变软，然后压入木箱中直至变硬成砖块。然后将砖块取出并包裹在稻草中，其中干草特有的细菌和霉菌（包括野生曲霉菌）将豆酱砖进一步发酵两个月。最后，将豆酱转移到陶罐中，与盐水混合，发酵一年。由此产生的液体类似于一种更时髦的酱油，称为“ganjang”。发酵固体就是大酱，通常可以自行陈化几年。辣椒酱是我们一直以来最喜欢的发酵物之一，它也以豆酱开始，但含有大量的辣椒和糯米粉。',
+            en: 'And all this is to say nothing of the soybean-paste traditions in other parts of Asia. Korea, for instance, has its own broad lineage ofjangs that developed contemporaneously with misos. Like Chinese jiangs,jangis an umbrella term that covers a bevy of fermented products—many but not all made from soy.Cheonggukjangis a quick-fermented, chunky analogue to miso, made with the aid of the bacteriaBacillus subtilis.Doenjang, on the other hand, is a more labor-intensive soy-based ferment that bears striking resemblance to the ancienthuang jangsof China. It begins withmeju—dried soybeans that are cooked until tender and then pressed in a wooden box until they firm into a brick. The brick is then removed and wrapped in rice hay, where bacteria and molds endemic to the hay—including wildAspergillus—further ferment the meju brick for two months. Finally, the meju is transferred to earthenware pots, mixed with a saltwater brine, and left to ferment for a year. The resulting liquid is akin to a much funkier soy sauce, calledganjang. The fermented solids are doenjang, which is often allowed to age for several more years on its own.Gochujang, one of our all-time favorite ferments, also begins with meju, but contains a sizable addition of chiles and glutinous rice flour.'
+          },
+          {
+            zh: '豆瓣酱也传遍东南亚。在泰国，我们发现tai jiew，比miso更湿润、更时髦。印度尼西亚的 hastauco，由于添加了棕榈糖而非常甜。越南生产的粘稠度较低，您可以将其与夏季卷一起食用。事实上，这种技术已经传播到整个亚洲——甚至远至寒冷的Copenhagen——说明了它的巨大吸引力。 Miso具有传染性。',
+            en: 'Fermented bean pastes also spread throughout Southeast Asia. In Thailand, we findtai jiew, much wetter and funkier than miso. Indonesia hastauco, which is quite sweet from the addition of palm sugar. And Vietnam produces the less viscoustuong, which you may have consumed as a dip with summer rolls. The fact that this technique has spread throughout Asia—and even as far as chilly Copenhagen—speaks to its tremendous appeal. Miso is contagious.'
+          },
+          {
+            zh: '*Mejuare compacted bricks of fermented soybeans that serve as the basis of several Korean ferments.*',
+            en: '*Mejuare compacted bricks of fermented soybeans that serve as the basis of several Korean ferments.*'
+          },
+          {
+            zh: '<!-- text/part0010_split_003.html -->',
+            en: '<!-- text/part0010_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '02-the-acid-test-of-time',
@@ -4706,7 +8971,72 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 时间的严峻考验',
+            en: '# The Acid Test of Time'
+          },
+          {
+            zh: '醋是厨房的支柱，它无处不在且熟悉，以至于许多人并不认为它是发酵的产物。',
+            en: 'Vinegar is a kitchen pillar that is so ubiquitous and familiar that many people don’t think of it as a product of fermentation.'
+          },
+          {
+            zh: '事实上，醋是由一大批专性需氧细菌（需要空气才能发挥作用的细菌）将酒精发酵成乙酸而制成的。这些醋酸菌 (AAB) 涵盖多种物种。它们无处不在，通过空气传播，存在于大多数生物的表面，包括你。',
+            en: 'In fact, vinegar is made by the fermentation of alcohol into acetic acid by a large family of obligate aerobic bacteria (bacteria that need air to function). These acetic acid bacteria (AAB) encompass a wide array of species. They are omnipresent and airborne and found on surfaces of most living things, including you.'
+          },
+          {
+            zh: '与kombucha一样，醋是酵母和细菌合作的产物。首先，酵母将糖转化为酒精，然后AAB将酒精转化为乙酸。不同之处在于，醋制造商通常会选择具有一定酒精最大阈值的酵母，这意味着酵母在有机会消耗基础液体中的所有糖之前就会死亡。 （或者，他们有时会加热酒精来杀死酵母。）否则，许多酵母不适合在乙酸中生存，一旦 AAB 接管，它们最终会死亡。因此，虽然kombucha会不断变得越来越酸，直到所有可用的糖都转化为酒精（随后是酸），但醋将在一定的酸度下稳定下来。',
+            en: 'As with kombucha, vinegar is a product of the collaboration between yeast and bacteria. First, yeast converts sugar to alcohol, then AAB convert the alcohol to acetic acid. The difference is that vinegar-makers will often select yeasts with a certain maximum threshold for alcohol, meaning the yeast will die off before it’s had the chance to consume all the sugars in the base liquid. (Alternatively, they will sometimes heat the alcohol to kill the yeast.) Otherwise, many yeasts aren’t adapted to survive acetic acid and will end up dying once the AAB takes over. Thus, whereas kombucha will continually grow more and more acidic until all available sugar has been converted to alcohol (and subsequently acid), vinegar will plateau at a certain acidity.'
+          },
+          {
+            zh: '世界各地的醋品种与生产醋的文化一样多种多样，通常反映了该地区本土的酒精烈酒。从东到西，我们可以找到由大米、高粱、小米、大麦、猕猴桃、苹果、蜂蜜、浆果、椰子等发酵而成的醋。大多数这些产品中的可发酵糖都很容易获得，使酵母能够立即发挥作用。对于大米和大麦等谷物，酶必须首先将谷物中的淀粉分解成可发酵的糖。 （您可以在Koji章节中更详细地了解这一点。）',
+            en: 'Varieties of vinegars around the world are as diverse as the cultures that produce them, often reflecting the alcoholic spirits native to the region. East to West, we can find vinegars fermented from rice, sorghum, millet, barley, kiwi, apple, honey, berries, coconut, and beyond. The fermentable sugars in most of these products are readily available, allowing yeast to get to work straightaway. With grains like rice and barley, enzymes must first break down the starch in the grain into fermentable sugars. (You can read about this in more detail in theKojichapter.)'
+          },
+          {
+            zh: '最早的醋是从已经发酵成酒精的产品中提炼出来的，而且几乎可以肯定它们也是一个意外。在微生物学出现之前，酒精会酸成醋的原因一直是个谜。就像太阳肯定会升起和落下一样，酒如果放在露天也会变成醋。原因谁也说不准。',
+            en: 'The earliest vinegars were derived from products that had already been fermented into alcohol, and they were also almost certainly an accident. Before the advent of microbiology, the reasons alcohol would sour into vinegar were a mystery. As surely as the sun would rise and set, so too would wine become vinegar if left in the open air. The cause was anyone’s guess.'
+          },
+          {
+            zh: '但这并不是说人们不熟悉发酵过程。在整个人类文明时期，人们一直在用水果酿造酒精。在伊朗，扎格罗斯山脉附近新石器时代住宅的厨房出土的瓮碎片可以追溯到公元前 6000 年，上面有黄红色的酒渍。几千年后，古埃及人开始生产自己的葡萄酒精饮料。有证据表明，早在公元前 3000 年，埃及国王的坟墓中就埋藏着酒瓶。考古学家检查了这些罐子，还发现了醋的残留物。',
+            en: 'But that’s not to say that people were unfamiliar with the process of fermentation. People have been making alcohol from fruit for the entire duration of human civilization. In Iran, shards of urns dating back to 6000 BCE—excavated from what was once the kitchen of a Neolithic abode near the Zagros Mountains—display yellowish-red stains from wine. Thousands of years later, the ancient Egyptians were producing alcoholic grape beverages of their own. There’s evidence that as early as 3000 BCE, Egyptian kings were being buried with jars of wine in their tombs. Archaeologists have examined these jars and also found the residues of vinegar.'
+          },
+          {
+            zh: '*Humans have been fermenting wine, and subsequently vinegar, since at least 6000 BCE.*',
+            en: '*Humans have been fermenting wine, and subsequently vinegar, since at least 6000 BCE.*'
+          },
+          {
+            zh: '虽然古代文明可能并不确切知道为什么水果会变成酒，或者葡萄酒会变成醋，但他们了解这是如何发生的，托勒密时期的埃及纸莎草《安赫舍洪克的指示》就证明了这一点，其中包含一条关于葡萄酒保存的注释：“只要不打开酒，酒就会成熟。”两千年后，醋的神秘化不仅仅是烹饪上的飞跃，它颠覆了我们理解自然的方式。',
+            en: 'While ancient civilizations may not have known exactly why fruit turned to wine or wine to vinegar, they understoodhowit was happening, as evidenced by an Egyptian papyrus from the Ptolemaic period,The Instruction of Ankhsheshonq, which contains a note on the preservation of wine: “Wine matures as long as one does not open it.” Two millennia later, the demystification of vinegar was much more than a culinary leap—it upended the way we understood nature.'
+          },
+          {
+            zh: '*Antoine Lavoisier: a pillar of modern chemistry and one of the first to understand how wine becomes vinegar.*',
+            en: '*Antoine Lavoisier: a pillar of modern chemistry and one of the first to understand how wine becomes vinegar.*'
+          },
+          {
+            zh: '直到十八世纪中叶，人们普遍认为地球上的一切都是由四种基本元素组成：火、水、土和空气。现代化学的创始人之一安托万·拉瓦锡 (Antoine Lavoisier) 是第一个提出空气不是纯净的、一成不变的物质，而是多种成分的组合的人，其中包括氧气（他根据希腊语中的“酸形成剂”一词创造了一个术语）。通过使用硫和磷等非金属进行严格的实验，他正确地推断出当元素燃烧时，氧气从周围空气中被除去。这些反应的产物是酸。通过推断这些结果，拉瓦锡得出结论，葡萄酒转化为醋的原因是空气中的氧气，通过<术语26>所进行的“氧化”过程。',
+            en: 'Until midway through the eighteenth century, the prevailing wisdom was that everything on earth was composed from four basic elements: fire, water, earth, and air. Antoine Lavoisier, one of the founders of modern chemistry, was the first person to suggest that air was not a pure, immutable substance, but rather a combination of components, including oxygen (a term he coined from the Greek words for “acid former”). Through rigorous experimentation using nonmetals such as sulfur and phosphorous, he correctly deduced that oxygen was being removed from the surrounding air when the elements were burned. The products of those reactions were acids. By extrapolating these results, Lavoisier came to the conclusion that the transformation of wine into vinegar occurred because of oxygen in the air, through the process of “oxidation” as carried out by AAB.'
+          },
+          {
+            zh: '这种认知飞跃传遍了整个欧洲，并导致利用氧化原理的醋生产取得了进步。醋制造商能够通过增加葡萄酒的表面积来加快这一过程。德国醋制造商开发了“快速工艺”，将葡萄酒滴入松散的木片中，同时用新鲜空气吹入液体。数百年后，工匠们仍然采用这种方法。',
+            en: 'This cognitive leap spread across Europe and led to advancements in vinegar production that exploited the idea of oxidation. Vinegar-makers were able to speed up the process by increasing the surface area of wine. German vinegar-makers developed “the quick process” to drip wine through loosely packed wood chips while simultaneously blowing the liquid with fresh air. Hundreds of years later, artisans still employ the method.'
+          },
+          {
+            zh: '我们在 Noma 中以我们自己的方式利用了相同的想法。我们使用普通的气泵（您可以在任何宠物商店的水族箱部分找到的那种）将空气输送到我们的醋中，为AAB提供快速工作所需的氧气。通过像对待宠物金鱼一样对待我们的细菌，我们可以将发酵时间从几个月缩短到几周。您可以在佩里醋的深入配方中找到更多详细信息。',
+            en: 'We take advantage of the same idea in our own way at Noma. Using a common air pump—the kind you’ll find in the aquarium section of any pet store—we send air through our would-be vinegar, providing AAB with the oxygen they need to work quickly. By treating our bacteria as if they were pet goldfish, we can cut our fermentation time from a few months to a couple of weeks. You’ll find more details in the in-depth recipe forPerry Vinegar.'
+          },
+          {
+            zh: '<!-- text/part0008_split_003.html -->',
+            en: '<!-- text/part0008_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '02-upload-streaming-high-level',
@@ -4718,6 +9048,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 高层架构：上传流与播放流分离'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -4839,7 +9178,44 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 是什么让发酵变得美味？',
+            en: '# What Makes Fermentation Delicious?'
+          },
+          {
+            zh: '味觉是人体的一种功能，要了解什么对我们来说味道好，我们必须了解它在我们进化史上的作用。我们所有的感官都有助于我们的生存。我们的味觉和嗅觉经过数亿年的形成，激励我们吃对身体有益的食物。我们的舌头和嗅觉系统是极其复杂的器官，它们从我们周围的世界吸收化学信号并将这些信息传输到我们的大脑。味道让我们知道成熟的水果是甜的，因此富含热量的糖，或者植物的茎是苦的，可能有毒。我们生来就对某些味道感到厌恶（这种感觉会随着经验而增强），导致我们对在病原菌手中腐烂的肉的恶臭感到作呕，同时我们将火上烤肉的气味记录为令人垂涎欲滴的美味，因为它向我们的大脑表明我们即将吃一些富含蛋白质的东西。',
+            en: 'Taste is a function of the human body, and to understand what tastes good to us, we have to understand its role in our evolutionary history. All our senses serve to aid in our survival. Our senses of taste and smell have been shaped over hundreds of millions of years to incentivize us to eat foods that are beneficial to our bodies. Our tongues and olfactory system are unbelievably complicated organs that take in chemical cues from the world around us and transmit that information to our brains. Taste lets us know that a ripe piece of fruit is sweet and thus full of calorie-rich sugar, or that a plant’s stalk is bitter and potentially poisonous. We are born with aversions to certain flavors (a sense that becomes reinforced by experience), leading us to gag at the stench of rotting flesh decaying at the hands of pathogenic bacteria, while we register the scent of meat roasting over fire as mouthwateringly delicious, because it indicates to our brains that we’re about to eat something rich in proteins.'
+          },
+          {
+            zh: '在任何给定的发酵中都有许多生物过程在起作用，但从味道的角度来看，对我们最重要的是那些将大分子链分解为其组成部分的生物过程。大米、大麦、豌豆和面包等食物中的淀粉实际上是葡萄糖（一种简单的糖）分子连接的长链。大豆和肉类中大量存在蛋白质，它们以类似的方式由长而蜿蜒的氨基酸链构成，氨基酸是地球生命各个方面所必需的有机小分子。其中一种氨基酸——谷氨酸，在我们的味觉感受器上被记录为鲜味——一种难以捉摸、令人渴望的品质，将蘑菇、西红柿、奶酪、肉类和酱油等食物联系在一起。',
+            en: 'There are numerous biological processes at work in any given fermentation, but the ones that matter most to us from a taste perspective are those that break down large chains of molecules into their constituent parts. The starches in foods like rice, barley, peas, and bread are actually long chains of linked molecules of glucose, a simple sugar. Proteins, which can be found in large supply in soybeans and meat, are constructed in a similar fashion from lengthy, winding chains of amino acids—small organic molecules essential to all aspects of life on earth. One of those amino acids, glutamic acid, registers on our taste receptors as umami—the elusive, crave-able quality that connects foods like mushrooms, tomatoes, cheese, meat, and soy sauce.'
+          },
+          {
+            zh: '那么是什么让发酵效果如此之好呢？淀粉和蛋白质分子本身太大，我们的身体无法感觉到甜味或鲜味丰富。然而，一旦通过发酵分解成单糖和游离氨基酸，食物就会变得更加美味。用大米制成的Koji具有普通米饭所没有的强烈甜味。发酵成garum的生牛肉有一种原始水平的美味。',
+            en: 'So what makes fermentation so good? On their own, starch and protein molecules are too large for our bodies to register as sweet or umami-rich. However, once broken down into simple sugars and free amino acids through fermentation, foods become more obviously delicious. Koji made from rice has an intense sweetness that plain cooked rice doesn’t. Raw beef left to ferment into garum has a savoriness that speaks to us on a primitive level.'
+          },
+          {
+            zh: '简而言之，负责发酵的微生物将更复杂的食物转化为人体所需的原材料，使它们更容易消化、更有营养、更美味。我们对这些微生物产生的味道的喜爱使它们得以进化并留在我们公司。人类已经发酵了很长时间，以至于许多微生物都可以被认为是驯化的，就像家猫或狗一样。但是，虽然宠物在饥饿或寒冷时会渴望地盯着你，但微生物却很难解读。这是一种互惠互利的关系，但需要付出一些努力才能让每个人都满意。这就是发酵罐的工作。',
+            en: 'Simply put, the microbes responsible for fermentation transform more complicated foodstuffs into the raw material your body needs, rendering them more easily digestible, nutritious, and delicious. Our affection for the tastes those microbes produce has allowed them to evolve and stay in our company. Humans have been fermenting for so long that many of the microscopic agents responsible can be considered domesticated, just like household cats or dogs. But while pets can stare longingly at you if they’re hungry or cold, microbes are a bit trickier to read. It’s a mutually beneficial relationship, but one that needs a bit of work to keep everyone happy. That’s the job of the fermenter.'
+          },
+          {
+            zh: '*Proteins are made of tangled chains of amino acids, life’s building blocks.*',
+            en: '*Proteins are made of tangled chains of amino acids, life’s building blocks.*'
+          },
+          {
+            zh: '<!-- text/part0005_split_003.html -->',
+            en: '<!-- text/part0005_split_003.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-beyond-rice',
@@ -4853,7 +9229,60 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 超越大米',
+            en: '# Beyond Rice'
+          },
+          {
+            zh: '意大利牧师兼生物学家皮埃尔·安东尼奥·米凯利 (Pier Antonio Micheli) 于 1729 年首次对曲霉属进行了分类。对他来说，霉菌的茎和孢子的形状让人想起曲霉，即天主教仪式中用于洒圣水的棍子。该物种的名称“oryzae”源自拉丁语中的“稻米”一词。但这只是koji故事的一小部分。',
+            en: 'The Italian priest and biologist Pier Antonio Micheli first classified the genusAspergillusin 1729. To him, the shape of the mold’s stalk and spores was reminiscent of an aspergillum, the staff used for sprinkling holy water in Catholic ceremonies. The species name,oryzae, is derived from the Latin word for “rice.” But that tells only a small part of koji’s story.'
+          },
+          {
+            zh: '在古代日本，大米是贵族的食物。大多数人，包括农民和农民，吃不起大米，他们种植大米并送给封建领主作为纳税。他们的自给饮食更倾向于大麦等谷物，因此，日本的大部分koji都是以大米以外的谷物种植的。',
+            en: 'In ancient Japan, rice was the food of the aristocracy. The majority of the population, including peasants and farmers, couldn’t afford to eat rice, which they grew and sent to feudal lords as tax payments. Their subsistence diets leaned more toward grains like barley, and as a result, much of the koji in Japan was grown on grains other than rice.'
+          },
+          {
+            zh: '随着时间的推移，经济的变化和社会分层的变化意味着像用大麦koji制成的miso这样的产品已经过时了。在当今的日本，大米 koji 是更常见和更受欢迎的商品。在<学期0>，我们在<学期5>种植珍珠大麦。',
+            en: 'Over time, shifts in the economy and changes in social stratification meant products like miso made with barley koji fell out of fashion. In Japan today, rice koji is the more common and preferred commodity. At Noma, we grow koji on pearl barley.'
+          },
+          {
+            zh: '*Barley was a foundational crop of ancient civilization and is our preferred substrate upon which to grow koji.*',
+            en: '*Barley was a foundational crop of ancient civilization and is our preferred substrate upon which to grow koji.*'
+          },
+          {
+            zh: '最初，使用大麦的决定是根据地区情况而定的。我们想使用这个神奇的模具，但将其应用到我们的地区。鉴于北欧啤酒生产的悠久历史，我们自然而然地转向了大麦。多年后，当我们在 2015 年将全体员工搬到日本开设快闪店时，我们很高兴第一次尝试在大米上种植koji，但很快又恢复种植大麦，因为我们发现我们更喜欢它的味道。 米粒在不同谷物上的生长反应不同，会根据可用营养物质的数量产生不同的代谢物。大米比大麦含有更多的淀粉，因此，它对我们的口味来说可能有点太甜了。',
+            en: 'At first, the decision to use barley was based on locale. We wanted to use this amazing mold, but apply it to our region. Given the rich history of beer production in northern Europe, naturally we turned to barley. Years later, when we moved our entire staff to Japan for a pop-up in 2015, we were excited to try growing koji on rice for the first time, but soon reverted to barley because we found we enjoyed its flavor more.A. oryzaereacts differently to being grown on different grains, producing distinct metabolites in response to the quantities of nutrients available. Rice contains more starch than barley does, and as a result, it can get a bit too sweet for our tastes.'
+          },
+          {
+            zh: '此外，当进行二次发酵时，例如当我们lacto发酵koji以获得酸水时，额外的糖会过度刺激发酵，从而导致异味。',
+            en: 'Furthermore, when carried through secondary fermentations, as when we lacto-ferment koji for a sour water, the extra sugar fuels fermentation with a bit too much gusto, resulting in off-flavors.'
+          },
+          {
+            zh: '我们已经尝试过接种许多其他谷物，但继续回到大麦，但这并不意味着您应该忽略其他基质。在 Noma，我们已经用 A 接种了从小米到新鲜坚果的所有东西。米霉。黑麦 koji 具有一定的肉味和风味，让我们想起帕尔马干酪。接种koji的Konini（紫色小麦的传统品种）具有浓郁的坚果味。小麦 koji，略带面包味，带有大量花果香。',
+            en: 'We’ve experimented with inoculating many other grains, but keep coming back to barley, though that doesn’t mean you should ignore other substrates. At Noma, we’ve inoculated everything from millet to fresh nuts withA. oryzae. Rye koji has a certain meatiness and flavors that remind us of Parmigiano cheese. Konini (a heritage variety of purple wheat) inoculated with koji has an intense nuttiness. Wheat koji, a slight breadiness with lots of floral fruit.'
+          },
+          {
+            zh: '所有这些谷物在煮熟和接种之前都需要抛光。回想一下，种子中的淀粉被包裹在坚固耐用且具有保护作用的外壳内。 Koji 让它的菌丝穿过外层到达淀粉可能会有点困难。这并不是不可能的壮举，但koji在去皮、麸皮和胚芽的谷物上生长得更好。您可以从日本清酒的分级中看到这一点。清酒制造商在接种koji之前先将大米的外层磨掉——磨掉的越多，清酒就越贵。我们专门从日本带回了一台台面谷物抛光机，以帮助我们获得我们想要变成koji的谷物内层。',
+            en: 'All these grains require polishing before being cooked and inoculated. Recall that the starch in a seed is packed within husks that are built to be durable and protective. Koji can have a bit of a difficult time getting its hyphae through the outer layers to reach the starch. It’s not an impossible feat, but koji grows much better on grains with the husk, bran, and germ removed. You can see this in the grading of Japanese sakes. Sake makers polish off the outer layers of the rice before inoculating it with koji—the more that’s polished off, the more expensive the sake. We brought back a countertop grain polisher from Japan specifically to help us get to the inner layers of grains we wanted to turn into koji.'
+          },
+          {
+            zh: '如果您决定尝试抛光和发酵不同的谷物，请记住谷物中的蛋白质位于谷粒的外部区域，就在麸皮下方。过多的抛光会去除这种蛋白质外壳，而蛋白质外壳是koji大部分风味的来源，也是一些二次发酵中鲜味的来源。这些味道在清酒中大多是不受欢迎的，但对于我们在 koji 制作中追求的目标至关重要。换句话说，你必须尝试擦掉麸皮，同时保持蛋白质外壳完整。',
+            en: 'Should you decide to experiment with polishing and fermenting different grains, keep in mind that the proteins in grains sit on the outer region of the kernel, just beneath the bran. Too much polishing can remove this protein coat, which is the source of much of koji’s flavor—as well as the umami in some secondary ferments. These flavors are mostly undesirable in sake, but essential to what we’re chasing with koji making. In other words, you have to try to polish off the bran while leaving the protein coat intact.'
+          },
+          {
+            zh: '<!-- text/part0009_split_004.html -->',
+            en: '<!-- text/part0009_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-block-server-consistency',
@@ -4865,6 +9294,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Block Server：增量同步与强一致性'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -4985,6 +9423,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 深入关键组件，而不是陷入所有细节'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '本节要讲如何在高层设计之后选择深入方向。你要能判断哪些组件最值得展开，怎样围绕机制、取舍和故障流深入，而不是把时间花在无关实现细节上。'
@@ -5102,6 +9549,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Feed 读取、缓存与扩展'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -5221,7 +9677,48 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 鱼消化鱼',
+            en: '# Fish Digesting Fish'
+          },
+          {
+            zh: '*Autolysisis the term used to describe an organism digesting itself.*',
+            en: '*Autolysisis the term used to describe an organism digesting itself.*'
+          },
+          {
+            zh: '鱼露的臭味对于任何用过鱼露烹饪过的人来说都不是什么新鲜事。但鱼露实际上并没有鱼腥味——至少，如果做得好的话就不会。鱼腥味是鱼肉和脂肪被细菌破坏的结果。如果garum中的鱼不新鲜，那么成品garum就会受到影响。鱼内脏——制造garum的主要催化剂——有一种与腐烂的鱼截然不同的辛辣味，更泥土味，而且不那么刺鼻。',
+            en: 'The fact that fish sauce stinks is nothing new to anyone who’s ever cooked with it. But fish sauce doesn’t actually smellfishy—at least, not if it’s made well. Fishiness is a result of fish flesh and fats being spoiled by bacteria. If the fish in a garum isn’t fresh, the finished garum will suffer for it. Fish innards—the main catalysts responsible for making garum—have a pungency that’s quite different, earthier and less offensive than rotting fish.'
+          },
+          {
+            zh: 'garum的传统制作方法结合了野生发酵和自溶。自溶过程是生物体的组织或细胞被生物体本身产生的酶分解的过程。换句话说，为了制作garum，你需要将动物的正常消化过程转变为自身。',
+            en: 'The traditional method of making garum combines wild fermentation with autolysis. An autolytic process is one in which an organism’s tissue or cells are broken down by enzymes produced by the organism itself. In other words, to make garum, you turn an animal’s normal digestive process on itself.'
+          },
+          {
+            zh: '所有动物的肉都含有有助于自溶的蛋白水解（蛋白质分解）酶。如果你想知道为什么你现在不消化自己，那是因为这些酶的数量极少，并且在有机体的健康细胞中，它们被隔离在称为溶酶体的细胞器内。但一旦动物死亡，它的酶就会不加区别地作用于其肉体。以干熟肉为例：当一块牛肉放在冰箱的架子上时，其中所含的酶会慢慢分解其结缔组织和肌肉，使肉变嫩，并随着蛋白质被剪断成其组成氨基酸而变得更加美味。',
+            en: 'The flesh of all animals contains proteolytic (protein-dismantling) enzymes that contribute to autolysis. If you’re wondering why you’re not digesting yourself right now, it’s because those enzymes are present in extremely small quantities, and in an organism’s healthy cells, they are sequestered within an organelle known as a lysosome. But once an animal dies, its enzymes act upon its flesh indiscriminately. Take dry-aged meat, for example: When a cut of beef is left on a shelf in the fridge, the enzymes it contains will slowly break down its connective tissue and muscle, tenderizing the meat and making it more delicious as the proteins are snipped into their constituent amino acids.'
+          },
+          {
+            zh: '制作garum本质上与干式熟成牛肉相同，只是更湿、更快、更浓郁。 garum 不是利用动物肉中的酶，而是依赖于胃肠道中的酶，这些酶更加浓缩和有效。以传统方式制作garum的一个重要部分是将整条鱼切碎——内脏、鱼肉等等。当鱼放在盛有盐的桶中时，消化液（胃酸和肠酶等）会与通常分开的鱼肉接触。汁液作用于鱼肉，将蛋白质分解为氨基酸，将脂肪分解为脂肪酸。这种盐具有双重作用，加速自溶，同时保护混合物免受有害微生物的侵害。也就是说，有一些耐盐（耐盐）微生物生活在咸鱼泥中，为 garum 的挥发性香气增添了香气，就像 shoyu 的有益微生物群落一样。',
+            en: 'Making garum is essentially the same thing as dry-aging beef, only wetter, faster, and more intense. Rather than harnessing the enzymes in an animal’s flesh, garums depend on the enzymes in the gastrointestinal tract, which are even more concentrated and potent. An essential part of making garums the traditional way is to chop up the whole fish—guts, flesh, and all. As the fish sits in vats with salt, the digestive juices (both stomach acids and intestinal enzymes alike) come into contact with the flesh of the fish they’re normally kept separate from. The juices go to work on the fish flesh, breaking down proteins into their constituent amino acids, and fats into fatty acids. The salt does double duty, expediting autolysis while simultaneously safeguarding the mixture against harmful microbes. That said, therearea handful of halotolerant (salt-tolerant) microbes that live in a mash of saline fish, adding to the garum’s bouquet of volatile aromas in much the same way that shoyu’s community of beneficial microbes does.'
+          },
+          {
+            zh: '酶需要悬浮在液体介质中才能有效发挥作用；否则它们将无法从一条蛋白质链漂浮到另一条蛋白质链，从而将它们剪切成氨基酸。盐通过渗透作用将鱼中的水分吸到周围环境中，为酶的传播创造一个粘稠的环境。当鱼的肌肉分解时，盐就更容易吸出更多的水。这个过程像滚雪球一样，将固体鱼液化成garum。 （热量也会引发酶促反应，这解释了为什么 garum 传统上在地中海炎热的阳光下发酵。古迦太基夏季的温度徘徊在 30°C/86°F 左右；在这种高温下，garum 将在 6 到 9 个月内接近完成。）',
+            en: 'Enzymes need to be suspended in a liquid medium to function efficiently; otherwise they won’t be able to float from one protein chain to another, snipping them into amino acids as they go. Salt draws moisture out of the fish into its surrounding environment through osmosis, creating a soupy environment for enzymes to travel through. As the fish’s muscles break down, the salt has an even easier time drawing out more water. The process snowballs, liquefying solid fish into garum. (Heat also precipitates enzymatic reactions, which explains why garums were traditionally fermented under the hot Mediterranean sun. Temperatures hovered around 30°C/86°F in the summer in ancient Carthage; a garum would near completion in 6 to 9 months in that kind of heat.)'
+          },
+          {
+            zh: '<!-- text/part0012_split_004.html -->',
+            en: '<!-- text/part0012_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-hash-function-and-base62',
@@ -5233,6 +9730,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 短码生成：Hash 还是 Base62'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -5358,7 +9864,64 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 历史方法和手工品味',
+            en: '# Historical Methods and Hand Taste'
+          },
+          {
+            zh: '在Noma，尽管我们尽最大努力保持烹饪创新的先锋地位，但我们也深感有责任以尊重的方式了解历史。我们发现在尝试传统之前了解传统具有巨大的价值。我们的团队多次拜访了日本的miso生产商，包括大型工厂和小型工匠，积累了宝贵的经验，帮助我们找到了自己的道路。在我们详细了解北欧版本《TERM9》的制作细节之前，我们先来看看《TERM9》的制作在其大部分历史中是什么样子的。',
+            en: 'At Noma, even though we do our best to stay in the vanguard of culinary innovation, we feel a deep responsibility to be respectfully informed by history. We find there’s tremendous value in understanding tradition before toying with it. Our team has paid many visits to miso producers in Japan, both large factories and small artisans, gathering invaluable experience that has helped us find our own way. Before we get into the particulars of making a Nordic version of miso, let’s take a gander at what miso production looked like for much of its history.'
+          },
+          {
+            zh: '早期，几乎所有用来制作miso的东西都是用木头建造的：铲子、托盘、大桶，而建筑物本身是用硬木（通常是日本雪松）制成的。巨大的铁锅将水煮沸，以蒸稻草篮中的稻米和大豆。将冷却的大米铺在一张大桌子上并接种细粉Aspergillus oryzae孢子。工人们用铲子翻动大米，确保孢子均匀附着，然后将其转移到雪松托盘上，然后将其堆放在温暖潮湿的房间（kojimuro）中。',
+            en: 'In the early days, almost everything used to make miso was built from wood: spades, trays, large vats, and the buildings themselves were crafted from hardwood, usually Japanese cedar. Massive iron cauldrons would boil the water to steam rice and soybeans held in straw baskets. Cooled rice was spread on a large table and inoculated with a fine dusting ofAspergillus oryzaespores. Workers used spades to turn the rice, ensuring that the spores took hold evenly, then transferred it to cedar trays, which were stacked in a warm, humid room (akojimuro).'
+          },
+          {
+            zh: '大豆被煮至变软，并在人们的脚下碾碎。然后，工人们将准备好的koji和盐与豆子混合，然后将一桶桶混合物搬上梯子，倒入巨大的雪松发酵桶中。用重石压住盖子会压实混合物，排除空气并导致更均匀的发酵。根据品种的不同，miso 会在雪松容器中陈化一到三年。',
+            en: 'Soybeans were cooked until tender and crushed beneath men’s feet. Workers would then mix the prepared koji and salt with the beans, then ferry buckets of the mixture up stepladders to be emptied into huge cedar fermenting vats. Lids weighted down with heavy rocks would compact the mixture, removing air and leading to more uniform fermentation. Depending on the variety, the miso would age in its cedar container for anywhere from one to three years.'
+          },
+          {
+            zh: '*Massive cedar vats known askiokecan hold thousands of kilograms of miso at a time.*',
+            en: '*Massive cedar vats known askiokecan hold thousands of kilograms of miso at a time.*'
+          },
+          {
+            zh: '当miso发酵时，咸味且富含鲜味的汁液会流到顶部并形成水坑。这种液体后来被称为astamari。它通常比它的后代 shoyu 咸度更低，粘度更大。中文叫“江油”。你可能最了解它是酱油。用于储存miso的巨大木仓库缺乏太多的温度控制手段。冬天发酵会缓慢进行，夏天又会加速。没有两批产品是完全相同的；每一种都是特定时间和独特发酵条件的产物。',
+            en: 'As the miso fermented, salty, umami-rich juices would flow to the top and form a puddle. This liquid came to be known astamari. It’s usually less salty and more viscous than its descendant, shoyu. In Chinese, it’s calledjiang you. You probably know it best as soy sauce. The vast wooden warehouses used to store the miso lacked much in the way of temperature control. Fermentation would slow to a crawl in the winter and speed up again in the summer. No two batches were ever identical; each was a product of the specific time and unique conditions under which it fermented.'
+          },
+          {
+            zh: '现在，在您将其视为一个古怪但毫无意义的旧时代故事之前，请考虑一下爱德华·诺顿·洛伦兹（Edward Norton Lorenz）人的智慧。洛伦兹在第二次世界大战期间担任美国陆军天气预报员，返回美国后获得麻省理工学院气象学博士学位。他在天气预报领域的广泛工作使他对线性统计方法持谨慎态度，即未来发生的事情可能是现在发生的事情的直接推断的想法，这是可以理解的。洛伦兹知道天气是通过非常非线性的现象起作用的。他在 1963 年发表在气象杂志上的一篇论文中写道：“两种相差难以察觉的状态最终可能演变成两种截然不同的状态……如果观测出现任何错误，对遥远未来的状态进行预测很可能是不可能的。”',
+            en: 'Now, before you write this off as a quaint but pointless tale of the old days, consider the wisdom of a man named Edward Norton Lorenz. Lorenz served as a weather forecaster in the US Army during the Second World War before earning a doctorate in meteorology from MIT upon his return to the States. His extensive work in the field of weather prediction made him understandably wary of linear statistical methods—that is, the idea that future occurrences could be direct extrapolations of what’s happening now. Lorenz knew that the weather operates on very nonlinear phenomena. In a paper published in a meteorological journal in 1963, he wrote: “Two states differing by imperceptible amounts may eventually evolve into two considerably different states . . . Should there be any error in observation, a prediction of the state in the distant future may well be impossible.”'
+          },
+          {
+            zh: '*Sensitive dependence on initial conditions: the more complex a system, the more minute variations affect the outcome.*',
+            en: '*Sensitive dependence on initial conditions: the more complex a system, the more minute variations affect the outcome.*'
+          },
+          {
+            zh: '洛伦兹的思想后来成为混沌理论的基础。他经常被认为创造了“蝴蝶效应”这个术语，该效应描述了在有足够时间的情况下，具有无数微小差异点的复杂系统如何以截然不同的方式演化。换句话说，像蝴蝶扇动翅膀这样微不足道的事情也可能产生干扰，导致几周后发生龙卷风。发酵的世界让我们在现实生活中看到这一原理的实际应用。无论您是陈酿威士忌还是醋、酿造清酒还是制作miso，过程越复杂，过程开始时的微小差异所产生的影响就越大。发酵时间越长，这些差异就越明显。',
+            en: 'Lorenz’s thinking would become the foundation of chaos theory. He’s often credited with coining the term “butterfly effect,” which describes how complex systems with innumerable points of minute differentiation can evolve in dramatically different ways, given enough time. Put another way, something as insignificant as a butterfly flapping its wings can create disturbances that result in a tornado weeks later. The world of fermentation gives us a real-life look at this principle in action. Whether you’re aging whiskey or vinegar, brewing sake, or making miso, the more complex the process, the greater the effect small differences at the outset of the process will have. And the longer it takes to ferment something, the more pronounced those differences become.'
+          },
+          {
+            zh: '*“Hand taste” describes the distinct character of a ferment imparted by its maker and the time and place in which it was made.*',
+            en: '*“Hand taste” describes the distinct character of a ferment imparted by its maker and the time and place in which it was made.*'
+          },
+          {
+            zh: '韩国工匠经常将“手工味道”（son-mat）视为个体厨师赋予食物的不可复制的品质，而工厂生产的批次产品则没有这种品质。手味本质上是混沌理论在起作用。 miso 的制作和陈化方式的微小差异，miso 制造者皮肤和衣服上当天或一小时的细菌数量，温度、气压或湿度的随机变化，都会对发酵的发展产生巨大影响，从而确保没有两批产品会完全相同。厨师和工匠就是这样偶然发现新口味和新创意的。这就是发酵变得不可预测且令人兴奋的原因。',
+            en: 'Korean artisans often speak of “hand taste” (son-mat) as an irreplicable quality imbued by individual cooks to their food, a quality absent from factory-made batches. Hand taste, in essence, is chaos theory at work. Minute differences in how miso is made and aged, that day’s or hour’s population of bacteria on the miso maker’s skin and clothes, random variations in temperature, air pressure, or humidity, have such an outsize effect on the ferment’s development that they ensure no two batches will ever be exactly the same. It’s how cooks and artisans stumble into new flavors and new creations. And it’s what makes fermentation unpredictable and thrilling.'
+          },
+          {
+            zh: '<!-- text/part0010_split_004.html -->',
+            en: '<!-- text/part0010_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-load-balancer-and-replication',
@@ -5370,6 +9933,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 用负载均衡和数据库复制提高可用性'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -5488,6 +10060,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 节点增删时只迁移必要数据'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -5614,6 +10195,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 数据如何分片与复制'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能区分分片和复制，说明 key 如何定位到分片、副本如何放置，以及分片迁移和副本数量对系统容量、可用性、成本的影响。'
@@ -5736,7 +10326,28 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 让<学期25>投入工作',
+            en: '# Putting LAB to Work'
+          },
+          {
+            zh: '如前所述，lacto 发酵非常简单，这在很大程度上要归功于 LAB 几乎随处可见。话虽这么说，在LAB表演之前必须满足一些基本条件（就像摇滚明星一样）。以下是您应该采取的各种措施，以确保lacto发酵成功。',
+            en: 'As mentioned earlier, lacto-fermentation is gloriously uncomplicated, thanks in no small part to the fact that LAB can be found almost everywhere. That being said, there are a few basic conditions that must be met before LAB will perform at all (much like rock stars). Here are the various things you should do to ensure a successful lacto-fermentation.'
+          },
+          {
+            zh: '<!-- text/part0006_split_004.html -->',
+            en: '<!-- text/part0006_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-qps-and-storage-estimation',
@@ -5748,6 +10359,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 用 Twitter 示例练习 QPS 与存储估算'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -5867,6 +10487,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 通知可靠性、幂等与用户控制'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能解释通知系统里的重复、丢失、乱序和打扰是怎么产生的，并能设计幂等、重试、死信队列、频控、合并、退订和免打扰机制。你还要能说明可靠性不是无限重试，而是按通知类型做分级保证。'
@@ -5985,7 +10614,68 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 进行你自己的变黑实验',
+            en: '# Running Your Own Blackening Experiments'
+          },
+          {
+            zh: '事实上，我们仍在Noma学习如何充分利用变黑的水果和蔬菜。我们只触及了所有可以通过黑化制造的不同产品的表面。但迄今为止我们所取得的成功令人鼓舞。例如，黑苹果就很神奇，尤其是在你把它们晒干之后。苹果变黑时从苹果中滤出的汁液也很美味——您可以直接饮用，也可以将其发酵成黑苹果酒。在餐厅，我们提供了令人振奋的第一道菜，新鲜苹果腌制在去年的黑苹果酱中，真正凸显了黑色水果和新鲜水果之间的对比。',
+            en: 'The truth is, we’re still learning how to put blackened fruits and vegetables to full use at Noma. We’ve only scratched the surface of all the different products that can be made by blackening. But the successes we’ve had so far have been encouraging. Blackened apples are amazing, for instance, especially after you dry them. The juice that leaches out of the apples as they blacken is beautiful as well—you can drink it all on its own, or ferment it into black cider. At the restaurant, we’ve served an invigorating first course of fresh apples marinated in a paste of black apples from the previous year that really highlights the contrast between blackened and fresh fruit.'
+          },
+          {
+            zh: '目前尚不清楚其他哪些成分可能会从变黑中受益，但这就是探索的美妙之处。这是一个尚未被深入研究的领域。在这个领域对我们推动最大的人是Copenhagen中Amass餐厅的Matt Orlando。他在变黑方面进行了很多尝试，跟随他非常鼓舞人心——他遥遥领先。',
+            en: 'It’s not clear what other ingredients might benefit from blackening, but such is the beauty of exploration. It’s a field that has not been studied very much at all. The person who has pushed us the most in this realm is Matt Orlando of Amass restaurant in Copenhagen. He’s experimented a lot with blackening, and it’s been very inspiring to follow him—he’s way ahead of the curve.'
+          },
+          {
+            zh: '当然，还有一整颗未变黑的原料等待着您尝试。在我们的发酵实验室中，我们将许多不同的水果和蔬菜放入这个过程中，从卷心菜（不太好）到玉米（一般）再到栗子（非常非常好！）。经过反复试验，我们得出了一组参数，这些参数似乎决定了某种特定的水果或蔬菜是否值得成为黑化候选者。大蒜，一种典型的黑色蔬菜，实际上为这个问题提供了很多线索。以下每个因素都解释了为什么大蒜特别适合变黑，以及在其他想要变黑的东西中应该注意什么。',
+            en: 'Of course, there’s an entire planet of ingredients that remain unblackened, waiting for you to give them a whirl. In our fermentation lab, we’ve put a lot of different fruits and vegetables through this process, from cabbage (not so good) to corn (so-so) to chestnuts (so, so good!). Trial and error has edged us toward a set of parameters that seem to dictate whether a particular fruit or vegetable makes for a worthy blackening candidate. Garlic, the quintessential blackened vegetable, actually sheds a lot of light on this subject. Each of the following factors explains why garlic is particularly well suited for blackening, and what you should look for in other things you want to blacken.'
+          },
+          {
+            zh: '水分含量和保留率',
+            en: 'Moisture Content and Retention'
+          },
+          {
+            zh: '水分对于蔬菜和水果的酶促褐变非常重要，这就是为什么脱水是一种如此有效的保存方法。如果成分太干，它就不会变黑。大蒜并不是一种特别潮湿的成分，但它能很好地保持水分。多层皮肤可以有效防止水分快速流失，虽然大蒜永远不会完全干燥，但它的干燥程度足以促进Maillard反应。',
+            en: 'Moisture is important to the enzymatic browning of vegetables and fruits—that’s why dehydration is such an effective means of preservation. If an ingredient is too dry, it won’t blacken. Garlic isn’t an especially wet ingredient, but it’s good at retaining what moisture it has. The multiple layers of skin make for a strong guard against rapid moisture loss, and while the garlic never dries out completely, it dries enough to facilitate the Maillard reaction.'
+          },
+          {
+            zh: '含有大量水分的水果或蔬菜会变黑，但您将面临不同的挑战：在大多数情况下，苹果和梨等水果的薄皮会脱落，果肉会分解。在任何有趣的味道出现之前，它们就已经失去了形状。这个问题可以得到缓解，正如您将在黑苹果中看到的那样，但像大蒜这样的东西自然具有适当的含水量和防止水分流失的能力，以提供具有大量特性并保持其形状的最终产品。',
+            en: 'Fruits or vegetables that contain large amounts of water will blacken, but you’ll face a different challenge: For the most part, the thin skins of fruits like apples and pears will give out and their flesh will disintegrate. They lose their shape long before any interesting flavors show up. This problem can be mitigated, as you’ll see inBlack Apples, but something like garlic naturally has the right water content and defense against moisture loss to deliver a final product that has tons of character and holds on to its form.'
+          },
+          {
+            zh: '含糖量',
+            en: 'Sugar Content'
+          },
+          {
+            zh: '如果您曾经用刀的宽边压碎过一瓣大蒜，那么您就会熟悉由此产生的粘稠糊状物。发生这种情况是因为大蒜和葱科的许多其他成员一样，含有大量的糖。由于其辛辣味，您可能不会认为生大蒜是甜的，但其丰富的糖分对于变黑过程中发生的缓慢Maillard反应和焦糖化是必需的。缺乏糖的成分——例如大头菜，我们认为它很有希望成为一种黑色蔬菜——经过热处理后味道非常糟糕。如果没有 Maillard 反应产生的和谐风味主干，黑化会因热解而产生浓重、辛辣的味道，而没有甜味来缓和它们。',
+            en: 'If you’ve ever crushed a clove of garlic with the broad side of a knife, you’re familiar with the sticky, tacky paste you get as a result. This happens because garlic, like many other members of the allium family, contains great stores of sugar. Because of its pungency, you might not think of raw garlic as sweet, but its plentiful sugars are necessary for the slow Maillard reaction and caramelization that take place during blackening. Ingredients lacking in sugar—take kohlrabi, for instance, something we thought would be promising as a blackened vegetable—taste pretty horrible when heat-treated. Without the harmonious flavor backbone created by the Maillard reaction, blackening can create heavy, acrid notes from pyrolysis, with no sweetness to temper them.'
+          },
+          {
+            zh: '辛辣味',
+            en: 'Pungency'
+          },
+          {
+            zh: '从发黑室出来的东西味道都一样。有时这是一件好事，但有时长时间的加热会减弱或破坏微妙和挥发性的香气。生大蒜的辛辣味在长达两个月的热浴过程中发生了变化，但仍可辨认。比如说，婆罗门参根一旦变黑，它的微妙之处就完全消失了。虽然根够湿，皮够厚，也够甜，但黑婆罗门参味道鲜美，却又隐隐约约。它最终尝起来比其他根茎更模糊。原材料的味道越浓烈，结果就越有趣。',
+            en: 'Nothing comes out of the blackening chamber tasting the same. Sometimes that’s a good thing, but other times the prolonged heat can mute or destroy subtle and volatile aromas. Raw garlic’s pungency transforms during its two-month-long heat bath, but it stays recognizable. The subtlety of, say, a root of salsify is completely lost once it’s blackened. Though the root is moist enough, has thick enough skin, and is also sweet enough, black salsify comes out delicious but indistinct. It ends up tasting more ambiguous than other roots. The more potent the flavor of the raw ingredient, the more interesting the outcome will be.'
+          },
+          {
+            zh: '*Sweet, pungent black garlic has grown in popularity and prevalence in Western kitchens over the past few decades.*',
+            en: '*Sweet, pungent black garlic has grown in popularity and prevalence in Western kitchens over the past few decades.*'
+          },
+          {
+            zh: '<!-- text/part0013_split_004.html -->',
+            en: '<!-- text/part0013_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-service-discovery-one-to-one-flow',
@@ -5997,6 +10687,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 服务发现与一对一消息流'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -6116,7 +10815,36 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 为微生物做好准备',
+            en: '# Setting the Table for Microbes'
+          },
+          {
+            zh: '*The number of species of microbes on earth is greater than that of all plants and animals combined.*',
+            en: '*The number of species of microbes on earth is greater than that of all plants and animals combined.*'
+          },
+          {
+            zh: '腐烂和发酵之间只有一线之隔，这条线最好被理解为一条实际的线，就像你在夜总会外面看到的那种。 Rot 是一个每个人都可以参与的俱乐部：细菌和真菌，安全或不安全，增强风味或破坏风味。当你发酵某些东西时，你就扮演了保镖的角色，阻止不需要的微生物，并让那些会让派对流行的微生物进来。',
+            en: 'There’s a thin line between rot and fermentation, and that line might best be understood as an actual line, like the kind you’d find outside a nightclub. Rot is a club where everyone gets in: bacteria and fungi, safe or unsafe, flavor enhancing or destructive. When you ferment something, you’re taking on the role of a bouncer, keeping out unwanted microbes and letting in the ones that are going to make the party pop.'
+          },
+          {
+            zh: '您可以使用多种工具来尝试鼓励某些微生物或阻止其他微生物。有些生物体比其他生物体更能耐受酸性。氧气、热量和盐度也是如此。如果您熟悉您喜欢的微生物发挥作用所需的条件，您就可以利用这些因素来为您带来好处。本书的每一章都会详细介绍成功发酵所需的条件，但对于初学者来说，这里概述了将为我们工作的参与者。',
+            en: 'You have several tools at your disposal in trying to encourage certain microbes or deter others. Some organisms are more tolerant of acidity than others. Likewise with oxygen, heat, and salinity. If you’re familiar with what your preferred microbe needs to function, you can wield these factors to your benefit. Each chapter in this book will go into great detail about the conditions you need to create successful fermentation, but for starters, here’s an overview of the players that will be working for us.'
+          },
+          {
+            zh: '细菌',
+            en: 'Bacteria'
+          },
+          {
+            zh: '在最早的生命形式中，细菌是单细胞生物，几乎以无数的数量存在于地球的每个角落。科学界只知道一小部分。有些恶性细菌可以产生能够杀死更大生物的毒素。与此同时，我们的体表和体内生活着数十亿的有益细菌。归根结底，它们中的大多数对我们来说是无害的。',
+            en: 'Among the earliest forms of life, bacteria are single-celled organisms that are present in uncountable quantities in nearly every corner of the globe. Only a fraction are known to science. There are malignant bacteria that can produce toxins capable of killing much larger organisms. At the same time, there are billions of beneficial bacteria living on and inside of us. At the end of the day, the majority of them are harmless to us.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-shoyu-then-and-now',
@@ -6130,7 +10858,48 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# <第12学期>，过去和现在',
+            en: '# Shoyu, Then and Now'
+          },
+          {
+            zh: '十七世纪之交，欧洲商人对亚洲越来越感兴趣。英格兰和荷兰成立了有限责任公司，用小型船队在全球范围内寻找贸易机会。就这样，西方世界开始了解shoyu的美味。其令人上瘾的风味和方便的储存稳定性使其成为令人垂涎的调味品。',
+            en: 'Around the turn of the seventeenth century, European merchants were becoming more and more interested in Asia. England and Holland set up limited liability corporations to scour the planet with small fleets of ships in search of trade opportunities. That’s how the Western world came to learn of the deliciousness of shoyu. Its addictive flavor and conve-nient shelf stability made it a coveted condiment.'
+          },
+          {
+            zh: '酱油在返回欧洲的长途航行中表现出色，为沿途平淡的食物增添了活力。它最终成为伍斯特酱等欧洲发酵食品的重要成分，法国厨师认为它是对最传统菜肴的惊人补充。 1800 年代的法国实业家和园艺家 Nicolas-Auguste Paillieux 宣称，“当蓝带厨师使用[酱油]时，他的菜肴就会发生改变，变得更好，但没有人注意到他使用了适量的这种著名酱油。”',
+            en: 'Soy sauce fared well on the long voyage back to Europe, livening up bland food along the way. It eventually became an important ingredient in European ferments such as Worcestershire sauce, and chefs in France thought it an astonishing addition to the most traditional of dishes. Nicolas-Auguste Paillieux, a French industrialist and horticulturist in the 1800s, declared that “when a cordon-bleu cook uses [soy sauce], his cuisine is transformed, becoming much better, yet without anyone noticing that he has used moderate doses of this celebrated sauce.”'
+          },
+          {
+            zh: '虽然酱油在欧洲乃至北美的影响力不断增强，但它在亚洲的地位也正在巩固。如今，日本公民平均每年消耗十升shoyu。有大型跨国公司为大众生产酱油，也有手工工厂小批量生产超凡脱俗的东西。与此同时，酱油在东南亚各地也有其表亲。 Kecap manis 是印度尼西亚的一个分支，可能是酱油中最著名的。它是用茴香和丁香以及大量棕榈糖制成的，并减少直至变成甜甜的糖浆状。在越南，我们发现了 tuong，它来自北方，在稠度和风味上可能与中国原产的姜更接近。它是通过烘烤大豆制成的，而在shoyu中，您可以烘烤小麦并蒸豆子，然后lacto-将它们在水中发酵，最后接种曲霉菌。这种酱料被磨成光滑、浓稠的糊状，而不是像其他酱油那样被过滤或压榨成液体。',
+            en: 'While soy sauce was growing in influence in Europe and eventually North America, it was also cementing its hold over Asia. Today, the average Japanese citizen consumes ten liters of shoyu each year. There are large multinational corporations producing soy sauce for the masses, as well as artisanal outfits making small batches of otherworldly stuff. Meanwhile, soy sauce also has cousins all over Southeast Asia. Kecap manis, an Indonesian offshoot, is probably the most famous of soy sauce’s kin. It’s made with anise and clove and a large addition of palm sugar, and reduced until it’s sweet and syrupy. In Vietnam, we findtuong, which hails from the north and is probably a closer relative to the original Chinese jiangs in its consistency and flavor. It’s made by toasting soybeans—whereas with shoyu, you would toast the wheat and steam the beans—then lacto-fermenting them in water, and finally inoculating them withAspergillus. The sauce is ground into a smooth, thick paste rather than being strained or pressed for its liquid like other soy sauces.'
+          },
+          {
+            zh: '其他非常非传统的shoyu生产方法也出现了。酸水解是由瑞士美极公司的 Julius Maggi 开发的化学工艺。它通过使用盐酸和高温分解植物物质，然后用​​碳酸钠中和混合物，从蔬菜中的蛋白质中提取游离氨基酸，无需任何发酵。这种中和反应会产生盐、称为胡敏素的有机沉积物和棕色液体形式的水解植物蛋白（HVP）。由于含有氨基酸苏氨酸，HVP 的味道类似于浓郁的肉汤。',
+            en: 'Other very nontraditional methods of shoyu production have cropped up as well. Acid hydrolysis is a chemical process developed by Julius Maggi of Switzerland’s Maggi Company. It extracts free amino acids from the proteins in vegetables without any fermentation, by using hydrochloric acid and warm temperatures to break down the vegetal matter, then neutralizing the mixture with sodium carbonate. This neutralizing reaction yields salt, organic sediment called humin, and hydrolyzed vegetable protein, or HVP, in the form of a brown liquid. HVP has flavors akin to rich meat broths, thanks to the amino acid threonine.'
+          },
+          {
+            zh: '1900年代初，日本化学家池田菊苗利用酸水解法从大豆中提取氨基酸。 （池田也是创造 termumami 的人，这是日语单词 sumai（“美味”）和 andmi（“味道”）的混合词。）然后，他将大豆 HVP 与第二次浸泡传统醪糟制成的酱油混合。由此产生的 HVP 酱油需要几天而不是几年的时间才能生产出来，而且成本只是价格的一小部分。它从来没有被认为和真正的酱油一样好，但当美国公司第一次开始在美国装瓶酱油时，HVP 大豆（也称为化学大豆）是一种流行的生产方式。一些制造商仍在使用它。寻找标签上的“水解大豆[或植物]蛋白”。',
+            en: 'In the early 1900s, the Japanese chemist Kikunae Ikeda used acid hydrolysis to extract the amino acids from soybeans. (Ikeda is also the man who coined the termumami—a portmanteau of the Japanese wordsumai, “delicious,” andmi, “taste.”) He then mixed the soybean HVP with soy sauce made from a second steeping of traditional moromi. The resulting HVP soy sauce took days, not years, to produce and cost a fraction of the price. It’s never been considered as good as the real thing, but when companies first started bottling soy sauce in the United States, HVP soy (also known as chemical soy) was a popular means of production. Some manufacturers still use it. Look for “hydrolyzed soy [or vegetable] protein” on the label.'
+          },
+          {
+            zh: '*Kikunae Ikeda defined “umami” and founded the Ajinomoto Group.*',
+            en: '*Kikunae Ikeda defined “umami” and founded the Ajinomoto Group.*'
+          },
+          {
+            zh: '<!-- text/part0011_split_004.html -->',
+            en: '<!-- text/part0011_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-snowflake-deep-dive',
@@ -6142,6 +10911,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Snowflake 式 64-bit ID 设计'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -6266,7 +11044,82 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 更快的流程',
+            en: '# The Quicker Quick Process'
+          },
+          {
+            zh: '在Noma，我们采用传统的两阶段方法生产多种醋——从原料中发酵酒精，然后让AAB用我们的快速方法从酒精中生产醋。',
+            en: 'At Noma, we make several vinegars the traditional two-stage way—fermenting alcohol from a raw product, then allowing AAB to produce vinegar from the alcohol—using our take on the quick method.'
+          },
+          {
+            zh: '从开始到结束，两步醋发酵如下所示：',
+            en: 'From start to finish, a two-step vinegar fermentation looks like this:'
+          },
+          {
+            zh: '这就是我们用梨、苹果和李子生产优质醋的方法。然而，您也可以用不能发酵成酒精的产品来制作引人注目的醋。芹菜或茴香等蔬菜所含的糖分太少，酵母无法产生足够的酒精供AAB使用。即使酵母可以将所有可用的糖转化为酒精，也需要很长时间，使液体容易受到不需要的微生物的感染，这可能会带来异味或彻底破坏批次。',
+            en: 'That’s how we produce excellent vinegars from pears, apples, and plums. However, you can also make compelling vinegars from products that can’t be fermented into alcohol. Vegetables like celery or fennel contain too little sugar for yeast to produce enough alcohol for AAB to work with. Even if the yeast could convert all the available sugar to alcohol, it would take a long time, leaving the liquid vulnerable to infection by unwanted microbes, which could introduce off-flavors or spoil the batch outright.'
+          },
+          {
+            zh: '*Through fermentation, ethanol (C2H5OH) turns into . . .*',
+            en: '*Through fermentation, ethanol (C2H5OH) turns into . . .*'
+          },
+          {
+            zh: '为了使 AAB 产生酸度约为 5% 的醋，他们需要在总酒精含量为 6% 至 8% ABV 的液体中工作。甜度低于 14°Bx（请参阅Brix等级的更多信息）的水果或蔬菜通常没有足够的糖来达到所需的酒精度，而剩下的糖不足以提供平衡醋所需的甜度。在这种情况下，我们通过向AAB添加蒸馏乙醇来弥补差额。',
+            en: 'In order for AAB to produce a vinegar of about 5% acidity, they need to work in a liquid with a total alcohol content of 6% to 8% ABV. Fruits or vegetables with a sweetness of less than 14°Bx (see more about theBrix scale) will generally not have enough sugar to reach the required ABV with enough left over to provide the sweetness you need for a balanced vinegar. In cases like this, we make up the difference by feeding the AAB with distilled ethanol.'
+          },
+          {
+            zh: '*. . . acetic acid (CH3OOH).*',
+            en: '*. . . acetic acid (CH3OOH).*'
+          },
+          {
+            zh: '酒精饮料中含有乙醇。当以纯净形式出售时，乙醇有时被称为 NGS（中性谷物酒精）或“精馏酒精”——一种最大酒精度为 96%（其余 4% 为水）的蒸馏产品。有一些品牌的酒精瓶装比例接近这个百分比，例如北美的 Everclear 和 Gem Clear，或欧洲的 Primaspirit，所有这些品牌都非常适合醋生产。避免使用“工业乙醇”或任何列出的酒精含量为 100% 的物质。请勿使用任何含有异丙醇、甲基乙基酮或乙醇或水以外的任何物质作为成分的产品。此类产品食用不安全。如果您找不到乙醇，另一种低味酒精（如伏特加）也可以使用，尽管您需要更多的烈酒才能产生相同的起始酒精含量。例如，如果配方需要 100 克 96% 乙醇，则需要 130 克 75%（150 度）伏特加才能达到相同的酒精含量。 （请参阅“如果找不到乙醇，请使用伏特加。”）',
+            en: 'Ethanol, or ethyl alcohol, is what’s found in alcoholic beverages. When sold in its pure form, ethanol is sometimes referred to as NGS (neutral grain spirit) or “rectified spirit”—a distilled product with a maximum ABV of 96% (with the other 4% being water). There are a few brands of alcohol that are bottled near that percentage, such as Everclear and Gem Clear in North America, or Primaspirit in Europe, all of which work perfectly for vinegar production. Avoid “denatured ethanol” or anything with a listed ABV of 100%. Don’t use any product with isopropyl alcohol, methyl ethyl ketone, or anything other than ethyl alcohol or water as an ingredient. Such products are not safe for consumption. If you can’t find ethanol, another low-flavor alcohol like vodka will work, although you’ll need more of the spirit by volume to yield the same starting alcohol content. For example, if a recipe calls for 100 grams of 96% ethanol, 130 grams of 75% (150-proof) vodka is required to reach the same alcohol content. (See “If You Can’t Find Ethanol, Use Vodka.”)'
+          },
+          {
+            zh: '通过在果汁或蔬菜汁中添加乙醇，醋的制作实际上变成了一步发酵。 AAB 可以正常工作，无需酵母来繁殖并从基质中产生酒精。果汁中的糖不会发酵并为最终产品提供平衡。通过这条路线，我们用海藻汤、胡萝卜、花椰菜、甜菜、南瓜等制作了醋。',
+            en: 'By adding ethanol to fruit or vegetable juice, vinegar making effectively becomes a one-stage fermentation. AAB can get to work right way, without ever needing yeast to propagate and create alcohol from the base. The sugar in the juice will go unfermented and provide balance to the final product. By going this route we’ve made vinegars from seaweed stocks, carrots, cauliflower, beets, squash, and more.'
+          },
+          {
+            zh: '也许您可能会想到一个存在主义问题：“为什么不直接在果汁中添加乙酸并跳过整个发酵过程呢？”',
+            en: 'Perhaps an existential question may occur to you: “Why not just add acetic acid to the juice and skip the whole fermentation process?”'
+          },
+          {
+            zh: '我们在 Noma 的发酵过程中力求获得复杂而有趣的风味，并且与许多烹饪过程一样，您通过捷径获得的东西在剪辑室地板上留下了很多东西。白醋是由纯乙醇发酵而成，然后稀释至醋酸含量在5%左右。尽管它在某些菜肴中占有一席之地，但它相对粗糙且不细致。当AAB发酵醋时，它们可以产生除乙酸之外的代谢物，例如葡萄糖酸和抗坏血酸，这些代谢物为醋带来特性和深度。另外，发酵过程中会发生许多不可预测的次级反应——一些味道会减弱，而新的味道会出现。这些都是好醋的品质。细节决定成败。',
+            en: 'We strive for complex and intriguing flavors in our ferments at Noma, and as with many cooking processes, what you gain in a shortcut leaves much on the cutting-room floor. White vinegar is fermented from pure ethanol and then diluted to an acetic acid content of around 5%. It’s relatively harsh and unnuanced, though it has its place in some cuisines. When AAB ferment vinegar, they can produce metabolites other than acetic acid, such as gluconic acid and ascorbic acid, that bring character and depth to vinegar. Plus, there are any number of unpredictable secondary reactions taking place in the fermentation process—some flavors get muted and new ones come forth. These are the qualities of good vinegar. It’s the minutiae that make the difference.'
+          },
+          {
+            zh: '<!-- text/part0008_split_004.html -->',
+            en: '<!-- text/part0008_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1.在甜水果或蔬菜中接种酵母。发酵 10 至 14 天，或直至液体的酒精体积 (ABV) 达到 6% 至 7%。',
+            en: '1.Inoculate sweet fruits or vegetables with yeast. Allow to ferment for 10 to 14 days, or until the liquid has an alcohol by volume (ABV) of 6% to 7%.'
+          },
+          {
+            zh: '2.过滤酒精并加热至 70°C/158°F 以杀死任何剩余的酵母。',
+            en: '2.Strain the alcohol and heat to 70°C/158°F to kill any remaining yeast.'
+          },
+          {
+            zh: '3.将液体转移到大玻璃瓶中，并在后坡上加入上一批醋。 （有关后倾的更多信息。）',
+            en: '3.Transfer the liquid to large mason jars and backslop with a previous batch of vinegar. (For more onBackslopping.)'
+          },
+          {
+            zh: '4.运行连接到气石（一块多孔岩石或金属，可将空气扩散成小气泡）的气泵。发酵 10 至 14 天，或直至所有酒精转化为酸。',
+            en: '4.Run an air pump attached to an air stone (a piece of porous rock or metal that diffuses air in small bubbles). Ferment for 10 to 14 days, or until all the alcohol has been converted to acid.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-the-sweet-spot',
@@ -6280,7 +11133,78 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 最佳点',
+            en: '# The Sweet Spot'
+          },
+          {
+            zh: '因此，尽管本章讨论了平衡和时间安排，但仍然存在一个明显的问题：制作kombucha时应该添加多少糖？',
+            en: 'So, with all the talk of balance and timing in this chapter, a glaring question remains: How much sugar should you add when making kombucha?'
+          },
+          {
+            zh: '*As a kombucha’s sweetness diminishes, its acidity rises.*',
+            en: '*As a kombucha’s sweetness diminishes, its acidity rises.*'
+          },
+          {
+            zh: '作为一个参考框架，如果你把一个 SCOBY 放入一罐白水中，它就会因为缺乏新陈代谢所需的糖而死亡。相反，如果你把 SCOBY 放入一桶饱和糖溶液中，它也会因高浓度的蔗糖而死亡；微生物根本无法发挥作用。 （这与主要由糖制成的蜂蜜永远不会变质的原因相同。）',
+            en: 'As a frame of reference, if you were to place a SCOBY in a jar of plain water, it would die, starved of the sugars needed to fuel its metabolism. Conversely, if you were to place the SCOBY into a tub of saturated sugar solution, it would also die, shocked by the high concentration of sucrose; the microbes simply wouldn’t be able to function. (This is the same reason that honey, which is mostly made of sugar, never goes bad.)'
+          },
+          {
+            zh: '简而言之，对于kombucha中您需要多少糖没有完美的答案，但经过大量的试验和错误，我们得出了一个令我们满意的数字。',
+            en: 'In short, there’s no perfect answer to how much sugar you need in your kombucha, but a good bit of trial and error have led us to a number we’re happy with.'
+          },
+          {
+            zh: '甜度以度数Brix (°Bx) 表示——溶解的蔗糖（食糖）量占总溶液的百分比（糖的克数除以糖和水的总克数）的量度。我们发现，由 35°Bx（非常甜）的高起始 Brix 制成的 kombucha 不会像由较温和的起始 Brix 制成的那样美味。从 35°Bx 开始的 kombucha 将包含过多的糖和过多的酸。我们的大部分 kombucha 食谱都将温度定为 12°Bx。',
+            en: 'Sweetness is expressed in degrees Brix (°Bx)—a measure of the amount of dissolved sucrose (table sugar) as a percentage of the total solution (grams of sugar divided by the total grams of sugar and water combined). We find that a kombucha made from a high starting Brix of 35°Bx (very sweet) will not be anywhere near as delicious as one made from a more moderate starting Brix. A kombucha started at 35°Bx will contain too much sugarandtoo much acid. We’ve settled at 12°Bx for most of our kombucha recipes.'
+          },
+          {
+            zh: '至于让kombucha发酵多长时间，将发酵过程可视化为曲线会很有帮助。一开始，液体尝起来很熟悉，而且有些死气沉沉。例如，接骨木花加甜的浸液一开始尝起来像无味苏打水，但到了第七天，在曲线的顶峰，它可能类似于令人惊叹的起泡酒（不含酒精）。原始的花香将变得清澈，并增加泡腾和亮度。但在这个高点之后，kombucha将稳步向下移动到曲线的另一侧，走向令人难以接受的酸性和令人震惊的终点。',
+            en: 'As for how long to let kombucha ferment, it’s helpful to visualize the fermentation process as a curve. In the beginning, the liquid tastes familiar and somewhat lifeless. For example, a sweetened infusion of elderflower begins life tasting like flat soda pop, but by day seven, at the peak of the curve, it can resemble an amazing sparkling wine (sans alcohol). The original floral flavor will be clear, with added effervescence and brightness. But after that high point, the kombucha will steadily move down the other side of the curve toward an unpalatably acidic and shocking endpoint.'
+          },
+          {
+            zh: '与其他发酵剂相比，在正确的时间拉动kombucha并用它食用或烹饪是至关重要的。在Noma，我们经常冻结kombucha以停止发酵并确保它们保持在曲线的顶部。我们也可以通过巴氏灭菌来达到这种效果，但通过加热，你总是会混淆并减弱发酵的味道。',
+            en: 'More so than with other ferments, pulling kombucha and consuming or cooking with it at the right time is critical. At Noma, we often freeze our kombuchas to halt fermentation and ensure that they’re held at the top of their curve. We could also achieve the effect via pasteurization, but by applying heat you invariably muddle and mute the flavors of the ferment.'
+          },
+          {
+            zh: '<!-- text/part0007_split_004.html -->',
+            en: '<!-- text/part0007_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ],
+        bullets: [
+          {
+            zh: '让我们看一下kombucha的基本制作流程：',
+            en: 'Let’s have a look at the basic process for making a kombucha:'
+          },
+          {
+            zh: '1.首先制作果汁、茶或输液。使其变甜并冷却。',
+            en: '1.First make a juice, tea, or infusion. Sweeten it and cool it.'
+          },
+          {
+            zh: '2.使用前一个kombucha向后倾斜以降低pH。',
+            en: '2.Backslopwith a previous kombucha to lower the pH.'
+          },
+          {
+            zh: '3.添加一个SCOBY，或者从一个SCOBY中剪下来。一块覆盖至少 25% 的液体表面就足够了。',
+            en: '3.Add a SCOBY, or a cutting from one. A piece that covers at least 25 percent of the surface of the liquid should suffice.'
+          },
+          {
+            zh: '4.盖上容器，让混合物发酵，最好在比室温稍高的温度下发酵。',
+            en: '4.Cover the container and leave the mixture to ferment, ideally at slightly warmer than room temperature.'
+          },
+          {
+            zh: '5.经常品尝kombucha。一旦达到理想的甜度和酸度平衡，取出 SCOBY 并保留，然后过滤并冷却kombucha。',
+            en: '5.Taste the kombucha often. Once it’s reached your ideal balance of sweetness and acidity, remove the SCOBY and reserve it, then strain and chill the kombucha.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '03-token-leaky-fixed-window',
@@ -6292,6 +11216,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 三种基础限流算法'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -6410,6 +11343,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 视频转码：DAG 工作流与并行处理'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -6530,6 +11472,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# Trie 深入：用空间换时间的 Top K 缓存'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你应该能解释 Trie 为什么适合前缀查询，为什么“找到前缀节点”还不够，如何在节点上缓存 Top K，把自动补全请求变成稳定的内存读取，以及这种方案在空间、更新、分片和实时性上会付出什么代价。'
@@ -6648,6 +11599,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# URL Frontier 与抓取调度'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -6949,6 +11909,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 用缓存和 CDN 加速系统响应'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '本节要让你理解缓存和 CDN 为什么能显著降低延迟与后端压力。你要能区分应用缓存、数据库缓存、浏览器缓存和 CDN 的位置，也要知道缓存命中、过期、失效和一致性会怎样影响系统行为。'
@@ -7068,7 +12037,107 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 照顾你的 SCOBY',
+            en: '# Caring for Your SCOBY'
+          },
+          {
+            zh: '*Caring for your SCOBY means preparing a nice home for it in between batches of kombucha.*',
+            en: '*Caring for your SCOBY means preparing a nice home for it in between batches of kombucha.*'
+          },
+          {
+            zh: '尽管我们发现kombucha非常美味，但我们也认为与它们一起工作并见证它们的成长非常有趣。当你照料自己的kombucha时，你会对它产生依恋，就像人们喜欢发酵酵母一样。',
+            en: 'As delicious as we find kombuchas, we also think they’re fascinating to work with and watch grow. As you’re tending your own kombucha, you’ll grow attached to it, in the way that people with sourdough starters come to delight in nurturing them.'
+          },
+          {
+            zh: '虽然没有 kombucha 宠物商店，但有很多网站可以购买活 SCOBY（参见来源），更不用说天然食品和家庭酿酒店了。 SCOBY 通常以真空密封的方式出售，或者在少量酸kombucha 基质中罐装。健康的标本应该类似于半透明的硬明胶盘。由于 SCOBY 需要空气才能生长，因此收到后立即将其转移到露天容器中非常重要。',
+            en: 'While there’s no kombucha pet store, there are plenty of websites where you can purchase live SCOBYs (seeSources), not to mention natural foods and home-brew shops. SCOBYs are normally sold vacuum-sealed or jarred in a small quantity of soured kombucha base. A healthy specimen should resemble a semi-opaque disk of firm gelatin. As a SCOBY requires air to thrive, it’s important to transfer it to an open-air container as soon as you receive it.'
+          },
+          {
+            zh: '如果您不打算立即酿造kombucha，则需要将您的SCOBY保持在静止状态，直到您开始酿造。搅打一批 20% 糖浆（800 克水和 200 克糖，煮沸，然后冷却）并将其与新 SCOBY 一起转移到开顶罐中。用透气的毛巾或粗棉布覆盖，并用橡皮筋固定。一定要添加 SCOBY 附带的任何液体，因为它充满了与快乐菌落相同的细菌、酵母和酸。',
+            en: 'If you aren’t planning to brew kombucha immediately, you’ll need to hold your SCOBY in stasis until you are. Whip up a batch of 20% sugar syrup (800 grams water and 200 grams sugar, brought to a boil, then cooled) and transfer it, along with your new SCOBY, to an open-top jar. Cover with a breathable towel or cheesecloth and secure it with a rubber band. Be sure to add any liquid that came with your SCOBY, as it’s full of the same bacteria, yeast, and acid that make for a happy colony.'
+          },
+          {
+            zh: '现在，与酵母发酵剂一样，SCOBY 需要在 kombucha 酿造过程之间进行一些维护。如果你定期制作kombucha，你就可以形成将 SCOBY 从一批转移到下一批的稳定节奏，始终保持忙碌。但是，如果您收获了 kombucha 并且不准备开始新批次，则需要使 SCOBY 漂浮在大约两倍于 kombucha 或糖浆重量的水中。液体会维持一段时间，但最终 SCOBY 会将所有糖转化为酸，你必须将其转移到新鲜的家中。每 2 或 3 周，您需要重复上面详述的过程，酿造新鲜糖浆并转移 SCOBY。 （SCOBY 可以存放在冰箱中以减缓其新陈代谢，但我们更喜欢将它们保存在接近室温的温度，以便它们随时准备好行动。）如果您发现 SCOBY 的顶部变干，请务必从底部涂上液体，以保持其表面酸化。',
+            en: 'Now, as with a sourdough starter, a SCOBY needs a little upkeep between kombucha brewing sessions. If you make kombucha regularly, you can get into a steady rhythm of transferring a SCOBY from one batch to the next, always keeping it busy. But if you harvest your kombucha and aren’t ready to start a new batch, you’ll need to keep the SCOBY floating in roughly twice its weight of kombucha or sugar syrup. The liquid will sustain it for a while, but eventually the SCOBY will convert all the sugar into acid and you’ll have to transfer it to a fresh home. Every 2 or 3 weeks, you’ll need to repeat the process detailed above, brewing fresh syrup and transferring the SCOBY. (SCOBYs can be stored in the fridge to slow their metabolisms, but we prefer to keep them near room temperature so they’re always ready for action.) If you notice the top of the SCOBY drying out, be sure to baste it with liquid from underneath, in order to keep its surface acidified.'
+          },
+          {
+            zh: 'SCOBY 长寿的另一个重要因素是启动它的环境（我们回调的）。如果你将 SCOBY 直接放入加糖的液体（茶、果汁、牛奶等）中，可能会有野生酵母和细菌竞争液体中的糖分，并产生霉味和难闻的味道。更糟糕的是野生真菌，例如曲霉菌的恶意菌株，它可以产生水溶性毒素。为了帮助防止不需要的微生物大量繁殖，您需要添加一些来自上一批的 kombucha（或者从商店购买的 kombucha，如果这是您的第一批）。',
+            en: 'Another important factor in the longevity of your SCOBY is priming its environment (what we callbackslopping). If you place a SCOBY straight into sweetened liquid (tea, fruit juice, milk, etc.), there’s likely to be wild yeasts and bacteria that can compete for the sugars within the liquid and impart musty, unpleasant flavors. Worse still are wild fungal molds, such as malevolent strains ofAspergillus, which can produce water-soluble toxins. To help prevent unwanted microbes from flourishing, you’ll need to add some kombucha from a previous batch (or from a store-bought kombucha, if this is your first batch).'
+          },
+          {
+            zh: '通过在混合物中添加一些kombucha（总重量的10%），可以降低溶液的pH，通常降至5以下，这足以防止入侵者开花。另一方面，SCOBY 不仅能容忍较低的 pH 水平，而且还能在其中茁壮成长。启动还可以为您希望在溶液中繁殖的细菌和酵母菌提供加强注射。',
+            en: 'By adding some kombucha to the mix (10 percent of the total weight), you lower the pH of the solution, usually to below 5, which is enough to prevent invaders from blooming. The SCOBY, on the other hand, not only tolerates a low pH level but thrives in it. Priming also adds a booster shot of the bacteria and yeasts you’re looking to propagate within your solution.'
+          },
+          {
+            zh: '需要注意的一件事是，SCOBY 可以获得它们正在发酵的基础液体的味道，而辛辣的味道可以延续到下一批。为避免这种情况，请每次使用 SCOBY 发酵相同或相似口味的液体。在 Noma，我们为每种类型的液体基质提供了一个 SCOBY 的“活图书馆”。',
+            en: 'One thing to note is that SCOBYs can acquire the flavor of the base liquid that they’re fermenting, and pungent flavors can carry over to the next batch. To avoid this, use SCOBYs to ferment the same or similar-flavored liquids each time. At Noma, we have a “living library” of SCOBYs for each type of liquid base.'
+          },
+          {
+            zh: '*SCOBYs are communities of organisms in which humans play a vital role.*',
+            en: '*SCOBYs are communities of organisms in which humans play a vital role.*'
+          },
+          {
+            zh: '如何创建这样一个库？好吧，如果你愿意的话，你可以用你的 SCOBY 包装中的液体培育出一个新的 SCOBY。它充满了赋予kombucha生命的有机体，以至于它可以在以前没有的地方产生一个新的 SCOBY。但以这种方式种植 SCOBY 可能会非常缓慢，因此，如果您想为不同口味的 kombucha 生产新的 SCOBY，最好从插条中生长 - 实际上是切下一块 SCOBY 并将其转移到自己的糖浆浴中。或者，您可以将一大块 SCOBY 活性物质保留在中性的普通糖浆中，并在每次开始新一批 kombucha 时从中取出插条。',
+            en: 'How do you create such a library? Well, if you wanted, you could grow a new SCOBY from the liquid that your SCOBY came packaged in. It’s so full of the organisms that give life to kombucha that it could produce a new SCOBY where there was none before. But growing a SCOBY this way can be painstakingly slow, so if you want to produce new SCOBYs for different-flavored kombuchas, it’s best to grow from cuttings—literally cutting off a piece of a SCOBY and transferring it to its own syrup bath. Alternatively, you can keep one large SCOBY active in a neutral base of plain sugar syrup and take cuttings from it each time you start a new batch of kombucha.'
+          },
+          {
+            zh: '（我们建议不要尝试用商店购买的kombucha瓶子来培养SCOBY，因为即使是宣传活培养物的品种也是密封的，SCOBY会缺氧。如果不知道瓶子在架子上放置了多久，就无法保证微生物足够健康以产生新的SCOBY。）',
+            en: '(We advise against trying to grow a SCOBY from store-bought bottles of kombucha, because even varieties that advertise live cultures are sealed shut, starving the SCOBY of oxygen. Without knowing how long a bottle has been sitting on the shelf, there’s no guarantee that the microbes are healthy enough to produce a new SCOBY.)'
+          },
+          {
+            zh: '最后，您应该时刻做好准备，应对您的 SCOBY 死亡的可能性。您可能认为许多碱基作为 kombucha 会很美味，但事实上，它们可能含有可以杀死 SCOBY 的天然抗真菌或抗菌剂。我们第一次尝试用黑蒜原料制作 kombucha 时，kombucha 需要大约 20 天的时间才能正确酸化，是其他品种的两倍多。我们忽视了大蒜的天然化学防御机制。它含有一种称为大蒜素的硫基化合物，它赋予大蒜香气，还能抵抗真菌。',
+            en: 'Finally, you should always be prepared for the very real possibility that your SCOBY might die. There are many bases you might think would be delicious as a kombucha but may, in fact, harbor natural antifungal or antibacterial agents that can kill a SCOBY. The first time we tried making kombucha from black-garlic stock, the kombucha took somewhere in the neighborhood of 20 days to acidify properly—more than twice as long as other varieties. We’d overlooked the garlic’s natural chemical defense mechanisms. It contains a sulfur-based compound called allicin, which gives garlic its aroma and also fights off fungi.'
+          },
+          {
+            zh: '我们怀疑原料中的大蒜素干扰了 SCOBY 中酵母的复制。然而幸运的是，一些酵母菌仍然存在。当我们开始下一批时，我们已经有了健康的 SCOBY，专门在大蒜素的存在下发酵。发酵是实时的进化，这是一个令人着迷的参与过程。',
+            en: 'We suspect that the allicin in the stock was interfering with the replication of the yeast in the SCOBY. Fortunately, however, some of the yeast took hold. By the time we started the following batch, we had a healthy SCOBY specialized in fermenting in the presence of allicin. Fermentation is evolution in real time, and it’s a fascinating process in which to take part.'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '<术语28>标尺和折光仪',
+              en: 'The Brix Scale and Refractometers'
+            },
+            answer: [
+              {
+                zh: '*The Brix scale is named for Adolf Brix, a German engineer who devised the system in the early 1800s for use in the beer and wine industry. Degrees Brix (°Bx) aren’t a measurement in themselves, but rather a scale that corresponds to the specific gravity of a solution. Specific gravity is the ratio of the density of a solution (such as a sugar syrup) to the density of normal water. The more sugar in the solution, the higher the specific gravity. The Brix scale translates specific gravity into degree increments, giving you a numerical evaluation of a liquid’s sweetness.*',
+                en: '*The Brix scale is named for Adolf Brix, a German engineer who devised the system in the early 1800s for use in the beer and wine industry. Degrees Brix (°Bx) aren’t a measurement in themselves, but rather a scale that corresponds to the specific gravity of a solution. Specific gravity is the ratio of the density of a solution (such as a sugar syrup) to the density of normal water. The more sugar in the solution, the higher the specific gravity. The Brix scale translates specific gravity into degree increments, giving you a numerical evaluation of a liquid’s sweetness.*'
+              },
+              {
+                zh: '*For a sense of the scale: Simple syrup (1 part sugar and 1 part water by weight) has a measure of 50°Bx, while a double syrup (2 parts sugar and 1 part water by weight) has a measure of 66.7°Bx.*',
+                en: '*For a sense of the scale: Simple syrup (1 part sugar and 1 part water by weight) has a measure of 50°Bx, while a double syrup (2 parts sugar and 1 part water by weight) has a measure of 66.7°Bx.*'
+              },
+              {
+                zh: '*You can measure degrees Brix with a refractometer. Sucrose, when dissolved in a solution, changes the way water refracts light. A refractometer measures this change in angle and correlates it to degrees Brix. We use a refractometer at Noma to keep close tabs on our fermentation projects and ensure consistency from batch to batch, but you shouldn’t feel obligated to go out and buy one. You won’t need one to accomplish any of the recipes in this book.*',
+                en: '*You can measure degrees Brix with a refractometer. Sucrose, when dissolved in a solution, changes the way water refracts light. A refractometer measures this change in angle and correlates it to degrees Brix. We use a refractometer at Noma to keep close tabs on our fermentation projects and ensure consistency from batch to batch, but you shouldn’t feel obligated to go out and buy one. You won’t need one to accomplish any of the recipes in this book.*'
+              },
+              {
+                zh: '*A refractometer determines the sugar content of a solution by measuring the refraction of light.*',
+                en: '*A refractometer determines the sugar content of a solution by measuring the refraction of light.*'
+              },
+              {
+                zh: '*A properly stored SCOBY can be used to ferment multiple batches of lemon verbena kombucha.*',
+                en: '*A properly stored SCOBY can be used to ferment multiple batches of lemon verbena kombucha.*'
+              },
+              {
+                zh: '<!-- text/part0007_split_005.html -->',
+                en: '<!-- text/part0007_split_005.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
   },
   {
     id: '04-data-model-and-end-to-end-flow',
@@ -7080,6 +12149,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 短链接系统的完整架构'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -7202,6 +12280,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Downloader 的鲁棒性设计'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -7348,7 +12435,162 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 制作我们的Peaso',
+            en: '# Making Our Peaso'
+          },
+          {
+            zh: '现在我们了解了微小的改变可能对发酵产生的巨大影响，让我们花点时间来详细说明我们如何制作 peaso 的主要步骤：',
+            en: 'Now that we understand the outsize effect that minor alterations can have on ferments, let’s take a moment to detail the major steps of how we make our peaso:'
+          },
+          {
+            zh: '如果您坚持遵循概述的配方，您应该能够生成与我们在 Noma 中制作的非常接近的 peaso。但如果您想自己尝试该配方，最好充分了解发酵容器中发生的情况以及影响最终结果的主要因素。充分理解以下控制点将使您能够对自己的peaso进行调整。',
+            en: 'If you stick to therecipeoutlined, you should be able to produce peaso that’s very close to the one we make at Noma. But if you’d like to experiment with the recipe on your own, it’s good to have a solid grasp of what’s happening in your fermentation vessel and the main factors affecting the final outcome. Having a firm understanding of the following control points will allow you to make adjustments to your own peaso.'
+          },
+          {
+            zh: '*The more you understand about what goes into making misos, the more you’ll be able to fine-tune their outcome. What seems daunting at the start will quickly become a set of tools to use to your advantage, with a little practice.*',
+            en: '*The more you understand about what goes into making misos, the more you’ll be able to fine-tune their outcome. What seems daunting at the start will quickly become a set of tools to use to your advantage, with a little practice.*'
+          },
+          {
+            zh: '含盐量',
+            en: 'Salt Content'
+          },
+          {
+            zh: '盐含量是迄今为止直接控制miso/peaso过程中最重要的措施。如<术语16>-发酵一章中所示，盐可用于防止潜在的恶意微生物获得立足点。但 Noma 是一家绝对不咸的餐厅，因此我们尽力保持尽可能低的盐含量，而不会让 peaso 面临风险。经过多次试验，我们确定 4% 作为微生物活性和盐度之间的理想平衡。 （日本 miso 的含量最低为 6%。）我们不建议盐含量低于 4%，因为不能保证不需要的微生物不会在漫长的老化过程中繁殖。',
+            en: 'Salt content is by far the most important measure in the direct control of the miso/peaso process. As illustrated in theLacto-Fermentation chapter, salt can be used to prevent potentially malevolent microbes from gaining a foothold. But Noma is a decidedly unsalty restaurant, so we try to keep our salt content as low as possible without exposing our peaso to risk. After many trials, we’ve settled on 4 percent as the ideal balance between microbial activity and salinity. (Japanese misos, at the very lowest, sit at 6 percent.) We would not suggest going lower than 4 percent salt, as there’s no guarantee that unwanted microbes won’t propagate over the long aging process.'
+          },
+          {
+            zh: '8% 至 10% 的较高盐含量将抑制酵母、醋酸菌的生长，并在较小程度上抑制乳酸菌的生长 (LAB)。现在，您可能想知道，考虑到我们如何利用这些微生物在其他发酵中产生风味，这是否会导致成品变得不那么有趣。但由于限制酵母和细菌而损失的复杂性可以通过较长的老化时间来弥补。在数月或数年的时间里，极其缓慢的Maillard反应会产生诱人且复杂的味道，同时慢慢地将miso变成褐色。 （有关Maillard反应的更多信息，请参阅“真正慢速烹饪”。）非常咸的miso在其生命早期可能不太有趣，但随着年龄的增长，它会发生变化和改善。',
+            en: 'A higher salt content of 8 to 10 percent will inhibit the growth of yeast, acetic acid bacteria, and, to a lesser extent, lactic acid bacteria (LAB). Now, you may wonder if that leads to a less interesting finished product, given how we’ve used these microbes to produce flavors in other ferments. But the complexity lost by limiting yeast and bacteria is made up for by long aging times. Over the course of months or years, extremely slow Maillard reactions create alluring and complex flavors while slowly browning the miso. (See “Really Slow Cooking,” for more on the Maillard reaction.) A very salty miso may be less interesting early in its life, but it changes and improves as it ages.'
+          },
+          {
+            zh: '如果您发现自己生产的一批 peaso 口味不平衡，请尝试将总盐含量提高 2% 或 3%（无需更改配方中的其他含量），然后再陈化一两个月。虽然您可能会失去LAB和酵母提供的一些复杂性，但peaso将在未来获得更大的美味。',
+            en: 'If you ever find yourself producing a batch of peaso that tastes unbalanced, try upping the total salt content by 2 or 3 percent (no other amounts in the recipe will have to change) and aging it for a month or two longer. While you may lose some of the complexity offered by LAB and yeast, the peaso will reach greater deliciousness down the road.'
+          },
+          {
+            zh: '*Just-Cooked Octopus with “Dzikilpak,” Noma Mexico, 2017*',
+            en: '*Just-Cooked Octopus with “Dzikilpak,” Noma Mexico, 2017*'
+          },
+          {
+            zh: '*Octopus tentacles that have been baked underground in a crust of masa are served with Noma’s take ondzikilpak, the traditional Mayan salsa, made here with pumpkin seed miso.*',
+            en: '*Octopus tentacles that have been baked underground in a crust of masa are served with Noma’s take ondzikilpak, the traditional Mayan salsa, made here with pumpkin seed miso.*'
+          },
+          {
+            zh: '水分含量',
+            en: 'Moisture Content'
+          },
+          {
+            zh: 'peaso 进入发酵容器时的湿度非常重要。如果你把peaso包装得太干，混合物的流动性就不足以让生物或化学过程有效地发挥作用，就像冷冻和脱水通过将所有东西紧紧地固定到位来阻止腐败一样。另一方面，如果混合物太湿，微生物和酶的活性就会变得太旺盛。实际上，你最终会发现多种微生物在肆虐。少量LAB产生的乳酸可以为peaso增添令人愉快的亮度，但过多会使其味道完全不正常。 LAB仅受到盐含量的轻微阻碍，因此需要通过调节湿度来控制。 （更准确地说，我们正在调节“水活度”，或者说有多少水是未结合且可自由获取的。）',
+            en: 'The wetness of your peaso as it’s going into the fermentation vessel is extremely important. If you pack peaso away too dry, the mixture won’t be fluid enough to allow for biological or chemical processes to work effectively, in the same way that freezing and dehydrating halts spoilage by holding everything tightly in place. On the other hand, if the mixture is too wet, microbial and enzymatic activity will become far too vigorous. You effectively end up with multiple microbes running amok. A small amount of LAB-produced lactic acid adds a pleasant brightness to peaso, but too much can make it taste completely off-kilter. LAB are only marginally impeded by salt content, and thus need to be corralled by regulating moisture. (More accurately, we’re regulating “water activity,” or how much water is unbound and freely available.)'
+          },
+          {
+            zh: '可能需要进行一些尝试和错误才能了解水分含量对您的peaso的全面影响，但作为启发式指南，如果您握紧一把准备进入容器的miso混合物，它应该在您手中形成一个致密的球。如果它像鹰嘴豆泥一样渗出，那就太湿了。如果它碎裂了，那就太干了。',
+            en: 'It may take a bit of trial and error to understand the full impact that water content can have on your peaso, but as a heuristic guide, if you clench a fistful of miso mixture that’s ready to go into the vessel, it should form a dense ball in your hand. If it oozes like hummus, it’s too wet. If it crumbles, it’s too dry.'
+          },
+          {
+            zh: '湿度',
+            en: 'Humidity'
+          },
+          {
+            zh: '在环境湿度为 65% 至 75% 的环境中老化您的peaso。如果低于此值，peaso 可能会变干，导致上述水分含量问题，或者随着水蒸发到空气中而变得太咸。另一方面，在非常潮湿的环境中保存peaso也可能会出错。例如，如果peaso由于湿度而与冷凝物接触，它可能会降低混合物的盐度并打开腐败之门。发生这种情况需要环境中有大量水分，但应避免暴露在持续降雨的潮湿地下室或隔热不良的存储区域。',
+            en: 'Age your peaso in an environment with an ambient humidity of 65 to 75 percent. Any lower and the peaso may dry out, leading to the aforementioned problems with moisture content, or become too salty as water evaporates into the air. At the opposite end of the spectrum, peaso held in a very damp environment can also go awry. For instance, if the peaso were to come into contact with condensation due to humidity, it could lower the salinity of the mixture and open the door for spoilage. It would require a lot of moisture in the environment for that to happen, but damp basements or poorly insulated storage areas exposed to persistent rainfall should be avoided.'
+          },
+          {
+            zh: '你的年龄 Koji',
+            en: 'Age of Your Koji'
+          },
+          {
+            zh: '您在 peaso 中使用的 koji 必须健康且有效，并且厚实的菌丝体将颗粒粘合在一起，这一点至关重要。 koji越香越甜，您的peaso就会越好。在koji短暂的生命周期中，真菌经历了许多不同的阶段。如果koji太年轻，它就不会产生分解黄豌豆中蛋白质所需的酶。过早收获的koji也会缺乏有助于peaso整体风味的甜味。',
+            en: 'It’s crucial that the koji you use in your peaso be healthy and potent, with thick mycelium binding the grains together. The more fragrant and sweeter the koji, the better your peaso will be. During koji’s short life cycle, the fungus goes through many different stages. If the koji is too young, it won’t have produced the enzymes needed to break down the proteins in the yellow peas. A koji that is harvested too early will also be lacking sweetness that contributes to the overall flavor of the peaso.'
+          },
+          {
+            zh: '另一方面，生长时间过长并变成孢子的真菌的味道与正确收获的koji会有很大不同，就像花园里的蔬菜一旦结籽就会发生巨大的变化一样。孢子koji利用其酶来消耗糖，以促进其孢子的产生。 koji 中的糖含量越少，意味着 miso 中参与 Maillard 反应的糖含量就越少，而随着陈酿时间的推移，该反应会产生复杂的风味。',
+            en: 'On the other hand, fungus that has been grown too long and gone to spore will have a considerably different flavor from properly harvested koji, in the same way that garden greens change dramatically once they’ve gone to seed. Sporulated koji uses its enzymes to consume sugars in order to fuel the production of its spores. Less sugar in the koji means less sugar in the miso to take part in the Maillard reaction responsible for the development of complex flavors as it ages.'
+          },
+          {
+            zh: '根据我们的经验，从初次接种后 44 到 48 小时内是您希望收获 koji 和 peaso 的时间段。最后，如果您的koji显示出任何被不需要的霉菌或其他微生物感染的迹象，请勿将其用于peaso。请记住，您的发酵产品的好坏取决于其中的成分。',
+            en: 'In our experience, 44 to 48 hours from the time of initial inoculation is the window in which you want to harvest koji for peaso. Finally, if your koji shows any signs of being infected by unwanted mold or other microbes, don’t use it for peaso. Remember, your fermented products are only as good as the ingredients that go into them.'
+          },
+          {
+            zh: '温度和时间',
+            en: 'Temperature and Time'
+          },
+          {
+            zh: 'peaso 越暖和，它发酵的速度就越快。 Peaso 保存在比室温凉爽的环境中，例如地窖，发酵速度会明显减慢。 Maillard 反应也会在温暖的环境中加速，在最后的 miso 中创造出更多的烘烤味道。',
+            en: 'The warmer your peaso, the faster it will ferment. Peaso held in environments cooler than room temperature, like a cellar, will ferment noticeably more slowly. Maillard reactions will also accelerate in warmer environs, creating more toasted flavors in your final miso.'
+          },
+          {
+            zh: '当保持在 60°C/140°F 时，koji 产生的酶在催化生化反应时非常有效。您很可能不会在恒温加热至 60°C/140°F 的隔热房间中发酵您的peaso，您也不想这样做——它最终会很快尝到烧焦的味道。在 28° 至 30°C/82° 至 86°F 的温度下，您将模拟日本的夏季，并且可以获得更快发酵和更多产Maillard反应的好处。',
+            en: 'The enzymes produced by koji are quite efficient when catalyzing biochemical reactions when held at 60°C/140°F. Chances are, you won’t be fermenting your peaso in an insulated room heated to a constant temperature of 60°C/140°F, nor would you want to—it would end up tasting burnt very quickly. At 28° to 30°C/82° to 86°F, you’ll be emulating Japanese summers, and can reap the benefits of faster fermentation and more prolific Maillard reactions.'
+          },
+          {
+            zh: '然而，即使在中等温度下，经过很长一段时间，peaso 也会开始变质甚至燃烧。一旦它发酵了一年，它可能就不会继续变得更好了。试图猜测某件事何时达到顶峰是很困难的。但随着经验的积累，你会开始看到迹象。如果peaso开始变苦、变干或显着变黑，请注意。此时，这种情况可能不会随着年龄的增长而改善。',
+            en: 'However, even at moderate temperatures, over a very long time, peaso can begin to deteriorate or even burn. Once it ferments for, say, a year, it’s likely not going to keep getting better. Trying to guess when something is at its peak is difficult. But with experience you’ll begin to see the signs. If the peaso begins to grow bitter, dries out, or darkens significantly, pay heed. It’s probably not going to improve with age at this point.'
+          },
+          {
+            zh: '压力和暴露于空气中',
+            en: 'Pressure and Exposure to Air'
+          },
+          {
+            zh: '在 peaso 顶部放置重物会排出气泡，否则气泡将成为乙酸细菌或霉菌的理想滋生地，从而产生不良味道。重量应至少等于容器中peaso重量的一半。然而，即使被压在重物下，peaso也不会完全与空气隔绝——这是设计使然。微生物在工作时会产生需要排出的气体。如果peaso密封，气体将被重新吸收并污染味道。覆盖在顶部的透气布可以让您排出这些气体，同时防止苍蝇和蛆等较大的腐败物质进入。',
+            en: 'Placing weights on top of peaso forces out air pockets that would otherwise be ideal breeding grounds for acetic acid bacteria or mold to create unwanted flavors. The weight should be at least equal to half the weight of the peaso in the vessel. However, even when pressed beneath a weight, peaso isn’t sealed off completely from air—that’s by design. The microbes at work produce gases that need to vent. If the peaso were sealed airtight, the gases would be reabsorbed and taint the flavor. A breathable cloth laid over the top will allow you to vent these gases, while keeping out larger agents of spoilage like flies and their maggots.'
+          },
+          {
+            zh: '如果您的peaso尝起来有些辛辣、酸性或酒精味，则可能是包装得太紧或无法正常通风。这可以通过在平底锅中煮peaso五分钟并经常用抹刀搅拌来部分解决。不需要的香气和风味分子相当不稳定，这意味着它们一旦加热就会消散。不幸的是，没有办法完全消除这些味道。生活和学习。',
+            en: 'If your peaso tastes somewhat acrid, acidic, or alcoholic, it may be that it was packed too tight or not allowed to vent properly. This can be partially remedied by cooking the peaso in a pan for five minutes, stirring often with a spatula. The unwanted aroma and flavor molecules are fairly volatile, meaning they’ll dissipate once heated. Unfortunately, there’s no way to get rid of these flavors completely. Live and learn.'
+          },
+          {
+            zh: '额外的调味料',
+            en: 'Additional Flavorings'
+          },
+          {
+            zh: 'Miso 是废料的理想容器。添加榨汁蔬菜的果肉、种皮或剩菜，一年后就能带来非凡的风味。例如，每年夏天，我们都会收获野生海滩玫瑰，并将它们与中性油混合，为其注入其风味和香气。我们压榨油后留下的果肉仍然具有大量的价值。我们将其中一些添加到我们的基本 peaso 配方中（占总重量的 5%，再加上额外的盐），效果令人难以置信。打开一个桶，浓郁的花香充满整个房间。通过转移废物流，您可以创造出极其美味的东西。不要害怕尝试。蔬菜顶部、松针、一批garum中的过滤固体、果皮——它们都可以带来令人愉快的发现。',
+            en: 'Miso is an ideal receptacle for scraps. Adding the pulp of a juiced vegetable, seed husks, or leftovers can lead to remarkable flavors a year down the line. For example, each summer, we harvest wild beach roses and blend them with a neutral oil to infuse it with their flavor and aroma. The pulp that remains after we press the oil still has tons of value. We add some of it to our basic peaso recipe—5 percent of the total weight, plus additional salt—and the transformation is incredible. Crack open a bucket and robust floral scents fill the room. You create something profoundly delicious by diverting a waste stream. Don’t be afraid to experiment. Vegetable tops, pine needles, the strained solids from a batch of garum, fruit peels—they can all lead to delectable discoveries.'
+          },
+          {
+            zh: '也就是说，我们不建议添加任何超过 peaso 总重量 20% 的成分。发酵的豆类本身就是让miso令人惊叹的原因。如果发酵过程中没有足够的蛋白质，您的miso添加物就会变得咸味和溃烂。它们可能不会变质，但我们正在努力创造奇迹。',
+            en: 'That said, we don’t advise any ingredient additions that exceed 20 percent of the total weight of the peaso. The fermenting legumes themselves are what make miso amazing. If there aren’t enough proteins available during fermentation, your miso additions will simply become salty and fester. They may not go bad, but we’re striving for amazing here.'
+          },
+          {
+            zh: '*Yellow peaso is Japanese in spirit, Nordic in execution, and indispensable in our kitchen.*',
+            en: '*Yellow peaso is Japanese in spirit, Nordic in execution, and indispensable in our kitchen.*'
+          },
+          {
+            zh: '<!-- text/part0010_split_005.html -->',
+            en: '<!-- text/part0010_split_005.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1.用koji孢子接种蒸熟的大麦，并让它们在发酵室中生长2天（参见“建立发酵室”）。',
+            en: '1.Inoculate steamed barley with koji spores and allow them to grow for 2 days in a fermentation chamber (see “Building a Fermentation Chamber”).'
+          },
+          {
+            zh: '2.将黄豌豆浸泡、冲洗、煮沸。将豌豆与 koji 按 3:2 的比例（按重量）研磨或混合。',
+            en: '2.Soak, rinse, and boil yellow peas. Grind or blend the peas with the koji in a 3:2 ratio (by weight).'
+          },
+          {
+            zh: '3.添加盐（重量百分比4%）；然后，如有必要，使用 4% 盐水调节混合物的水分含量。',
+            en: '3.Add salt (4% by weight); then, if necessary, adjust the moisture content of the mixture using a 4% salt brine.'
+          },
+          {
+            zh: '4.将混合物紧紧地装入发酵容器中，并在表面撒上盐，以​​防止不必要的霉菌生长。称重混合物，盖上容器，使其在 22° 至 30°C/72° 至 86°F 的温度下发酵至少 3 个月。',
+            en: '4.Pack the mixture tightly into a fermentation vessel and sprinkle salt over the surface to prevent unwanted mold growth. Weight the mixture down, cover the vessel, and leave it to ferment at a temperature of 22° to 30°C/72° to 86°F for at least 3 months.'
+          },
+          {
+            zh: '5.收获聚集在miso顶部的所有酱油，并刮掉表面的霉菌。将miso本身存放在冰箱的密封容器中。',
+            en: '5.Harvest any tamari that has pooled on top of the miso and scrape away any surface mold. Store the miso itself in airtight containers in the refrigerator.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '04-monitoring-security-analytics',
@@ -7360,6 +12602,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 通知系统的监控、安全与分析'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -7479,6 +12730,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 多设备同步与群聊设计'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能说明同一用户多设备在线时消息和已读如何同步，并能区分小群和大群的投递策略。你还要能处理成员加入、退出、历史可见性和未读计数这些群聊里常见但容易漏掉的问题。'
@@ -7597,7 +12857,76 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 北欧<第12学期>',
+            en: '# Nordic Shoyu'
+          },
+          {
+            zh: '我们在Noma与shoyu的旅程遵循了与酱油本身的历史相似的道路。当我们第一次开始制作黄色Peaso（我们的miso版本）时，我们立即爱上了升到容器顶部的酱油。我们还不够。我们会批量生产peaso，这样我们就可以拥有更多的液体。说实话，它可能已成为我们厨房中最有价值的风味成分。',
+            en: 'Our journey with shoyu at Noma followed a similar path to the history of soy sauce itself. When we first started makingYellow Peaso—our version of miso—we immediately fell in love with the tamari that rose to the top of the containers. We couldn’t get enough. We’d make batches of peaso just so we could have more of the liquid. Truth be told, it’s probably become the single most valuable flavor component in our kitchen.'
+          },
+          {
+            zh: '为了追求酱油，我们制作并使用了很多peaso，因为它在菜单上随处可见。但由于与经典日本 miso 相比，我们的 peaso 的盐含量相对较低（按重量计 4%），因此我们不能像一千年前日本 miso 制造商那样简单地向 peaso 中添加更多水来提取更多的酱油。如果我们的 peaso 太湿，就没有足够的盐来防止不需要的细菌使整批产品变酸。',
+            en: 'We were making and using a lot of peaso in the pursuit of tamari, as it had found its way all over the menu. But because our peasos have a relatively low salt content (4% by weight) compared to classical Japanese misos, we couldn’t simply add more water to our peasos to extract more tamari the way that Japanese miso makers did a thousand years ago. If our peaso gets too wet, there’s not enough salt to prevent unwanted bacteria from souring the whole batch.'
+          },
+          {
+            zh: '最终，我们决定，如果我们想要更多的酱油，唯一的解决方案就是遵循前人的逻辑，学习自己制作shoyu。我们遵循日本的经典方法，用北欧原料代替传统原料，就像我们的peaso一样。但我们最终得到的是。 。 。 <第 11 学期>。它的味道和我们从<学期17>收获的酱油不一样。它很漂亮——复杂、咸味、浓郁——但它基本上与优质的日本酱油没有什么区别。',
+            en: 'Eventually, we determined that if we wanted more tamari, the only solution was to follow the logic of our predecessors and learn to make shoyu on its own. We followed classical Japanese methods, substituting Nordic ingredients for traditional ones, just as we had with our peaso. But what we ended up with was . . . shoyu. It didn’t taste the same as the tamari we’d been harvesting from our peaso. It was beautiful—complex, salty, and rich—but it was also basically indistinguishable from a good-quality Japanese soy sauce.'
+          },
+          {
+            zh: '大豆不是我们在世界这个地区掌握的风味特征。当然，在家里，我们早上将shoyu放入鸡汤和鸡蛋中。我们在整个亚洲见证并惊叹于它的烹饪潜力。我们是超级粉丝。但在Noma，我们的目标是创造和培养食客的地方感。我们希望他们能够将所吃的食物与时间和地点联系起来。每当我们尝试在测试厨房的菜肴中添加shoyu时，它都有可能让你脱离当下，带你回到遥远的记忆中，比如一碗日本拉面或一锅上海红烧肉。',
+            en: 'Soy is not a flavor profile that we’ve mastered in this part of the world. Of course, at home we put shoyu in our chicken broth and on our eggs in the morning. We’ve witnessed and marveled at its culinary potential throughout Asia. We’re huge fans. But at Noma, our goal is to create and nurture our diners’ sense of place. We want them to draw a connection between the food they’re eating and the moment and place. Whenever we’ve tried adding shoyu to a dish in the test kitchen, it threatens to take you out of the moment and transport you to a distant memory of a bowl of ramen in Japan or a clay pot of braised pork in Shanghai.'
+          },
+          {
+            zh: '有些人可能不会注意到这里那里有一点shoyu的滴落，但其他人会立即发现它。尽管我们的shoyu完全由当地食材制成，但它的味道太像你的大脑与其他地方的联系。这证明了协会的力量。我们制作了北欧shoyu，我们对此感到自豪，但它尝起来像日本shoyu。对我们来说，这是一个难以克服的障碍。最终，我们决定不生产shoyu，而是“破解”我们自己的发酵，以产生更多的酱油。 （您可以阅读我们的Peaso Tamari Reduction。）',
+            en: 'Some people might not notice a little drop of shoyu here and there, but others would detect it immediately. Even though our shoyu is made entirely out of local ingredients, it tastes too much like something your brain associates with other places. It’s a testament to the power of association. We made Nordic shoyu, and we’re proud of it, but it tastes like Japanese shoyu. For us, that’s a difficult obstacle to overcome. Ultimately, we decided that rather than producing shoyu, we would “hack” our own ferments in order to generate more tamari. (You can read about ourPeaso Tamari Reduction.)'
+          },
+          {
+            zh: '话虽如此，shoyu 仍然是一种用途非常广泛的成分。你很难找到一个厨房——无论是商业厨房还是其他厨房——不放着一瓶酱油。腌料、酱汁、高汤和肉汤都是 shoyu 的明显用途，但它也为釉料、油醋汁，甚至焦糖和奶油糖等甜味应用带来了巨大的价值。',
+            en: 'All that being said, shoyu remains a remarkably versatile ingredient. You would be hard-pressed to find a kitchen—commercial or otherwise—that isn’t holding a bottle of soy sauce. Marinades, sauces, stocks, and broths are all obvious destinations for shoyu, but it also brings great value to glazes, vinaigrettes, and even sweet applications such as caramel and butterscotch.'
+          },
+          {
+            zh: '打开酱油的包装并学习自己制作酱油是一项值得的努力。尽管我们还没有弄清楚如何将其无缝地整合到我们的菜单中，但我们仍在继续尝试 shoyu 并从每一次努力中学习。',
+            en: 'Unpacking what goes into soy sauce and learning to make it yourself is a worthwhile endeavor. Even though we’ve yet to figure out how to incorporate it seamlessly into our menu, we continue to experiment with shoyu and learn from each effort.'
+          },
+          {
+            zh: '让我们快速分解一下Noma的黄豌豆shoyu的制作方法：',
+            en: 'Let’s quickly break down the methodology for making Noma’s yellow pea shoyu:'
+          },
+          {
+            zh: '1. 将约 2 份煮熟的黄豌豆和 1 份烤碎小麦的混合物与酱油曲霉孢子接种。将 koji 在发酵室中培养 2 天。',
+            en: '1.Inoculate a mixture of roughly 2 parts boiled yellow peas and 1 part roasted and cracked wheat withAspergillus sojaespores. Grow the koji in a fermentation chamber for 2 days.'
+          },
+          {
+            zh: '2.将koji放入发酵容器中并用盐水覆盖。用透气布或盖子盖住容器，放在阴凉的房间里发酵3至4个月。',
+            en: '2.Place the koji into a fermentation vessel and cover with brine. Cover the container with a breathable cloth or lid and place it in a cool room to ferment for 3 to 4 months.'
+          },
+          {
+            zh: '3.补充蒸发损失的水分并压榨麦芽浆以收获液体。',
+            en: '3.Replace any water lost to evaporation and press the mash to harvest the liquid.'
+          },
+          {
+            zh: '我们的主要shoyu是用黄豌豆和科尼尼小麦制成的。 Konini 是一种古老的品种，烘烤后呈紫色，味道复杂。 Konini 的来源可能有点困难，但任何优质的全麦小麦都可以。我们在黑麦和大麦方面也取得了巨大成功。',
+            en: 'Our primary shoyu is made with yellow peas and Konini wheat. Konini is an ancient variety, purple in color and complex in flavor once it’s roasted. Konini can be a bit hard to source, but any good-quality whole-grain wheat will do. We’ve also had great success with rye and barley.'
+          },
+          {
+            zh: '本章还包括用干牛肝菌或咖啡等原料制成的shoyu变体。再一次，虽然我们还没有找到将shoyu完全融入Noma的用餐体验的方法，但我们仍在继续尝试。其中一些食谱并不完全符合 shoyu 的定义；有些与garum有同样多的共同点。 （我们继续称它们为shoyu，因为与garum不同，它们不包含任何动物肉。）我们最成功的此类混合物是树妖的马鞍shoyu。树妖的马鞍是一种蘑菇，它本身几乎不可能生长koji，因此我们将其与成品大麦koji混合并浸泡在盐水中。它是一种与我们基本的shoyu截然不同的液体——果味、酸味、咸味，带有令人愉悦的味道。它还富含鲜味，这使得它本身就是一种美味、全面的调味品，也是其他酱汁的绝佳佐料。',
+            en: 'This chapter also includes shoyu variations made with ingredients such as dried ceps or coffee. Once again, while we haven’t found a way to integrate shoyu fully into the dining experience at Noma, we continue to experiment. Some of these recipes don’t fit snugly into the definition of shoyu; some have just as much in common with garums. (We continue to call them shoyus, because unlike garums, they don’t contain any animal flesh.) Our most successful concoction of this ilk is our dryad’s saddle shoyu. Dryad’s saddle is a type of mushroom, on which it’s almost impossible to grow koji by itself, so we blend it with finished barley koji and soak it in a salt brine. It’s a very different liquid from our basic shoyu—fruity, sour, salty, with a pleasant must. It’s rich in umami as well, which makes it a nice, well-rounded condiment on its own, and an excellent booster to other sauces.'
+          },
+          {
+            zh: '<!-- text/part0011_split_005.html -->',
+            en: '<!-- text/part0011_split_005.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '04-optimization-security-cost',
@@ -7609,6 +12938,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 优化视频系统：速度、安全与 CDN 成本'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -7729,6 +13067,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 生产化自动补全：日志、缓存、过滤与分片'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你应该能把自动补全从数据结构方案推进到生产方案：如何治理日志质量，如何保护短前缀热点，如何做多级缓存、敏感过滤、索引发布、分片扩容和故障降级，以及这些机制各自解决什么风险。'
@@ -7847,6 +13194,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Quorum 与版本冲突处理'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -7968,7 +13324,40 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 除去空气',
+            en: '# Remove the Air'
+          },
+          {
+            zh: '*Packing jars tightly will help remove air and prevent spoilage.*',
+            en: '*Packing jars tightly will help remove air and prevent spoilage.*'
+          },
+          {
+            zh: 'LAB 在没有氧气的情况下发挥最佳作用。在许多传统的lacto发酵中，液体置换足以使LAB愉快地排除空气。以酸菜为例。切碎卷心菜会破坏植物细胞并释放水分。盐通过渗透作用从植物中吸收更多的水，并且在卷心菜顶部放置一个重物，将其浸入自己的汁液中，从而使LAB能够发挥作用。',
+            en: 'LAB function best in the absence of oxygen. With many traditional lacto-fermentations, liquid displacement is all it takes to keep LAB happily deprived of air. Take sauerkraut, for instance. Shredding the cabbage ruptures the plant’s cells and releases moisture. Salt draws even more water out of the plant via osmosis, and a weight placed on top of the cabbage submerges it in its own juices, allowing the LAB to do their work.'
+          },
+          {
+            zh: '然而，在 Noma 中，在重物下压碎蔬菜并不总是一种选择，因此我们将竭尽全力确保成品发酵水果或蔬菜在最终展示时保持美丽的完整性。我们使用塑料袋和真空密封器来确保我们的LAB不会与氧气接触。',
+            en: 'At Noma, however, smushing vegetables under weights isn’t always an option, so we’ll go to great lengths to ensure that the finished fermented fruits or vegetables stay beautifully whole for their final presentation. We use plastic bags and a vacuum sealer to ensure that our LAB don’t come into contact with oxygen.'
+          },
+          {
+            zh: '无论您选择从 LAB 的环境中去除氧气，您不仅可以帮助细菌进行发酵工作，还可以排除潜在的病原体。通过将氧气排除在外，您还可以破坏不需要的霉菌，因为它们的细胞呼吸需要空气。',
+            en: 'However you choose to remove oxygen from LAB’s environment, you’re not only helping the bacteria to carry out their fermentation work, you’re also excluding potential pathogens. By taking oxygen out of the equation, you also sabotage unwanted molds, which require air for their cellular respiration.'
+          },
+          {
+            zh: '<!-- text/part0006_split_005.html -->',
+            en: '<!-- text/part0006_split_005.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '04-saltwater',
@@ -7982,7 +13371,40 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 咸水',
+            en: '# Salt/Water'
+          },
+          {
+            zh: '*When surrounded by a salt solution, the water in cells travels outward to areas of higher ionic concentration. As a result, the cell shrivels and dies.*',
+            en: '*When surrounded by a salt solution, the water in cells travels outward to areas of higher ionic concentration. As a result, the cell shrivels and dies.*'
+          },
+          {
+            zh: '盐在garum的大桶中的另一个作用是防止腐败。正如本书多次提到的，有大量耐盐腐败细菌在轻度盐分环境中生存没有问题。但有一个限制，而garum的盐度超过了这个限制。高盐溶液通过两种机制防止腐败：渗透（您已经读过）和另一种称为水分活度的特性，它适用于所有类型的发酵。',
+            en: 'Salt’s other role in a vat of garum is to prevent spoilage. As mentioned many times in this book, there are plenty of halotolerant spoilage bacteria that have no problem living in mildly saline environments. But there is a limit, and garum’s salinity sits over that limit. Highly salted solutions safeguard against spoilage via two mechanisms—osmosis, which you’ve already read about, and another property called water activity, which extends to all types of fermentation.'
+          },
+          {
+            zh: '水活度不是衡量产品中水含量的指标，而是衡量水与产品结合程度的紧密程度。它衡量样品释放出多少水蒸气，以比率表示。蒸馏水的水分活度为 1，而完全干燥的物质（例如，在烤箱中烘烤的沙子，其中的水分已蒸发）的水分活度为 0。干果的水分活度约为 0.6；干果的水分活度约为 0.7；干果的水分活度约为 0.7；干果的水分活度约为 0.7；干果的水分活度约为 0.7；干果的水分活度约为 0.6；蒸馏水的水分活度为 1。生肉，约0.99。大多数细菌需要水分活度在0.9以上的环境才能生长；真菌，0.7以上。 （冷冻，通过将水分子锁定在刚性晶格中，也能有效降低水分活度，这也是它如此有效的保存方法的原因。）',
+            en: 'Water activity is not a measure of how much water is within a product, but rather how tightly bound the water is to that product. It’s a measure of how much water vapor a sample gives off, expressed as a ratio. Distilled water has a water activity of 1, while a totally dry substance—for instance, sand that’s been baked in an oven so that any water inside it has evaporated—has a water activity of 0. Dried fruit has a water activity of about 0.6; raw meat, about 0.99. Most bacteria need an environment with a water activity above 0.9 to grow; fungi, above 0.7. (Freezing, by way of locking water molecules into a rigid lattice, also effectively lowers water activity, and is the reason it’s such an effective method of preservation.)'
+          },
+          {
+            zh: '在一批 garum 中，盐通过与单个水分子结合来降低混合物的水活度，从而有效地将它们从溶液中去除。由于水分子被盐离子隔离，因此它们无法用于微生物的正常生命过程。这与渗透作用协同作用，渗透作用对微生物细胞的作用与对肉或鱼的作用相同。盐从微生物细胞中吸出水分，使它们崩溃，使它们枯萎死亡。这种机制可以避免所有充分加盐的产品腐败，不仅是garum，还包括陈年奶酪、腌肉、miso、shoyu和乳酸发酵物。',
+            en: 'In a batch of garum, salt lowers the water activity of a mixture by binding to individual water molecules, effectively removing them from the solution. Because the water molecules are sequestered by salt ions, they are unavailable to the microbe’s normal life processes. This works in concert with osmosis, which acts the same way on microbial cells as it does on meat or fish. The salt draws water out of the microbe’s cells, collapsing them so they shrivel and die. This mechanism staves off spoilage in all sufficiently salted products, not just in garums, but also aged cheeses, cured meats, misos, shoyus, and lactic ferments.'
+          },
+          {
+            zh: '<!-- text/part0012_split_005.html -->',
+            en: '<!-- text/part0012_split_005.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '04-sliding-window-algorithms',
@@ -7994,6 +13416,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 滑动窗口算法：准确性与内存的取舍'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -8114,7 +13545,36 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 烈酒醋',
+            en: '# Spirit Vinegars'
+          },
+          {
+            zh: '您可能会问的另一个问题是是否可以将新鲜水果和蔬菜完全从醋中剔除。当然可以，为什么不呢？你也可以将蒸馏酒转化为醋，只要你先稀释它们或者烧掉一些酒精——高酒精含量会阻碍AAB。',
+            en: 'Another question you may be asking is whether you can take fresh fruits and vegetables out of the vinegar equation altogether. Sure, why not? You can also transform distilled spirits into vinegars, as long as you dilute them first or burn off some of the alcohol—high-alcohol contents will hinder AAB.'
+          },
+          {
+            zh: '稀释是用烈酒制作醋的最直接的方法，但你必须小心，不要把东西加水到无法辨认的程度。当你冲淡一些像温和的李子阿夸维酒这样的东西时，你可能正在发酵一种无味的伏特加。另一方面，考虑一下 Gammel Dansk，这是经典的丹麦苦精，它富含植物成分，将其稀释至 8% 的酒精度几乎不会影响其风味。',
+            en: 'Dilution is the most straightforward way of making vinegar from spirits, but you have to be careful not to water things down to the point of unrecognizability. By the time you’ve watered down something like a mild plum aquavit, you may as well be fermenting a flavorless vodka. On the other hand, consider Gammel Dansk, the classic Danish bitters, which is so heavily infused with botanicals that diluting it to 8% ABV will barely put a dent in its flavor.'
+          },
+          {
+            zh: '为了保留波本威士忌或杜松子酒等更精致的烈酒的特性，最好去除酒精而不是稀释它。将烈酒放入平底锅中，用高温燃烧直至火焰熄灭。在此过程中您会损失大量液体，但您留下的是几乎不含酒精的原始烈酒版本。味道也会浓缩，所以你需要加水来恢复平衡。测量液体的体积，并添加一些原酒，使酒精度恢复到 8% 左右。从那里开始，像进行任何醋发酵的第二阶段一样，用一些未经高温消毒的醋倒流，给混合物充气，然后耐心等待。',
+            en: 'In order to retain the character of more delicate spirits like bourbon or schnapps, it’s better to remove the alcohol rather than dilute it. Flambé the spirit in a saucepan over high heat until the flames subside. You’ll lose a lot of the liquid in the process, but what you’re left with is a nearly alcohol-free version of your original spirit. The flavor will also be concentrated, so you’ll want to add water to bring things back into balance. Measure the volume of the liquid, and add some of the original spirit to bring the ABV back up to the neighborhood of 8%. From there, proceed as you would with the second stage of any vinegar fermentation, by backslopping with some unpasteurized vinegar, aerating the mixture, and waiting patiently.'
+          },
+          {
+            zh: '<!-- text/part0008_split_005.html -->',
+            en: '<!-- text/part0008_split_005.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '04-the-many-faces-of-koji',
@@ -8128,7 +13588,88 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# <第六学期>的多面性',
+            en: '# The Many Faces of Koji'
+          },
+          {
+            zh: '中国和日本的古代厨师是第一个弄清楚如何驾驭和运用koji的人。 2500多年前，一位大胆的中国烹饪家一定决定品尝一批被遗弃的发霉的煮熟的谷物，并发现它具有明亮的热带水果味，甜而不腻。当然，这并不像听起来那么安全或简单。米曲霉有超过 250 种真菌近亲，其中许多会产生称为黄曲霉毒素的高度致癌毒素，对免疫系统受损的人可能致命。但是A.米藻则不同。大量研究表明koji不含黄曲霉毒素，可安全食用。不过，值得注意的是，Aspergillus oryzae是一种更古老的黑色霉菌的后代，其驯化方式与驯服狼狗的方式大致相同。一种潜在有害的生物体在许多代人的努力下慢慢地、有选择地变得有用且温顺。',
+            en: 'Ancient cooks in China and Japan were the first to figure out how to harness and wield koji. More than 2,500 years ago, some bold Chinese culinarian must have decided to taste a batch of moldy cooked grains that had been left out, and discovered it had bright notes of tropical fruit, with sweetness as well as richness. Of course, this was not as safe or simple as it sounds.A. oryzaehas more than 250 fungal relatives, many of which produce highly carcinogenic poisons called aflatoxins that can be lethal to people with compromised immune systems. ButA. oryzaeis different. Numerous studies have shown koji to be free and clear of aflatoxins and safe for consumption. Still, it’s worth noting thatAspergillus oryzaeis a descendant of a more ancient black mold, domesticated in much the same way that dogs were tamed from wolves. A potentially harmful organism was slowly and selectively made useful and docile over many, many generations.'
+          },
+          {
+            zh: '第一次在印刷品中提到koji可以在《周礼》中找到，这是一部大约公元前 300 年的中国政府文本，其中提到了霉菌 asqu（发音为“chew”）。在接下来的几个世纪里，记录显示，曲子成为中国的主要商品。大约三百年后，以谷物为原料的酒和豆酱的酿造说明出现在中国官方文献中，随之而来的是知识的稳步传播。到了公元八世纪，koji已经到达日本。',
+            en: 'The first mention of koji in print can be found inThe Rites of Zhou, a Chinese governmental text from around 300 BCE, which referred to the mold asqu(pronounced “chew”). Over the next few centuries, records indicate thatqubecame a major commodity in China. Instructions for the brewing of grain-based wines and bean pastes appear in official Chinese texts some three hundred years later, and a steady proliferation of knowledge followed. By the eighth century CE, koji had reached Japan.'
+          },
+          {
+            zh: '*Koji is the key to a wealth of fermented foods, from miso to rice vinegar to shoyu toamazakeand sake.*',
+            en: '*Koji is the key to a wealth of fermented foods, from miso to rice vinegar to shoyu toamazakeand sake.*'
+          },
+          {
+            zh: '从那时起，通过随机突变，颜色变体开始出现。选择并培育白化突变体。 koji 育种者发现，他们可以通过在煮熟的米饭或大麦批次中添加大约 1% 的灰分来将 koji 与其他野生霉菌隔离。灰烬提高了稻米的pH，为其他霉菌创造了一个不适宜生存的环境。 （米曲霉能耐受微碱性环境。）通过选择性培育白化菌株，入侵者很容易被发现并被清除，从而保持纯正的遗传系。进一步的突变导致亚种产生不同数量的不同代谢物。日本长达 1,200 年的培育过程反映了法国奶酪爱好者洞穴中对奶酪进行野生细菌接种的情况，其中某些奶酪与特定的细菌培养物有关，例如罗氏青霉（在蓝脉奶酪中发现）或亚麻短杆菌（负责林堡橙皮的产生）。',
+            en: 'From there, through random mutations, color variants began cropping up. Albino mutations were selected for and bred. The koji breeders found that they could isolate koji from other wild molds by adding roughly 1 percent ash to their batches of cooked rice or barley. The ash raises the pH of the rice, creating an inhospitable environment for other molds. (A. oryzaeis tolerant to slightly alkaline environments.) By selectively breeding albino strains, invaders were easily spotted and removed, leaving genetic lines pure. Further mutations led to subspecies that produced different metabolites in varying quantities. The 1,200-year-long breeding process in Japan mirrors the wild bacterial inoculation of cheeses in the caves ofaffineursin France, where certain cheeses are associated with specific bacterial cultures such asPenicillium roqueforti(found in blue-veined cheeses) orBrevibacterium linens(responsible for the orange rind of Limburger).'
+          },
+          {
+            zh: '日本人利用koji调制出一系列令人陶醉且迷人的混合物，例如miso、shoyu、amazake和清酒。几个世纪以来，koji的培养一直是一个严密保守的秘密。不到十个koji育种者种植了这种真菌菌株，在近一千年的时间里对特定品质进行了选择。 Miso 制造商和清酒酿造商必须从这些育种者那里少量订购被称为 koji tane 的孢子。最终，市场开放了，如今日本生产商种植了超过一万种曲霉专业品种。',
+            en: 'The Japanese used koji to come up with a galaxy of intoxicating and captivating concoctions like miso, shoyu,amazake, and sake. Throughout the centuries, the culturing of koji was a closely guarded secret. Fewer than ten koji breeders grew strains of the fungus, selecting for specific qualities spanning generations for close to a thousand years. Miso makers and sake brewers would have to order the spores, known askoji tane, in small quantities from these breeders. Eventually, the market opened up, and today Japanese producers grow more than ten thousand specialized cultivars ofAspergillus.'
+          },
+          {
+            zh: '*Koji was born in China but flourished most in Japan.*',
+            en: '*Koji was born in China but flourished most in Japan.*'
+          },
+          {
+            zh: 'A的无数变体。每种稻都有自己的品质和性格。我们在 Noma 的大部分工作中使用的 koji 是 koji 黄色菌株的白化变种，它也用于生产大多数清酒。我们还使用生产柠檬酸的品种Aspergillus luchuensis。它偏离了稻米明显的热带水果风味，并产生了青苹果和生平菇的味道。在稻米上生长的芦川产生了简单的koji，带有苹果味和柠檬味。但当在大麦上生长时，这种霉菌会产生另一个层次的吸引力，产生泥土味和令人愉快的苦味，几乎与葡萄柚没有区别。泡盛曲霉是一种古老的品种，孢子非常黑。在冲绳，当地人将其种植在籼稻亚种上，以生产一种称为泡盛的蒸馏酒精饮料。像A. 陆川,A.泡盛产生柠檬酸作为代谢物，产生令人愉悦的酸味koji（尽管应该注意的是，柠檬酸不会蒸馏到成品酒精中，因为它太重而无法蒸发）。在Noma，大麦koji与A一起生长。泡盛给我们带来了葡萄汁的味道，比如鲭鱼。',
+            en: 'The myriad variants ofA. oryzaeeach have their own qualities and characters. The koji we use for most of our work at Noma is an albino variant of a yellow strain of koji that also goes into producing most sakes. We also use a variety,Aspergillus luchuensis, that produces citric acid. It veers away from the overt tropical fruit flavors oforyzaeand creates hints of green apple and raw oyster mushroom.Luchuensisgrown on rice produces a straightforward koji, with apple flavors and lemony brightness. But when grown on barley, the mold finds another level of intrigue, generating earthiness and a pleasant bitterness that’s almost indistinguishable from grapefruit.Aspergillus awamoriis an older variety with very black spores. In Okinawa, locals grow it on theindicasubspecies of rice to produce a distilled alcoholic beverage calledawamori. LikeA. luchuensis,A. awamoriproduces citric acid as a metabolite, making for a pleasantly tart koji (though it should be noted that citric acid doesn’t distill into the finished alcohol, as it’s too heavy to evaporate). At Noma, barley koji grown withA. awamorioffers us notes of grape must, like saba.'
+          },
+          {
+            zh: '您可以花一生的时间来研究在一种基材上生长的各种霉菌与另一种基材上生长的各种霉菌的排列。即便如此，你也很难触及koji的壮观多样性的表面。',
+            en: 'You could spend a lifetime investigating the permutations of various molds grown on one substrate versus another. Even then, you’d scarcely scratch the surface of the spectacular diversity of koji.'
+          },
+          {
+            zh: '勇敢的koji制造商面临的主要后勤障碍将是采购特定的孢子。 《TERM6》在业余爱好者中的受欢迎程度尚未像精酿啤酒那样成为主流。但仅仅因为您在当地杂货店的货架上没有看到koji tane，并不意味着您找不到它。',
+            en: 'The main logistical obstacle that faces intrepid koji makers will be sourcing specific spores. Koji’s popularity among amateur enthusiasts has yet to break into the mainstream the same way that craft beer has. But just because you don’t see koji tane on the shelves of your local grocery store doesn’t mean you can’t find it.'
+          },
+          {
+            zh: '在互联网上搜索“koji kin”、“koji tane”或“koji spores”将带您找到自制清酒套件的几家制造商之一。其中许多公司都位于日本，尽管北美也有一些公司拥有少量不同的孢子。 （有关推荐供应商的列表，请参阅来源。）',
+            en: 'An Internet search for “koji kin,” “koji tane,” or “koji spores” will lead you to one of several manufacturers of home-brew sake kits. Many of those companies are located in Japan, although there are a few in North America that have a small selection of different spores. (SeeSourcesfor a list of recommended suppliers.)'
+          },
+          {
+            zh: 'Aspergillus oryzae的白化菌株具有最好的风味，特别是对于本书中出现的应用而言。只要稍微挖掘一下，就可以在网上找到像泡森和绿川这样的品种。如果您会说日语，或者您有会说日语的朋友，这将有助于您准确了解您要购买的是什么。然而，一般来说，拉丁分类学名称将被全面使用。',
+            en: 'Albino strains ofAspergillus oryzaehave the best flavor, especially for the applications that appear in this book. Varieties likeawamoriandluchuensiscan be found online with a little digging. If you speak Japanese, or have a friend who does, that will help in figuring out exactly what it is you’re purchasing. Generally speaking, however, Latin taxonomic names will be used across the board.'
+          },
+          {
+            zh: 'Koji孢子具有极强的弹性。它们运输良好，如果在冰箱中保持真空密封，则可以保存数年；但即使在室温下，它们也可以在货架上保存长达六个月。',
+            en: 'Koji spores are extremely resilient. They ship well and can last for years if they remain vacuum-sealed in the freezer; but even at room temperature, they’ll keep on the shelf for up to six months.'
+          },
+          {
+            zh: '*A. awamori, grown on barley for 48 hours*',
+            en: '*A. awamori, grown on barley for 48 hours*'
+          },
+          {
+            zh: '*GreenA. oryzae, 48 hours*',
+            en: '*GreenA. oryzae, 48 hours*'
+          },
+          {
+            zh: '*A. luchuensis, 42 hours*',
+            en: '*A. luchuensis, 42 hours*'
+          },
+          {
+            zh: '*A. luchuensis, 48 hours*',
+            en: '*A. luchuensis, 48 hours*'
+          },
+          {
+            zh: '<!-- text/part0009_split_005.html -->',
+            en: '<!-- text/part0009_split_005.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '04-upload-download-notification',
@@ -8140,6 +13681,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 上传、下载与通知服务'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -8259,6 +13809,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 虚拟节点让负载更均衡'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -8385,6 +13944,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 收尾、复盘与面试节奏控制'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '本节要讲系统设计面试最后阶段该如何收束。你要能把方案的核心路径、主要取舍、未解决风险和后续扩展讲清楚，也要知道哪些表达会让答案显得不成熟。'
@@ -8504,7 +14072,114 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# <第六学期>可以回家的地方',
+            en: '# A Place for Koji to Call Home'
+          },
+          {
+            zh: '所有发酵物都是复杂的生物，需要适合其需求的环境才能蓬勃发展，而koji是发酵世界中最挑剔的角色之一。它的最佳环境非常具体，但不要让它阻止你种植它。 Koji 不到两天就成熟了。即使您第一次（或前几次）搞砸了，您也可以再试一次，而无需牺牲太多时间或精力。就像抚养孩子一样，第二次会变得更容易。',
+            en: 'All ferments are complex living things that require environments suited to their needs in order to flourish, and koji is one of the fermentation world’s more finicky characters. Its optimal environment is very specific, but don’t let that stop you from growing it. Koji matures in less than two days. Even if you mess up the first time (or the first couple of times), you can give it another go without sacrificing too much time or effort. And as with raising children, it gets easier the second time around.'
+          },
+          {
+            zh: '但在我们开始谈论第二次或第三次尝试之前，让我们先从头到尾回顾一下整个过程。',
+            en: 'But before we start talking about second or third attempts, let’s give the process a first look from start to finish.'
+          },
+          {
+            zh: '您可能首先想到的是需要将温度和湿度保持在恒定水平。你想要为koji创造的环境让人回想起Aspergillus oryzae的世界：中国南方温暖、潮湿的气候。真菌还需要氧气来进行细胞呼吸，因此气流至关重要。气流也很重要，因为koji在生长时会产生相当多的热量，而这些热量需要转移到某个地方。在狭窄的空间中，盛有 koji 的托盘温度会跃升至超过 42°C/108°F，此时霉菌将会死亡，这种情况并不罕见。',
+            en: 'The first thing that will probably leap out to you is the need to keep the temperature and humidity at constant levels. The environment you want to create for the koji harkens back to the worldAspergillus oryzaearose from: the warm, wet climes of southern China. The fungus also needs oxygen for cellular respiration, so airflow is essential. Airflow is also important because koji produces a fair bit of heat as it grows, and that heat needs to go somewhere. It’s not uncommon for a tray of koji in a cramped space to jump to temperatures in excess of 42°C/108°F, at which point the mold will die off.'
+          },
+          {
+            zh: '在日本，清酒酿造者传统上在雪松林立的房间（称为koji室）中种植koji。 koji 所在的浅托盘也是由未经处理的雪松制成的，雪松具有自己的风味和抗菌特性，有助于排除可能会喜欢煮熟的谷物床的其他微生物，从而促进 koji 的生长。托盘从不清洗，随着时间的推移，曲霉菌就会生活在托盘本身中，就像独特的酵母菌株生活在以啤酒闻名的比利时修道院的椽子里一样。',
+            en: 'In Japan, sake makers traditionally grow koji in a cedar-lined room known as akoji muro. The shallow trays in which the koji sits are also made from untreated cedar, which has a flavor of its own as well as antimicrobial properties that facilitate the koji’s growth by helping to exclude other microbes that might find a bed of cooked grains inviting. The trays are never washed and, over time,Aspergilluscomes to live in the trays themselves, in much the same way that unique strains of yeasts live in the rafters of the Belgian abbeys famed for their beers.'
+          },
+          {
+            zh: '*Traditionally, koji is fermented in a cedar-lined room called akojimuro.*',
+            en: '*Traditionally, koji is fermented in a cedar-lined room called akojimuro.*'
+          },
+          {
+            zh: '当我们在 Noma 开始认真对待发酵时，我们在几个堆叠的集装箱内建造了一系列发酵室。要求您做同样的事情或将您房子的一个房间改造成霉菌托儿所几乎肯定是荒谬的，所以让我们考虑一些更实际的选择。有很多解决方案，从定制的木制橱柜到不插电的迷你冰箱，到野餐冷却器，到带有乙烯基盖的速度架，再到实验室级的环境保存室。无论是自制的还是顶级的，您的发酵室都需要能够完成三件事： 保持热量。保持水分。让koji呼吸。',
+            en: 'When we started getting serious about fermentation at Noma, we built a series of fermentation rooms inside a few stacked shipping containers. It’s almost certainly absurd to ask you to do the same or to convert a room of your house into a nursery for molds, so let’s consider some more practical options. There are plenty of solutions, ranging from custom-made wooden cabinets to unplugged mini-fridges to picnic coolers to speed racks with a vinyl cover to laboratory-grade environmental holding chambers. Whether homemade or top of the line, your fermentation chamber needs to be able to do three things: Retain heat. Retain moisture. Allow the koji to breathe.'
+          },
+          {
+            zh: '退役的制冷设备工作得非常好，无论是旧的卧式冷冻柜、立式冷藏柜还是迷你冰箱。这些物品在制造时都考虑到了隔热性，它们确实可以保持热量和湿度。冰箱和冷却器还防水且易于清洁，这很好，因为在相对湿度如此高的情况下，如果不小心的话，湿气会积聚在室内并毁掉它。冷却器或聚苯乙烯泡沫塑料隔热盒（就像野餐时带的那种）也能起到作用。对于由改造的制冷设备制成的发酵室，您需要考虑的一件事是气流。您可能需要在冰箱或冷却器的顶部钻几个 1 厘米/⅓ 英寸的孔，然后用纱网或粗棉布盖住孔以防止入侵者。聚苯乙烯泡沫塑料盒的盖子可以打开并稍微半开。或者，如果您的容器有足够的空间，偶尔打开门就会循环足够的新鲜空气。',
+            en: 'Decommissioned refrigeration equipment works fantastically well, whether that’s an old chest freezer, stand-up cooler, or mini-fridge. These items are all built with insulation in mind, and they can really keep heat and humidity in. Fridges and coolers are also waterproof and easy to clean, which is nice because at such high relative humidity, moisture can collect in the chamber and ruin it, if you’re not careful. Coolers or Styrofoam insulation boxes, like the kind you’d take on a picnic, will do the job as well. The one thing you’ll need to account for with a fermentation chamber made from a piece of repurposed refrigeration equipment is airflow. You may need to drill a few 1-centimeter /⅓-inch holes into the top of your fridge or cooler, then cover the holes with a screen or cheesecloth to keep intruders out. Styrofoam boxes can have their lids propped open and left slightly ajar. Alternatively, if your container has an ample amount of space, occasionally opening the door will cycle enough fresh air in.'
+          },
+          {
+            zh: '继续 DIY 房间的可能性，木制橱柜效果非常好。它绝不会密闭到koji无法呼吸，而且可以轻松清洁。您只需要一个带铰链门的简单直立矩形盒子即可。我们还看到雄心勃勃的家用发酵罐成功地在脱水机中种植koji，这些脱水机已被修改（尽管违反了制造商的警告），以使其风扇停止或关闭。',
+            en: 'Continuing with DIY chamber possibilities, wooden cabi-netry works fantastically well. It’s never so airtight that the koji can’t breathe, and it can be cleaned easily. A simple upright rectangular box with a hinged door is all you need. We’ve also seen ambitious home fermenters who managed to grow koji in dehydrators that have been modified—albeit against the manufacturer’s warnings—to have their fans stopped or turned down.'
+          },
+          {
+            zh: '至于种植koji的托盘，用五六块未经处理的雪松来建造你自己的木托盘并不需要很大的木工技术。否则，带孔的不锈钢酒店平底锅或烤盘在衬上微湿的毛巾时效果会很好。不过，穿孔很重要，否则水分会积聚并淹没霉菌。凡是koji无法萌芽的地方，就会有一些不受欢迎的东西出现。',
+            en: 'As for the koji-growing trays, it doesn’t take a major feat of carpentry to build your own wooden trays from five or six pieces of untreated cedar. Otherwise, perforated stainless steel hotel pans or baking trays will work well when lined with a lightly dampened towel. Perforation is important, though, or moisture will accumulate and drown the mold. Wherever koji can’t sprout, something undesirable will.'
+          },
+          {
+            zh: '您选择的室的大小和类型应根据您计划生产的koji的数量来确定。每几个月培养一个托盘并不值得在你的地下室配备一台二手苏打水冰箱，但如果你在一家小餐馆工作，试图每周制作koji，那么投资一个小型保温柜、醒发箱或温斯顿 CVAP（受控蒸汽）抽屉将使你的发酵生活变得轻而易举。 CVAP、数字打样机，甚至更先进的组合烤箱都将为您提供机架空间，并且只需按几个按钮即可调节热量和湿度。不用说，它们是昂贵的专业设备，许多厨房很难证明连续两天使用它们是合理的。',
+            en: 'The size and type of chamber you choose should be informed by the amount of koji you’re planning to produce. Cultivating one tray every couple of months won’t merit a secondhand soda fridge in your basement, but if you’re working in a small restaurant trying to make koji on a weekly basis, investing in a small warming cabinet, proofer, or Winston CVAP (controlled vapor) drawer will make your fermenting life a breeze. CVAPs, digital proofers, and even more advanced combination ovens will all supply you with rack space, along with regulated heat and humidity with the push of just a few buttons. Needless to say, they are expensive pieces of professional equipment that many kitchens would be hard pressed to justify tying up for two straight days.'
+          },
+          {
+            zh: '对于 DIY 解决方案，您需要一些控制室内温度和湿度的方法。对于像聚苯乙烯泡沫塑料盒这样的较小容器，可以使用更温和的热源（例如放置在容器底部的加热垫）来完成这项工作。对于像改造后的冰箱这样的更大的房间，您需要像配备风扇的小型空间加热器之类的东西。我们最好的建议是购买配备探头和母电源插头的数字温度控制器，您将使用它作为单独的电加热器的电源。控制器将监测室内温度并相应地打开和关闭加热器。',
+            en: 'For DIY solutions, you’ll need some means of controlling the heat and humidity in the chamber. For a smaller container like a Styrofoam box, a gentler heat source like a heating pad placed on the bottom of the container will do the job. For a larger chamber like a repurposed fridge, you’ll want something like a small space heater equipped with a fan. Our best recommendation would be to purchase a digital temperature controller equipped with a probe and a female power plug that you’ll use as the power supply to a separate electric heater. The controller will monitor the temperature inside the chamber and turn the heater on and off accordingly.'
+          },
+          {
+            zh: '至于调节湿度，策略可以多种多样，从在容器内放入一小壶热水到在koji上铺一块干净的湿抹布。然而，小型室的最佳解决方案是连接到恒湿器的小型超声波加湿器。这两种设备都不是太贵，而且它们足够小，可以放在大多数室内。至于室内 70% 到 75% 的相对湿度，您需要的是凝结物刚刚开始聚集在容器底部。放入容器中的微湿抹布不应变干，但也不应变湿。',
+            en: 'As for regulating humidity, strategies can vary from placing a small pot of hot water inside the container to laying a clean damp rag over your koji. The best solutions for small-scale chambers, however, are small ultrasonic humidifiers connected to a humidistat. Neither piece of equipment is prohibitively expensive, and they’ll be small enough to rest inside most chambers. As for what 70% to 75% relative humidity looks like in the chamber, you’re looking for condensation to just begin pooling at the base of the container. A lightly dampened rag placed in the container shouldn’t dry out, but it also shouldn’t get any wetter.'
+          },
+          {
+            zh: '作为参考，在我们的发酵实验室中，我们建造了防水隔热室，并以电线圈加热器作为热源。线圈连接到 PID（比例积分微分）控制器，该控制器是计算机化恒温器，通过反馈算法调节温度，同时用热电偶测量加热速率并相应地调节电源。 PID 控制器通常可以将温度稳定保持在 1°C 以下。湿度由高压喷嘴提供，根据湿度调节器的指示提供细雾。这是一个非常复杂的设置。它也运作得很好。我们不期望您构建像我们在Noma中构建的那样复杂的东西，但它让您了解如何做好它，这在将事物转化为小规模时总是很重要。',
+            en: 'For reference, in our fermentation lab, we’ve built waterproof insulated rooms with electric coil heaters as a heat source. The coils are hooked up to PID (proportional-integral-derivative) controllers, which are computerized thermostats that regulate temperature by way of a feedback algorithm, as they measure the rate of heating with a thermocouple and modulate the power supply accordingly. PID controllers can usually hold temperature steady to within less than 1°C. The humidity is provided by high-pressure nozzles that provide a fine mist according to what a humidistat tells them to do. It’s a very elaborate setup. It also works very well. We don’t expect you to construct something as elaborate as what we’ve built at Noma, but it gives you an idea of how to do it well, which is always important when translating things to a small scale.'
+          },
+          {
+            zh: '请参阅有关建造较小规模发酵室的具体说明。',
+            en: 'See specific instructions onbuilding a smaller-scale fermentation chamber.'
+          },
+          {
+            zh: '*Abalone Schnitzel and Bush Condiments, Noma Australia, 2016*',
+            en: '*Abalone Schnitzel and Bush Condiments, Noma Australia, 2016*'
+          },
+          {
+            zh: '*The schnitzel is a piece of black lip abalone that’s been braised in rice koji oil to tenderize its flesh, then pounded and breaded with rice koji flour and breadcrumbs before being pan-fried.*',
+            en: '*The schnitzel is a piece of black lip abalone that’s been braised in rice koji oil to tenderize its flesh, then pounded and breaded with rice koji flour and breadcrumbs before being pan-fried.*'
+          },
+          {
+            zh: '*Use a sugar shaker to knock off spores from dried koji grains when inoculating barley.*',
+            en: '*Use a sugar shaker to knock off spores from dried koji grains when inoculating barley.*'
+          },
+          {
+            zh: '<!-- text/part0009_split_006.html -->',
+            en: '<!-- text/part0009_split_006.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1.将薏仁洗净、浸泡、蒸熟。',
+            en: '1.Rinse, soak, and steam the pearl barley until it’s fully cooked.'
+          },
+          {
+            zh: '2.将颗粒打碎并冷却至室温，然后接种koji孢子。',
+            en: '2.Break up the grains and allow them to cool to room temperature, then inoculate them with koji spores.'
+          },
+          {
+            zh: '3.将接种的谷物放入发酵室中，理想温度为 30°C/86°F，湿度为 70% 至 75%。',
+            en: '3.Place the inoculated grains in a fermentation chamber, ideally held at 30°C/86°F and 70% to 75% humidity.'
+          },
+          {
+            zh: '4.让koji生长24小时。用戴手套的手将谷物翻动并分成三排，以便更好地散热。',
+            en: '4.Allow the koji to grow for 24 hours. Use gloved hands to turn the grains and furrow them into three rows for better heat dissipation.'
+          },
+          {
+            zh: '5.再给koji18到24小时来完成生长。它会继续生长，但你想在真菌变成孢子之前收获它。',
+            en: '5.Give the koji another 18 to 24 hours to finish growing. It will continue to grow, but you want to harvest it before the fungus goes to spore.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '05-acetic-acid-bacteria-aab',
@@ -8553,7 +14228,72 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 通过<第六学期>过上更好的生活',
+            en: '# Better Living Through Koji'
+          },
+          {
+            zh: '*Glutamate (C5H8NO4) is the delicious taste of umami in molecular form.*',
+            en: '*Glutamate (C5H8NO4) is the delicious taste of umami in molecular form.*'
+          },
+          {
+            zh: '对garum的美味贡献最大的风味分子是谷氨酸。谷氨酸是一种氨基酸，几乎存在于所有蛋白质中。以游离形式（只是悬挂在外面，不是蛋白质链的一部分），它在肉类、奶酪、西红柿、海藻和小麦中的含量特别高。当garum桶中的蛋白水解酶分解鱼或肉中的蛋白质时，它会释放谷氨酸分子，然后谷氨酸分子释放出自由正电荷，变成谷氨酸。谷氨酸盐又与钠等矿物质离子结合形成谷氨酸一钠 (MSG)。',
+            en: 'The flavor molecule most responsible for garum’s deliciousness is glutamic acid. Glutamic acid is an amino acid that is present in almost all proteins. In its free form (just hanging out, not part of a protein chain), it can be found in especially high concentrations in meats, cheeses, tomatoes, seaweed, and wheat. When the proteolytic enzymes in a vat of garum cleave apart the proteins in fish or meat, it frees molecules of glutamic acid, which then give up a free positive charge to become glutamate. Glutamate, in turn, binds to mineral ions like sodium to form monosodium glutamate (MSG).'
+          },
+          {
+            zh: '除了作为一种众所周知的粉状食品添加剂之外，味精自然也是世界上一些最美味的食物的来源，从拉面到烩饭。它在舌头上的感觉本身并不是一种风味，而是鲜味的感觉——味觉的“第五要素”，通常被认为是美味的本质，由日本化学家池田菊苗 (Kikunae Ikeda) 在 1900 年代初首次提出。也许对它的味道最好的描述是“更多”——也就是说，当你品尝它时，你会想要更多。谷氨酸甚至可以引起流涎的生理反应，让你流口水。',
+            en: 'Aside from being a well-known powdered food additive, MSG is naturally responsible for some of the world’s most delicious foods, from ramen to risotto. It registers on the tongue not as a flavor, per se, but as the sensation of umami—the “fifth element” of taste, often thought of as the essence of savoriness, first postulated in the early 1900s by the Japanese chemist Kikunae Ikeda. Perhaps the best descriptor of its flavor is “moreish”—as in, when you taste it, you want more. Glutamates can even evoke the physiological reaction of salivation, literally making your mouth water.'
+          },
+          {
+            zh: '我们从出生起就准备好迎接鲜味了——人母乳中游离谷氨酸的含量是牛奶的十倍。在母乳喂养期间，随着婴儿的吃奶，牛奶中的谷氨酸含量稳步上升，达到游离氨基酸总量的 50% 之多。当我们开始吃富含鲜味的食物时，我们的肠道中甚至有谷氨酸受体，它们会向我们的大脑发出信号：我们的食欲立即增加，但与吃低鲜味的食物相比，我们感到饱足感更快、持续时间更长。我们本能地寻找令人满足的鲜味，并因此而寻求它。',
+            en: 'We’re primed for umami from birth—human breast milk contains ten times as much free glutamate as cow’s milk. During breastfeeding, the glutamate content in milk rises steadily as infants nurse, to the point where it can account for as much as 50 percent of the total free amino acids. We even have glutamate receptors in our gut that signal our brains as we begin eating something rich in umami: Our appetite immediately increases, but we feel sated sooner and for longer than when we eat a low-umami meal. We’re hardwired to find umami satisfying, and we seek it out as a result.'
+          },
+          {
+            zh: '虽然garum和鱼露最显着的特征是自溶和发酵产生的强烈的臭味，但这种气味实际上具有误导性。臭味是你会欣赏的东西，但谷氨酸盐是garum吸引力的基础，提升了它们所接触到的一切。现在，假设您想减轻 garum 的香气，同时保持其复杂性和谷氨酸含量。你可以省略负责自溶的内脏，但你需要一些其他工具来将蛋白质分解为氨基酸。在<第五学期>，我们再次找到了一个朋友。',
+            en: 'While the most pronounced feature of garums and fish sauces is the powerful funk generated by autolysis and fermentation, the smell is actually misleading. The stinkiness is something you come to appreciate, but the glutamates are the foundation of garum’s appeal, elevating all that they touch. Now, say you wanted to mitigate garum’s aroma while maintaining its complexity and glutamic content. You could omit the guts responsible for autolysis, but you’d need some other tool to break down protein into amino acids. And in koji, once again, we find a friend.'
+          },
+          {
+            zh: 'Koji 产生称为蛋白酶的酶，我们在 Noma 中使用它来分解牛肉、鱿鱼、鲭鱼、蛤和其他蛋白质来源中的蛋白质。简而言之，koji 介入并完成鱼内脏中消化酶的工作，产生的成品与传统方法一样具有鲜味，但气味更加宜人。',
+            en: 'Koji produces enzymes called proteases, which we use at Noma to break down the proteins in beef, squid, mackerel, clams, and other protein sources. Put simply, koji steps in and does the job of the digestive enzymes in the guts of fish, yielding a finished product with as much umami as the traditional method, but a far more pleasant smell.'
+          },
+          {
+            zh: '为了更快地生产garum，我们还在 60°C/140°F 的房间中发酵。虽然这个温度排除了微生物活动，但它可以将酶活性加速到最大，同时促进Maillard反应，使酱汁充满烤肉的味道。在这个温度下，我们通常可以在 10 到 12 周内从一桶肉变成完全成品garum。随着这几周的过去，您会注意到产品发生了明显的变化。起初，它尝起来像一种浑浊的汤汁，但在第一周左右后，酶的作用开始发挥作用，你可以感觉到鲜味的形成。大约一个月后，更多的焦糖口味开始出现。到最后，一切都和谐地融为一体。',
+            en: 'In order to produce a faster garum, we also ferment ours in a room held at 60°C/140°F. While this temperature precludes microbial activity, it accelerates enzymatic activity to a maxi-mum while simultaneously facilitating Maillard reactions that imbue the sauce with the flavor of roasted meat. At this temperature, we can typically go from a bucket of meat to fully finished garum in 10 to 12 weeks. You’ll notice distinctive changes in the product as those weeks go by. At first, it tastes like a murky stock, but after the first week or so, the enzymatic action takes off and you can sense the umami building. After about a month, more caramelized flavors step to the front. By the end, everything sits in delicious harmony.'
+          },
+          {
+            zh: '将生肉放入含有发霉谷物的盐水中并放置数月，您可能会发现一些本质上令人担忧的事情，但请放心，garum 是迄今为止我们在 Noma 进行的最精确和安全的发酵。高盐含量（按重量计约12%）加上高温，创造了几乎所有食源性病原体都无法忍受的环境。',
+            en: 'It’s possible that you find something inherently worrisome about placing raw flesh into salt water with moldy grains and letting them sit for months, but rest assured, garums are by far the most precise and safe ferments we make at Noma. The high salt content (about 12% by weight), coupled with the high temperature, creates an environment that nearly all food-borne pathogens can’t tolerate.'
+          },
+          {
+            zh: '与此同时，我们不断尝试剖析garum并以不同的方式重建它。我们尝试了一种不加水的变体，最终得到了一种更浓稠的混合物，类似于泰国虾酱。我们用富含蛋白质的植物物质（例如豌豆）制作了garum，它们效果很好，但不应该像动物蛋白质一样长时间处于高温状态。我们还尝试了使用更多非常规蛋白质来源的 garum，例如蜂花粉、蚱蜢、蛾幼虫和猪血。在这方面还有很多值得探索的地方。对于喜欢冒险的人来说，可以看看菠萝和木瓜。它们都是富含蛋白水解酶的水果，你也许能想象出热带garum。丹麦的菠萝不多，但这是一个主意。',
+            en: 'Meanwhile, we’re continually trying to dissect garum and rebuild it in different ways. We’ve experimented with a variation that omits water, and ended up with a much thicker mixture that resembles Thai shrimp paste. We’ve made garums with protein-rich plant matter, like peas, that work well but shouldn’t be left in the heat for as long as animal protein. We’ve also tried garums with more unconventional sources of protein, like bee pollen, grasshoppers, moth larvae, and pig’s blood. There’s plenty more to explore in this vein. For the adventurous spirits out there, take a look at pineapple and papaya. They’re both fruits heavy with proteolytic enzymes, and you might be able to conjure up a tropical garum. We don’t get many pineapples here in Denmark, but it’s an idea.'
+          },
+          {
+            zh: '*Deep-Sea Snow Crab and Cured Egg Yolk, Noma Australia, 2016*',
+            en: '*Deep-Sea Snow Crab and Cured Egg Yolk, Noma Australia, 2016*'
+          },
+          {
+            zh: '*Steamed crab is dressed with a sauce made from egg yolks cured in kangaroo and beef garums.*',
+            en: '*Steamed crab is dressed with a sauce made from egg yolks cured in kangaroo and beef garums.*'
+          },
+          {
+            zh: '*Garum was traditionally a sauce made from decomposing fish, but at Noma we begin with ground beef.*',
+            en: '*Garum was traditionally a sauce made from decomposing fish, but at Noma we begin with ground beef.*'
+          },
+          {
+            zh: '<!-- text/part0012_split_006.html -->',
+            en: '<!-- text/part0012_split_006.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '05-black-apples',
@@ -8700,6 +14440,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 故障检测、临时接管与副本修复'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能说明 KV Store 如何发现节点异常，临时把请求交给其他节点，以及通过读修复、hinted handoff、反熵同步让副本重新一致。'
@@ -8824,6 +14573,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 故障处理与扩展讨论'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你应该能识别视频平台中上传、转码、存储、CDN 和元数据服务的常见故障，能说明不同故障下用户可接受的降级体验，并能把视频系统的设计主线总结为分离、异步、分层和可降级。'
@@ -8942,6 +14700,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 限流器的高层架构'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -9316,6 +15083,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# Online Presence、断线处理与扩展话题'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能设计在线状态的心跳、TTL、延迟离线和订阅机制，说明断线重连时如何恢复消息和状态，并能把聊天系统扩展到媒体、搜索、加密、审核和超大群。在线状态看似一个绿点，实际是高频、易抖动、最终一致的临时状态。'
@@ -9434,7 +15210,56 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 盐适量',
+            en: '# Salt Sufficiently'
+          },
+          {
+            zh: '*An indispensable tool for safe fermentation, salt has been used for its antimicrobial properties to preserve food since prehistory.*',
+            en: '*An indispensable tool for safe fermentation, salt has been used for its antimicrobial properties to preserve food since prehistory.*'
+          },
+          {
+            zh: 'LAB不需要盐才能生长，但它们确实能耐受盐，这意味着我们可以使用lacto发酵中的盐含量作为进一步防止不受欢迎的外来者的保险。例如，尽管肉毒杆菌是一种厌氧菌（一种在没有氧气的情况下繁殖的微生物），但它在盐或酸的存在下却难以生存，这是个好消息，因为它是导致肉毒杆菌中毒的细菌。',
+            en: 'LAB don’t require salt to flourish, but they do tolerate it, meaning we can use the salt content in a lacto-ferment as further insurance against unwanted outsiders. For instance, even thoughClostridium botulinumis an anaerobe (a microbe that thrives in the absence of oxygen), it struggles in the presence of salt or acid, which is great news, because it’s the bacteria responsible for botulism.'
+          },
+          {
+            zh: 'LAB的不同物种表现出不同程度的耐光性（耐盐性），其中一些物种能够在高达8%重量的盐浓度下进行发酵工作。在 Noma，我们开始用 2% 的盐进行 lacto 发酵。这足以阻止任何有害细菌的生长，但又不足以让产品变得难吃咸味。',
+            en: 'Different species of LAB exhibit different degrees of halo-tolerance (salt tolerance), with some species able to carry out their fermentation work in salt concentrations as high as 8% by weight. At Noma, we start our lacto-fermentations with 2% salt. It’s enough to dissuade any malevolent bacteria from taking hold, but not so much that the product becomes unpalatably salty.'
+          },
+          {
+            zh: '您还可以通过在盐水中发酵来创造一个无氧且富含盐的环境。许多传统发酵食品，如酸泡菜，几个世纪以来都是用这种方法制作的。较软的水果会在几天内开始溶解在盐水中，但大小可控制的较脆的蔬菜（甜菜、萝卜或嫩胡萝卜）非常适合浸入盐水中。',
+            en: 'You can also create an environment that is both oxygen-free and salt-rich by fermenting in brine. Many traditional ferments, like the sour pickle, have been made this way for centuries. Softer fruits will begin to dissolve in brine over the course of a few days, but crunchier vegetables of manageable size (beets, radishes, or young carrots) do extremely well submerged in salted water.'
+          },
+          {
+            zh: '当lacto-在盐水中发酵时，首先将空罐子或罐子放在秤上并称去皮重。接下来，将蔬菜放入容器中，确保它们紧密贴合而不会被压扁。用足够的水覆盖蔬菜以完全淹没它们，并记下内容物的总重量。计算该重量的 2%，并将该量的盐量入搅拌碗中。将容器中的水倒入搅拌碗中，搅拌直至盐完全溶解，然后将其倒回容器中。请注意，此方法中的盐含量将始终高于我们的 2% 盐度标准。例如：假设大约需要 1 公斤水来覆盖 1 公斤花椰菜排骨，则需要在水中添加 40 克盐以制成 4% 的盐水。随着时间的推移，盐会进入水果或蔬菜并吸收水分。按照这样的盐水与待腌制产品的比例，发酵完成后 4% 的盐含量最终会趋于平衡，接近 2%，从而获得完美的泡菜。',
+            en: 'When lacto-fermenting in brine, start off by placing your empty crock or jar on a scale and taring the scale. Next, place your vegetables in the vessel, making sure they fit snugly without being squished. Cover the vegetables with enough water to fully submerge them, and note the total weight of the contents. Calculate 2% of that weight, and measure that much salt into a mixing bowl. Pour the water out of the vessel into the mixing bowl and blend until the salt is completely dissolved, then pour it back into the vessel. Note that the salt content in this method will always be higher than our standard of 2% salinity. For example: Assuming it takes about 1 kilogram of water to cover 1 kilogram of, say, cauliflower ribs, you’ll add 40 grams of salt to the water to create a 4% salt brine. As time passes, salt will enter the fruit or vegetable and draw moisture out. With this ratio of brine to product-to-be-pickled, the 4% salt content will eventually even out, nearing 2% once the fermentation is complete, leaving you with perfect pickles.'
+          },
+          {
+            zh: '如果你有一个带有轻微锥形颈部的泡菜罐，它将有助于防止蔬菜在腌制过程中漂浮在水位线以上；否则，您可以使用某种形式的重物或屏障来保持蔬菜浸没。在顶部留出几厘米的空白空间，然后将盖子拧得不完全拧紧，以防止任何东西进入，但为气体提供了一个轻松的逃逸路线。',
+            en: 'If you have a pickle jar with a mildly tapered neck, it will help keep the vegetables from floating above the water line during the pickling process; otherwise, you can use some form of weight or barrier to keep the vegetables submerged. Leave a couple of centimeters of empty space at the top, and screw the cap on less than completely tight, preventing anything from entering but giving gas an easy escape route.'
+          },
+          {
+            zh: '*Sweet Peas, Milk Curd, and Sliced Kelp, Noma, 2015*',
+            en: '*Sweet Peas, Milk Curd, and Sliced Kelp, Noma, 2015*'
+          },
+          {
+            zh: '*Blades of giant kelp cooked for 3 days in a stock of dried mushrooms, berries, and lacto cep water are sliced thin and laid over fresh milk curd alongside green peas.*',
+            en: '*Blades of giant kelp cooked for 3 days in a stock of dried mushrooms, berries, and lacto cep water are sliced thin and laid over fresh milk curd alongside green peas.*'
+          },
+          {
+            zh: '<!-- text/part0006_split_006.html -->',
+            en: '<!-- text/part0006_split_006.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '05-stateless-web-tier-and-autoscaling',
@@ -9446,6 +15271,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 把状态移出 Web 层，实现无状态扩展'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -9564,6 +15398,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 存储优化、故障处理与设计取舍'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -9685,7 +15528,56 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 天使的分享',
+            en: '# The Angel’s Share'
+          },
+          {
+            zh: '与kombucha等类似的发酵不同，醋可以通过陈酿来大幅提升其味道和质地。因为一旦消耗掉所有可用的酒精，AAB就会停止产生酸，所以醋可以保存数十年而不会变得更酸。陈醋可以通过陈化容器、蒸发和数月甚至数年的缓慢Maillard反应来注入层层风味。 （有关Maillard反应的更多信息，请参阅“真正慢速烹饪”。）',
+            en: 'Unlike similar fermentations such as kombucha, vinegar can receive extensive upgrades to its taste and texture through aging. Because AAB stop producing acid once all the available alcohol has been consumed, vinegar can sit for decades without growing more sour. Aging vinegar can instill layers of flavor by way of the aging vessel, and via evaporation and slow Maillard reactions that occur over the course of months and years. (See “Really Slow Cooking,” for more about Maillard reactions.)'
+          },
+          {
+            zh: '最著名的陈醋是香醋。它约占全球售出的所有醋的 35%。但除非你非常富有并且非常有眼光，否则你一生中消耗的大部分香脂可能都不是真正的香脂醋，而是未陈酿的 Aceto Balsamico di Modena，一种红酒醋、煮熟的葡萄汁和焦糖的混合物。就捷径而言，这是一个以简单方式做事的权衡的完美例子。虽然这种较便宜的版本具有传统陈酿香脂的一些味道，但缺乏其许多独特的特征：粘度、复杂的鲜味和木桶的本质。在木桶中陈酿会注入焦糖、香草、烟熏、皮革和其他不同色调的味道，具体取决于木材的种类。',
+            en: 'The most famous aged vinegar is balsamic vinegar. It accounts for around 35 percent of all vinegar sold around the world. But unless you’re very wealthy and very discerning, most of the balsamic you’ve consumed in your life probably wasn’t true balsamic vinegar but instead the unaged Aceto Balsamico di Modena, a mixture of red wine vinegar, cooked grape must, and caramel. As far as shortcuts go, this is a perfect example of the trade-offs of doing things the easy way. While this cheaper version hits some of the notes of traditionally aged balsamic, much of its distinctive character is absent: viscosity, complex umami, and the essence of wooden barrels. Barrel-aging in wood infuses notes of caramel, vanilla, smoke, leather, and other distinct tones, depending on the variety of wood.'
+          },
+          {
+            zh: '*Aging vinegar in a barrel slowly reduces its volume over time through evaporation, and intensifies flavors while also imparting new ones.*',
+            en: '*Aging vinegar in a barrel slowly reduces its volume over time through evaporation, and intensifies flavors while also imparting new ones.*'
+          },
+          {
+            zh: '制作香醋的传统方法发生在意大利北部邻近城市摩德纳和雷焦艾米利亚。它需要五到九个由不同木材制成的木桶——桑树、橡树、杜松、樱桃树、白蜡木和金合欢树等等——每个木桶都有不同的容量。桶的尺寸从 66 升减小到 15 升。首先，将葡萄汁煮熟以焦糖化并浓缩糖分，然后通过多种不同的酵母将其发酵成甜酒。从那里，它被环境中特有的AAB酸化成醋。最大的桶装满了醋，醋至少陈化一年，然后转移到下一个最小的桶中。由于木材是准多孔的，水和一些乙酸能够通过桶蒸发，而较大的芳香化合物则不能，从而产生更温和、更浓缩的味道。随着时间的推移而消失的部分被称为“天使的份额”（这个术语也用于威士忌酿造），但实际上留下来的是天堂般的东西。',
+            en: 'The traditional method for crafting balsamic vinegar takes place in both Modena and Reggio Emilia, neighboring cities in northern Italy. It requires five to nine wooden barrels made from different woods—mulberry, oak, juniper, cherry, ash, and acacia, to name a few—each built to different capacities. The barrels descend in size from 66 liters to 15 liters. At the outset, grape must that has been cooked down to caramelize and concentrate the sugars is fermented into a sweet wine by a plethora of different yeasts. From there, it’s acidified into vinegar by AAB endemic to the environment. The largest barrels are filled with the vinegar, which is aged for a minimum of one year before being transferred to the next smallest barrel. Since wood is quasi-porous, water and some of the acetic acid are able to evaporate through the barrel, while larger aromatic compounds are not, leading to a milder, more concentrated flavor. The portion that disappears over time is known as the “angel’s share” (a term also used in whiskey making), but the heavenly stuff is actually what gets left behind.'
+          },
+          {
+            zh: '仅转移足以填充下一个最小桶的醋。从大桶中取出的东西被新鲜酸化的葡萄汁取代。醋继续沿着生产线依次进入较小的桶，每个桶都用下一个较大桶中的液体加满。对于要贴上 DOP（生产原产地名称，欧盟强制执行的受保护名称）标签的传统香脂，醋必须陈化至少 12 年。十二年后，一小部分成品香醋会从最小的桶中取出，并找到有区别的顾客的方式。',
+            en: 'Only enough vinegar to fill the next smallest barrel is transferred. What was removed from the large barrel is replaced with freshly acidified grape must. The vinegar continues to proceed down the line to successively smaller barrels, and each barrel is topped up with liquid from the next larger barrel. For a traditional balsamic to be labeled DOP (Denomination of Origin of Production, a protected designation enforced by the European Union), the vinegar must be aged for at least twelve years. At the end of twelve years, a small portion of finished balsamic vinegar is drawn from the smallest barrel and finds its way to discriminating customers.'
+          },
+          {
+            zh: '至少可以说，香醋的生产很费力。但在木桶中陈酿任何醋后，短短三个月内，您就会看到明显的改善。从已经接近香脂浓郁焦糖味道的醋开始是弥补时差的好方法。我们在Noma在木材中陈酿黑蒜醋方面取得了巨大成功。您还可以发挥创意，将干无花果或李子放入您最喜欢的醋中浸泡一个月，然后过滤并转移到小桶中慢慢陈化。',
+            en: 'Balsamic vinegar production is laborious, to say the least. But in as little as three months, you’ll see marked improvement after aging any vinegar in wooden barrels. Starting with a vinegar that already approximates the rich caramel flavors of balsamic is a good way of making up the time difference. We’ve had great success at Noma aging black garlic vinegar in wood. You can also get creative by infusing dried figs or plums into your favorite vinegar for a month before straining it and transferring it to a small barrel to age slowly.'
+          },
+          {
+            zh: '在丹麦，我们的葡萄藤很少，但有大量的接骨木浆果树，因此，当我们开始利用适当的香醋的品质时，我们利用了现有的资源。阅读我们的接骨木酒香脂配方，了解 Noma 正在进行的长期项目，以及我们如何尝试学习和适应遥远地方的传统的想法。',
+            en: 'Here in Denmark, we have few grapevines but plenty of elderberry trees, so when we set out to harness the qualities of a proper balsamic vinegar, we did so with what we had on hand. Read our recipe forElderberry Wine Balsamicfor a look at an ongoing long-term project at Noma and an idea of how we try to learn from and adapt the traditions of faraway places.'
+          },
+          {
+            zh: '*Making perry vinegar begins with fermenting pureed pears into alcoholic perry.*',
+            en: '*Making perry vinegar begins with fermenting pureed pears into alcoholic perry.*'
+          },
+          {
+            zh: '<!-- text/part0008_split_006.html -->',
+            en: '<!-- text/part0008_split_006.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '05-yellow-pea-shoyu',
@@ -10298,6 +16190,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# KV Store 的整体架构与读写路径'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '读完这一节，你要能从客户端请求开始，完整讲出 KV Store 的路由、协调、写入、读取、冲突处理和后台修复链路。'
@@ -10739,7 +16640,40 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 明智地选择您的产品（并轻轻清洁它们）',
+            en: '# Choose Your Products Wisely (and Clean Them Lightly)'
+          },
+          {
+            zh: '避免食用涂有蜡、经过杀虫剂处理或经过辐射的水果或蔬菜。选择有机产品是勾选所有这些选项的好方法。为了确保您拥有健康的野生 LAB 种群，请避免过于彻底地清洗产品。如果有明显的污垢，请用冷水轻轻冲洗以将其去除。不擦洗，也不清洗水果或蔬菜。',
+            en: 'Avoid fruits or vegetables that have been coated in wax, treated with pesticides, or irradiated. Choosing organic is a good way to check off all those boxes. To ensure that you have a healthy population of wild LAB, avoid washing the products too thoroughly. If there’s visible dirt, remove it by gently rinsing in cold water. No scrubbing, and no fruit or vegetable wash.'
+          },
+          {
+            zh: '确保不要发酵任何已经发霉或腐烂的东西。发酵很神奇，但它不能让烂苹果起死回生。另外，您将从有害微生物开始，这些微生物会阻止LAB繁殖。这并不是说您应该害怕通过lacto发酵来延长剩菜的寿命。将剩下的草莓和樱桃切碎，然后将它们与一些盐一起放入玻璃瓶中，一周后即可为冷冻酸奶提供美味的配料。',
+            en: 'Be sure not to ferment anything already sprouting mold or rotting. Fermentation is pretty magical, but it can’t bring rotten apples back from the dead. Plus, you’ll be starting out with unwanted microorganisms that can prevent LAB from thriving. That’s not to say that you should be afraid of stretching the life of leftovers with lacto-fermentation. Chopping up a mixture of leftover strawberries and cherries and tossing them in a mason jar with some salt will yield a delicious topping for frozen yogurt a week hence.'
+          },
+          {
+            zh: '*Chocolate from Native Jaguar Cocoa and Mixe Chile, Noma Mexico, 2017*',
+            en: '*Chocolate from Native Jaguar Cocoa and Mixe Chile, Noma Mexico, 2017*'
+          },
+          {
+            zh: '*These pasilla mixe chiles are braised in lacto mango-scented honey and stuffed with chocolate sorbet.*',
+            en: '*These pasilla mixe chiles are braised in lacto mango-scented honey and stuffed with chocolate sorbet.*'
+          },
+          {
+            zh: '<!-- text/part0006_split_007.html -->',
+            en: '<!-- text/part0006_split_007.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '06-data-centers-and-message-queue',
@@ -10751,6 +16685,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 多数据中心与消息队列：走向分布式系统'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -10979,7 +16922,20 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 真菌',
+            en: '# Fungi'
+          },
+          {
+            zh: '真菌涵盖了地球上的大量生命，从单细胞酵母到霉菌再到巨大的马勃蘑菇。蘑菇和霉菌等多细胞丝状真菌通过卷须状菌丝收集营养来生长，这些菌丝共同形成一个称为菌丝体的网状系统，类似于植物的根。它们通过菌丝体分泌酶，有效消化周围的食物，然后从环境中吸收营养。',
+            en: 'Fungi encompass a huge swath of life on earth, from single-celled yeasts to molds to gigantic puffball mushrooms. Multicellular, filamentous fungi like mushrooms and molds grow by gathering nutrients through tendril-like hyphae that together form a web-like system known as a mycelium, similar to the roots of a plant. They secrete enzymes through their mycelium, effectively digesting the food in their surroundings, then absorbing the nutrients from their environment.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '06-pearl-barley-koji',
@@ -11879,6 +17835,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 规则、并发与分布式限流'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '本节目标',
         paragraphs: [
           '本节要讲限流器在分布式环境中的难点：规则匹配、状态共享、原子更新、热点 key 和跨区域一致性。你要能说明为什么单机算法搬到多实例后会出错，以及工程上怎样控制误差。'
@@ -12474,7 +18439,32 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 控制气候',
+            en: '# Control the Climate'
+          },
+          {
+            zh: '大多数 lacto 发酵在大约 21°C/70°F 的室温下可以正常运行，但在 Noma 时，我们将大部分 lacto 发酵保存在温度设置为 28°C/82°F 的房间中。我们发现这是快速发酵的理想温度，同时避免细菌活动过多，从而产生异味。 Lacto-发酵也将在冰箱中进行，尽管速度要慢得多。',
+            en: 'Most lacto-fermentations will function just fine at an ambient room temperature of about 21°C/70°F, but at Noma, we keep most of our lacto-fermentations in a room set to 28°C/82°F. We find this to be the ideal temperature for speedy fermentation, while avoidingtoomuch bacterial activity, which can generate off-flavors. Lacto-fermentation will also take place in the refrigerator, albeit at a far slower pace.'
+          },
+          {
+            zh: '需要注意的一件事是：如果你想防止泡菜变成糊状，请远离热源进行发酵。蔬菜中含有天然酶，在较高温度下会更快地分解它们。如果您特别关心保持泡菜的脆度，可以在盐水中添加单宁植物叶子（例如葡萄叶或辣根叶），或者使用富含矿物质的未精制海盐或明矾，可以增强植物壁中的果胶并使其保持清爽。',
+            en: 'One thing to note: If you want to prevent pickles from getting mushy, ferment them away from heat. There are natural enzymes in vegetables that will break them down more rapidly at higher temperatures. If you’re especially concerned with maintaining pickle crunchiness, adding tannic plant leaves—like grape or horseradish leaves— to your brine or using mineral-rich unrefined sea salts or alum can reinforce the pectin in the plant walls and keep them snappy.'
+          },
+          {
+            zh: '<!-- text/part0006_split_008.html -->',
+            en: '<!-- text/part0006_split_008.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '07-observability-and-database-sharding',
@@ -12486,6 +18476,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 可观测性与数据库分片'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -12604,6 +18603,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 优化、监控与限流器设计总结'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -13478,7 +19486,32 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 考虑配饰',
+            en: '# Consider Accessorizing'
+          },
+          {
+            zh: '由于 Noma 配方中的成分数量较多，我们尝试保持发酵物的风味相对纯净，以便它们尽可能保持多功能性。例如，如果我们用月桂叶给泡菜调味，它们实际上只能用在有月桂叶的地方。但这并不是说您不应该在发酵过程中对混合物进行调味。月桂叶和芥菜籽等干香料显然是大量酸发酵的佐料，但它们并不是唯一的方法。尝试用果汁代替盐水中 5% 到 10% 的水，以增加亮度，同时为 LAB 发酵提供额外的糖分。马鞭草或柠檬香脂等充满活力的新鲜香草可以预先注入盐水中，或者在发酵完成后作为干燥成分添加。如果需要香料，可以添加一小块辣根或半个智利。即使在真空低温烹调法中发酵，您也可以在袋子或罐子中添加补充调味料，只要在添加盐时考虑到它们的重量即可。',
+            en: 'Due to the number of components in the recipes at Noma, we try to keep the flavors of our ferments relatively pure so they remain as versatile as possible. If we were to flavor our pickles with bay leaves, for instance, they could really only be used in places where bay makes sense. But that’s not to say that you shouldn’t season your concoctions during the fermentation process. Dried aromatics such as bay leaves and mustard seeds are obvious accompaniments for lots of sour ferments, but they aren’t the only way. Try replacing 5 to 10 percent of the water in a brine with fruit juice to inject brightness while supplying additional sugar for LAB to ferment. Vibrant fresh herbs like verbena or lemon balm can be infused into the brine beforehand or added as dried ingredients once the fermentation is complete. For spice, add a knob of horseradish or a halved chile. Even when fermenting sous vide, you can add complementary seasonings to the bag or jar, as long as you take their weight into account when adding the salt.'
+          },
+          {
+            zh: '不同的蔬菜共用同一种盐水，还可以交换味道。花椰菜和婆罗门参是很好的伴侣。洋葱和萝卜lacto - 用柠檬百里香或橙花等香草发酵，可以为酸橘汁腌鱼菜肴增添花香和清脆的口感对比。将不同的原料一起发酵时，请运用常识——不要将蓝莓与芜菁甘蓝搭配并期望质地和谐——但发酵最奇妙和不可预测的方面之一是它从原料中提取新风味的方式。一旦你完成了细菌、盐、酸和时间的复杂舞蹈，生吃时可能是令人愉快的搭配最终可能会成为令人兴奋的组合。',
+            en: 'Different vegetables sharing the same brine can also exchange flavors. Cauliflower and salsify make great bedfellows. Onions and turnips lacto-fermented with a fistful of aromatic herbs like lemon thyme or orange blossom can elevate a dish of ceviche with floral notes and a crisp textural contrast. Use common sense when fermenting disparate ingredients together—don’t pair blueberries with rutabaga and expect textural harmony—but one of the most wonderful and unpredictable aspects of fermentation is the way it draws new flavors from raw ingredients. What might be a pleasant pairing when eaten raw could end up being a mind-blowing combination once you’ve completed the complex dance with bacteria, salt, acid, and time.'
+          },
+          {
+            zh: '<!-- text/part0006_split_009.html -->',
+            en: '<!-- text/part0006_split_009.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '08-elderflower-kombucha',
@@ -13726,6 +19759,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 从零到百万用户的扩展清单'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -14863,7 +20905,36 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 留意时机',
+            en: '# Watch the Timing'
+          },
+          {
+            zh: '在正确的时间抓住发酵很重要。从您将水果或蔬菜放入含盐环境的那一刻起，它就开始朝着一个大方向移动：从甜到酸。虽然发酵不足的产品尝起来基本上是生的，但发酵也很容易过度。过度发酵的水果或蔬菜往往具有相同之处，即产品的原始特征和风味在强烈的酸度海洋下被冲走。',
+            en: 'It’s important to catch a ferment at the right time. From the moment you place your fruit or vegetable into a salty environment, it begins moving in one general direction: from sweet to sour. While underfermented products can taste essentially raw, a ferment can easily be taken too far as well. Overfer-mented fruits or vegetables tend to have a sameness about them, where the original character and flavor of the product is washed away under a sea of sharp acidity.'
+          },
+          {
+            zh: '衡量发酵何时准备好，与了解意大利面何时完全有嚼劲，或者西兰花何时适当焯水没有什么不同。正如托马斯·凯勒曾经说过的：“把它放进嘴里，然后吃掉它。”检查lacto发酵进度的唯一方法是品尝它。理想的lacto-发酵应保持原始原料产品的本质，但增加酸度、鲜味和风味深度。',
+            en: 'Gauging when a fermentation is ready is no different from knowing when your pasta is perfectly al dente, or a floret of broccoli is properly blanched. As Thomas Keller once said, “Put it in your mouth and eat it.” The only way to check on the progress of a lacto-fermentation is to taste it. An ideal lacto-fermentation should maintain the essence of the original raw product, but with added acidity, umami, and depth of flavor.'
+          },
+          {
+            zh: '*Fermentation is a practice in timing. It’s up to you to decide when your ferment is “done.”*',
+            en: '*Fermentation is a practice in timing. It’s up to you to decide when your ferment is “done.”*'
+          },
+          {
+            zh: '<!-- text/part0006_split_010.html -->',
+            en: '<!-- text/part0006_split_010.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '10-aspergillus-luchuensis',
@@ -15520,7 +21591,40 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 等待！不要扔掉它',
+            en: '# Wait! Don’t Throw That Away'
+          },
+          {
+            zh: '最后一点对于成功的 lacto 发酵并不重要，但它可能有助于确定您认为项目的成功程度。',
+            en: 'This final point isn’t crucial to a successful lacto-ferment, but it might help determine how successful you consider your project to be.'
+          },
+          {
+            zh: '正如我们在本书中多次提到的，发酵是延长食物残渣寿命的绝佳方法，否则这些食物残渣可能会被浪费。但是lacto-发酵过程本身也可以产生非常有用的副产品，如果你不注意的话，你可能最终会扔掉。世界上一些最有效、最美味的混合物是发酵后的剩余物。 Marmite 和 Vegemite 是啤酒生产的残余物。酒糟是清酒生产中残留的米浆，在日本烹饪中以多种方式使用，最引人注目的是作为蔬菜的糖醋腌渍剂（kasuzuke）。',
+            en: 'As we mention multiple times in this book, fermentation is a fantastic means of extending the life of food scraps that might otherwise go to waste. But the lacto-fermentation process itself can also create very useful by-products you might end up throwing away if you’re not paying attention. Some of the world’s most potent and delicious concoctions are leftovers from fermentation. Marmite and Vegemite are remnants of beer production. Sake lees, the residual rice pulp of sake production, are employed in numerous ways in Japanese cooking, most notably as a sweet-and-sour pickling agent for vegetables (kasuzuke).'
+          },
+          {
+            zh: '在将泡菜盐水或<术语15>发酵李子的径流倒入下水道之前，请考虑它在汤或油醋汁中的味道。将其存放在密封容器或冰箱中重新利用的调味品瓶中。如果你的<学期15>发酵水果或蔬菜没有达到你所希望的效果，那么咸酸万能药可以作为一个很好的安慰奖品。',
+            en: 'Before you pour the pickle brine or the runoff from lacto-fermented plums down the drain, consider how it might taste in a soup or vinaigrette. Store it in sealed containers or repurposed condiment bottles in the fridge. If your lacto-fermented fruit or vegetable didn’t turn out exactly as you had hoped, that salty-sour elixir can make for a fine consolation prize.'
+          },
+          {
+            zh: '*Halved plums, salted and ready to ferment.*',
+            en: '*Halved plums, salted and ready to ferment.*'
+          },
+          {
+            zh: '<!-- text/part0006_split_011.html -->',
+            en: '<!-- text/part0006_split_011.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '10-whiskey-vinegar',
@@ -16630,7 +22734,32 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 野生发酵',
+            en: '# Wild Fermentation'
+          },
+          {
+            zh: '我们在Noma进行的发酵都不同程度地依赖于野生发酵。也就是说，我们创造的环境有利于自然产生的有益微生物的生长，而不利于有害微生物的生长。例如，在我们的lacto发酵中，我们完全依赖环境中的大量乳酸菌（我们正在发酵的水果或蔬菜上、我们手上、漂浮在空气中）将糖转化为乳酸和其他美味的代谢物。通过让自然发挥其作用，我们的发酵过程中会出现多层细微差别和复杂性，如果我们准确规定允许哪些微生物发挥作用，这是不可能的。野生发酵是一种未接种且通常非常多样化的发酵。简而言之，这就是发酵最初的方式，并且仍然经过尝试并且是正确的。',
+            en: 'The ferments we undertake at Noma all depend to varying degrees on wild fermentation. That is to say, we create environ-ments that are conducive to the growth of naturally occurring beneficial microbes, and detrimental to malevolent ones. With our lacto-ferments, for instance, we depend entirely on a wide set of lactic acid bacteria in the environment—on the fruit or vegetables we’re fermenting, on our hands, floating in the air—to turn sugar into lactic acid and other flavorful metabolites. By allowing nature to do its thing, we get layers of nuance and complexity in our ferments that wouldn’t be possible if we dictated exactly which microbes were allowed to work. Wild fermentation is a non-inoculated and often very diverse fermentation. Simply put, it’s how fermentation was first performed, and it’s still tried and true.'
+          },
+          {
+            zh: '对于我们的kombucha、醋和koji，我们确实在方程式中引入了细菌、酵母或真菌，以获得我们正在寻找的结果，但我们仍然允许并鼓励野生发酵。这同样适用于特别大批量的lacto发酵产品。例如，当我们一次发酵数百公斤芦笋时，我们会在盐水中添加粉末状乳酸菌 (LAB)。如果由于某种原因自然发生的LAB无法启动，我们就会面临其他一些恶性微生物占据的风险。 LAB 人口的增加是一个很好的保险，可以防止您在大规模工作时失去所有产品。',
+            en: 'For our kombuchas, vinegars, and koji, we do introduce bacteria, yeast, or fungus into the equation in order to get the results we’re looking for, but we still allow and encourage wild fermentation. The same goes for especially large batches of lacto-fermented products. For instance, when we’re fermenting hundreds of kilos of asparagus at a time, we add powdered lactic acid bacteria (LAB) to the brine. If for some reason the naturally occurring LAB had trouble getting started, we’d be exposed to the risk of some other malignant microbe taking hold. A boost in the LAB population is a nice bit of insurance against losing all that product when you’re working on a large scale.'
+          },
+          {
+            zh: '<!-- text/part0005_split_006.html -->',
+            en: '<!-- text/part0005_split_006.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '12-backslopping',
@@ -16644,7 +22773,40 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 后倾',
+            en: '# Backslopping'
+          },
+          {
+            zh: '反斜法是为发酵准备微生物环境的一项重要技术，将在本书中多次出现，特别是在kombucha和醋的生产中。这个想法基本上是通过添加前一批相同发酵物的剂量来为您想要发酵的物质提供有益微生物的增强。',
+            en: 'Backslopping is a vital technique in prepping microbial environments for fermentation and will come up numerous times in this book, especially in the production of kombucha and vinegar. The idea is basically to give the substance you intend to ferment a boost of beneficial microbes by adding a dose from a previous batch of that same ferment.'
+          },
+          {
+            zh: '例如，通过将适量的梨醋倒入一罐新鲜梨子中，我们既可以降低溶液的 pH，又可以添加适量的醋酸菌 (AAB)。降低pH（酸化）具有减缓或阻止任何不耐酸的有害微生物作用于梨的效果，并确保有健康的AAB种群将梨发酵成梨醋。向后倾斜有利于我们想要成功的微生物。',
+            en: 'By pouring a healthy amount of, say, perry vinegar into a jar of fresh perry, we both lower the pH of the solution and add a healthy shot of acetic acid bacteria (AAB). Lowering the pH (acidifying) has the effect of slowing or stopping any unwanted microbes that aren’t acid-tolerant from acting on the perry, and ensures that there’s a healthy population of AAB to ferment the perry into perry vinegar. Backslopping stacks the deck in favor of the microbes we want to succeed.'
+          },
+          {
+            zh: '当然，如果这是您第一次制作本书中的其中一种发酵物，则不一定有前一批可用于后坡。在这种情况下，你必须找到类似的替代品。对于我们的醋，我们建议使用未经高温消毒的苹果醋作为替代品。对于我们的 kombucha，您可以使用类似风味的未经高温消毒的 kombucha 或 SCOBY（产生 kombucha 的酵母和细菌的“母体”培养物；参见合作发酵）包装的液体。缺点是您将稀释您正在制作的醋或 kombucha 的纯正风味。不过，这很好，因为它给了你一个完美的理由再次制作相同的醋或kombucha——这次使用第一批的一部分作为后坡。',
+            en: 'Of course, if this is your first time making one of the ferments in the book, you won’t necessarily have a previous batch to use for backslop. In that case, you’ll have to find a similar substitute. For our vinegars, we suggest unpasteurized apple cider vinegar as a replacement. For our kombuchas, you can use a similarly flavored unpasteurized kombucha or the liquid that your SCOBY (the “mother” culture of yeast and bacteria that produces kombucha; seecooperative frementation) comes packaged in. The downside is that you’re going to dilute the pure flavor of the vinegar or kombucha you’re making. That’s fine, though, as it gives you a perfect reason to make the same vinegar or kombucha again—this time using a portion of your first batch as backslop.'
+          },
+          {
+            zh: '*Backslopping gives a boost from one generation of a ferment to the next.*',
+            en: '*Backslopping gives a boost from one generation of a ferment to the next.*'
+          },
+          {
+            zh: '<!-- text/part0005_split_007.html -->',
+            en: '<!-- text/part0005_split_007.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '12-elderberry-wine-balsamic',
@@ -17416,7 +23578,48 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 清洁度、病原体和安全',
+            en: '# Cleanliness, Pathogens, and Safety'
+          },
+          {
+            zh: '出于对工作场所的自豪感和对同事的尊重，我们在厨房中非常重视清洁度。然而，干净卫生的工作场所在发酵实验室中尤为重要，以防止不需要的病原体侵入发酵物并导致发酵物变味，或者更糟糕的是，产生食用危险。在Noma，我们总是过于谨慎。如果你做的东西闻起来有问题——不仅像鱼露那样怪异，而且是刺鼻的腐烂味——相信你的鼻子。如果您尝了一小块样品就感到反胃，请记住，您的身体生来就可以拒绝可能对您有害的东西。如有疑问，请将其扔掉。如果你对某种发酵产品不确定，那就扔掉它。您投入的几周或几个月的时间不值得拿您的健康冒险。',
+            en: 'Cleanliness is something we take very seriously in the kitchen, out of both pride for our workplace and respect for our colleagues. However, a clean and sanitary workplace is doubly important in the fermentation lab, in order to prevent unwanted pathogens from invading a ferment and causing it to taste off or, worse, become dangerous to eat. At Noma, we always err on the side of caution. If something you’ve made smellswrong—not just funky like fish sauce, but nose-stingingly rotten—trust your nose. If you taste a small sample and it turns your stomach, remember that your body is designed to reject things that may be harmful to you. When in doubt, throw it out. If you’re ever unsure of a fermented product, toss it. The weeks or months of your invested time are not worth risking your health.'
+          },
+          {
+            zh: '环境中始终存在潜在有害的微生物。无论有氧还是无氧，细菌都可以在 4.5°C 至 50°C/40°F 至 122°F 的温度范围内快速繁殖，特别是在潮湿、营养丰富的环境中。当然，这描述了许多发酵产品生产的确切环境。世界卫生组织和美国农业部都建议在食用前将对病原体污染敏感的食品加热至 70°C/158°F 以上。现在，这是一个相当严格的保护措施，显然对于许多发酵来说是不可能的。话虽这么说，你应该谨慎，但不必担心。发酵是一种有益且令人兴奋的练习，但请记住，你是在玩真枪实弹。',
+            en: 'Potentially harmful microbes are ever present in the environment. Bacteria can multiply speedily, with or without oxygen, at temperatures ranging from 4.5° to 50°C/40° to 122°F, especially in moist, nutrient-rich environments. Of course, that describes the exact circumstances in which many fermented goods are produced. Both the World Health Organization and the United States Department of Agriculture recommend cooking foods sensitive to pathogenic contamination above 70°C/158°F before consumption. Now, that’s a fairly severe safeguard, and obviously not possible for many ferments. That being said, you should be cautious, but not worried. Fermentation is meant to be a rewarding and exhilarating practice, but remember that you’re playing with live ammo.'
+          },
+          {
+            zh: '*Cleanliness is next to godliness (and also crucial to a safe and successful ferment).*',
+            en: '*Cleanliness is next to godliness (and also crucial to a safe and successful ferment).*'
+          },
+          {
+            zh: '在本书中，我们尽力提供清晰的说明，如果严格遵循，将生产出安全美味的产品。不要盯着测量结果或走捷径。当食谱要求特定的盐含量（按重量计高于 10%）或pH（低于 4.5）时，是为了确保发酵安全。当然，防止发酵过程中滋生有害微生物的第一步是确保您的设备和双手在接触食物之前保持清洁。虽然这在某些情况下不太重要，但在其他情况下却很重要。例如，在制作 koji 时，您需要确保在引入接种的谷物之前对孵化室进行适当消毒。用手工作时，请戴上丁腈或乳胶手套以防止污染（除非皮肤上的少量细菌可以帮助完成工作，例如乳酸发酵）。',
+            en: 'Throughout this book, we do our best to provide clear instructions that will produce safe and delicious products if followed closely. Don’t eyeball measurements or take shortcuts. When a recipe calls for a specific salt content (above 10 percent by weight) or pH (below 4.5), it’s to ensure that you’re fermenting safely. But of course, the first step in preventing unwanted microorganisms from taking hold in a ferment is to make sure your equipment and hands are clean before they come into contact with food. While this is less important in certain cases, it’s critical in other instances. When making koji, for example, you’ll need to be sure the incubation chamber is properly sanitized before introducing the inoculated grains. And when working with your hands, wear nitrile or latex gloves to prevent contamination (except in places where a little bacteria from your skin can help things along, as with lactic-acid fermentation).'
+          },
+          {
+            zh: '现在，我们所说的“干净”是什么意思？您期望在大学生物实验室中发现的清洁程度与家庭或餐厅厨房中的清洁程度存在差异。让我们定义一些术语。清洁意味着您已经清除了物体表面可见的污垢。肥皂和水可以清洁表面，但对减少表面微生物数量（无论好坏）作用甚微。灭菌意味着您已经根除设备和工作表面（有时甚至是您要发酵的产品）上的所有生命形式（病毒、细菌、真菌）。这是医院和微生物实验室所需的确定性水平。在这本书中，你永远不需要像工业级高压灭菌器这样严肃的东西来制作食谱。我们希望对这里的食谱做的是消毒。对设备或工作表面进行消毒意味着您已经清除了大部分微生物。这足以满足我们的目的。将您的设备放入洗碗机中进行热循环，或者将其蒸或煮几分钟，足以确保您的工作清洁卫生。如果您的设备耐热，干热灭菌是另一种选择。陶瓷、玻璃和金属容器和器具可以在烤箱中以 160°C/320°F 烘烤 2 小时，以确保它们不含污染物。',
+            en: 'Now, what do we mean by “clean”? There is a difference between the level of cleanliness you would expect to find in a university biology lab and that in a home or restaurant kitchen. Let’s define some terms.Cleaningmeans that you’ve removed visible dirt from the surface of objects. Soap and water will cleana surface but do very little to reduce the surface’s population of microorganisms, good or bad.Sterilizedimplies that you’ve eradicatedalllife-forms—viruses, bacteria, fungi—on your equipment and your work surfaces (and sometimes even in the product you’re looking to ferment). This is a level of certainty required in hospitals and microbiology labs. You’ll never need something as serious as an industrial-strength autoclave for a recipe in this book. What we’re looking to do for the recipes here issanitize. To sanitize a piece of equipment or work surface implies that you’ve removedmostmicrobiological life. That will be sufficient for our purposes. Running your equipment through a hot cycle in a dishwasher or steaming or boiling it for a few minutes is more than enough to ensure that you’re working clean and sanitarily. If your equipment is heatproof, dry-heat sterilization is another option. Ceramic, glass, and metal containers and utensils can be baked in the oven for 2 hours at 160°C/320°F to ensure that they’re free of contaminants.'
+          },
+          {
+            zh: '对于无法放入洗碗机的设备或工作表面，有一些用于食品生产和发酵的常见消毒剂，如 StarSan（许多家庭酿酒店有售）、蒸馏白醋（一种深受世界各地奶奶喜爱的消毒剂），甚至用水稀释至每升 20 毫升的家用漂白剂（只要随后用清水冲洗）。在 Noma，对于陶罐和水桶等大型物品，我们使用用过滤水稀释至 60% 酒精体积 (ABV) 的乙醇进行消毒，即每 60 毫升乙醇兑 40 毫升水。 （我们稀释它是因为如果乙醇的百分比太高，它实际上可以凝固构成许多微生物细胞壁的蛋白质并防止它们死亡。）我们将溶液放入喷雾瓶中，喷洒任何需要消毒的东西，让它静置10到15分钟，然后用纸巾擦掉。',
+            en: 'For equipment or work surfaces that you can’t pop into the dishwasher, there are common sanitizers intended for food production and fermentation like StarSan (available at many home-brew shops), distilled white vinegar (a sanitizing agent favored by grandmas the world over), and even household bleach diluted with water to 20 milliliters per liter (as long as you rinse with fresh water afterward). At Noma, for large items like crocks and buckets, we disinfect using ethanol diluted with filtered water to 60 percent alcohol by volume (ABV)—40 milliliters water for every 60 milliliters ethanol. (We dilute it because if the percentage of ethanol is too high, it can actually coagulate the proteins that make up the cell walls of many microbes and prevent them from dying.) We put the solution in a spray bottle and spray whatever needs to be sanitized, let it sit for 10 to 15 minutes, then wipe it off with a paper towel.'
+          },
+          {
+            zh: '最后，虽然本书花费了大量时间介绍负责发酵的令人惊奇的微生物，但熟悉那些可以使事情出岔子的微生物也同样重要。通过彻底了解致病细菌和霉菌以及它们可以忍受的条件，您将能够更好地将它们排除在您的产品之外。',
+            en: 'Finally, while a great deal of time is spent in this book introducing the amazing microorganisms responsible for fermentation, it’s equally important to acquaint ourselves with the microbes that can make things go sideways. With a thorough grasp of pathogenic bacteria and molds, and what conditions they can tolerate, you’ll be better equipped to keep them out of your products.'
+          },
+          {
+            zh: '*While many microbes are beneficial and the majority are harmless, there are still a few bad microbes that can cause illness.*',
+            en: '*While many microbes are beneficial and the majority are harmless, there are still a few bad microbes that can cause illness.*'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '13-koji-cure-shio-koji',
@@ -18354,7 +24557,44 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 氢的潜力 (pH)',
+            en: '# Potential of Hydrogen (pH)'
+          },
+          {
+            zh: '*The ratio of hydroxide ions (negatively charged) to hydrogen ions (positively charged) in an aqueous solution determines its pH.*',
+            en: '*The ratio of hydroxide ions (negatively charged) to hydrogen ions (positively charged) in an aqueous solution determines its pH.*'
+          },
+          {
+            zh: '氢势（或pH）是化学中非常重要的测量值，也是发酵中需要考虑的关键因素。简而言之，它可以帮助您测量酸度。 pH量表最初是在二十世纪之交的Copenhagen嘉士伯实验室中构思出来的。它测量水溶液中氢离子 (H+) 和氢氧根离子 (OH−) 之间的浓度差，数值从 0 到 14 每增加一次，表明离子浓度发生十倍的变化。',
+            en: 'Potential of hydrogen, or pH, is a hugely important measurement in chemistry, and a key factor to consider in fermentation. Simply put, it helps you measure acidity. The pH scale was first conceived in the Carlsberg Labs in Copenhagen near the turn of the twentieth century. It measures the difference in concentration in an aqueous solution between hydrogen ions (H+) and hydroxide ions (OH−), with every increase in numerical value from 0 to 14 indicating a tenfold change in ionic concentration.'
+          },
+          {
+            zh: '在蒸馏水（纯 H2O）中，氢离子和氢氧根离子彼此精确平衡。它的 pH 为 7，位于刻度的中间，既不是碱性也不是酸性，而是中性。当氢氧根离子数量多于氢离子时，该物质被称为碱性或碱性，并且 pH 高于 7。当氢离子多于氢氧根离子时，该物质呈酸性，并且 pH 低于 7。您可以找到的酸性最强的物质，如盐酸（胃酸的成分）和硫酸（汽车电池中发现），其 pH 接近 0。最基本的物质，如氢氧化钠（存在于碱液或排水沟清洁剂）的 pH 接近 14。',
+            en: 'In distilled water (pure H2O), hydrogen and hydroxide ions sit in exact balance with each other. It has a pH of 7, right in the middle of the scale, and is neither alkaline nor acidic, but neutral. When hydroxide ions outnumber hydrogen ions, the substance is said to be basic or alkaline, and has a pH above 7. When hydrogen ions outnumber hydroxide ions, the substance is acidic, and has a pH below 7. The most acidic substances you can find, like hydrochloric acid (a component of stomach acid) and sulphuric acid (found in car batteries), have a pH near 0. The most basic substances, like sodium hydroxide (found in lye or drain cleaner) have a pH close to 14.'
+          },
+          {
+            zh: '在本书中，我们有时会寻求控制或改变发酵的pH，这会影响从微生物繁殖和繁殖的能力到酶正常发挥作用的能力再到最终发酵的味道的一切。有时，我们试图通过微生物产生乳酸、乙酸或柠檬酸来降低发酵中的pH，从而使其味道更酸。我们也使用碱性溶液，就像我们用湿润粉糊制成的miso一样，我们在氢氧化钙溶液中煮玉米，以从玉米粒中提取出花香和果香。',
+            en: 'At times in this book, we seek to control or change the pH of a ferment, which affects everything from microbes’ ability to thrive and propagate to an enzyme’s ability to function properly to the taste of the final ferment. Sometimes, we’re seeking to lower the pH in a ferment—thus making it taste more sour—through the creation by microbes of lactic, acetic, or citric acid. We use alkaline solutions too, as in the case of our miso made from masa, where we boil corn in a calcium hydroxide solution to coax out floral and fruity notes from the kernels.'
+          },
+          {
+            zh: '您可以使用一些工具来跟踪pH，包括测试条或数字仪表。更严格的发酵罐可能会发现这些工具很有用，但味道是最好的指导。最终，您认为可口的内容应该决定您认为“正确的”<术语27>是什么。',
+            en: 'You can track pH using a few tools, including test strips or digital meters. More exacting fermenters may find these tools helpful, but taste is your best guide. Ultimately, what you find palatable should dictate what you think the “right” pH is.'
+          },
+          {
+            zh: '<!-- text/part0005_split_009.html -->',
+            en: '<!-- text/part0005_split_009.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '19-salt-and-bakers-percentages',
@@ -18368,7 +24608,36 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 盐和面包师的百分比',
+            en: '# Salt and Baker’s Percentages'
+          },
+          {
+            zh: '盐是安全、成功发酵的最重要因素之一。首先，它具有抑制微生物和人类生物过程的非凡能力。 （如果你被困在海上，喝盐水会杀死你，这是有原因的。）盐是钠和氯的离子化合物，当它溶解在水中时会分解成离子海。大自然厌恶不平衡，因此在任何可能的地方，水和溶解在其中的盐离子都会试图均匀分布。将一块肉或一个细菌细胞放入盐溶液中，内部的水会向外流动，而​​盐离子会向内流动，直到最终达到平衡。这就是盐腌的工作原理，也是用盐杀死沙门氏菌等病原体的机制。盐会从细菌细胞中吸取水分，直到它们枯萎死亡。 （有关此问题的更详细说明，请参阅“盐/水”。）了解不同微生物的耐盐性可以使发酵产生巨大的差异。',
+            en: 'Salt is one of the most important factors in a safe and successful fermentation. For starters, it has the remarkable ability to inhibit biological processes of both microbes and humans. (There’s a reason why drinking salt water will kill you if you’re stranded at sea.) Salt is an ionic compound of sodium and chloride, which breaks apart into a sea of ions when it dissolves in water. Nature abhors imbalance, so anywhere they can, water and the salt ions dissolved in it will try to spread out into an even distribution. Put a piece of meat or a bacterial cell in a solution of salt, and water from inside will flow outward while salt ions flow inward, until eventually equilibrium is reached. It’s how brining works, and it’s also the mechanism by which pathogens likeSalmonellacan be killed with salt. Salt draws water out of the bacteria’s cells until they shrivel up and die. (For a more detailed explanation of this, see “Salt/Water”.) Knowing the salt tolerance of different microbes can make a world of difference in a ferment.'
+          },
+          {
+            zh: '因此，我们强调精确的盐测量，通常以重量百分比表示。请注意，在 Noma 的发酵实验室中，我们使用面包师的百分比 - 当我们告诉您向一公斤李子中添加 2% 的盐时，我们指的是李子重量的 2%（结果为 20 克），而不是李子和盐的总重量（结果为 20.4 克）。差异并不总是非常显着，但使用面包师百分比可以简化数学计算。',
+            en: 'For that reason, we stress precise salt measurements, usually expressed in percentage by weight. Note that in the fermen-tation lab at Noma, we use baker’s percentages—when we tell you to add 2% salt to a kilogram of plums, we mean 2% of the weight of the plums (which comes out to 20 grams), not the total weight of the plumsandthe salt (which would be 20.4 grams). The difference is not always very significant, but using baker’s percentages streamlines the math.'
+          },
+          {
+            zh: '最后，盐的类型也有影响。我们要求使用非碘盐，因为碘具有温和的抗菌作用。虽然使用标准食盐并不能阻止感冒发酵，但它会阻碍有益微生物获得牢固的立足点。粗盐效果很好，应该可以在当地的杂货店买到。像 fleur de sel 这样富含矿物质的海盐也很棒，而且实际上可以改善 lacto 发酵物的质地。',
+            en: 'Last, the type of salt makes a difference. We call for non-iodized salt, because iodine is mildly antimicrobial. While using standard table salt won’t stop a ferment cold, it can impede helpful microbes from gaining a strong foothold. Kosher salt will work well, and should be available in your local grocery store. Mineral-rich sea salts like fleur de sel are great, too, and can actually improve the texture of lacto-ferments.'
+          },
+          {
+            zh: '<!-- text/part0005_split_010.html -->',
+            en: '<!-- text/part0005_split_010.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '20-building-a-fermentation-chamber',
@@ -18382,7 +24651,62 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 建造发酵室',
+            en: '# Building a Fermentation Chamber'
+          },
+          {
+            zh: '从koji章节开始，您会发现本书中的一些食谱需要特定的温度和湿度条件。建造发酵室有多种选择，具体取决于您打算生产多少产品，以及您希望设备的复杂程度。在Noma，我们拥有专门用于发酵的房间，具有精确的温度和湿度控制。在悉尼的快闪餐厅期间，我们用杂物间制作了一个发酵室。您可以使用退役的冰箱、带乙烯基盖的快速架、聚苯乙烯泡沫塑料冷却器或木箱。良好容器的两个基本标准是绝缘性和防水性。关于Koji的章节解释了您需要控制哪些因素以及它们为何重要。',
+            en: 'Beginning with the koji chapter, you’ll find that some recipes in this book require specific temperature and humidity conditions. There are myriad options for constructing a fermentation chamber, depending on how much product you intend to make, and how elaborate you want your rig to be. At Noma, we have rooms dedicated to fermentation, with accurate and precise temperature and humidity controls. During our pop-up restaurant in Sydney, we crafted a fermentation chamber out of a broom closet. You can use a decommissioned refrigerator, a speed rack with a vinyl cover, Styrofoam coolers, or wooden boxes. The two basic criteria for a good container are insulation and water resistance. The chapter onKojiexplains what factors you need to control and why they matter.'
+          },
+          {
+            zh: '当您刚刚接触发酵世界时，电饭锅或慢炖锅等设备就足以完成本书中的某些过程。 （请注意，您需要一个不带自动关闭功能的模型，因为有些食谱需要持续数周的孵化时间。）但是，一旦您迷上了发酵，建造一个更大、更精确的发酵室将会改变游戏规则。',
+            en: 'While you’re getting your feet wet in the world of fermentation, an appliance such as a rice cooker or slow cooker will suffice for some processes in this book. (Note that you’ll need a model without an auto-off function, as some recipes call for incubation times that last for weeks.) But once you’re hooked on fermenting, building a larger, more accurate chamber is a game changer.'
+          },
+          {
+            zh: '在这里，我们概述了两条路径，专为小型项目设计，使用在线或硬件或餐厅供应商店提供的组件构建。这一切都可以以低于立式搅拌机的成本完成。',
+            en: 'Here we’ve outlined two paths, designed for small-scale projects, built using components that are available online or at a hardware or restaurant supply store. It can all be done for less than the cost of a stand mixer.'
+          },
+          {
+            zh: '有盖速度架',
+            en: 'Covered Speed Rack'
+          },
+          {
+            zh: '对于这个发酵室，您需要：',
+            en: 'For this fermentation chamber, you’ll need:'
+          },
+          {
+            zh: '<!-- text/part0005_split_011.html -->',
+            en: '<!-- text/part0005_split_011.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ],
+        bullets: [
+          {
+            zh: '• 速度架：你的房间的骨头。餐厅使用快速架来放置从烤箱中出来的配料或食物的托盘。它们由轻质但坚固的铝制成，并配有导轨，您可以在上面滑动平底锅或美食/酒店平底锅。它们的高度各不相同，从 1 米到 1.75 米不等。寻找带有厚重塑料或乙烯基盖且两侧有拉链的产品。盖子可以保持热量和湿度，拉链可以方便地进入内部。您还需要一些尺寸适合架子的平底锅；风格和数量取决于您选择进行的发酵。',
+            en: '• A speed rack: The bones of your chamber. Speed racks are used in restaurants to hold trays of ingredients or food coming out of the oven. They’re made of lightweight but sturdy aluminum and are equipped with rails onto which you slide sheet pans or gastro/hotel pans. They come in varying heights, ranging from 1 to 1.75 meters. Look for one that comes with a heavy plastic or vinyl cover with zippers running up two sides. The cover will retain heat and humidity, and the zippers allow easy access to the interior. You’ll also need a few sheet pans that are the correct size for the rack; the style and quantity will depend on which ferments you choose to make.'
+          },
+          {
+            zh: '• 小型取暖器：您可以使用这种取暖器在桌子下面让双脚保持温暖。如果取暖器配备风扇就更好了；如果没有，就买一个简单的小风扇。',
+            en: '• A small space heater: The kind you might use to keep your feet warm underneath your desk. If the heater is equipped with a fan, all the better; if not, buy a small simple fan.'
+          },
+          {
+            zh: '• 温度控制器，例如PID（比例积分微分）或恒温器：这将在腔室温度根据外部影响而变化时调整腔室温度。您需要一个可以直接插入加热器的预接线版本。这是一种专门的装备，但并不复杂或昂贵。它将包括一个探针，您可以将其设置在室内以测量内部温度，也可以设置在发酵本身中，例如当您制作koji时。',
+            en: '• A temperature controller, such as a PID (proportional-integral-derivative) or thermostat: This will adjust the temperature of the chamber as it varies according to external influences. You want a prewired version that you can plug a heater directly into. It’s a specialized bit of gear, but it’s not complicated or expensive. It will include a probe that you set either in the chamber to measure interior temperature, or into the ferment itself, such as when you’re making koji.'
+          },
+          {
+            zh: '• 小型加湿器（仅在制作<学期5>时）：放在孩子房间里以帮助缓解鼻塞的类型。另外，还有一个简单的湿度计来测量湿度；它看起来有点像烤箱温度计。或者使用恒湿器，其功能与恒温器非常相似。虽然稍微贵一些，但它可以通过为您调节室内的湿度来简化事情。',
+            en: '• A small humidifier (only when making koji): The type you’d put in a child’s room to help with a stuffy nose. Plus, a simple hygrometer to gauge humidity; it will look a bit like an oven thermometer. Or use a humidistat, which functions much like a thermostat. While slightly more expensive, it will simplify things by regulating the humidity in the chamber for you.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '21-building-a-fermentation-chamber-with-a-covered-spe',
@@ -18396,7 +24720,78 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 建造带有带盖高速架的发酵室',
+            en: '# Building a Fermentation Chamber with a Covered Speed Rack'
+          },
+          {
+            zh: '1. 1. 组装速度架并将一或两个烤盘滑入下层架中。将它们分开，以便为加热器、加湿器和湿度计或恒湿器（以及风扇，如果加热器没有内置）留出足够的空间，而不会相互干扰。将设备放在平底锅上，然后将电线从机架底部拉出。',
+            en: '1. 1. Assemble the speed rack and slide one or two sheet pans into the lower shelves. Space them to allow enough room for your heater, humidifier, and hygrometer or humidistat (and fan, if the heater doesn’t have one built in) to sit without interfering with one another. Place the devices on a sheet pan and snake the cords out from the bottom of the rack.'
+          },
+          {
+            zh: '1. 2. 您需要将温度控制器放在室外。按照制造商的说明插入电源并将其设置为正确的温度；对于本书中的发酵，该温度为 30°C/86°F 或 60°C/140°F。将温度探头放入腔室中。将加热器插入温度控制器。',
+            en: '1. 2. You’ll want to keep your temperature controller outside the chamber. Plug it in and set it to the correct temperature, following the manufacturer’s instructions; for the ferments in this book, that will be either 30°C/86°F or 60°C/140°F. Run the temperature probe into the chamber. Plug the heater into the temperature controller.'
+          },
+          {
+            zh: '1. 3. 将湿度计或恒湿器传感器布置在不会直接接触加湿器蒸汽的地方。将加湿器装满水，插上电源，并将其设置为中度。请注意，我们显然要处理大量电线，因此请使用额定值正确的电源板。',
+            en: '1. 3. Arrange the hygrometer or humidistat sensor so it won’t be in the direct flow of the steam from the humidifier. Fill the humidifier with water, plug it in, and set it to medium. Note that we’re clearly dealing with a lot of electrical cords, so use a properly rated power strip.'
+          },
+          {
+            zh: '1. 4. 将塑料盖拉到速度架上并拉上拉链。空气能够从底部进入腔室，这是大多数发酵所需要的。在 60°C/140°F 下发酵时，您可能需要在塑料盖下方或顶部添加额外的隔热层。一条干净的棉质或羊毛毯就可以很好地解决这个问题。',
+            en: '1. 4. Pull the plastic cover over the speed rack and zip it up. Air will be able to enter the chamber from the bottom, which is what you need for most of the ferments. When fermenting at 60°C/140°F, you may want to add an extra layer of insulation underneath or on top of the plastic cover. A clean cotton or wool blanket will do the trick nicely.'
+          },
+          {
+            zh: '1. 5. 合上盖子，使腔室达到所需的温度和湿度。如果您没有恒湿器，您可以通过检查湿度计上的水平来调整湿度，然后向上或向下拨动加湿器设置。温度控制器将为您调节温度。',
+            en: '1. 5. Close the cover to bring your chamber up to the desired temperature and humidity. If you don’t have a humidistat, you’ll adjust humidity by checking the level on your hygrometer and then dialing the humidifier setting up or down. The temperature controller will take care of temperature for you.'
+          },
+          {
+            zh: '1. 6. 添加发酵剂。密切关注温度控制器，确保它在温度下降或上升时打开和关闭加热器。您可能会发现比您想要的温度高或低一两度；这很正常。',
+            en: '1. 6. Add your ferments. Keep an eye on the temperature controller to make sure it’s turning the heater on and off when the temperature dips or rises. You may see a drift of a degree or two above or below your desired temperature; that’s normal.'
+          },
+          {
+            zh: '聚苯乙烯泡沫塑料冷却器',
+            en: 'Styrofoam Cooler'
+          },
+          {
+            zh: '对于这个发酵室，您需要：',
+            en: 'For this fermentation chamber, you’ll need:'
+          },
+          {
+            zh: '<!-- text/part0005_split_012.html -->',
+            en: '<!-- text/part0005_split_012.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ],
+        bullets: [
+          {
+            zh: '• 聚苯乙烯泡沫塑料冷却器：聚苯乙烯泡沫塑料是一种极好的绝缘体，并且聚苯乙烯泡沫塑料冷却器相当便宜且广泛使用。本书中图片的尺寸为 60 × 40 × 30 厘米。',
+            en: '• A Styrofoam cooler: Styrofoam is an excellent insulator, and Styrofoam coolers are fairly inexpensive and widely available. The one pictured in this book measures 60 × 40 × 30 centimeters.'
+          },
+          {
+            zh: '• 电加热垫：用于在苗圃中发芽蔬菜（寻找“育苗加热垫”），也可用于加热爬行动物玻璃容器（“爬行动物加热垫”）。它们由穿过厚塑料盖的电阻线圈组成，并在大表面积上提供均匀的热量。它们有多种尺寸，通常防水且易于清洁。',
+            en: '• An electric heating mat: These are used to sprout greens in nurseries (look for a “seedling heat mat”) and also to warm reptile terrariums (“reptile heating pad”). They consist of a resistive electric coil running through a thick plastic cover, and provide even heat over a large surface area. You can find them in many sizes, and they’re usually waterproof and easy to clean.'
+          },
+          {
+            zh: '• 温度控制器：与速度架设置一样，它将充当恒温器，调节发酵室的内部温度。许多型号都配有一个用于螺钉的小孔，因此您可以方便地将其固定在盒子的外部。',
+            en: '• A temperature controller: As with the speed-rack setup, this will act as your thermostat, adjusting the internal temperature of the fermentation chamber. Many models are equipped with a little hole for a screw so you can conveniently attach it to the outside of your box.'
+          },
+          {
+            zh: '• 小型加湿器（制作koji时）：越小越好。另外，还有一个简单的湿度计，一种用于测量湿度的仪器；它看起来有点像烤箱温度计。或者，您可以使用恒湿器，其功能与恒温器非常相似。虽然稍微贵一些，但它可以通过为您调节室内的湿度来简化事情。',
+            en: '• A small humidifier (when making koji): The smaller you can find, the better. Plus, a simple hygrometer, an instrument used to gauge humidity; it will look a bit like an oven thermometer. Alternatively, you could use a humidistat, which functions much like a thermostat. While slightly more expensive, it will simplify things by regulating the humidity in the chamber for you.'
+          },
+          {
+            zh: '• 一个三脚架，或几个螺丝：在大多数情况下，您希望将发酵物保持在冷却器底部的上方。三脚架就可以解决这个问题，但为了更好的气流，请购买四个足够长且坚固的螺钉，使其能够穿过冷却器的壁并支撑装满配料的托盘的重量。',
+            en: '• A trivet, or a few screws: In most cases, you want to keep your ferments elevated off the bottom of the cooler. A trivet will do the trick, but for better airflow, procure four screws that are long and sturdy enough to make it through the walls of the cooler and support the weight of a tray laden with ingredients.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '22-building-a-fermentation-chamber-out-of-a-styrofoam',
@@ -18410,7 +24805,52 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 用聚苯乙烯泡沫塑料冷却器建造发酵室',
+            en: '# Building a Fermentation Chamber Out of a Styrofoam Cooler'
+          },
+          {
+            zh: '1. 1. 确保您的聚苯乙烯泡沫塑料冷却器已清洁和消毒。如果您要制作koji，请购买四个足够长且足够坚固的螺钉，以承受koji托盘的重量，并将它们拧入容器的侧面，大约在墙壁的一半处。',
+            en: '1. 1. Ensure that your Styrofoam cooler is cleaned and sanitized. If you’re making koji, procure four screws that are long enough and sturdy enough to bear the weight of a tray of koji and screw them into the sides of the container, about halfway up the walls.'
+          },
+          {
+            zh: '1. 2. 将加热垫和加湿器放入容器内。尽量让加湿器远离加热垫，并将电线从盒子中取出。将加湿器设置为中度并打开。将湿度计（如果有的话）放在加湿器旁边（远离蒸汽的直接流动）以跟踪湿度。',
+            en: '1. 2. Place the heating mat and humidifier inside the container. Try to keep the humidifier off the heating mat, and snake the cords out of the box. Set the humidifier to medium and turn it on. Place your hygrometer (if you have one) next to the humidifier (out of the direct flow of steam) to keep track of the humidity.'
+          },
+          {
+            zh: '1. 3. 将加热垫插入温度控制器，然后按照制造商的说明将其设置为您想要的目标温度；对于本书中的发酵，该温度为 30°C/86°F 或 60°C/140°F。将温度探头放入腔室中。',
+            en: '1. 3. Plug the heating mat into your temperature controller and, following the manufacturer’s instructions, set it to your desired target temperature; for the ferments in this book, that will be either 30°C/86°F or 60°C/140°F. Run the temperature probe into the chamber.'
+          },
+          {
+            zh: '1. 4. 将您的腔室调至所需的温度和湿度。如果您没有恒湿器，您可以通过检查湿度计上的水平来调整湿度，然后向上或向下拨动加湿器设置。温度控制器将为您调节温度。',
+            en: '1. 4. Bring your chamber up to the desired temperature and humidity. If you don’t have a humidistat, you’ll adjust humidity by checking the level on your hygrometer and then dialing the humidifier setting up or down. The temperature controller will take care of temperature for you.'
+          },
+          {
+            zh: '1. 5. 添加发酵剂。密切关注温度控制器，确保它在温度下降或上升时打开和关闭加热器。您可能会发现比您想要的温度高或低一两度；这很正常。',
+            en: '1. 5. Add your ferment(s). Keep an eye on the temperature controller to make sure it’s turning the heater on and off when the temperature dips or rises. You may see a drift of a degree or two above or below your desired temperature; that’s normal.'
+          },
+          {
+            zh: '1. 6. 盖上发酵室的盖子。对于 60°C/140°F 的发酵，请尽可能紧密地关闭以保持热量。对于 koji，只需轻轻一触，将其一侧打开，以允许新鲜氧气进入。如果您担心它会关闭，您可以使用放入唇部的螺钉轻松地将其撑开更多。',
+            en: '1. 6. Cover the fermentation chamber with its lid. For ferments at 60°C/140°F, close it as tightly as you can to keep heat in. For koji, leave it cracked open on one side just a touch to allow fresh oxygen in. You can easily prop it open more with a screw placed into the lip if you’re worried about it being closed shut.'
+          },
+          {
+            zh: '*Your ferments are limited only by your imagination.*',
+            en: '*Your ferments are limited only by your imagination.*'
+          },
+          {
+            zh: '<!-- text/part0005_split_013.html -->',
+            en: '<!-- text/part0005_split_013.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '23-thinking-outside-the-kraut',
@@ -18424,7 +24864,36 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 跳出德国泡菜的思维',
+            en: '# Thinking Outside the Kraut'
+          },
+          {
+            zh: '我们希望，一旦您阅读了每一章中的文字并制作了一两个相应的发酵配方，您就会感到足够舒服，可以自己开始驾驶这艘船。我们鼓励您将所学到的知识应用于其他成分。通过Noma的发酵研究，我们尝试做的事情之一是将技术与其文化框架分开，以了解当生物过程应用于不同成分时会发生什么。这并不是要忽视文化历史的重要性，而是要了解其他烹饪传统如何改善我们地区的烹饪。',
+            en: 'Our hope is that once you’ve read the text in each chapter and made one or two of the corresponding ferment recipes, you’ll feel comfortable enough to begin steering the ship yourself. We encourage you to take what you’ve learned and apply it to other ingredients. One of the things we try to do through our study of fermentation at Noma is to separate techniques from their cultural framework to see what happens when the biological processes are applied to different ingredients. It’s not about disregarding the importance of cultural history, but rather understanding how other culinary traditions can improve the cuisine in our part of the world.'
+          },
+          {
+            zh: '例如，泡菜和酸菜是世界上最著名的两种lacto发酵产品。这可能是显而易见的，但区分历史悠久的食品和生产它们的技术是重要的一步。一旦您了解了某种发酵过程的作用（它如何改变成分、它增强什么以及减弱什么），您就可以考虑还有什么可以从相同的处理中受益。卷心菜为何如此适合制成酸菜？还有哪些其他成分具有类似的品质？哪些额外的调味料可以补充lacto发酵带来的酸度？这就是我们在 Noma 发酵实验室中指导大量工作的方式，并引导我们开发出了一些最成功的产品。',
+            en: 'For instance, kimchi and sauerkraut are two of the world’s most well-known lacto-fermented products. That may be obvious, but making the distinction between time-honored foodstuffs and the techniques that produce them is an important step. Once you understand the role of a certain fermentation process—how it transforms ingredients, what it heightens and what it mutes—you can consider what else might benefit from the same treatment. What is it about cabbage that lends itself so well to being turned into sauerkraut? What other ingredients have similar qualities? What additional seasonings might complement the acidity brought by lacto-fermentation? That’s how we direct a lot of the work in the fermentation lab at Noma, and it’s led us to some of our most successful products.'
+          },
+          {
+            zh: '请记住，当你进行实验时，你将不可避免地失败。不要灰心！本书中的每一个食谱都是从一个想法开始的，通过失败、教育和调整逐渐走向美味。只有当事情没有按计划进行时，才会有惊喜和喜悦。',
+            en: 'Keep in mind that as you experiment, you’ll inevitably fail. Don’t get discouraged! Every recipe in this book began as an idea that edged its way to deliciousness through failure, education, and adjustment. Surprise and delight are only possible when things don’t go according to plan.'
+          },
+          {
+            zh: '<!-- text/part0005_split_014.html -->',
+            en: '<!-- text/part0005_split_014.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '24-substituting-store-bought-ferments',
@@ -18438,7 +24907,40 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 替代商店购买的发酵剂',
+            en: '# Substituting Store-Bought Ferments'
+          },
+          {
+            zh: '我们希望您在读完这本书后，能够对发酵和烹饪的世界有更深入的了解，即使您没有进行我们描述的任何发酵。我们希望世界各地的厨师和主厨都能看到发酵产品的实用性和价值，无论他们是否从头开始制作发酵产品。 Shoyu不只是用来蘸，miso也不是只用来做汤。如果您在本书中发现了吸引您的建议，例如shoyu焦糖，您不应该觉得需要制作自己的shoyu来实现它。商店买的就可以了。',
+            en: 'Our hope is that you’ll come away from this book with a deeper understanding about the world of fermentation and cooking, even if you don’t make a single ferment we’ve described. We want cooks and chefs everywhere to see the utility and value in fermented products, whether or not they make them from scratch. Shoyu isn’t only for dipping, nor miso only for soup. If you come across a suggestion in this book that appeals to you, like, say, shoyu caramel, you shouldn’t feel like you need to make your own shoyu to pull it off. Store-bought will do.'
+          },
+          {
+            zh: '我们还意识到，本书中的一些食谱结合了多种发酵：有时是出于必要，有时是为了说明不同玩家之间可以发展的强大而美味的相互作用。在这种情况下，您可能生产了一种产品，但没有生产其补充产品；替代品足以执行食谱并充分了解我们正在追求的口味。',
+            en: 'We also realize that some recipes in this book combine multiple ferments: sometimes out of necessity, other times to illustrate the powerful and flavorful interplay that can develop between different players. In such instances, you might have made one product but not its complement; a substitution will more than suffice to execute the recipe and get a good idea of the flavors we’re chasing.'
+          },
+          {
+            zh: '不幸的是，我们从未遇到过任何与 Maizo 或 Grasshopper Garum 足够相似的东西来推荐它们，但在这里您会找到本书中某些产品的有用等效项图表 - 可以说是“表兄弟”。一如既往，质量很重要。市场上总会有更便宜或更精致的产品版本，而发酵食品的范围可能相当广泛。使用您的判断以及朋友或杂货店工作人员的建议来确定哪些产品是精心制作的。',
+            en: 'Unfortunately, we’ve never come across anything that bears a close enough resemblance toMaizoorGrasshopper Garumto recommend them, but here you’ll find a chart of useful equivalencies for some of the products in this book—“cousins,” so to speak. As always, quality counts. There will always be cheaper or more refined versions of products available on the market, and with fermented goods, the range can be quite drastic. Use your judgment and the advice of friends or grocery staff to determine which products are crafted with care and attention.'
+          },
+          {
+            zh: '我们的发酵表弟接骨木酒香醋传统香醋珍珠薏米Koji干米koji黄色Peaso冈山misoRyesoHatcho miso黄豌豆Shoyu生shoyu牛肉Garum伍斯特沙司玫瑰和虾Garum鱼露（红船）品牌）',
+            en: 'Our fermentStore-bought cousinElderberry Wine BalsamicTraditional balsamic vinegarPearl Barley KojiDried rice kojiYellow PeasoOkasan misoRyesoHatcho misoYellow Pea ShoyuRaw shoyuBeef GarumWorcestershire sauceRose and Shrimp GarumFish sauce (Red Boat brand)'
+          },
+          {
+            zh: '<!-- text/part0005_split_015.html -->',
+            en: '<!-- text/part0005_split_015.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
   },
   {
     id: '25-weights-and-measures',
@@ -18452,7 +24954,32 @@ export const notes = [
     },
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        paragraphs: [
+          {
+            zh: '# 重量和尺寸',
+            en: '# Weights and Measures'
+          },
+          {
+            zh: '在Noma以及本书中，我们使用公制系统进行所有测量，因为它比英制测量具有更高的精度和准确度。每当您处理敏感结果时，准确性都是关键。盐含量仅仅 1% 的变化就可能是你想要向所有朋友炫耀的发酵物和你不想让任何人知道的东西之间的区别。',
+            en: 'At Noma, and in this book, we use the metric system for all our measurements, because it allows for much greater precision and accuracy than imperial measurements. Whenever you’re dealing with sensitive outcomes, accuracy is key. A shift in salt content of just 1 percent can be the difference between a ferment you’ll want to show off to all your friends and something you’d rather no one ever knew about.'
+          },
+          {
+            zh: '对于我们任何持怀疑态度的美国读者来说，要知道公制系统是非常合乎逻辑的，而且大多数厨房测量工具无论如何都包含公制标记和设置。使用公制系统，您可以测量重量（克和千克）和体积（毫升和升）。对于我们的许多食谱，为了简单起见，我们使用重量而不是体积：将空碗放在秤上，去皮（意味着将读数调整为零，从而减少碗的重量），然后添加成分，直到达到所需的重量。无需在量杯和工作碗之间移动原料。',
+            en: 'For any of our skeptical American readers, know that the metric system is supremely logical, and most kitchen measuring tools include metric markings and settings anyway. With the metric system, you can measure both weight (grams and kilograms) and volume (milliliters and liters). For many of our recipes, we use weight rather than volume for the sake of simplicity: Stick your empty bowl on a scale, tare it (meaning adjust the readout to zero, thereby discounting the weight of your bowl), and add the ingredient until you’ve reached the desired weight. No need to move ingredients between measuring cups and a work bowl.'
+          },
+          {
+            zh: '精确到一克的数字厨房秤对于执行本书中的食谱至关重要。花不了多少钱就能买到高质量的秤；一定要准备一块额外的电池，这样你就不会在烹饪过程中意外地陷入困境。',
+            en: 'A digital kitchen scale that measures to the single gram is essential to the execution of the recipes in this book. You can buy high-quality scales for not a lot of money; be sure to have an extra battery on hand so you aren’t unexpectedly caught short in the middle of a recipe.'
+          },
+          {
+            zh: '最后，我们列出了每个食谱的大概产量，这样你就会在开始之前知道你要做什么，但很容易扩大或缩小食谱的规模。但是，请注意所需容器的尺寸。在某些情况下，可能需要在罐子或陶罐中留出一点额外的净空，如果您扩大配方，您可能还需要相应地扩大容器的规模。',
+            en: 'Finally, we’ve listed an approximate yield for each recipe so you’ll know what you’re getting into before you start, but it’s easy to scale the recipes up or down. However, pay attention to the size of the container required. There are instances where a little extra headroom in a jar or crock might be desired, and if you scale up the recipe, you may also need to scale the container accordingly.'
+          }
+        ]
+      }
+    ]
   },
   {
     id: 'agentic-ai-note-01',
@@ -18470,6 +24997,15 @@ export const notes = [
     },
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Chapter 1｜Agent 工具调用与 MCP 总览'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '第一组：Agent 为什么需要工具调用？',
         paragraphs: [],
@@ -18712,6 +25248,193 @@ export const notes = [
     ]
   },
   {
+    id: 'agentic-ai-note-02',
+    categoryId: 'agentic-ai',
+    chapterId: 'chapter-1-live-streaming',
+    course: 'Agentic AI 智能体开发实战',
+    date: 'Card 02',
+    title: {
+      zh: '直播课｜从 Prompt Engineering 到 Context Engineering',
+      en: 'Live Streaming | From Prompt Engineering to Context Engineering'
+    },
+    summary: {
+      zh: '整理 live-streaming/01-prompt-contex-engineer 的核心思路：把 prompt 优化从凭感觉写提示，推进到可分层、可比较、可压缩、可评估的上下文工程。',
+      en: 'Notes on live-streaming/01-prompt-contex-engineer: turning prompt optimization from intuition-driven writing into layered, comparable, compressible, and evaluable context engineering.'
+    },
+    tags: [],
+    sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 直播课｜从 Prompt Engineering 到 Context Engineering'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '第一组：这节课到底在讲什么？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '为什么不是简单讲“怎么写一个好 prompt”？',
+            answer: [
+              '思考：这节课最重要的点，是把 prompt 当成一个可以工程化优化的对象，而不是靠感觉反复改一句话。它从一个最小提示开始，然后逐层加入角色、示例、约束、受众、输出格式等信息，再比较不同版本的 token、时延和输出效果。',
+              '所以它讲的不只是 Prompt Engineering，而是在往 Context Engineering 走：模型每一次生成时看到的并不是一句 prompt，而是一组被组织过的信息层。真正要优化的是“这一轮推理里，模型应该看到什么、以什么结构看到、哪些信息值得保留、哪些应该删掉或压缩”。',
+              '感想：这和 Agent 特别相关。普通聊天可能一次 prompt 就结束了，但 Agent 会多轮循环，每一步都要把目标、工具、历史、观察结果、外部知识重新组织成上下文。上下文组织得好不好，直接影响 Agent 会不会跑偏。',
+              '卡片版总结：这节课的重点不是写一句神奇 prompt，而是把 prompt 拆成可组合、可比较、可压缩、可评估的上下文层。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '第二组：怎么把 prompt 变成可比较的工程对象？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '课程里比较了哪些 prompt 版本？',
+            answer: [
+              '思考：notebook 先定义一个基础任务：请写一段关于旅游路线规划的说明文字。然后构造多个版本：',
+              '| 版本 | 加了什么上下文 | 作用 |\n|---|---|---|\n| `base` | 只有基础任务 | 给模型最大自由度，但也最不稳定 |\n| `with_role` | 角色 | 让模型站在某种专业身份下回答 |\n| `with_examples` | 示例 | 用 few-shot 方式约束风格和结构 |\n| `with_constraints` | 明确要求 | 约束输出必须包含哪些内容 |\n| `with_audience` | 目标受众 | 让回答贴合特定用户群体 |\n| `comprehensive` | 角色 + 受众 + 约束 + 示例 | 信息最完整，输出更可控 |',
+              '这一步的工程意义在于：每个上下文层都是一个变量。我们可以比较“只加角色有没有用”“只加示例有没有用”“全加是不是一定更好”。这样 prompt 优化就从玄学变成实验。',
+              '卡片版总结：工程化 prompt 的第一步，是把 prompt 拆成上下文层，并把每一层当成可测试变量，而不是一次性写一大段说明。'
+            ],
+            links: []
+          },
+          {
+            question: '比较时看哪些指标？',
+            answer: [
+              '思考：notebook 不是只看“感觉哪个回答好”，而是记录了几个客观指标：',
+              '这些指标不等于最终质量，但它们能让我们看到成本和效率的变化。比如 `comprehensive` 的 prompt token 最高，因为它加了最多上下文；`base` 的 prompt 很短，但可能让模型生成很长、很散的回答，反而总成本和时延未必低。',
+              '感想：这点很有启发。短 prompt 不一定便宜，因为模型可能要自由发挥很多；长 prompt 也不一定浪费，因为结构更清楚后，模型可能更快、更聚焦地生成。',
+              '卡片版总结：比较 prompt 时至少要同时看质量、token 成本和时延。短不等于好，长也不等于坏，关键是这段上下文是否让模型更稳定地完成任务。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [
+          '`prompt_tokens`：输入上下文消耗多少 token。',
+          '`response_tokens`：模型生成了多少 token。',
+          '`latency`：响应时延。',
+          '`token_efficiency`：响应 token / prompt token。'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '第三组：模板化为什么重要？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '`create_expanded_context()` 解决了什么问题？',
+            answer: [
+              '思考：课程里把角色、示例、约束、受众、语气、输出格式这些层封装成 `create_expanded_context()`。这一步很像把 prompt 从“手写文本”升级成“结构化构造器”。',
+              '它的意义是：',
+              '比如旅游规划任务里，可以把基础任务设成“为大学生规划三天上海路线”，再依次加入角色、受众、语气、约束和示例。最后生成的不是一团散文式 prompt，而是一份结构清楚的任务说明书。',
+              '卡片版总结：模板化让 prompt 变成可复用的构造流程。它不是每次临时写一段话，而是按角色、受众、语气、约束、示例、格式等层稳定生成上下文。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [
+          '让常用上下文层可复用。',
+          '让不同任务可以用同一套结构生成 prompt。',
+          '让后续比较更稳定，因为变量更清楚。',
+          '让团队协作时更容易讨论：到底是角色层、约束层，还是示例层出了问题。'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '第四组：什么叫上下文层优化？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '为什么不是上下文越多越好？',
+            answer: [
+              '思考：课程里的 Layer Optimization 就是在测试不同上下文层组合。它先跑 base，再跑 base + 单个层，最后跑 all layers，然后比较 token、时延和输出。',
+              '这个实验背后的关键判断是：每一层上下文都有成本，但不一定都有收益。有些层可能显著提升质量，比如明确约束可以让回答覆盖关键要求；有些层可能只是增加 token，甚至干扰模型注意力。',
+              '所以工程化做法不是“能加就加”，而是：',
+              '1. 明确哪些上下文层可能有帮助。\n2. 单独测试每一层。\n3. 测组合效果。\n4. 比较质量提升是否值得 token 成本。\n5. 保留高收益层，删除低收益层。',
+              '卡片版总结：上下文层优化是在找“信息收益 / token 成本”的平衡。不是上下文越多越好，而是每一层都要证明自己对任务有帮助。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '第五组：上下文压缩和修剪怎么理解？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '压缩和修剪有什么区别？',
+            answer: [
+              '思考：压缩是把同一批信息变短，修剪是判断某些信息要不要保留。课程里压缩方式包括摘要、关键词、要点：',
+              '修剪则更像做上下文减法。课程里用评估标准和模型自评，比较不同层组合的质量分和 token 数，找出那些“增加长度但没有明显提高质量”的层。',
+              '感想：这对 Agent 很实用。Agent 运行多轮后，历史和工具结果会越来越长。如果只会不断追加上下文，迟早会超出窗口或让模型被噪声干扰。压缩和修剪就是让 Agent 保持清醒的机制。',
+              '卡片版总结：压缩是把重要信息变短，修剪是删除低价值信息。复杂 Agent 需要这两种能力，否则上下文会越来越贵、越来越乱。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [
+          '摘要：保留主线和语义流畅性。',
+          '关键词：保留核心概念，但损失结构和细节。',
+          '要点：保留结构，适合任务说明和约束整理。'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '第六组：RAG 为什么属于上下文工程？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '检索增强生成和 prompt 有什么关系？',
+            answer: [
+              '思考：课程最后用一个简单知识库演示 RAG：先根据查询检索相关知识，再把检索结果拼进 prompt，最后让模型基于外部知识回答。',
+              '这说明 RAG 本质上也是上下文工程：它不是让模型内部知识突然变多，而是在当前这一次推理前，把外部知识筛选出来，作为上下文交给模型。',
+              '关键点在于“筛选”。如果检索结果准确，模型就能基于更可靠的信息生成；如果检索结果不相关，反而会污染上下文。所以 RAG 的质量取决于检索、排序、去重、压缩和插入方式。',
+              '卡片版总结：RAG 是一种动态上下文构建方法。它把外部知识检索出来，再放进模型当前上下文里，让模型基于更贴近任务的信息生成。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '第七组：这节课的工程化主线怎么记？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '怎么从“写 prompt”走向“做 prompt 工程”？',
+            answer: [
+              '思考：我会把这节课记成一个闭环：',
+              '```text\n定义基础任务\n↓\n拆分上下文层：角色、受众、约束、示例、格式、外部知识\n↓\n模板化生成 prompt\n↓\n测试不同层组合\n↓\n记录 token、时延、输出质量\n↓\n压缩高价值长上下文\n↓\n修剪低价值上下文层\n↓\n必要时用 RAG 动态补充外部知识\n```',
+              '它和传统 prompt engineering 的区别在于：传统写法更像“我觉得这样写会更好”；工程化写法则是“我把信息层拆开、做对照实验、记录指标、保留有效层、压缩和修剪无效成本”。',
+              '卡片版总结：Prompt 工程化不是追求一句万能提示词，而是建立一套可复用的实验流程：分层、模板化、比较、评估、压缩、修剪、检索增强。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '参考材料',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '`Agent_In_Action/live-streaming/01-prompt-contex-engineer/prompt_to_context.ipynb`'
+        ],
+        emphasisCards: []
+      }
+    ]
+  },
+  {
     id: 'chapter-breakdown',
     categoryId: 'system-design',
     chapterId: 'templates',
@@ -18720,7 +25443,18 @@ export const notes = [
     title: '章节拆解表',
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 章节拆解表',
+          '| 字段 | 内容 |\n| --- | --- |\n| 原书章节 | 待填写 |\n| 建议课程标题 | 待填写 |\n| 难度 | 入门 / 中级 / 高级 |\n| 前置知识 | 待填写 |\n| 学习目标 | 待填写 |\n| 核心概念 | 待填写 |\n| 推荐例子 | 待填写 |\n| 推荐练习 | 待填写 |\n| 术语 | 待填写 |\n| 交叉链接 | 待填写 |\n| 版权注意 | 待填写 |'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      }
+    ]
   },
   {
     id: 'chapter-splitting-rules',
@@ -18732,6 +25466,16 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 章节拆分规则',
+          '把原书章节拆成短 lesson 时，优先使用下面的判断。'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '什么时候拆',
         paragraphs: [],
@@ -18801,6 +25545,15 @@ export const notes = [
     },
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Chapter 4｜4.2.5-4.3 注意力变体、参数量与训练稳定性'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '第一组：先复习 Q/K/V 原来怎么用',
         paragraphs: [
@@ -19329,6 +26082,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# Chapter 4｜4.2 现代 Transformer 变体笔记'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '第一组：归一化从 Post-LN 到 Pre-LN，再到 RMSNorm',
         paragraphs: [
           '这里先纠正一个容易看反的点：原始 Transformer 用的是 Post-LN，也就是”子层 -> 残差 -> LayerNorm”；现代大模型更常用的是 Pre-LN，也就是”LayerNorm -> 子层 -> 残差”。通常说的是 Pre-LN 训练更稳定，而不是 Post-LN 优于 Pre-LN。',
@@ -19598,6 +26360,15 @@ export const notes = [
     },
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Chapter 4｜位置编码可视化：我爱你 vs 你爱我'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '第一组：为什么同样三个字，模型要区分顺序',
         paragraphs: [
@@ -20027,6 +26798,15 @@ export const notes = [
     },
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Chapter 4｜Transformer 标准流程可视化'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '第一组：先看总流程，不先看零件',
         paragraphs: [
@@ -20688,6 +27468,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 转换原则'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '核心目标',
         paragraphs: [
           '把一本书改造成“短、清楚、连续”的学习路径。每一章不一定对应一个页面；如果原章太长，要拆成多个短 lesson。'
@@ -20758,6 +27547,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 课程地图'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '原书信息',
         paragraphs: [
           '| 项目 | 内容 |\n| --- | --- |\n| 书名 | System Design Interview: An Insider\'s Guide |\n| 作者 | Alex Xu |\n| 来源文件 | `source/System Design Interview An Insider’s Guide (Alex Xu) (z-library.sk, 1lib.sk, z-lib.sk).pdf` |\n| 页数 | 269 |\n| 章节 | 16 章 |\n| 转换目标 | 短 lesson 形式的 Docsify 课程 |'
@@ -20805,6 +27603,15 @@ export const notes = [
     },
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# llm-为什么从零开始构建语言模型？'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '第一组：课程哲学与”苦涩的教训”',
         paragraphs: [],
@@ -21004,6 +27811,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# PyTorch 与资源核算'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '第一组：稀疏化与模型压缩',
         paragraphs: [],
         faqs: [
@@ -21156,6 +27972,15 @@ export const notes = [
     },
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 第二节课补充｜常用优化器可视化'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '第一组：先抓一个统一直觉',
         paragraphs: [
@@ -21507,6 +28332,15 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 读《分词器》的一些思考'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '第一组：数据预处理与多语言平衡',
         paragraphs: [],
         faqs: [
@@ -21687,6 +28521,16 @@ export const notes = [
     tags: [],
     sections: [
       {
+        heading: null,
+        paragraphs: [
+          '# 解释质量标准',
+          '每个 lesson 不能只是列概念，必须把读者从“听过这个词”带到“知道为什么用、怎么用、哪里会出问题”。'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
         heading: '必须讲清的 6 件事',
         paragraphs: [
           '1. **问题从哪里来**',
@@ -21818,7 +28662,18 @@ export const notes = [
     title: '术语表',
     summary: '',
     tags: [],
-    sections: []
+    sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 术语表',
+          '| 术语 | 简短解释 | 首次出现 |\n| --- | --- | --- |\n| Lesson | 课程中的一个学习页面 | 课程首页 |\n| Course map | 原书章节到课程页面的映射表 | 课程地图 |'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      }
+    ]
   },
   {
     id: 'lesson-template',
@@ -21830,6 +28685,15 @@ export const notes = [
     summary: '',
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Lesson Title'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '本节目标',
         paragraphs: [
@@ -21939,6 +28803,15 @@ export const notes = [
     },
     tags: [],
     sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# LLM 应用的三层能力：纯对话、Tool Calling 和 RAG'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
       {
         heading: '第一组：LLM 应用的三层能力',
         paragraphs: [

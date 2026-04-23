@@ -16,7 +16,7 @@ function findNotes(dir, result = []) {
       const base = path.basename(fullPath)
       if (base.startsWith('.') || base === '00-Meta') continue
       findNotes(fullPath, result)
-    } else if (entry.isFile() && entry.name.endsWith('.md') && entry.name !== 'README.md') {
+    } else if (entry.isFile() && entry.name.endsWith('.md') && entry.name !== 'README.md' && entry.name !== '_sidebar.md') {
       result.push(fullPath)
     }
   }
@@ -201,7 +201,16 @@ function parseBody(body) {
       continue
     }
 
-    // 普通段落
+    // 普通段落（如果没有 section，创建一个默认 section 来存储内容）
+    if (!currentSection) {
+      currentSection = {
+        heading: null,
+        paragraphs: [],
+        faqs: [],
+        bullets: [],
+        emphasisCards: [],
+      }
+    }
     pendingParagraph.push(trimmed)
     i++
   }
@@ -209,6 +218,14 @@ function parseBody(body) {
   flushParagraph()
   flushEmphasis()
   if (currentSection) sections.push(currentSection)
+
+  // 如果整篇笔记没有 h2 section，把所有未归入 section 的段落放入一个默认 section
+  if (sections.length === 0 && pendingParagraph.length === 0) {
+    // 可能 flushParagraph 已经清空了 pendingParagraph 但因为没有 currentSection 而丢弃
+    // 这种情况已经在上面处理了——内容被丢弃了
+    // 但我们需要重新收集：其实不应该，因为 pendingParagraph 在 flush 时会被清空
+    // 正确的做法是在 flushParagraph 时不丢弃内容，或者在最后兜底
+  }
 
   return sections
 }
