@@ -393,16 +393,29 @@
       }
     },
     {
-      "id": "Chapter 1｜Agent 工具调用与 MCP",
+      "id": "chapter-1",
       "categoryId": "agentic-ai",
       "code": "01",
       "title": {
         "zh": "Agent 工具调用与 MCP",
-        "en": "Agent 工具调用与 MCP"
+        "en": "Agent Tool Use and MCP"
       },
       "description": {
         "zh": "Agent 工具调用与 MCP相关笔记。",
-        "en": "Notes on Agent 工具调用与 MCP."
+        "en": "Notes on Agent Tool Use and MCP."
+      }
+    },
+    {
+      "id": "chapter-1-live-streaming",
+      "categoryId": "agentic-ai",
+      "code": "02",
+      "title": {
+        "zh": "直播课",
+        "en": "Live Streaming"
+      },
+      "description": {
+        "zh": "直播课相关笔记。",
+        "en": "Notes on Live Streaming."
       }
     },
     {
