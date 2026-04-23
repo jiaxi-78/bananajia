@@ -213,16 +213,131 @@ function parseBody(body) {
   return sections
 }
 
-// 5. 生成 content.js
-const noteFiles = findNotes(VAULT_DIR)
-const notes = []
+// 5. 双语笔记目录映射：中文目录 → 英文目录（相对于 vault/）
+const BILINGUAL_DIRS = {
+  'Cooking/docs-zh': 'Cooking/noma-fermentation-fixed'
+}
 
-for (const file of noteFiles) {
+// 将相对路径转换为匹配键（用于查找对应的英文文件）
+function getMatchKey(relativePath) {
+  // 去掉目录前缀，只保留子目录 + 文件名
+  for (const [zhDir, enDir] of Object.entries(BILINGUAL_DIRS)) {
+    if (relativePath.startsWith(zhDir + path.sep)) {
+      return relativePath.slice(zhDir.length + 1) // +1 for path.sep
+    }
+    if (relativePath.startsWith(enDir + path.sep)) {
+      return relativePath.slice(enDir.length + 1)
+    }
+  }
+  return null
+}
+
+// 判断文件是否属于中文目录
+function isZhFile(relativePath) {
+  for (const zhDir of Object.keys(BILINGUAL_DIRS)) {
+    if (relativePath.startsWith(zhDir + path.sep)) return true
+  }
+  return false
+}
+
+// 判断文件是否属于英文目录
+function isEnFile(relativePath) {
+  for (const enDir of Object.values(BILINGUAL_DIRS)) {
+    if (relativePath.startsWith(enDir + path.sep)) return true
+  }
+  return false
+}
+
+// 合并两份笔记的 sections，按索引对齐
+function mergeBilingualSections(zhSections, enSections) {
+  const merged = []
+  const maxLen = Math.max(zhSections.length, enSections.length)
+  for (let i = 0; i < maxLen; i++) {
+    const zhS = zhSections[i] || {}
+    const enS = enSections[i] || {}
+    const section = {}
+
+    // heading
+    if (zhS.heading || enS.heading) {
+      section.heading = { zh: zhS.heading || '', en: enS.heading || '' }
+    }
+
+    // paragraphs
+    const maxPara = Math.max((zhS.paragraphs || []).length, (enS.paragraphs || []).length)
+    if (maxPara > 0) {
+      section.paragraphs = []
+      for (let j = 0; j < maxPara; j++) {
+        const zhP = (zhS.paragraphs || [])[j] || ''
+        const enP = (enS.paragraphs || [])[j] || ''
+        section.paragraphs.push({ zh: zhP, en: enP })
+      }
+    }
+
+    // bullets
+    const maxBullets = Math.max((zhS.bullets || []).length, (enS.bullets || []).length)
+    if (maxBullets > 0) {
+      section.bullets = []
+      for (let j = 0; j < maxBullets; j++) {
+        const zhB = (zhS.bullets || [])[j] || ''
+        const enB = (enS.bullets || [])[j] || ''
+        section.bullets.push({ zh: zhB, en: enB })
+      }
+    }
+
+    // faqs
+    const maxFaqs = Math.max((zhS.faqs || []).length, (enS.faqs || []).length)
+    if (maxFaqs > 0) {
+      section.faqs = []
+      for (let j = 0; j < maxFaqs; j++) {
+        const zhF = (zhS.faqs || [])[j] || { question: '', answer: [], links: [] }
+        const enF = (enS.faqs || [])[j] || { question: '', answer: [], links: [] }
+        const maxAns = Math.max((zhF.answer || []).length, (enF.answer || []).length)
+        const mergedAns = []
+        for (let k = 0; k < maxAns; k++) {
+          mergedAns.push({
+            zh: (zhF.answer || [])[k] || '',
+            en: (enF.answer || [])[k] || ''
+          })
+        }
+        section.faqs.push({
+          question: { zh: zhF.question || '', en: enF.question || '' },
+          answer: mergedAns,
+          links: zhF.links || enF.links || []
+        })
+      }
+    }
+
+    // emphasisCards
+    const maxCards = Math.max((zhS.emphasisCards || []).length, (enS.emphasisCards || []).length)
+    if (maxCards > 0) {
+      section.emphasisCards = []
+      for (let j = 0; j < maxCards; j++) {
+        const zhC = (zhS.emphasisCards || [])[j] || { title: '', body: '' }
+        const enC = (enS.emphasisCards || [])[j] || { title: '', body: '' }
+        section.emphasisCards.push({
+          title: { zh: zhC.title || '', en: enC.title || '' },
+          body: { zh: zhC.body || '', en: enC.body || '' }
+        })
+      }
+    }
+
+    // visuals / JSON data 保留中文版本（通常数据是一样的）
+    for (const key of Object.keys(zhS)) {
+      if (!['heading', 'paragraphs', 'bullets', 'faqs', 'emphasisCards'].includes(key)) {
+        section[key] = zhS[key]
+      }
+    }
+
+    merged.push(section)
+  }
+  return merged
+}
+
+// 构建单个笔记对象
+function buildNote(file, sections, isBilingual = false) {
   const text = fs.readFileSync(file, 'utf-8')
   const { data, body } = parseFrontmatter(text)
-  const sections = parseBody(body)
 
-  // 根据文件路径推断 categoryId 和 chapterId（备份，当 frontmatter 缺失时使用）
   const relativePath = path.relative(VAULT_DIR, file)
   const pathParts = relativePath.split(path.sep)
   const inferredCategory = pathParts[0].toLowerCase().replace(/\s+/g, '-')
@@ -230,7 +345,6 @@ for (const file of noteFiles) {
     ? pathParts[1].replace(/-/g, '_')
     : null
 
-  // 推断 title：frontmatter > body 第一个 h1 > 第一个 section heading > 格式化文件名
   let inferredTitle = data.title || ''
   if (!inferredTitle) {
     const h1Match = body.match(/^#\s+(.+)$/m)
@@ -246,8 +360,7 @@ for (const file of noteFiles) {
     }
   }
 
-  // 构建 note 对象
-  const note = {
+  return {
     id: data.id || path.basename(file, '.md'),
     categoryId: data.category || inferredCategory || '',
     chapterId: data.chapter || inferredChapter || null,
@@ -262,8 +375,72 @@ for (const file of noteFiles) {
     tags: data.tags || [],
     sections,
   }
+}
 
+// 6. 生成 content.js
+const allFiles = findNotes(VAULT_DIR)
+const notes = []
+
+// 收集双语文件对
+const enFileMap = new Map() // matchKey → enFilePath
+const zhFiles = []
+const otherFiles = []
+
+for (const file of allFiles) {
+  const rel = path.relative(VAULT_DIR, file)
+  if (isZhFile(rel)) {
+    zhFiles.push(file)
+  } else if (isEnFile(rel)) {
+    const key = getMatchKey(rel)
+    if (key) enFileMap.set(key, file)
+  } else {
+    otherFiles.push(file)
+  }
+}
+
+// 处理双语对：以中文为主，合并英文
+for (const zhFile of zhFiles) {
+  const zhRel = path.relative(VAULT_DIR, zhFile)
+  const matchKey = getMatchKey(zhRel)
+  const enFile = matchKey ? enFileMap.get(matchKey) : null
+
+  const zhText = fs.readFileSync(zhFile, 'utf-8')
+  const { data: zhData, body: zhBody } = parseFrontmatter(zhText)
+  const zhSections = parseBody(zhBody)
+
+  let mergedSections = zhSections
+  let mergedTitle = null
+  let mergedSummary = null
+
+  if (enFile && fs.existsSync(enFile)) {
+    const enText = fs.readFileSync(enFile, 'utf-8')
+    const { data: enData, body: enBody } = parseFrontmatter(enText)
+    const enSections = parseBody(enBody)
+    mergedSections = mergeBilingualSections(zhSections, enSections)
+
+    // 合并标题和摘要
+    const zhH1 = zhBody.match(/^#\s+(.+)$/m)
+    const enH1 = enBody.match(/^#\s+(.+)$/m)
+    if (zhH1 || enH1) {
+      mergedTitle = { zh: (zhH1?.[1] || '').trim(), en: (enH1?.[1] || '').trim() }
+    }
+    if (zhData.summary || enData.summary) {
+      mergedSummary = { zh: zhData.summary || '', en: enData.summary || '' }
+    }
+  }
+
+  const note = buildNote(zhFile, mergedSections, !!enFile)
+  if (mergedTitle) note.title = mergedTitle
+  if (mergedSummary) note.summary = mergedSummary
   notes.push(note)
+}
+
+// 处理非双语文件
+for (const file of otherFiles) {
+  const text = fs.readFileSync(file, 'utf-8')
+  const { data, body } = parseFrontmatter(text)
+  const sections = parseBody(body)
+  notes.push(buildNote(file, sections))
 }
 
 // 排序：按 id 字母顺序

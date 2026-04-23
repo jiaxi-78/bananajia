@@ -46,10 +46,11 @@ function parseInlineMarkdown(text) {
   return parts.length === 0 ? text : parts
 }
 
-const notes = flattenBilingual(rawNotes)
-const site = flattenBilingual(rawSite)
-const categories = flattenBilingual(rawCategories)
-const chapters = flattenBilingual(rawChapters)
+// 使用原始数据（不在模块级别展平）
+const notes = rawNotes
+const site = rawSite
+const categories = rawCategories
+const chapters = rawChapters
 
 const noteNumbers = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
 

@@ -1,0 +1,3 @@
+## Aspergillus oryzae
+
+Perhaps the most important microbe in this book,A. oryzae(pronounced oh-RAI-zee) is the sporulating mold also known as koji. It’s been bred for hundreds of years to grow extremely quickly in hot and humid environments when given access to the plentiful starches in products like cooked rice or barley. (Generally speaking, 30°C/86°F and 70% to 80% humidity are ideal forAspergillus; temperatures above 42°C/108°F will kill it.) Koji secretes the enzymes protease, amylase, and a small amount of lipase, which break down proteins, starches, and fats, respectively. We harness these enzymes in the production of our misos, shoyus, and garums.

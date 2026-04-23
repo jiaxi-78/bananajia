@@ -1,0 +1,3 @@
+## Escherichia coli
+
+Many strains ofE. coliare actually harmless and part of a normal gut flora, but some varieties can cause severe food poisoning. These bacteria are usually transmitted through poor hygiene or contaminated meat products. Cross-contamination of work surfaces and utensils is one of the more common causes ofE. coli–related illness.Proper and thorough washing of vegetables in cold water will greatly reduce populations of the pathogen, should they be present. For products like beef garum, salt concentrations of 10 percent or higher will kill off the microbes. On top of that, the high temperatures at which garum ferments offer an added layer of protection.

@@ -1,0 +1,21 @@
+# The Angel’s Share
+
+Unlike similar fermentations such as kombucha, vinegar can receive extensive upgrades to its taste and texture through aging. Because AAB stop producing acid once all the available alcohol has been consumed, vinegar can sit for decades without growing more sour. Aging vinegar can instill layers of flavor by way of the aging vessel, and via evaporation and slow Maillard reactions that occur over the course of months and years. (See “Really Slow Cooking,” for more about Maillard reactions.)
+
+The most famous aged vinegar is balsamic vinegar. It accounts for around 35 percent of all vinegar sold around the world. But unless you’re very wealthy and very discerning, most of the balsamic you’ve consumed in your life probably wasn’t true balsamic vinegar but instead the unaged Aceto Balsamico di Modena, a mixture of red wine vinegar, cooked grape must, and caramel. As far as shortcuts go, this is a perfect example of the trade-offs of doing things the easy way. While this cheaper version hits some of the notes of traditionally aged balsamic, much of its distinctive character is absent: viscosity, complex umami, and the essence of wooden barrels. Barrel-aging in wood infuses notes of caramel, vanilla, smoke, leather, and other distinct tones, depending on the variety of wood.
+
+*Aging vinegar in a barrel slowly reduces its volume over time through evaporation, and intensifies flavors while also imparting new ones.*
+
+The traditional method for crafting balsamic vinegar takes place in both Modena and Reggio Emilia, neighboring cities in northern Italy. It requires five to nine wooden barrels made from different woods—mulberry, oak, juniper, cherry, ash, and acacia, to name a few—each built to different capacities. The barrels descend in size from 66 liters to 15 liters. At the outset, grape must that has been cooked down to caramelize and concentrate the sugars is fermented into a sweet wine by a plethora of different yeasts. From there, it’s acidified into vinegar by AAB endemic to the environment. The largest barrels are filled with the vinegar, which is aged for a minimum of one year before being transferred to the next smallest barrel. Since wood is quasi-porous, water and some of the acetic acid are able to evaporate through the barrel, while larger aromatic compounds are not, leading to a milder, more concentrated flavor. The portion that disappears over time is known as the “angel’s share” (a term also used in whiskey making), but the heavenly stuff is actually what gets left behind.
+
+Only enough vinegar to fill the next smallest barrel is transferred. What was removed from the large barrel is replaced with freshly acidified grape must. The vinegar continues to proceed down the line to successively smaller barrels, and each barrel is topped up with liquid from the next larger barrel. For a traditional balsamic to be labeled DOP (Denomination of Origin of Production, a protected designation enforced by the European Union), the vinegar must be aged for at least twelve years. At the end of twelve years, a small portion of finished balsamic vinegar is drawn from the smallest barrel and finds its way to discriminating customers.
+
+Balsamic vinegar production is laborious, to say the least. But in as little as three months, you’ll see marked improvement after aging any vinegar in wooden barrels. Starting with a vinegar that already approximates the rich caramel flavors of balsamic is a good way of making up the time difference. We’ve had great success at Noma aging black garlic vinegar in wood. You can also get creative by infusing dried figs or plums into your favorite vinegar for a month before straining it and transferring it to a small barrel to age slowly.
+
+Here in Denmark, we have few grapevines but plenty of elderberry trees, so when we set out to harness the qualities of a proper balsamic vinegar, we did so with what we had on hand. Read our recipe forElderberry Wine Balsamicfor a look at an ongoing long-term project at Noma and an idea of how we try to learn from and adapt the traditions of faraway places.
+
+*Making perry vinegar begins with fermenting pureed pears into alcoholic perry.*
+
+<!-- text/part0008_split_006.html -->
+
+html

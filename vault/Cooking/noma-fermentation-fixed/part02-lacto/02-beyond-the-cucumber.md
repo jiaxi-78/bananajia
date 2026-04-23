@@ -1,0 +1,17 @@
+# Beyond the Cucumber
+
+The most common lacto-fermented vegetable in the Western world is the standard-issue sour cucumber pickle, which is lacto-fermented in brine. At Noma we look further afield for vegetables to lacto-ferment, but we always keep in mind the characteristics that make a basic dill pickle so enjoyable to eat. We look for things that are (1) tasty when raw and (2) juicy but not mushy. The latter trait is important because so much of a pickle’s appeal is its crunch. (As any Scandinavian will tell you, slices of cured fish garnished with bits of pickled vegetables are one of life’s great textural partnerships.) We’ve had amazing success making lacto-fermented pickles from white asparagus, small pumpkins, beets, and cabbage stems. Leafy greens like watercress and ramsons have been . . . less rewarding.
+
+Of course, vegetable pickles are only one direction in which you can go. Once you understand that anything with sugar can be lacto-fermented, it opens up a world of potential. It’s an absurdly basic realization, but once it occurs to you, you can’t stop thinking,What else can I give the lacto treatment?
+
+Every September at the restaurant, at the end of the berry season, we lacto-ferment blueberries, raspberries, mulberries, blackberries, white currants, and pretty much any other soft fruit we can get our hands on. Even though it lacks the crunch of a fermented root vegetable, the finished puree-like mash is a prize in itself—both sweet and savory, with multiple layers of sourness.
+
+*Lacto-fermented berries are powerhouses of flavor.*
+
+As LAB ferment sugar, the resultant lactic acid mingles with the acids already present in the fruit. Citric acid—most commonly associated with citrus fruits but also found in many other fruits and berries—can be quite tart and almost give off a burning sensation. Malic acid, found in grapes and apples (think of the tartness of a Granny Smith), is much rounder and mouthwatering. Ascorbic acid is sharp and direct, and can be found in all kinds of tropical fruits, from bananas to guava. The interplay of different acids is one of the most interesting and beautiful facets of fermented fruits.
+
+Because the berries usually lose their shape and texture when lacto-fermented, we often use a juice press to harvest the juices. Fermented berry juice is incredible—it has body and effervescence, saltiness, sweetness, and acidity. Mix fermented raspberry juice with a spicy olive oil, add a few grinds of floral spice—maybe long or pink peppercorns—and spoon the resulting vinaigrette over thick slices of ripe beefsteak tomatoes. Sprinkle it with sea salt, sugar, and a few torn leaves of marjoram, and it’s the perfect distillation of late summer. And don’t throw away the berry pulp. It will bring nuance and brightness to a bowl of fresh berries, topped with freshly whipped cream.
+
+<!-- text/part0006_split_003.html -->
+
+html

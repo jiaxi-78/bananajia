@@ -1,0 +1,27 @@
+# Really Slow Cooking
+
+Black fruits and vegetables have been part of the Western cooking repertoire for only about two decades now. At Noma, we got our first taste of black garlic—the prototypical blackened vegetable—about fifteen years ago, but we’ve only recently begun to experiment with the process of blackening other fruits, vegetables, and nuts.
+
+To be clear, blackening is not fermentation. It is in large part an enzymatic process, and while all fermentation processes are enzymatic, not all enzymatic processes are fermentation processes. Still, we believe that blackening has a place in this book because it shares the same transformative magic as microbial fermentation, and because the products it creates have a similar place in our pantry.
+
+The actual process of blackening is a sight to behold. Vegeta-bles slowly morph into ripe fruits, as sharp flavors mellow and hard textures end up putty-like and malleable. Take black garlic, for instance. As with so many ferments, there’s a wide range of quality in black garlics—some varieties can taste too raw and are not particularly enjoyable—but at its best, it’s like the perfect grown-up candy, sweet and leathery and full of complexity.
+
+To make black garlic, all you have to do is place a head of garlic in a sealed container and keep it at a constant temperature of 60°C/140°F for 6 to 8 weeks. That’s the whole procedure—at least at the broadest level.
+
+Temperature is the reason why blackening is not a fermentative process. The fungi and bacteria that we harness for fermentation can’t survive at 60°C/140°F, so in the absence of microbial activity, we’re left with only chemical processes.
+
+Perhaps the easiest way to describe blackening is as very slow, very dark browning. Many readers of this book may be familiar with the Maillard reaction—the phenomenon responsible for crusty steaks, browned onions, toast, coffee, and innumerable other pillars of cuisine. The Maillard reaction is one of several forms of browning at work in black fruits and vegetables. There’s also caramelization, which is the pyrolysis of sugar. As heat is applied to organic compounds in the absence of oxygen, they thermally decompose. That’s pyrolysis. Caramelization produces a flight of volatile flavors and aromas, as well as the lovely range of colors we tend to associate with delicious things.
+
+*Temperature is an average of the kinetic energy of countless molecules moving at different speeds.*
+
+We’re accustomed to the Maillard reaction, pyrolysis, and caramelization taking place over a short time at high heat—usually 170°C/340°F or higher. But high heat is not explicitly necessary for any of these reactions to take place, if you’re patient. The point of blackening is to stretch out the process over weeks. This is possible because the temperature of an object is actually the average ofbillions of billionsof molecules moving around at different speeds. In a clove of garlic held at 60°C/140°F, 99.9999 percent of the molecules might very well be moving too slowly to inspire a pyrolytic or Maillard reaction. But occasionally, one molecule out of a billion might be moving fast enough to spark one of these energetic chemical reactions. From there, these isolated, sparse reactions cascade.
+
+As pyrolysis breaks down larger sugars into smaller parts, it liberates more molecules, which are then available to take part in further reactions. Over the course of weeks, the products of these rare and irreversible chemical reactions accumulate, producing the dark sweetness we associate with black garlic. In fact, left long at this temperature, the garlic will eventually burn.
+
+Pyrolysis, caramelization, and the Maillard reaction are non-enzymatic browning reactions. Enzymatic browning, on the other hand, is what happens to fruits and vegetables as they ripen and age over time. The enzyme polyphenol oxidase is important to a plant’s health as it grows, but once a fruit’s or vegetable’s flesh is exposed to oxygen, the enzyme begins altering phenolic compounds in the plant’s tissue and producing melanins, which are responsible for fruit turning brown. (Phenols are a large group of compounds, some of which give the flesh and fruit skins of many plants their color, and some play a big role in their flavor and aroma as well.) In a healthy plant, the creation of melanins at the site of a bruise or trauma helps to ward off infection, as melanins have antibacterial properties. In the blackening process, they serve to further darken the fruit or vegetable.
+
+When you blacken fruit, both enzymatic and non-enzymatic reactions are taking place. It’s unclear who first fused these various processes to blacken food, though most signs point to the storied fermenting culture of Korea, where centuries ago people were aging whole heads of garlic in earthenware pots during the hot summer months. As for the modern history of black fruits and vegetables, we again look to Korea, in the year 2004. The contemporary popularization of black garlic is credited to a man named Scott Kim, who devised a simple method for making black garlic using heat- and humidity-controlled aging chambers. We use the exact same methods at Noma to maintain an environment that leads to a cascade of slow chemical reactions, completely transforming ordinary ingredients over the course of weeks or months.
+
+<!-- text/part0013_split_002.html -->
+
+html

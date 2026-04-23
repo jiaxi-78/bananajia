@@ -409,11 +409,36 @@ export const notes = [
   },
   {
     id: '_sidebar',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: ' sidebar',
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '_sidebar',
     categoryId: 'system-design',
     chapterId: '_sidebar.md',
     course: '',
     date: '',
     title: ' sidebar',
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '01-a-historic-brew-reimagined',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '重新构思的历史酿造',
+      en: 'A Historic Brew Reimagined'
+    },
     summary: '',
     tags: [],
     sections: []
@@ -538,6 +563,20 @@ export const notes = [
     ]
   },
   {
+    id: '01-broadening-our-horizons',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '拓宽我们的视野',
+      en: 'Broadening Our Horizons'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '01-chat-scope-protocols',
     categoryId: 'system-design',
     chapterId: 'part12_chat_system',
@@ -653,6 +692,17 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '01-content',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: 'content',
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '01-crawler-scope',
@@ -890,6 +940,20 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '01-got-to-have-the-funk',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '必须放克',
+      en: 'Got to Have the Funk'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '01-interview-mindset-and-scope',
@@ -1481,6 +1545,20 @@ export const notes = [
     ]
   },
   {
+    id: '01-really-slow-cooking',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '烹饪速度真的很慢',
+      en: 'Really Slow Cooking'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '01-rehashing-problem',
     categoryId: 'system-design',
     chapterId: 'part05_consistent_hashing',
@@ -1598,6 +1676,169 @@ export const notes = [
         faqs: [],
         bullets: [],
         emphasisCards: []
+      }
+    ]
+  },
+  {
+    id: '01-rené-redzepi',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<术语1>',
+      en: 'René Redzepi'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<术语1>',
+          en: 'René Redzepi'
+        },
+        paragraphs: [
+          {
+            zh: '我们的发酵故事是一个充满意外的故事。',
+            en: 'Our story with fermentation is a story of accidents.'
+          },
+          {
+            zh: '在Noma的最初几年，我们一直在寻找食材，希望在我们的食品储藏室里储备一些能让我们的烹饪在一年中寒冷的月份里保持有趣的东西。',
+            en: 'In the very early years of Noma, we were caught up in a search for ingredients, looking to stock our larder with things that could keep our cooking interesting through the colder months of the year.'
+          },
+          {
+            zh: '我记得初夏的一天，我们的长期采摘者罗兰·里特曼（Roland Rittman）带着一把奇怪的小花蕾走进门，花蕾是圆形的，但也有三角形的，完美多汁，有一种像坡道一样的味道——确切地说，不是大蒜味，但具有相同的冲击力和深度。我们从来没有尝过这样的东西。罗兰提到，这些拉姆森“浆果”曾经在北欧美食中很常见，人们会保存它们以供整个冬天使用。',
+            en: 'I remember one day in the early summer when our longtime forager, Roland Rittman, walked through the door with a handful of odd little flower buds, round but also somehow triangular, perfectly juicy, with a flavor like ramps—not garlicky, exactly, but with that same punch and depth. We’d never tasted anything like it. Roland mentioned that these ramson “berries” used to be quite common in Nordic cuisine, and that people would preserve them for use through the winter.'
+          },
+          {
+            zh: '所以我们开始制作我们自己的像刺山柑一样的泡菜拉姆森芽。如果你问我们，当这些大蒜味的小球体放在装满盐的罐子里时，我们认为它们发生了什么，我们会把它描述为“固化”或“成熟”。如果你提到乳酸发酵的概念，我们一定会歪着头疑惑地看着你。',
+            en: 'And so we set out to make our own caper-like pickle of ramson buds. If you’d asked us what we thought was happening to the tiny garlicky orbs as they sat in a jar packed with salt, we would have described it as “curing” or “maturing.” If you’d mentioned the concept of lactic acid fermentation, we would have cocked our heads and looked at you quizzically.'
+          },
+          {
+            zh: '拉姆森刺山柑是一个启示。突然之间，我们有了这种可以随意使用的原料，它可以给任何菜肴带来一点点酸味、咸味和辛辣味。而且我们不必从其他地方导入它。它生长在我们自己的后院，仅仅通过加盐就变得更加丰富。',
+            en: 'The ramson capers were a revelation. Suddenly we had this ingredient at our disposal that could bring little bursts of acidity and saltiness and pungency to any dish. And we didn’t have to import it from somewhere else. It had grown in our own backyard and become something more, merely through the addition of salt.'
+          },
+          {
+            zh: '一次意外的成功引发了另一次意外的成功。',
+            en: 'One accidental success led to another.'
+          },
+          {
+            zh: '我不记得给醋栗加盐是谁的主意，但那是在 2008 年左右，所以一定是 Torsten Vildgaard 或 Søren Westh。他们在停泊在餐厅前面的船上摆弄着各种各样的东西。',
+            en: 'I can’t remember whose idea it was to salt gooseberries, but it was around 2008, so it must have been Torsten Vildgaard or Søren Westh. They were messing around with all kinds of things on the boat that was anchored in front of the restaurant.'
+          },
+          {
+            zh: '这艘船不比一艘渔船大，你可以在海上航行一天，船上装有我们称之为Nordic Food Lab的东西。其目的是调查我们地区的食物可以做什么，并与任何感兴趣的人自由分享这些知识。这是一个进行长期调查的地方，而不是一个修补下周菜肴的测试厨房。我们的一位厨师 Ben Reade 曾经睡在那艘船上的发酵物中——这就是我们在实验室工作的性格。',
+            en: 'No larger than a fishing vessel you might take out for a day on the ocean, the boat housed something we called the Nordic Food Lab. Its purpose was to investigate what could be done with the food in our region and share that knowledge freely with anyone interested. It was a place for long-term investigation, rather than a test kitchen for tinkering with next week’s dishes. One of our chefs, Ben Reade, used to sleep among the ferments on that boat—that’s the sort of character we had working in the lab.'
+          },
+          {
+            zh: '有一天，托斯顿把一把勺子放在我面前，里面放着一片醋栗，这片醋栗已经被盐腌、真空袋装、发酵了，然后被遗忘了一年。我尝了一口，完全震惊了。我知道这听起来可能有些夸张——毕竟，我们谈论的是一勺腌制浆果。但你必须试着把自己置于我的思维框架中：你在斯堪的纳维亚半岛长大，一生都在吃醋栗，现在这件事就在你面前。它尝起来很熟悉，但也不像你以前吃过的东西，就像一件舒适的旧毛衣，在原来的面料上编织了明亮的新颜色。',
+            en: 'One day, Torsten put a spoon in front of me with a slice of gooseberry that had been salted, vacuum-bagged, and fermented, then forgotten for a year. I tasted it and I was completely shocked. I know that probably sounds like an exaggeration—after all, we’re talking about a spoonful of pickled berry. But you have to try to put yourself in my frame of mind: You’ve grown up in Scandinavia eating gooseberries your whole life, and now there’s this thing in front of you. It tastes familiar but also like nothing you’ve ever had before, like an old comfortable sweater with bright new colors woven through the original fabric.'
+          },
+          {
+            zh: '今天，当我品尝腌醋栗时，我认识到lacto发酵的明显效果，但那第一次确实改变了我和Noma的一切。这是我们以高度的专注和热情研究发酵的十年的开始。',
+            en: 'Today when I taste a pickled gooseberry, I recognize the unmistakable effect of lacto-fermentation, but that first time really changed everything for me and Noma. It was the beginning of a decade in which we would study fermentation with intense focus and enthusiasm.'
+          },
+          {
+            zh: '*Garlic Flower, Noma Japan, 2015*',
+            en: '*Garlic Flower, Noma Japan, 2015*'
+          },
+          {
+            zh: '*The origami-like petals are a puree of black garlic cloves that have been passed through a tamis and dried to the texture of a fruit leather before being folded and dressed with a paste of ants and rose oil.*',
+            en: '*The origami-like petals are a puree of black garlic cloves that have been passed through a tamis and dried to the texture of a fruit leather before being folded and dressed with a paste of ants and rose oil.*'
+          },
+          {
+            zh: '我忘记了很多细节。我很遗憾没有在早期多做笔记。每周都会有某种启示，都是通过相同的基本思路得出的：我们需要更多的东西来做饭。我们有这些时令食材。我们可以做些什么来让他们变得更好？我们该怎么做才能让它们持久？起初，我们不知道发酵是如何进行的，也不知道发酵的时间。但年复一年，随着更多的想法被提出，更多聪明的人进入我们的轨道，我们学会了如何谈论我们正在做的事情，并开始看到我们所属的更大传统。',
+            en: 'I’ve forgotten so many details. I regret not taking more notes in those early days. Every week held a revelation of some sort, reached by the same basic train of thought:We need more things to cook with. We have these seasonal ingredients. What can we do to make them better? What can we do to make them last?At first, we had no idea how fermentation worked or when we were doing it. But year by year, as more ideas worked out and more smart people came into our orbit, we learned how to talk about what we were doing, and began to see the larger tradition we were part of.'
+          },
+          {
+            zh: '2011 年，我们决定举办首届 MAD 研讨会（madis 是丹麦语“食物”的意思），数百名对食品世界变得更加美好有着既得利益的人士齐聚一堂：来自餐饮业的人们，还有科学家、农民、哲学家和艺术家。我们选择了主题“种植想法”，并开始考虑可以带来有关植物王国的不同想法的潜在演讲者。',
+            en: 'In 2011, we decided to hold our first MAD Symposium (madis the Danish word for “food”), a gathering of a few hundred people with a vested interest in seeing the food world get better: people from the restaurant trade, along with scientists, farmers, philosophers, and artists. We chose the theme “Planting Thoughts,” and we began thinking of potential speakers who could bring diverse thoughts about the plant kingdom.'
+          },
+          {
+            zh: '老实说：一提到泡菜，我立刻就想到了张大卫。他可能不记得提供过这道菜，但我记得在 Momofuku Ssäm Bar 吃过一份浇上泡菜水的牡蛎，我觉得这绝对令人难以置信。他和他的团队与我们的团队并行，学习发酵方法并利用古老的技术开发新产品。我请他来 MAD 演讲有关发酵的话题。在舞台上，他向烹饪界介绍了微生物风土的概念。',
+            en: 'I’ll be honest with you: David Chang immediately came to mind because of kimchi. He may not remember serving it, but I remember having an oyster topped with kimchi water at Momofuku Ssäm Bar and finding it absolutely incredible. He and his team were working a parallel track to our own, learning their way around fermentation and developing new products using age-old techniques. I asked him to come speak at MAD about fermentation. While onstage, he introduced the culinary community to the concept ofmicrobial terroir.'
+          },
+          {
+            zh: '张指的是很大程度上看不见的、负责发酵的霉菌、酵母和细菌的世界。它们无处不在，超越了无数的文化和烹饪传统。张的意思是，任何特定地区的本土微生物总是对最终产品的味道有发言权，就像土壤、天气和地理影响葡萄酒一样。',
+            en: 'Chang was referring to the largely unseen world of mold, yeast, and bacteria responsible for fermentation. They are omnipresent, transcending countless cultures and culinary traditions. What Chang was saying was that the microbes indigenous to any given region will always have their say in the flavor of the final product, in the same way that soil, weather, and geography affect wine.'
+          },
+          {
+            zh: '当时，人们谈论Noma作为负责定义现代北欧美食的餐厅。从我们的角度来看，我们感到肩负着巨大的责任。如果我们用的是国外的技术，怎么能称得上是北欧菜呢？微生物风土的概念帮助我们改变了一切。发酵无国界。它是丹麦烹饪传统的一部分，就像在意大利、日本或中国一样。没有发酵，就没有泡菜，没有松软的酵母面包，没有帕尔马干酪，没有葡萄酒、啤酒或烈酒，没有泡菜，没有酱油。没有腌鲱鱼或黑麦面包。没有发酵，就没有Noma。',
+            en: 'At the time, people were talking about Noma as the restaurant responsible for defining modern Nordic cuisine. From our perspective, we felt saddled with a tremendous responsibility. How could we claim to be cooking Nordic food if we used techniques from abroad? The notion of microbial terroir helped change everything for us. Fermentation knows no borders. It’s as much a part of the cooking tradition in Denmark as it is in Italy or Japan or China. Without fermentation, there is no kimchi, no fluffy sourdough bread, no Parmigiano, no wine or beer or spirits, no pickles, no soy sauce. There is no pickled herring or rye bread. Without fermentation, there is no Noma.'
+          },
+          {
+            zh: '人们总是将我们的餐厅与野生食物和采集紧密联系在一起，但事实是，Noma 的核心支柱是发酵。这并不是说我们的食物特别怪异、咸味、酸味或人们与发酵相关的任何其他味道。不是那样的。尝试想象没有酒的法国菜，或者没有shoyu和miso的日本菜。当我们思考自己的食物时，这对我们来说也是一样的。我希望，即使您从未在 Noma 吃过东西，当您读完这本书并制作一些食谱时，您也会明白我的意思。发酵并不负责 Noma 的一种特定口味 - 它负责改善一切。',
+            en: 'People have always associated our restaurant closely with wild food and foraging, but the truth is that the defining pillar of Noma is fermentation. That’s not to say that our food is especially funky or salty or sour or any of the other tastes that people associate with fermentation. It’s not like that. Try to picture French cooking without wine, or Japanese cuisine without shoyu and miso. It’s the same for us when we think about our own food. My hope is that even if you’ve never eaten at Noma, by the time you’ve finished reading this book and made a few of the recipes, you’ll know what I mean. Fermentation isn’t responsible for one specific taste at Noma—it’s responsible for improving everything.'
+          },
+          {
+            zh: '正是考虑到这一点，2014 年，我邀请 Lars Williams 和 Arielle Johnson 建造一个致力于探索发酵的空间。 Lars 是我们任期最长的厨师之一，Arielle 于 2013 年完成风味化学博士学位后成为我们的常驻科学家。他们两人负责将我们的努力提升到一个新的水平，在Noma将发酵变成一种自己的追求——几乎完全独立于经营餐厅的日常活动。',
+            en: 'It was with that in mind that in 2014 I asked Lars Williams and Arielle Johnson to build a space dedicated to exploring fermentation. Lars was one of our longest-tenured chefs, and Arielle became our resident scientist in 2013 while finishing her PhD in flavor chemistry. The two of them were responsible for taking our efforts to the next level, turning fermentation into a pursuit of its own at Noma—almost completely separate from the day-to-day activities of running the restaurant.'
+          },
+          {
+            zh: 'El Bulli 的厨师们将他们工作中的实际创意部分与服务厨房分开，这给我带来了灵感。研究和开发不仅仅是在准备现场和烹饪服务之间进行的活动。有一个团队专门为他们服务。这改变了创意烹饪的游戏规则，这就是我们想要在 Noma 进行发酵时所做的事情。',
+            en: 'I was inspired by what the chefs at El Bulli had done in separating the actual creative part of their work from the service kitchen. Research and development weren’t just activities to be done in between preparing mise en place and cooking for service. There was a team dedicated to them. That changed the game for creative cooking, and that’s what we wanted to do for fermentation at Noma.'
+          },
+          {
+            zh: '在 Noma 的暑假期间，Lars 和 Arielle 开始计划他们理想的发酵实验室将包括哪些内容（当然，在合理的范围内）。在那之前，我们一直在尽可能地发酵——船上、邻近建筑物的椽子里、旧冰箱里、桌子下。',
+            en: 'During the summer break at Noma, Lars and Arielle began planning what their ideal fermentation lab would include (within reason, of course). Up until then, we’d been fermenting wherever we could—on the boat, in the rafters of adjacent buildings, in old refrigerators, under desks.'
+          },
+          {
+            zh: '一两周后他们回来表示，最便宜、最有效的方法是用集装箱运输。事情很快就解决了。有一天，三个巨大的集装箱被叉车和吊车运进来。该团队对内部进行了隔热处理，并安装了墙壁和门。拉尔斯去了宜家，买了第二便宜的厨房，并将其与我们过去十年积累的设备合并在一起。我们在六月或七月开始计划，到八月我们有了发酵实验室。',
+            en: 'They came back after a week or two and said the cheapest and most efficient way to do it would be in shipping containers. Things came together quickly. One day, three huge containers came in by forklift and crane. The team insulated the interiors and put up walls and doors. Lars went to Ikea, bought the second-cheapest kitchen, and merged it with equipment we’d amassed over the past decade. We started planning in June or July, and by August we had our fermentation lab.'
+          },
+          {
+            zh: '我提到这一切是因为我不想将发酵过度浪漫化。让一切都启动并运行起来可能会很痛苦。这是工作，但这是令人难以置信的令人满意的工作。等待某样东西发酵的感觉实际上是一种奇妙的感觉。这与现代精神完全背道而驰。',
+            en: 'I mention all this because I don’t want to over-romanticize fermentation. It can be a pain in the ass to get everything up and running. It’s work, but it’s incredibly gratifying work. It’s actually an amazing feeling to wait for something to ferment. It runs totally contrary to the spirit of the modern day.'
+          },
+          {
+            zh: '一旦你进行了第一次发酵，烹饪就会变得更加容易。我真的是这个意思。其中一些发酵物就像味精、柠檬汁、糖和盐的完美结合。它们可以淋在煮熟的蔬菜上、添加到汤中或混合到酱汁中。您可以将lacto发酵的李子涂抹在熟肉上，或者用汁液来调味生海鲜。将自制发酵物装入玻璃罐中，可成为独特而令人印象深刻的礼物。一旦您将这些成分融入您的烹饪中，您的饮食生活将不可逆转地变得更好。',
+            en: 'And once you have your first ferments, it makes cooking so much easier. I really mean that. Some of these ferments are like a perfect cross between MSG, lemon juice, sugar, and salt. They can be drizzled onto cooked greens, added to soups, or blended into sauces. You can smear lacto-fermented plums onto cooked meats, or use the juice to dress raw seafood. And homemade ferments, packed into glass jars, make for unique and impressive gifts. Once you integrate these ingredients into your cooking, your eating life is going to be irreversibly better.'
+          },
+          {
+            zh: '<学期2>在我们建立发酵实验室的同一年开始与我们合作。他从加拿大来到我们这里担任厨师，并开始在餐厅担任主厨。当 Lars 和 Arielle 于 2016 年离开Noma时，我有点心烦意乱，因为我们必须找人来接替他们在实验室的工作。但我们当时的主厨丹·朱斯蒂 (Dan Giusti) 表示，我们不必走得太远。我们任命大卫担任发酵实验室的负责人，这是一个完美的选择。他有着令人难以置信的敏捷思维和永不满足的好奇心。他了解发酵背后的科学原理，并将一线厨师的职业道德带入实践中。如果你问他一些他不知道答案的问题，请放心，下次你与他交谈时，他会完全了解这一点。他就像一台专门为我和我一起写这本书而设计的机器。',
+            en: 'David Zilber started working with us the same year we built the fermentation lab. He came to us as a cook from Canada, and started in the restaurant as a chef de partie. When Lars and Arielle were leaving Noma in 2016, I was a bit distraught that we’d have to find someone to take over their work in the lab. But our head chef at the time, Dan Giusti, said we wouldn’t have to look far. We installed David as the head of the fermentation lab, and it’s been a perfect fit. He has an incredibly quick mind and an insatiable curiosity. He understands the science underlying fermentation, and brings a line cook’s work ethic to its practice. If you ask him something he doesn’t know the answer to, rest assured he’ll be completely educated about it the next time you talk to him. He’s like a machine designed specifically to write this book with me.'
+          },
+          {
+            zh: '这本书的存在对我来说很重要。重要的是我们要记录人们在这里所做的出色工作。但最令我兴奋的是人们将这项工作应用于餐厅之外的前景。我们以前写过书，但没有一本书的主要目标是将我们在餐厅所做的事情转化为家庭厨房。想到世界各地的人们将能够了解我们在 Noma 的烹饪方式，真是令人兴奋。',
+            en: 'And it’s important to me that this book exist. It’s important that we document the good work that people have done here. But I’m most excited by the prospect of people taking that work and applying it outside the restaurant. We’ve written books before, but none where the main goal was to translate what we do in the restaurant to a home kitchen. It’s exhilarating to think that people all around the world will be able to get a sense for how we cook at Noma.'
+          },
+          {
+            zh: '这是我们过去十年一直在努力的唯一可能的下一步。餐馆影响了杂货店货架上的销售内容。他们振兴了像我们这样的地区的旅游业，人们以前从未想过来这里吃饭。下一阶段是更多的教育和更多的烹饪——人们将我们在顶级餐厅所做的事情与他们的日常生活联系起来。这就是我们如何创造一种全新的饮食文化。',
+            en: 'That’s the only possible next step for what we’ve been working on this past decade. Restaurants have influenced what’s sold on grocery store shelves. They’ve invigorated tourism in regions like ours, where people would never have thought to come eat before. The next phase is more education and more cooking—people connecting what we do at top-level restaurants with their everyday lives. That’s how we can create a completely new culture of eating.'
+          },
+          {
+            zh: '此时，发酵实验室的发现速度已经放缓。我们不断调整技术以适应不同的成分，有些发酵剂的探索仍少于其他发酵剂，但我们并没有以同样的速度偶然发现令人大开眼界的新产品。当您用斯堪的纳维亚半岛的各种海鲜制作了garum（您稍后会了解的古老鱼露）并且它们都很好时，就很难识别其中的细微差别。通过将这些知识公之于众，我们希望读者不仅能体验到与我们一样的发现乐趣，而且我们也能从中有所收获。我们希望这能够刺激现场。也许你们中的一个人会利用在这里学到的东西并想出一些全新的东西。如果我们幸运的话，这会回到Noma并为我们提供支持。',
+            en: 'At this point, the rate of discovery in the fermentation lab has slowed. We continue to adapt techniques to different ingredients, and some ferments remain less explored than others, but we’re not stumbling into eye-opening new products at the same pace. When you’ve made garums (ancient fish sauces you’ll learn all about later) from every type of seafood in Scandinavia, and they’ve all been good, it becomes difficult to identify the nuances. By putting this knowledge out there, we’re hoping that not only will readers experience the same joy of discovery as we have, but that we’ll get something out of it, too. We hope this will spur on the field. Perhaps one of you will take what you’ve learned here and come up with something completely new. If we’re lucky, that will come back to Noma and bolster us.'
+          },
+          {
+            zh: '我全心全意地相信发酵，不仅是释放风味的一种方式，也是制作美味食物的一种方式。人们争论发酵食品和活跃的肠道健康之间的相关性。但不可否认的是，我个人感觉富含发酵产品的饮食感觉更好。在我成长的过程中，在最好的餐馆吃饭意味着连续几天感到恶心和饱腹，因为据说所有美味的东西都必须是脂肪、咸和糖的。我梦想着未来的餐厅，你去那里不仅是为了注入新的口味和体验，而且是为了获得对你的身心真正积极的东西。',
+            en: 'I believe in fermentation wholeheartedly, not only as a way to unlock flavors, but also as a way of making food that feels good to eat. People argue over the correlation between fermented foods and an active gut health. But there’s no denying that I personally feel better eating a diet full of fermented products. When I was growing up, eating at the best restaurants meant feeling sick and full for days, because supposedly everything tasty had to be fatty, salty, and sugary. I dream about the restaurants of the future, where you go not just for an injection of new flavors and experiences, but for something that’s really positive for your mind and body.'
+          },
+          {
+            zh: '*Sea Snail Broth, Noma, 2018*',
+            en: '*Sea Snail Broth, Noma, 2018*'
+          },
+          {
+            zh: '*The broth is made by braising sea snails in an oil made from dried koji, then combining the cooking liquid with seaweed stock and more oil. It’s served in the shell, garnished with pickled herbs.*',
+            en: '*The broth is made by braising sea snails in an oil made from dried koji, then combining the cooking liquid with seaweed stock and more oil. It’s served in the shell, garnished with pickled herbs.*'
+          },
+          {
+            zh: '我希望这本书能够成为家庭厨师和餐厅厨师的起点。当我们想到我们的理想读者时，大卫和我同样谈论的是那些热衷于为家人做饭并且不介意周末项目的父母，以及能够读懂字里行间并提出新颖想法的专业厨师或副主厨。',
+            en: 'I hope this book can be a launching pad for home cooks and restaurant cooks alike. When we think of our ideal readers, David and I talk equally about the parent who’s passionate about cooking for his or her family and doesn’t mind a weekend project, as well as the professional cook or sous-chef who can read between the lines and pull out novel ideas.'
+          },
+          {
+            zh: '研究发酵的科学和历史，学习自己动手，根据当地食材进行调整，并用结果进行烹饪改变了Noma的一切。一旦您完成了同样的操作，并拥有了这些令人难以置信的产品（无论是lacto-发酵水果、大麦miso、koji，还是烤鸡翅garum），烹饪就会变得更加容易，同时您的食物也会变得更加复杂、细致和美味。',
+            en: 'Studying the science and history of fermentation, learning to do it ourselves, adapting it to local ingredients, and cooking with the results changed everything at Noma. Once you’ve done the same and have these incredible products at your disposal—whether it’s lacto-fermented fruit, barley miso, koji, or a roasted chicken wing garum—cooking gets easier while your food becomes more complex, nuanced, and delicious.'
+          },
+          {
+            zh: '<!-- text/part0004_split_001.html -->',
+            en: '<!-- text/part0004_split_001.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
       }
     ]
   },
@@ -2084,6 +2325,48 @@ export const notes = [
     ]
   },
   {
+    id: '01-the-magic-mold',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '神奇的模具',
+      en: 'The Magic Mold'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '01-the-worlds-most-popular-fermented-flavor',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '世界上最受欢迎的发酵风味',
+      en: 'The World’s Most Popular Fermented Flavor'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '01-turning-sweet-to-sour',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '变甜变酸',
+      en: 'Turning Sweet to Sour'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '01-units-and-latency-basics',
     categoryId: 'system-design',
     chapterId: 'part02_estimation',
@@ -2200,6 +2483,34 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '01-vinegar-improves-practically-anything',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '醋几乎可以改善一切',
+      en: 'Vinegar Improves Practically Anything'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '01-whatisfermentation',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '什么是发酵？',
+      en: 'WhatIsFermentation?'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '01-youtube-scope-cost',
@@ -2319,6 +2630,20 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '02-about-this-book',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '关于本书',
+      en: 'About This Book'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '02-architecture-storage-model',
@@ -2556,6 +2881,20 @@ export const notes = [
     ]
   },
   {
+    id: '02-beyond-the-cucumber',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '超越黄瓜',
+      en: 'Beyond the Cucumber'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '02-cap-and-tradeoffs',
     categoryId: 'system-design',
     chapterId: 'part06_key_value_store',
@@ -2684,6 +3023,20 @@ export const notes = [
     ]
   },
   {
+    id: '02-carthaginian-fish-sauce',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '迦太基鱼露',
+      en: 'Carthaginian Fish Sauce'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '02-compare-id-generation-options',
     categoryId: 'system-design',
     chapterId: 'part07_unique_id',
@@ -2807,6 +3160,20 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '02-cooperative-fermentation',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '协同发酵',
+      en: 'Cooperative Fermentation'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '02-crawler-pipeline',
@@ -3754,6 +4121,34 @@ export const notes = [
     ]
   },
   {
+    id: '02-how-shoyu-gets-made',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: 'Shoyu 是如何制作的',
+      en: 'How Shoyu Gets Made'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '02-oryzae-loves-grains',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '水稻喜欢谷物',
+      en: 'Oryzae Loves Grains'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '02-placement-and-api-gateway',
     categoryId: 'system-design',
     chapterId: 'part04_rate_limiter',
@@ -3997,6 +4392,20 @@ export const notes = [
     ]
   },
   {
+    id: '02-redox-redux',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '氧化还原还原',
+      en: 'Redox Redux'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '02-single-server-to-high-level',
     categoryId: 'system-design',
     chapterId: 'part15_google_drive',
@@ -4116,6 +4525,34 @@ export const notes = [
     ]
   },
   {
+    id: '02-soy-story',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '大豆故事',
+      en: 'Soy Story'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '02-the-acid-test-of-time',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '时间的严峻考验',
+      en: 'The Acid Test of Time'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '02-upload-streaming-high-level',
     categoryId: 'system-design',
     chapterId: 'part14_youtube',
@@ -4233,6 +4670,34 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '02-what-makes-fermentation-delicious',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '是什么让发酵变得美味？',
+      en: 'What Makes Fermentation Delicious?'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '03-beyond-rice',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '超越大米',
+      en: 'Beyond Rice'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '03-block-server-consistency',
@@ -4589,6 +5054,20 @@ export const notes = [
     ]
   },
   {
+    id: '03-fish-digesting-fish',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '鱼消化鱼',
+      en: 'Fish Digesting Fish'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '03-hash-function-and-base62',
     categoryId: 'system-design',
     chapterId: 'part08_url_shortener',
@@ -4710,6 +5189,20 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '03-historical-methods-and-hand-taste',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '历史方法和手工品味',
+      en: 'Historical Methods and Hand Taste'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '03-load-balancer-and-replication',
@@ -5076,6 +5569,20 @@ export const notes = [
     ]
   },
   {
+    id: '03-putting-lab-to-work',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '让<学期25>投入工作',
+      en: 'Putting LAB to Work'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '03-qps-and-storage-estimation',
     categoryId: 'system-design',
     chapterId: 'part02_estimation',
@@ -5311,6 +5818,20 @@ export const notes = [
     ]
   },
   {
+    id: '03-running-your-own-blackening-experiments',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '进行你自己的变黑实验',
+      en: 'Running Your Own Blackening Experiments'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '03-service-discovery-one-to-one-flow',
     categoryId: 'system-design',
     chapterId: 'part12_chat_system',
@@ -5426,6 +5947,34 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '03-setting-the-table-for-microbes',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '为微生物做好准备',
+      en: 'Setting the Table for Microbes'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '03-shoyu-then-and-now',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<第12学期>，过去和现在',
+      en: 'Shoyu, Then and Now'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '03-snowflake-deep-dive',
@@ -5548,6 +6097,34 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '03-the-quicker-quick-process',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '更快的流程',
+      en: 'The Quicker Quick Process'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '03-the-sweet-spot',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '最佳点',
+      en: 'The Sweet Spot'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '03-token-leaky-fixed-window',
@@ -6023,6 +6600,189 @@ export const notes = [
     ]
   },
   {
+    id: '04-black-garlic',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '黑蒜',
+      en: 'Black Garlic'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '黑蒜',
+          en: 'Black Garlic'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 10 heads**',
+            en: '**Makes 10 heads**'
+          },
+          {
+            zh: '黑蒜是这本书中最简单的食谱之一。该过程会自行运行，虽然在进行过程中检查进度是件好事，但要做的事情（如果有的话）并不多。您面临的最大挑战将是找到或创建一个能够在数周内保持 60°C/140°F 稳定温度的发酵室，这是激发所有氧化还原、Maillard、酶促褐变、热解以及将水果和蔬菜变成美味黑色所需的其他反应的唯一方法。',
+            en: 'Black garlic is one of the easiest recipes in this book. The process runs itself, and while it’s good to check on the progress as you go, there isn’t much, if any, tending to be done. Your biggest challenge will be finding or creating a fermentation chamber that can hold a steady temperature of 60°C/140°F for weeks—that’s the only way to spur all the redox, Maillard, enzymatic browning, pyrolytic, and other reactions you need to turn fruit and vegetables deliciously black.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '**10 heads very fresh garlic**',
+            en: '**10 heads very fresh garlic**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '缓慢而持续的加热是使大蒜变黑的关键。在餐厅里，保温柜非常适合这样做。自制的发酵室（参见“建造发酵室”以及<术语6>章节中的说明）也可以很好地发挥作用。然而，最简单的解决方案是电饭锅或慢炖锅。 “保温”设置徘徊在 60°C/140°F 附近。它们不是 100% 准确，但应该足以用于小批量黑化。然而，并非所有电饭锅都会无限期地保持开启状态。在开始食谱之前，请确保您的炊具没有自动关闭功能。',
+                en: 'Slow, consistent heat is the key to blackening garlic. In a restaurant, a warming cabinet is great for this. A homemade fermentation chamber (see “Building a Fermentation Chamber,” as well as the instructions in theKojichapter) will work well, too. The simplest solution, however, is an electric rice cooker or a slow cooker. The “keep warm” setting hovers right in the neighborhood of 60°C/140°F. They’re not 100 percent accurate, but they should be adequate for small-batch blackening. However, not all electric cookers will stay on indefinitely. Make sure your cooker doesn’t have an auto-off feature before jumping into the recipe.'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '设置发酵室，发酵室需要保持 60°C/140°F 的稳定温度数周。如果使用电饭锅，请注意许多炊具中的加热元件会直接接触金属烹饪碗，这可能会导致大蒜烧焦，因此在碗中放置一个小金属架、盘子或竹垫作为缓冲。',
+                en: 'Set up your fermentation chamber, which will need to maintain a steady temperature of 60°C/140°F for several weeks. If using an electric cooker, be aware that the heating elements in many cookers come into direct contact with the metal cooking bowl, which can cause the garlic to scorch, so place a small wire rack, plate, or bamboo mat in the bowl to act as a buffer.'
+              },
+              {
+                zh: '使用新鲜收获的夏季大蒜，它在变黑过程中具有大量的水分，并且不会有硫磺味。远离已经开始发芽并出现绿芽的大蒜，但也要确保丁香已完全发育，因为新大蒜的皮可能太纸质。避免使用来自中国的工业生产的白蒜，这种大蒜味道辛辣，带有硫磺味，甜味很少。大象大蒜也太温和，无法很好地进行此过程。',
+                en: 'Use freshly harvested summer garlic, which will have a good amount of moisture for the blackening process and won’t have a sulfurous flavor. Stay away from garlic that has begun to sprout and display green shoots, but also be sure the cloves have fully developed, because the skin on very new garlic can be too papery. Avoid industrially produced white garlic from China, which can be acrid and sulfurous with very little sweetness. Elephant garlic is too mild to do well with this process either.'
+              },
+              {
+                zh: '剥掉沾满灰尘的大蒜皮，检查大蒜头，确保各层之间没有霉菌；如果有的话，剥掉更多的皮肤并擦掉。现在，您需要包裹大蒜以保持其水分。工业制造商使用密封的房间来调节湿度。在小规模上，只需将头部用两张大箔纸双层包裹就可以了——确保头部位于单层中。 （如果您要在发酵室中使大蒜变黑，就像<术语5>中建议的那样，但随着温度的升高，请将铝箔包裹的大蒜头放入较大的密封容器中，例如大的拉链袋或塑料按扣盖容器。）或者，您可以将大蒜头密封在真空袋中，并用密封器以50％的吸力密封（以免袋子被大蒜茎刺穿）或使用两个重型顶部有拉链的塑料袋，尽可能多地挤出空气。',
+                en: 'Peel off any dusty garlic skins and inspect the heads to make sure there is no mold hiding between the layers; if there is, peel away more skin and wipe it off. You’ll now need to wrap the garlic to keep its moisture in. Industrial manufacturers use hermetically sealed rooms where the humidity is regulated. On a small scale, simply double-wrapping the heads in two large sheets of foil will be fine—be sure the heads sit in a single layer. (If you’re blackening your garlic in a fermentation chamber, like the ones suggested for koji but with the heat cranked way up, place the foil-wrapped heads of garlic in a larger airtight container, such as a large zip-top bag or a plastic snap-lid container.) Alternatively, you could seal the heads in a vacuum bag with the sealer at 50% suction (lest the bag get punctured by the garlic stems) or use two heavy-duty zip-top plastic bags with as much air squeezed out as possible.'
+              },
+              {
+                zh: '将包好的大蒜放入发酵室并关闭，或放入炊具中并密封盖子。如果盖子有一个带闩锁的橡胶密封件，那就太好了，因为它可以很好地保持水分。如果没有，请尽力以其他方式密封。虽然不太漂亮，但用保鲜膜包裹炊具顶部就可以了。打开炊具“保温”，然后就可以走了。',
+                en: 'Place the wrapped garlic in the fermentation chamber and close it, or place in the cooker and seal the lid. If the lid has a rubber seal with a latch, that’s fantastic, as it will retain moisture well. If not, do your best to seal it some other way. While not exactly pretty, wrapping the top of the cooker in plastic wrap does the trick. Turn the cooker on to “keep warm,” and away you go.'
+              },
+              {
+                zh: '一周后检查大蒜以评估其进展情况。果皮的外部应该开始变成棕褐色，并且看起来潮湿，因为它们吸收了里面丁香的水分。如果一切顺利并且大蒜没有变得太干，请继续。不幸的是，如果它们的底部开始烧焦或燃烧，或者变得非常干燥，您将需要重新开始。',
+                en: 'Check the garlic after a week to assess its progress. The outside of the skins should be starting to turn tan and look damp as they absorb moisture from the cloves within. If all’s well and the garlic hasn’t become overly dry, continue. If they’ve started to scorch or burn on the bottom, or if they’ve become extremely dry, unfortunately, you’ll need to start again.'
+              },
+              {
+                zh: '风味完全形成的总时间为 6 至 8 周。准备好后，丁香应该是黑色的，稍微收缩，远离皮肤，摸起来有粘性，很容易被拇指和食指压扁。味道应该是甜的、泥土的、略带果味，让人想起烤大蒜。',
+                en: 'The total amount of time will range from 6 to 8 weeks for full development of flavor. When they’re ready, the cloves should be black, slightly shrunken away from their skins, tacky to the touch, and easily squished between your thumb and forefinger. The flavor should be sweet, earthy, slightly fruity, and reminiscent of roasted garlic.'
+              },
+              {
+                zh: '让整个头在室温下在柜台上放置一天，以除去一些残留的水分，然后将它们装袋或装入有盖的容器中，然后存放在冰箱或冰柜中。黑蒜的水分较少，pH远低于新鲜大蒜，但它的保质期并不完全稳定，因此需要冷藏或冷冻。它可以在冰箱里保存一周；否则，请将其冷冻以延长保存时间。',
+                en: 'Let the whole heads rest on the counter at room temperature for a day to shed some of the residual moisture, then bag them or pack them in a covered container and store them in the fridge or freezer. Black garlic has less moisture and a pH well below that of fresh garlic, but it’s not perfectly shelf stable, so it needs to be refrigerated or frozen. It will keep well for a week in the fridge; otherwise, freeze it for longer storage.'
+              },
+              {
+                zh: '*Black Garlic, day 1*',
+                en: '*Black Garlic, day 1*'
+              },
+              {
+                zh: '*Day 7*',
+                en: '*Day 7*'
+              },
+              {
+                zh: '*Day 30*',
+                en: '*Day 30*'
+              },
+              {
+                zh: '*Day 60*',
+                en: '*Day 60*'
+              },
+              {
+                zh: '1. 1. 将大蒜真空密封在真空袋中。',
+                en: '1. 1. Vacuum-seal the garlic in vacuum bags.'
+              },
+              {
+                zh: '1. 2. 或者，用两层箔纸包裹大蒜。',
+                en: '1. 2. Alternatively, wrap the garlic in two layers of foil.'
+              },
+              {
+                zh: '1. 3. 大蒜准备发黑。',
+                en: '1. 3. Garlic ready for blackening.'
+              },
+              {
+                zh: '1. 4. 将大蒜放入电饭锅或发酵室中。',
+                en: '1. 4. Place the garlic into your rice cooker or fermentation chamber.'
+              },
+              {
+                zh: '1. 5. 关闭腔室并将其设置为 60°C/140°F，或密封炊具并设置为“保温”。',
+                en: '1. 5. Close the chamber and set it to 60°C/140°F, or seal the cooker and set to “keep warm.”'
+              },
+              {
+                zh: '1. 6. 大蒜需要6到8周才能变黑。',
+                en: '1. 6. The garlic will take 6 to 8 weeks to blacken.'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '黑蒜冰淇淋',
+              en: 'Black Garlic Ice Cream'
+            },
+            answer: [
+              {
+                zh: '*Crush black garlic with a mortar and pestle, then stir it into ice cream for an unexpectedly well-matched combination.*',
+                en: '*Crush black garlic with a mortar and pestle, then stir it into ice cream for an unexpectedly well-matched combination.*'
+              },
+              {
+                zh: '黑蒜可以用在菜单的任何部分，从头菜到甜点。购买或制作优质香草或巧克力冰淇淋，并在每份冰淇淋中加入一勺切碎的黑蒜。巧克力冰淇淋也通过少量的橄榄油得到了进一步的改善。',
+                en: 'Black garlic can be employed in any part of a menu, from the very beginning to dessert. Buy or make a good-quality vanilla or chocolate ice cream, and fold a spoonful of chopped black garlic into each serving. Chocolate ice cream is further improved by the smallest drizzle of olive oil, too.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '黑蒜皮汤',
+              en: 'Black Garlic Skin Broth'
+            },
+            answer: [
+              {
+                zh: '当你从黑蒜中收获所有的肉时，不要扔掉皮。将它们保存起来，在烹饪的最后一个小时将其加入鸡汤（或任何肉汤）中，以获得额外的丰富性、浓郁的风味和美味的果味。事实上，如果您打算在肉汤中添加黑蒜皮，那么一开始就不必使用其他蔬菜。这些皮本身就有足够的味道来搭配鸡肉。我们喜欢在 Noma 为员工提供餐食，尤其是在早餐时加几滴辣椒油，旁边可能还有一些米饭或面条。',
+                en: 'When you’ve harvested all the flesh from your black garlic, don’t throw away the skins. Save them to add by the fistful to chicken broth—or any broth, for that matter—during the last hour of cooking for extra richness, depth of flavor, and a delicious fruitiness. In fact, if you’re planning to add black garlic skins to your broth, don’t even bother using other vegetables at the beginning. The skins will have more than enough flavor to complement the chicken on their own. We love to do this at Noma for staff meal, especially at breakfast with a few drops of chili oil and maybe some rice or noodles on the side.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '黑蒜酱',
+              en: 'Black Garlic Paste'
+            },
+            answer: [
+              {
+                zh: '用研钵、研杵和一点水或油将去皮的黑蒜压碎，直到得到具有多种用途的浓稠糊状物。对于初学者来说，它是切片硬奶酪的绝佳搭配，就像木瓜酱一样。 （如果你发现黑蒜酱有点缺乏甜味，可以加一滴蜂蜜。）如果你将等量的黑蒜和橄榄酱混合在一起，你就会得到一块用大量橄榄油烤过的松脆软面包的美味配料。最后但并非最不重要的一点是，当黑蒜融入香蒜酱（每份约一茶匙）并且香蒜酱融入您的意大利面时，您不会失望的。',
+                en: 'Crush peeled black garlic with a mortar and pestle and a bit of water or oil until you have a thick paste with plenty of possible uses. For starters, it makes a fine accompaniment to sliced hard cheeses, just like quince paste. (If you find the black garlic paste a bit lacking in sweetness, add a drop of honey.) Should you mix equal quantities of black garlic and olive tapenade, you’ll wind up with a delicious topping for a slab of crunchy-soft bread that’s been toasted with plenty of olive oil. Last but not least, when black garlic finds its way into pesto (about a teaspoon per serving) and that pesto finds its way into your pasta, you will not be disappointed.'
+              },
+              {
+                zh: '*The tartness of a good apple sits in pleasant contrast to the deep sweetness produced by blackening.*',
+                en: '*The tartness of a good apple sits in pleasant contrast to the deep sweetness produced by blackening.*'
+              },
+              {
+                zh: '<!-- text/part0013_split_005.html -->',
+                en: '<!-- text/part0013_split_005.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: '04-cache-and-cdn',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
@@ -6139,6 +6899,20 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '04-caring-for-your-scoby',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '照顾你的 SCOBY',
+      en: 'Caring for Your SCOBY'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '04-data-model-and-end-to-end-flow',
@@ -6380,6 +7154,47 @@ export const notes = [
     ]
   },
   {
+    id: '04-lactic-acid-bacteria-lab',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '乳酸菌（LAB）',
+      en: 'Lactic acid bacteria (LAB)'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '乳酸菌（LAB）',
+          en: 'Lactic acid bacteria (LAB)'
+        },
+        paragraphs: [
+          {
+            zh: 'LAB 是杆状和球形细菌，大量存在于水果、蔬菜和人类的皮肤上。我们使用它们是因为它们能够将糖转化为乳酸，从而赋予泡菜、泡菜和其他 lacto 发酵产品特有的酸味。因为它们产生乳酸，所以能够耐受低pH环境。它们还耐光环（耐盐）和厌氧，这意味着它们在没有氧气的情况下也能茁壮成长。',
+            en: 'LAB are rod- and sphere-shaped bacteria that are present in abundance on the skins of fruits, vegetables, and humans. We use them for their ability to convert sugar into lactic acid, giving pickles, kimchi, and other lacto-fermented products their characteristic sourness. Because they produce lactic acid, they are able to tolerate low-pH environments. They are also halo-tolerant (salt-tolerant) and anaerobic, meaning they thrive in the absence of oxygen.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '04-making-our-peaso',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '制作我们的Peaso',
+      en: 'Making Our Peaso'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '04-monitoring-security-analytics',
     categoryId: 'system-design',
     chapterId: 'part10_notification_system',
@@ -6613,6 +7428,20 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '04-nordic-shoyu',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '北欧<第12学期>',
+      en: 'Nordic Shoyu'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '04-optimization-security-cost',
@@ -6972,6 +7801,34 @@ export const notes = [
     ]
   },
   {
+    id: '04-remove-the-air',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '除去空气',
+      en: 'Remove the Air'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '04-saltwater',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '咸水',
+      en: 'Salt/Water'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '04-sliding-window-algorithms',
     categoryId: 'system-design',
     chapterId: 'part04_rate_limiter',
@@ -7088,6 +7945,34 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '04-spirit-vinegars',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '烈酒醋',
+      en: 'Spirit Vinegars'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '04-the-many-faces-of-koji',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<第六学期>的多面性',
+      en: 'The Many Faces of Koji'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '04-upload-download-notification',
@@ -7448,6 +8333,203 @@ export const notes = [
         faqs: [],
         bullets: [],
         emphasisCards: []
+      }
+    ]
+  },
+  {
+    id: '05-a-place-for-koji-to-call-home',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<第六学期>可以回家的地方',
+      en: 'A Place for Koji to Call Home'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '05-acetic-acid-bacteria-aab',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '醋酸菌（AAB）',
+      en: 'Acetic acid bacteria (AAB)'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '醋酸菌（AAB）',
+          en: 'Acetic acid bacteria (AAB)'
+        },
+        paragraphs: [
+          {
+            zh: '与 LAB 一样，AAB 是大量存在于许多食品表面的杆状细菌。它们通过将酒精转化为乙酸而产生醋和kombucha的强烈酸味。我们经常将它们与首先将糖转化为酒精的酵母一起使用。它们可以耐受它们所产生的酸性环境，并且需要氧气来产生乙酸，因此将它们归类为需氧细菌。',
+            en: 'Like LAB, AAB are readily abundant rod-shaped bacteria, ever present on the surface of many foods. They generate the sharp sourness of vinegar and kombucha by converting alcohol to acetic acid. We often use them in conjunction with yeasts that first convert sugars into alcohol. They can tolerate the acidic environments they create, and require oxygen to create acetic acid, thus classifying them as aerobic bacteria.'
+          },
+          {
+            zh: '<!-- text/part0005_split_004.html -->',
+            en: '<!-- text/part0005_split_004.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '05-better-living-through-koji',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '通过<第六学期>过上更好的生活',
+      en: 'Better Living Through Koji'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '05-black-apples',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '黑苹果',
+      en: 'Black Apples'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '黑苹果',
+          en: 'Black Apples'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 10 apples**',
+            en: '**Makes 10 apples**'
+          },
+          {
+            zh: '苹果在暴露于湿热时往往会散开，这给我们用于大蒜的变黑过程带来了问题。作为解决方法，我们小心地将苹果熏黑，然后用脱水机去除水分。这种技术同样适用于梨、榅桲和其他仁果类水果。黑色的结果像太妃糖一样味道浓郁、香甜、耐嚼。',
+            en: 'Apples tend to fall apart when exposed to moist heat, which poses a problem for the blackening process we use for garlic. As a workaround, we carefully blacken the apples, then remove the moisture afterward with a dehydrator. This technique works equally well with pears, quince, and other pome fruits. The blackened results are deeply flavorful, sweet, and chewy like toffee.'
+          },
+          {
+            zh: '黑蒜的深入说明可作为本章中所有黑化水果和蔬菜食谱的模板。虽然这里的方法有所不同，但我们建议您在开始本食谱之前先阅读该食谱。',
+            en: 'The in-depth instructions forBlack Garlicserve as a template for all the blackened fruit and vegetable recipes in this chapter. While the method differs somewhat here, we recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将苹果削皮，然后将它们放入一个大真空袋中，这样它们就不会相互接触。苹果需要平放在发酵室中，所以如果你的发酵室看起来太小，请取出一些苹果。以最大吸力密封袋子。您还可以使用一个大的带拉链的袋子，将苹果放入袋子中，然后慢慢将其放入一桶水中，在距离顶部几厘米处停止（您可能需要从袋子底部拉动以抵消水果的浮力），从而挤出所有空气。水的压力会将空气排出。将其密封，您将获得有效但不完美的真空。',
+            en: 'Peel the apples and arrange them in a large vacuum bag so they’re not touching. The apples will need to sit flat in your fermentation chamber, so if it looks like your chamber might be too small, remove a few apples. Seal the bag on maximum suction. You can also use a large zip-top bag and squeeze all the air out by placing the apples into the bag, then slowly lowering it into a tub of water, stopping a few centimeters from the top (you may need to pull from the bottom of the bag to counteract the fruit’s buoyancy). The pressure of the water will force the air out. Seal it shut and you’ll have an effective, albeit imperfect, vacuum.'
+          },
+          {
+            zh: '将苹果放入发酵室中。如果您使用电饭锅或慢炖锅，请记住用盘子、金属架或竹垫将水果从底部抬起。关闭腔室并将其设置为 60°C/140°F，或密封炊具并将其设置为“保温”设置。',
+            en: 'Place the apples in the fermentation chamber. If you’re using an electric rice cooker or slow cooker, remember to raise the fruit off the bottom with a plate, wire rack, or bamboo mat. Close the chamber and set it to 60°C/140°F, or seal the cooker and turn it to the “keep warm” setting.'
+          },
+          {
+            zh: '在最初的几天内，苹果会变成浅棕色并开始滤出汁液，这些汁液会收集在袋子的底部。你能做的最好的事情是什么？不要打扰他们！最初几周后，果肉会严重退化，即使是一点点的碰撞也可能会破坏苹果的结构。让它们单独放置总共 8 周，到那时它们就会变黑很多。',
+            en: 'Within the first few days, the apples will turn light brown and begin to leach their juices, which will collect at the bottom of the bag. The best possible thing you can do? Don’t disturb them! After the first couple of weeks, the flesh will have degraded so much that even a little jostling may wreck the apples’ structure. Leave them alone for a total of 8 weeks, by which point they will have blackened quite a bit.'
+          },
+          {
+            zh: '此时苹果将非常脆弱，因此请小心地从发酵室中取出袋子并将其切开，沥干并保留液体。使用勺子或抹刀，将苹果转移到衬有羊皮纸的脱水盘或烤盘上。将苹果在 40°C/104°F 或低温烤箱中脱水；它们需要 24 至 36 小时才能干燥至适当的熟度。在整个过程中旋转苹果几次，使它们均匀干燥。当它们的质地像太妃糖一样有嚼劲时，它们就完成了。干燥后，它们可以在冰箱中保存一周，或冷冻保存更长时间。',
+            en: 'The apples will be extremely fragile at this point, so carefully remove the bag from the fermentation chamber and cut it open, draining and reserving the liquid. Using a spoon or spatula, transfer the apples to a dehydrator tray or baking sheet lined with parchment paper. Dehydrate the apples at 40°C/104°F or in a very low oven; they should take 24 to 36 hours to dry to the proper doneness. Rotate the apples a couple of times throughout the process so they dry evenly. They’re done when their texture is chewy like toffee. Once dried, they can be stored covered in the fridge for a week, or frozen for longer storage.'
+          },
+          {
+            zh: '*Black Apples, day 1*',
+            en: '*Black Apples, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 60*',
+            en: '*Day 60*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '**10 apples**',
+            en: '**10 apples**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '黑苹果皮',
+              en: 'Black Apple Leather'
+            },
+            answer: [
+              {
+                zh: '与杏干一样，黑苹果干的质地类似于耐嚼的太妃糖。一旦干燥，苹果就可以自己制作出美味的零食。您可以将整个苹果放在脱水机中干燥几天，但如果您想让东西移动得更快并且不介意失去苹果形状，请将不带果汁的水果捣成泥，然后将果泥铺在不粘垫上，形成 3 毫米/⅛ 英寸厚的层，然后干燥成片状。耐嚼的黑苹果（或黑苹果皮）适合墨西哥吃水果的方式，在上面挤一点酸橙或柠檬汁，然后撒上智利盐。',
+                en: 'Like dried apricots, dried black apples take on a texture similar to a chewy toffee. Once dried, the apples make a delightful snack on their own. You could dry the apples whole for a couple of days in a dehydrator, but if you want things to move more quickly and you don’t mind losing the apple shape, puree the fruit without its juice, then spread the puree into a layer 3 millimeters / ⅛ inch thick on a nonstick mat before drying into sheets. Chewy black apples (or black apple leather) are primed to dress in the Mexican way of eating fruit, by squeezing a little bit of lime or lemon juice over the top and sprinkling with chile salt.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '巧克力黑苹果',
+              en: 'Chocolate-Covered Black Apples'
+            },
+            answer: [
+              {
+                zh: '*Dried black apples dipped in chocolate.*',
+                en: '*Dried black apples dipped in chocolate.*'
+              },
+              {
+                zh: '首先将干苹果的脸颊从果核上切下来（如果您使用的是较小品种的苹果，请将其整个保留）。调温优质黑巧克力（至少 70% 可可），然后将苹果片浸入巧克力中。放在架子或羊皮纸上冷却，使巧克力涂层变得松脆，与里面苹果丰富的奶油质地形成鲜明对比。',
+                en: 'Begin by slicing the cheeks of the dried apple away from the core (if you used a smaller variety of apple, leave them whole). Temper a good-quality dark chocolate—at least 70% cacao—then dip the apple slices into the chocolate. Allow to cool on a rack or parchment paper so that the chocolate coating becomes a crunchy contrast to the rich, creamy texture of the apple inside.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '白兰地黑苹果',
+              en: 'Brandied Black Apples'
+            },
+            answer: [
+              {
+                zh: '*Black apples impart their flavor to brandy (while absorbing some of the brandy’s flavor themselves).*',
+                en: '*Black apples impart their flavor to brandy (while absorbing some of the brandy’s flavor themselves).*'
+              },
+              {
+                zh: '如果您提前做好计划，这将是一份有趣的礼物。将整个或半个黑苹果放入玻璃罐中，并盖上上好的白兰地或苹果白兰地。密封并存放在阴凉处——时间越长越好。在餐厅，我们有时会将水果放在酒精浴中长达两年。一旦酒精变成甜甜的糖浆状，水果又软又带酒精，就可以开始制作香草冰淇淋了。',
+                en: 'This makes for a fun gift, provided you plan well in advance. Place whole or halved black apples in a glass jar and cover with good brandy or Calvados. Seal and store in a cool place—the longer, the better. At the restaurant, we’ve sometimes let fruit sit in a boozy bath for up to two years. Once the alcohol has turned sweet and syrupy and the fruit is soft and alcoholic, it’s time to break out the vanilla ice cream.'
+              },
+              {
+                zh: '*Find fresh chestnuts in the early autumn, then transform them through blackening.*',
+                en: '*Find fresh chestnuts in the early autumn, then transform them through blackening.*'
+              },
+              {
+                zh: '<!-- text/part0013_split_006.html -->',
+                en: '<!-- text/part0013_split_006.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
       }
     ]
   },
@@ -7813,6 +8895,261 @@ export const notes = [
     ]
   },
   {
+    id: '05-lemon-verbena-kombucha',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '柠檬马鞭草 <第 14 学期>',
+      en: 'Lemon Verbena Kombucha'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '柠檬马鞭草 <第 14 学期>',
+          en: 'Lemon Verbena Kombucha'
+        },
+        paragraphs: [
+          {
+            zh: '*Fresh lemon verbena has an electrifying aroma capable of filling a room.*',
+            en: '*Fresh lemon verbena has an electrifying aroma capable of filling a room.*'
+          },
+          {
+            zh: '**Makes 2 liters**',
+            en: '**Makes 2 liters**'
+          },
+          {
+            zh: '我们将从严格遵循用甜茶冲泡经典kombucha的方法开始kombucha制作。唯一的区别是我们的基础液体是草药浸液而不是茶浸液。如果您愿意，您可以轻松地用不同的药草或茶代替柠檬马鞭草；您仍然可以很好地掌握如何控制影响kombucha的风味、甜度、酸度和发酵时间的各种因素。',
+            en: 'We’ll begin our kombucha making with a recipe that closely follows the method for brewing a classic kombucha made from sweetened tea. The only difference is that our base liquid is an herbal infusion rather than a tea infusion. You can easily substitute a different herb or tea in place of lemon verbena, if you like; you’ll still get a good handle on how to manipulate the various factors that affect the flavor, sweetness, acidity, and fermentation time of your kombucha.'
+          },
+          {
+            zh: 'Copenhagen中的地质条件导致产生坚硬且富含矿物质的自来水，这会扭曲kombucha的味道。我们使用反渗透系统过滤发酵用水。如果您居住的地方水质较软，自来水没有理由会损害您的发酵剂，但如果有疑问，请过滤水。',
+            en: 'The geology in Copenhagen leads to hard, mineral-rich tap water, which can distort the flavor of the kombucha. We filter the water for our ferments with a reverse-osmosis system. If you live somewhere with softer water, there’s no reason tap water would harm your ferment, but if in doubt, filter your water.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '240克糖',
+            en: '240 grams sugar'
+          },
+          {
+            zh: '1.76公斤水',
+            en: '1.76 kilograms water'
+          },
+          {
+            zh: '20 克干柠檬马鞭草',
+            en: '20 grams dried lemon verbena'
+          },
+          {
+            zh: '200 克未经高温消毒的kombucha（或包装好的 SCOBY 附带的液体）',
+            en: '200 grams unpasteurized kombucha (or the liquid that comes with a packaged SCOBY)'
+          },
+          {
+            zh: '**1 SCOBY (seeSources)**',
+            en: '**1 SCOBY (seeSources)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: 'Kombucha除了容量至少为 2.5 升的玻璃或塑料容器外，不需要太多设备。不要使用金属容器——它们会与kombucha中的酸发生不良反应；另外，你将无法看到里面发生了什么。 SCOBY 需要获取氧气，因此请避免使用带有锥形颈部的容器，例如大玻璃瓶。大的广口罐头罐效果非常好；透明的塑料桶和高大的特百惠也能很好地完成这项工作。您还需要粗棉布或透气的厨房毛巾来覆盖容器，并需要更大的橡皮筋来固定它。与本书中的任何敏感微生物一样，操作 SCOBY 时最好戴丁腈或乳胶手套。',
+                en: 'Kombucha doesn’t need much equipment other than a glass or plastic container of at least 2.5-liter capacity. Don’t use metal containers—they can react negatively with the acid in the kombucha; plus, you won’t be able to see what’s going on inside. A SCOBY needs access to oxygen, so avoid vessels with tapered necks, like carboys. Large, wide-mouth canning jars work fantastically; clear plastic buckets and tall Tupperware also do the job nicely. You’ll also need cheesecloth or a breathable kitchen towel to cover the vessel, and larger rubber bands to secure it. And as with any of the sensitive microbes in this book, the SCOBY is best handled while wearing nitrile or latex gloves.'
+              },
+              {
+                zh: '*Lemon Verbena Kombucha, day 1*',
+                en: '*Lemon Verbena Kombucha, day 1*'
+              },
+              {
+                zh: '*Day 4*',
+                en: '*Day 4*'
+              },
+              {
+                zh: '*Day 7*',
+                en: '*Day 7*'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '首先，将糖溶解在少量水中。 （水与糖的比例只需 1:1 即可完全溶解糖，因此加热全部水是浪费时间。另外，在引入 SCOBY 之前，您必须等待水冷却，酵母和醋酸菌无法在高于 60°C/140°F 的温度下生存。）将糖和 240 克水在中型锅中煮沸。将锅从火上移开，加入柠檬马鞭草，不加盖地浸泡约 10 分钟。',
+                en: 'To begin, dissolve the sugar in a small amount of the water. (You only need a 1:1 ratio of water to sugar to completely dissolve the sugar, so heating the full amount of water is a waste of time. Plus, you’ll have to wait for the water to cool before you introduce your SCOBY—yeast and acetic acid bacteria can’t survive temperatures warmer than 60°C/140°F.) Bring the sugar and 240 grams of the water to a boil in a medium pot. Remove the pot from the heat, add the lemon verbena, and allow it to steep, uncovered, for about 10 minutes.'
+              },
+              {
+                zh: '茶叶浸泡后，加入剩余的 1.52 公斤水，搅拌并通过细网筛或中国筛将茶汤过滤到干净的发酵容器中。',
+                en: 'Once the tea has steeped, stir in the remaining 1.52 kilograms water and strain the infusion through a fine-mesh sieve or chinois into the clean fermentation vessel.'
+              },
+              {
+                zh: '为了快速启动发酵并帮助防止不需要的微生物立足，请向容器中添加 200 克未经高温消毒的 kombucha（占其他成分重量的 10%），以倒流输液。理想情况下，您将使用前一批柠檬马鞭草 kombucha 或补充风味。如果这是您的第一批，请使用 SCOBY 包装中的液体。用干净的勺子搅拌均匀。',
+                en: 'To jump-start fermentation and to help prevent unwanted microbes from getting a foothold, backslop the infusion by adding the 200 grams unpasteurized kombucha to your vessel (which is 10 percent of the weight of your other ingredients). Ideally, you’ll be backslopping with a previous batch of lemon verbena kombucha, or a complementary flavor. If this is your first batch, use the liquid that your SCOBY came packaged in. Stir well with a clean spoon.'
+              },
+              {
+                zh: '戴上手套，小心地将 SCOBY 放入液体中。它应该会漂浮，但如果它下沉也不要太担心——有时需要一两天才能浮出水面。',
+                en: 'Put on your gloves and carefully place the SCOBY into the liquid. It should float, but don’t worry too much if it sinks—it sometimes takes a day or two to rise to the surface.'
+              },
+              {
+                zh: '用粗棉布或透气的厨房毛巾盖住发酵容器的顶部，并用橡皮筋固定。果蝇喜欢醋酸和酒精的气味，并且会特别被你的新kombucha所吸引，所以你需要尽一切努力将它们拒之门外。',
+                en: 'Cover the top of the fermentation vessel with cheesecloth or a breathable kitchen towel and secure it with a rubber band. Fruit flieslovethe scent of acetic acid and alcohol, and will be particularly drawn to your new kombucha, so you’ll want to do everything you can to keep them out.'
+              },
+              {
+                zh: '在 kombucha 上标记其种类和开始日期，以便您可以轻松跟踪其进度。',
+                en: 'Label the kombucha with its variety and the start date so you can easily keep track of its progress.'
+              },
+              {
+                zh: 'SCOBY 在稍微温暖的环境中效果最佳。如果您在夏天酿造，您可能会注意到您的kombucha比冬天完成得更快。在Noma的发酵实验室中，我们将kombucha房间的温度保持在稳定的28°C/82°F以促进快速生产，但您不需要将整个房间专门用于kombucha。在室温下，它会发酵得很好，尽管稍微慢一些。如果您愿意，您可以将 kombucha 放置在散热器附近或厨房的高架上，以提供比室温稍热的环境。',
+                en: 'SCOBYs work best in slightly warm settings. If you’re brewing in the summertime, you’ll probably notice that your kombucha finishes faster than in the winter. In Noma’s fermentation lab, we keep our kombucha room at a steady 28°C/82°F to encourage speedy production, but you don’t need to dedicate a whole room of your house to kombucha. It will ferment just fine, albeit slightly more slowly, at room temperature. If you like, you can place your kombucha close to a radiator or on a high shelf in the kitchen to provide an environment that’s slightly warmer than room temperature.'
+              },
+              {
+                zh: '随着时间的推移，你会注意到在液体中的糖的推动下，SCOBY 显着增长。每隔一天左右，将遮盖物剥开，足以清楚地观察 SCOBY。它应该向容器的两侧延伸，同时在中间也变厚。当酵母释放二氧化碳时，您还可能会看到它在某些区域膨胀。如果您发现 SCOBY 的顶部变干，请用勺子在上面倒一点液体。该液体使 SCOBY 保持酸化，防止霉菌生长。',
+                en: 'As the days go by, you’ll notice the SCOBY growing significantly, fueled by the sugar in the liquid. Every other day or so, peel back the cloth covering enough to get a good look at the SCOBY. It should extend out toward the sides of your vessel, while also thickening in the middle. You may also see it puffing up in some areas as the yeast releases carbon dioxide. If you notice the top of the SCOBY drying out, use a ladle to pour a little liquid over it. The liquid keeps the SCOBY acidified, staving off mold growth.'
+              },
+              {
+                zh: '有几种不同的方法可以衡量 kombucha 本身的进度。最简单的方法是您已经准备好的方法：品尝。在Noma，我们希望我们的kombucha能够保持其基本成分的本质，同时发展复杂性以及甜味和酸度的和谐对立。更简单地说：味道好时就完成了。我们在餐厅酿造的kombucha通常需要7至9天才能发酵到我们想要的味道。如果您喜欢酸的kombucha，那么让它再发酵一两天。',
+                en: 'There are a few different ways to measure the progress of the kombucha itself. The simplest method is one you’re already well equipped for: Taste it. At Noma, we look for our kombuchas to maintain the essence of their base ingredient, while developing complexity and a harmonious opposition of sweetness and acidity. Put more simply: It’s done when it tastes good. The kombuchas we brew at the restaurant usually take 7 to 9 days to ferment to our desired taste. If you enjoy sour kombucha, then let it ferment for an extra day or two.'
+              },
+              {
+                zh: '在发酵实验室中，我们使用设备测量 kombucha 的酸度和甜度，以保持批次之间的一致性。折射计可以让您追踪酿造中的糖含量。在开始时进行测量可以让您知道您开始时摄入了多少糖，随后的每次测量都会告诉您还剩下多少。 pH 仪表或 pH 条测量酸含量。注入柠檬马鞭草糖浆的 pH 开始时的值略低于 7，接近中性。使用前一批 kombucha 进行反斜处理应将 pH 降至 5 左右。发酵进一步将酸度增加至 4 至 3.5 之间。如果您有能力并且愿意，请跟踪您的 kombucha 进度并测量最终产品的 pH 和糖含量，以便更容易复制。',
+                en: 'In the fermentation lab, we use equipment to measure the acidity and sweetness of our kombuchas in order to maintain consistency from batch to batch. A refractometer allows you to track sugar levels in the brew. Taking a measurement in the beginning lets you know how much sugar you started with, and each subsequent measure tells you how much is left. A pH meter or pH strips gauge acid content. Infused lemon verbena syrup will begin with a pH of just under 7, which is close to neutral. Backslopping with a previous batch of kombucha should drop the pH to about 5. Fermentation further increases the acidity to between 4 and 3.5. If you’re equipped and inclined, keep track of your kombucha’s progress and measure the pH and sugar content of the final product so it’s easier to replicate.'
+              },
+              {
+                zh: '如果您的 SCOBY 上出现彩色（粉色、绿色或黑色）霉菌，则意味着您的基础液体一开始可能酸化得不够。 （尽管健康的 SCOBY 可能会出现轻微的颜色变化。）在这种情况下，不要试图挽救液体或 SCOBY，因为致病霉菌会产生溶解在液体中的有害毒素。试图确定侵入性霉菌是恶性还是良性并不值得冒险。你总是可以酿造更多kombucha。',
+                en: 'If colorful (pink, green, or black) mold shows up on your SCOBY, it means your base liquid probably wasn’t acidulated enough at the outset. (Though a healthy SCOBY may develop slight variations in color.) Don’t try to salvage the liquid or SCOBY in this instance, as pathogenic molds can produce harmful toxins that dissolve into the liquid. Trying to identify whether an invasive mold is malignant or benign isn’t worth the risk. You can always brew more kombucha.'
+              },
+              {
+                zh: '一旦您对kombucha的味道感到满意，戴上手套并取下SCOBY。将其转移到 SCOBY 紧密贴合的塑料或玻璃容器中，并在 kombucha 中盖上其体积的三到四倍。用粗棉布或透气的厨房毛巾覆盖容器，并用橡皮筋固定。如果您打算在接下来的几天内制作另一批，则可以将 SCOBY 在室温下放置。如果您很快不会再次使用 SCOBY，请将其存放在冰箱中，直到准备好为止。 （有关更多信息，请参阅“照顾您的 SCOBY”。）',
+                en: 'Once you’re satisfied with your kombucha’s flavor, put on a pair of gloves and remove the SCOBY. Transfer it to a plastic or glass container into which the SCOBY fits snugly, and cover with three to four times its volume in kombucha. Cover the container with cheesecloth or a breathable kitchen towel, and secure it with rubber bands. It’s fine to let the SCOBY hang out at room temperature if you intend to make another batch within the next few days. If you’re not using the SCOBY again soon, store it in the fridge until you’re ready. (See “Caring for Your SCOBY,” for more information.)'
+              },
+              {
+                zh: '通过衬有粗棉布或细棉布的筛子过滤剩余的kombucha。现在您可以立即享用它，或将其保存以供以后食用或在食谱中使用。 Kombucha 将在密封容器中的冰箱中保存 4 至 5 天，味道不会发生太大变化。如果您制作的批次大于立即使用的数量，您也可以将其冷冻在密封塑料容器或真空密封袋中。要冷冻您的kombucha，请将其在冰箱中冷藏几个小时以减缓发酵，然后再将其装入容器或袋子中，否则它可能会在冷冻固体之前膨胀甚至破裂。',
+                en: 'Strain the remaining kombucha through a sieve lined with cheesecloth or a fine chinois. Now you can enjoy it straight away, or save it for later consumption or use in a recipe. Kombucha will keep in the fridge in a sealed container for 4 to 5 days without much change in flavor. You can also freeze it in an airtight plastic container or vacuum-sealed bag if you’ve made a larger batch than you can use immediately. To freeze your kombucha, chill it in the fridge for a few hours to slow fermentation before packing it into the container or bag, or it could inflate and even burst before freezing solid.'
+              },
+              {
+                zh: '您可能需要尝试几次才能找到一个您满意的可以带到工作或学校的<学期13>。没关系！您仍然可以使用过度发酵的kombucha来制作糖浆。与此同时，您的 SCOBY 会很高兴地投入新批次，所以请继续尝试。',
+                en: 'It may take you a couple of tries to nail a kombucha you’re happy enough with to take to work or school. That’s fine! You can still use overfermented kombucha for syrups. Meanwhile, your SCOBY will happily dive into a new batch, so keep trying.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '装瓶<学期14>',
+              en: 'Bottling Kombucha'
+            },
+            answer: [
+              {
+                zh: '*Bottling kombucha will extend its shelf life and encourage carbonation. A day or twobeforeyou’re happy with the flavor (gauging this point will come with experience), strain the liquid, transfer it to sterilized swing-top bottles (or regular beer bottles, if you have a capping tool), and move them to the refrigerator. The residual bacteria and yeasts in the liquid will continue to work, even in the fridge. Bottling traps the gases from fermentation, some of which will dissolve into the liquid. A kombucha fermenting in open air will have a slight effervescence, but bottling will increase the bubbliness.*',
+                en: '*Bottling kombucha will extend its shelf life and encourage carbonation. A day or twobeforeyou’re happy with the flavor (gauging this point will come with experience), strain the liquid, transfer it to sterilized swing-top bottles (or regular beer bottles, if you have a capping tool), and move them to the refrigerator. The residual bacteria and yeasts in the liquid will continue to work, even in the fridge. Bottling traps the gases from fermentation, some of which will dissolve into the liquid. A kombucha fermenting in open air will have a slight effervescence, but bottling will increase the bubbliness.*'
+              },
+              {
+                zh: '*Take care not to bottle your kombucha too early. If there’s too much residual sugar in the kombucha, it will fuel an excess amount of carbon dioxide production, which can result in exploding glass bottles. To mitigate this risk, make sure your kombucha is close to where you want the finished product before bottling—around 8°Bx, if you’re measuring with a refractometer. Be sure to keep bottles in the fridge and consume them within a couple of weeks.*',
+                en: '*Take care not to bottle your kombucha too early. If there’s too much residual sugar in the kombucha, it will fuel an excess amount of carbon dioxide production, which can result in exploding glass bottles. To mitigate this risk, make sure your kombucha is close to where you want the finished product before bottling—around 8°Bx, if you’re measuring with a refractometer. Be sure to keep bottles in the fridge and consume them within a couple of weeks.*'
+              },
+              {
+                zh: '*Transfer kombucha to swing-top bottles a couple of days before it’s reached your desired acidity. It will continue to ferment and carbonate in the bottle.*',
+                en: '*Transfer kombucha to swing-top bottles a couple of days before it’s reached your desired acidity. It will continue to ferment and carbonate in the bottle.*'
+              },
+              {
+                zh: '1. 1. 水、SCOBY、柠檬马鞭草、糖和成品kombucha。',
+                en: '1. 1. Water, SCOBY, lemon verbena, sugar, and finished kombucha.'
+              },
+              {
+                zh: '1. 2. 用糖和等量的水制成糖浆。',
+                en: '1. 2. Make a syrup using the sugar and an equal weight of water.'
+              },
+              {
+                zh: '1. 3. 将糖浆和柠檬马鞭草混合，浸泡后再加入剩余的水。',
+                en: '1. 3. Combine the syrup and lemon verbena and allow to steep before adding the remaining water.'
+              },
+              {
+                zh: '1. 4. 将浸液通过细网筛过滤至干净的发酵容器中。',
+                en: '1. 4. Strain the infusion through a fine-mesh sieve into the clean fermentation vessel.'
+              },
+              {
+                zh: '1. 5. 使用未经高温消毒的后坡<术语13>。',
+                en: '1. 5. Backslop with the unpasteurized kombucha.'
+              },
+              {
+                zh: '1. 6. 将 SCOBY 放入发酵容器中并盖上盖子。',
+                en: '1. 6. Place the SCOBY into the fermentation vessel and cover.'
+              },
+              {
+                zh: '1. 7. 使用折光仪（可选）测量糖含量，并在 7 天后再次检查。',
+                en: '1. 7. Measure the sugar content using a refractometer (optional) and check again after 7 days.'
+              },
+              {
+                zh: '1. 8. 使用pH试纸检查kombucha的酸度。当pH达到3.5到4时，kombucha应该接近准备就绪。',
+                en: '1. 8. Use pH strips to check the acidity of the kombucha. When the pH has reached 3.5 to 4, the kombucha should be close to ready.'
+              },
+              {
+                zh: '1. 9. 拆下 SCOBY。过滤并装瓶kombucha。',
+                en: '1. 9. Remove the SCOBY. Strain and bottle the kombucha.'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期14>糖浆',
+              en: 'Kombucha Syrup'
+            },
+            answer: [
+              {
+                zh: '几乎任何kombucha都可以煮成卓越而复杂的糖浆，但它对于接近太酸点的kombucha尤其有效。将约 450 毫升 kombucha 倒入炉子上的中型平底锅中，用中低火加热。让液体慢慢蒸发，直到其体积约为原始体积的四分之一，并且可以覆盖勺子的背面。 kombucha 减少得越慢越好——不要让它沸腾，否则你会煮掉所有的味道。',
+                en: 'Almost any kombucha can be cooked down to a remarkable and complex syrup, but it works especially well with kombuchas that are approaching the point of being too sour. Pour about 450 milliliters of kombucha into a medium saucepan on the stove over medium-low heat. Let the liquid slowly evaporate until it’s about one-quarter of its original volume and can coat the back of a spoon. The slower the kombucha reduces, the better—don’t let it come to a boil or you’ll cook out all the flavor.'
+              },
+              {
+                zh: '下次你做一批煎饼时，在上面淋上一点这种糖浆。它不会像枫糖浆那么甜，所以如果你爱吃甜食，你可能需要撒上糖粉。作为甜点，在优质冰淇淋上舀一些柠檬马鞭草kombucha糖浆。如果你在上面撒上新鲜采摘的柠檬马鞭草，那就加分了。',
+                en: 'The next time you cook a batch of pancakes, drizzle a bit of this syrup over the top. It won’t be as sweet as maple syrup, so if you have a sweet tooth, you may want to add a dusting of powdered sugar. As a dessert, spoon some lemon verbena kombucha syrup over good-quality ice cream. Bonus points if you sprinkle freshly picked lemon verbena on top.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '柠檬马鞭草 Kombucha 油醋汁',
+              en: 'Lemon Verbena Kombucha Vinaigrette'
+            },
+            answer: [
+              {
+                zh: '*Combine kombucha syrup with a mild oil for a quick vinaigrette.*',
+                en: '*Combine kombucha syrup with a mild oil for a quick vinaigrette.*'
+              },
+              {
+                zh: '将等量的温和油（如初榨油菜籽或鳄梨）和柠檬马鞭草kombucha糖浆混合在一起，会产生浓稠的油醋汁——甜、酸、奶油状。您需要品尝盐和酸度并进行相应调整，但结果是根类蔬菜的特殊调料。对于一流的配菜，将盐烤甜菜放入油醋汁中，并用撕碎的新鲜罗勒叶和切碎的开心果装饰。',
+                en: 'Blending together equal parts mild oil, such as virgin rapeseed or avocado, and lemon verbena kombucha syrup will produce a thick vinaigrette—sweet, sour, and creamy. You’ll need to taste for salt and acidity and adjust accordingly, but the result is an exceptional dressing for root vegetables. For a first-rate side dish, toss salt-baked beets in the vinaigrette and garnish with torn fresh basil leaves and chopped pistachios.'
+              },
+              {
+                zh: '*Backslopping with a previous batch of kombucha simultaneously lowers the pH and adds a healthy starting population of bacteria and yeasts.*',
+                en: '*Backslopping with a previous batch of kombucha simultaneously lowers the pH and adds a healthy starting population of bacteria and yeasts.*'
+              },
+              {
+                zh: '<!-- text/part0007_split_006.html -->',
+                en: '<!-- text/part0007_split_006.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: '05-presence-and-wrap-up',
     categoryId: 'system-design',
     chapterId: 'part12_chat_system',
@@ -7928,6 +9265,20 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '05-salt-sufficiently',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '盐适量',
+      en: 'Salt Sufficiently'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '05-stateless-web-tier-and-autoscaling',
@@ -8167,6 +9518,620 @@ export const notes = [
     ]
   },
   {
+    id: '05-the-angels-share',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '天使的分享',
+      en: 'The Angel’s Share'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '05-yellow-pea-shoyu',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '黄豌豆<第12学期>',
+      en: 'Yellow Pea Shoyu'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '黄豌豆<第12学期>',
+          en: 'Yellow Pea Shoyu'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2 liters**',
+            en: '**Makes about 2 liters**'
+          },
+          {
+            zh: '当我们最初开始制作自己的shoyu时，我们希望用斯堪的纳维亚半岛的主要作物（黄豌豆）取代传统的投入品（大豆）能够产生一种全新的产品。然而，尽管我们的“北欧shoyu”是由非常不同的豆类制成的，但味道却与日本shoyu非常相似。话虽如此，制作您自己的shoyu绝对值得——这个过程非常有价值，您最终会得到一种独特但熟悉的成分。如果这本书中的某个发酵剂是你已经熟练使用的，那么它可能就是shoyu。现在您将拥有一个可以随意部署的超高质量自制版本。',
+            en: 'When we originally set out to make our own shoyu, we hoped that replacing the traditional input (soybeans) with a staple crop of Scandinavia (yellow peas) would yield an entirely new product. However, even though our “Nordic shoyu” is made from a very different legume, the flavor turns out to be remarkably similar to Japanese shoyu. That being said, it’s absolutely worth making your own shoyu—the process is very rewarding and you’ll end up with a unique yet familiar ingredient. If there’s one ferment in this book that you’re already adept at using, it’s probably shoyu. Now you’ll have an ultra-high-quality homemade version to deploy at will.'
+          },
+          {
+            zh: '制作shoyu需要您直接在富含蛋白质的基质上生长koji——在本例中为豌豆。如果您之前没有尝试过制作大米或大麦<第五学期>，那么这可能是一个很好的起点。至少，首先阅读珍珠薏米Koji的深入说明。还应该提到的是，如果您想制作真正的传统shoyu，则用干大豆代替黄豌豆，此食谱的效果同样好。',
+            en: 'Making shoyu requires you to grow koji directly on a protein-rich substrate—in this case, peas. If you haven’t attempted making rice or barley koji before, that might be a good place to begin. At the very least, first read the in-depth instructions forPearl Barley Koji. It should also be mentioned that this recipe functions equally well with dried soybeans in place of yellow peas if you’d like to make a true-to-tradition shoyu.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '600克干黄豌豆',
+            en: '600 grams dried yellow peas'
+          },
+          {
+            zh: '600克小麦浆果',
+            en: '600 grams wheat berries'
+          },
+          {
+            zh: '1.9公斤水',
+            en: '1.9 kilograms water'
+          },
+          {
+            zh: '365克无碘盐',
+            en: '365 grams non-iodized salt'
+          },
+          {
+            zh: '**Koji tane(koji spores; seeSources)**',
+            en: '**Koji tane(koji spores; seeSources)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '您需要一个发酵室（请参阅“构建发酵室”）和一个适合您的发酵室的培养托盘（由雪松或穿孔的非反应性金属或塑料制成）。您还需要一个容量约为 6 升的玻璃或塑料发酵容器，以及干净的棉质厨房毛巾或粗棉布以及大橡皮筋或用于盖住发酵容器的宽松盖子。苹果酒压榨机是收获shoyu的最简单方法，但滤锅和一些干净的砝码就足够了。我们还建议在用手工作时戴上无菌手套，并对所有设备进行彻底清洁和消毒（请参阅清洁、病原体和安全）。',
+                en: 'You’ll need a fermentation chamber (see “Building a Fermentation Chamber”) and an incubating tray (made of cedar, or perforated nonreactive metal or plastic) that fits into your chamber. You’ll also need a glass or plastic fermentation vessel of about 6-liter capacity, plus clean cotton kitchen towels or cheesecloth and large rubber bands or a loose-fitting lid for covering the fermentation vessel. A cider press is the easiest way to harvest the shoyu, but a colander and some clean weights will suffice. We also recommend wearing sterile gloves when working with your hands, and that all your equipment be thoroughly cleaned and sanitized (seeCleanliness, Pathogens, and Safety).'
+              },
+              {
+                zh: '*The peas should be cooked to the point where they can be crushed between your fingers, but not so long that they become mushy.*',
+                en: '*The peas should be cooked to the point where they can be crushed between your fingers, but not so long that they become mushy.*'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '将干豌豆在室温下浸泡在双倍体积的冷水中 4 小时，以补充水分。',
+                en: 'Rehydrate the dried peas by soaking them in double their volume of cold water for 4 hours at room temperature.'
+              },
+              {
+                zh: '当豌豆浸泡时，烘烤小麦：将烤箱加热至 170°C/340°F。将小麦铺在一张大烤盘上，烤 1 小时，每 15 分钟搅拌一次。谷物应该非常黑，以至于你可能会担心它们快要烧焦了。强烈的烘焙将转化为具有更深香气和风味的shoyu。',
+                en: 'While the peas are soaking, toast the wheat: Heat the oven to 170°C/340°F. Spread the wheat onto a large baking sheet and roast it for 1 hour, stirring every 15 minutes. The grains should be very dark, to the point where you may worry that they’re approaching burnt. Intense roasting will translate to a shoyu with deeper aroma and flavor.'
+              },
+              {
+                zh: '将谷物从烤箱中取出，让其冷却至室温。接下来，你需要敲碎小麦。在Noma，我们使用最粗设置的台式谷物磨机。如果您没有磨粉机，请将谷物放入食品加工机中运行 45 到 60 秒以将其打碎。作为最后的手段，并且要有足够的耐心，使用研钵和研杵。目的不是将小麦磨成细粉，只是为了敲碎麦粒。将破碎的小麦放在一边。',
+                en: 'Remove the grains from the oven and allow them to cool to room temperature. Next, you need to crack the wheat. At Noma, we use a tabletop grain mill on the coarsest setting. If you don’t have a mill, run the grains in a food processor for 45 to 60 seconds to break them up. As a last resort—and with a lot of patience—use a mortar and pestle. The aim isn’t to pulverize the wheat into a fine powder, just to crack the kernel. Set the cracked wheat aside.'
+              },
+              {
+                zh: '现在把你的注意力转回到豌豆上。浸泡后，沥干水，然后将它们放入装有两倍体积冷水的锅中煮。将水煮沸，然后将火调至小火慢炖，撇去表面积聚的泡沫。将豌豆煮 45 至 60 分钟，直至它们足够软，可以用拇指和食指轻轻压碎。你要注意不要让豌豆煮得太过糊状，但更重要的是不要煮得不够熟。如果豌豆不够软，koji的菌丝体将无法穿透它们的果肉并固定下来。',
+                en: 'Now return your attention to the peas. Once they’ve soaked, drain the water and get them cooking in a pot filled with double their volume of cold water. Bring the water to a boil, then reduce the heat to a bare simmer, skimming any foam that accumulates on the surface. Cook the peas until they are soft enough to crush between your thumb and forefinger with light pressure, 45 to 60 minutes. You want to take care not to let the peas overcook to the point of mushiness, but even more important is not undercooking them. If the peas aren’t soft enough, the koji’s mycelium won’t be able to penetrate their flesh and take hold.'
+              },
+              {
+                zh: '豌豆煮熟后，沥干水分并冷却至体温。冷却后，称出 1.125 公斤煮熟的豌豆，放入一个大碗中，与 600 克烤碎的小麦充分混合。',
+                en: 'Once the peas are cooked, drain them and allow them to cool to body temperature. Once cool, weigh out 1.125 kilograms of cooked peas, place in a large bowl, and thoroughly mix them with 600 grams of the toasted and cracked wheat.'
+              },
+              {
+                zh: '*Furrow the peas and wheat into rows as you would when making barley koji.*',
+                en: '*Furrow the peas and wheat into rows as you would when making barley koji.*'
+              },
+              {
+                zh: '现在是时候接种koji孢子了。Koji有两种形式：要么是涂有Aspergillus oryzae孢子的大麦或大米，要么只是孢子本身。它有各种包装尺寸，可在网上和家庭酿酒店购买（请参阅来源）。然而，一旦您制作了自己的koji，您也可以培养自己的孢子以供将来使用（请参阅“收获您自己的孢子”）。',
+                en: 'Now it’s time to inoculate with the koji spores.Koji tanecomes in two forms: either as barley or rice coated withAspergillus oryzaespores, or simply as the spores themselves. It’s available in various package sizes online and from home-brewing shops (seeSources). However, once you make your own koji, you can also grow your own spores for future use (see “Harvesting Your Own Spores”).'
+              },
+              {
+                zh: '在孵化盘（由雪松或穿孔金属或塑料制成）上铺上干净、微湿的毛巾。将豌豆和小麦的混合物铺在毛巾上。使用滤茶器或糖粉摇瓶，将孢子筛过小麦和豌豆。 （确切的方法会根据您获得的koji品种而有所不同；有关详细说明，请参阅珍珠薏米Koji食谱。）',
+                en: 'Line the incubating tray (made of cedar or perforated metal or plastic) with a clean, lightly dampened towel. Spread the mixture of peas and wheat onto the towel. Using a tea strainer or powdered-sugar shaker, sift the spores over the wheat and peas. (The exact method will vary depending on the type of koji tane you’ve acquired; see thePearl Barley Kojirecipe, for detailed instructions.)'
+              },
+              {
+                zh: '将发酵室设置为 25°C/77°F，然后将托盘滑入其中，确保它不会位于发酵室底部或离热源太近。让腔室稍微打开，让新鲜空气进入并排出热量。室内温度升至 30°C/86°F 是可以的，但尽量不要让它变得更高。',
+                en: 'Set your fermentation chamber to 25°C/77°F and slide the tray inside, making sure it doesn’t sit on the bottom of the chamber or too close to the heat source. Leave the chamber open slightly to allow fresh air in and heat out. It’s all right for the temperature in the chamber to rise as high as 30°C/86°F, but try not to let it get any warmer than that.'
+              },
+              {
+                zh: '*Yellow Pea Shoyu, day 1*',
+                en: '*Yellow Pea Shoyu, day 1*'
+              },
+              {
+                zh: '*Day 14*',
+                en: '*Day 14*'
+              },
+              {
+                zh: '*Day 45*',
+                en: '*Day 45*'
+              },
+              {
+                zh: '*Day 120*',
+                en: '*Day 120*'
+              },
+              {
+                zh: '24小时后，戴上手套，用手将koji打散并翻转，然后将其犁成三行，就像农田里的土堆一样。将koji放回发酵室中再发酵 24 小时，这次将温度提高至 29°C/84°F。到第 48 小时，如果您使用的是黑化（非白化）曲霉菌株，孢子将具有明显的色调，您会看到相当剧烈的颜色变化。',
+                en: 'After the first 24 hours, put on gloves and use your hands to break up and turn the koji, then furrow it into three rows, like mounds in a farmer’s field. Place the koji back into the fermentation chamber for another 24 hours, this time increasing the heat to 29°C/84°F. By hour 48, if you’re using a melanistic (non-albino) strain ofAspergillus, the spores will have a distinct hue and you’ll see a fairly drastic color change.'
+              },
+              {
+                zh: '接下来，您需要将koji浸泡在盐水中。将 950 克水煮沸，加入盐，搅拌溶解。从火上移开，加入剩余的水以冷却盐水。',
+                en: 'Next, you need to soak the koji in brine. Bring 950 grams of the water to a boil, add the salt, and whisk to dissolve. Remove from the heat and add the rest of the water to cool down the brine.'
+              },
+              {
+                zh: '将koji粉碎放入发酵容器中。 Shoyu 传统上是在称为 akioke 的雪松桶中制成的。如果你能接触到一个小东西，你就会拥有更多的力量。否则，任何具有宽口和直边的非反应性容器都可以。容量约为 6 升的食品安全桶或玻璃罐就可以了。',
+                en: 'Crumble the koji into the fermentation vessel. Shoyu is traditionally made in a cedar vat called akioke. If you have access to a small one, more power to you. Otherwise, any nonreactive container with a wide mouth and straight sides will do. A food-safe bucket or glass jar of about 6-liter capacity will work fine.'
+              },
+              {
+                zh: '确保盐水冷却至 35°C/95°F 以下，然后将其倒在 koji 上，并用搅拌器充分搅拌。称量容器及其内容物的重量，并将该数字保存在您会记住的地方 - 稍后您会需要它。',
+                en: 'Make sure the brine has cooled below 35°C/95°F, then pour it over the koji and give it a good stir with a whisk. Weigh the vessel with its contents and keep that number somewhere you’ll remember—you’ll need it later.'
+              },
+              {
+                zh: '将一张保鲜膜放在混合物顶部，与其表面直接接触，然后用稍微半开的宽松盖子或用橡皮筋固定的透气毛巾盖住容器。无论哪种方式，都要确保气体能够逸出。让 themoromi（我们制作的混合物的日语术语）在比正常室温稍冷、湿度正常的地方发酵 4 个月。前两周，每天用搅拌器充分搅拌醪一次。之后，每周搅拌一次。每当搅拌时，用干净的勺子尝一下醪的味道，检查搅拌的进度。它每周都会变得更加美味，随着时间的推移，咸味、烘烤的味道会变得越来越明显。',
+                en: 'Place a sheet of plastic wrap on top of the mixture in direct contact with its surface, then cover the container with either a loose-fitting lid left slightly ajar or a breathable towel secured with a rubber band. Either way, make sure that gas can escape. Let themoromi(the Japanese term for the mixture we’ve made) ferment for 4 months in a place that’s slightly cooler than normal room temperature, with normal humidity. For the first 2 weeks, give the moromi a good stir with a whisk once a day. After that, stir once a week. Whenever you stir, give the moromi a taste with a clean spoon to check on its progress. It will grow more delicious every week, with savory, roasted flavors becoming increasingly pronounced over time.'
+              },
+              {
+                zh: '您可能会注意到 shoyu 上的表面霉菌正在生长。很可能是koji本身再次发芽，但也可能是卡姆酵母。如果您不太熟悉，无法区分其中的差异，只需略过即可。',
+                en: 'You may notice surface mold growing on your shoyu. In all likelihood, it will be the koji itself sprouting again, but it may also be kahm yeast. If you’re not familiar enough to know the difference, simply skim it off.'
+              },
+              {
+                zh: '*Peas and wheat inoculated withAspergillus sojae, hour 1*',
+                en: '*Peas and wheat inoculated withAspergillus sojae, hour 1*'
+              },
+              {
+                zh: '4 个月后，醪会看起来像深棕色、浓稠、厚实的苹果酱。 shoyu就在那里，隐藏在粘稠的混乱中，但你需要将其提取出来。',
+                en: 'After 4 months, the moromi will look like a dark brown, thick, chunky applesauce. The shoyu is in there, hiding in that viscous mess, but you’ll need to extract it.'
+              },
+              {
+                zh: '首先，为了创造更流畅的稠度并平衡shoyu的味道，您需要计算蒸发损失了多少水并将其添加回来。这就是醪的起始重量发挥作用的地方。再次称量容器及其内容物，并从起始重量中减去该重量。再加入适量的冷水。',
+                en: 'First, in order to create a more fluid consistency and to balance the flavor of the shoyu, you need to calculate how much water was lost to evaporation and add it back in. This is where the starting weight of the moromi comes into play. Weigh the vessel and its contents again and subtract that weight from the starting weight. Add that amount of cold water back in.'
+              },
+              {
+                zh: '*Hour 48*',
+                en: '*Hour 48*'
+              },
+              {
+                zh: '小型苹果酒压榨机是从醪中提取shoyu的最佳选择。将醪放入网袋中，像压水果一样压榨果汁。然而，你也可以用布巾挤压醪：分批工作，将醪放入干净、坚固的布巾中（你愿意牺牲它），然后在一个大碗或容器上拧干，直到只剩下干果肉为止。如果您无法用手将糊状物充分干燥，您还可以将装满醪的毛巾放入漏勺或意大利面锅中的蒸锅内。在上面堆放一些干净的重物，然后将其排入容器中，直到糊状物干燥。如果您愿意，您可以将冰箱中剩余的果肉保存到下一批 shoyu 中（大约总重量的 10% 即可），为其提供健康的启动。',
+                en: 'A small cider press is the best option for extracting the shoyu from the moromi. Place the moromi in a mesh bag and press it as you would fruits for their juice. However, you can also squeeze the moromi in a cloth towel: Working in batches, scoop the moromi into a clean, sturdy cloth towel (that you’re willing to sacrifice) and wring it out over a large bowl or receptacle until you’re left with nothing but dry pulp. If you can’t get the mash dry enough by hand, you can also set the moromi-filled towel inside a colander or the steamer insert from a pasta pot. Stack some clean weights on top and let it drain into a container until the mash is dry. If you like, you can save the leftover pulp in the freezer toBackslopinto the next batch of shoyu (around 10% of the total weight should do), giving it a healthy kick-start.'
+              },
+              {
+                zh: '提取完所有shoyu后，再次通过衬有粗棉布的筛子过滤。 shoyu 非常稳定，可以在冰箱的密封容器中保存数月，也可以冷冻以延长保存时间。',
+                en: 'Once you’ve extracted all the shoyu, strain it again through a sieve lined with cheesecloth. The shoyu is quite stable and can be stored in airtight containers in the refrigerator for months, or you can freeze it for longer storage.'
+              },
+              {
+                zh: '1. 1. 将小麦烤至很黑。',
+                en: '1. 1. Toast the wheat until very dark.'
+              },
+              {
+                zh: '1. 2. 将小麦粗碎。',
+                en: '1. 2. Coarsely crack the wheat.'
+              },
+              {
+                zh: '1. 3. 将泡好的豌豆煮至软，但不要煮过头。',
+                en: '1. 3. Cook the soaked peas until soft but not overcooked.'
+              },
+              {
+                zh: '1. 4. 将豌豆和小麦混合在一起。',
+                en: '1. 4. Mix the peas and wheat together.'
+              },
+              {
+                zh: '1. 5. 用koji孢子接种混合物并孵育2天。',
+                en: '1. 5. Inoculate the mixture with koji spores and incubate for 2 days.'
+              },
+              {
+                zh: '1. 6. 将成品豌豆和小麦koji转移至发酵容器中。',
+                en: '1. 6. Transfer the finished pea-and-wheat koji to a fermentation vessel.'
+              },
+              {
+                zh: '1. 7. 盖上盐水，发酵4个月。',
+                en: '1. 7. Cover with brine and ferment for 4 months.'
+              },
+              {
+                zh: '1. 8. 补充因蒸发而损失的所有液体。',
+                en: '1. 8. Replace any liquid lost to evaporation.'
+              },
+              {
+                zh: '1. 9. 过滤混合物（又名 moromi）并收获shoyu。',
+                en: '1. 9. Strain the mixture (aka moromi) and harvest the shoyu.'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: 'Shoyu-牡蛎乳液',
+              en: 'Shoyu-Oyster Emulsion'
+            },
+            answer: [
+              {
+                zh: '牡蛎是一种令人惊讶的美味和高效的乳化剂，海洋盐水和泥土鲜味的结合效果非常好。取一打小牡蛎——当然，尽可能新鲜，而且绝对没有预先去壳——然后将它们放入搅拌机中。在shoyu中加入一半体积（你可以目测其数量），再加上半个柠檬汁。打开搅拌机，慢慢淋入中性植物油，直到混合物像蛋黄酱一样混合在一起。',
+                en: 'Oysters are a surprisingly delicious and efficient emulsifier, and the combination of ocean brine and earthy umami works quite well. Take a dozen small oysters—as fresh as you can find, of course, and definitely not preshucked—and shuck them into a blender. Add half their volume in shoyu (you can just eyeball the amount), plus the juice of half a lemon. Turn on the blender and slowly drizzle in a neutral vegetable oil until the mixture comes together like a mayonnaise.'
+              },
+              {
+                zh: '这种乳液非常适合搭配松脆的蔬菜。将半根芹菜根切丝，用盐充分调味。盖上盖子静置 30 分钟，去除部分水分。然后，将切丝紧紧地握在拳头中，以提取更多的液体，然后在芹菜根上涂上大量的乳液、更多的柠檬汁和一把切碎的细香葱，制成美味的芹菜蛋黄酱，您可以单独享用或作为配菜享用。',
+                en: 'This emulsion is superb with crunchy vegetables. Julienne half a celery root and season it liberally with salt. Let it sit, covered, for 30 minutes to pull out some of the moisture. Afterward, squeeze the julienne tightly in your fist to extract even more liquid, then dress the celery root liberally with the emulsion, a bit more lemon juice, and a fistful of chopped chives for a smashingcéleri rémouladethat you can enjoy on its own or as a side dish.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期12>-酪乳炸鸡',
+              en: 'Shoyu-Buttermilk Fried Chicken'
+            },
+            answer: [
+              {
+                zh: '关于如何正确准备炸鸡有许多不同的理念。假设您不喜欢任何特定的风格，请尝试这个简单的方法：用等量的酪乳和shoyu制作腌料，然后将鸡腿浸泡在其中过夜。第二天，将鸡肉从浴缸中取出，抖掉多余的腌料，并在鸡肉块上撒上面粉。将它们重新浸入酪乳-shoyu 混合物中，然后再次浸入面粉中，然后在 175°C/350°F 的油中油炸。',
+                en: 'There are many different philosophies about how to properly prepare chicken for frying. Assuming you’re not married to any particular style, try this simple method: Make a marinade of equal parts buttermilk and shoyu and soak chicken legs in it overnight. The following day, remove the chicken from its bath, shaking off any excess marinade, and dredge the pieces in flour. Dip them back into the buttermilk-shoyu mixture, then again into the flour, before deep-frying in 175°C/350°F oil.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期12>焦糖色',
+              en: 'Shoyu Caramel'
+            },
+            answer: [
+              {
+                zh: '对于咸甜甜点配料，请尝试将黄豌豆 shoyu 加入焦糖中。在一个中型锅中，加入 100 克水和 250 克糖。将混合物煮沸，偶尔搅拌以确保糖均匀融化，尤其是边缘周围。 5 到 10 分钟后，糖应完全溶解成浅琥珀色糖浆。 （糖果温度计的读数应为 120°C/248°F。）添加 50 克 shoyu 和 200 克浓奶油，并降低热量，同时不断折叠内容物以防止其起泡或燃烧。煮 3 分钟，然后关闭炉子并转移到耐热容器中。您可以将焦糖盖上盖子存放在冰箱中，这样它会变稠。每当您需要装饰苹果派、松饼、羊角面包或任何您喜欢咸甜口味的东西时，都可以将其拉出来。',
+                en: 'For a salty-sweet dessert topping, try incorporating yellow pea shoyu into caramel. In a medium pot, combine 100 grams water and 250 grams sugar. Bring the mixture to a boil, stirring occasionally to ensure that the sugar is melting evenly, especially around the edges. After 5 to 10 minutes the sugar should be completely dissolved into a light amber syrup. (A candy thermometer should read 120°C/248°F.) Add 50 grams shoyu and 200 grams heavy cream, and reduce the heat while constantly folding the contents to stop them from foaming or burning. Cook for 3 minutes before pulling off the stove and transferring to a heatproof container. You can store the caramel, covered, in the fridge, where it will thicken up quite a bit. Pull it out whenever you need to dress an apple pie, muffins, croissants, or just anything your salty-sweet tooth desires.'
+              },
+              {
+                zh: '*Whisk shoyu and cream into caramelized sugar to make shoyu caramel.*',
+                en: '*Whisk shoyu and cream into caramelized sugar to make shoyu caramel.*'
+              },
+              {
+                zh: '*Wild dryad’s saddle mushrooms make a shoyu with a pronounced earthy, forest flavor.*',
+                en: '*Wild dryad’s saddle mushrooms make a shoyu with a pronounced earthy, forest flavor.*'
+              },
+              {
+                zh: '<!-- text/part0011_split_006.html -->',
+                en: '<!-- text/part0011_split_006.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '05-yellow-peaso',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '黄色<学期18>',
+      en: 'Yellow Peaso'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '黄色<学期18>',
+          en: 'Yellow Peaso'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 2.5 kilograms**',
+            en: '**Makes 2.5 kilograms**'
+          },
+          {
+            zh: '用黄豌豆制成的Miso是Noma的一个启示。当第一批“peaso”进入厨房时，当时工作的许多厨师完全迷上了这种新混合物，并找到任何借口尽可能地使用它。它的用途是无限的，一旦你意识到这里或那里一勺的潜力，你将永远无法回到没有它做饭的时代。',
+            en: 'Miso made with yellow peas was a revelation at Noma. When the first batches of “peaso” made their way around the kitchen, many of the cooks working at the time became completely enamored of the new concoction, and found any excuse to use it wherever they could. It’s boundlessly versatile, and once you realize the potential of a spoonful here or there, you’ll never be able to go back to a time when you cooked without it.'
+          },
+          {
+            zh: '制作peaso表面上很简单，但由于发酵时间太长，所以需要注意过程，因为小细节会导致结果的巨大差异。本食谱包含详细说明，但请务必阅读上一节中解释的各个控制点。',
+            en: 'Making peaso is ostensibly straightforward, but because it ferments for such a long time, you’ll need to pay attention to the process, because small details will lead to big differences in the outcome. This recipe contains detailed instructions, but please be sure to read about the various points of control explained in the preceding section as well.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '800 克干黄豌豆',
+            en: '800 grams dried yellow split peas'
+          },
+          {
+            zh: '1 公斤珍珠薏米 Koji',
+            en: '1 kilogramPearl Barley Koji'
+          },
+          {
+            zh: '**100 grams non-iodized salt, plus extra for sprinkling**',
+            en: '**100 grams non-iodized salt, plus extra for sprinkling**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '首先，您需要一种将豌豆磨成粗粉的方法，例如绞肉机或食品加工机。',
+                en: 'First, you’ll need a means of grinding the peas into a coarse meal, such as a meat grinder or food processor.'
+              },
+              {
+                zh: 'peaso 将在容量约为 5 升的非反应性（玻璃、塑料、陶瓷或未经处理的木材）发酵容器中发酵。您需要用重物压下peaso，并用粗棉布或干净的厨房毛巾覆盖它。我们还建议您在用手工作时戴上无菌手套，并对所有设备进行彻底清洁和消毒（请参阅清洁、病原体和安全）。',
+                en: 'The peaso will ferment in a nonreactive (glass, plastic, ceramic, or untreated wood) fermentation vessel of about 5-liter capacity. You’ll need to press the peaso down with weights and cover it with cheesecloth or a clean kitchen towel. We also recommend you wear sterile gloves when working with your hands and that all your equipment be thoroughly cleaned and sanitized (seeCleanliness, Pathogens, and Safety).'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '*The peas should bejustcooked—easily squished between two fingers but not mushy.*',
+                en: '*The peas should bejustcooked—easily squished between two fingers but not mushy.*'
+              },
+              {
+                zh: '将干豌豆在室温下用冷水浸泡4小时以补充水分。使用两倍于豌豆体积的水，因为它们会吸收大量的水；你不希望任何豌豆在水位线以上保持干燥。豌豆浸泡后，沥干水分，放入大锅中，然后再次倒入两倍体积的冷水。将水煮沸，然后将火调至小火慢炖，撇去浮到表面的淀粉泡沫。煮 45 到 60 分钟，每 10 分钟左右搅拌一次，直到豌豆足够软，可以在拇指和食指之间压碎，而无需施加太多压力。',
+                en: 'Soak the dried peas in cold water for 4 hours at room temperature to rehydrate them. Use double the peas’ volume in water as they’ll absorb a good amount of it; you don’t want any peas left dry above the water line. Once the peas have soaked, drain them, place them in a large pot, and cover again with double their volume of cold water. Bring the water to a boil, then reduce the heat to a bare simmer, skimming away any starchy foam that rises to the surface. Cook for 45 to 60 minutes, stirring every 10 minutes or so, until the peas are soft enough to crush between your thumb and forefinger without applying much pressure.'
+              },
+              {
+                zh: '将豌豆沥干并将其铺在烤盘上冷却至室温。豌豆冷却后，称重。你应该有接近 1.5 公斤，但豌豆在浸泡和烹饪过程中吸收的水量总是会有所不同。如果您的豌豆超过 1.5 公斤，您可以将多余的豌豆留作其他用途。如果您的重量少于 1.5 公斤（或者您想使用多余的重量），则只需调整其他成分的比例即可。 koji所需量为煮熟豌豆重量的66.6%；含盐量为6.6%。例如，如果您最终得到 1.3 公斤煮熟的豌豆，请将 koji 的量从 1 公斤减少到 866 克，将盐从 100 克减少到 86 克。如果您希望您的peaso达到我们预期的效果，那么您应该遵守这些准确的比例。',
+                en: 'Drain the peas and spread them on a baking sheet to cool to room temperature. Once the peas are cooled, weigh them. You should have close to 1.5 kilograms, but the amount of water the peas absorb in the soaking and cooking process will always vary. If you’ve got more than 1.5 kilos, you can set the extra peas aside for another use. If you have less than 1.5 kilos (or if you want to use any excess), you’ll simply need to adjust the ratio of the other ingredients. The amount of koji needed is 66.6% of the weight of the cooked peas; the salt is 6.6%. If, for instance, you wind up with 1.3 kilograms of cooked peas, reduce the amount of koji from 1 kilogram to 866 grams, and the salt from 100 grams to 86 grams. These are exact ratios that you should adhere to if you want your peaso to turn out the way we’ve intended.'
+              },
+              {
+                zh: '*Break up the koji in a food processor.*',
+                en: '*Break up the koji in a food processor.*'
+              },
+              {
+                zh: '要使用<术语5>混合或捣碎豌豆，最好的选择是使用干净、消毒的绞肉机。首先，戴上一副乳胶或丁腈手套，将煮熟的豌豆放入料斗中，然后用中型模具将其研磨到一个非常大的碗或容器中。接下来，研磨koji并将其添加到豌豆中。 （或者，你可以使用食品加工机，但要小心不要过度加工。你的目标不是做成果泥——粗粮就足够了。作为最后的手段，如果你没有绞肉机或食品加工机，你可以用大研钵和研杵将豌豆捣碎，然后用手将koji弄碎。）',
+                en: 'To blend or mash the peas with the koji, the best option is to use a clean, sanitized meat grinder. First, put on a pair of latex or nitrile gloves, place the cooked peas into the hopper, and grind them with a medium die into a very large bowl or container. Next, grind the koji and add it to the peas. (Alternatively, you can use a food processor, but be careful that you don’t overprocess things. You’re not aiming for a puree—a coarse meal will suffice. As a last resort, if you don’t have a meat grinder or food processor, you can mash the peas in a large mortar and pestle and crumble the koji by hand.)'
+              },
+              {
+                zh: '*Peaso mixture that is too dry crumbles when squeezed.*',
+                en: '*Peaso mixture that is too dry crumbles when squeezed.*'
+              },
+              {
+                zh: '用手将豌豆粉和<术语5>充分混合，然后检查质地和水分含量：挤压一小把混合物。如果它很容易形成一个紧凑的球，那就很好了。如果混合物碎裂，则说明它太干，您需要添加一些水来补充水分。然而，保持 4% 的盐比例至关重要，因此添加到混合物中的任何液体都应具有相同的盐含量。使用手持式搅拌机将 4 克盐加入 100 克水中，快速制作 4% 盐水，或搅拌直至盐完全溶解。一次一点地添加到豌豆混合物中，直到达到合适的质地。',
+                en: 'Give the ground peas and koji a good mixing by hand, then check the texture and moisture content: Squeeze a small handful of the mixture. If it easily forms a compact ball, you’re good. If the mixture crumbles, it’s too dry and you’ll need to add some water to hydrate it. However, it’s vital that you maintain the 4% salt ratio, so any liquid you add to the mixture should have the same salt content. Make a quick 4% salt brine by blending 4 grams salt into 100 grams water with a handheld blender or whisk until the salt has completely dissolved. Add a little bit at a time to the pea mixture, until you’ve achieved the proper texture.'
+              },
+              {
+                zh: '*Peaso mixture that is too wet squishes and oozes when squeezed.*',
+                en: '*Peaso mixture that is too wet squishes and oozes when squeezed.*'
+              },
+              {
+                zh: '如果挤压时混合物从手中渗出，则说明混合物太湿；豌豆可能煮过头或沥干不当。太湿比太干更难纠正，但并非不可能。将混合物均匀地铺在衬有羊皮纸的烤盘上，并在烤箱或脱水机中低温（40°C/104°F）干燥，经常进行挤压测试，直到达到您想要的质地。',
+                en: 'If the mixture oozes out of your hand when squeezed, it’s too wet; the peas may have been overcooked or improperly drained. Too wet is more difficult to correct than too dry, but not impossible. Spread the mixture on a parchment-lined baking sheet in a thin, even layer and dry in an oven or a dehydrator at a low temperature (40°C/104°F), giving it the squeeze test frequently, until it reaches the texture you’re looking for.'
+              },
+              {
+                zh: '一旦您对混合物的质地感到满意，就加入盐并再次彻底混合。 （如果您的豌豆重量超过 1.5 公斤，请记住调整盐的量。）现在是时候收拾peaso了。',
+                en: 'Once you’re happy with the texture of the mixture, add the salt and mix it thoroughly once more. (Remember to adjust the quantity of salt if your peas weighed anything other than 1.5 kilograms.) Now it’s time to pack away the peaso.'
+              },
+              {
+                zh: '在Noma，我们在食品安全塑料桶中发酵peaso，尽管玻璃或陶瓷罐也可以很好地发挥作用。如果您有雪松发酵桶，请随意使用它，但请确保木材未经处理。',
+                en: 'At Noma we ferment our peaso in food-safe plastic buckets, although a glass or ceramic jar will work well, too. If you have access to a cedar fermenting vat, feel free to use it, but be sure that the wood is untreated.'
+              },
+              {
+                zh: '一次戴上一把手套，将peaso转移到发酵容器中并尽可能紧密地包装。从容器的边缘开始，将空气排出，然后向中心移动。每次添加后用拳头将混合物打碎，以确保其包装完好。将peaso 的顶部光滑并压平，并在表面轻轻撒上盐，以​​帮助防止霉菌形成。将一张保鲜膜放在顶部，与peaso直接接触，确保其一直到达边缘。最后，用干净的纸巾擦拭容器壁。',
+                en: 'Working one gloved handful at a time, transfer the peaso to the fermentation vessel and pack it as tightly as possible. Start at the edges of the container, forcing any air out, then work your way toward the center. Punch the mixture down with your fists after each addition to ensure that it’s well packed. Smooth and flatten the top of the peaso and lightly sprinkle the surface with salt to help prevent mold from forming. Place a sheet of plastic wrap over the top, in direct contact with the peaso, making sure it reaches all the way to the edges. Finally, wipe down the walls of the container with a clean paper towel.'
+              },
+              {
+                zh: '现在你需要减轻peaso的权重。当peaso发酵并产生酱油时，重量将使混合物浸没在液体中，就像酸菜等lacto发酵物在其汁液下休息一样。如果您愿意，您可以在线购买专门设计的发酵重量，以适合您的发酵容器的周长。否则，最简单的方法是使用紧贴发酵容器的扁平餐盘。如果您使用盘子，请记住，随着时间的推移，盘子会下沉，最终您需要将其取下，因此请确保它不会太紧，否则您将无法将其取出。将板正面朝上放在peaso顶部，然后用手将其按下。现在采购一块石头、一块砖头或几个罐头，其重量大约是<术语17>的一半——大约1.5公斤。将重物放入塑料袋中以保持卫生，并将其均匀地分布在盘子上。',
+                en: 'Now you’ll need to weight down the peaso. As the peaso ferments and yields tamari, the weight will keep the mixture submerged in liquid in the same way that a lacto-ferment like sauerkraut rests beneath its juices. If you like, you can purchase specially designed fermentation weights online that will fit the circumference of your fermentation vessel. Otherwise, the simplest method is to use a flat dinner plate that fits inside your fermentation vessel snugly. If you’re using a plate, bear in mind that the plate will sink over time and that eventually you’ll need to remove it, so be sure it doesn’t fittoosnugly or you won’t be able to take it out. Place the plate right-side up on top of the peaso and press it down with your hand. Now procure a rock, a brick, or a few cans that weigh roughly half as much as the peaso—about 1.5 kilograms. Place the weights in plastic bags to keep things sanitary and distribute them evenly over the plate.'
+              },
+              {
+                zh: '您也可以放弃平板法，而使用装有 3 升水的拉链袋或真空袋。 （在此方法中，您需要使用更多的重量，因为一些压力将向外分散到容器壁上，而不是直接向下作用在peaso上。）将水用双层袋装以避免泄漏，并将袋子放在peaso上。',
+                en: 'You can also forgo the plate method in favor of zip-top or vacuum bags filled with a total of 3 liters of water. (You need to use more weight in this method because some of the pressure will be spread outward against the walls of the container and not directly down on the peaso.) Double-bag the water to avoid leakage and lay the bags over the peaso.'
+              },
+              {
+                zh: '用干净的厨房毛巾或粗棉布盖住容器，并用几根大橡皮筋固定。',
+                en: 'Cover the container with a clean kitchen towel or cheesecloth and secure it with a couple of large rubber bands.'
+              },
+              {
+                zh: '您的 peaso 将在室温下在厨房柜台上进行良好的发酵，但在 Noma 时，我们会在 28°C/82°F 的专用房间中将 peaso 陈化约 3 个月。在这两种情况下，它都应该能很好地老化，尽管在室温下可能需要额外一个月的时间，如果您愿意，您当然可以将其放置更长时间。我们在 Noma 进行了非常长的 peaso 实验，结果很有趣。发酵时间越长，它就会变得越丰富，色调越深、越泥土，但我们真的更喜欢三个月大的peaso的多功能性。',
+                en: 'Your peaso will do fine fermenting on your kitchen counter at room temperature, but at Noma we age our peaso in a dedicated room held at 28°C/82°F for about 3 months. It should age well in either scenario, although an extra month might be necessary at room temperature, and you can certainly leave it even longer than that, if you like. We’ve run really long peaso experiments at Noma, and the results have been interesting. It gets much richer, with darker, earthier tones, the longer it ferments, but we really prefer the versatility of 3-month-old peaso.'
+              },
+              {
+                zh: '3 或 4 天后检查peaso的进度。它看起来与你开始时没有什么不同。如果有的话，它会稍微更芳香一些。如果是这样的话，那就很顺利了。如果你发现它像乳酸发酵一样酸化，上面有很多酱油，这意味着你的混合物太湿了，你必须重新开始。如果您在透明容器中发酵，您可能会注意到整个 peaso 过程中形成了小气泡。这些是正常发酵过程的一部分；随着时间的推移，它们会消退。',
+                en: 'Check the peaso’s progress after 3 or 4 days. It won’t look all that different from when you started. If anything, it will be slightly more aromatic. If that’s the case, it’s going well. If you notice it souring like a lactic ferment, with a lot of tamari pooling on top, it means your mixture was too wet and you’ll have to start over. If you’re fermenting in a clear container, you may notice small air pockets forming throughout the peaso. These are part of the normal fermentation process; they will subside over time.'
+              },
+              {
+                zh: '最初几周后，每周或每两周打开 peaso 检查其进度。一定要戴手套以避免引入污染物。有时，您可能会发现表面长出白色霉菌。那完全没问题。根据我们的经验，通常是一小块koji成功地在混合物的暴露部分上立足。但即使是另一个模具，如果miso包裹得很紧，模具也无法穿透表面。当您需要品尝peaso时，将一点霉菌刮到侧面以进入下面，但在收获整批之前不要将其完全去除，以免更多的霉菌回到原来的位置。',
+                en: 'After the first couple of weeks, open the peaso every week or two to check its progress. Be sure to wear gloves to avoid introducing contaminants. At some point, you may find white mold growing on the surface. That’s totally fine. In our experience, it’s usually a patch of koji that has managed to grab a foothold on an exposed portion of the mixture. But even if it’s another mold, if the miso is packed tightly, the mold won’t be able to penetrate the surface. When you need to taste the peaso, scrape a bit of the mold to the side to get underneath, but don’t remove it completely until you harvest the whole batch, lest more come back in its place.'
+              },
+              {
+                zh: '当质地显着软化、盐味稍微消退、各种甜味、坚果味出现时，peaso 就完成了——通常需要 3 到 4 个月的时间。它应该具有温和的酸度，但又不过分酸。 peaso 的质地会有点结块，因此，如果您想要非常光滑的糊状物，请将 peaso 在食品加工机中混合 - 如果需要，添加一点水以帮助其旋转 - 如果您想要真正柔软的质地，则可以将其通过塔米斯。',
+                en: 'The peaso is finished when the texture has softened significantly, the taste of salt has subsided slightly, and all manner of sweet, nutty tones have emerged—usually somewhere between 3 and 4 months. It should have a mild acidity without being overly sour. The texture of the peaso will be slightly nubby, so if you’d prefer a very smooth paste, blend the peaso in a food processor—add a bit of water to help it spin, if necessary—after which you can pass it through a tamis if you’re looking for a truly velvety texture.'
+              },
+              {
+                zh: '您可以将peaso装入密封罐或容器中，并存放在冰箱中以供一个月内使用。如果超过这个时间，我们建议您将其存放在冰箱中，以保持其味道最新鲜；只需在需要时将其拉出即可。',
+                en: 'You can pack the peaso into airtight jars or containers and store them in the fridge for use within the month. Any longer than that and we suggest you store it in the freezer to keep its flavor freshest; just pull it out as you need it.'
+              },
+              {
+                zh: '*Yellow Peaso, day 1*',
+                en: '*Yellow Peaso, day 1*'
+              },
+              {
+                zh: '*Day 14*',
+                en: '*Day 14*'
+              },
+              {
+                zh: '*Day 30*',
+                en: '*Day 30*'
+              },
+              {
+                zh: '*Day 60*',
+                en: '*Day 60*'
+              },
+              {
+                zh: '*Day 90*',
+                en: '*Day 90*'
+              },
+              {
+                zh: '1. 1. 将豌豆放入至少两倍体积的水中浸泡、冲洗并煮。',
+                en: '1. 1. Soak, rinse, and cook peas in at least double their volume in water.'
+              },
+              {
+                zh: '1. 2. 将豌豆沥干并冷却，然后加工或研磨成粗粉。',
+                en: '1. 2. Drain and cool the peas, then process or grind them into a coarse meal.'
+              },
+              {
+                zh: '1. 3. 称出koji中煮熟的豌豆重量的66.6%，并加工或研磨。',
+                en: '1. 3. Measure out 66.6% of the cooked peas’ weight in koji, and process or grind it as well.'
+              },
+              {
+                zh: '1. 4. 将豌豆和 koji 与占其总重量 4% 的盐彻底混合。',
+                en: '1. 4. Thoroughly mix together the peas and koji with 4% of their combined weight in salt.'
+              },
+              {
+                zh: '1. 5. 将混合物紧紧装入发酵容器中。',
+                en: '1. 5. Pack the mixture tightly into a fermentation vessel.'
+              },
+              {
+                zh: '1. 6. 在peaso 的顶部撒上盐，以​​帮助防止表面霉菌生长。',
+                en: '1. 6. Sprinkle the top of the peaso with salt to help prevent surface mold growth.'
+              },
+              {
+                zh: '1. 7. 在表面覆盖一层保鲜膜。',
+                en: '1. 7. Cover the surface with a layer of plastic wrap.'
+              },
+              {
+                zh: '1. 8. 降低<术语17>的权重。',
+                en: '1. 8. Weight down the peaso.'
+              },
+              {
+                zh: '1. 9. 用透气布覆盖容器并用橡皮筋固定。',
+                en: '1. 9. Cover the vessel with a breathable cloth and secure with a rubber band.'
+              },
+              {
+                zh: '1. 10. 让混合物发酵至少 3 个月。',
+                en: '1. 10. Allow the mixture to ferment for a minimum of 3 months.'
+              },
+              {
+                zh: '1. 11. 刮掉peaso 顶部可能形成的任何霉菌。',
+                en: '1. 11. Scrape away any mold that may haveformed on top of the peaso.'
+              },
+              {
+                zh: '1. 12. 从容器中取出peaso并将其装入干净的容器中并存放在冰箱或冰柜中。',
+                en: '1. 12. Remove the peaso from the vessel and pack it into clean containers and store it in the refrigerator or freezer.'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期18> 酱油还原',
+              en: 'Peaso Tamari Reduction'
+            },
+            answer: [
+              {
+                zh: '当我们开始制作peaso时，首先引起我们注意的事情之一就是在发酵过程中会在顶部聚集的令人难以置信的酱油。它保持鲜味、咸味、甜味和酸度的完美糖浆平衡。问题是，它永远不够，所以我们设计了这个解决方法。',
+                en: 'One of the first things to grab our attention when we began making peaso was the incredible tamari that would pool on top during the fermenting process. It holds a perfect syrupy balance of umami, saltiness, sweetness, and acidity. The problem was, there was never enough of it, so we devised this workaround.'
+              },
+              {
+                zh: '在搅拌机中，将 130 克 peaso 彻底搅拌到 860 克水中，然后将混合物直接转移到可冷冻的塑料容器中。盖上盖子并冷冻过夜。',
+                en: 'In a blender, thoroughly pulse 130 grams peaso into 860 grams water and transfer the mixture directly to a freezer-safe plastic container. Cap it with a lid and freeze solid overnight.'
+              },
+              {
+                zh: '第二天，将砖块放入衬有粗棉布的筛子中，并将其放在碗上以收集解冻时的液体。当团块不再有液体时，丢弃果肉并将液体转移到炉子上的小锅中。慢慢减少液体，直到它覆盖勺子的背面。一旦冷却，peaso酱油还原将在冰箱中保存得很好，盖上盖子。',
+                en: 'The following day, place the brick in a cheesecloth-lined sieve and set it over a bowl to catch the liquid as it thaws. When the mass has no more liquid to surrender, discard the pulp and transfer the liquid to a small pot on the stove. Reduce the liquid slowly until it can coat the back of a spoon. Once cooled, peaso tamari reduction will keep extremely well, covered, in the fridge.'
+              },
+              {
+                zh: '您可以将 peaso 酱油汁与切碎的香草（如香菜或欧芹）结合起来，制成一种非常适合蒸蔬菜的香草酱。或者你可以将其与等量的澄清黄油一起搅拌，制成专为五花肉涂油而生的腌料。 Noma测试厨房中最喜欢的一餐绝对是一碗刚蒸好的米饭，淋上peaso酱油，上面放一勺鳟鱼子，或者，如果你感觉很奢侈，可以放几片肥硕的海胆。',
+                en: 'You can combine the peaso tamari reduction with finely minced herbs, like cilantro or parsley, to make an out-of-this-world herb paste that is great on steamed vegetables. Or you can whisk it together with an equal quantity of clarified butter for a marinade that was born for basting pork belly. The absolute favorite meal in the Noma test kitchen is a bowl of freshly steamed rice, drizzled with peaso tamari and topped with a spoonful of trout roe or, if you’re feeling luxurious, a few fat tongues of sea urchin.'
+              },
+              {
+                zh: '*Ice-clarifying a blend of peaso and water produces a savory liquid that will later reduce into one of the most potent and valuable ingredients in the Noma kitchen.*',
+                en: '*Ice-clarifying a blend of peaso and water produces a savory liquid that will later reduce into one of the most potent and valuable ingredients in the Noma kitchen.*'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '烤大蒜油的理想伴侣',
+              en: 'Roasted-Garlic Oil’s Ideal Companion'
+            },
+            answer: [
+              {
+                zh: 'miso中充足的糖在烤架上美丽地焦糖化，将其与美味的油结合将提供必要的脂肪，让这些糖起泡并变成棕色而不至于变干。烤蒜油是peaso的完美搭档。要制作烤大蒜油，请将 1 头大蒜去皮并压碎，然后将其放入小锅中。用两倍体积的中性植物油覆盖。将锅放在小火上，仔细观察，直到丁香开始快速冒泡。将火调至最低，煮 1 小时，然后将锅从火上移开，让油冷却至室温。冷却后，将丁香和油转移到有盖的容器中并冷藏过夜。滤出油（蒜瓣留着备用）。将油和蒜瓣分别存放在冰箱的密封容器中。油将持续数周；丁香几天。',
+                en: 'The ample sugars in miso caramelize beautifully on the grill, and combining it with a flavorful oil will provide the fat necessary to let those sugars bubble and brown without drying out. Roasted-garlic oil is a perfect partner for peaso. To make roasted-garlic oil, peel and crush the cloves of 1 head of garlic, then place them in a small pot. Cover with twice their volume in neutral vegetable oil. Place the pot over low heat and watch carefully until the cloves start bubbling rapidly. Reduce the heat as low as it will go and cook for 1 hour, then remove the pot from the heat and let the oil cool down to room temperature. Once cool, transfer the cloves and oil to a covered container and refrigerate overnight. Strain the oil (saving the garlic cloves for whatever your heart desires). Store the oil and garlic cloves in separate airtight containers in the fridge. The oil will last for weeks; the cloves for a few days.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '大蒜-Peaso卷心菜',
+              en: 'Garlic-Peaso Cabbage'
+            },
+            answer: [
+              {
+                zh: '要了解大蒜油和 peaso 的强大组合的作用，请将其与一些卷心菜叶一起旋转。将叶子放入一锅调味高汤（如Koji高汤）中短暂焯烫，然后将其放入冰水中震荡。将叶子拍干，并在一侧涂上一层薄薄的搅拌机光滑的peaso（有关如何执行此操作的说明，请参阅下面Peaso黄油的配方）。在两面轻轻淋上烤大蒜油，然后用极高的热量将叶子peaso面朝下烤，直到peaso焦糖化并且边缘开始变脆。烤好的叶子可以单独食用，也可以粗略地切碎，与厚厚的酵母面包丁、太阳金番茄和凤尾鱼一起制成沙拉。',
+                en: 'To see the powerful combination of garlic oil and peaso in action, take it for a spin with some cabbage leaves. Briefly blanch the leaves in a pot of flavored stock (likeKoji Stock), then shock them in ice water. Pat the leaves dry and smear one side with a thin layer of blender-smoothed peaso (see the recipe forPeaso Butterbelow for instructions on how to do this). Drizzle roasted-garlic oil lightly over both sides and grill the leaves peaso-side down over very high heat until the peaso caramelizes and the edges begin to crisp. Serve the grilled leaves all on their own, or roughly chop them for a salad with thick sourdough croutons, Sun Gold tomatoes, and anchovies.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '大蒜-Peaso烤牛肉',
+              en: 'Garlic-Peaso Grilled Beef'
+            },
+            answer: [
+              {
+                zh: '大蒜油和peaso也很适合与牛肉搭配。将 1 份烤大蒜油与 3 份搅拌机打滑的<术语 17>（参见下文<术语 18>黄油）按体积搅拌，直至混合物乳化，制成腌料。在一块厚厚的你最喜欢的牛肉片上涂上混合物，然后将其在冰箱中腌制几个小时，然后进行烧烤。 （厚切是最好的，因为peaso中的盐实际上会开始腌制牛肉。）甚至不用费心擦去腌料，因为它是味道的强大来源，有助于形成美味的外皮。',
+                en: 'Garlic oil and peaso also play very nicely with beef. Make a marinade by whisking together 1 part roasted-garlic oil with 3 parts blender-smoothed peaso (see Peaso Butter, below), by volume, until the mixture emulsifies. Slather a thick slab of your favorite cut of beef with the mixture and leave it to marinate in the fridge for a few hours before grilling. (Thick cuts are best, because the salt in the peaso will actually begin to cure the beef.) Don’t even bother to wipe off the marinade, as it’s a powerhouse of flavor and will help form a tasty crust.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期18>黄油',
+              en: 'Peaso Butter'
+            },
+            answer: [
+              {
+                zh: 'Peaso黄油是peaso最简单、最有用的应用之一。为了做到这一点，你首先要理顺你的peaso。将 100 克 peaso 放入搅拌机中并旋转直至光滑。根据您的搅拌机的不同，您可能需要添加一点水来帮助其吸收，但不要太多，否则会稀释味道。',
+                en: 'Peaso butter is one of the easier and most useful applications for peaso. To make it, you’ll first want to smooth out your peaso. Place 100 grams peaso in a blender and spin it until smooth. Depending on your blender, you may need to add a bit of water to help it catch—but not too much or you’ll dilute the flavor.'
+              },
+              {
+                zh: '一旦你获得了平滑的peaso，将其传递给塔米斯。这本身并不是绝对必要的，但正如托马斯·凯勒曾经说过的那样，塔米斯创造了“奢华的质感”。接下来，将 peaso 加入 400 克室温黄油中，直至完全混合。从那里，你可以将复合黄油卷成一个紧密的圆筒，放在一张保鲜膜上，然后将其存放在冰箱中，这样当你需要在铸铁锅中涂鸡肉时，你就可以将冰块切下来，或者融化一些搅打过的土豆泥。',
+                en: 'Once you’ve got smooth peaso, pass it through a tamis. This isn’t absolutely necessary, per se, but as Thomas Keller once put it, the tamis creates “the texture of luxury.” Next, whisk the peaso into 400 grams room-temperature butter until fully incorporated. From there, you can roll the compound butter into a tight cylinder on a sheet of plastic wrap and store it in the fridge, so you can slice off a puck whenever you need to baste chicken in a cast-iron pan, or melt some over whipped potato puree.'
+              },
+              {
+                zh: '*Slicing pucks of peaso butter.*',
+                en: '*Slicing pucks of peaso butter.*'
+              },
+              {
+                zh: '<!-- text/part0010_split_006.html -->',
+                en: '<!-- text/part0010_split_006.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: '06-architecture-read-write-path',
     categoryId: 'system-design',
     chapterId: 'part06_key_value_store',
@@ -8287,6 +10252,340 @@ export const notes = [
     ]
   },
   {
+    id: '06-beef-garum',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '牛肉<第8学期>',
+      en: 'Beef Garum'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '牛肉<第8学期>',
+          en: 'Beef Garum'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 1.5 liters**',
+            en: '**Makes 1.5 liters**'
+          },
+          {
+            zh: '牛肉garum真正在Noma开始流行，大约在我们在菜单上提供牛肋骨的时候，周围有很多牛肉残渣。对于任何发酵，您的原料都必须新鲜和原始，以避免腐败或发霉的威胁。对于基于肉类或海鲜的发酵物来说尤其如此，即使您使用可能会被扔掉的肉渣，情况仍然如此。如果不够新鲜，无法食用，那就不够新鲜，无法发酵。对于此食谱，您可以自己磨碎牛肉或请屠夫为您做，但避免使用在您开始garum当天未新鲜磨碎的碎牛肉。',
+            en: 'Beef garum truly took off at Noma around the time we were serving beef ribs on the menu, and there were a lot of beef scraps around. With any ferment, your ingredients must be fresh and pristine to avoid the threat of spoilage or mold. This holds especially true when it comes to meat- or seafood-based ferments, and it remains the case even if you’re using meat scraps that might otherwise be thrown away. If it’s not fresh enough to eat, it’s not fresh enough to ferment. For this recipe, you can grind the beef yourself or ask a butcher to do it for you, but avoid ground beef that wasn’t ground fresh the same day you start your garum.'
+          },
+          {
+            zh: '最后，Aspergillus oryzae——接种的koji非常适合这个过程（这是我们在餐厅使用的），但是Shoyu章节中提到的酱油曲霉特别适合garum发酵。酱油比其他菌株产生更高水平的蛋白酶，因此它可以更有效地分解牛肉，产生更高水平的谷氨酸，从而产生更多鲜味。',
+            en: 'Finally,Aspergillus oryzae–inoculated koji works fine for this process (it’s what we use at the restaurant), butAspergillus sojae, mentioned in theShoyuchapter, is especially well tailored for garum fermentation.A. sojaeproduces higher levels of protease than other strains, so it more effectively breaks down the beef, producing higher levels of glutamate and thus more umami.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1公斤现磨瘦牛肉',
+            en: '1 kilogram freshly ground lean beef'
+          },
+          {
+            zh: '225 克珍珠薏米 Koji',
+            en: '225 gramsPearl Barley Koji'
+          },
+          {
+            zh: '800克水',
+            en: '800 grams water'
+          },
+          {
+            zh: '**240 grams non-iodized salt**',
+            en: '**240 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '我们的garum在60°C/140°F下发酵，因此需要发酵室（参见“构建发酵室”）或大容量电饭锅或慢炖锅。 （对于那些热衷于历史真实性的人，请参阅“经典Garum”，了解在室温下发酵garum的说明。）否则，garum只需要一个食品安全容器来容纳它。我们在餐厅生产的大量啤酒使用 30 升的啤酒桶，但对于此食谱，您只需要一个 3 升的容器。玻璃罐和经典的陶瓷发酵罐也很有效。',
+                en: 'Our garum is fermented at 60°C/140°F, so it will require a fermentation chamber (see “Building a Fermentation Chamber”) or large-capacity electric rice cooker or slow cooker. (For those who are devoted to historical authenticity, see “Classical Garum,” for instructions on fermenting garum at room temperature.) Otherwise, garum only needs a food-safe container to hold it. We use 30-liter brewer’s buckets for the large quantities we produce at the restaurant, but for this recipe, you only need a 3-liter container. Glass jars and classic ceramic fermenting crocks work great, too.'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '将牛肉、koji、水和盐放入您选择的发酵容器中。使用手持式搅拌机或戴手套的手将所有东西彻底混合。刮掉容器的内侧，然后用一张保鲜膜覆盖garum的表面，确保它与液体和容器的侧面接触，形成气密屏障。用盖子盖住容器，如果是螺旋盖，则将其拧得稍微不完全拧紧；如果是按扣盖，则将其在一个角落稍微半开，以允许少量气体逸出。',
+                en: 'Place the beef, koji, water, and salt into the fermentation vessel of your choosing. Use a handheld blender or gloved hands to mix everything thoroughly. Scrape down the inner sides of the container, then cover the surface of the garum with a sheet of plastic wrap, making sure it comes into contact with the liquid and the sides of the container to create an airtight barrier. Cover the container with a lid, and screw it on slightly less than completely tight if it’s a screw cap or leave it slightly ajar in one corner if it’s a snap lid to allow a bit of gas to escape.'
+              },
+              {
+                zh: '将garum移入发酵室并将温度设置为60°C/140°F。如果您使用电饭锅或慢炖锅，请使用寿司垫或金属架作为碗底部和发酵容器之间的缓冲区；将其设置为“保温”。 （如果您的慢炖锅或电饭锅的碗的容量接近garum混合物的总体积，您可以放弃发酵容器并直接在炊具碗中发酵garum。）',
+                en: 'Move the garum into the fermentation chamber and set the temperature to 60°C/140°F. If you’re using an electric rice cooker or slow cooker, use a sushi mat or wire rack as a buffer between the bottom of the bowl and the fermentation vessel; set it to “keep warm.” (If the bowl of your slow cooker or rice cooker has a capacity that’s close to the total volume of the garum mixture, you can forgo the fermentation vessel and ferment the garum directly in the bowl of the cooker.)'
+              },
+              {
+                zh: '让garum发酵10周。随着时间的推移，它会分离，碎肉像木筏一样浮到顶部，液体则位于底部。盐和热量应该可以阻止有害微生物，但牛肉脂肪会开始降解成游离脂肪酸，从而呈现霉味，从而产生酸败感。作为对策，在第一周内多次取下盖子和保鲜膜，并使用干净的勺子或长柄勺尽可能多地舀出脂肪。搅拌garum并更换覆盖物。第一周后，您只需每周撇去并搅拌混合物即可。 10 周后，牛肉 garum 应呈深棕色，带有烤坚果香气和浓郁的肉味。',
+                en: 'Allow the garum to ferment for 10 weeks. It will separate as it ages, with the ground meat floating to the top like a raft and the liquid sitting at the bottom. The salt and heat should keep malevolent microbes away, but the beef fat will begin to degrade into free fatty acids that can take on musty flavors, which can come across as rancid. As a countermeasure, several times during the first week remove the lid and plastic wrap and use a clean spoon or ladle to scoop off as much fat as possible. Stir the garum and replace the coverings. After the first week, you’ll only need to skim and stir the mixture weekly. After 10 weeks, the beef garum should be dark brown with a roasted, nutty aroma and deep, meaty, rich flavor.'
+              },
+              {
+                zh: '通过细网筛过滤 garum，压出尽可能多的液体，但不允许任何固体通过。然后再次通过衬有粗棉布的筛子过滤液体。固体可以保留并添加到miso中或用作调味料。',
+                en: 'Strain the garum through a fine-mesh sieve, pressing out as much liquid as possible without allowing any solids to pass through. Then strain the liquid again through a sieve lined with cheesecloth. The solids can be reserved and added to misos or used as a seasoning.'
+              },
+              {
+                zh: '如果液体上有任何脂肪，请用勺子或勺子将其撇去。将液体倒入瓶子或其他有盖容器中。 garum 非常稳定，可以在冰箱中保存至少一个月。您也可以将其冷冻以延长储存时间，而不会产生任何负面影响，但请注意，由于盐含量高，它可能不会完全冷冻成固体。',
+                en: 'If there’s any fat resting on top of the liquid, skim it off using a ladle or spoon. Pour the liquid into bottles or another covered container. The garum is very stable and will keep well in the fridge for at least a month. You can also freeze it for longer storage without any negative effects, but note that because of the high salt content, it probably won’t freeze completely solid.'
+              },
+              {
+                zh: '*Beef Garum, day 1*',
+                en: '*Beef Garum, day 1*'
+              },
+              {
+                zh: '*Day 7*',
+                en: '*Day 7*'
+              },
+              {
+                zh: '*Day 30*',
+                en: '*Day 30*'
+              },
+              {
+                zh: '*Day 75*',
+                en: '*Day 75*'
+              },
+              {
+                zh: '1. 1. 新鲜绞碎的瘦牛肉、水、koji和盐。',
+                en: '1. 1. Freshly ground lean beef, water, koji, and salt.'
+              },
+              {
+                zh: '1. 2. 用手或手持式搅拌机混合发酵容器中的所有成分。',
+                en: '1. 2. Mix all the ingredients in the fermentation vessel by hand or with a handheld blender.'
+              },
+              {
+                zh: '1. 3. 用保鲜膜和盖子盖住garum，并在 60°C/140°F 下发酵。',
+                en: '1. 3. Cover the garum with plastic wrap and a lid and ferment at 60°C/140°F.'
+              },
+              {
+                zh: '1. 4. 第一周内多次撇去garum中的脂肪，每次搅拌，然后再次覆盖液体和容器。',
+                en: '1. 4. Skim the fat from the garum several times during the first week, stirring each time and then covering the liquid and vessel again.'
+              },
+              {
+                zh: '1. 5.再发酵9周，每周撇渣搅拌一次。',
+                en: '1. 5. Ferment for 9 weeks more, skimming and stirring once a week.'
+              },
+              {
+                zh: '1. 6. 过滤garum并盖上盖子存放在冰箱或冰柜中。',
+                en: '1. 6. Strain the garum and store, covered, in the refrigerator or freezer.'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              },
+              {
+                zh: '古典<第八学期>',
+                en: 'Classical Garum'
+              },
+              {
+                zh: '*The in-depth recipe describes the way we produce garum at Noma, but it’s not the only way to do it. Ancient Carthaginians and Romans (along with most of the producers in Southeast Asia today) fermented their garums at ambient temperature. They also depended on proteolytic enzymes within the guts of fish, rather than the power of koji. Here we’ll outline two traditional methods.*',
+                en: '*The in-depth recipe describes the way we produce garum at Noma, but it’s not the only way to do it. Ancient Carthaginians and Romans (along with most of the producers in Southeast Asia today) fermented their garums at ambient temperature. They also depended on proteolytic enzymes within the guts of fish, rather than the power of koji. Here we’ll outline two traditional methods.*'
+              },
+              {
+                zh: '*To make beef garum at room temperature (without a fermen-tation chamber): Increase the salt to 365 grams (18% by weight) to prevent spoilage. Place in a food-safe glass, ceramic, or plastic container and top the surface with plastic wrap. Ferment the garum for 8 to 9 months, covered but not sealed airtight. Stir often for even fermentation and mold prevention. If you see mold on the surface, remove it immediately. The finished liquid will be reddish to amber colored and smell slightly musty and sweaty, but will taste extremely clean, with deep layers of umami and a subtle beefiness. Use this adjustment on any garum in this chapter.*',
+                en: '*To make beef garum at room temperature (without a fermen-tation chamber): Increase the salt to 365 grams (18% by weight) to prevent spoilage. Place in a food-safe glass, ceramic, or plastic container and top the surface with plastic wrap. Ferment the garum for 8 to 9 months, covered but not sealed airtight. Stir often for even fermentation and mold prevention. If you see mold on the surface, remove it immediately. The finished liquid will be reddish to amber colored and smell slightly musty and sweaty, but will taste extremely clean, with deep layers of umami and a subtle beefiness. Use this adjustment on any garum in this chapter.*'
+              },
+              {
+                zh: '*To make garum without koji, you’ll need another source of protease. To avoidE. colicontamination, don’t use the innards of a cow. Instead, opt to make a fish garum, using whole mackerel, smelt, or sardines (with guts). Cut the fish into chunks—heads, fins, meat, bones, guts, and all—and blend in a food processor or blender. For fermentation at 60°C/140°F, add 12% of the fish’s weight in salt. For room-temperature fermentation, add 18%. This method is much closer to a traditional garum—it will smell much stronger, but it will still be just as tasty.*',
+                en: '*To make garum without koji, you’ll need another source of protease. To avoidE. colicontamination, don’t use the innards of a cow. Instead, opt to make a fish garum, using whole mackerel, smelt, or sardines (with guts). Cut the fish into chunks—heads, fins, meat, bones, guts, and all—and blend in a food processor or blender. For fermentation at 60°C/140°F, add 12% of the fish’s weight in salt. For room-temperature fermentation, add 18%. This method is much closer to a traditional garum—it will smell much stronger, but it will still be just as tasty.*'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '蛋黄酱',
+              en: 'Egg Yolk Sauce'
+            },
+            answer: [
+              {
+                zh: '*Egg yolks curing in beef garum.*',
+                en: '*Egg yolks curing in beef garum.*'
+              },
+              {
+                zh: '牛肉garum构成了我们在Noma供应的最受欢迎的菜肴之一——蛋黄蟹——的主干，我们在这里分享这个秘密是再合适不过的了。对我们来说，这种简单的组合就是完美的酱汁，而且它的用途多种多样。首先分离 4 个鸡蛋并将蛋黄放入碗中。 （如果您对生蛋黄感到反感，可以在收获蛋黄之前将鸡蛋煮沸。） 加入 15 克滤过​​的牛肉 garum 搅拌。就是这样。将花椰菜头煮熟，切成小朵。每道菜上撒上几勺蛋黄酱，并用少许盐、切碎的欧芹和大量新鲜的黑胡椒调味。或者在烤红薯上涂上一团黄油、一茶匙蜂蜜和切碎的香葱，搭配蛋黄酱，即可享用一顿丰盛的（大部分）素食餐。或者，您可以将同样的酱汁作为牛排的佐料，并配上一些蔬菜，同样有利可图。一把嫩绿色蔬菜和一些松脆柔软的油煎面包块，沾上蛋黄酱就可以做一顿丰盛的午餐。最后，在盛夏时节，尝试将其作为一盘辛辣脆脆的萝卜的蘸酱，搭配一杯香槟或啤酒。',
+                en: 'Beef garum forms the backbone of one of the most popular dishes we’ve ever served at Noma—crab with egg yolk—and it’s only fitting that we share the secret here. To us, this simple combination is the perfect sauce, and its uses are myriad. Start by separating 4 eggs and placing the yolks in a bowl. (If you’re squeamish about raw egg yolks, you can soft-boil the eggs before harvesting the yolks.) Whisk in 15 grams strained beef garum. That’s it. Boil a head of cauliflower and cut it into small florets. Dress each serving with a couple of generous spoonfuls of the egg yolk sauce, and season with a little extra salt, chopped parsley, and lots of freshly cracked black pepper. Or dress a roasted sweet potato with a dollop of butter, a teaspoon of honey, and chopped chives and serve with the egg yolk sauce for a hearty (mostly) vegetarian meal. Or, you could just as profitably serve the same sauce as an accompaniment to steak with some greens on the side. A handful of tender greens and a few good crunchy-soft croutons dressed in egg yolk sauce would make a full lunch. Finally, try serving it as a dip for a plate of spicy, crunchy radishes at the height of the summer, paired with a glass of Champagne or beer.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '蛋黄酱意大利面',
+              en: 'Pasta with Egg Yolk Sauce'
+            },
+            answer: [
+              {
+                zh: '蛋黄酱的另一个美妙用途是制作速食意大利面。将两勺磨碎的帕尔马干酪搅拌到酱汁中。将 225 克您最喜欢的意大利面形状煮至有嚼劲。当意大利面还热气腾腾时，拌入蛋黄酱。此时，它就可以吃了，但你也可以给它大量的新鲜黑胡椒，或者添加一堆切碎的西红柿或新鲜罗勒。这是孩子们也会喜欢的完美周末晚餐。',
+                en: 'One more wonderful use for the egg yolk sauce is a quick pasta. Whisk 2 heaping spoonfuls of finely grated Parmigiano into the sauce. Cook 225 grams of your favorite pasta shape until al dente. While the pasta is still steaming hot, mix in the egg yolk sauce. At this point, it’s ready to eat, but you could also give it a generous dose of freshly cracked black pepper, or add a heap of chopped tomatoes or fresh basil. It’s a perfect weeknight dinner that kids will love, too.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '汉堡、肉汤等',
+              en: 'Burgers, Broths, and Beyond'
+            },
+            answer: [
+              {
+                zh: '通过在肉中加入一勺牛肉garum，然后将其制成肉饼，汉堡包得到了极大的改进。 （或者您可以添加 garum 中剩余的固体，以达到很好的效果。）确实，您应该将 garum 视为酱油的肉类版本。几乎任何你煮过的肉汤或汤都可以从一杯牛肉中受益garum。炒菜和酱汁也是如此。',
+                en: 'Hamburgers are greatly improved by incorporating a spoonful of beef garum into the meat before shaping it into patties. (Or you could add the leftover solids from the garum to great effect.) Really, you should think of garum as a meatier version of soy sauce. Just about any broth or soup you’d ever cook could benefit from a shot of beef garum. The same goes for stir-fries and sauces.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '牛肉Garum乳液',
+              en: 'Beef Garum Emulsion'
+            },
+            answer: [
+              {
+                zh: '如前所述，剩下的固体仍然充满味道，不需要扔掉。将 250 克滤过的牛肉 garum 固体放入煎锅中，用中火慢慢煎制并煎烤。当固体焦糖化并变脆时，它们会开始释放脂肪。继续煮，直到它们像猪油一样酥脆，不要完全变质；然后，趁热将它们转移到棒式搅拌机中并开始高速搅拌。慢慢淋上等量的中性油，就像制作蛋黄酱一样。混合物会变稠并乳化。最后用柠檬汁、lacto 牛肝菌汁或黑蒜醋使混合物变亮。使用乳液作为绝妙的调料或蘸食煮熟或生的蔬菜，上面撒上新鲜辣根丝。',
+                en: 'As mentioned, the leftover solids are still chock-full of flavor and need not be thrown away. In a frying pan over medium heat, slowly render and pan-roast 250 grams of the strained beef garum solids. As the solids caramelize and crisp up, they’ll begin to release fat. Keep cooking until they’ve crisped up like lardons, without rendering all the way through; then, while still warm, transfer them to a bar blender and begin to blend on high speed. Slowly drizzle in an equal amount of neutral oil, as if making mayonnaise. The mixture will thicken and emulsify. Finish by brightening the mixture with lemon juice,lacto cep juice, orblack garlic vinegar. Use the emulsion as a sublime dressing or dip for cooked or raw vegetables, topped with a grating of fresh horseradish.'
+              },
+              {
+                zh: '*In this garum, the pungency of fermented shrimp is offset by the floral perfume of wild roses.*',
+                en: '*In this garum, the pungency of fermented shrimp is offset by the floral perfume of wild roses.*'
+              },
+              {
+                zh: '<!-- text/part0012_split_007.html -->',
+                en: '<!-- text/part0012_split_007.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '06-black-chestnuts',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '黑栗子',
+      en: 'Black Chestnuts'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '黑栗子',
+          en: 'Black Chestnuts'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 1 kilogram**',
+            en: '**Makes 1 kilogram**'
+          },
+          {
+            zh: '初秋时节，板栗上市，新鲜甜甜。它们含有大量的水，虽然它们有一个外壳可以保持水分，就像大蒜一样，但它们应该用箔纸或塑料包裹，以保持更多的水分。在Noma，我们发现栗子在未完全变黑时味道更有趣。在 60°C/140°F 的温度下，栗子需要大约 4 周的时间才能成熟到理想的程度。味道类似于葡萄汁，带有李子和干果的味道。您可能会联想到生栗子的任何白垩味都被令人愉悦的肉味和一点脆感所取代。第四周过去了，深焦糖色调开始显现，但味道变得有点单一。',
+            en: 'Fresh, sweet chestnuts are at their peak in the early fall. They contain a fair amount of water, and although they have a shell to keep that moisture in, like garlic, they should be wrapped in foil or plastic for more moisture retention. At Noma, we’ve found that chestnuts taste far more interesting when they’re not fully blackened. Held at 60°C/140°F, the chestnuts take about 4 weeks to mature to the ideal point. The flavor is akin to grape must, with notes of plums and dried fruit. Any chalkiness you might associate with raw chestnuts gives way to a pleasantly meaty texture with a bit of snap. Past the fourth week, deep caramel tones set in but the flavor becomes a bit one-dimensional.'
+          },
+          {
+            zh: '黑蒜的深入说明可作为本章中所有黑化水果和蔬菜食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forBlack Garlicserve as a template for all the blackened fruit and vegetable recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将栗子单层放入真空袋中。它们需要平放在发酵室中，所以如果你的发酵室看起来太小，请取出一些栗子。以最大吸力密封袋子。您还可以使用一个大的带拉链的袋子，将栗子放入袋子中，然后慢慢将其放入一大桶水中，在距离顶部几厘米处停止（您可能需要从袋子底部拉动以抵消栗子的浮力），从而挤出所有空气。水的压力会将空气排出。将其密封，您将获得有效但不完美的真空。',
+            en: 'Arrange the chestnuts in a single layer in a vacuum bag. They’ll need to sit flat in your fermentation chamber, so if it looks like your chamber might be too small, remove a few chestnuts. Seal the bag on maximum suction. You can also use a large zip-top bag and squeeze all the air out by placing the chestnuts in the bag, then slowly lowering it into a large tub of water, stopping a few centimeters from the top (you may need to pull from the bottom of the bag to counteract the chestnuts’ buoyancy). The pressure of the water will force the air out. Seal it shut and you’ll have an effective, albeit imperfect, vacuum.'
+          },
+          {
+            zh: '将栗子放入发酵室中。如果您使用电饭锅或慢炖锅，请记住用盘子、架子或竹席将栗子从底部抬起。关闭腔室并将其设置为 60°C/140°F，或密封炊具并将其设置为“保温”设置。',
+            en: 'Place the chestnuts in the fermentation chamber. If you’re using an electric rice cooker or slow cooker, remember to raise the chestnuts off the bottom with a plate, wire rack, or bamboo mat. Close the chamber and set it to 60°C/140°F, or seal the cooker and turn it to the “keep warm” setting.'
+          },
+          {
+            zh: '将栗子放在腔室或炊具中 4 周。切开一个尝一尝，然后决定是否要放更长的时间。一旦它们变黑到你喜欢的程度，就把它们放在壳里直到你想使用它们。如果您计划在一周内使用它们，请将其存放在冰箱的密封容器中，或者冷冻以延长存放时间。',
+            en: 'Leave the chestnuts in the chamber or cooker for 4 weeks. Slit one open to taste and decide whether you want to go a little longer. Once they’ve blackened to your liking, keep them in the shell until you want to use them. Store in a sealed container in the fridge if you plan to use them within a week, or freeze for longer storage.'
+          },
+          {
+            zh: '*Black Chestnuts, day 1*',
+            en: '*Black Chestnuts, day 1*'
+          },
+          {
+            zh: '*Day 14*',
+            en: '*Day 14*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '**1 kilogram fresh chestnuts in the shell**',
+            en: '**1 kilogram fresh chestnuts in the shell**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '酿意大利面',
+              en: 'Stuffed Pasta'
+            },
+            answer: [
+              {
+                zh: '*Puree black chestnuts with a bit of chicken stock for a rich and nuanced pasta filling.*',
+                en: '*Puree black chestnuts with a bit of chicken stock for a rich and nuanced pasta filling.*'
+              },
+              {
+                zh: '只需很少的改造，黑栗子就可以变成令人难以置信的意大利面馅料。首先将 350 克去皮黑栗子切成细条。在中号炒锅中，加热 100 克黄油直至开始起泡。将栗子放入炒几分钟，然后加入250克上好的鸡汤。在一张羊皮纸下小火煮，直到栗子变软。然后，将锅中的内容物转移到搅拌机中，将混合物打成泥，直至变得丝滑（取决于您的搅拌机，可能需要一点水来帮助其旋转）。用盐和肉豆蔻粉或肉豆蔻调味果泥。将其挤在新鲜的意大利面上，形成您喜欢的馅料形状：cappelletti、agnolotti、tortellini、ravioli。为了将事情带到一个全新的维度，请在煮熟后用LactoKoji黄油酱给你的面食上釉。',
+                en: 'With very little modification, black chestnuts can be turned into an unbelievable filling for pasta. Start by chopping 350 grams peeled black chestnuts into thin slivers. In a medium sauté pan, heat 100 grams butter until it begins to foam. Throw the chestnuts in and sauté for a few minutes before adding 250 grams good chicken stock. Cook at a simmer beneath a round of parchment paper until the chestnuts are fairly tender. At that point, transfer the contents of the pot to a blender and puree the mixture until it’s silky smooth (depending on your blender, it may need a touch of water to help it spin). Season the puree with salt and mace or nutmeg. Pipe it onto fresh pasta and form your preferred stuffed shape: cappelletti, agnolotti, tortellini, ravioli. And to take things to an entirely new dimension, glaze your pasta with theLacto Koji Butter Sauceafter it’s cooked.'
+              },
+              {
+                zh: '*Fresh hazelnuts take on a toasty, chocolaty flavor when exposed to prolonged heat*',
+                en: '*Fresh hazelnuts take on a toasty, chocolaty flavor when exposed to prolonged heat*'
+              },
+              {
+                zh: '<!-- text/part0013_split_007.html -->',
+                en: '<!-- text/part0013_split_007.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '06-choose-your-products-wisely-and-clean-them-lightly',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '明智地选择您的产品（并轻轻清洁它们）',
+      en: 'Choose Your Products Wisely (and Clean Them Lightly)'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
     id: '06-data-centers-and-message-queue',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
@@ -8401,6 +10700,1015 @@ export const notes = [
         faqs: [],
         bullets: [],
         emphasisCards: []
+      }
+    ]
+  },
+  {
+    id: '06-dryads-saddle-shoyu',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '树妖的鞍Shoyu',
+      en: 'Dryad’s Saddle Shoyu'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '树妖的鞍Shoyu',
+          en: 'Dryad’s Saddle Shoyu'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 1.5 liters**',
+            en: '**Makes about 1.5 liters**'
+          },
+          {
+            zh: '这远不是一个简单的shoyu，而是一种由乳酸发酵驱动的混合混合物。但正如整个发酵历史所表明的那样，有时模糊类别是创建新类别的最佳方式。这种非常规的shoyu的森林风味是面食的绝佳调味料——无论是博洛尼亚肉酱还是奥利奥——以及切碎的沙拉、烤牛排、烤鸟、平底锅酱、焯西兰花或其他任何东西。',
+            en: 'This is far from a straightforward shoyu, and much more of a hybrid concoction, powered by lactic fermentation. But as shown throughout the history of fermentation, sometimes blurring categories is the best way to create new ones. The forest-y flavor of this highly unconventional shoyu is a stellar seasoning for pasta dishes—whether Bolognese oraglio e olio—and chopped salads, seared steaks, roast birds, pan sauces, blanched broccoli, or anything, really.'
+          },
+          {
+            zh: '树妖鞍状蘑菇（多孔菌）是一种大型扇形蘑菇，生长在春末五月至六月潮湿森林中砍伐的树木上。它们闻起来几乎像西瓜皮，表面斑驳的棕色鳞片让人想起秋季猎鸟的羽毛，因此有时被称为野鸡背蘑菇。在经验丰富的觅食者的陪伴下，它们在野外相对容易识别，我们鼓励您出去寻找一些。寻找摸起来坚硬的标本，并避开蠕虫钻入肉中的任何地方。可以理解的是，野生蘑菇高度依赖于季节和地区，因此树妖的马鞍可能在您所在的地方不可用。我们还成功推出了用森林鸡肉和牛排蘑菇制成的shoyu；但如果您不想觅食，可以尝试使用舞茸蘑菇。',
+            en: 'Dryad’s saddles (Polyporus squamosus) are large fan-shaped mushrooms that grow on felled trees in damp forests in the late spring, from May to June. They smell almost like watermelon rind, and the mottled brown scales on their surface evoke the plumage of fall game birds, hence their sometimes being referred to as pheasant-back mushrooms. In the company of an experienced forager, they’re relatively easy to identify in the wild, and we encourage you to go out and find some. Look for specimens that are firm to the touch, and avoid anywhere worms have burrowed into the flesh. Understandably, wild mushrooms are highly dependent on the season and region, so dryad’s saddle might not be available where you are. We’ve also had success with shoyu made from chicken of the woods and beefsteak mushrooms; but if you’re not up for foraging, try hen of the woods (maitake) mushrooms instead.'
+          },
+          {
+            zh: '刷掉蘑菇上松散的污垢和碎片；如果特别脏，请用湿毛巾擦拭干净。将它们切成容易放入食品加工机的碎片，然后将它们打成粗粮。转移至非反应性发酵容器中。也使用食品加工机打碎koji，然后将其与水和盐一起添加到蘑菇中。用干净的勺子充分搅拌，形成浓稠、均匀的糊状物。',
+            en: 'Brush any loose dirt and debris from the mushrooms; use a damp towel to wipe them clean if they’re especially dirty. Chop them into pieces that will fit easily into a food processor, then pulse them into a coarse meal. Transfer to a nonreactive fermentation vessel. Use the food processor to break up the koji as well, then add it to the mushrooms, along with the water and salt. Stir well with a clean spoon to create a thick, uniform mash.'
+          },
+          {
+            zh: '将一块保鲜膜直接放在糊状物的表面上，确保它一直到达容器的边缘。用一些轻发酵重量或几个部分装满水的大拉链袋来减轻麦芽浆的重量。 （将袋子叠起来，以防泄漏。）如果袋子开始沉入麦芽浆中，请除去一些水以减轻袋子的重量。盖上容器，但将盖子稍微半开，以便气体排出。',
+            en: 'Place a piece of plastic wrap directly on the surface of the mash, ensuring that it reaches all the way to the edges of the vessel. Weight down the mash with some light fermentation weights or a couple of large zip-top bags partially filled with water. (Double up on the bags as a safeguard against leaks.) If the bags begin to sink into the mash, remove some water to lighten them. Cover the container, but leave the lid slightly ajar to allow gas to vent.'
+          },
+          {
+            zh: '让shoyu在室温下发酵3至4周，每周用干净的勺子搅拌一次。当混合物发酵时，固体物质会分离并起泡。 4 周后，液体会因乳酸发酵而尝起来有泥土味、咸味和酸味。',
+            en: 'Let the shoyu ferment for 3 to 4 weeks at room temperature, stirring it with a clean spoon once a week. The solid matter will separate and bubble as the mixture ferments. After 4 weeks, the liquid should taste earthy, salty, and sour from lactic fermentation.'
+          },
+          {
+            zh: '要收获 shoyu，请使用苹果压榨机从固体中滤出液体，或通过干净的毛巾挤压果肉。提取shoyu后，再次用粗棉布过滤，以确保所有小颗粒均已去除。将完成的shoyu存放在密封容器或瓶子中的冰箱中。您也可以将其冷冻以延长保存时间。如果您打算在未来生产该 shoyu 批次，请保留一些废纸浆并以 10% 的重量比用作背衬。',
+            en: 'To harvest the shoyu, strain the liquid from the solids using a cider press, or by squeezing the pulp through a clean towel. Once the shoyu is extracted, strain it again through cheesecloth to ensure that all the small particles have been removed. Store the finished shoyu in the refrigerator in airtight containers or bottles. You can also freeze it for longer storage. If you intend to make future batches of this shoyu, save some of the spent pulp as well to use asbackslopat a ratio of 10% by weight.'
+          },
+          {
+            zh: '*Dryad’s Saddle Shoyu, day 1*',
+            en: '*Dryad’s Saddle Shoyu, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '2 公斤新鲜树妖马鞍蘑菇',
+            en: '2 kilograms fresh dryad’s saddle mushrooms'
+          },
+          {
+            zh: '400 克珍珠薏米 Koji',
+            en: '400 gramsPearl Barley Koji'
+          },
+          {
+            zh: '600克水',
+            en: '600 grams water'
+          },
+          {
+            zh: '**150 grams non-iodized salt**',
+            en: '**150 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '树精的马鞍和烤<学期6>酱',
+              en: 'Dryad’s Saddle and Roasted Koji Sauce'
+            },
+            answer: [
+              {
+                zh: '如果你已经制作了树妖的鞍shoyu，那么可以肯定地说你也掌握了种植koji，这意味着你已经拥有了制作这种酱汁所需的一切。将 250 克 koji 弄碎放在烤盘上，然后在烤箱中以 160°C/320°F 的温度烘烤 45 分钟。糖会变成深褐色，发霉的谷物会产生让人想起巧克力的味道。将烤好的koji与500克水一起放入搅拌机中，高速搅拌5分钟。将混合物转移至容器中，在室温下浸泡 1 小时。通过内衬粗棉布的细网筛过滤混合物。如果你闻到koji烘焙水的香气，你会发誓里面有咖啡。为了完成酱汁，将 100 克树精鞍 shoyu 与 100 克烤koji水在小平底锅中混合，然后在炉子上小火煮。使用手持式搅拌机，将 75 克软化黄油乳化到酱汁中，制成松散、黄油味、咸味的酱汁，非常适合搭配微枯萎的生菜、蒸抱子甘蓝、烤扇贝或煎鱿鱼卷。确实，需要进行一些强力发酵才能达到这一点 - 您也可以尝试使用商店购买的 shoyu 和 koji - 但一旦成功，您就不会回头。',
+                en: 'If you’ve made dryad’s saddle shoyu, then it’s safe to say you’ve also mastered growing koji, which means you’ve got everything it takes to make this sauce. Crumble 250 grams koji onto a baking sheet and roast it in the oven at 160°C/320°F for 45 minutes. The sugars will brown deeply and the moldy grains will develop flavors reminiscent of chocolate. Transfer the roasted koji to a blender with 500 grams water and blend at high speed for 5 minutes. Transfer the mixture to a container to infuse at room temperature for 1 hour. Strain the mixture through a fine-mesh sieve lined with cheesecloth. Should you smell the aroma of the roasted koji water, you’ll swear there’s coffee in there. To complete the sauce, mix 100 grams dryad’s saddle shoyu with 100 grams roasted koji water in a small saucepan and bring it up to a simmer on the stove. Using a handheld blender, emulsify 75 grams softened butter into the sauce to create a loose, buttery, salty sauce that’s brilliant on lightly wilted lettuce, steamed Brussels sprouts, roasted scallops, or curls of pan-seared squid. True, it takes some heavy-duty fermentation to get to this point—you could also try it with store-bought shoyu and koji—but once you’ve made it, you won’t look back.'
+              },
+              {
+                zh: '<!-- text/part0011_split_007.html -->',
+                en: '<!-- text/part0011_split_007.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '06-fungi',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '真菌',
+      en: 'Fungi'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '06-pearl-barley-koji',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '珍珠薏仁<第六学期>',
+      en: 'Pearl Barley Koji'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '珍珠薏仁<第六学期>',
+          en: 'Pearl Barley Koji'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 1.1 kilograms**',
+            en: '**Makes 1.1 kilograms**'
+          },
+          {
+            zh: 'Koji可能很挑剔。Aspergillus oryzae需要特定的生长条件。你必须付出一些努力才能创造一个有利于其生存的环境。',
+            en: 'Koji can be finicky.Aspergillus oryzaedemands specific conditions to grow. You’ll have to go to a little bit of trouble to create an environment that’s conducive to its survival.'
+          },
+          {
+            zh: '话虽如此，koji 是一个想要生存并取得成功的强大模具。其他霉菌，如红曲米，可能需要长达 7 天的时间才能收获。 Koji 在最佳条件下不到 2 天即可成熟。这些条件非常具体，但即使在家里也是可以实现的。',
+            en: 'With that being said, koji is a robust mold thatwantsto live and succeed. Other molds, like red yeast rice, can take up to 7 days to grow before they’re ready to harvest. Koji matures in less than 2 days in optimal conditions. Those conditions are very specific, but very achievable, even at home.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '500克薏仁',
+            en: '500 grams pearl barley'
+          },
+          {
+            zh: '**Koji tane (koji spores; seerecipefor details)**',
+            en: '**Koji tane (koji spores; seerecipefor details)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '您需要构建一个发酵室，您可以在上一节中阅读有关内容或参阅入门章节中的“构建发酵室”。您还需要适合您的房间的雪松或穿孔塑料或金属托盘。如果您选择使用雪松，请务必使用未经处理的木材。穿孔的半胃/酒店平底锅（32 × 26 厘米/12½× 10 英寸）非常适合此数量的koji。如果再小，谷物周围的空气就没有足够的流通空间。它可以帮助在干净的棉质厨房毛巾上生长koji，从而吸收多余的水分。最后，与处理许多敏感微生物一样，佩戴乳胶或丁腈手套将有助于保持卫生。',
+                en: 'You’ll need to construct a fermentation chamber, which you can read about in the preceding section or see “Building a Fermentation Chamber” in the primer chapter. You’ll also need cedar or perforated plastic or metal trays that fit into your chamber. If you choose to use cedar, be sure to use untreated wood. A perforated half-gastro/hotel pan (32 × 26 centimeters / 12½× 10 inches) is ideal for this amount of koji. Any smaller, and there won’t be enough room for air to circulate around the grains. It can help to grow koji on clean cotton kitchen towels that will soak up excess moisture. And finally, as with handling many sensitive microbes, wearing latex or nitrile gloves will help keep things sanitary.'
+              },
+              {
+                zh: '最后一点：如果你想制作更传统的koji，这个食谱也适用于粳米（短粒）米。',
+                en: 'One final note: This recipe will work just as well withjaponica(short-grain) rice, if you’d like to make a more traditional koji.'
+              },
+              {
+                zh: '*A packet ofkoji tanefrom Japan.*',
+                en: '*A packet ofkoji tanefrom Japan.*'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: 'Koji tanei 有两种不同的产品可供选择：孢子粉和被孢子覆盖的干米粒或大麦。您可以在网上或从家庭酿酒店购买各种包装尺寸的啤酒（参见来源）。一点点就有很长的路要走。一袋100克的孢子足以接种100公斤的谷物。这也是一项你只需要进行一次的投资，因为一旦你制作了自己的koji，你就可以从中培养自己的孢子以供将来使用（请参阅“收获你自己的孢子”）。两种版本的 koji tane 均可用于接种新鲜的 koji。 （不用担心用水稻上生长的孢子接种大麦，反之亦然；koji 是一个平等机会的消费者。）',
+                en: 'Koji taneis available as two different products: powdered spores and dried grains of rice or barley that are covered in spores. They can be purchased in various package sizes online and from home-brewing shops (seeSources). A little bit goes a long way. A 100-gram bag contains enough spores to inoculate 100 kilograms of grains. It’s also an investment you only really need to make once, because once you’ve made your own koji, you can grow your own spores from it for future use (see “Harvesting Your Own Spores”). Both versions of koji tane can be used to inoculate fresh koji. (Don’t worry about inoculating barley with spores grown on rice, or vice versa; koji’s an equal opportunity consumer.)'
+              },
+              {
+                zh: '首先，将大麦放入一个大碗中，然后倒入冷水。用手搅动谷物，然后倒掉浑浊的水。再重复一次，然后第三次将碗装满水，使水位线高于大麦几厘米。让大麦在室温下浸泡至少 4 小时，或在冰箱中浸泡过夜。',
+                en: 'To begin, place the barley in a large bowl and fill it with cold water. Agitate the grains with your hand, then pour off the cloudy water. Repeat once more, then fill up the bowl with water for a third time, bringing the water line above the barley by a few centimeters. Allow the barley to soak for at least 4 hours at room temperature, or overnight in the fridge.'
+              },
+              {
+                zh: '大麦浸泡后，将其沥干并放入漏勺中冲洗，直至水清澈为止。抖掉多余的东西。',
+                en: 'Once the barley has soaked, drain and rinse the grains in a colander until the water runs clear. Shake off any excess.'
+              },
+              {
+                zh: '*It’s important to soak barley until well hydrated before cooking.*',
+                en: '*It’s important to soak barley until well hydrated before cooking.*'
+              },
+              {
+                zh: '曲霉菌生长的理想培养基是水合但完全分离且相对饱满的谷物。煮沸很容易使它们水分过多，使它们变得潮湿和糊状。在这种情况下，霉菌可能生长得太快，在产生我们想要的酶浓度之前就达到了繁殖周期。如果谷物非常潮湿，孢子就会被有效地淹没并且永远不会开始生长。蒸可以使谷物充分煮熟，而无需吸收多余的水。在Noma，我们有组合烤箱，可以让您在对流烹饪循环中添加蒸汽 - 它们非常适合蒸谷物 - 但经典的蒸锅也可以很好地工作，就像将筛子或漏勺放入带盖的锅中一样。',
+                en: 'The ideal medium forAspergillus’s growth is on hydrated but fully separate and relatively plump grains. Boiling can easily overhydrate them, leaving them wet and mushy. The mold can grow too quickly in this situation, reaching its reproductive cycle before producing the concentration of enzymes we’re seeking. If the grains are very wet, the spores will effectively drown and never start growing. Steaming allows the grains to fully cook without taking on excess water. At Noma, we have combination ovens that allow you to add steam to a convection cooking cycle—they’re brilliant for steaming grains—but a classic steamer will also work just fine, as will a sieve or colander set into a pot with a lid.'
+              },
+              {
+                zh: '如果使用组合烤箱：将大麦在 100°C/212°F 下蒸 45 分钟，风扇速度设置为 80%。',
+                en: 'If using a combination oven:Steam the barley at 100°C/212°F for 45 minutes with the fan speed set to 80%.'
+              },
+              {
+                zh: '如果使用普通蒸锅：用文火将谷物煮约 20 分钟，但在 15 分钟后开始测试。咬一口果仁——煮熟的果仁应该仍然很致密，但易于咀嚼，并且中心不应该变硬或呈白色。',
+                en: 'If using a regular steamer:Cook the grains for about 20 minutes over simmering water, but begin testing at 15 minutes. Bite into a kernel—a properly cooked one should still be dense but easy to chew and should not be hard or white at its center.'
+              },
+              {
+                zh: '在煮大麦的同时，准备好用于发酵koji的托盘。如果使用雪松，请确保其干净且没有碎屑；如果是金属或塑料，请确保对其进行清洗和消毒。在金属或塑料托盘上铺上毛巾。如果是厨房毛巾，请确保其干净（且未使用加香洗涤剂清洗）、用蒸汽消毒并拧干。',
+                en: 'While the barley is cooking, ready the tray in which you’ll be fermenting the koji. If using cedar, make sure it’s clean and free of debris; if it’s metal or plastic, make sure it’s washed and sanitized. Line the metal or plastic tray with a towel. If it’s a kitchen towel, make sure it’s clean (and was washed without perfumed detergent), sanitized with steam, and wrung dry.'
+              },
+              {
+                zh: '大麦蒸好后，你需要趁它还热的时候把它打碎，这样残留的淀粉就不会凝固并将谷物聚集在一起。戴两副乳胶或丁腈手套可以保护您的手免受高温。将双手之间的谷物擦入发酵盘中。不要施加太大的压力，否则会导致颗粒破裂；保持它们完整对于koji的成长来说是理想的选择。将谷物摊开，放在柜台上的冷却架上冷却至 30°C/86°F。如果您不耐烦，请随意扇动谷物（尽管如果您不耐烦，您可能不应该种植koji）。谷物蒸熟、分离并冷却后，就可以接种了。',
+                en: 'Once the barley is steamed, you want to break it up while it’s still warm so that any residual starch doesn’t set and clump the grains together. Wearing two pairs of latex or nitrile gloves will protect your hands from the heat. Rub the grains between your hands into your fermenting tray. Don’t apply so much pressure that it ruptures the grains; keeping them whole is ideal for koji’s growth. Spread the grains out and allow them to cool to 30°C/86°F on a cooling rack on the counter. Feel free to fan the grains if you’re impatient (although if you’re impatient, you probably shouldn’t be growing koji). With the grains steamed, separated, and cooled, it’s time to inoculate.'
+              },
+              {
+                zh: '如果使用孢子粉：将少量粉末放入滤茶器中，然后轻轻拍打在颗粒上。这些孢子的效力极强，一茶匙含有超过十亿个孢子，足以接种一盘大麦。戴上手套，将大麦彻底折叠，确保进入角落，然后用孢子再次穿过它。再次转动谷物，就可以了。',
+                en: 'If using powdered spores:Put a small amount of the powder into a tea strainer and gently tap it over the grains. The spores are extremely potent—1 teaspoon contains more than a billion spores, plenty to inoculate one tray of barley. Wearing gloves, fold the barley thoroughly, being sure to get into the corners, and then give it another pass with the spores. Turn the grains once more, and you’re set.'
+              },
+              {
+                zh: '如果在干谷物上使用 koji 颗粒：将 koji 谷物填充到钢制摇床（就像用于糖粉的）中，并进行三遍而不是两次，因为传递到谷物的总孢子会更少。在每次通过之间使用戴手套的手折叠大麦，如果您没有看到摇瓶中冒出孢子云，请确保在摇瓶中重新装入更多koji。',
+                en: 'If using koji tane on dried grains:Fill a steel shaker (like you’d use for powdered sugar) halfway with the koji grains and make three passes rather than just two, as there will be fewer total spores delivered to the grains. Use gloved hands to fold the barley over between each pass, and make sure to reload the shaker with more koji if you don’t see a cloud of spores coming out of the shaker.'
+              },
+              {
+                zh: '*Barley Koji, immediately after inoculation*',
+                en: '*Barley Koji, immediately after inoculation*'
+              },
+              {
+                zh: '*After 30 hours*',
+                en: '*After 30 hours*'
+              },
+              {
+                zh: '*After 42 hours*',
+                en: '*After 42 hours*'
+              },
+              {
+                zh: '*After 48 hours*',
+                en: '*After 48 hours*'
+              },
+              {
+                zh: '将接种的大麦均匀地铺在一层，将其从托盘的侧面拉入，以避免在无法接触气流的情况下产生任何斑点。用干净、几乎不湿的厨房毛巾覆盖，确保没有暴露的区域。',
+                en: 'Spread the inoculated barley in an even layer, pulling it in from the sides of the tray to avoid creating any spots without access to airflow. Cover with a clean, barely damp kitchen towel, making sure there are no exposed areas.'
+              },
+              {
+                zh: '将托盘转移到发酵室。用三脚架或线架将托盘从腔室底部提起，以便koji周围的气流流通。在任何比杂物间小的房间中，将盖子或门打开一条缝，以便让新鲜氧气进入并排出多余的热量。在我们<第五学期>在餐厅种植的早期，我们多次看到霉菌窒息。将温度计探头插入大麦床，并确保湿度计正在运行。',
+                en: 'Transfer the tray to your fermentation chamber. Raise the tray off the bottom of the chamber with a trivet or wire rack to allow for airflow all around the koji. In any chamber that’s smaller than a broom closet, keep the lid or door open just a crack to allow fresh oxygen in and excess heat to escape. We saw the mold suffocate all too many times in the early days of our koji-growing at the restaurant. Insert a thermometer probe into the bed of barley, and be sure your humidity meter is running.'
+              },
+              {
+                zh: '无论您使用什么设置，密切关注谷物的温度对于koji的成功至关重要。在室温下，koji的生长将受到严重阻碍，并且生物体将难以扎根。但任何温度超过 42°C/108°F 就会把它们煮死。还必须仔细监测湿度。如果环境太潮湿，koji很容易被淹没。另一方面，如果谷物变干，菌丝就会遇到太大的阻力而无法穿透淀粉。将温度探头插入谷物中，并将温度控制器设置为 30°C/86°F。发酵期间保持湿度在 70% 至 75% 之间。有关如何实现此目的的提示，请参阅有关构建发酵室的说明。',
+                en: 'No matter what setup you’re using, keeping tabs on the temperature of the grains is paramount to your koji’s success. At room temperature, the koji’s growth will be severely retarded and the organisms will struggle to take root. But any hotter than 42°C/108°F and you’ll cook them to death. Humidity also has to be monitored carefully. It’s easy to drown the koji if the environment gets too wet. On the other hand, should the grains dry out, the hyphae will meet too much resis-tance and fail to penetrate the starch. Insert the temperature probe into the grains and set the temperature controller for 30°C/86°F. Keep the humidity between 70% and 75% for the duration of the ferment. Refer to the instructions onbuilding a fermentation chamber) for tips on how to achieve this.'
+              },
+              {
+                zh: '假设一切顺利，24 小时后，您应该会注意到霉菌生长的初步迹象：纤细、不明确的白线应该开始覆盖大麦，将谷物轻轻地粘合在一起。从培养箱中取出koji并将其放在台面上干净的架子上。再次戴上手套，以与第一次煮熟时相同的方式将谷物打碎。混合谷物使生长在托盘底部的koji与空气接触并破坏菌丝体，在其试图展开其网时鼓励进一步生长。',
+                en: 'Assuming all goes well, after 24 hours you should notice the first inklings of mold growth: wispy, ill-defined white threads should begin to cover the barley, lightly binding the grains together. Remove the koji from the incubator and set it on a clean rack on a countertop. Again wearing gloves, break up the grains in the same manner as when they were first cooked. Mixing the grains brings koji growing at the bottom of the tray into contact with air and breaks up the mycelium, encouraging further growth as it tries to spread its web.'
+              },
+              {
+                zh: '翻动谷物并打碎任何团块后，将谷物犁成三行，就像农田里的土堆一样。这创造了更多与新鲜空气接触的表面积并改善了散热。',
+                en: 'After you’ve turned the grains and broken up any clumps, furrow the grains into three rows, like mounds in a farmer’s field. This creates more surface area for contact with fresh air and improved heat dissipation.'
+              },
+              {
+                zh: '经过最初 24 小时的生长后，koji 的新陈代谢将开始超速运转。你的任务是让它在接下来的 24 小时内保持活力。将koji放回发酵室，温度计探头位于中间土丘的中心。如果您发现热量激增，请调节温度控制器，然后打开门或盖子 30 分钟，让腔室冷却。如果您担心koji仍然会过热，再次将其分解将有助于降低温度。',
+                en: 'After the first 24 hours of growth, koji’s metabolism will kick into overdrive. Your job is to keep it alive for the next 24 hours. Return the koji to the fermentation chamber, with the thermometer probe in the center of the middle mound. If you notice the heat spiking, adjust the temperature controller, and open the door or lid for 30 minutes to allow the chamber to cool down. If you’re worried the koji is still on the path to overheating, breaking it up again will help to lower the temperature.'
+              },
+              {
+                zh: '在接下来的 12 小时内，koji 的菌丝体会将大麦颗粒牢固地粘合在一起，形成致密的饼。到第 36 小时，koji 将被浅绿色或白色的绒毛覆盖（取决于您使用的曲霉菌株），但直到第 44 至 48 小时才会产生完整的酶和风味。此时，koji 的气味应该具有浓郁的果香，就像成熟的杏子。',
+                en: 'Over the next 12 hours, the koji’s mycelium will firmly bind the grains of barley together, forming a dense cake. By hour 36, the koji will be covered in a light green or white fuzz (depending on the strain ofAspergillusyou’re using), but full enzyme production and flavor won’t develop until hours 44 to 48. At that point, the smell of the koji should be intensely fruity, like ripe apricot.'
+              },
+              {
+                zh: '为了收获你的koji，你需要停止它的生长。将整个托盘放入冰箱 12 小时冷却。如果您计划在不久的将来使用它，您可以将其装入密封容器中，在冰箱中存放几天。我们实际上发现，在冰箱中放置几天后，koji 的味道明显改善。收获后即可使用，但冰箱会阻止koji的生长，同时酶继续发挥作用，在此过程中使koji变得更加甜。如果您不打算立即使用，koji可以在冰箱的密封容器中保存长达 3 个月。',
+                en: 'To harvest your koji, you need to halt its growth. Place the entire tray in the fridge for 12 hours to cool down. You can then pack it into airtight containers to store in the fridge for a couple of days if you have plans to use it in the near future. We actually find that koji’s flavor improves considerably after a couple of days in the fridge. It’s perfectly ready to use as soon as you harvest it, but the refrigerator will arrest the koji’s growth while the enzymes continue to work, sweetening the koji even more in the process. If you don’t have plans to use it immediately, koji stores well in airtight containers in the freezer for up to 3 months.'
+              },
+              {
+                zh: '要完成 koji 制作过程，请清洗您的设备，包括发酵室、托盘（如果不是木制的）和探针，以保持卫生。如果您使用木托盘，只需用微湿的毛巾将其擦拭干净，然后在通风良好的地方风干即可。',
+                en: 'To complete the koji-making process, wash your equipment—including the fermentation chamber, the trays (if not made from wood), and probes—to keep things sanitary. If you’re using wooden trays, simply wipe them clean with a lightly dampened towel and let them air-dry in a well-ventilated area.'
+              },
+              {
+                zh: '1. 1. 大麦和 koji 孢子 (koji tane)。',
+                en: '1. 1. Barley and koji spores (koji tane).'
+              },
+              {
+                zh: '1. 2. 将薏米用冷水彻底冲洗干净，然后浸泡4小时。',
+                en: '1. 2. Rinse the barley thoroughly under cold water, then soak for 4 hours.'
+              },
+              {
+                zh: '1. 3. 将薏米蒸20至30分钟，直至变软但不散开。',
+                en: '1. 3. Steam the barley until tender but not falling apart, 20 to 30 minutes.'
+              },
+              {
+                zh: '1. 4. 趁热将大麦打碎，以免结块。',
+                en: '1. 4. Break up the barley while still warm to avoid clumping.'
+              },
+              {
+                zh: '1. 5. 让大麦冷却至至少 30°C/86°F。',
+                en: '1. 5. Let the barley cool to at least 30°C/86°F.'
+              },
+              {
+                zh: '1. 6. 用koji孢子接种冷却的大麦。',
+                en: '1. 6. Inoculate the cooled barley with koji spores.'
+              },
+              {
+                zh: '1. 7. 24小时后，您应该开始看到菌丝生长的迹象。将大麦和犁沟混合成三个土堆。',
+                en: '1. 7. After 24 hours, you should begin to see the signs of mycelial growth. Mix the barley and furrow into three mounds.'
+              },
+              {
+                zh: '1. 8. 48小时后，koji应该完全生长。',
+                en: '1. 8. After 48 hours, the koji should be fully grown.'
+              },
+              {
+                zh: '1. 9. 将大麦放入冰箱冷却，以阻止真菌生长。装入密封容器中并存放在冰箱或冰柜中。',
+                en: '1. 9. Cool the barley in the refrigerator to stop the fungus’s growth. Pack in airtight containers and store in the refrigerator or freezer.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '收获你自己的孢子',
+              en: 'Harvesting Your Own Spores'
+            },
+            answer: [
+              {
+                zh: '*If you’re making koji on a regular basis, at some point you may want to harvest spores.*',
+                en: '*If you’re making koji on a regular basis, at some point you may want to harvest spores.*'
+              },
+              {
+                zh: '*Make a batch of koji and use gloved hands to break up the grains onto a sanitized, nonreactive, nonperforated tray. The mycelium will be very strong by hour 48, so you may have to pry the grains apart. Do your best to avoid crushing the barley. Spread the grains out in a single layer to create the maximum amount of surface area for the koji to sprout its spores. Cover with a lightly dampened towel and return the koji to the fermentation chamber. Allow it to grow for another 36 hours. Continue to monitor the temperature and humidity, but you won’t need to do any more turning of the grains.*',
+                en: '*Make a batch of koji and use gloved hands to break up the grains onto a sanitized, nonreactive, nonperforated tray. The mycelium will be very strong by hour 48, so you may have to pry the grains apart. Do your best to avoid crushing the barley. Spread the grains out in a single layer to create the maximum amount of surface area for the koji to sprout its spores. Cover with a lightly dampened towel and return the koji to the fermentation chamber. Allow it to grow for another 36 hours. Continue to monitor the temperature and humidity, but you won’t need to do any more turning of the grains.*'
+              },
+              {
+                zh: '*After 36 hours (84 total), you should see fluffy white, green, or yellow spores, depending on which strain ofAspergillusyou purchased. If you touch the grains (wearing sterile gloves), your finger should come away covered in powder. If agitated, the grains will emit a plume of dusty spores with a strong, almost meaty scent. If grown properly, the spores should be plentiful.*',
+                en: '*After 36 hours (84 total), you should see fluffy white, green, or yellow spores, depending on which strain ofAspergillusyou purchased. If you touch the grains (wearing sterile gloves), your finger should come away covered in powder. If agitated, the grains will emit a plume of dusty spores with a strong, almost meaty scent. If grown properly, the spores should be plentiful.*'
+              },
+              {
+                zh: '*You’ll need to dry the grains to keep the spores shelf-stable and to prevent them from becoming infected by other microbes. Remove the towel that was covering the koji and the humidity source from your chamber, and dry off any moisture from the walls. Crack the lid or door a little wider than when you were growing the koji, in order to increase airflow and place the sporulated grains in the chamber to dry until completely hard, about 2 days.*',
+                en: '*You’ll need to dry the grains to keep the spores shelf-stable and to prevent them from becoming infected by other microbes. Remove the towel that was covering the koji and the humidity source from your chamber, and dry off any moisture from the walls. Crack the lid or door a little wider than when you were growing the koji, in order to increase airflow and place the sporulated grains in the chamber to dry until completely hard, about 2 days.*'
+              },
+              {
+                zh: '*Pack the dried koji into an airtight container and store in a dark cupboard for up to 6 months or freeze for longer-term storage.*',
+                en: '*Pack the dried koji into an airtight container and store in a dark cupboard for up to 6 months or freeze for longer-term storage.*'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '脆脆的 Koji 油煎面包块',
+              en: 'Crunchy Koji Croutons'
+            },
+            answer: [
+              {
+                zh: '你可以用<第五学期>的新鲜蛋糕做很多事情，但它本身也很美味，切成厚片并在热油中煎炸。如果你想更进一步，你可以将蛋糕切成一口大小的方块，然后将它们油炸成酥脆的金黄色油煎面包块。用纸巾吸干水分并用盐调味。它们具有甜味和浓郁的鲜味，让您以为自己刚刚吃了一口美味的火腿脂肪。将一片薄薄的伊比利亚火腿铺在koji油煎面包块上，可以让这种效果加倍，这样一口大小的开口三明治就会让人上瘾。或者在油炸的koji方块上刷上牛肉Garum，以增加咸味，平衡koji蛋糕的天然甜味。',
+                en: 'You can do a lot with your fresh cake of koji, but it’s also delicious on its own, cut into slabs and seared in hot oil. If you want to take things a step further, you can cut the cake into bite-size cubes and deep-fry them into crisp, golden croutons. Drain them on a paper towel and season with salt. They have a sweetness and deep umami that combine to leave you thinking you’ve just had a delicious bite of ham fat. Double down on this effect by draping a thin slice of Ibérico ham over your koji croutons for an addictive bite-size open-faced sandwich. Or brush the fried koji squares withBeef Garumfor additional saltiness that balances out the natural sweetness of the koji cake.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '炖菜和汤',
+              en: 'Stews and Soups'
+            },
+            answer: [
+              {
+                zh: '将新鲜的 koji 蛋糕粉碎成腰子或蚕豆大小的碎片，并在烹饪的最后 10 分钟将它们添加到蔬菜汤中。在汤中使用尽可能多的其他蔬菜，以增添甜味和令人惊讶的质地，让人想起耐嚼的饺子。做炖肉时，可以在最后一个小时加入碎的koji；它会使肉汤变稠，但也会为整道菜增添额外的甜味和浓郁度。',
+                en: 'Crumble fresh koji cake into pieces the size of a kidney or fava bean and add them to vegetable soups during the last 10 minutes of cooking. Use as much as you would of any other vegetable in your soup, to lend a note of sweetness and a surprising texture that’s reminiscent of a chewy dumpling. When making a meat stew, you can add the crumbed koji in the final hour; it will thicken the broth but will also add an extra element of sweetness and richness to the whole dish.'
+              },
+              {
+                zh: '*When inoculated withAspergillus luchuensis—a different species ofAspergillus—barley koji develops notes of citrus.*',
+                en: '*When inoculated withAspergillus luchuensis—a different species ofAspergillus—barley koji develops notes of citrus.*'
+              },
+              {
+                zh: '<!-- text/part0009_split_007.html -->',
+                en: '<!-- text/part0009_split_007.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '06-perry-vinegar',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '佩里醋',
+      en: 'Perry Vinegar'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '佩里醋',
+          en: 'Perry Vinegar'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2 liters**',
+            en: '**Makes about 2 liters**'
+          },
+          {
+            zh: '为了让您更好地了解醋发酵的两个阶段，我们将从一个配方开始，其中我们首先通过天然糖的发酵来制造酒精，然后在AAB的帮助下将酒精发酵成乙酸。',
+            en: 'In order to provide you with a good picture of both stages of vinegar fermentation, we’ll begin with a recipe in which we first make alcohol through the fermentation of natural sugars, then ferment that alcohol into acetic acid with the help of AAB.'
+          },
+          {
+            zh: '首先，酿造酒精。 Perry 是一种梨酒，一种起泡、酒精含量较低的饮料，冷藏后和加热后都同样美味。梨有几十个品种；每种都会产生不同的梨子和梨子醋。在选择梨的种类时，你的指导原则应该是，我想喝这个梨的汁吗？如果答案是肯定的，那么无论如何，继续腐烂。',
+            en: 'First, brewing the alcohol. Perry is pear cider—a sparkling, lightly alcoholic beverage that’s as delicious chilled as it is warmed. There are dozens of varieties of pear; each will yield different perries and perry vinegars. In choosing the kind of pear you begin with, your guiding principle should be,Would I want to drink the juice from this pear?If the answer is yes, then by all means, rot on.'
+          },
+          {
+            zh: '梨的皮里含有足够的野生酵母，可以让它们自行发酵，但野生发酵始终是一场赌博——你永远无法确定会出现什么味道，而且时间也更难以预测。在某些情况下，这很好，但由于梨将继续进行二次发酵，我们希望对其风味和酒精含量有更多的确定性，因此我们将依赖酵母发酵剂。可用于发酵梨的酵母品种与梨本身一样多种多样。 （如果你开始在发酵过程中增加不同的变量，你就会感受到风味的可能性有多么广泛。）任​​何库存充足的家庭酿酒店都可以指导你找到一种与你的梨子相配的酵母。远离面包酵母，它会让你的梨酒尝起来有面包味。在 Noma，我们偏爱 saison 酵母，它实际上是两种不同菌株并肩工作的混合物：Brettanomyces和酿酒酵母。我们发现它在发酵过程中产生了浓郁的香味，而且没有一丝苦味。',
+            en: 'The skin of the pears hosts enough wild yeast to ferment them all on their own, but wild fermentation is always a gamble—you can never be sure what flavors will emerge, and the timeline is less predictable. This is more than fine in some cases, but since the perry will continue on to a secondary fermentation, we want a little more certainty about its flavor and alcohol content, so we’ll depend on a yeast starter. The varieties of yeast available to ferment your perry are as varied as the pears themselves. (If you start multiplying the different variables in fermentation, you’ll get a sense of just how expansive the flavor possibilities are.) Any well-stocked home-brew shop will be able to guide you to a yeast that will fare well with your pears. Stay away from baker’s yeast, which will make your perry taste, well, bready. Here at Noma, we have a penchant for saison yeast, which is actually a blend of two different strains working side by side:BrettanomycesandSaccharomyces. We find it creates a great bouquet during fermentation, with no trace of bitterness.'
+          },
+          {
+            zh: '*These are Conference pears, but more important than the varietal is that the fruit you choose is ripe and sweet.*',
+            en: '*These are Conference pears, but more important than the varietal is that the fruit you choose is ripe and sweet.*'
+          }
+        ],
+        bullets: [
+          {
+            zh: '4公斤甜熟梨',
+            en: '4 kilograms sweet, ripe pears'
+          },
+          {
+            zh: '1 包（35 毫升）液体 saison 酵母',
+            en: '1 packet (35 milliliters) liquid saison yeast'
+          },
+          {
+            zh: '**Unpasteurized pear vinegar, or another unpasteurized mild vinegar such as apple cider vinegar**',
+            en: '**Unpasteurized pear vinegar, or another unpasteurized mild vinegar such as apple cider vinegar**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '对于第一次发酵，您需要一个带盖子、气闸和橡胶塞的食品安全塑料桶。您可以在任何家庭酿酒店找到它。寻找一个能够容纳原料并留出大约 15% 体积的桶。您还需要苹果压榨机或中国榨汁机来挤出发酵液体。您可以在同一个桶中进行二次发酵，或者使用较小的3升广口玻璃瓶。无论哪种方式，您都需要粗棉布或干净的厨房毛巾，以及橡皮筋将其固定在容器顶部。',
+                en: 'For the first fermentation, you’ll need a food-safe plastic bucket with a lid, airlock, and rubber stopper. You can find it at any home-brew shop. Look for a size of bucket that will hold the ingredients with about 15 percent of its volume to spare. You will also need a cider press or chinois to squeeze out the fermented liquid. You can perform the secondary fermentation in the same bucket, or use a smaller 3-liter wide-mouthed mason jar. Either way, you’ll need cheesecloth or a clean kitchen towel, along with rubber bands to secure it to the top of the vessel.'
+              },
+              {
+                zh: '我们快速生产醋的方法需要气泵和气石，您可以在家庭酿酒店或宠物店找到它们。阅读食谱了解完整细节。',
+                en: 'Our quick method of producing vinegar requires an air pump and air stone, which you can find at a home-brew shop or pet store. Read the recipe for full details.'
+              },
+              {
+                zh: '我们建议对您的所有设备进行彻底清洁和消毒（请参阅清洁度、病原体和安全）。',
+                en: 'We recommend that all your equipment be thoroughly cleaned and sanitized (seeCleanliness, Pathogens, and Safety).'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '你需要非常甜且成熟的梨才能制作出像样的梨。脆脆的安茹梨可能是一种不错的零食，但它的糖与纤维的比例不够高，无法达到我们想要的酒精含量。像博斯克梨或会议梨这样的品种，成熟后往往会显着变甜，可以制成美味的梨。',
+                en: 'You need very sweet and ripe pears to make a decent perry. A crunchy d’Anjou pear might make for a nice snack, but it doesn’t have a high enough sugar-to-fiber ratio to yield the alcohol content we’re aiming for. Varieties like Bosc or Conference pears, which tend to sweeten significantly as they ripen, make for great perry.'
+              },
+              {
+                zh: '醋生产的第一阶段是利用酵母将水果中的糖转化为酒精。找一个在梨放入后能留下 15% 体积的桶。5 升的桶是完美的选择。',
+                en: 'The first stage of vinegar production is to use yeast to convert the sugar in fruit into alcohol. Find a bucket that will leave 15 percent of its volume after the pears are in. A 5-liter bucket is perfect here.'
+              },
+              {
+                zh: '将梨去蒂（你可以把种子留在里面），然后切成易于处理的块。在食品加工机中将它们混合成粗泥。它不必完全平滑；搅拌直至不再看到单独的水果块。',
+                en: 'Stem the pears (you can leave the seeds in) and dice them into manageable pieces. Blend them into a rough puree in a food processor. It doesn’t have to be completely smooth; just blend until you no longer see individual chunks of fruit.'
+              },
+              {
+                zh: '将梨泥放入发酵桶中。添加酵母并混合，将水果折叠起来以确保酵母均匀分布。合上桶盖，确保其气密，然后向气闸室注满水，并将其插入橡胶塞中。 （如果您以前从未自制过啤酒，并且这很难想象，只需询问您的自制啤酒店的店员或观看在线视频即可。这比听起来容易得多。）',
+                en: 'Place the pear mash into the fermenting bucket. Add the yeast and mix, folding the fruit over to ensure that the yeast is well distributed. Snap the bucket lid shut, ensuring that it’s airtight, then fill the airlock with water and insert it into the rubber stopper. (If you’ve never home-brewed before and this is hard to visualize, just ask the clerk at your home-brew shop or watch a video online. It’s much easier than it sounds.)'
+              },
+              {
+                zh: '将水桶移至比室温稍冷的地方 - 大约 18°C/64°F 是理想的。在温暖的温度下发酵会给梨带来浑浊、霉味的味道。将梨发酵 7 至 10 天，具体取决于您想要的残留甜味量。让味道成为您的指南。发酵期间，每天打开盖子，用戴手套的手或无菌勺搅拌内容物。早期阶段不会有任何果汁供您品尝，但将勺子浸入梨泥中会告诉您需要知道的一切。当混合物发酵时，盖子会膨胀，气闸偶尔会发出咯咯声。这是由酵母产生的二氧化碳引起的，这是完全正常的。我们不建议一直服用梨子来完成酒精发酵（14 至 16 天），因为您需要一些残留的糖分来平衡乙酸的味道。如果您发现梨发酵过度，您可以简单地添加一些新鲜的、过滤的梨汁来稀释它。此时调整糖的平衡会比以后更容易。',
+                en: 'Move the bucket to a spot that’s slightly cooler than room temperature—about 18°C/64°F is ideal. Fermenting in warm temperatures can impart murky, musty tones to the perry. Ferment the perry for 7 to 10 days, depending on how much residual sweetness you want. Let taste be your guide. During fermentation, open the lid every day and stir the contents with gloved hands or a sterile spoon. There won’t be any juice for you to taste in the early stages, but dipping a spoon into the pear mash will tell you everything you need to know. As the mixture ferments, the lid will puff up and the airlock will occasionally gurgle. This is caused by the carbon dioxide produced by the yeast, and it’s perfectly normal. We don’t advise taking the perry all the way to complete alcoholic fermentation (14 to 16 days), as you want some residual sugars to balance the flavor of acetic acid. If you find that your perry has fermented too far, you can simply add some fresh, strained pear juice to dilute it. It will be easier to adjust the balance of sugar at this point than later.'
+              },
+              {
+                zh: '梨发酵完成后，您需要压榨梨汁。在Noma，我们使用苹果酒压榨机来实现这一点——基本上是一个穿孔的金属或木鼓，用手动曲柄压榨水果中的果汁。将发酵后的糊状物放入布袋中，然后将布袋放入滚筒中。转动曲柄，果汁通过底部的喷嘴流出。',
+                en: 'Once the pears have finished fermenting, you’ll need to press the mash for its juice. At Noma, we do this with a cider press—basically a perforated metal or wooden drum that squishes juice from the fruit with a hand crank. You put the fermented mash in a cloth bag and place the bag in the drum. Turn the crank and out comes the juice via a spout at the base.'
+              },
+              {
+                zh: '如果你没有足够的运气拥有苹果酒压榨机，那么将麦芽浆推入内衬粗棉布的老式斜纹棉布裤中就可以了。有些水果会流到另一边，因此请通过细网筛或粗棉布再次过滤，但无需过分注重过滤。粘度不是你的敌人。较浓稠的果汁可制成美味的梨酒，口感和酒体都很棒。',
+                en: 'If you aren’t lucky enough to own a cider press, pushing the mash through a good old-fashioned chinois lined with cheesecloth will do the trick. Some fruit will pass through to the other side, so strain it again through a fine-mesh sieve or cheesecloth, but no need to get obsessive about straining. Viscosity isn’t your enemy. A thicker juice makes wonderful perry with great mouthfeel and body.'
+              },
+              {
+                zh: '所以现在你有了佩里。虽然这一章是关于醋的，但你可以将其冷却并立即享用，或者将其加热并添加一些香料，或者将其转移到平顶瓶中，让它在冰箱中进一步发酵成起泡的梨酒。然而，接下来的步骤将使最后一个选择变得不可能，所以现在决定是否想让你的梨酒变质。',
+                en: 'So now you’ve got perry. And while this is a chapter about vinegar, you could chill this down and enjoy it right away, or warm it up and add some mulling spices, or transfer it to swing-top bottles and let it ferment further in the fridge into sparkling perry. However, the following step will make the last option impossible, so decide now if you want to turn your perry sour.'
+              },
+              {
+                zh: '我们不希望酵母菌干扰醋的味道或继续将糖发酵成酒精，所以我们将它们杀死。将滤过的梨转移到带盖的锅中，加热至约 70°C/158°F — 蒸熟但小火慢炖。盖上锅盖并在该温度下保持 15 分钟，偶尔搅拌，然后将其关火并冷却至室温。',
+                en: 'We don’t want yeasts interfering with the flavor of the vinegar or continuing to ferment sugar into alcohol, so we kill them off. Transfer the strained perry to a pot with a lid and heat it to approximately 70°C/158°F—steaming but beneath a simmer. Cover the pot and hold it at that temperature for 15 minutes, stirring occasionally, then pull it off the heat and allow to cool to room temperature.'
+              },
+              {
+                zh: '如果你把梨倒进几个玻璃瓶里，用粗棉布盖住它们，然后把它们放在柜台上，你最终就会得到醋。我们将其称为“长期方法”——您将等待大约 3 到 4 个月，让果汁通过野生发酵适当酸化。',
+                en: 'If you were to pour the perry into a couple of mason jars, cover them with cheesecloth, and leave them on the counter, you’d eventually have vinegar. We’ll call that the long method—you’ll be waiting somewhere around 3 to 4 months for the juice to acidify properly through wild fermentation.'
+              },
+              {
+                zh: '为了加快速度并给予我们更多的控制权，我们做了两件事。首先，我们来：称量梨子的重量，然后量出 20% 的未经巴氏消毒的梨醋（或类似的未经巴氏消毒的醋）。例如，如果您最终得到 1.8 公斤梨，则添加 360 克醋。',
+                en: 'To speed things up and give us more control, we do two things. First, webackslop: Weigh the perry, then measure out 20% of that weight in unpasteurized pear vinegar (or a similar unpasteurized vinegar). For example, if you ended up with 1.8 kilograms perry, add 360 grams vinegar.'
+              },
+              {
+                zh: '第二步是给醋充气。 AAB 需要氧气才能发挥作用，而长方法对此没有任何帮助。首先选择合适的发酵容器。你想要的东西有很大的表面积，但不是金属的。您可以使用与发酵梨相同的桶，或者改用 3 升的广口罐。将倒斜的梨酒倒入容器中。戴上手套，将空气石放入液体中，确保其位于容器底部。将软管从容器顶部蜿蜒至气泵，并用粗棉布或透气的厨房毛巾覆盖容器。用橡皮筋固定布，但小心不要阻碍空气通过软管的流动。然而，果蝇绝对喜欢醋的味道——在某些地区它们也被称为“醋蝇”——所以确保布上的密封完好无损很重要。如果管子与桶之间有间隙，请用胶带将其封闭。插上气泵，让梨在室温下发酵。',
+                en: 'The second step is to aerate the vinegar. AAB need oxygen to function, and the long method does nothing to facilitate that. Begin by selecting the right fermentation vessel. You want something with lots of surface area, but nothing metal. You can use the same bucket you used for fermenting the pears, or switch to a 3-liter jar with a wide mouth. Pour the backslopped perry into the vessel. Wearing gloves, place the air stone into the liquid, making sure it rests on the bottom of the container. Snake the hose out the top of the vessel to the air pump and cover the vessel with cheesecloth or a breathable kitchen towel. Secure the cloth with a rubber band but be careful not to impede the flow of air through the hose. However, fruit flies absolutely adore the smell of vinegar—they’re also known as “vinegar flies” in some regions—so it’s important to make sure the seal on your cloth is unbroken. If there’s a gap where the tube exits the bucket, use a piece of tape to shut it. Plug in your air pump and leave the perry to ferment at room temperature.'
+              },
+              {
+                zh: '通过持续通气，您将能够在 10 到 14 天内恢复醋的状态。几天后开始每天品尝醋。如果酒精味仍然很明显，则醋需要进一步发酵。您可以使用 pH 计或 pH 试纸来测试醋的酸度（pH 范围通常为 3.5 到 4），但说实话，我们发现味道是更好的指导。糖分、粘度和醋的味道都会影响舌头对酸度的感知。机械测量不一定会产生您想要的产品。',
+                en: 'With constant aeration, you’ll be able to turn the vinegar around in 10 to 14 days. Start tasting the vinegar daily after a few days. If the taste of alcohol is still noticeable, the vinegar needs to ferment further. You could use a pH meter or pH strips to test how acidic your vinegar is—a pH range of 3.5 to 4 is usually just right—but in all honesty, we find taste to be a better guide. Sugar, viscosity, and the flavor of your vinegar can all affect the perception of acidity on your tongue. A mechanical measurement may not necessarily lead to the product you want.'
+              },
+              {
+                zh: '完成后，过滤梨醋并将其存放在冰箱中的带盖瓶子中，以尽可能保持味道新鲜，不过只要不暴露在空气中，醋就可以完全稳定地保存。如果您发现瓶子底部有任何沉淀物，您可以在使用前摇匀醋，或者，如果您喜欢清澈的醋，请轻轻地将其倒入新的容器中，留下沉淀物（我们称之为“倒架”）。',
+                en: 'Once finished, strain your perry vinegar and store it in capped bottles in the fridge to keep the flavors as fresh as possible, though the vinegar is perfectly shelf stable as long as it’s not exposed to air. If you notice any sediment at the bottom of the bottle, you can either shake the vinegar before using or, if you’d prefer a clear vinegar, gently pour it off into a fresh vessel, leaving the sediment behind (what we call “racking”).'
+              },
+              {
+                zh: '*Perry Vinegar, day 1*',
+                en: '*Perry Vinegar, day 1*'
+              },
+              {
+                zh: '*Day 7*',
+                en: '*Day 7*'
+              },
+              {
+                zh: '*Day 14*',
+                en: '*Day 14*'
+              },
+              {
+                zh: '1. 1. 将梨切丁，搅拌成粗果泥。',
+                en: '1. 1. Dice the pears and blend them into a coarse puree.'
+              },
+              {
+                zh: '1. 2. 将梨泥放入发酵容器中，加入酵母，盖上盖子和气闸。',
+                en: '1. 2. Place the pear mash into a fermentation vessel, add the yeast, and cover with a lid and an airlock.'
+              },
+              {
+                zh: '1. 3. 让混合物发酵 7 至 10 天。',
+                en: '1. 3. Allow the mixture to ferment for 7 to 10 days.'
+              },
+              {
+                zh: '1. 4. 压榨麦芽浆，收获梨子。',
+                en: '1. 4. Press the mash to harvest the perry.'
+              },
+              {
+                zh: '1. 5. 将梨转移到新容器中，倒入未经高温消毒的醋，然后安装空气石和泵。',
+                en: '1. 5. Transfer the perry to a new vessel, backslop with unpasteurized vinegar, and set up an air stone and pump.'
+              },
+              {
+                zh: '1. 6. 发酵10至14天，直至充分变酸。将成品醋过滤并装瓶，然后存放在冰箱中。',
+                en: '1. 6. Ferment until sufficiently soured, 10 to 14 days. Strain and bottle the finished vinegar, and store in the refrigerator.'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '佩里油醋汁',
+              en: 'Perry Vinaigrette'
+            },
+            answer: [
+              {
+                zh: '佩里醋具有淡淡而细腻的甜味，是我们所有醋中最好的醋汁。将 3 份优质橄榄油、1 份梨醋和一小块粒状芥末搅拌在一起。用盐调味，你就得到了提升新鲜沙拉蔬菜、焯过的蜡豆或轻炒羽衣甘蓝所需的一切。',
+                en: 'Perry vinegar has a light and delicate sweetness that yields the nicest vinaigrette of any vinegar in our repertoire. Whisk together 3 parts good olive oil, 1 part perry vinegar, and a small dollop of grainy mustard. Season with salt, and you’ve got all you need to elevate fresh salad greens, blanched wax beans, or lightly sautéed kale.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '梨荷兰酱或蛋黄酱',
+              en: 'Pear Hollandaise or Béarnaise'
+            },
+            answer: [
+              {
+                zh: '因为佩里醋不具有与普通白葡萄酒醋相同的前期刺激性，所以它可以单独作为荷兰酱或蛋黄酱等酱汁的基础，许多经典食谱都需要用白葡萄酒稀释白葡萄酒醋。量取 250 毫升梨醋，放入小锅中，放入切好的葱片和一打花椒。将液体减少约三分之二，然后过滤。将还原物转移到双层锅的顶部，加入 3 个蛋黄，然后煮并搅拌，直至酱汁变稠并从搅拌器上呈丝带状掉落。用盐和少许辣椒调味。',
+                en: 'Because perry vinegar doesn’t have the same up-front harshness of your average white wine vinegar, it can stand alone as the base for sauces like hollandaise or béarnaise, where many classic recipes call for white wine vinegar diluted with white wine. Measure 250 milliliters perry vinegar into a small pot with a sliced shallot and a dozen peppercorns. Reduce the liquid by about two-thirds, then strain. Transfer the reduction to the top of a double boiler, add 3 egg yolks, then cook and whisk until the sauce thickens and falls off the whisk in ribbons. Season with salt and a bare pinch of cayenne pepper.'
+              },
+              {
+                zh: '为了让果味加倍，可将坚硬但甜甜的梨放入 250 毫升梨醋中浸泡几个小时。将梨沥干，保留醋。用醋稀释酱汁，然后将梨布鲁诺兹拌入酱汁中。这是一种充满活力且浓郁的酱汁，您可以轻松地与烤牛排一起食用，就像与一碗刚煮熟的豌豆一起食用一样。',
+                en: 'To double down on the fruitiness, brunoise firm but sweet pears and let them macerate in 250 milliliters perry vinegar for a couple of hours. Drain the pears, reserving the vinegar. Use the vinegar to make the reduction for the sauce, and fold the pear brunoise into the sauce. It’s a vibrant and full-bodied sauce that you could just as easily serve alongside grilled hanger steak as with a bowl of barely cooked peas.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '为了获得更准确的甜度，请使用折光仪',
+              en: 'For More Accurate Sweetness, Use a Refractometer'
+            },
+            answer: [
+              {
+                zh: '*If you want more precision in your measurements, use a refractometer. As explained in theKombuchachapter, a refractometer gives the sweetness of a solution in degrees Brix by measuring the refraction of light affected by the amount of sugar in water. As the perry ferments and the yeast turns sugar to alcohol, the Brix decreases.*',
+                en: '*If you want more precision in your measurements, use a refractometer. As explained in theKombuchachapter, a refractometer gives the sweetness of a solution in degrees Brix by measuring the refraction of light affected by the amount of sugar in water. As the perry ferments and the yeast turns sugar to alcohol, the Brix decreases.*'
+              },
+              {
+                zh: '*To get an accurate reading with your refractometer, light needs to be able to pass through the liquid. In a situation like this, with chunks of fermented fruit, you’ll need to squeeze some fruit to get a small portion of juice and then strain it through a fine-mesh sieve or cheesecloth. While the resulting liquid will still be a bit cloudy, it will give you a more accurate reading. Take an initial reading of the sugar content before you begin the ferment, then check it again every day or two. As the perry ferments, plug your measurements into the chart below, which converts the difference in Brix into alcohol by volume (ABV). The chart gives an approximate ABV for various changes in Brix for ferments held at a temperature of 20°C/68°F. You’ll be ready to make vinegar once your perry is in the neighborhood of 6% to 7% ABV.*',
+                en: '*To get an accurate reading with your refractometer, light needs to be able to pass through the liquid. In a situation like this, with chunks of fermented fruit, you’ll need to squeeze some fruit to get a small portion of juice and then strain it through a fine-mesh sieve or cheesecloth. While the resulting liquid will still be a bit cloudy, it will give you a more accurate reading. Take an initial reading of the sugar content before you begin the ferment, then check it again every day or two. As the perry ferments, plug your measurements into the chart below, which converts the difference in Brix into alcohol by volume (ABV). The chart gives an approximate ABV for various changes in Brix for ferments held at a temperature of 20°C/68°F. You’ll be ready to make vinegar once your perry is in the neighborhood of 6% to 7% ABV.*'
+              },
+              {
+                zh: '*(Note that brewers often use a different measurement called “specific gravity,” which is tied to the change in density of a liquid, to track the change in sugar content in a ferment. Because we end up fermenting products with fruit fiber in them, specific gravity is harder to measure accurately. It also requires a large sample size, usually a few hundred milliliters, which isn’t feasible for some of our ferments, especially if you only want a quick check-in.)*',
+                en: '*(Note that brewers often use a different measurement called “specific gravity,” which is tied to the change in density of a liquid, to track the change in sugar content in a ferment. Because we end up fermenting products with fruit fiber in them, specific gravity is harder to measure accurately. It also requires a large sample size, usually a few hundred milliliters, which isn’t feasible for some of our ferments, especially if you only want a quick check-in.)*'
+              },
+              {
+                zh: '从起始点开始减少 °Bx 大约 % ABV000.5811.1521.7332.342.8853.4564.0374.685.1895.57106.33116.9127.48138.05148.63159.2169.781710.351810.931911.520',
+                en: 'Decrease in °Bx from starting pointApproximate % ABV000.5811.1521.7332.342.8853.4564.0374.685.1895.57106.33116.9127.48138.05148.63159.2169.781710.351810.931911.520'
+              },
+              {
+                zh: '*Plum wine fermenting into vinegar.*',
+                en: '*Plum wine fermenting into vinegar.*'
+              },
+              {
+                zh: '<!-- text/part0008_split_007.html -->',
+                en: '<!-- text/part0008_split_007.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '06-rose-kombucha',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '罗斯 <第 14 学期>',
+      en: 'Rose Kombucha'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '罗斯 <第 14 学期>',
+          en: 'Rose Kombucha'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 2 liters**',
+            en: '**Makes 2 liters**'
+          },
+          {
+            zh: '在丹麦，你会发现到处都生长着野玫瑰。它们松散的小花瓣花朵在视觉上不像栽培的杂交玫瑰那么令人印象深刻，但它们的香味和味道却令人惊叹。这款kombucha将保留甜美的玫瑰香气，并通过发酵的明亮酸度进行平衡。如果您买不到野玫瑰，请选择具有明显香味、未喷洒化学物质或受到任何方式污染的花朵；花瓣大小并不重要。',
+            en: 'In Denmark, you’ll find wild roses growing everywhere. Their loose blossoms of small petals aren’t as visually impressive as cultivated hybrid roses, but their perfume and flavor are stunning. This kombucha will retain the sweet rose fragrance and be balanced by the bright acidity of the fermentation. If you can’t get your hands on wild roses, choose flowers with a pronounced scent that have not been sprayed with chemicals or contaminated in any way; petal size doesn’t matter.'
+          },
+          {
+            zh: '柠檬马鞭草 Kombucha 的深入说明可作为本章中所有 kombucha 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLemon Verbena Kombuchaserve as a template for all the kombucha recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将糖和 240 克水放入中锅中煮沸，搅拌以溶解糖。离火，加入剩余的1.52公斤水，快速冷却。',
+            en: 'Bring the sugar and 240 grams of the water to a boil in a medium pot, stirring to dissolve the sugar. Remove from the heat and add the remaining 1.52 kilograms water to cool it down quickly.'
+          },
+          {
+            zh: '一旦糖浆冷却至室温，将其与玫瑰花瓣一起转移到搅拌机中并混合。你不会得到完美的果泥，但花瓣应该切成小块。将液体转移到容器中，盖上盖子，冷藏过夜以注入。',
+            en: 'Once the sugar syrup cools to room temperature, transfer it to a blender along with the rose petals and blend. You won’t get a perfect puree, but the petals should be reduced to small bits. Transfer the liquid to a container, cover, and refrigerate overnight to infuse.'
+          },
+          {
+            zh: '第二天，将玫瑰糖浆通过细网筛过滤到发酵容器中。通过搅拌 200 克未经巴氏消毒的 kombucha 来倒流输液。戴上手套，小心地将 SCOBY 放入液体中。用粗棉布或透气的厨房毛巾盖住发酵容器的顶部，并用橡皮筋固定。标记kombucha并将其放在温暖的地方。',
+            en: 'The following day, strain the rose syrup through a fine-mesh sieve into the fermentation vessel. Backslop the infusion by stirring in the 200 grams unpasteurized kombucha. Wearing gloves, carefully place the SCOBY into the liquid. Cover the top of the fermentation vessel with cheesecloth or a breathable kitchen towel and secure it with a rubber band. Label the kombucha and set it in a warm place.'
+          },
+          {
+            zh: '让kombucha发酵，每天跟踪其进展。确保 SCOBY 的顶部不会变干；如有必要，用勺子沾一些液体。一旦您对 kombucha 的味道感到满意（可能是从开始后 7 到 10 天），请将 SCOBY 转移到容器中进行存储并过滤 kombucha。立即食用或冷藏、冷冻或装瓶。',
+            en: 'Leave the kombucha to ferment, tracking its progress each day. Make sure the top of the SCOBY doesn’t dry out; use a ladle to moisten it with some of the liquid, if necessary. Once you’re happy with the flavor of your kombucha—probably between 7 and 10 days from the start—transfer the SCOBY to a container for storage and strain the kombucha. Consume immediately or refrigerate, freeze, or bottle it.'
+          },
+          {
+            zh: '*Rose Kombucha, day 1*',
+            en: '*Rose Kombucha, day 1*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '240克糖',
+            en: '240 grams sugar'
+          },
+          {
+            zh: '1.76公斤水',
+            en: '1.76 kilograms water'
+          },
+          {
+            zh: '200克野玫瑰花瓣',
+            en: '200 grams wild rose petals'
+          },
+          {
+            zh: '200 克未经高温消毒的kombucha（或包装好的 SCOBY 附带的液体）',
+            en: '200 grams unpasteurized kombucha (or the liquid that comes with a packaged SCOBY)'
+          },
+          {
+            zh: '**1 SCOBY (seeSources)**',
+            en: '**1 SCOBY (seeSources)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '鸭肉玫瑰梅酱',
+              en: 'Rose-Plum Sauce for Duck'
+            },
+            answer: [
+              {
+                zh: '玫瑰kombucha可以作为烤鸭胸肉或烤哈罗米干酪的酸花李子酱的底料。将大致等量的lacto李子肉和玫瑰kombucha混合直至光滑——每种 200 克应该可以制成足够的酱汁。 （如果你手头没有lacto李子，你可以用商店买的梅干李子的一半来凑合。）将混合物通过细网筛，放入小模子中，淋上橄榄油，撒上碎花椒。',
+                en: 'Rose kombucha can serve as the base for a tart, floral plum sauce for roasted duck breast or grilled halloumi. Blend roughly equal amounts oflacto plumflesh and rose kombucha until smooth—200 grams of each should make plenty of sauce. (If you don’t have any lacto plums on hand, you can make do with half that amount of store-bought umeboshi plums.) Pass the mixture through a fine-mesh sieve and serve in small ramekins with a drizzle of olive oil and a sprinkle of cracked Sichuan peppercorns.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '杜松子酒和玫瑰鸡尾酒',
+              en: 'Gin and Rose Cocktail'
+            },
+            answer: [
+              {
+                zh: '在Noma，果汁搭配菜单（其中有许多kombucha的功能）旨在作为葡萄酒搭配的替代品，但这并不是说您不能将kombucha与酒精混合。这个周六晚上，尝试将一把新鲜浆果混入 50 毫升玫瑰酒kombucha中，并与 28 毫升杜松子酒（或伏特加）混合，然后将其滤入加冰的岩石杯中。',
+                en: 'At Noma, the juice pairings menu (where a lot of our kombuchas feature) is meant as an alternative to wine pairings, but that’s not to say you can’t mix kombucha with alcohol. This Saturday night, try muddling a handful of fresh berries into 50 milliliters rose kombucha, and combine with 28 milliliters gin (or vodka) before straining it into a rocks glass over ice.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '浆果玫瑰果酱',
+              en: 'Berry-Rose Coulis'
+            },
+            answer: [
+              {
+                zh: '*Passing your puree through a tamis creates a luxurious texture.*',
+                en: '*Passing your puree through a tamis creates a luxurious texture.*'
+              },
+              {
+                zh: '将 500 克玫瑰 kombucha 和 250 克当季最好的浆果混合在一起。混合的时间越长，从浆果中释放出的果胶就越多，果泥就会越浓稠。此时，您可以将其作为可爱的夏季茶点 - 无需过滤 - 或者您可以将混合物通过细网筛，将其变成充满活力的果酱，用于浸渍更多新鲜水果或浇在冰淇淋或意式奶冻上。',
+                en: 'Blend together 500 grams rose kombucha and 250 grams of the season’s best berries. The longer you blend, the more pectin you’ll release from the berries, and the thicker the puree will be. At this point, you could serve it as a lovely summer refreshment—no straining necessary—or you could pass the mixture through a fine-mesh sieve, turning it into a vibrant coulis for macerating more fresh fruit or topping ice cream or panna cotta.'
+              },
+              {
+                zh: '*Apple kombucha is one of the simplest yet most versatile kombuchas in this book.*',
+                en: '*Apple kombucha is one of the simplest yet most versatile kombuchas in this book.*'
+              },
+              {
+                zh: '<!-- text/part0007_split_007.html -->',
+                en: '<!-- text/part0007_split_007.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '06-rose-peaso',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '罗斯 <第 18 学期>',
+      en: 'Rose Peaso'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '罗斯 <第 18 学期>',
+          en: 'Rose Peaso'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 2.5 kilograms**',
+            en: '**Makes 2.5 kilograms**'
+          },
+          {
+            zh: '在Noma，制作miso通常是我们将原本会浪费的东西集中到新产品中的一种方式。这个配方的目的是利用我们混合野生玫瑰花瓣来制造玫瑰油时剩下的果肉。我们不希望您朝相反的方向工作，制作完全独立的产品以获得副产品，因此我们调整了配方以使用新鲜的成分，其功能同样好。',
+            en: 'At Noma, making miso is often a way for us to funnel what would otherwise be waste into a new product. This recipe was designed to use up leftover pulp we had from blending wild rose petals to make rose oil. We don’t expect you to work in the opposite direction, making a completely separate product in order to get the by-product, so we’ve adapted the recipe to use fresh ingredients, which function just as well.'
+          },
+          {
+            zh: '黄色 Peaso 的深入说明可作为本章中所有 miso 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forYellow Peasoserve as a template for all the miso recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '使用干净、消毒的绞肉机或食品加工机，将煮熟的豌豆和koji磨成粗粉。收集玫瑰花瓣，堆叠并卷成一个松散的圆柱体，然后将它们切成雪纺状，就像切罗勒叶一样。将玫瑰与豌豆和koji拌在一起，然后加入盐。戴上手套，彻底混合所有东西。',
+            en: 'Using a clean, sanitized meat grinder or food processor, grind the cooked peas and koji into a coarse meal. Gather the rose petals, stack and roll them into a loose cylinder, then slice them into a chiffonade as you would basil leaves. Fold the roses in with the peas and koji, and add the salt. Wearing gloves, mix everything thoroughly.'
+          },
+          {
+            zh: '如有必要，可以一次添加一点 4% 的盐水来调整玫瑰peaso混合物的质地和水分含量，直到您可以将混合物在拳头中挤成紧实的球。 （有关更详细的说明，请参阅黄色peaso食谱。）',
+            en: 'If necessary, adjust the texture and moisture content of the rose peaso mixture by adding a little bit of 4% salt brine at a time, until you can squeeze the mixture into a tight ball in your fist. (See theyellow peasorecipe for more detailed instructions.)'
+          },
+          {
+            zh: '将玫瑰peaso混合物紧紧地装入发酵容器中。将顶部平滑并平整，将容器内部擦拭干净，并在表面撒上盐。根据黄色 peaso 配方中概述的说明，将重量放下并覆盖 peaso。让peaso在室温下发酵3至4个月。一旦peaso发酵完成，您可以将其与少量水混合直至光滑，然后将其通过塔米斯以获得更细腻的质地。将完成的peaso装入密封罐或容器中，并存放在冰箱或冰柜中。',
+            en: 'Pack the rose peaso mixture tightly into the fermentation vessel. Smooth and level the top, wipe the insides of the vessel clean, and sprinkle the surface with salt. Weight down and cover the peaso, according to the directions outlined in the yellow peaso recipe. Let the peaso ferment at room temperature for 3 to 4 months. Once the peaso has finished fermenting, you can blend it with a bit of water until smooth and then pass it through a tamis for a finer texture. Pack the finished peaso in airtight jars or containers and store in the refrigerator or freezer.'
+          },
+          {
+            zh: '*Rose Peaso, day 1*',
+            en: '*Rose Peaso, day 1*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '*Day 90*',
+            en: '*Day 90*'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1.5公斤煮熟的黄豌豆（seeyellow peaso说明）',
+            en: '1.5 kilograms cooked split yellow peas(seeyellow peaso instructions)'
+          },
+          {
+            zh: '950 克珍珠薏米 Koji',
+            en: '950 gramsPearl Barley Koji'
+          },
+          {
+            zh: '125克野玫瑰花瓣',
+            en: '125 grams wild rose petals'
+          },
+          {
+            zh: '**100 grams non-iodized salt, plus extra for sprinkling**',
+            en: '**100 grams non-iodized salt, plus extra for sprinkling**'
+          },
+          {
+            zh: '• 可可',
+            en: '• Cacao'
+          },
+          {
+            zh: '• 樱花',
+            en: '• Cherry blossom'
+          },
+          {
+            zh: '• 花旗松',
+            en: '• Douglas fir'
+          },
+          {
+            zh: '• 接骨木花',
+            en: '• Elderflower'
+          },
+          {
+            zh: '• 芙蓉',
+            en: '• Hibiscus'
+          },
+          {
+            zh: '• 柠檬马鞭草',
+            en: '• Lemon verbena'
+          },
+          {
+            zh: '• 万寿菊',
+            en: '• Marigold'
+          },
+          {
+            zh: '• 绣线菊',
+            en: '• Meadowsweet'
+          },
+          {
+            zh: '• 水仙',
+            en: '• Narcissus'
+          },
+          {
+            zh: '• 橙花',
+            en: '• Orange blossom'
+          },
+          {
+            zh: '• 菠萝草',
+            en: '• Pineapple weed'
+          },
+          {
+            zh: '• 粉红辣椒叶',
+            en: '• Pink pepper leaves'
+          },
+          {
+            zh: '• 李子仁',
+            en: '• Plum kernel'
+          },
+          {
+            zh: '• 玫瑰天竺葵',
+            en: '• Rose geranium'
+          },
+          {
+            zh: '• 香草荚',
+            en: '• Vanilla pod'
+          },
+          {
+            zh: '• 柚子皮',
+            en: '• Yuzu rind'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '其他花卉 Miso',
+              en: 'Other Floral Misos'
+            },
+            answer: [
+              {
+                zh: '这个配方的基本概念——黄色peaso加上按重量计5%的花卉成分——可以用来创造出一系列令人惊叹的风味peaso，最终远远超出了它们各部分的简单相加。发酵过程将高度芳香的味道变成全新的味道。我们不会详细介绍每一个细节，而是为您提供一小部分“最热门歌曲”。',
+                en: 'The basic concept of this recipe—yellow peaso with the addition of 5% by weight of a floral ingredient—can be adapted to create a whole slew of amazing flavored peasos that end up being something far beyond the simple sum of their parts. The fermentation process turns highly aromatic flavors into something completely new. Without going into the details of every single one, we offer you a small list of our “greatest hits.”'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '夏季水果的搭配',
+              en: 'Dressing for Summer Fruits'
+            },
+            answer: [
+              {
+                zh: '*Rose peaso is a perfect foil for summer berries.*',
+                en: '*Rose peaso is a perfect foil for summer berries.*'
+              },
+              {
+                zh: '玫瑰peaso浓郁的花香与李子、黑莓和桑葚等深色水果搭配得非常好。尝试混合几大勺玫瑰peaso并将其穿过塔米斯。用足够的水稀释peaso，以达到松散酸奶的稠度。将浆果或一口大小的核果放入适量的玫瑰 peaso 酱汁中，使其覆盖住。最后撒上最少量的片状海盐。',
+                en: 'The intense floral bouquet of rose peaso plays remarkably well with dark fruits like plums, blackberries, and mulberries. Try blending a few big spoonfuls of rose peaso and passing it through a tamis. Thin the peaso out with just enough water to achieve the consistency of a loose yogurt. Toss berries or bite-size pieces of stone fruit in just enough of the rose peaso sauce to coat them. Finish with the lightest sprinkling of flaky sea salt.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '根类蔬菜捣碎',
+              en: 'Mashed Root Vegetables'
+            },
+            answer: [
+              {
+                zh: '为了与大菱鲆或大比目鱼等白鱼完美搭配，可以在一锅盐水中煮一批菊芋或新土豆。沥干水分，将蔬菜放回锅中，用叉子轻轻地捣碎。加入一大块黄油和等量的玫瑰peaso。搅拌直至一切都变成奶油状，然后加盐调味。',
+                en: 'For an ideal accompaniment to white fish like turbot or halibut, cook a batch of Jerusalem artichokes or new potatoes in a pot of salted water. Drain, return the vegetables to the pot, and smash them lightly with a fork. Throw in a big knob of butter along with the same amount of rose peaso. Stir until everything becomes creamy, and season with salt to taste.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '焦糖玫瑰黄油',
+              en: 'Caramelized Rose Butter'
+            },
+            answer: [
+              {
+                zh: '*Caramelizing rose peaso in butter.*',
+                en: '*Caramelizing rose peaso in butter.*'
+              },
+              {
+                zh: '玫瑰 peaso 最初是一种带有微妙色彩的泥土产品，但一旦焦糖化，它作为温暖油醋汁的基料具有更大的效力。将 40 克玫瑰peaso 和 200 克黄油放入小锅中，中火加热。当黄油融化并开始澄清时，用硅胶抹刀或小搅拌器不断搅拌 - 如果不保持移动，玫瑰peaso就会坐在底部并燃烧。大约 20 分钟后，黄油应变得澄清，玫瑰peaso 将变甜并变成棕色。将锅从炉子上取下，将玫瑰黄油舀到刚煮熟的螃蟹、龙虾或虾上。',
+                en: 'Rose peaso begins as an earthy product with delicate overtones, but once it’s caramelized it finds even more potency as the base for a warm vinaigrette. Put 40 grams rose peaso and 200 grams butter in a small pot over medium heat. As the butter melts and begins to clarify, stir constantly with a silicone spatula or small whisk—the rose peaso will sit at the bottom and burn if you don’t keep it moving. After about 20 minutes, the butter should be clarified and the rose peaso will have sweetened and browned. Remove the pot from the stove and spoon the rose butter over just-cooked crab, lobster, or shrimp.'
+              },
+              {
+                zh: '*Ryeso marries Nordic ingredients with Japanese techniques.*',
+                en: '*Ryeso marries Nordic ingredients with Japanese techniques.*'
+              },
+              {
+                zh: '<!-- text/part0010_split_007.html -->',
+                en: '<!-- text/part0010_split_007.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
       }
     ]
   },
@@ -8521,6 +11829,496 @@ export const notes = [
         emphasisCards: []
       }
     ]
+  },
+  {
+    id: '07-apple-kombucha',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '苹果 <第 14 学期>',
+      en: 'Apple Kombucha'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '苹果 <第 14 学期>',
+          en: 'Apple Kombucha'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 2 liters**',
+            en: '**Makes 2 liters**'
+          },
+          {
+            zh: '自己榨汁可以让您使用当地品种并根据您的喜好混合，但也可以随意使用商店购买的优质未经过滤的苹果酒；农场摊位经常出售应季的鲜榨苹果酒。因为果汁天然是甜的，所以你不需要在这个食谱中添加糖。',
+            en: 'Juicing your own apples will allow you to use local varieties and create a blend to your liking, but feel free to use a good-quality store-bought unfiltered apple cider; farmstands often sell fresh-pressed cider in season. Because the juice is naturally sweet, you won’t need to add sugar to this recipe.'
+          },
+          {
+            zh: '柠檬马鞭草 Kombucha 的深入说明可作为本章中所有 kombucha 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLemon Verbena Kombuchaserve as a template for all the kombucha recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将苹果汁倒入发酵容器中。通过搅拌 200 克未经高温消毒的 kombucha 来进行反面处理。戴上手套，小心地将 SCOBY 放入液体中。用粗棉布或透气的厨房毛巾盖住发酵容器的顶部，并用橡皮筋固定。标记kombucha并将其放在温暖的地方。',
+            en: 'Pour the apple juice into the fermentation vessel. Backslop by stirring in the 200 grams unpasteurized kombucha. Wearing gloves, carefully place the SCOBY into the liquid. Cover the top of the fermentation vessel with cheesecloth or a breathable kitchen towel and secure it with a rubber band. Label the kombucha and set it in a warm place.'
+          },
+          {
+            zh: '让kombucha发酵，每天跟踪其进展。确保 SCOBY 的顶部不会变干；如有必要，用勺子沾一些液体。一旦您对 kombucha 的味道感到满意（可能是从开始后 7 到 10 天），请将 SCOBY 转移到容器中进行存储并过滤 kombucha。立即食用或冷藏、冷冻或装瓶。',
+            en: 'Leave the kombucha to ferment, tracking its progress each day. Make sure the top of the SCOBY doesn’t dry out; use a ladle to moisten it with some of the liquid, if necessary. Once you’re happy with the flavor of your kombucha—probably between 7 and 10 days from the start—transfer the SCOBY to a container for storage and strain the kombucha. Consume immediately or refrigerate, freeze, or bottle it.'
+          },
+          {
+            zh: '*Apple Kombucha, day 1*',
+            en: '*Apple Kombucha, day 1*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '2公斤未过滤的苹果汁',
+            en: '2 kilograms unfiltered apple juice'
+          },
+          {
+            zh: '200 克未经高温消毒的kombucha（或包装好的 SCOBY 附带的液体）',
+            en: '200 grams unpasteurized kombucha (or the liquid that comes with a packaged SCOBY)'
+          },
+          {
+            zh: '**1 SCOBY (seeSources)**',
+            en: '**1 SCOBY (seeSources)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '苹果 Kombucha 香草补品',
+              en: 'Apple Kombucha Herb Tonic'
+            },
+            answer: [
+              {
+                zh: '将苹果 kombucha 与新鲜香草混合，为液体注入飘逸的芳香品质。在<学期32>中，我们很幸运能够在附近散步，找到年轻的花旗松树枝来制作清爽的苹果松滋补品。 （将 25 克新鲜冷杉针与 500 克苹果 kombucha 在搅拌机中搅拌，过滤，然后食用。）但您也可以在当地市场找到大量适合苹果 kombucha 的舞伴。使用立式搅拌机将半束罗勒或 10 克采摘的迷迭香针与 500 克苹果搅拌<术语 13>。通过细网筛过滤，即可获得提神醒脑的效果。',
+                en: 'Blending apple kombucha with fresh herbs infuses the liquid with ethereal aromatic qualities. In Copenhagen, we’re fortunate to be able to take a walk around the neighborhood and find young Douglas fir branches to make a brisk apple-pine tonic. (Whir 25 grams fresh fir needles with 500 grams apple kombucha in a blender, strain, and serve.) But you can also find plenty of suitable dance partners for apple kombucha at your local market. Use a stand blender to whir half a bunch of basil or 10 grams picked rosemary needles with 500 grams apple kombucha. Strain through a fine-mesh sieve for an invigorating pick-me-up.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '苹果蔬菜冰沙',
+              en: 'Apple-Vegetable Smoothie'
+            },
+            answer: [
+              {
+                zh: '将煮熟的蔬菜与水果混合kombucha绝对是获取少量纤维的美味方法（也是在孩子的饮食中添加更多蔬菜的好方法）。适合苹果 kombucha 的搭配包括菠菜、酢浆草、卷心菜或烤甜菜（也可与玫瑰 kombucha 搭配）。因为蔬菜富含纤维，它们会在搅拌机中很好地变稠。 kombucha 与蔬菜的比例为 4:1，搅拌至少一分钟，然后通过细网筛并食用。',
+                en: 'Blending cooked vegetables with fruit kombuchas is an absolutely delicious way to get a little fiber (and also a great way to sneak more vegetables into your kids’ diets). Good matches for apple kombucha include spinach, sorrel, cabbage, or baked beets (which also pair well with rose kombucha). Because the vegetables are so full of fiber, they will thicken up in a blender nicely. Aim for a 4:1 ratio of kombucha to vegetable, and blend for at least a minute before passing it through a fine-mesh sieve and serving.'
+              },
+              {
+                zh: '*Blending apple kombucha with herbs (in this case, Douglas fir pine needles) makes a bright, refreshing tonic.*',
+                en: '*Blending apple kombucha with herbs (in this case, Douglas fir pine needles) makes a bright, refreshing tonic.*'
+              },
+              {
+                zh: '*Elderflower kombucha is like the bottled flavor of Scandinavian summers.*',
+                en: '*Elderflower kombucha is like the bottled flavor of Scandinavian summers.*'
+              },
+              {
+                zh: '<!-- text/part0007_split_008.html -->',
+                en: '<!-- text/part0007_split_008.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '07-black-hazelnuts',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '黑榛子',
+      en: 'Black Hazelnuts'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '黑榛子',
+          en: 'Black Hazelnuts'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 1 kilogram**',
+            en: '**Makes 1 kilogram**'
+          },
+          {
+            zh: '新鲜榛子（也称为椰子或榛子，具体取决于品种或地区）最早可以在 7 月收获，但肯定要在 8 月和 9 月初收获。但要注意：带壳的榛子不一定是新鲜的榛子——事实上，它可能不是。在北半球，榛子从树上掉下来后就会被收获，并且在到达消费者之前通常会窖藏一段时间。这会使坚果完全干燥，留下的水分不足以促进变黑。直接从树上采摘的榛子，果肉洁白细嫩，咬起来爽脆。榛子的新鲜度和成熟度（它们应该成熟，而不是太年轻）是制作优质黑榛子的最大因素，因此您可能需要找到一个乐于助人的种植者，或者希望您在农贸市场上运气好。',
+            en: 'Fresh hazelnuts (also called cobnuts or filberts, depending on the cultivar or region) can be ready to harvest as early as July, but definitely by August and early September. But beware: A hazelnut in its shell is not necessarily a fresh hazelnut—in fact, it probably isn’t. In the Northern Hemisphere, hazelnuts are harvested once they’ve fallen from the tree and are often cellared for a while before reaching the consumer. This dries the nuts out completely, leaving inadequate moisture to facilitate blackening. When picked straight from the tree, the flesh of hazelnuts is white and tender, with a snappy bite. The freshness and ripeness of your hazelnuts—they should be mature, not too young—is the biggest factor in making good black hazelnuts, so you’ll probably need to find an obliging grower or hope you get lucky at the farmers’ market.'
+          },
+          {
+            zh: '黑蒜的深入说明可作为本章中所有黑化水果和蔬菜食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forBlack Garlicserve as a template for all the blackened fruit and vegetable recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将榛子单层放入真空袋中。它们需要平放在发酵室中，所以如果你的发酵室看起来太小，请去掉一些榛子。以最大吸力密封袋子。您还可以使用一个大的带拉链的袋子，将榛子放入袋子中，然后慢慢将其放入一大桶水中，在距顶部几厘米处停止（您可能需要从袋子底部拉动以抵消榛子的浮力），从而挤出所有空气。水的压力会将空气排出。将其密封，您将获得有效但不完美的真空。',
+            en: 'Arrange the hazelnuts in a single layer in a vacuum bag. They’ll need to sit flat in your fermentation chamber, so if it looks like your chamber might be too small, remove a few hazelnuts. Seal the bag on maximum suction. You can also use a large zip-top bag and squeeze all the air out by placing the hazelnuts in the bag, then slowly lowering it into a large tub of water, stopping a few centimeters from the top (you may need to pull from the bottom of the bag to counteract the hazelnuts’ buoyancy). The pressure of the water will force the air out. Seal it shut and you’ll have an effective, albeit imperfect, vacuum.'
+          },
+          {
+            zh: '不管怎样，榛子的锋利尖端可能会刺破放入发酵室的袋子，因此最好将其双层包装。',
+            en: 'Either way, the sharp tips of the hazelnuts can potentially puncture the bag once placed in the fermentation chamber, so it’s a good idea to double-bag them.'
+          },
+          {
+            zh: '将榛子放入发酵室中。如果您使用电饭锅或慢炖锅，请记住用盘子、架子或竹席将栗子从底部抬起。关闭腔室并将其设置为 60°C/140°F，或密封炊具并将其设置为“保温”设置。',
+            en: 'Place the hazelnuts in the fermentation chamber. If you’re using an electric rice cooker or slow cooker, remember to raise the chestnuts off the bottom with a plate, wire rack, or bamboo mat. Close the chamber and set it to 60°C/140°F, or seal the cooker and turn it to the “keep warm” setting.'
+          },
+          {
+            zh: '将榛子放在腔室或炊具中 4 到 6 周，在此期间，榛子的果肉会稍微收缩。打开一个看看。它应该具有深金色到深棕色的颜色。味道非常棒，就像一杯热巧克力，里面有一勺花生酱。质地不再像新鲜时那样脆，但会有令人愉快的咀嚼感。立即使用或将它们密封存放在冰箱中，这样它们就不会变干，这会极大地影响它们的味道。',
+            en: 'Leave the hazelnuts in the chamber or cooker for 4 to 6 weeks, during which time their flesh will shrink a little. Crack one open and have a look. It should have a deep golden to dark brown color. The taste is something remarkable, like a cup of hot chocolate with a spoonful of Nutella in it. The texture will no longer snap as it did when fresh, but will have a pleasant chewiness. Use immediately or store them, sealed, in the freezer so they don’t dry out, which affects their taste dramatically.'
+          },
+          {
+            zh: '*Black Hazelnuts, day 1*',
+            en: '*Black Hazelnuts, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '**1 kilogram fresh hazelnuts in the shell**',
+            en: '**1 kilogram fresh hazelnuts in the shell**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '格勒诺布洛兹鞋底',
+              en: 'Sole à la Grenobloise'
+            },
+            answer: [
+              {
+                zh: '黑榛子的味道非常像热巧克力，其甜甜的、深度烘焙的味道使它们烹饪起来非常有趣。它们是搭配格勒诺布洛瓦鳎鱼等菜肴的完美搭配。首先将黑榛子从壳中敲出来，然后将其切成粗粉 - 您需要大约 30 克。将去皮鳎鱼片撒上普通面粉，然后在热锅中加入大量橄榄油，将其煎至金黄色，每面约 90 秒。煮鱼的同时，将 30 克黄油放入较小的平底锅中，让它发出嘶嘶声并呈棕色，然后放入黑榛子，搅拌直至变香。加入 30 克切碎的刺山柑、10 克切碎的欧芹和 1 个柠檬汁，然后旋转锅，形成快速酱汁。将褐色的鳎目鱼片浸入坚果味的格勒诺布洛瓦酒中，立即上桌。',
+                en: 'Black hazelnuts taste remarkably like hot chocolate, and their sweet, deeply roasted flavor makes them extremely fun to cook with. They’re a perfect unexpected companion to dishes likesole à la grenobloise. Start by cracking black hazelnuts out of their shells and chopping them into a coarse meal—you’ll need about 30 grams. Dredge skinless sole fillets in regular flour, then fry them in a hot pan with a good amount of olive oil until golden brown, about 90 seconds on each side. While the fish is cooking, put 30 grams butter in a smaller saucepan and let it sizzle and brown, then throw in the black hazelnuts and stir until they become aromatic. Add 30 grams chopped capers, 10 grams chopped parsley, and the juice of 1 lemon, and swirl the pan to form a quick sauce. Drown the browned fillets of sole in the nutty Grenobloise and serve immediately.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '黑榛子奶',
+              en: 'Black Hazelnut Milk'
+            },
+            answer: [
+              {
+                zh: '*Puree the nuts and water, then strain through a sieve to harvest the milk.*',
+                en: '*Puree the nuts and water, then strain through a sieve to harvest the milk.*'
+              },
+              {
+                zh: '坚果奶是一种越来越受欢迎的饮料，黑榛子是一种特别神奇的坚果奶。将一把坚果从壳中敲出来，然后倒入两倍于坚果重量的水。让坚果在冰箱中浸泡过夜。第二天，将它们放入搅拌机中搅拌直至完全光滑，大约需要 3 分钟。通过衬有几层粗棉布的筛子或斜纹棉布过滤混合物，用勺子按压果肉以提取尽可能多的牛奶。然后，用黑榛子奶制作热巧克力或欧洽塔（用榛子奶代替水或牛奶），或者用少许榛子油装饰，然后将其用作烤扇贝的酱汁。',
+                en: 'Nut milk is a beverage that’s growing in popularity, and black hazelnuts make an especially amazing nut milk. Crack a handful of nuts out of their shells and cover with twice their weight in water. Allow the nuts to soak in the fridge overnight. The following day, blend them in a blender until completely smooth, about 3 minutes. Strain the mixture through a sieve or chinois lined with a couple of layers of cheesecloth, pressing down on the pulp with a ladle to extract as much milk as possible. From there, use your black hazelnut milk to make hot chocolate or horchata (replacing the water or milk with hazelnut milk), or garnish it with a splash of hazelnut oil and use it as a sauce for seared scallops.'
+              },
+              {
+                zh: '*Coating shallots in wax before blackening seals in moisture and imparts a pleasant honey flavor.*',
+                en: '*Coating shallots in wax before blackening seals in moisture and imparts a pleasant honey flavor.*'
+              },
+              {
+                zh: '<!-- text/part0013_split_008.html -->',
+                en: '<!-- text/part0013_split_008.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '07-cep-shoyu',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: 'Cep <学期 12>',
+      en: 'Cep Shoyu'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: 'Cep <学期 12>',
+          en: 'Cep Shoyu'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2 liters**',
+            en: '**Makes about 2 liters**'
+          },
+          {
+            zh: '牛肝菌也被称为牛肝菌或王牛肝菌等地区名称。干牛肝菌比新鲜的牛肝菌更容易获取，而且您仍然可以获得新鲜蘑菇制成的 shoyu 的大部分泥土味，以及迷人的烟熏味，但乳酸发酵的酸味却较少。',
+            en: 'Ceps are also called porcini mushrooms or king boletes, among other regional names. Dried ceps are much easier to source than fresh ones, and you’ll still get much of the earthiness you would from a shoyu made with fresh mushrooms, along with an intriguing smokiness, but less of the sour qualities of lactic fermentation.'
+          },
+          {
+            zh: '黄豌豆 Shoyu 的深入说明也可作为此 shoyu 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forYellow Pea Shoyualso serve as a template for this shoyu recipe. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '按照黄豌豆 <术语 11> 中的说明浸泡、煮熟、沥干并冷却豌豆。与此同时，将小麦放入 170°C/340°F 的烤箱中烘烤约 1 小时，直至变成深褐色，并经常搅拌。让小麦冷却，然后使用谷物磨机或食品加工机将小麦打碎成粗粉。',
+            en: 'Soak, cook, drain, and cool the peas as directed in yellow pea shoyu. Meanwhile, toast the wheat in a 170°C/340°F oven until very deeply browned, about 1 hour, stirring frequently. Allow the wheat to cool, then use a grain mill or food processor to crack the wheat into a coarse meal.'
+          },
+          {
+            zh: '称取 700 克冷却的豌豆放入一个大碗中。加入碎小麦并充分混合。将混合物铺在铺有微湿毛巾的培养盘上，并用 koji 孢子接种。在发酵室中于 25°C/77°F 下孵育 1 天，然后用戴手套的手将混合物翻转并犁成三行。将培养箱的温度升至 29°C/84°F，并将 koji 再孵育 24 小时，直到它开始产生孢子。',
+            en: 'Weigh out 700 grams of the cooled peas into a large bowl. Add the cracked wheat and mix together thoroughly. Spread the mixture onto an incubating tray lined with a lightly dampened towel and inoculate it with the koji spores. Allow to incubate at 25°C/77°F in a fermentation chamber for 1 day, then use gloved hands to turn and furrow the mixture into three rows. Increase the heat of the chamber to 29°C/84°F and incubate the koji for another 24 hours, until it begins to produce spores.'
+          },
+          {
+            zh: '将一半的水煮沸，加入盐搅拌，然后加入剩余的水，使温度低于 35°C/95°F，制成盐水。',
+            en: 'Make a brine by bringing half the water to a boil, stirring in the salt, then adding the rest of the water to bring the temperature below 35°C/95°F.'
+          },
+          {
+            zh: '在食品加工机或搅拌机中，将干燥的牛肝菌脉冲成粉末。',
+            en: 'In a food processor or blender, pulse the dried ceps into a powder.'
+          },
+          {
+            zh: '将koji、cep 粉末和盐水添加到非反应性发酵容器中，并用干净的勺子搅拌均匀。记下容器及其内容物的重量，并将其保存在您不会忘记的地方。将一张保鲜膜直接与豌豆和小麦混合物的表面接触，然后盖上容器，使盖子稍微半开，以便气体排出。',
+            en: 'Add the koji, cep powder, and brine to a nonreactive fermentation vessel and stir well with a clean spoon. Jot down the weight of the vessel and its contents and keep it somewhere you won’t forget. Place a sheet of plastic wrap in direct contact with the surface of the pea and wheat mixture and cover the container, leaving the lid slightly ajar to allow gas to vent.'
+          },
+          {
+            zh: '让shoyu在阴凉处发酵4个月。前两周每天搅拌并品尝shoyu，此后每周一次。发酵完成后，再次称量容器及其内容物，并从起始重量中减去该重量，以计算随着时间的推移损失了多少水分。再加入适量的冷水。',
+            en: 'Let the shoyu ferment in a cool place for 4 months. Stir and taste the shoyu every day for the first 2 weeks and once a week after that. Once it’s finished fermenting, weigh the vessel and its contents again, and subtract that weight from your starting weight to calculate how much moisture has been lost over time. Add that amount of cold water back in.'
+          },
+          {
+            zh: '要收获 shoyu，请使用苹果酒压榨机或通过干净的毛巾挤压果肉，从固体中滤出液体。提取shoyu后，再次通过衬有粗棉布的筛子过滤，以确保所有小颗粒均已滤出。将完成的shoyu存放在密封容器或瓶子中的冰箱中。您也可以将其冷冻以延长保存时间。如果您打算在未来生产该 shoyu 批次，请保留一些废纸浆以按重量计 10% 的比例用作背衬。',
+            en: 'To harvest the shoyu, strain the liquid from the solids using a cider press or by squeezing the pulp through a clean towel. Once the shoyu is extracted, strain it again through a sieve lined with cheesecloth to ensure that all the small particles have been strained out. Store the finished shoyu in the refrigerator in airtight containers or bottles. You can also freeze it for longer storage. If you intend to make future batches of this shoyu, save some of the spent pulp to use asbackslopat a ratio of 10% by weight.'
+          },
+          {
+            zh: '*Cep Shoyu, day 1*',
+            en: '*Cep Shoyu, day 1*'
+          },
+          {
+            zh: '*Day 45*',
+            en: '*Day 45*'
+          },
+          {
+            zh: '*Day 120*',
+            en: '*Day 120*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '400克干黄豌豆',
+            en: '400 grams dried yellow split peas'
+          },
+          {
+            zh: '600克小麦浆果',
+            en: '600 grams wheat berries'
+          },
+          {
+            zh: 'Koji tane（koji 孢子；参见来源）',
+            en: 'Koji tane(koji spores; seeSources)'
+          },
+          {
+            zh: '2.125公斤水',
+            en: '2.125 kilograms water'
+          },
+          {
+            zh: '375克无碘盐',
+            en: '375 grams non-iodized salt'
+          },
+          {
+            zh: '**250 grams dried cep mushrooms**',
+            en: '**250 grams dried cep mushrooms**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: 'Cep Shoyu Beurre Blanc',
+              en: 'Cep Shoyu Beurre Blanc'
+            },
+            answer: [
+              {
+                zh: '正如已故伟大的阿兰·森德伦斯 (Alain Senderens) 首次证明的那样，酱油是法国白啤酒的最佳搭配。平底锅中加入约150毫升白葡萄酒，减少三分之二；也许可以加一些切碎的青葱和黑胡椒。把火调小至小火慢炖。加入 100 克立方冷黄油——是的，很多，但这是值得的——一次一个。不要让酱汁沸腾，否则会破裂；加热以保持混合物温暖。一旦所有黄油都混合在一起，将酱汁从火上取下，并将其放在炉子旁边取暖。食用前，用力搅拌酱汁，并用约 50 毫升牛肝菌 shoyu 调味。',
+                en: 'As first demonstrated by the late, great Alain Senderens, soy sauce is right at home in a French beurre blanc. Add about 150 milliliters white wine to a saucepan and reduce by two-thirds; maybe add some minced shallots along with black peppercorns. Reduce the heat to a bare simmer. Whisk in 100 grams cubed cold butter—yes, it’s a lot, but it’s worth it—one at a time. Don’t let the sauce boil or it will break; heat to just keep the mixture warm. Once all the butter is incorporated, pull the sauce off the heat and park it beside the stove to keep warm. Right before serving, whisk the sauce vigorously and season with about 50 milliliters cep shoyu.'
+              },
+              {
+                zh: '这种酱汁非常适合搭配蒸鱼或煎鱼，或者蒸蔬菜。用少许水将切碎的羽衣甘蓝叶煮至枯萎，然后加盐调味。加入一些刺山柑或酸浆果片，如绿醋栗。从火上移开，在叶子上涂上白黄油。与油煎面包块一起盛入碗中。',
+                en: 'This sauce is fantastic with steamed or pan-seared fish, or steamed greens. Cook chopped kale leaves with just a bit of water until wilted, then season with salt. Toss in some ramson capers or slivers of tart berries like green gooseberries. Remove from the heat and coat the leaves with beurre blanc. Serve in a bowl with croutons.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: 'Cep Shoyu – 釉面 Cep',
+              en: 'Cep Shoyu–Glazed Ceps'
+            },
+            answer: [
+              {
+                zh: 'Cep shoyu 提供了一个使煮熟的蘑菇的味道加倍的机会。将一些新鲜牛肝菌纵向切成两半，并在切边上划出十字线图案。在热锅中，加热足够的澄清黄油以覆盖表面，然后将牛肝菌刻痕面朝下煎香。当牛肝菌开始变成棕色时，将火调小，加入一小块黄油、一瓣压碎的大蒜和一小枝百里香。让它起泡并发出嘶嘶声，然后翻转牛肝菌并涂上黄油，直到它们快要煮熟。沥干脂肪并将锅放回火上。添加健康的 cep shoyu 并让它起泡并减少。加入一勺新鲜黄油，旋转锅，帮助液体粘合成釉料，并给牛肝菌上漆。将它们从锅中取出；加入几滴柠檬汁，或者更好的是lacto牛肝菌汁。',
+                en: 'Cep shoyu presents an opportunity to double down on the flavor of cooked mushrooms. Halve a few fresh ceps lengthwise and score the cut sides in a crosshatch pattern. In a hot pan, heat enough clarified butter to coat the surface and sear the ceps, scored-side down. As the ceps begin to brown, reduce the heat and add a knob of butter, a crushed clove of garlic, and a sprig of thyme. Let it foam and sizzle, then flip the ceps and baste with butter until they’re just about cooked through. Drain off the fat and return the pan to the heat. Add a healthy splash of cep shoyu and let it bubble and reduce. Add a fresh spoonful of butter, swirling the pan to help bind the liquids into a glaze and lacquer the ceps. Remove them from the pan; season with a few drops of lemon juice or, better yet,lacto cep juice.'
+              },
+              {
+                zh: '*Pan-roast fresh ceps with cep shoyu to double down on both the umami and mushroom flavors.*',
+                en: '*Pan-roast fresh ceps with cep shoyu to double down on both the umami and mushroom flavors.*'
+              },
+              {
+                zh: '*Coffee, already a fermented product, adds depth and complexity when fermented again as shoyu.*',
+                en: '*Coffee, already a fermented product, adds depth and complexity when fermented again as shoyu.*'
+              },
+              {
+                zh: '<!-- text/part0011_split_008.html -->',
+                en: '<!-- text/part0011_split_008.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '07-citric-barley-koji',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '柠檬大麦<第六学期>',
+      en: 'Citric Barley Koji'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '柠檬大麦<第六学期>',
+          en: 'Citric Barley Koji'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 1.1 kilograms**',
+            en: '**Makes 1.1 kilograms**'
+          },
+          {
+            zh: 'Aspergillus luchuensis比其主流对应物 A 更难获得。 oryzae，但其味道非常出色，让人想起青苹果和柠檬。当我们遇到这种特殊的模具时，我们对Noma感到非常兴奋，因为它产生的柠檬酸与koji的浓郁鲜味形成了鲜明的对比。值得寻找。请注意，A.鹿川是一种黑化菌株，颜色漆黑，味道截然不同。你想要白化版本。用 A 接种大麦。 luchuensis 的功能与 usingA 相同。 oryzae，但有一些细节需要您注意。',
+            en: 'Aspergillus luchuensisis harder to procure than its mainstream counterpart,A. oryzae, but its flavor is remarkable, reminiscent of green apple and lemons. We were thrilled at Noma when we came across this special mold, because the citric acid it produces brings a sharp layer of contrast to the umami-rich flavor of koji. It’s worth seeking out. Just be warned thatA. luchuensishas a melanistic strain that is pitch-black with quite different flavors; you want the albino version. Inoculating barley withA. luchuensisis functionally the same as usingA. oryzae, but there are some finer points that will need your attention.'
+          },
+          {
+            zh: '我们建议您首先阅读珍珠薏米 Koji 的详细说明，因为它可以作为本食谱的模板。',
+            en: 'We recommend that you first read the in-depth instructions forPearl Barley Koji, as it serves as a template for this recipe.'
+          },
+          {
+            zh: '按照珍珠薏米 Koji 的说明冲洗、浸泡和蒸煮大麦。将谷物分离到衬有干净毛巾的多孔托盘上。如果使用A.使用摇床将仍附着在谷物上的绿川孢子接种到大麦；如果使用孢子粉，请使用滤茶器。但要知道A.的孢子。陆川的数量远多于A.米霉。用摇床摇晃两次就足够了，而且您不太可能需要在两次摇晃之间补充谷物。如果您使用孢子粉，1 茶匙就足以接种整个托盘。',
+            en: 'Rinse, soak, and steam the barley as directed for Pearl Barley Koji. Separate the grains onto a perforated tray lined with a clean towel. If usingA. luchuensisspores that are still attached to their grains, inoculate the barley using a shaker; if using powdered spores, use a tea strainer. But know that the spores ofA. luchuensisare far more copious than those ofA. oryzae. Two passes with the shaker is more than sufficient, and it’s unlikely that you’ll have to replenish the grains between passes. If you’re using powdered spores, 1 teaspoon should be enough to inoculate a full tray.'
+          },
+          {
+            zh: '将koji托盘转移至发酵室。 Citric koji 喜欢比 A 酷一点的东西。米酵母，因此应将温度保持在 28°C/82°F 而不是 30°C/86°F。湿度在70%到75%之间就可以了。',
+            en: 'Transfer the koji tray to the fermentation chamber. Citric koji likes things a little cooler thanA. oryzae, so aim to keep the temperature at 28°C/82°F rather than 30°C/86°F. The humidity is fine at 70% to 75%.'
+          },
+          {
+            zh: '24小时后，用戴手套的手将谷物翻动并犁成三行。此时，您一定能够尝到明显的甜味和明显的柠檬酸味。在接下来的 24 小时内，甜度和酸度将稳步增强，随之而来的是其他风味。在第 36 小时，柠檬酸 koji 将具有不那么微妙的柠檬、青苹果和平菇的味道。这是你想要收获它的时候，而不是让它运行完整的 48 小时，就像你在 koji 接种 A 时那样。米霉。自行其是，A.陆川对大麦的分解比它的近亲要彻底得多，40 小时后就会开始出现明显的苦味，这使得koji 非常像葡萄柚。除此之外，苦味加剧，而甜味消散。 （有趣的是，当陆川黄芪种植在大米上时，苦味是不存在的，尽管它的整体味道不那么令人兴奋。）',
+            en: 'After 24 hours, use gloved hands to turn and furrow the grains into three rows. At this point you should definitely be able to taste a pronounced sweetness and the recognizable twang of citric acid. Over the next 24 hours, the sweetness and acidity will build steadily, bringing out other profiles in their wake. At hour 36, the citric koji will have a not-so-subtle taste of lemon, green apple, and oyster mushroom. This is when you want to harvest it, as opposed to letting it run for the full 48 hours that you would for koji inoculated withA. oryzae. Left to its own devices,A. luchuensiswill break down the barley much more thoroughly than its cousin, and a very discernible bitterness begins to come through after hour 40 that makes the koji a dead ringer for grapefruit. Beyond that, the bitterness intensifies while the sweetness dissipates. (Interestingly, the bitterness is nonexistent whenA. luchuensisis grown on rice, though its overall flavor is less exciting.)'
+          },
+          {
+            zh: '要收获 koji，请将整个托盘放入冰箱 12 小时以冷却。如果您计划在不久的将来使用它，您可以将其装入密封容器中，在冰箱中存放几天，或者将其冷冻以供将来使用。 Koji 可在冰箱中保存长达 3 个月。',
+            en: 'To harvest the koji, place the entire tray in the fridge for 12 hours to cool down. You can then pack it into airtight containers to store in the fridge for a couple of days if you have plans to use it in the near future, or freeze it for use further down the road. Koji will keep for up to 3 months in the freezer.'
+          },
+          {
+            zh: '收获A.绿川孢子，将颗粒铺成单层，继续培养 36 小时。根据说明干燥孢子koji并装入可重新密封的袋子或密封容器中进行储存。',
+            en: 'To harvestA. luchuensisspores, spread the grains into a single layer and continue to incubate them for another 36 hours. Dry the sporulated koji according to theinstructionsand pack into a resealable bag or airtight containers for storage.'
+          },
+          {
+            zh: '*Citric Barley Koji, immediately after inoculation*',
+            en: '*Citric Barley Koji, immediately after inoculation*'
+          },
+          {
+            zh: '*After 30 hours*',
+            en: '*After 30 hours*'
+          },
+          {
+            zh: '*After 36 hours*',
+            en: '*After 36 hours*'
+          },
+          {
+            zh: '*After 42 hours*',
+            en: '*After 42 hours*'
+          },
+          {
+            zh: '<!-- text/part0009_split_008.html -->',
+            en: '<!-- text/part0009_split_008.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ],
+        bullets: [
+          {
+            zh: '500克薏仁',
+            en: '500 grams pearl barley'
+          },
+          {
+            zh: '**AlbinoAspergillus luchuensisspores(seeSources)**',
+            en: '**AlbinoAspergillus luchuensisspores(seeSources)**'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '07-control-the-climate',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '控制气候',
+      en: 'Control the Climate'
+    },
+    summary: '',
+    tags: [],
+    sections: []
   },
   {
     id: '07-observability-and-database-sharding',
@@ -8759,6 +12557,1010 @@ export const notes = [
     ]
   },
   {
+    id: '07-plum-vinegar',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '梅醋',
+      en: 'Plum Vinegar'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '梅醋',
+          en: 'Plum Vinegar'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2 liters**',
+            en: '**Makes about 2 liters**'
+          },
+          {
+            zh: '这是另一种两阶段醋，我们将水果中的糖转化为酒精，然后将酒精转化为乙酸。黑色、紫色或深红色的李子可以产出最漂亮的醋，多种品种的混合可以创造出更复杂的口味。',
+            en: 'This is another two-stage vinegar where we convert the sugar in fruit into alcohol, then the alcohol into acetic acid. Black, purple, or deep red plums will yield the prettiest vinegars, and a mix of varieties will create more complex flavors.'
+          },
+          {
+            zh: '佩里醋的详细说明可作为该醋的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forPerry Vinegarserve as a template for this vinegar. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将切好的李子放入桶中。添加酵母并混合，将水果折叠起来以确保酵母均匀分布。李子的含水量比梨或苹果等仁果类水果更高，因此不需要捣成泥就能很好地发酵——它们会自行液化。合上桶盖，确保其气密，然后向气闸室注满水，并将其插入橡胶塞中。',
+            en: 'Place the cut plums into the bucket. Add the yeast and mix, folding the fruit over to ensure that the yeast is well distributed. Plums have a higher water content than pome fruits like pears or apples and as such don’t need to be pureed into a mash to ferment well—they’ll liquefy on their own. Snap the bucket lid shut, ensuring that it’s airtight, then fill the airlock with water and insert it into the rubber stopper.'
+          },
+          {
+            zh: '将李子放在阴凉的房间里发酵，每天搅拌一次，总共持续 8 到 10 天，直到李子明显具有酒精味，但又不失去所有甜味。',
+            en: 'Ferment the plums in a cool room, stirring the mixture once every day, for a total of 8 to 10 days, until they’re noticeably alcoholic without having lost all their sweetness.'
+          },
+          {
+            zh: '用苹果酒压榨机或用手和衬有粗棉布的斜纹棉布压李子；然后再次拉紧。现在你有梅酒了。测量并记下酒的重量，然后将其转移到带盖的锅中。将葡萄酒加热至 70°C/158°F（蒸汽，但低于文火），然后盖上锅盖并在该温度下保持 15 分钟。将其从火上拉开并使其冷却至室温。',
+            en: 'Press the plums using either a cider press or your hands and a cheesecloth-lined chinois; then strain once more. You now have plum wine. Measure and note the weight of the wine, then transfer it to a pot with a lid. Heat the wine to 70°C/158°F—steaming, but below a simmer—then cover the pot and hold it at that temperature for 15 minutes. Pull it off the heat and allow it to cool to room temperature.'
+          },
+          {
+            zh: '将酒倒入二次发酵容器中——可以是用来发酵李子的桶，也可以是 8 升的广口罐。 Backslop 加入 20% 葡萄酒重量的未经高温消毒的醋。将空气石放入液体中，使其位于容器底部，然后将软管从顶部延伸到空气泵。用粗棉布或透气的厨房毛巾盖住容器，并用橡皮筋固定。用胶带覆盖软管留下的间隙并打开泵。',
+            en: 'Pour the wine into the secondary fermentation vessel—either the bucket you used to ferment the plums or an 8-liter wide-mouthed jar. Backslop with 20% of the wine’s weight in unpasteurized vinegar. Place the air stone in the liquid so it rests on the bottom of the vessel and run the hose out the top to the air pump. Cover the vessel with cheesecloth or a breathable kitchen towel and secure with a rubber band. Tape over the gap left by the hose and turn on the pump.'
+          },
+          {
+            zh: '将梅子醋发酵 10 至 14 天，在冲刺阶段经常品尝。当所有的酒精味都消失并且醋呈很好的酸性但仍然有果味时，用粗棉布过滤。将醋存放在冰箱中的带盖瓶子中，以尽可能保持味道新鲜，不过只要不暴露在空气中，醋就可以完全稳定地保存。',
+            en: 'Ferment the plum vinegar for 10 to 14 days, tasting frequently during the home stretch. When all the alcoholic flavor is gone and the vinegar is nicely acidic but still fruity, strain it through cheesecloth. Store in capped bottles in the refrigerator to keep the flavors as fresh as possible, though the vinegar is perfectly shelf stable as long as it’s not exposed to air.'
+          },
+          {
+            zh: '*Plum Vinegar, day 1*',
+            en: '*Plum Vinegar, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 14*',
+            en: '*Day 14*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '4 公斤成熟李子，冲洗干净，去核，切成八份',
+            en: '4 kilograms ripe plums, rinsed, pitted, and cut into eighths'
+          },
+          {
+            zh: '1 包（35 毫升）液体 saison 酵母',
+            en: '1 packet (35 milliliters) liquid saison yeast'
+          },
+          {
+            zh: '**Unpasteurized plum vinegar or another unpasteurized mild vinegar, such as apple cider vinegar**',
+            en: '**Unpasteurized plum vinegar or another unpasteurized mild vinegar, such as apple cider vinegar**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '烤肉或烤肉的腌料',
+              en: 'Marinade for Roasted or Grilled Meat'
+            },
+            answer: [
+              {
+                zh: '梅子醋非常适合作为肉类腌料的基础。在平底锅中用高温煎一些牛尾，使其外部焦糖化。将等量的醋、牛肉高汤、牛肉Garum和橄榄油混合。留出几勺腌料，用剩下的将牛尾放入塑料袋中，放入冰箱浸泡 2 小时。将牛尾放入烤盘中，与常见的蔬菜（芳香蔬菜和您最喜欢的香草）一起用箔纸盖紧，然后在低温烤箱（160°C/320°F）中慢慢烹饪几个小时。一旦肉变软，将其从骨头上拔下来，涂上保留的腌料，然后调味。',
+                en: 'Plum vinegar works well as a base for meat marinades. Sear a few oxtails in a pan over high heat to caramelize their exterior. Combine equal parts vinegar, beef stock,Beef Garum, and olive oil. Set aside a few spoonfuls of the marinade and use the rest to soak your oxtails in a plastic bag in the fridge for 2 hours. Transfer the oxtails to a roasting pan with the usual suspects—aromatic vegetables and your favorite herbs—cover tightly with foil, and cook slowly in a low oven (160°C/320°F) for a few hours. Once the meat is tender, pull it off the bone, dress with the reserved marinade, and season to taste.'
+              },
+              {
+                zh: '或者用同样的组合来腌制牛肉或猪肉排骨。用中火慢慢地将它们烤至外皮酥脆，内里柔软。腌料为肉注入酸味和鲜味，就像美味的烧烤应有的那样，但没有传统酱汁的粘性或甜味。',
+                en: 'Or use the same combination to marinate beef or pork spareribs. Grill them slowly over medium heat until crusty on the outside and tender within. The marinade infuses the meat with tartness and umami, like good barbecue should have, without the stickiness or sweetness of traditional sauces.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '圣诞白菜',
+              en: 'Christmas Cabbage'
+            },
+            answer: [
+              {
+                zh: '*Red cabbage is a ubiquitous presence on Scandinavian tables in the winter. We like to cook it down very slowly with plum vinegar and roasted chicken wing garum.*',
+                en: '*Red cabbage is a ubiquitous presence on Scandinavian tables in the winter. We like to cook it down very slowly with plum vinegar and roasted chicken wing garum.*'
+              },
+              {
+                zh: '在斯堪的纳维亚半岛，圣诞节前后的寒冷日子里，卷心菜是每个人的心头好。将一棵红甘蓝去核并切成薄片，尽可能薄，然后用适量的鸭油（一棵甘蓝约 100 克）炒。每头卷心菜加入 200 毫升梅子醋，盖上盖子，慢火煮 2 小时，期间不时搅拌和刮锅。你不希望液体变干，而是减少并与软化的卷心菜融合，形成浓郁的蜜饯。到达那里后，加盐调味即可食用。或者多做一些，制作烤鸡翅Garum，并添加几勺来增加鲜味。',
+                en: 'In Scandinavia, during the cold days around Christmas, cabbage is on everyone’s mind. Core and slice a head of red cabbage as thinly as you can, then sauté it in a healthy amount of duck fat (about 100 grams for a head of cabbage). Add 200 milliliters plum vinegar per head of cabbage, top with a lid, and simmer slowly for 2 hours, stirring and scraping the pan occasionally. You don’t want the liquid to dry up, but rather reduce and merge with the softened cabbage to form a rich compote. Once you’re there, season with salt and serve. Or go the extra mile and makeRoasted Chicken Wing Garum, and add a few spoonfuls to up the umami.'
+              },
+              {
+                zh: '*Celery juice ferments into a surprisingly fresh, vegetal vinegar.*',
+                en: '*Celery juice ferments into a surprisingly fresh, vegetal vinegar.*'
+              },
+              {
+                zh: '<!-- text/part0008_split_008.html -->',
+                en: '<!-- text/part0008_split_008.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '07-rose-and-shrimp-garum',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '玫瑰与虾<第八学期>',
+      en: 'Rose and Shrimp Garum'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '玫瑰与虾<第八学期>',
+          en: 'Rose and Shrimp Garum'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 3 liters**',
+            en: '**Makes about 3 liters**'
+          },
+          {
+            zh: '这个食谱更接近经典的garum，因为它不使用koji，这意味着虾可以真正自溶，因为它们的内脏与其他所有东西混合在一起。我们在这个garum中使用的虾很小，很容易整体混合。在大多数情况下，这种发酵也是在环境温度下进行的，而不是在热发酵室中进行，以保留玫瑰的花香。花朵的甜美香气完美衬托了发酵虾的腥味。',
+            en: 'This recipe is much closer to a classical garum, as it uses no koji, meaning the shrimp are allowed to truly autolyze as their guts get blended along with everything else. The shrimp we use for this garum are tiny and easily blended whole. For the most part, this ferment also takes place at ambient temperature, rather than in a hot fermentation chamber, in order to retain the rose’s floral notes. The flower’s sweet aroma is a perfect foil to the fishy funk of the fermented shrimp.'
+          },
+          {
+            zh: '牛肉 Garum 的深入说明可作为本章中所有 garum 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forBeef Garumserve as a template for all the garum recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '如果您无法采购北方小虾，其他当地可用的虾品种也可以；只是一定要使用野生虾，而不是养殖虾。',
+            en: 'If you can’t source small northern shrimp, other locally available shrimp varieties will work; just be sure to use wild, not farmed, shrimp.'
+          },
+          {
+            zh: '在食品加工机或搅拌机中，将所有成分混合在一起，直至形成光滑的糊状物。转移到电饭锅或慢炖锅的碗中，盖上盖子，然后设置为“保温”。如果您的设备没有橡胶密封件和闩锁，请用保鲜膜包裹整个设备以防止水分流失。',
+            en: 'In a food processor or blender, blend all the ingredients together until you have a smooth paste. Transfer to the bowl of a rice cooker or slow cooker, cover, and set to “keep warm.” If your appliance lacks a rubber seal and a latch, wrap the whole appliance in plastic wrap to prevent moisture loss.'
+          },
+          {
+            zh: '让混合物在炊具中发酵 24 小时，然后转移到您选择的发酵容器中（确保其最小容量为 3 升）。用戴手套的手或橡皮刮刀刮掉容器的内侧，然后将一张保鲜膜直接放在液体表面上。用盖子松松地盖上容器，至少留一个角微开。让garum在室温下发酵2至3个月，每周搅拌一次。这将是一种非常恶臭的发酵，但恶臭是好的一面——就像松露既令人反感又诱人。',
+            en: 'Allow the mixture to ferment in the cooker for 24 hours, then transfer to the fermentation vessel of your choice (be sure it has a minimum capacity of 3 liters). Scrape down the inner sides of the container with gloved hands or a rubber spatula and lay a sheet of plastic wrap directly on the surface of the liquid. Cover the vessel loosely with a lid, leaving at least a corner slightly ajar. Allow the garum to ferment at room temperature for 2 to 3 months, stirring once a week. This will be a deeply stinky ferment, but stinky in a good way—the way truffles are off-putting and enticing at the same time.'
+          },
+          {
+            zh: '收获时，通过衬有粗棉布的细网筛过滤 garum。保留固体用作各种调味酱。您可能想将其混合得更细，然后将其通过细网筛以改善质地。使用它就像用泰式虾酱来开始咖喱一样，在你散发出芳香的同时将其添加到锅中；或者在由米醋、shoyu 和辣椒油制成的辣酱中添加一小撮。',
+            en: 'To harvest, strain the garum through a fine-mesh sieve lined with cheesecloth. Reserve the solids to use as a seasoning paste of sorts. You may want to blend it even finer and then pass it through a fine-mesh sieve to improve the texture. Use it as you would a Thai shrimp paste to start curries, adding it to the pot as you’re sweating your aromatics; or add a tiny pinch to spicy dipping sauces made of rice vinegar, shoyu, and chili oil.'
+          },
+          {
+            zh: '将garum倒入瓶子或其他有盖容器中。 garum 非常稳定，可以在冰箱中保存数月。您也可以将其冷冻以延长储存时间，而不会产生任何负面影响，但请注意，由于盐含量高，它可能不会完全冷冻成固体。',
+            en: 'Pour the garum into bottles or another covered container. The garum is very stable and will keep well in the fridge for months. You can also freeze it for longer storage without any negative effects, but note that because of the high salt content, it probably won’t freeze completely solid.'
+          },
+          {
+            zh: '*Rose and Shrimp Garum, day 1*',
+            en: '*Rose and Shrimp Garum, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 75*',
+            en: '*Day 75*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1公斤新鲜带头、带壳小北方虾',
+            en: '1 kilogram fresh head-on, shell-on small northern shrimp'
+          },
+          {
+            zh: '1公斤水',
+            en: '1 kilogram water'
+          },
+          {
+            zh: '500克野玫瑰花瓣',
+            en: '500 grams wild rose petals'
+          },
+          {
+            zh: '**450 grams non-iodized salt**',
+            en: '**450 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '海鲜配菜',
+              en: 'Seafood Accompaniment'
+            },
+            answer: [
+              {
+                zh: '以最好的方式，玫瑰和虾garum尝起来就像是大大减少的贝类肉汤，加了一点点太多的盐。使用它的方式与使用鱼露的方式相同，在您努力增加特色的菜肴中，但比鱿鱼garum之类的东西少一点时髦，鱿鱼有时会带有浓烈的奶酪味道。我们喜欢这个garum作为海鲜的补充，与等量的优质橄榄油相结合。非常适合生虾、蒸虾或烤虾。或者，下次您蒸蛤蜊或制作蛤蜊浓汤时，在每份食物中添加一茶匙虾garum代替盐。',
+                en: 'In the best possible way, rose and shrimp garum tastes like a greatly reduced shellfish broth with a tiny bit too much salt. Use it the same way you would a fish sauce, in dishes where you’re striving to add character but a little less funkiness than something like squid garum, which can sometimes have notes of strong cheese. We love this garum as a complement for seafood, combined with nothing more than an equal portion of good olive oil. It’s great on raw, steamed, or grilled shrimp. Or the next time you’re steaming clams or making clam chowder, add a teaspoon of shrimp garum to each serving in place of salt.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '胡桃南瓜汤',
+              en: 'Butternut Squash Soup'
+            },
+            answer: [
+              {
+                zh: '初秋时节，天气转暖，冬瓜上市时，胡桃南瓜汤开始出现在世界各地的餐馆和家庭厨房中。它很美味，但可以预见。通过添加玫瑰和虾garum，将其带向完全不同的方向，这将同时呼应和对比工作中的风味特征。将去皮和去籽的南瓜块放入足够的蔬菜或鸡汤中煮以覆盖。一旦南瓜完全软化，将其与高汤一起放入搅拌机中打成泥。在搅拌机仍在旋转的情况下，每份添加一茶匙garum；你会立刻感受到一种无与伦比的香气。最后加入一团鲜奶油和少许酸橙皮碎，完成汤的制作。',
+                en: 'In the early fall, when the weather turns and winter gourds are at their best, butternut squash soup starts to show up in restaurants and home kitchens around the world. It’s delicious, but predictable. Take it in a completely different direction by adding rose and shrimp garum, which will simultaneously echo and contrast the flavor profiles at work. Simmer chunks of peeled and seeded squash in enough vegetable or chicken stock to cover. Once the squash is completely softened, puree it in a blender with the stock. With the blender still whirring, add a teaspoon of garum per serving; you’ll immediately be hit with an inimitable aroma. Finish the soup with a dollop of whipped crème fraîche and a light grating of lime zest.'
+              },
+              {
+                zh: '*North Sea squid produce an intensely aromatic and flavorful garum.*',
+                en: '*North Sea squid produce an intensely aromatic and flavorful garum.*'
+              },
+              {
+                zh: '<!-- text/part0012_split_008.html -->',
+                en: '<!-- text/part0012_split_008.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '07-ryeso',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '雷索',
+      en: 'Ryeso'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '雷索',
+          en: 'Ryeso'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 3 kilograms**',
+            en: '**Makes about 3 kilograms**'
+          },
+          {
+            zh: '在试图为强大的大豆找到一个当地的类似物，以便我们可以用它来制作独特的北欧miso时，我们的思想转向了各种古怪的方向。例如，如果koji可以分解全谷物中的淀粉，那么为什么不能分解谷物制成的东西中的淀粉呢？喜欢面包吗？我们用大多数丹麦烘焙食品黑麦面包测试了这个想法，令我们高兴的是，它的效果非常好。由此产生的miso（我们称之为“ryeso”）比我们的黄色peaso更能清晰地代表Noma的丹麦家乡，新鲜出炉的黑麦面包的所有温暖和令人满意的味道在深沉的鲜味和浓烈的咸味平面上延伸。',
+            en: 'In trying to come up with a local analogue for the mighty soybean from which we could make a uniquely Nordic miso, our minds went in all kinds of outlandish directions. For instance, if koji can break down the starches in whole grains, then why not the starches in something made from grains? Like bread? We tested the idea with that most Danish of baked goods, rye bread, and to our delight, it worked spectacularly. The resulting miso—or “ryeso,” as we dubbed it—was an even sharper representation of Noma’s Danish home than our yellow peaso, with all the warm and satisfying notes of freshly baked rye bread stretched out across a salty plane of deep umami and tanginess.'
+          },
+          {
+            zh: '黄色 Peaso 的深入说明可作为本章中所有 miso 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forYellow Peasoserve as a template for all the miso recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '您可以从许多杂货店或健康食品店购买小块包装的预切片丹麦黑麦面包（比犹太黑麦更浓密、更酸）。当然，如果您可以找到一家制作新鲜丹麦风格黑麦的面包店，请务必使用它。',
+            en: 'You can purchase pre-sliced Danish rye bread (much denser and sourer than Jewish rye) in a small block-type package from many grocery or health food stores. And of course, if you have access to a bakery that makes fresh Danish-style rye, by all means use that.'
+          },
+          {
+            zh: '戴上手套，将黑麦面包切成便于食品加工机处理的碎片。将面包搅拌直至碎成粗粉，然后转移到一个已消毒的大碗中。接下来，在食品加工机中搅拌koji。',
+            en: 'Wearing gloves, cut the rye bread into pieces that will be easy for your food processor to manage. Pulse the bread until it crumbles into a coarse meal and transfer to a large sterilized bowl. Next, blend the koji in the food processor.'
+          },
+          {
+            zh: '将koji和盐添加到黑麦面包屑中，并用手将这些成分彻底混合在一起。与peaso不同，peaso的质地通常从一开始就很准确，而用面包制作miso时，干燥可能是一个问题，几乎肯定需要添加水分。使用手持式搅拌机或搅拌器将 4 克盐加入 100 克水中，直至盐完全溶解，快速制作 4% 盐水。一次一点地加入盐水，直到你可以将混合物挤成拳头的球状。',
+            en: 'Add the koji and the salt to the rye crumbs and thoroughly mix the ingredients together by hand. Unlike peaso, where the texture is often spot-on from the start, dryness can be a problem when making miso from bread, and you will almost certainly need to add moisture. Make a quick 4% salt brine by blending 4 grams salt into 100 grams water with a handheld blender or whisk, until the salt has completely dissolved. Add the brine a little bit at a time, until you can squeeze the mixture into a ball in your fist.'
+          },
+          {
+            zh: '将黑麦混合物紧紧地装入发酵容器中。将顶部平滑并平整，将容器内部擦拭干净，并在表面撒上盐。根据黄色<术语18>和盖子中概述的说明称重黑麦。让黑麦在室温下发酵 3 至 4 个月。将成品黑麦装入密封罐或容器中，并在冰箱中保存一个月或在冰箱中保存几个月。',
+            en: 'Pack the ryeso mixture tightly into the fermentation vessel. Smooth and level the top, wipe the insides of the vessel clean, and sprinkle the surface with salt. Weight the ryeso down according to the directions outlined in theYellow Peasoand cover. Let the ryeso ferment at room temperature for 3 to 4 months. Pack the finished ryeso in airtight jars or containers and store in the refrigerator for a month or freezer for a few months.'
+          },
+          {
+            zh: '*Ryeso, day 1*',
+            en: '*Ryeso, day 1*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '*Day 90*',
+            en: '*Day 90*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1.8公斤丹麦式黑麦面包',
+            en: '1.8 kilograms Danish-style rye bread'
+          },
+          {
+            zh: '1.2公斤珍珠薏米Koji',
+            en: '1.2 kilogramsPearl Barley Koji'
+          },
+          {
+            zh: '**120 grams non-iodized salt, plus extra for sprinkling**',
+            en: '**120 grams non-iodized salt, plus extra for sprinkling**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '黑麦草霜',
+              en: 'Ryeso Cream'
+            },
+            answer: [
+              {
+                zh: '*Blended with sugar, cream, and a pinch of licorice powder, ryeso can be turned into a rich, sweet sauce.*',
+                en: '*Blended with sugar, cream, and a pinch of licorice powder, ryeso can be turned into a rich, sweet sauce.*'
+              },
+              {
+                zh: '想要获得甜味的黑麦，可将 70 克黑麦用手持式搅拌机搅拌至光滑（如果需要的话，可加一点水），然后将其通过塔米斯，形成光滑、均匀的糊状物。与 70 克简单糖浆（已煮沸并冷却的黑糖和水按重量等份）一起搅拌，然后加入 250 克双层（或浓稠）奶油和少许甘草粉。你不需要搅拌它，只需搅拌混合即可。 Ryeso 奶油可以与各种蛋糕和糖果搭配，但在餐厅，我们喜欢在季节高峰时将其搭配新鲜浆果，搭配它们自己的发酵果汁（参见<术语16>蓝莓）。如果可以的话，用一些万寿菊花瓣和叶子来结束这一切。',
+                en: 'For a sweet take on ryeso, blend 70 grams ryeso with a handheld blender until smooth (using a bit of water if you need to help it along), then pass it through a tamis, resulting in a smooth, uniform paste. Whisk together with 70 grams simple syrup (equal parts muscovado sugar and water, by weight, that have been boiled and cooled), then add 250 grams double (or heavy) cream and a pinch of licorice powder. You don’t need to whip it, just whisk to combine. Ryeso cream can be paired with cakes and confections of all sorts, but at the restaurant we love it on fresh berries at the height of the season, dressed in their own fermented juices (seeLacto Blueberries). If you’re able, finish it all off with a few marigold flower petals and leaves.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: 'Ryeso Tamari 和 Ryeso 蘑菇釉',
+              en: 'Ryeso Tamari and Ryeso-Mushroom Glaze'
+            },
+            answer: [
+              {
+                zh: '与peaso一样，黑麦可以产生美味的酱油还原，带有继承自黑麦面包的复杂、甜美的麦芽香气。按照Peaso Tamari Reduction 的说明进行操作，用ryeso 代替peaso。',
+                en: 'Like peaso, ryeso can yield a delicious tamari reduction, with complex, sweet notes of malt inherited from the rye bread. Follow the instructions forPeaso Tamari Reduction, substituting ryeso for peaso.'
+              },
+              {
+                zh: '或者更进一步：Ryeso tamari 与干蘑菇特别搭配，两者可以成为一种超美味的鲜味炸弹，多年来一直是 Noma 的奇迹创造者。一旦你达到了酱油制作过程中通常需要减少混合物的程度，就停止在酱油中加入蘑菇。每 500 克冰澄清黑麦汤，加入干牛肝菌、羊肚菌和黑喇叭菌各 10 克，以及 25 克干海带。将混合物煮沸，然后将火调至小火慢炖，并盖紧锅盖。将其放在小火上 2 小时。滤出蘑菇和海藻，挤压以提取尽可能多的液体，然后将黑酱油放回炉子中。用小火将酱油煎至能覆盖勺子背面。',
+                en: 'Or take things one step further: Ryeso tamari consorts particularly well with dried mushrooms, and the two can become a hyper-flavorful umami bomb that’s been a miracle worker at Noma for years. Once you’ve reached the point in the tamari process where you would ordinarily reduce the mixture, stop to infuse the tamari with mushrooms. For every 500 grams ice-clarified ryeso stock, add 10 grams each of dried cep, morel, and black trumpet mushrooms, along with 25 grams dried kelp. Bring the mixture to a boil, then reduce the heat to a bare simmer and cover the pot tightly with a lid. Leave it on low heat for 2 hours. Strain out the mushrooms and seaweed, pressing to extract as much liquid as possible, then return the ryeso tamari to the stove. Reduce the tamari over low heat until it can coat the back of a spoon.'
+              },
+              {
+                zh: '当鸭子、野鸡或鹌鹑在煤上做饭时，所得的釉料涂在鸭子、野鸡或鹌鹑的皮肤上，效果非常惊人。对于素食者来说，可以用一点融化的黄油烤一整串母鸡蘑菇，定期刷上黑麦蘑菇釉。海绵状的真菌会吸收味道，成为一种酥脆、烟熏、多汁、肉质的奇迹，能够满足任何肉食动物的需求。',
+                en: 'The resulting glaze is phenomenal painted onto the skin of ducks, pheasants, or quail as they cook over coals. For vegetarians, grill a whole cluster of hen of the woods mushrooms with a bit of melted butter, brushing periodically with ryeso-mushroom glaze. The spongy fungi will soak up the flavor and become a crispy-smoky-juicy-meaty wonder, capable of satiating any carnivore.'
+              },
+              {
+                zh: '*Clarified ryeso stock simmered with mushrooms and kombu leads to an incredibly savory glaze for meat or vegetables.*',
+                en: '*Clarified ryeso stock simmered with mushrooms and kombu leads to an incredibly savory glaze for meat or vegetables.*'
+              },
+              {
+                zh: '<!-- text/part0010_split_008.html -->',
+                en: '<!-- text/part0010_split_008.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '07-saccharomyces-cerevisiae',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<术语23>',
+      en: 'Saccharomyces cerevisiae'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<术语23>',
+          en: 'Saccharomyces cerevisiae'
+        },
+        paragraphs: [
+          {
+            zh: 'Saccharomyces cerevisiae是一种非常方便的酵母菌种，它负责人类最重要的三个烹饪支柱：面包、啤酒和葡萄酒。正如自然发酵面包和葡萄酒的生产商所证明的那样，S. 自然世界中资源丰富。 酿酒酵母以将糖转化为酒精为生。它分解葡萄糖以利用其生命过程所需的化学能，同时产生二氧化碳和乙醇作为副产品。不同的菌株或亚种因其独特的品质而被利用，这可能导致风味的巨大差异。例如，S 菌株。用于面包烘焙的酿酒酵母不适合生产啤酒或葡萄酒。酵母可以在有氧的情况下生存和繁殖，但酒精发酵是在厌氧条件下进行的。酵母菌在温度超过 60°C/140°F 时生长。',
+            en: 'An extremely handy species of yeast,Saccharomyces cerevisiaeis responsible for three of humanity’s most important culinary pillars: bread, beer, and wine. Bountiful in the natural world, as demonstrated by producers of spontaneously fermented bread and wine,S. cerevisiaemakes a living converting sugars into alcohol. It breaks down glucose to harness the chemical energy needed for its life processes, while producing carbon dioxide and ethanol as by-products. Different strains or subspecies are harnessed for their particular qualities, which can lead to wide variations in flavor. For instance, the strain ofS. cerevisiaethat is used in bread baking isn’t desirable for producing beer or wine. Yeast can survive and multiply in the presence of oxygen, but alcohol fermentation takes place anaerobically.Saccharomycesdies at temperatures in excess of 60°C/140°F.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '08-brettanomyces',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<术语24>',
+      en: 'Brettanomyces'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<术语24>',
+          en: 'Brettanomyces'
+        },
+        paragraphs: [
+          {
+            zh: 'Brettanomyces 是一种长圆柱形酵母，用于生产酸味啤酒，因为它能够产生乙酸作为代谢物。Brettanomyces 也天然存在于水果皮上，可以作为“saison 酵母”轻松购买。它可以在氧气中生存，但在厌氧条件下产生乙醇。与其他酵母一样，它无法在 60°C/140°F 以上的温度下生存。',
+            en: 'A genus of long, cylindrical yeast,Brettanomycesis used in the production of beers with sour qualities because of its ability to produce acetic acid as a metabolite.Brettanomycesalso occurs naturally on the skins of fruits, and can be purchased readily as “saison yeast.” It can survive in oxygen, but produces ethanol anaerobically. Like other yeasts, it cannot survive temperatures above 60°C/140°F.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '08-celery-vinegar',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '芹菜醋',
+      en: 'Celery Vinegar'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '芹菜醋',
+          en: 'Celery Vinegar'
+        },
+        paragraphs: [
+          {
+            zh: '*Check the pH of vinegar against the legend that comes with the test kit.*',
+            en: '*Check the pH of vinegar against the legend that comes with the test kit.*'
+          },
+          {
+            zh: '**Makes about 2.5 liters**',
+            en: '**Makes about 2.5 liters**'
+          },
+          {
+            zh: '当你第一次品尝芹菜醋时，你会想知道没有它你是如何生活的。味道令人惊讶的是多才多艺。芹菜的精致绿色香气与蔬菜沙拉搭配得很好，也可以作为西班牙凉菜汤的佐料，或者与核桃油混合来搭配切片苹果。',
+            en: 'The first time you taste celery vinegar, you’ll wonder how you’ve lived without it. The flavor is surprisingly versatile. The delicate green notes of celery play well with vegetable salads, or as a kicker in gazpacho, or mixed with walnut oil to dress sliced apples.'
+          },
+          {
+            zh: '这种发酵方法与我们用于佩里醋和梅醋的两阶段发酵不同。我们不是发酵我们自己的酒精，而是将乙醇添加到蔬菜汁中，为醋酸菌提供燃料（AAB）。尽管如此，佩里醋的深入说明仍然包含有关我们快速方法的有用信息，在开始使用此方法之前可能值得阅读。',
+            en: 'This fermentation method differs from the two-stage fermentations we employ forPerry VinegarandPlum Vinegar. Rather than fermenting our own alcohol, we add ethanol to vegetable juice to provide fuel for the acetic acid bacteria (AAB). Still, the in-depth instructions for Perry Vinegar have useful information about our quick method and may be worth reading before starting in on this one.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '3公斤芹菜，切成茎并冲洗以除去沙粒',
+            en: '3 kilograms celery, broken into stalks and rinsed to remove any grit'
+          },
+          {
+            zh: '未经高温消毒的芹菜醋或其他未经高温消毒的淡醋，例如苹果醋',
+            en: 'Unpasteurized celery vinegar or another unpasteurized mild vinegar, such as apple cider vinegar'
+          },
+          {
+            zh: '**96% ethanol (neutral grain spirit)**',
+            en: '**96% ethanol (neutral grain spirit)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '您需要一个榨汁机、一个食品级塑料桶或容量至少为 3 升的广口罐、一个气泵和气石。您还需要粗棉布或透气的厨房毛巾，以及大橡皮筋以将其固定在发酵容器的顶部。我们建议您在用手工作时戴上无菌手套，并对所有设备进行彻底清洁和消毒（请参阅清洁、病原体和安全）。',
+                en: 'You’ll need a juicer, a food-grade plastic bucket or wide-mouthed jar with at least a 3-liter capacity, and an air pump and air stone. You’ll also want cheesecloth or a breathable kitchen towel, along with large rubber bands to secure it to the top of your fermentation vessel. We recommend that you wear sterile gloves when working with your hands, and that all your equipment be thoroughly cleaned and sanitized (seeCleanliness, Pathogens, and Safety).'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '将芹菜榨汁。 （芹菜中的纤维容易粘住刀片，因此在此过程中您可能需要清理榨汁机一两次。）通过细网筛过滤果汁。称重并倒入发酵容器中。',
+                en: 'Juice the celery. (The fibers in celery have a tendency to gum up the blade, so you may need to clean out the juicer once or twice during the process.) Strain the juice through a fine-mesh sieve. Weigh it and pour it into the fermentation vessel.'
+              },
+              {
+                zh: '将果汁重量的 20% 倒入未经高温消毒的醋中。例如，如果您最终得到 2 公斤果汁，则需要倒入 400 克未经高温消毒的醋。',
+                en: 'Backslop the juice with 20% of its weight in unpasteurized vinegar. For example, if you end up with 2 kilograms juice, you’ll backslop with 400 grams unpasteurized vinegar.'
+              },
+              {
+                zh: '接下来，您需要添加酒精来为AAB提供燃料。要确定所需的酒精量，请将果汁和醋的重量加在一起，并计算出该重量的 8%。例如，如果果汁和醋的总重量为 2.4 千克，则需要添加 192 克 96% 乙醇。将乙醇添加到发酵容器中。',
+                en: 'Next, you’ll need to add alcohol to fuel the AAB. To determine the amount of alcohol needed, add together the weight of the juice and the vinegar and calculate 8% of that weight. For example, if the total weight of juice and vinegar is 2.4 kilograms, you’ll add 192 grams of 96% ethanol. Add the ethanol to the fermentation vessel.'
+              },
+              {
+                zh: '您的基础混合物现在已准备好发酵，使用与梨醋相同的设置。像芹菜醋这样的一级醋需要尽快完成发酵，以保持果汁的质量和风味的完整性。被动、长时间的发酵在这里不是一个选择。',
+                en: 'Your base mixture is now ready for fermentation, using the same setup as described for perry vinegar. One-stage vinegars like celery vinegar need to be pushed through their fermentation as quickly as possible to maintain the quality of the juice and integrity of the flavors. Passive, long fermentation is not an option here.'
+              },
+              {
+                zh: '将空气石放入液体中，使其放在容器底部，然后将软管从顶部延伸到空气泵。用粗棉布或透气的厨房毛巾盖住容器，并用橡皮筋固定。用胶带覆盖软管留下的间隙并打开泵。如果您发现醋将泡沫从容器顶部挤出，则泵可能工作过度。您可以在软管管路上添加一个小塑料阀门来调节其流量，或者只是在更大的容器中发酵。否则，每当泡沫积聚过多时，请停止泵并将泡沫搅拌回醋中。无论哪种方式，过量的泡沫通常会在最初几天后消退。',
+                en: 'Place the air stone in the liquid so that it rests on the bottom of the vessel and run the hose out the top to the air pump. Cover the vessel with cheesecloth or a breathable kitchen towel and secure with a rubber band. Tape over the gap left by the hose and turn on the pump. If you find your vinegar pushing foam out the top of its container, the pump is likely working too hard. You can add a small plastic valve to the line of the hose to regulate its flow, or simply ferment in a bigger vessel. Otherwise, stop the pump and stir the foam back into the vinegar whenever it builds up too much. Either way, an excess of foam usually subsides after the first few days.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '如果找不到乙醇，请使用伏特加',
+              en: 'If You Can’t Find Ethanol, Use Vodka'
+            },
+            answer: [
+              {
+                zh: '*If you can’t find 96% ethanol, use a neutral spirit such as vodka. However, since the ABV of vodka is much lower (80 proof, or40%, rather than 96%), you’ll have to adjust the recipe to account for the extra water. First, increase the amount of vinegar we use to backslop, adding 23.4% by weight rather than 20%. In the example used in the celery vinegar recipe, if we have 2 kilograms celery juice, we’d add 468 grams vinegar.*',
+                en: '*If you can’t find 96% ethanol, use a neutral spirit such as vodka. However, since the ABV of vodka is much lower (80 proof, or40%, rather than 96%), you’ll have to adjust the recipe to account for the extra water. First, increase the amount of vinegar we use to backslop, adding 23.4% by weight rather than 20%. In the example used in the celery vinegar recipe, if we have 2 kilograms celery juice, we’d add 468 grams vinegar.*'
+              },
+              {
+                zh: '*Next, we’ll also have to add more alcohol to make up for the difference in ABV: 20% by weight rather than 8%. For 2.468 kilograms of the celery juice and vinegar mixture, we’d add 494 grams vodka.*',
+                en: '*Next, we’ll also have to add more alcohol to make up for the difference in ABV: 20% by weight rather than 8%. For 2.468 kilograms of the celery juice and vinegar mixture, we’d add 494 grams vodka.*'
+              },
+              {
+                zh: '*Keep in mind that adding all this additional liquid dilutes the juice and its flavor. The final vinegar will also be more dilute, but definitely recognizable as celery vinegar.*',
+                en: '*Keep in mind that adding all this additional liquid dilutes the juice and its flavor. The final vinegar will also be more dilute, but definitely recognizable as celery vinegar.*'
+              },
+              {
+                zh: '*(Like all good experimentalists, you may want to try a more flavorful alcohol. Feel free, but try it this way first.)*',
+                en: '*(Like all good experimentalists, you may want to try a more flavorful alcohol. Feel free, but try it this way first.)*'
+              },
+              {
+                zh: '您会注意到，一级发​​酵醋中的酒精味道比两级发酵中的酒精味道更明显。纯乙醇具有明显的味道，直到完全发酵消失为止。发酵快结束时，您可能会闻到淡淡的清漆或洗甲水的味道。经过更多的时间和通风，这些气味就会消散。',
+                en: 'You’ll notice that the alcohol in a one-stage vinegar tastes more pronounced than in a two-stage fermentation. Pure ethanol has a conspicuous flavor that lingers until it’s been completely fermented away. Near the end of the fermentation, it’s possible that you’ll pick up faint notes of varnish or nail polish remover. With a bit more time and aeration, those scents will dissipate.'
+              },
+              {
+                zh: '您还将了解到，在制作醋时，绿色蔬菜充满活力的叶绿素会褪色，因为乙酸会降解色素分子并改变颜色。不要担心醋的暗淡橄榄色——成品的味道足以弥补它。',
+                en: 'You’ll also learn that the vibrant chlorophyll of green vegetables fades when making vinegar, as acetic acid degrades the pigment molecules and changes the color. Don’t fret about the dull olive hue of your vinegar—the finished flavor will more than make up for it.'
+              },
+              {
+                zh: '将醋发酵 10 到 14 天，或者直到所有酒精的味道消失并且醋变酸，同时保留新鲜芹菜的味道。通过粗棉布过滤。将醋存放在冰箱中的带盖瓶子中，以尽可能保持味道新鲜，不过只要不暴露在空气中，醋就可以完全稳定地保存。如果您发现瓶底有沉淀物，只需在使用前摇匀即可；否则，您可以轻轻地将醋倒入新的容器中，留下沉淀物（我们称之为“沥干”）。',
+                en: 'Ferment the vinegar for 10 to 14 days, or until all the flavor of the alcohol has vanished and the vinegar has acidified while retaining the flavor of fresh celery. Strain it through cheesecloth. Store in capped bottles in the refrigerator to keep the flavors as fresh as possible, though the vinegar is perfectly shelf stable as long as it’s not exposed to air. If you notice sediment at the bottom of the bottle, just shake before using; otherwise, you can gently pour the vinegar off into a fresh vessel, leaving the sediment behind (what we call “racking”).'
+              },
+              {
+                zh: '*Celery Vinegar, day 1*',
+                en: '*Celery Vinegar, day 1*'
+              },
+              {
+                zh: '*Day 7*',
+                en: '*Day 7*'
+              },
+              {
+                zh: '*Day 14*',
+                en: '*Day 14*'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '黄瓜汤',
+              en: 'Cucumber Soup'
+            },
+            answer: [
+              {
+                zh: '将几根英国黄瓜切成易处理的碎片，用少许盐和几茶匙 Grasshopper Garum 搅拌至光滑，然后通过细网筛。加入约 150 毫升芹菜醋，让一切都带有绿色、辛辣的酸度。将汤放入冰浴中冷却，然后直接享用，或者将您最喜欢的夏季蔬菜切成丁，添加到清爽的开胃菜中。',
+                en: 'Cut a couple of English cucumbers into manageable pieces and blend them until smooth with a pinch of salt and a couple of teaspoons ofGrasshopper Garumto season, before passing through a fine-mesh sieve. Stir in about 150 milliliters celery vinegar to lift everything with green, piquant acidity. Chill the soup in an ice bath and enjoy as is, or dice up your favorite summer vegetables and add them for a refreshing starter.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '芹菜香草醋配新鲜奶酪',
+              en: 'Celery-Herb Vinegar with Fresh Cheese'
+            },
+            answer: [
+              {
+                zh: '芹菜醋具有明亮的植物风味，是制作浸泡醋的完美起点。取 500 毫升芹菜醋，与 100 克茴香叶、欧芹叶或任何您喜欢的甜味香草混合。让混合物浸泡约 5 分钟，然后过滤。您将获得充满活力的绿色草本醋，带有新鲜草本的纯正风味。从那里，你可以在一碗新鲜的乳清干酪或马苏里拉奶酪上撒上橄榄油、海盐和红辣椒片，然后在上菜前淋上一点芹菜香草醋。',
+                en: 'Celery vinegar, with its bright vegetal flavor, is a perfect starting point to create infused vinegars. Take 500 milliliters celery vinegar and blend it with 100 grams fennel tops, parsley leaves, or whatever sweet herb you like. Let the mixture infuse for about 5 minutes, then strain. You’ll have a vibrant green, herbaceous vinegar with the pure flavor of fresh herbs. From there, you can dress a bowl of fresh ricotta or mozzarella with olive oil, sea salt, and red pepper flakes, then finish with a drizzle of celery-herb vinegar just before serving.'
+              },
+              {
+                zh: '*The lightly sweet juice of butternut squash doesn’t have enough sugar to ferment into the required amount of ethanol. Adding neutral grain spirit allows it to be fermented into vinegar.*',
+                en: '*The lightly sweet juice of butternut squash doesn’t have enough sugar to ferment into the required amount of ethanol. Adding neutral grain spirit allows it to be fermented into vinegar.*'
+              },
+              {
+                zh: '<!-- text/part0008_split_009.html -->',
+                en: '<!-- text/part0008_split_009.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '08-coffee-shoyu',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '咖啡 <第 12 学期>',
+      en: 'Coffee Shoyu'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '咖啡 <第 12 学期>',
+          en: 'Coffee Shoyu'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 1 liter**',
+            en: '**Makes about 1 liter**'
+          },
+          {
+            zh: '关于这个shoyu食谱，您首先会注意到的是它不包含任何豆类——没有大豆，没有黄豌豆。我们最初开发这个配方是为了一种利用剩余咖啡渣的有趣方式，说实话，它并不完全适合shoyu盒子或本书中的任何发酵物。我们没有在室温下发酵，而是将咖啡 shoyu 保存在发酵室中，就像我们处理 garum 一样，以带出更多烘焙风味并加速酶促作用。然而，它是根据shoyu建模的，所以我们称之为咖啡shoyu。',
+            en: 'The first thing you’ll notice about this shoyu recipe is that it doesn’t include any legumes—no soybeans, no yellow peas. We initially developed this recipe as an interesting way to utilize leftover coffee grounds, and to be honest, it doesn’t fit neatly into the shoyu box or any of the ferments in this book. Rather than fermenting at room temperature, we keep coffee shoyu in a fermentation chamber as we do with our garums, to bring out more roasted flavors and speed up enzymatic action. However, it’s modeled after shoyu, so we call it coffee shoyu.'
+          },
+          {
+            zh: '在食品加工机中搅拌koji，直至其完全破碎成小颗粒。转移到一个大碗中，加入咖啡渣、水和盐。',
+            en: 'Pulse the koji in a food processor until it’s thoroughly broken up into small grains. Transfer to a large bowl and add the coffee grounds, water, and salt.'
+          },
+          {
+            zh: '将混合物转移至发酵容器（食品安全塑料桶或带盖的 4 升玻璃罐）。您也可以直接在设置为“保温”的电饭锅碗中发酵混合物。因为我们在 60°C/140°F 的高温下发酵此 shoyu，所以蒸发比其他 shoyu 更成问题。为了防止水分流失，即使有盖子，也要用塑料双层包裹发酵容器。将容器放入发酵室；如果使用电饭锅，也用保鲜膜包裹电饭锅的盖子。',
+            en: 'Transfer the mixture to a fermentation vessel (a food-safe plastic bucket or 4-liter glass jar with a lid). You can also ferment the mixture directly in the bowl of a rice cooker set to “keep warm.” Because we ferment this shoyu at a high temperature, 60°C/140°F, evaporation is more of an issue than it is with other shoyus. To prevent moisture loss, double-wrap the fermentation vessel with plastic, even if it has a lid. Put the vessel into your fermentation chamber; if using a rice cooker, wrap the lid of the cooker in plastic wrap as well.'
+          },
+          {
+            zh: '让咖啡shoyu发酵4周，每周搅拌和品尝一次。您会发现成品shoyu苦乐参半，带有一丝烤水果的味道。一旦您满意，将 shoyu 通过细网筛过滤，然后通过衬有粗棉布的筛子重新过滤。完成的shoyu可以在密封容器或瓶子中在冰箱中保存数月。您也可以将其冷冻以延长保存时间。',
+            en: 'Let the coffee shoyu ferment for 4 weeks, stirring and tasting once a week. You should find the finished shoyu bittersweet, with a flight of roasted fruit flavors. Once you’re satisfied, strain the shoyu through a fine-mesh sieve and then re-strain through a sieve lined with cheesecloth. The finished shoyu can be stored in the refrigerator in airtight containers or bottles for months. You can also freeze it for longer storage.'
+          },
+          {
+            zh: '*Coffee Shoyu, day 1*',
+            en: '*Coffee Shoyu, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 28*',
+            en: '*Day 28*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '800 克珍珠薏米 Koji',
+            en: '800 gramsPearl Barley Koji'
+          },
+          {
+            zh: '200 克剩余咖啡渣或 100 克现磨咖啡',
+            en: '200 grams leftover coffee grounds or 100 grams freshly ground coffee'
+          },
+          {
+            zh: '1公斤水',
+            en: '1 kilogram water'
+          },
+          {
+            zh: '**80 grams non-iodized salt**',
+            en: '**80 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '鱼釉',
+              en: 'Fish Glaze'
+            },
+            answer: [
+              {
+                zh: '您可以将咖啡shoyu放入平底锅中慢慢地、小心地熬成美味的糖浆，以免烧焦。在煎完几片鱼片前 20 秒，将一茶匙这种糖浆加入锅中，会使鱼片裹上浓浓的甜咸味。',
+                en: 'You can reduce coffee shoyu in a pan—slowly and carefully, lest it burn—into a delicious syrup. A teaspoon of this syrup added to the pan 20 seconds before you finish pan-frying a few fillets of fish will coat them with a profound sweet-saltiness.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '咖啡 Shoyu 奶油糖果',
+              en: 'Coffee Shoyu Butterscotch'
+            },
+            answer: [
+              {
+                zh: '这里有一个关于咖啡的奇怪建议shoyu：将其混合到奶油糖中。您可能尝过咸焦糖或咸奶油糖果。在这种情况下，咸味会随着发酵的复杂性而增加。另外，制作自己的奶油糖果并不复杂，而且真的非常非常好。在中锅中用中低火融化 60 克黄油，然后加入 100 克深红糖、125 克浓奶油和 60 克咖啡shoyu。将混合物煮沸 4 至 5 分钟，然后加入半颗香草豆种子。搅拌并远离火源。让它冷却并冷藏，盖上盖子，用作蛋糕、馅饼或您选择的任何糖果的酱汁。',
+                en: 'Here’s a bit of a quirky suggestion for coffee shoyu: Mix it into butterscotch. You’ve probably tasted salted caramel or salty butterscotch. In this case, the saltiness comes with the added complexity of fermentation. Plus, it’s not terribly complicated to make your own butterscotch, and it’s really,reallygood. In a medium pot over medium-low heat, melt 60 grams butter, then add 100 grams dark brown sugar, 125 grams heavy cream, and 60 grams coffee shoyu. Boil the mixture for 4 to 5 minutes, then add the seeds of half a vanilla bean. Stir and remove from the heat. Allow it to cool and refrigerate, covered, to use as a sauce for cakes, pies, or any confection of your choosing.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '隔夜鸡汤',
+              en: 'Overnight Chicken Broth'
+            },
+            answer: [
+              {
+                zh: '这是一种以健康、简单的膳食开始新的一天的超级简单方法。将整只烤鸡放入锅中，加水没过锅盖，加入少许香料，小火焖一晚。睡觉前，关掉暖气，盖上锅盖，将其放在炉子上直到早上。第二天早上，过滤肉汤并用咖啡shoyu调味——或者任何shoyu，真的。添加面条、米饭或蔬菜，让新的一天更加美好。',
+                en: 'This is a super-simple way to start your day with a wholesome, straightforward meal. Place the carcass of a whole roast chicken into a pot, cover it with water, add a few aromatics, and let it bubble away over low heat for an evening. Before you go to bed, turn off the heat, cover the pot with a lid, and leave it on the stove until morning. The next morning, strain the broth and season with coffee shoyu—or any shoyu, really. Add noodles, rice, or vegetables for an even better start to the day.'
+              },
+              {
+                zh: '*Slowly reduce coffee shoyu into a syrupy glaze, then use it to lacquer fillets of sole.*',
+                en: '*Slowly reduce coffee shoyu into a syrupy glaze, then use it to lacquer fillets of sole.*'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '08-consider-accessorizing',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '考虑配饰',
+      en: 'Consider Accessorizing'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '08-elderflower-kombucha',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '接骨木花 Kombucha',
+      en: 'Elderflower Kombucha'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '接骨木花 Kombucha',
+          en: 'Elderflower Kombucha'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 2 liters**',
+            en: '**Makes 2 liters**'
+          },
+          {
+            zh: '接骨木花是斯堪的纳维亚夏季的标志风味之一。这些微小而芳香的白色花朵年复一年地出现在Noma的菜单上。在初夏，您会在北半球的许多温带气候以及澳大利亚和南美洲的部分地区找到它们。',
+            en: 'Elderflower is one of the hallmark flavors of summer in Scandinavia. The tiny, sweetly fragrant white blossoms make their way onto Noma’s menu year after year. You’ll find them in early summer in many temperate climates across the Northern Hemisphere, as well as in parts of Australia and South America.'
+          },
+          {
+            zh: '柠檬马鞭草 Kombucha 的深入说明可作为本章中所有 kombucha 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLemon Verbena Kombuchaserve as a template for all the kombucha recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将糖和水放入中型锅中煮沸，搅拌以溶解糖。同时，将花朵放入非反应性耐热容器中。将热糖浆倒在接骨木花上，然后冷却至室温。冷却后，盖上容器并转移到冰箱中浸泡过夜。',
+            en: 'Bring the sugar and water to a boil in a medium pot, stirring to dissolve the sugar. Meanwhile, put the blossoms in a nonreactive heatproof container. Pour the hot syrup over the elderflower blossoms, then allow to cool to room temperature. Once cool, cover the container and transfer to the fridge to infuse overnight.'
+          },
+          {
+            zh: '第二天，将接骨木花糖浆通过细网筛过滤到发酵容器中，按压花朵以提取尽可能多的液体。通过搅拌 200 克未经巴氏消毒的 kombucha 来倒流输液。戴上手套，小心地将 SCOBY 放入液体中。用粗棉布或透气的厨房毛巾盖住发酵容器的顶部，并用橡皮筋固定。标记kombucha并将其放在温暖的地方。',
+            en: 'The following day, strain the elderflower syrup through a fine-mesh sieve into the fermentation vessel, pressing on the blossoms to extract as much liquid as possible. Backslop the infusion by stirring in the 200 grams unpasteurized kombucha. Wearing gloves, carefully place the SCOBY into the liquid. Cover the top of the fermentation vessel with cheesecloth or a breathable kitchen towel and secure with a rubber band. Label the kombucha and set it in a warm place.'
+          },
+          {
+            zh: '让kombucha发酵，每天跟踪其进展。确保 SCOBY 的顶部不会变干；如有必要，用勺子沾一些液体。一旦您对 kombucha 的味道感到满意（可能是从开始后 7 到 10 天），请将 SCOBY 转移到容器中进行存储并过滤 kombucha。立即食用或冷藏、冷冻或装瓶。',
+            en: 'Leave the kombucha to ferment, tracking its progress each day. Make sure the top of the SCOBY doesn’t dry out; use a ladle to moisten it with some of the liquid, if necessary. Once you’re happy with the flavor of your kombucha—probably between 7 and 10 days from the start—transfer the SCOBY to a container for storage and strain the kombucha. Consume immediately or refrigerate, freeze, or bottle it.'
+          },
+          {
+            zh: '*Elderflower Kombucha, day 1*',
+            en: '*Elderflower Kombucha, day 1*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '240克糖',
+            en: '240 grams sugar'
+          },
+          {
+            zh: '1.76公斤水',
+            en: '1.76 kilograms water'
+          },
+          {
+            zh: '300克新鲜接骨木花',
+            en: '300 grams fresh elderflower blossoms'
+          },
+          {
+            zh: '200 克未经高温消毒的kombucha（或包装好的 SCOBY 附带的液体）',
+            en: '200 grams unpasteurized kombucha (or the liquid that comes with a packaged SCOBY)'
+          },
+          {
+            zh: '**1 SCOBY (seeSources)**',
+            en: '**1 SCOBY (seeSources)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '接骨木花鲜奶油',
+              en: 'Elderflower Crème Fraîche'
+            },
+            answer: [
+              {
+                zh: 'kombucha 和乳制品的这种实验性组合已出现在我们 Noma 的菜单上，您也可能会在家里发现它的多种用途。将 800 克奶油、200 克全脂牛奶和 200 克接骨木花混合在一起 kombucha。盖上粗棉布并在室温下发酵2至3天。奶油会变稠，接骨木花的味道会给酸奶油带来花香，就像绽放的软皮奶酪一样。',
+                en: 'This experimental mix of kombucha and dairy has shown up here and there on our menu at Noma, and you might find a bevy of uses for it at home, too. Mix together 800 grams cream, 200 grams whole milk, and 200 grams elderflower kombucha. Cover with cheesecloth and leave to ferment at room temperature for 2 to 3 days. The cream will thicken and the flavor of the elderflower will impart a floral accent to the soured cream, like a bloomy soft-rind cheese.'
+              },
+              {
+                zh: '尝试将一碗焯过并去壳的新鲜甜豌豆与一勺这种奶油混合，作为户外午餐的明亮清爽的开始。用脆脆的萝卜片和少量新鲜采摘的香草装饰，如柠檬百里香、柠檬马鞭草或山萝卜。',
+                en: 'Try mixing a bowl of blanched and shucked fresh sweet peas with a good spoonful of this cream as a bright and refreshing start to an outdoor lunch. Garnish with slivers of crunchy radishes and a smattering of freshly picked herbs, such as lemon thyme, lemon verbena, or chervil.'
+              },
+              {
+                zh: '*Combine elderflower kombucha, cream, and milk to make a distinctly floral crème fraîche.*',
+                en: '*Combine elderflower kombucha, cream, and milk to make a distinctly floral crème fraîche.*'
+              },
+              {
+                zh: '*Coffee kombucha is a fantastic way to get more life out of used coffee grounds.*',
+                en: '*Coffee kombucha is a fantastic way to get more life out of used coffee grounds.*'
+              },
+              {
+                zh: '<!-- text/part0007_split_009.html -->',
+                en: '<!-- text/part0007_split_009.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '08-maizo',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '舞藏',
+      en: 'Maizo'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '舞藏',
+          en: 'Maizo'
+        },
+        paragraphs: [
+          {
+            zh: '*There are hundreds of varietals of dried corn waiting to be nixtamalized and fermented.*',
+            en: '*There are hundreds of varietals of dried corn waiting to be nixtamalized and fermented.*'
+          },
+          {
+            zh: '**Makes about 3 kilograms**',
+            en: '**Makes about 3 kilograms**'
+          },
+          {
+            zh: '我们在墨西哥图卢姆度过了几个月的时间，在尤卡坦半岛的丛林中建造并执行了一个Noma快闪店，从而开发了这种发酵。这个想法是通过交换在不同文化中发挥相似作用的成分来产生miso。大豆是日本的主食，就像北欧的豌豆和墨西哥的玉米一样。但在墨西哥，玉米并不只是当作玉米来吃。将果仁在氢氧化钙溶液中煮沸，然后研磨，就得到了湿润粉糊：玉米饼、玉米粉蒸肉、huarache、sope 和无数其他重要墨西哥菜肴的基础。浸泡过程称为碱法烹制，它能有效分解玉米细胞壁中的纤维素，使玉米更容易消化，同时释放营养物质和风味化合物。因此，我们从湿润粉糊开始，将其作为新发酵的基础，这是技术和传统的惊人且意想不到的结合，我们现在亲切地称之为“maizo”。',
+            en: 'We developed this ferment while spending several months in Tulum, Mexico, building and executing a Noma pop-up in the jungles of the Yucatán. The idea was to produce a miso by swapping ingredients that played a similar role in disparate cultures. Soybeans are a staple in Japan, just as peas are in northern Europe and corn is in Mexico. But corn isn’t simply eaten as corn in Mexico. By boiling the kernels in a calcium hydroxide solution, then grinding them, you get masa: the basis for tortillas, tamales,huaraches,sopes, and countless other vital Mexican dishes. The soaking process is called nixtamalization, and it effectively breaks down the cellulose in the corn’s cell walls, rendering the corn more digestible while simultaneously unlocking nutrients and flavor compounds. And so, we started with masa as the basis for our new ferment, a striking and unexpected coming-together of techniques and traditions that we now lovingly call “maizo.”'
+          },
+          {
+            zh: '麦佐的浓郁甜味意味着它在烤架上会漂亮地焦糖化，涂在玉米穗、猪排或桃子上。我们对这种发酵及其发生方式感到非常自豪。我们认为，如果您花时间去做，您就会明白原因。',
+            en: 'The intense sweetness of maizo means it caramelizes beautifully on the grill, slathered over ears of corn or pork chops or peaches. We’re exceedingly proud of this ferment and how it came about. We think if you take the time to make it, you’ll see why.'
+          },
+          {
+            zh: '黄色 Peaso 的深入说明可作为本章中所有 miso 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forYellow Peasoserve as a template for all the miso recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '如果您住在可以购买新鲜湿润粉糊的地方，请随意使用它来代替自己制作，但不要试图用 Maseca（一种干燥的速溶湿润粉糊品牌）代替。只是味道不太一样。至于茉莉香米koji，如果你掌握了大麦koji，那么制作米饭koji就会很简单。按照珍珠大麦<术语6>所述的程序，用等重量的大米代替大麦。显然，如果你已经制作了大麦koji并且有一些，那就可以了。我们更喜欢大米koji，但发酵可以灵活，我们也可以。',
+            en: 'If you live somewhere you can buy fresh masa, feel free to use it in lieu of making your own, but don’t be tempted to substitute Maseca, a brand of dried, instant masa. The flavor is just not the same. As for the jasmine rice koji, if you’ve mastered barley koji, making rice koji will be straightforward. Follow the procedure described forPearl Barley Koji, substituting an equal weight of rice for barley. Obviously, if you’ve already made barley koji and have some around, it’ll work just fine. We prefer rice koji, but fermentation can be flexible and so can we.'
+          },
+          {
+            zh: '戴上手套，将湿润粉糊打碎放入一个大碗中。将大米koji放入食品加工机或绞肉机中将其打碎。将湿润粉糊、koji 和盐混合，直至完全混合。',
+            en: 'Wearing gloves, break up the masa into a large bowl. Put the rice koji in a food processor or meat grinder to break it up as well. Combine the masa, koji, and salt and mix until thoroughly combined.'
+          },
+          {
+            zh: '与本章中的其他miso不同，您不需要用盐水调整玉米混合物的质地或水分含量。湿润粉糊中的淀粉含量比豌豆或大豆多得多。当koji中的淀粉酶分解淀粉的长链时，所有的水都被释放出来。因此，麦佐最终总是比开始时湿润得多。也就是说，不用担心味道会变差。湿润粉糊中的高 pH 有助于阻止 LAB 和酵母，使这种发酵主要通过酶单独发挥作用。',
+            en: 'Unlike other misos in this chapter, you won’t need to adjust the texture or moisture content of the maizo mixture with salt brine. The masa holds a lot more water in its starch than peas or soybeans. As the amylase in the koji breaks up the long chains of starch, all that water is liberated. Thus, maizo always ends up far wetter than when it starts. That said, don’t worry about the flavor going awry. The high pH of the masa helps deter LAB and yeast, leaving this ferment to work primarily by enzymes alone.'
+          },
+          {
+            zh: '将玉米混合物紧紧地装入发酵容器中。将顶部平滑并平整，将容器内部擦拭干净，并在表面撒上盐。根据黄色 Peaso 中概述的说明，将重量放下并覆盖 maizo。让玉米在室温下发酵的时间比其他 miso 短一些 — 2 到 2.5 个月。麦酒的果味并没有受益于与较长陈酿时间相关的泥土色调。将成品玉米粉装入密封罐或容器中，然后存放在冰箱或冰柜中。',
+            en: 'Pack the maizo mix tightly into the fermentation vessel. Smooth and level the top, wipe the insides of the vessel clean, and sprinkle the surface with salt. Weight down and cover the maizo, according to the directions outlined in theYellow Peaso. Let the maizo ferment at room temperature for a little less time than you would other misos—2 to 2½ months. The fruitiness of the maizo doesn’t benefit from the earthy tones associated with longer aging times. Pack the finished maizo in airtight jars or containers and store in the refrigerator or freezer.'
+          },
+          {
+            zh: '*Maizo, day 1*',
+            en: '*Maizo, day 1*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '*Day 75*',
+            en: '*Day 75*'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '2公斤Masa',
+            en: '2 kilogramsMasa'
+          },
+          {
+            zh: '1.3公斤茉莉香米koji（下）',
+            en: '1.3 kilograms jasmine rice koji(below)'
+          },
+          {
+            zh: '**130 grams non-iodized salt, plus extra for sprinkling**',
+            en: '**130 grams non-iodized salt, plus extra for sprinkling**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '鱼疗',
+              en: 'Fish Cure'
+            },
+            answer: [
+              {
+                zh: '*Marinate a flounder fillet in maizo for an hour before slicing it thin and serving with herbs and a squeeze of lime.*',
+                en: '*Marinate a flounder fillet in maizo for an hour before slicing it thin and serving with herbs and a squeeze of lime.*'
+              },
+              {
+                zh: '麦酒浓郁的花香和果香使它成为白鱼（如福禄鱼或比目鱼）的完美搭配。在几块薄鱼片的两面都涂上一层优质的玉米粉——鱼不需要被埋起来，但整个表面都应该被覆盖。将鱼片放入烤盘中，在冰箱中腌制 1 小时。腌制过程中，花点时间准备一些配菜：葱丝、百香果籽、墨西哥辣椒细条和粗切碎的香菜。从冰箱中取出鱼片，用勺子刮掉腌料，然后用湿纸巾擦掉残留的东西。将鱼斜切成细丝。将切片放在平板上，上面放上准备好的配菜、健康的橄榄油、一些海盐、酸橙皮和酸橙汁。',
+                en: 'The strong floral and fruity tones of maizo make it an impeccable cure for flat white fish, like fluke or flounder. Smear both sides of a couple of thin fillets with a good coat of maizo—the fish doesn’t need to be buried, but the entire surface should be covered. Place the fillets in a baking pan and marinate in the fridge for 1 hour. While it’s curing, take the time to prepare some accompaniments: julienned scallions, passion fruit seeds, thin slivers of jalapeño, and coarsely chopped cilantro. Remove the fillets from the fridge and scrape off the cure with a spoon, then wipe off anything left with a damp paper towel. Slice the fish on the bias into thin ribbons. Place the slices on a flat plate and top with the prepared accompaniments, a healthy drizzle of olive oil, some sea salt, and the zest and juice of a lime.'
+              },
+              {
+                zh: '<!-- text/part0010_split_009.html -->',
+                en: '<!-- text/part0010_split_009.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: '08-scaling-playbook',
     categoryId: 'system-design',
     chapterId: 'part01_scale_from_zero',
@@ -8871,6 +13673,4883 @@ export const notes = [
           '下一部分会进入估算：用基本单位、延迟直觉、可用性和 QPS，把设计从“感觉可行”推进到“数字上站得住”。'
         ],
         faqs: [],
+        bullets: [],
+        emphasisCards: []
+      }
+    ]
+  },
+  {
+    id: '08-squid-garum',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '鱿鱼<第8学期>',
+      en: 'Squid Garum'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '鱿鱼<第8学期>',
+          en: 'Squid Garum'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 2 liters**',
+            en: '**Makes 2 liters**'
+          },
+          {
+            zh: '我们发酵项目中反复出现的主题是为废物寻找第二次生命。有一次，我们在菜单上提供了北海大鱿鱼的嫩部分，给我们留下了很多内脏、触手和坚硬的末端。这个由这些剩菜制成的garum是我们在Noma生产的第一批产品之一，它仍然是发酵实验室中最成功的产品之一。它的独特之处在于，它是我们生产的唯一一种同时使用动物消化道天然酶和 koji 产生的酶来分解鱿鱼蛋白质的garum。',
+            en: 'A recurring theme in our fermentation projects is finding a second life for waste. At one point, we were serving the tender portions of large North Sea squid on the menu, leaving us with a lot of guts, tentacles, and tough ends. This garum, made from those leftovers, was one of the first we produced at Noma, and it’s still among the most successful things to come out of the fermentation lab. It’s unique in that it’s the only garum we produce that uses both natural enzymes from the animals’ digestive tract and those produced by koji to break down the squid’s proteins.'
+          },
+          {
+            zh: '牛肉 Garum 的深入说明可作为本章中所有 garum 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forBeef Garumserve as a template for all the garum recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '使用绞肉机、食品加工机或搅拌机，将鱿鱼磨成粗泥。绞肉机是最好的选择，但如果你没有，请将鱿鱼切成易于处理的碎片，然后放入食品加工机或搅拌机中搅拌。将鱿鱼泥转移至 3 升食品安全发酵容器中。',
+            en: 'Using a meat grinder, food processor, or blender, grind the squid into a rough puree. A meat grinder is the best option for this, but if you don’t have one, chop the squid into manageable pieces before pulsing it in a food processor or blender. Transfer the pureed squid to a 3-liter food-safe fermentation vessel.'
+          },
+          {
+            zh: '接下来，研磨（或混合）大麦 koji 并将其与水和盐一起添加到容器中。用干净的勺子搅拌原料，然后用戴手套的手或橡皮刮刀刮擦容器的内侧。将一张保鲜膜直接放在液体表面上，并用盖子松松地盖住容器，至少留一个角微开。将garum在60°C/140°F的发酵室中或在“保温”的电饭锅中发酵8至10周，每周搅拌一次。',
+            en: 'Next, grind (or blend) the barley koji and add it to the vessel, along with the water and salt. Stir the ingredients with a clean spoon and scrape down the inner sides of the container with gloved hands or a rubber spatula. Lay a sheet of plastic wrap directly on the surface of the liquid and cover the vessel loosely with a lid, leaving at least a corner slightly ajar. Ferment the garum in a fermentation chamber at 60°C/140°F or in an electric rice cooker on “keep warm” for 8 to 10 weeks, stirring once a week.'
+          },
+          {
+            zh: '发酵完成后，鱿鱼的肉应该几乎完全分解。它闻起来像泥土和海洋的令人愉快的粘稠结合，并且应该具有抓住您味蕾的咸味和鲜味。',
+            en: 'By the time it’s done fermenting, the flesh of the squid should be almost completely broken down. It will smell like a pleasantly sticky marriage of the earth and the sea, and it should have a salty, umami taste that grips your taste buds.'
+          },
+          {
+            zh: '最后，您可以执行以下两种操作之一： (1) 在细网筛上铺上粗棉布，倒入garum，并将其放在碗上 24 小时以收集液体；或 (2) 将garum搅成浓稠糊状。如果您选择前一个选项，您最终会得到两种单独的产品——液体garum和剩余固体——可以互换使用；糊状物更适合刷在焯过的芦笋等东西上，而液体很容易溶解在汤或肉汤中。',
+            en: 'To finish, you can do one of two things: (1) Line a fine-mesh sieve with cheesecloth, pour in the garum, and set it over a bowl for 24 hours to catch the liquid; or (2) puree the garum into a thick paste. If you choose the former option, you’ll end up with two separate products—liquid garum and leftover solids—that can be used interchangeably; the paste will be better suited to being brushed over things like blanched asparagus, whereas the liquid will easily dissolve into stocks or broths.'
+          },
+          {
+            zh: '将garum倒入瓶子或其他有盖容器中。 garum 非常稳定，可以在冰箱中保存数月。您也可以将其冷冻以延长储存时间，而不会产生任何负面影响，但请注意，由于盐含量高，它可能不会完全冷冻成固体。',
+            en: 'Pour the garum into bottles or another covered container. The garum is very stable and will keep well in the fridge for months. You can also freeze it for longer storage without any negative effects, but note that because of the high salt content, it probably won’t freeze completely solid.'
+          },
+          {
+            zh: '*Squid Garum, day 1*',
+            en: '*Squid Garum, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 75*',
+            en: '*Day 75*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1公斤整只鱿鱼，包括内脏和墨汁，但去掉喙和墨鱼骨',
+            en: '1 kilogram whole squid, including innards and ink, but with the beak and cuttlebone removed'
+          },
+          {
+            zh: '225 克珍珠薏米 Koji',
+            en: '225 gramsPearl Barley Koji'
+          },
+          {
+            zh: '800克水',
+            en: '800 grams water'
+          },
+          {
+            zh: '**240 grams non-iodized salt**',
+            en: '**240 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '皮萨拉​​迪埃',
+              en: 'Pissaladière'
+            },
+            answer: [
+              {
+                zh: '*A splash of squid garum enriches caramelized onions for a pissaladière.*',
+                en: '*A splash of squid garum enriches caramelized onions for a pissaladière.*'
+              },
+              {
+                zh: '鱿鱼 garum 以一种非常优雅的方式突出了本已的鱼味，其咸味风味非常适合将糖甜味与泥土味结合在一起。换句话说，它是 pissaladière 的理想补充，这是许多走遍法国的 Noma 厨师最喜欢的乡村菜肴。 Pissaladière 是像披萨一样烘烤而成的，上面涂有焦糖洋葱，上面撒上黑橄榄和凤尾鱼。当洋葱在锅中焦糖化时，将一汤匙鱿鱼 garum 添加到洋葱中，对简单的 Niçoise 经典有很大帮助。',
+                en: 'Squid garum accentuates already fishy flavors in a really elegant way, and its saline funk is excellent at stringing together sugary sweetness with earthier tastes. In other words, it’s an ideal addition to pissaladière, a favorite rustic dish of many Noma chefs who have traveled through France. Pissaladière is apâte briséebaked like a pizza and coated with caramelized onions topped with black olives and anchovies. The straightforward Niçoise classic is helped greatly by adding a tablespoon of squid garum to the onions just as they’ve finished caramelizing in the pan.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '生菜',
+              en: 'Crudités'
+            },
+            answer: [
+              {
+                zh: '鱿鱼garum可以帮助将生蔬菜变成一道完整的菜肴。用橄榄油、海盐、一小撮红辣椒片和少量的鱿鱼garum来搭配一盘生菜（罗马内斯科、胡萝卜和小萝卜），这就是一道既时髦又清爽的开胃菜。',
+                en: 'Squid garums can help transform raw vegetables into a complete dish. Dress a plate of crudités—Romanesco, carrots, and radishes, perhaps—with olive oil, sea salt, a pinch of red pepper flakes, and a very light drizzle of squid garum for an appetizer that is funky and refreshing at the same time.'
+              },
+              {
+                zh: '*Our goal for roasted chicken wing garum was to see what would happen if we fermented a meat product that was already at the height of its deliciousness.*',
+                en: '*Our goal for roasted chicken wing garum was to see what would happen if we fermented a meat product that was already at the height of its deliciousness.*'
+              },
+              {
+                zh: '<!-- text/part0012_split_009.html -->',
+                en: '<!-- text/part0012_split_009.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '08-sweet-citric-koji-water',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '甜柠檬 Koji 水',
+      en: 'Sweet Citric Koji Water'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '甜柠檬 Koji 水',
+          en: 'Sweet Citric Koji Water'
+        },
+        paragraphs: [
+          {
+            zh: '*Blend citric koji with water, freeze, and strain to create a hyper-useful liquid.*',
+            en: '*Blend citric koji with water, freeze, and strain to create a hyper-useful liquid.*'
+          },
+          {
+            zh: '**Makes about 1 liter**',
+            en: '**Makes about 1 liter**'
+          },
+          {
+            zh: '在这个配方中，我们将柠檬酸 koji 产生的酸味提取到液体中，该液体几乎可以在您通常使用白葡萄酒烹饪的任何地方使用。令人惊讶的是，经过 42 小时发酵的koji的苦味几乎没有转移到澄清的液体中，其本身的味道就像苹果汁和柠檬茶的混合物，带有淡淡的泥土味。',
+            en: 'In this recipe, we extract the tart flavors produced by our citric koji into a liquid that can be used almost anywhere you’d ordinarily use white wine for cooking. Amazingly, almost none of the bitterness of 42-hour-fermented koji transfers to the clarified liquid, which itself tastes like a mixture of apple juice and lemon tea, with a subtle hint of earthiness.'
+          },
+          {
+            zh: '对于此食谱，您将制作一批柠檬大麦Koji，但让它再生长几个小时。关键是柠檬酸含量在 42 小时明显高于 36 小时。',
+            en: 'For this recipe, you’ll make a batch of Citric Barley Koji, but let it grow for a few additional hours. The citric acid content, which is the key, is noticeably higher at hour 42 than hour 36.'
+          },
+          {
+            zh: '称取koji重量两倍的水（约2.2公斤），将两者放入搅拌机中高速搅拌1分钟；如有必要，分多批工作。将混合的混合物转移到带盖的冷冻安全容器或重型拉链袋中，留出足够的空间让混合物在凝固时膨胀。放入冰箱。',
+            en: 'Measure out twice the koji’s weight in water (about 2.2 kilograms) and blend the two together in a blender at high speed for 1 minute; work in multiple batches, if necessary. Transfer the blended mixture to a freezer-safe container with a lid or heavy-duty zip-top bags, leaving enough room for the mixture to expand as it solidifies. Place in the freezer.'
+          },
+          {
+            zh: '一旦koji混合物冷冻成固体，将其转移到衬有粗棉布的漏勺或筛子中，并将其放在深容器上以收集解冻时的液体。盖上漏勺，放入冰箱，解冻 3 至 4 天。一旦所有的冰融化，小心地取出滤锅，丢弃固体，并收获透明的黄色液体。',
+            en: 'Once the koji mixture is frozen solid, transfer it to a colander or sieve lined with cheesecloth and set it over a deep container to catch the liquid as it thaws. Cover the colander with a lid, transfer to the refrigerator, and leave it to thaw for 3 to 4 days. Once all the ice has melted, carefully remove the colander, discard the solids, and harvest the clear yellow liquid.'
+          },
+          {
+            zh: '盖上盖子，在冰箱中最多可保存 5 天；如果您不打算立即使用，则可在冰箱中保存。',
+            en: 'Store, covered, in the fridge for up to 5 days, or in the freezer if you’re not planning to use it immediately.'
+          },
+          {
+            zh: '*Use citric koji water to steam fishen papillote.*',
+            en: '*Use citric koji water to steam fishen papillote.*'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '**1 batchCitric Barley Koji, harvested at hour 42**',
+            en: '**1 batchCitric Barley Koji, harvested at hour 42**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '白葡萄酒替代品',
+              en: 'White Wine Stand-In'
+            },
+            answer: [
+              {
+                zh: '将甜柠檬koji水想象成具有鲜味和酒体的白葡萄酒。用它来蒸蛤或使肉汁鲜活。它也非常适合制作 Fishen papillote：将柠檬koji水代替酒添加到您的羊皮纸包裹中，以及柠檬百里香或菠萝鼠尾草等柑橘香草和小西葫芦等清淡蔬菜。在烤箱中烘烤约 15 分钟，然后剥开纸，即可看到完全煮熟的鱼，里面充满了 koji 水的甜酸味。',
+                en: 'Think of sweet citric koji water as white wine with umami and body. Use it to steam cockles or to liven meat jus. It’s also perfect for making fishen papillote: Add citric koji water to your parchment parcel in place of wine, along with citrusy herbs like lemon thyme or pineapple sage and light vegetables like baby summer squash. Bake in the oven for about 15 minutes, then peel open the paper to reveal perfectly cooked fish infused with the sweet tartness of the koji water.'
+              },
+              {
+                zh: '*Citric koji amazake doubles as a beverage and a cooking medium.*',
+                en: '*Citric koji amazake doubles as a beverage and a cooking medium.*'
+              },
+              {
+                zh: '<!-- text/part0009_split_009.html -->',
+                en: '<!-- text/part0009_split_009.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '08-waxed-black-shallots',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '打蜡黑葱',
+      en: 'Waxed Black Shallots'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '打蜡黑葱',
+          en: 'Waxed Black Shallots'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 1 kilogram**',
+            en: '**Makes 1 kilogram**'
+          },
+          {
+            zh: '我们已经了解了如何使不渗透袋和箔片中的成分变黑，但这并不是唯一的方法。塑料对于坚果等小型产品很有用，但对于青葱等较大的产品，将它们包裹在蜡中是一种有趣的替代品，它可以为最终的黑色产品赋予自己的风味。寻找有机食品级蜂蜡（可在线购买）。',
+            en: 'We’ve seen how to blacken ingredients in impermeable bags and foil, but these aren’t the only methods. Plastic is useful for small products like nuts, but for larger items like shallots, encasing them in wax is an interesting alternative that imparts its own flavor to the final blackened product. Look for an organic food-grade beeswax (available online).'
+          },
+          {
+            zh: '理想的发黑温度 (60°C/140°F) 和蜂蜡（覆盖在青葱上）熔化的温度 (64°C/147°F) 之间的微小差距可能会导致漂亮的发黑青葱和可怕的混乱之间的差异。设置为“保温”的电饭锅可能不够精确，无法实现这一点。因此，您需要一个具有更精确温度控制的发酵室。 （参见“建造发酵室”。）',
+            en: 'The slim margin between the ideal blackening temperature (60°C/140°F) and the temperature at which the beeswax (which covers the shallots) will melt (64°C/147°F) can make the difference between beautifully blackened shallots and a terrible mess. A rice cooker set to “keep warm” may not be precise enough to pull this off. Therefore, you’ll need a fermentation chamber with more precise temperature control. (See “Building a Fermentation Chamber”.)'
+          },
+          {
+            zh: '在一个很小的锅中用中火融化蜂蜡。蜡只需熔化即可；不要将其加热到超过保持其流动所需的程度。你需要蜡尽可能深，以便完全浸没青葱，所以锅的直径越小，锅壁越高越好。',
+            en: 'In a very small pot over medium heat, melt the beeswax. The wax should onlyjustbe melted; don’t heat it up more than needed to keep it fluid. You’ll want the wax as deep as possible in order to fully immerse the shallots, so the smaller the pot’s diameter and the taller its walls, the better.'
+          },
+          {
+            zh: '将青葱去皮，保持根完整。确保青葱湿润并且上面没有任何明显的霉菌。一次操作一个，用叉子或镊子在根部刺穿青葱，然后将其拾起。将青葱短暂地浸入蜡中，然后将其拉出，让多余的滴回锅中。将其放在露天，直到蜡变得不透明并凝固；不会花很长时间，因为蜂蜡的熔点为 64°C/147°F。快速将葱浸回液体蜡中，然后重复此过程，直到形成五层。',
+            en: 'Peel the shallots, keeping the root intact. Make sure the shallots are moist and don’t have any visible mold on them. Working one at a time, pick up a shallot by piercing it in its root end with a skewer or tweezers. Dip the shallot into the wax briefly and pull it out, letting the excess drip back into the pot. Hold it in the open air until the wax turns opaque and solidifies; it won’t take long, as beeswax has a melting point of 64°C/147°F. Quickly dip the shallot back into the fluid wax and repeat the process until you’ve built up five layers.'
+          },
+          {
+            zh: '第五层干燥后，取出串，将根端浸入蜡中以密封孔并覆盖整个葱。最后一次让蜡干燥，然后将葱放在托盘上。重复这个过程，直到涂完所有的青葱。',
+            en: 'Once the fifth layer has dried, remove the skewer and dip the root end into the wax to seal the hole and coat the entire shallot. Allow the wax to dry one last time, then set the shallot aside on a tray. Repeat the process until you’ve coated all the shallots.'
+          },
+          {
+            zh: '小心地将涂有蜡的青葱放在发酵室的托盘上，并陈化 8 至 10 周。确保发酵室的保持温度准确且稳定非常重要。这就是我们在入门章节中讨论的加热垫和温度控制器非常有用的地方（参见“构建发酵室”）。如果您使用这样的设备，请尽量使热源远离青葱，这样就不会有可能熔化蜡的热点。',
+            en: 'Carefully place the wax-coated shallots on a tray in the fermentation chamber and age them for 8 to 10 weeks. It’s important to ensure that the holding temperature of your fermentation chamber is both accurate and stable. This is where the heating mats and temperature controllers we discuss in the primer chapter can be quite useful (see “Building a Fermentation Chamber”). If you’re using such a rig, try to keep the heat source away from the shallots, so there are no hot spots that could potentially melt the wax.'
+          },
+          {
+            zh: '举个例子，如果您用退役的卧式冰箱制作了发酵室，请将供暖供应偏移到一侧，并将青葱放在另一侧的托盘上，从冰箱底部升起。温度控制器将使冰箱中的温度稳定在一定程度内，并使蜂蜡保持固态。为了获得更好的效果，请在冷藏柜中放置一个小风扇，以实现更好的空气流通。',
+            en: 'As an example, if you’ve made your fermentation chamber out of a decommissioned chest freezer, offset the heating supply to one side and place the shallots on a tray on the other side, raised off the freezer bottom. A temperature controller will keep the temperature in the freezer steady to within a degree and allow the beeswax to remain solid. For even better results, place a small fan in the chest freezer as well to allow for better air circulation.'
+          },
+          {
+            zh: '收获时，让青葱冷却至室温，然后用刀将蜡切开。它们的质地就像一整只烤青葱，你可能会在烤鸡锅的底部找到它。青葱也可以储存在冰箱或冰柜的蜡中，直到您准备使用它们为止。',
+            en: 'When it comes time to harvest, allow the shallots to cool to room temperature, then slice the wax open with a knife. They’ll have the texture of a whole roasted shallot that you might find at the bottom of a pan of roast chicken. The shallots can also be stored in the wax in the fridge or freezer until you’re ready to use them.'
+          },
+          {
+            zh: '*Black Shallots, day 1*',
+            en: '*Black Shallots, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 60*',
+            en: '*Day 60*'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '500克蜂蜡',
+            en: '500 grams beeswax'
+          },
+          {
+            zh: '**1 kilogram fresh shallots**',
+            en: '**1 kilogram fresh shallots**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '洋葱汤',
+              en: 'Onion Soup'
+            },
+            answer: [
+              {
+                zh: '*Thinly slice black shallots for use in soup (or anywhere else you’d use caramelized onions).*',
+                en: '*Thinly slice black shallots for use in soup (or anywhere else you’d use caramelized onions).*'
+              },
+              {
+                zh: '将黑葱视为可以想象到的最深焦糖的洋葱将有助于您用它们更有创意地烹饪。当您想到焦糖洋葱时，您首先想到的是什么？洋葱汤。用锋利的刀将 250 克黑葱切丝，与足够浓稠的牛肉高汤一起煮，并加入少许烈酒。用盐和黑胡椒调整调味料，然后将肉汤转移到汤碗中，并在上面放上硬皮面包片和大量磨碎的瑞士奶酪。烤至奶酪变成棕色并呈粘稠状。当你的朋友和家人对这汤感到惊叹时，告诉他们你在两个半月前开始煮它。',
+                en: 'Thinking of black shallots as the most deeply caramelized onions imaginable will help you cook more creatively with them. And what’s one of the first things that comes to mind when you think of caramelized onions? Onion soup. With a sharp knife, julienne 250 grams black shallots and cook them with enough rich beef stock to cover, along with a splash of fortified wine. Adjust the seasoning with salt and black pepper before transferring the broth into soup bowls and topping them with slabs of crusty bread and lots of grated Swiss cheese. Broil until the cheese is browned and stringy. When your friends and family marvel at the soup, tell them you started cooking it two and a half months ago.'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '09-aspergillus-oryzae',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<术语21>',
+      en: 'Aspergillus oryzae'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<术语21>',
+          en: 'Aspergillus oryzae'
+        },
+        paragraphs: [
+          {
+            zh: '也许本书中最重要的微生物是 A. oryzae（发音为 oh-RAI-zee）是一种孢子霉菌，也称为 koji。它已经培育了数百年，当获得米饭或大麦等产品中的丰富淀粉时，它可以在炎热潮湿的环境中生长得非常快。 （一般来说，30°C/86°F 和 70% 至 80% 的湿度对于曲霉来说是理想的；高于 42°C/108°F 的温度会杀死它。）Koji 分泌蛋白酶、淀粉酶和少量脂肪酶，分别分解蛋白质、淀粉和脂肪。我们在 miso、shoyu 和 garum 的生产中利用这些酶。',
+            en: 'Perhaps the most important microbe in this book,A. oryzae(pronounced oh-RAI-zee) is the sporulating mold also known as koji. It’s been bred for hundreds of years to grow extremely quickly in hot and humid environments when given access to the plentiful starches in products like cooked rice or barley. (Generally speaking, 30°C/86°F and 70% to 80% humidity are ideal forAspergillus; temperatures above 42°C/108°F will kill it.) Koji secretes the enzymes protease, amylase, and a small amount of lipase, which break down proteins, starches, and fats, respectively. We harness these enzymes in the production of our misos, shoyus, and garums.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '09-butternut-squash-vinegar',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '胡桃南瓜醋',
+      en: 'Butternut Squash Vinegar'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '胡桃南瓜醋',
+          en: 'Butternut Squash Vinegar'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2 liters**',
+            en: '**Makes about 2 liters**'
+          },
+          {
+            zh: '这种醋是迄今为止我们在 Noma 使用的所有发酵配方中适应性最强的。它有很好的酸味，但不会表现出明显的尖锐感——胡桃南瓜近乎奶油般的甜味让你觉得酸度低于实际水平。它实际上可以直接用作酱汁。',
+            en: 'This vinegar is by far the most adaptable of all the fermentation recipes we employ at Noma. It has a nice acidic kick but doesn’t sport an overt sharpness—the butternut squash’s almost creamy sweetness makes you think the acidity level is lower than it is. It can practically be used as a sauce as is.'
+          },
+          {
+            zh: '芹菜醋的深入说明可作为此食谱的模板，在开始此食谱之前值得一读。您可能还想阅读佩里醋的深入说明，其中包含本章中所有醋配方的有用信息。',
+            en: 'The in-depth instructions forCelery Vinegarserve as a template for this recipe, and are worth reading before starting in on this one. You may also want to read the in-depth instructions forPerry Vinegar, which contain useful information for all the vinegar recipes in this chapter.'
+          },
+          {
+            zh: '将南瓜洗净，切成两半，去籽，然后切成容易处理的块，保留南瓜皮。戴上手套，将南瓜放入榨汁机中。通过细网筛过滤果汁。称重并倒入发酵容器中。',
+            en: 'Wash the squash, cut them in half, seed them, and cut them into manageable pieces, leaving the skin on. Wearing gloves, put the squash through the juicer. Strain the juice through a fine-mesh sieve. Weigh it and pour it into the fermentation vessel.'
+          },
+          {
+            zh: '将果汁重量的 20% 倒入未经高温消毒的醋中。计算果汁和醋总重量的8%，并添加同样量的乙醇。 （如果您无法获得纯乙醇，请根据说明调整您的配方，使用 80 度烈酒，例如伏特加。）',
+            en: 'Backslop the juice with 20% of its weight in unpasteurized vinegar. Calculate 8% of the total weight of the juice and vinegar and add that much ethanol. (If you can’t acquire pure ethanol, adjust your recipe to use an 80-proof spirit like vodka according to theinstructions.)'
+          },
+          {
+            zh: '将空气石放入液体中，使其位于容器底部，然后将软管从顶部延伸到空气泵。用粗棉布或透气的厨房毛巾盖住容器，并用橡皮筋固定。用胶带覆盖软管留下的间隙并打开泵。',
+            en: 'Place the air stone in the liquid so it rests on the bottom of the vessel and run the hose out the top to the air pump. Cover the vessel with cheesecloth or a breathable kitchen towel and secure with a rubber band. Tape over the gap left by the hose and turn on the pump.'
+          },
+          {
+            zh: '*Butternut Squash Vinegar, day 1*',
+            en: '*Butternut Squash Vinegar, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 14*',
+            en: '*Day 14*'
+          },
+          {
+            zh: '将胡桃南瓜醋发酵 10 至 14 天，在冲刺阶段经常品尝。如果果汁在最初几天出现泡沫，请暂时关闭气泵或将泡沫搅拌回果汁中。当你不再尝到酒精的味道并且醋呈令人愉悦的酸性时，用粗棉布过滤。将醋存放在冰箱中的带盖瓶子中，以尽可能保持味道新鲜，不过只要不暴露在空气中，醋就可以完全稳定地保存。明亮的橙色会随着时间的推移而褪色。',
+            en: 'Ferment the butternut squash vinegar for 10 to 14 days, tasting frequently during the home stretch. If the juice foams during the first few days, turn off the air pump for a bit or stir the foam back into the juice. When you can no longer taste the alcohol and the vinegar is enjoyably acidic, strain it through cheesecloth. Store in capped bottles in the refrigerator to keep the flavors as fresh as possible, though the vinegar is perfectly shelf stable as long as it’s not exposed to air. The bright orange color will fade over time.'
+          },
+          {
+            zh: '其他速溶醋（果汁+乙醇+倒醋）：',
+            en: 'Other quick vinegars (juice + ethanol + backslopped vinegar):'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '4公斤胡桃南瓜',
+            en: '4 kilograms butternut squash'
+          },
+          {
+            zh: '未经高温消毒的胡桃南瓜醋，或其他未经高温消毒的温和醋，例如苹果醋',
+            en: 'Unpasteurized butternut squash vinegar, or another unpasteurized mild vinegar such as apple cider vinegar'
+          },
+          {
+            zh: '**96% ethanol (neutral grain spirit)**',
+            en: '**96% ethanol (neutral grain spirit)**'
+          },
+          {
+            zh: '• 甜菜',
+            en: '• Beet'
+          },
+          {
+            zh: '• 灯笼椒',
+            en: '• Bell pepper'
+          },
+          {
+            zh: '• 黑醋栗',
+            en: '• Black currant'
+          },
+          {
+            zh: '• 胡萝卜',
+            en: '• Carrot'
+          },
+          {
+            zh: '• 菜花',
+            en: '• Cauliflower'
+          },
+          {
+            zh: '• 块根芹',
+            en: '• Celeriac'
+          },
+          {
+            zh: '• 黄瓜',
+            en: '• Cucumber'
+          },
+          {
+            zh: '• 茴香',
+            en: '• Fennel'
+          },
+          {
+            zh: '• 豆薯',
+            en: '• Jicama'
+          },
+          {
+            zh: '• 海带和鲣鱼高汤',
+            en: '• Kelp and katsuobushi dashi'
+          },
+          {
+            zh: '• 木瓜',
+            en: '• Quince'
+          },
+          {
+            zh: '• 红薯',
+            en: '• Sweet potato'
+          },
+          {
+            zh: '• 白芦笋',
+            en: '• White asparagus'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '慢煮胡萝卜',
+              en: 'Slow-Cooked Carrots'
+            },
+            answer: [
+              {
+                zh: '*Deglaze slow-roasted carrots with butternut squash vinegar.*',
+                en: '*Deglaze slow-roasted carrots with butternut squash vinegar.*'
+              },
+              {
+                zh: '找一些好吃的胡萝卜，而不是你可能用来做汤的巨大的马胡萝卜。你可以随心所欲地剥皮和切片——切成细条或斜切——或者保持完整。在平底锅中用小火融化一大块黄油，然后慢慢地将胡萝卜单层焦糖化——就像这样，非常缓慢地，黄油轻轻地起泡。每 6 或 7 分钟翻动一次胡萝卜，持续 30 到 50 分钟（取决于您对小火的想法）。如果你做得正确，胡萝卜应该呈现出焦糖的颜色和质地，让人想起金色的葡萄干。当它们快到的时候，把火调高一点，每两到三个胡萝卜加一点盐和一勺南瓜醋。你需要足够的液体来轻轻覆盖胡萝卜，给它们带来一点酸度和另一种风味。这种技术也适用于其他蔬菜——防风草、萝卜、芜菁甘蓝、南瓜或任何适合慢煮的蔬菜。',
+                en: 'Find some nice carrots—not the monstrous horse carrots you might use for stock. Peel and slice them however you like—into thin strips or on a bias—or leave them whole. Melt a big knob of butter in a pan over low heat and slowly caramelize the carrots in a single layer—as in, really slowly, with the butter gently foaming and bubbling. Turn the carrots every 6 or 7 minutes for anywhere between 30 and 50 minutes (depending on what your idea of low heat is). If you’ve done it correctly, the carrots should take on a caramelized color and texture reminiscent of golden raisins. When they’re almost there, turn the heat up a tiny bit and add a touch of salt and one spoonful of squash vinegar for every two or three carrots. You want just enough liquid to coat the carrots lightly, giving them a kick of acidity and another dimension of flavor. This technique works great for other vegetables, too—parsnips, turnips, rutabaga, pumpkin, or anything that takes well to slow cooking.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '快速泡菜',
+              en: 'Quick Pickles'
+            },
+            answer: [
+              {
+                zh: '你可以尝试用任何你喜欢生吃的脆脆水果或蔬菜，但让我们以黄瓜为例。将黄瓜切成薄片（3 毫米/⅛ 英寸）硬币状，用盐轻轻调味，在碗中腌制约 10 分钟，然后用胡桃南瓜醋覆盖。搅拌所有东西以确保均匀覆盖，如果您愿意，可以添加一些红辣椒片加热。在晚餐前大约一个小时进行此操作，当您坐下来吃饭时，它们就会完全腌制。',
+                en: 'You can try this with any crunchy fruit or vegetable you’d enjoy eating raw, but let’s use a cucumber as an example. Slice the cucumber into thin (3-millimeter / ⅛-inch) coins and season the slices lightly with salt, letting them marinate in a bowl for about 10 minutes before covering with butternut squash vinegar. Stir everything around to ensure even coverage, adding a bit of red pepper flakes for heat, if you like. Do this about an hour before dinner and they’ll be perfectly pickled by the time you’re sitting down to eat.'
+              },
+              {
+                zh: '*Button chanterelle mushrooms soaked in butternut squash vinegar for a day (or for up to a year) make outstanding pickles.*',
+                en: '*Button chanterelle mushrooms soaked in butternut squash vinegar for a day (or for up to a year) make outstanding pickles.*'
+              },
+              {
+                zh: '我们喜欢用胡桃南瓜醋腌制的另一件事是鸡油菌。在煎锅中，用尽可能少的油轻轻炒干净蘑菇，确保它们煮熟但不糊状。让它们在盘子上冷却，然后转移到玻璃罐中。用两倍体积的醋覆盖（它们会吸收相当多的醋）并紧紧密封罐子。第二天它们就会很美味，但泡菜可以在冰箱里保存几个月。如果您将罐装工艺更进一步，使用沸水浴法处理罐子，那么泡菜的保质期会更长——在阴凉黑暗的地方可以保存 6 个月到一年。它们是与烤鸡或烤鱼搭配的完美调味品，也是一份很棒的礼物。',
+                en: 'One other thing we love to pickle with butternut squash vinegar is chanterelle mushrooms. In a skillet, lightly sauté cleaned mushrooms in as little oil as possible, making sure they’re cooked but not mushy. Let them cool down on a plate, then transfer to a glass jar. Cover with twice their volume in vinegar (they’ll soak up a fair bit of it) and seal the jar tightly. They’ll be delicious by the next day, but the pickles will last several months in the refrigerator. If you take the canning process a step further and process the jars using the boiling water bath method, the pickles will last even longer—6 months to a year in a cool dark place. They’re a perfect condiment alongside roast chicken or fish and make a great gift.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '炒虾',
+              en: 'Sautéed Shrimp'
+            },
+            answer: [
+              {
+                zh: '下次炒去皮虾时，在虾开始变得不透明时，加入等量的胡桃南瓜醋和虾garum。 （如果你还没有时间制作玫瑰和虾 Garum，可以用 1:1 比例的伍斯特酱和鱼露代替。）这种液体会使锅脱釉，并在虾焦糖化时包裹住虾，这是美味的东西。',
+                en: 'The next time you’re sautéing peeled shrimp, add a splash of equal parts butternut squash vinegar and shrimp garum, just as the shrimp begin to turn opaque. (If you haven’t gotten around to making theRose and Shrimp Garum, substitute a 1:1 ratio of Worcestershire and fish sauce.) The liquid will deglaze the pan and coat the shrimp as they caramelize—delicious stuff.'
+              },
+              {
+                zh: '*Some of the alcohol needs to be burned off before whiskey can be fermented into vinegar.*',
+                en: '*Some of the alcohol needs to be burned off before whiskey can be fermented into vinegar.*'
+              },
+              {
+                zh: '<!-- text/part0008_split_010.html -->',
+                en: '<!-- text/part0008_split_010.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '09-coffee-kombucha',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '咖啡 <第 14 学期>',
+      en: 'Coffee Kombucha'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '咖啡 <第 14 学期>',
+          en: 'Coffee Kombucha'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 2 liters**',
+            en: '**Makes 2 liters**'
+          },
+          {
+            zh: '咖啡kombucha为用过的咖啡渣提供了第二次生命，但咖啡渣仍有很多味道需要放弃。如果您愿意，您可以使用新的地面，但请注意，您将使用更少的新鲜材料。寻找没有烘焙过深的咖啡，否则咖啡会变得很苦——浅度烘焙会让好咖啡的复杂果香凸显出来。',
+            en: 'Coffee kombucha offers a second life to used coffee grounds, which still have plenty of flavor to give up. If you prefer, you can use new grounds, but note that you’ll use much less of the fresh stuff. Look for coffee that hasn’t been roasted too dark, which can turn it quite bitter—a lighter roast will allow the complex fruitiness of a good coffee to shine through.'
+          },
+          {
+            zh: '柠檬马鞭草 Kombucha 的深入说明可作为本章中所有 kombucha 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLemon Verbena Kombuchaserve as a template for all the kombucha recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将糖和 240 克水放入中锅中煮沸，搅拌以溶解糖。同时，将咖啡渣放入非反应性耐热容器中。将热糖浆倒在咖啡上，然后加入剩余的 1.52 公斤水。让咖啡混合物冷却至室温，盖上盖子，然后转移到冰箱中浸泡过夜。',
+            en: 'Bring the sugar and 240 grams of the water to a boil in a medium pot, stirring to dissolve the sugar. Meanwhile, put the coffee grounds in a nonreactive heatproof container. Pour the hot syrup over the coffee, then add the remaining 1.52 kilograms water. Let the coffee mixture cool to room tem-perature, cover, and transfer to the fridge to infuse overnight.'
+          },
+          {
+            zh: '第二天，将咖啡液体通过衬有粗棉布的细网筛过滤到发酵容器中。通过搅拌 200 克未经巴氏消毒的 kombucha 来倒流输液。戴上手套，小心地将 SCOBY 放入液体中。用粗棉布或透气的厨房毛巾盖住发酵容器的顶部，并用橡皮筋固定。标记kombucha并将其放在温暖的地方。',
+            en: 'The following day, strain the coffee liquid through a fine-mesh sieve lined with cheesecloth into the fermentation vessel. Backslop the infusion by stirring in the 200 grams unpasteurized kombucha. Wearing gloves, carefully place the SCOBY into the liquid. Cover the top of the fermentation vessel with cheesecloth or a breathable kitchen towel and secure it with a rubber band. Label the kombucha and set it in a warm place.'
+          },
+          {
+            zh: '让kombucha发酵，每天跟踪其进展。确保 SCOBY 的顶部不会变干；如有必要，用勺子沾一些液体。一旦您对 kombucha 的味道感到满意（可能是从开始后 7 到 10 天），请将 SCOBY 转移到容器中进行存储并过滤 kombucha。立即食用或冷藏、冷冻或装瓶。',
+            en: 'Leave the kombucha to ferment, tracking its progress each day. Make sure the top of the SCOBY doesn’t dry out; use a ladle to moisten it with some of the liquid, if necessary. Once you’re happy with the flavor of your kombucha—probably between 7 and 10 days from the start—transfer the SCOBY to a container for storage and strain the kombucha. Consume immediately or refrigerate, freeze, or bottle it.'
+          },
+          {
+            zh: '*Coffee Kombucha, day 1*',
+            en: '*Coffee Kombucha, day 1*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '240克糖',
+            en: '240 grams sugar'
+          },
+          {
+            zh: '1.76公斤水',
+            en: '1.76 kilograms water'
+          },
+          {
+            zh: '730 克剩余咖啡渣，或 200 克现磨咖啡',
+            en: '730 grams leftover coffee grounds, or 200 grams freshly ground coffee'
+          },
+          {
+            zh: '200 克未经高温消毒的kombucha（或包装好的 SCOBY 附带的液体）',
+            en: '200 grams unpasteurized kombucha (or the liquid that comes with a packaged SCOBY)'
+          },
+          {
+            zh: '**1 SCOBY (seeSources)**',
+            en: '**1 SCOBY (seeSources)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '咖啡-Kombucha提拉米苏',
+              en: 'Coffee-Kombucha Tiramisu'
+            },
+            answer: [
+              {
+                zh: '下次你参加晚宴时，做一份提拉米苏，用咖啡kombucha代替咖啡来浸泡你的手指饼干。提拉米苏的奶油味浓郁而甜美，与充满活力的咖啡kombucha完美搭配。',
+                en: 'The next time you’re having a dinner party, make a tiramisu, using coffee kombucha in place of coffee to soak your ladyfingers. Tiramisu is quite rich and sweet with custard, and the pleasantly vibrant bite of coffee kombucha acts as a perfect counterpoint.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '欧洲防风草配咖啡 Kombucha',
+              en: 'Parsnips Glazed with Coffee Kombucha'
+            },
+            answer: [
+              {
+                zh: '假设你有一锅去皮、切成四等分的防风草，在炉子上用起泡的黄油轻轻焦糖化。将它们从锅中取出前两分钟，放入鼠尾草和百里香各一小枝，稍微调高温度，然后加入约 120 毫升咖啡kombucha。旋转锅，注意混合物变稠并开始粘在防风草上。在最后一分钟，加入一大勺黄油，让它融化并给防风草上釉。从锅中取出，撒上烟熏盐。',
+                en: 'Let’s say you’ve got a pan of peeled and quartered parsnips, caramelizing gently in foaming butter on the stove. Two minutes before removing them from the pan, throw in a sprig each of sage and thyme, turn up the heat a bit, and deglaze with about 120 milliliters coffee kombucha. Swirl the pan, paying attention as the mixture thickens and begins to stick to the parsnips. At the last minute, add a big spoonful of butter and allow it to melt and glaze the parsnips. Remove from the pan and finish with a sprinkling of smoked salt.'
+              },
+              {
+                zh: '*Pan-roast parsnips and glaze them in coffee kombucha and butter.*',
+                en: '*Pan-roast parsnips and glaze them in coffee kombucha and butter.*'
+              },
+              {
+                zh: '*Reducing maple kombucha to a (better) syrup brings things full circle.*',
+                en: '*Reducing maple kombucha to a (better) syrup brings things full circle.*'
+              },
+              {
+                zh: '<!-- text/part0007_split_010.html -->',
+                en: '<!-- text/part0007_split_010.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '09-masa',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '玛莎',
+      en: 'Masa'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '玛莎',
+          en: 'Masa'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 3 kilograms**',
+            en: '**Makes about 3 kilograms**'
+          },
+          {
+            zh: '氢氧化钙可在网上和墨西哥市场上购买，有时名称为“cal”或“酸洗石灰”。一定要使用氢氧化钙而不是氧化钙，氧化钙不可食用并且可能很危险。',
+            en: 'Calcium hydroxide is available online and in Mexican markets, sometimes under the names “cal” or “pickling lime.” Be sure to use calciumhydroxideand not calcium oxide, which is not edible and can be dangerous.'
+          },
+          {
+            zh: '将玉米和卡路里与 5 升水一起放入大锅中，煮沸，偶尔搅拌。将火调至小火，轻轻煮约 50 分钟，直到玉米粒变得有嚼劲，你可以用指甲将玉米粒掰开。将锅从火上移开，用粗棉布盖住，并放置过夜（或至少 12 小时）。第二天，沥干玉米并用冷水轻轻冲洗约一分钟。将洗净的玉米放入食品加工机中搅拌，直至其具有精美膳食的质地。将湿润粉糊放入密封容器中，放入冰箱中备用，以备需要时使用。',
+            en: 'Place the corn and the cal along with 5 liters water in a large pot and bring to a boil, stirring occasionally. Reduce the heat to a lively simmer and cook gently until the corn is al dente and you can break the kernels apart with your fingernail, about 50 minutes. Remove the pot from the heat, cover it with cheesecloth, and allow it to sit out overnight (or for at least 12 hours). The following day, drain the corn and rinse it gently under cold water for about a minute. Pulse the washed corn in a food processor until it has the texture of a fine meal. Reserve the masa in the refrigerator in an airtight container until needed.'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1公斤干玉米',
+            en: '1 kilogram dried corn'
+          },
+          {
+            zh: '**5 grams calcium hydroxide**',
+            en: '**5 grams calcium hydroxide**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '托斯塔达斯',
+              en: 'Tostadas'
+            },
+            answer: [
+              {
+                zh: '如果您住在世界上可以购买新鲜玉米饼（或炸玉米粉圆饼）的地方，那么您的力量就会更大。如果没有，现在您可以自己制作。用手掌将 30 克的湿润粉糊球压在两片塑料片之间，直到形成约 2 毫米/1⁄16 英寸厚的圆盘。将玉米饼两面放入热干锅中煎至膨胀。将煮熟的玉米饼转移到烤盘上，在 140°C/285°F 的温度下烘烤约 20 分钟，直至完全干燥、酥脆。在每个托斯塔达上撒上一大勺玉米粉，然后在上面放上您想要的任何东西：牛油果片、烤章鱼配莎莎酱、五香蟋蟀或阿斗波腌制鸡肉等等。',
+                en: 'If you live in a part of the world where you can buy fresh tortillas (or tostadas), more power to you. If not, now you can make your own. Use the palms of your hands to press 30-gram balls of masa between two sheets of plastic until you have disks about 2 millimeters /1⁄16inch thick. Griddle the tortillas on both sides in a hot, dry pan until they puff up. Transfer the cooked tortillas to a baking sheet and bake them at 140°C/285°F until they’re completely dry and crisp, about 20 minutes. Spread a generous spoonful of maizo onto each tostada and top with anything your heart desires: slices of avocado, grilled octopus with salsa verde, spiced crickets, or adobo-marinated chicken, to name a few.'
+              },
+              {
+                zh: '*Hazelnut miso resulted from a need to use up defatted hazelnut pulp.*',
+                en: '*Hazelnut miso resulted from a need to use up defatted hazelnut pulp.*'
+              },
+              {
+                zh: '<!-- text/part0010_split_010.html -->',
+                en: '<!-- text/part0010_split_010.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '09-roasted-chicken-wing-garum',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '烤鸡翅 Garum',
+      en: 'Roasted Chicken Wing Garum'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '烤鸡翅 Garum',
+          en: 'Roasted Chicken Wing Garum'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 1.5 liters**',
+            en: '**Makes about 1.5 liters**'
+          },
+          {
+            zh: '烘焙为这款garum带来了丰富、充分发展的风味，这意味着它只需要大约一个月的发酵就可以产生更多的鲜味。如果我们像发酵牛肉或鱿鱼garum一样发酵这只鸡肉garum，它就会失去其微妙性和复杂性。',
+            en: 'Roasting brings a lot of rich, fully developed flavor to this garum, meaning it needs only about a month of fermentation to coax out more umami. If we were to ferment this chicken garum as long as we do beef or squid garum, it would lose its subtlety and complexity.'
+          },
+          {
+            zh: '牛肉 Garum 的深入说明可作为本章中所有 garum 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forBeef Garumserve as a template for all the garum recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将骨头放入一个大锅中，加水刚好没过骨头，水量约为 3 升。将水煮沸，撇去水温升高时浮到表面的杂质。一旦沸腾，将火调小，煮汤3小时。',
+            en: 'Place the bones in a large pot and fill with water just to cover—about 3 liters. Bring the water to a boil, skimming away any impurities that float to the surface as it comes to temperature. Once it reaches a boil, reduce the heat to a simmer and cook the stock for 3 hours.'
+          },
+          {
+            zh: '与此同时，将烤箱加热至 180°C/355°F。在烤盘上铺上羊皮纸。将鸡翅放在铺有衬里的烤盘上，烤 40 到 50 分钟，在烹饪过程中翻动几次，以确保鸡翅呈均匀的深褐色。',
+            en: 'In the meantime, heat the oven to 180°C/355°F. Line a baking sheet with parchment paper. Place the chicken wings on the lined sheet and roast them for 40 to 50 minutes, tossing several times while cooking to ensure that they get an even, dark browning.'
+          },
+          {
+            zh: '从烤箱中取出鸡翅并让其冷却。称取2公斤烤翅，用切肉刀切成小块。 （如果你还有多余的翅膀，那就给自己吃点零食吧。）',
+            en: 'Remove the wings from the oven and let them cool down. Weigh out 2 kilograms of the roasted wings and use a cleaver to chop them into small pieces. (If you have any extra wings, well, then have yourself a snack.)'
+          },
+          {
+            zh: '用细网筛过滤鸡汤并使其冷却。',
+            en: 'Strain the chicken stock through a fine-mesh sieve and allow it to cool.'
+          },
+          {
+            zh: '在食品加工机中脉冲koji，将其打碎成小块。将切碎的鸡翅、koji、盐和 1.6 公斤鸡汤放入您选择的 3 升发酵容器中，搅拌均匀。用戴手套的手或橡皮刮刀刮掉容器的内侧，然后将一张保鲜膜直接放在液体表面上。用盖子盖住容器；如果是螺旋盖，则拧得稍微不完全拧紧；如果是按扣盖，则将其在一个角落稍微半开。将 garum 在 60°C/140°F 的发酵室中或在“保温”的电饭锅中发酵 4 周。',
+            en: 'Pulse the koji in a food processor to break it up into small pieces. Put the chopped chicken wings, koji, salt, and 1.6 kilograms of the chicken stock in a 3-liter fermentation vessel of your choice and stir to combine thoroughly. Scrape down the inner sides of the container with gloved hands or a rubber spatula and lay a sheet of plastic wrap directly on the surface of the liquid. Cover the container with a lid; screw it on slightly less than completely tight if it’s a screw cap or leave it slightly ajar in one corner if it’s a snap lid. Ferment the garum in a fermentation chamber at 60°C/140°F or in an electric rice cooker on “keep warm” for 4 weeks.'
+          },
+          {
+            zh: '第一周的每一天，用干净的勺子或长柄勺尽可能多地撇去脂肪，然后搅拌garum并再次盖上盖子。第一周后，每周撇去并搅拌一次。',
+            en: 'Every day for the first week, use a clean spoon or ladle to skim off as much fat as you can, then stir the garum and cover again. After the first week, skim and stir once a week.'
+          },
+          {
+            zh: '收获时，将 garum 通过细网筛，然后再次通过衬有粗棉布的筛子。让液体沉淀并撇去浮在表面的脂肪。',
+            en: 'To harvest, pass the garum through a fine-mesh sieve, and then again through a sieve lined with cheesecloth. Allow the liquid to settle and skim off any fat that floats to the surface.'
+          },
+          {
+            zh: '将garum倒入瓶子或其他有盖容器中。 garum 非常稳定，可以在冰箱中保存数月。您也可以将其冷冻以延长储存时间，而不会产生任何负面影响，但请注意，由于盐含量高，它可能不会完全冷冻成固体。',
+            en: 'Pour the garum into bottles or another covered container. The garum is very stable and will keep well in the fridge for months. You can also freeze it for longer storage without any negative effects, but note that because of the high salt content, it probably won’t freeze completely solid.'
+          },
+          {
+            zh: '*Roasted Chicken Wing Garum, day 1*',
+            en: '*Roasted Chicken Wing Garum, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '2公斤鸡骨头',
+            en: '2 kilograms chicken bones'
+          },
+          {
+            zh: '3公斤鸡翅',
+            en: '3 kilograms chicken wings'
+          },
+          {
+            zh: '450 克珍珠薏米 Koji',
+            en: '450 gramsPearl Barley Koji'
+          },
+          {
+            zh: '**480 grams non-iodized salt**',
+            en: '**480 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '拉面汤',
+              en: 'Ramen Broth'
+            },
+            answer: [
+              {
+                zh: '当第一次品尝烤鸡翅garum时，几乎每个Noma厨师都会嘀咕同一个词：“拉面”。确实，这个garum具有与一碗拉面相同的深沉、肉味的色调。倒入基本的海带和鲣鱼高汤中，形成令人信服的作弊。如果你制作了更合适的拉面汤，一点garum将有助于将味道提升到十一。',
+                en: 'When first tasting roasted chicken wing garum, almost every Noma chef mutters the same word: “Ramen.” It’s true, this garum possesses some of the same deep, meaty tones of a great bowl of ramen. A splash poured into a basic kombu and katsuobushi dashi makes for a convincing cheat. And if you’ve made a more proper ramen broth, a touch of garum will help kick the flavor up to eleven.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '烤腰果',
+              en: 'Roasted Cashews'
+            },
+            answer: [
+              {
+                zh: '*Toss pan-roasted nuts in chicken wing garum for an indescribably delicious snack.*',
+                en: '*Toss pan-roasted nuts in chicken wing garum for an indescribably delicious snack.*'
+              },
+              {
+                zh: '在腰果（或您选择的任何坚果）上涂上融化的黄油，然后铺在烤盘或烤箱安全锅上。在 160°C/320°F 的烤箱中烤至金黄色并散发香味。将它们从烤箱中取出，加入几汤匙鸡翅garum。不要添加太多garum，以免液体积聚在锅上。所有的garum都应该被坚果吸收并通过热量蒸发。你不想让腰果变得湿漉漉的。一旦它们冷却，它们应该仍然是松脆的，带有咸味的外壳。',
+                en: 'Coat cashews (or any nut of your choice) with melted butter and spread onto a baking sheet or oven-safe pan. Roast in a 160°C/320°F oven until they become golden brown and fragrant. Remove them from the oven and mix in a couple of tablespoons of chicken wing garum. Don’t add so much garum that the liquid pools on the pan. All the garum should be absorbed by the nuts and evaporated by the heat. You don’t want the cashews to become soggy. Once they cool, they should still be crunchy, with a savory, salty crust.'
+              },
+              {
+                zh: '*Grasshopper garum is a continuation of years of cooking with insects at Noma.*',
+                en: '*Grasshopper garum is a continuation of years of cooking with insects at Noma.*'
+              },
+              {
+                zh: '<!-- text/part0012_split_010.html -->',
+                en: '<!-- text/part0012_split_010.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '09-sparkling-citric-koji-amazake',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '柠檬气泡酒 <第 6 学期> <第 20 学期>',
+      en: 'Sparkling Citric Koji Amazake'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '柠檬气泡酒 <第 6 学期> <第 20 学期>',
+          en: 'Sparkling Citric Koji Amazake'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2 liters**',
+            en: '**Makes about 2 liters**'
+          },
+          {
+            zh: 'Amazake是一种标志性的日本甜味饮料，由大米koji、大米和水制成。它有时会发酵并带有轻微的酒精味，有时则不会，有时会被制成泥或过滤，有时会留下粗块。在大多数食谱中，将新鲜煮熟的米饭与等量的米koji和水混合，然后在电饭锅中“保温”6 至8 小时。温度是制作 amazake 的关键，因为真菌产生的酶在 60°C/140°F 下非常有效，当淀粉从一种催化反应跳到另一种催化反应时，将淀粉转化为糖。',
+            en: 'Amazakeis an iconic sweet Japanese beverage made from rice koji, rice, and water. It’s sometimes fermented and mildly alcoholic, sometimes not, sometimes pureed or strained, and other times left chunky. In most recipes, freshly cooked rice is mixed with equal parts rice koji and water and then held in a rice cooker on “keep warm” for 6 to 8 hours. The temperature is the key to making amazake, as the enzymes the fungus produces are highly effective at 60°C/140°F, turning starches to sugar as they hop from one catalytic reaction to another.'
+          },
+          {
+            zh: '在Noma，我们在这个领域最大的成功是用A发酵的大麦制成的非常非正统的amazake版本。陆川。 （尽管如果您能找到的只是花园品种米曲霉，请不要因此而阻止您。）最终的结果是有点酒精味，尽管它不是啤酒，也不是清酒。说实话，我们从来没有在餐厅里吃过它，但它实在是太美味了，我们不得不把它包括在内。',
+            en: 'At Noma, our greatest success in this realm has been a very unorthodox version of amazake made of barley fermented withA. luchuensis. (Though if all you can find is garden varietyA. oryzae, don’t let that stop you.) The end result is a little alcoholic, though it’s not beer and it’s not sake. Truth be told, we’ve never actually served it at the restaurant, but it’s so damn delicious that we had to include it.'
+          },
+          {
+            zh: '将koji和水放入真空袋中，密封，并在设置为60°C/140°F的循环水浴中煮8小时。或者，您可以将混合物直接放入设置为“保温”的电饭锅中或放入发酵室中。',
+            en: 'Combine the koji and water in a vacuum bag, seal it, and cook it in a circulating water bath set to 60°C/140°F for 8 hours. Alternatively, you can place the mixture directly in a rice cooker set to “keep warm” or into a fermentation chamber.'
+          },
+          {
+            zh: '通过内衬粗棉布的细网筛过滤液体，尽可能地挤出液体，但不要迫使任何固体物质通过筛子。丢弃糊状物。',
+            en: 'Strain the liquid through a fine-mesh sieve lined with cheesecloth, squeezing out as much as you can without forcing any solid matter through the sieve. Discard the mash.'
+          },
+          {
+            zh: '*Chardonnay yeast ferments the sugar in citric koji into alcohol.*',
+            en: '*Chardonnay yeast ferments the sugar in citric koji into alcohol.*'
+          },
+          {
+            zh: '让amazake冷却至室温，然后加入霞多丽酵母。将混合物转移到发酵桶、大玻璃瓶或玻璃罐中，并用气闸盖上盖子。 （这是所有标准酿造设备，可以在任何家庭酿酒店购买。）让混合物在凉爽的地下室或车库中发酵 4 到 5 天。您正在寻找一种酒精度较低的饮料，例如淡苹果酒或啤酒。它会比你刚开始的时候稍微起泡，而且有点干燥。',
+            en: 'Allow the amazake to cool to room temperature, then stir in the Chardonnay yeast. Transfer the mixture to a fermentation bucket, carboy, or glass jar and cap it with the airlock. (This is all standard brewing equipment that can be procured at any home-brew shop.) Allow the mixture to ferment in a cool basement or garage for 4 to 5 days. You’re looking for a mildly alcoholic beverage, in the realm of a light cider or beer. It will be lightly effervescent and a fair bit dryer than what you started with.'
+          },
+          {
+            zh: '*An airlock will allow the amazake to vent as it ferments.*',
+            en: '*An airlock will allow the amazake to vent as it ferments.*'
+          },
+          {
+            zh: '与kombucha一样，我们需要在发酵达到极限之前停止发酵。 Amazake 含有大量可发酵糖，我们希望将大部分糖保留在成品中。 amazake 冲泡后立即装瓶并饮用。冷藏会使发酵缓慢进行，但作为活发酵物，即使在冰箱温度下，其糖含量也会继续下降。',
+            en: 'As with kombucha, we need to stop the fermentation well short of how far itcouldgo. Amazake has a lot of fermentable sugar and we want to keep much of it in the finished product. Bottle and drink the amazake soon after it’s brewed. Chilling will bring the fermentation to a crawl, but as a living ferment, its sugar content will continue to decline even at fridge temperature.'
+          },
+          {
+            zh: '如果你想完全停止发酵，一种替代方法是加入坎普登片剂（由焦亚硫酸钾制成）等“消毒剂”，这将阻止酵母的繁殖能力。它们很容易在家庭酿酒店和网上买到。半片就足以满足此配方产生的amazake的量。唯一的其他选择是在热水浴中对 amazake 进行消毒：将几个平顶瓶装满 85%，盖上盖子，然后将瓶子放入 70°C/158°F 的水锅中 15 到 20 分钟。这可以有效杀死酵母，但也会杀死一些味道。没有真正的替代品可以替代这种新鲜的饮料。',
+            en: 'If you want to halt fermentation completely, one alternative is to stir in a “sterilizer” like a Campden tablet (made from potassium metabisulphite), which will halt the yeast’s ability to reproduce. They’re readily available at home-brew shops and online. Half a tablet should suffice for the amount of amazake this recipe yields. The only other option is to sterilize the amazake in a hot-water bath: Fill a few swing-top bottles 85 percent full, cap them, and place the bottles in a pot of water at 70°C/158°F for 15 to 20 minutes. This is effective at killing the yeast, but it also kills some of the flavor. There is no real substitute for drinking this fresh.'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          },
+          {
+            zh: '*Citric koji amazake is ideal for steaming seafood.*',
+            en: '*Citric koji amazake is ideal for steaming seafood.*'
+          },
+          {
+            zh: '蛤蜊和鸟蛤',
+            en: 'Clams and Cockles'
+          },
+          {
+            zh: 'amazake 的品质介于啤酒、苹果酒和新酒之间。你可以而且绝对应该用它来烹饪，在汤或炖菜中加入少许以提神，或者在任何你可能需要一瓶白葡萄酒的地方使用它。例如，amazake 非常适合双壳类动物。用橄榄油蒸一公斤的蛤蜊或鸟蛤、一瓣大蒜、几片青葱和几口amazake。双壳类打开后，将其从锅中取出，并将剩余的液体放回炉子中。加入一小块黄油，加入一些切碎的龙蒿、欧芹和香葱，然后在食用前倒回蛤蜊上。',
+            en: 'The amazake has qualities that ride the line between a beer, a cider, and a young wine. You can and should absolutely cook with it, adding a dash to soups or stews to perk them up, or using it wherever you might otherwise reach for a bottle of white wine. The amazake complements bivalves extremely well, for instance. Steam a kilo’s worth of clams or cockles with olive oil, a clove of garlic, a couple of sliced shallots, and a few glugs of amazake. Once the bivalves have opened, remove them from the pot and return the remaining liquor to the stove. Whisk in a knob of butter, add some chopped tarragon, parsley, and chives, then pour it back over the clams before serving.'
+          },
+          {
+            zh: '*Sift dried, milled koji to make koji flour.*',
+            en: '*Sift dried, milled koji to make koji flour.*'
+          },
+          {
+            zh: '<!-- text/part0009_split_010.html -->',
+            en: '<!-- text/part0009_split_010.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ],
+        bullets: [
+          {
+            zh: '2公斤（1批）柠檬大麦Koji',
+            en: '2 kilograms (1 batch)Citric Barley Koji'
+          },
+          {
+            zh: '2公斤水',
+            en: '2 kilograms water'
+          },
+          {
+            zh: '1 包（40 毫升）霞多丽酵母',
+            en: '1 packet (40 milliliters) Chardonnay yeast'
+          },
+          {
+            zh: '**½ Campden tablet(optional)**',
+            en: '**½ Campden tablet(optional)**'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '09-watch-the-timing',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '留意时机',
+      en: 'Watch the Timing'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '10-aspergillus-luchuensis',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<术语22>',
+      en: 'Aspergillus luchuensis'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<术语22>',
+          en: 'Aspergillus luchuensis'
+        },
+        paragraphs: [
+          {
+            zh: 'Aspergillus oryzae、Aspergillus luchuensis（发音为 loo-CHOO-en-sis）的近亲代谢淀粉和蛋白质并产生柠檬酸作为副产物。传统上，它被用来酿造韩国烧酒和日本泡盛等亚洲烈酒的基酒，因为酒精的蒸馏会留下柠檬酸。虽然它是一个鲜为人知的品种，但它却非常美味。',
+            en: 'A relative ofAspergillus oryzae,Aspergillus luchuensis(pronounced loo-CHOO-en-sis) metabolizes starches and proteins and produces citric acid as a by-product. It’s traditionally used to brew the bases of Asian spirits like Koreanshochuand Japaneseawamori, as the distillation of the alcohol leaves the citric acid behind. Though it’s a lesser-known species, it’s extremely delicious.'
+          },
+          {
+            zh: '酶',
+            en: 'Enzymes'
+          },
+          {
+            zh: '酶不是微生物——它们甚至不是活的——而是促进生物体或有机物内化学转化的生物催化剂。您通常可以通过后缀酶来识别它们，例如蛋白酶（一种分解蛋白质的酶）和淀粉酶（来自拉丁语单词amylum，意思是“淀粉”，它可以完全分解蛋白质）。它们是一类通过进化而形成的蛋白质，具有特定但不同的功能。它们的工作原理相当复杂，但您可以将本书中介绍的功能视为钥匙和剪刀的结合体。它们是钥匙，因为它们是为特定的锁而定制的，作用于一种有机分子，同时不影响其他分子；它们是剪刀，可以将丝带剪成更短的长度。一般来说，酶在温暖、流动的环境中工作效率最高，但如果加热得太高，它们可能会被“煮”到不再发挥作用的程度。',
+            en: 'Enzymes are not microbes—they aren’t even alive—but rather biological catalysts that facilitate chemical transformations within organisms or organic matter. You can generally identify them by the suffix-ase, as in protease (an enzyme that breaks down proteins) and amylase (from the Latin wordamylum, meaning “starch,” which breaks down exactly that). They are a class of proteins built through evolution to serve specific but different functions. Exactly how they work is rather complicated, but you can think of the ones featured in this book as a cross between keys and scissors. They’re keys in the sense that they are tailored to fit specific locks, acting on one organic molecule while leaving others alone; and they’re scissors in that they can cut ribbons into shorter lengths. Generally speaking, enzymes work most efficiently in warm, fluid environments, but if heated too high, they can be “cooked” to a point where they no longer function.'
+          },
+          {
+            zh: '*Beta-amylase is an enzyme capable of breaking down starches into their constituent sugar molecules.*',
+            en: '*Beta-amylase is an enzyme capable of breaking down starches into their constituent sugar molecules.*'
+          },
+          {
+            zh: '<!-- text/part0005_split_005.html -->',
+            en: '<!-- text/part0005_split_005.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '10-dried-koji-and-koji-flour',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '干Koji和Koji面粉',
+      en: 'Dried Koji and Koji Flour'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '干Koji和Koji面粉',
+          en: 'Dried Koji and Koji Flour'
+        },
+        paragraphs: [
+          {
+            zh: '*Dry crumbled koji in a dehydrator set to 50°C/122°F.*',
+            en: '*Dry crumbled koji in a dehydrator set to 50°C/122°F.*'
+          },
+          {
+            zh: '**Makes about 500 grams**',
+            en: '**Makes about 500 grams**'
+          },
+          {
+            zh: '干燥koji彻底改变了其作为厨房配料的可用性。在你干燥的食品储藏室里，你最终会得到一张全新的王牌，它占据了异国情调的糖和通用面粉之间的空间。',
+            en: 'Drying koji completely transforms its usability as an ingredient in the kitchen. In your dry pantry, you end up with a completely new ace in the hole that occupies a space between an exotic sugar and all-purpose flour.'
+          },
+          {
+            zh: '用手指将koji尽可能细地打碎，并将其铺在衬有羊皮纸的托盘上。将脱水机设置为 50°C/122°F 并干燥 koji 直至其完全干燥（通常为 24 小时）。此时，您可以将干燥的koji装入密封容器中，并在冰箱中保存最多几个月。',
+            en: 'Use your fingers to break up the koji as finely as possible, and spread it onto a tray lined with parchment paper. Set your dehydrator to 50°C/122°F and dry the koji until it’s completely desiccated—usually 24 hours. At this point, you can pack the dried koji into airtight containers and store it in the freezer for up to a few months.'
+          },
+          {
+            zh: '否则，将干燥的koji放入搅拌机中高速搅拌成细面粉——45秒到1分钟就足够了。为了确保没有粗粒残留，请将粉末通过细网筛或大碗中的塔米斯进行筛分，用手在粉末中循环，以将所有面粉都通过。任何未通过筛子的干燥koji都可以重新混合并再次过筛。 koji面粉富含糖分，因此具有相当大的吸湿性（喜湿），因此请务必在室温下将其存放在密封容器中。',
+            en: 'Otherwise, blend the dried koji into a fine flour in a blender on high speed—45 seconds to 1 minute should suffice. To ensure that no coarse grains remain, sift the powder through a fine-mesh sieve or tamis over a large bowl, circulating your hand through the powder to drive all the flour through. Any dried koji that doesn’t pass through the sieve can be reblended and sifted again. The koji flour is full of sugar and is therefore fairly hygroscopic (moisture-loving), so be sure to store it in an airtight container at room temperature.'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '**1 kilogram koji of any variety**',
+            en: '**1 kilogram koji of any variety**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '<学期6> 库存',
+              en: 'Koji Stock'
+            },
+            answer: [
+              {
+                zh: '*Boil koji in water for koji stock.*',
+                en: '*Boil koji in water for koji stock.*'
+              },
+              {
+                zh: '干koji 的最佳用途之一是作为高汤调味剂。在锅中煮沸 1 升水，加入 150 克碎干koji（不是koji面粉）。关小火，让汤煮 10 分钟。过滤并丢弃固体。您拥有的是一种多功能的素食基础液体，可用于整个应用程序。',
+                en: 'One of the best possible uses for dried koji is as a flavoring for stock. Boil 1 liter water in a pot and add 150 grams crumbled dried koji (not koji flour). Turn down the heat and let the stock simmer for 10 minutes. Strain and discard the solids. What you have is a versatile, vegetarian base liquid that can be used for a whole flight of applications.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<第 6 学期>-<第 10 学期> 汤',
+              en: 'Koji-Miso Soup'
+            },
+            answer: [
+              {
+                zh: '制作好koji高汤后，您可以使用手持式搅拌机将高汤与本书中的任何miso混合，制成与您以前喝过的任何miso汤不同的miso汤。浓浓的miso汤的miso含量约为20%（1升koji汤料含200克），但所有miso的咸味和浓度都不同。请记住，您始终可以添加更多miso，但不能将其删除。尝试从 100 克黄色 Peaso 开始，然后逐渐增加。',
+                en: 'Once you’ve made koji stock, you can use a handheld blender to incorporate the stock with any of the misos from this book for a miso soup unlike any you’ve had before. A rich miso soup will have somewhere in the neighborhood of 20 percent miso (200 grams for 1 liter of koji stock), but all misos differ in their saltiness and intensity. Remember that you can always add more miso, but you can’t take it out. Try starting with, say, 100 grams ofYellow Peasoand working your way up from there.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期6>-焯蔬菜和<学期6>汤',
+              en: 'Koji-Blanched Vegetables and Koji Soup'
+            },
+            answer: [
+              {
+                zh: 'Koji汤非常适合焯蔬菜——这是我们在Noma经常练习的。想象晚餐有一只烤鸟，旁边放着一盘年轻的胡萝卜、萝卜和卷心菜叶，每一个都在富含鲜味的 koji 高汤中焯烫，加盐调味，并淋上橄榄油。吃完晚餐后，将鸟尸体和剩下的锅汁加入热烫锅中。将汤重新煮沸，关火，煮几个小时，然后过滤。最后撒上一点醋和shoyu，就可以得到令人难以置信的令人满意的汤。如果您愿意，可以在肉汤中煮一些去皮的土豆，然后使用手持式搅拌机制作奶油土豆汤，上面可以放上煮熟的荨麻或菠菜。即使你完全省略了鸟，你仍然可以将漂白液重新用作美味的素食汤。',
+                en: 'Koji stock is great for blanching vegetables—something we practice often at Noma. Picture a roast bird for dinner, with a platter on the side of young carrots, turnips, and cabbage leaves, each blanched in umami-rich koji stock, seasoned with salt, and drizzled with olive oil. Once you’ve finished dinner, add the bird carcass and leftover pan juices to the blanching pot. Bring the stock back up to a boil, drop the heat, and let it simmer for a few hours before straining. Finish with a splash of vinegar and shoyu for an unbelievably satisfying soup. If you like, you can boil a few peeled potatoes in the broth, then use a handheld blender to make creamy potato soup that can be topped with cooked nettles or spinach. And even if you omit the bird entirely, you can still repurpose the blanching liquid as a delicious vegetarian soup.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: 'Koji-注入油',
+              en: 'Koji-Infused Oil'
+            },
+            answer: [
+              {
+                zh: '*Koji oil is subtly sweet and fruity, and will help break down tough proteins if used as a cooking medium.*',
+                en: '*Koji oil is subtly sweet and fruity, and will help break down tough proteins if used as a cooking medium.*'
+              },
+              {
+                zh: '选择味道不太重的油——葡萄籽油、葵花籽油、菜籽油或玉米油都可以。将 250 克干koji（不是koji面粉）和 500 克油放入搅拌机中，高速搅拌 6 分钟，直至获得光滑、丝滑、几乎具有奶油质地的液体。转移到容器中并盖上盖子，让油注入并在冰箱中沉淀 24 小时。第二天，用粗棉布或细网筛过滤油并丢弃沉淀物。',
+                en: 'Choose an oil that doesn’t taste like much—grapeseed, sunflower seed, canola, or corn oil will all work. Combine 250 grams dried koji (not koji flour) and 500 grams oil in a blender and blend at high speed for 6 minutes, until you have a smooth, silky liquid that almost has the texture of cream. Transfer to a container and cover, allowing the oil to infuse and settle in the fridge for 24 hours. The following day, strain the oil through cheesecloth or a fine-mesh sieve and discard the sediment.'
+              },
+              {
+                zh: '在 koji 油中，您可以将一种成分与黄瓜水和少量酸橙汁或香草芹菜醋混合，为切成薄片的新鲜扇贝提供绝佳的调味料。 （要制作黄瓜水，请将英国黄瓜与果肉混合，然后用干净的厨房毛巾将捣碎物挤压，将液体收集在碗中。）',
+                en: 'In koji oil, you have an ingredient that can be combined with cucumber water and a squirt of lime juice or herbedCelery Vinegarfor a sublime dressing for thinly sliced fresh scallops. (To make cucumber water, blend an English cucumber to a pulp, then squeeze the mash through a clean kitchen towel to harvest the liquid in a bowl.)'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期6> 油封',
+              en: 'Koji Oil Confit'
+            },
+            answer: [
+              {
+                zh: '在koji油中慢速烹饪也非常适合油封。当与油混合时，koji 中的酶可作为极佳的嫩化剂，适用于从鲍鱼到鹅腿等较难切割的蛋白质。',
+                en: 'Slow cooking in koji oil also lends itself well to a confit. When blended into oil, the enzymes in koji act as a great tenderizer for tougher cuts of protein, from abalone to goose legs.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期6>蛋黄酱',
+              en: 'Koji Mayonnaise'
+            },
+            answer: [
+              {
+                zh: '*Koji oil makes an exceptionally savory mayonnaise.*',
+                en: '*Koji oil makes an exceptionally savory mayonnaise.*'
+              },
+              {
+                zh: '或者使用koji油来制作蛋黄酱。大多数人不会自己制作蛋黄酱，但他们应该这样做。风味和质地的差异值得付出合理的努力，特别是如果您使用koji油。将 2 个蛋黄、1 茶匙第戎芥末和少许醋搅拌在一起。缓慢地将约 150 毫升 koji 油以稀薄、稳定的流形式加入，全程搅拌，将混合物乳化成浓稠的蛋黄酱。最后用盐和胡椒粉调味。没有三明治会是一样的。',
+                en: 'Or use koji oil to make mayonnaise. Most people don’t make their own mayonnaise, but they should. The difference in flavor and texture is worth the reasonable amount of effort, especially if you use koji oil. Whisk together 2 egg yolks, 1 teaspoon Dijon mustard, and a splash of vinegar. Slowly incorporate about 150 milliliters koji oil in a thin, steady stream, whisking the whole time to emulsify the mixture into a thick mayonnaise. Finish by seasoning with salt and cracked pepper. No sandwich will ever be the same.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期6>-面包屑鱼',
+              en: 'Koji-Breaded Fish'
+            },
+            answer: [
+              {
+                zh: '<术语6> 在许多情况下，面粉可以替代普通面粉。下次当你为炸肉排裹上面包屑的小牛肉片时，将肉放入koji面粉中，然后通过蛋液，然后放入你喜欢的面包屑中。 Koji面粉给成品带来了普通面粉所没有的甜味坚果味。它同样适用于裹面包屑的鱼。如果您要煎薄的鱼片，例如鳎目鱼、比目鱼或大比目鱼，只需将其撒上koji面粉，然后将其放入盛有泡沫黄油的平底锅中即可。需要注意的一件事是koji面粉比普通面粉焦糖化得更快。将热量保持在中等以上，以免在鱼煮熟之前烧焦外壳。',
+                en: 'Koji flour can step in as a replacement for regular flour in a number of instances. The next time you bread a veal cutlet for schnitzel, dredge the meat in koji flour, then through an egg wash, and then in your preferred breadcrumbs. Koji flour brings a sweet nuttiness to the finished product that regular flour just doesn’t have. It works equally well for breaded fish. If you’re pan-frying a thin fillet of something like sole, flounder, or halibut, simply dredge it in koji flour before dropping it into a pan of foaming butter. One thing to watch out for is that koji flour caramelizes faster than regular flour. Keep the heat just above medium so as not to scorch the crust before the fish is cooked.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期6>“小杏仁饼”',
+              en: 'Koji “Marzipan”'
+            },
+            answer: [
+              {
+                zh: 'Koji面粉可以通过将等重量份的中性油和koji面粉搅拌在一起，然后添加总重量的10％的糖粉（即100克koji面粉，100克葡萄籽油和20克糖粉）来制成杏仁糖状产品。您最终会得到一种糊状物，几乎可以在您想要使用杏仁糖的任何情况下使用，从牛角面包到夹心蛋糕。或者只是将 koji 杏仁蛋白软糖压碎，放在香草冰淇淋上，制作出一种更高级别的饼干面团圣代。',
+                en: 'Koji flour can be made into a marzipan-ish product by whisking together equal parts by weight of neutral oil and koji flour, then adding 10% of the total weight in powdered sugar (i.e., 100 grams koji flour, 100 grams grapeseed oil, and 20 grams powdered sugar). You end up with a paste that can be used in just about any situation where you’d look to use marzipan, from croissants to layer cakes. Or simply crumble up the koji marzipan over the top of vanilla ice cream to create a kind of next-level cookie-dough sundae.'
+              },
+              {
+                zh: '*Bread fish in koji flour before pan-frying.*',
+                en: '*Bread fish in koji flour before pan-frying.*'
+              },
+              {
+                zh: '*Lacto-fermentation takes koji to an entirely different (and sour) place.*',
+                en: '*Lacto-fermentation takes koji to an entirely different (and sour) place.*'
+              },
+              {
+                zh: '<!-- text/part0009_split_011.html -->',
+                en: '<!-- text/part0009_split_011.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '10-grasshopper-garum',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '蚱蜢 <第 8 学期>',
+      en: 'Grasshopper Garum'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '蚱蜢 <第 8 学期>',
+          en: 'Grasshopper Garum'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2 liters**',
+            en: '**Makes about 2 liters**'
+          },
+          {
+            zh: 'Grasshopper garum 是本书中迄今为止最神奇的发酵物，尤其是因为它会立即消除您对烹饪或吃昆虫的任何心理障碍。当我们开发食谱时，我们几乎不愿意使用它，因为它太好了，感觉就像拐杖一样。',
+            en: 'Grasshopper garum is by far the most magical ferment in this book, not least because it will instantaneously remove any mental block you have about cooking with or eating insects. We’re almost reluctant to use it when we’re developing recipes because it’s so good, it almost feels like a crutch.'
+          },
+          {
+            zh: '蚱蜢可以通过宠物商店或食用昆虫公司购买。所需的蜡蛾幼虫可能更难获得，在这种情况下，您可以省略它们并用更多的蚱蜢代替它们的重量；成品的浓郁度会稍差一些，但同样美味。 （如果你找不到蚱蜢，蟋蟀也可以。）',
+            en: 'Grasshoppers can be purchased through pet stores or edible-insect companies. The wax moth larvae called for may be more difficult to procure, in which case you can omit them and replace their weight with more grasshoppers; the finished product will be slightly less rich but no less delicious. (If you can’t find grasshoppers, crickets will work too.)'
+          },
+          {
+            zh: '牛肉 Garum 的深入说明可作为本章中所有 garum 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forBeef Garumserve as a template for all the garum recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将蚱蜢和幼虫混合成糊状，然后转移到碗中。在食品加工机中脉冲 koji，将其打碎成小块。将昆虫、koji、水和盐混合在一起，然后将混合物转移到您选择的 3 升发酵容器中。用戴手套的手或橡皮刮刀刮掉容器的内侧，然后将一张保鲜膜直接放在液体表面上。用盖子盖住容器；如果是螺旋盖，则拧得稍微不完全拧紧；如果是按扣盖，则将其在一个角落稍微半开。',
+            en: 'Blend the grasshoppers and larvae into a paste and transfer to a bowl. Pulse the koji in a food processor, to break it up into small pieces. Fold together the insects, koji, water, and salt, then transfer the mixture to a 3-liter fermentation vessel of your choice. Scrape down the inner sides of the container with gloved hands or a rubber spatula and lay a sheet of plastic wrap directly on the surface of the liquid. Cover the container with a lid; screw it on slightly less than completely tight if it’s a screw cap or leave it slightly ajar in one corner if it’s a snap lid.'
+          },
+          {
+            zh: '将garum在60°C/140°F的发酵室中或在“保温”的电饭锅中发酵10周，每周搅拌一次。一旦混合物尝起来有坚果味、烤面包味和鲜味，就完成了。',
+            en: 'Ferment the garum in a fermentation chamber at 60°C/140°F or in an electric rice cooker on “keep warm” for 10 weeks, stirring once a week. It’s finished once the mixture tastes nutty, toasty, and packed with umami.'
+          },
+          {
+            zh: '为了收获，将garum捣成细糊状，然后将其通过细网筛或塔米斯。将garum倒入瓶子或其他有盖容器中。 garum 非常稳定，可以在冰箱中保存一个月。您也可以将其冷冻以延长保存时间，而不会产生任何负面影响。',
+            en: 'To harvest, puree the garum into a fine paste and pass it through a fine-mesh sieve or tamis. Pour the garum into bottles or another covered container. The garum is very stable and will keep well in the fridge for a month. You can also freeze it for longer storage without any negative effects.'
+          },
+          {
+            zh: '*Grasshopper Garum, day 1*',
+            en: '*Grasshopper Garum, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 75*',
+            en: '*Day 75*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '600 克蚱蜢或蟋蟀（活的或死的）',
+            en: '600 grams grasshoppers or crickets (live or dead)'
+          },
+          {
+            zh: '400克蜡蛾幼虫',
+            en: '400 grams wax moth larvae'
+          },
+          {
+            zh: '225 克珍珠薏米 Koji',
+            en: '225 gramsPearl Barley Koji'
+          },
+          {
+            zh: '800克水',
+            en: '800 grams water'
+          },
+          {
+            zh: '**240 grams non-iodized salt**',
+            en: '**240 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '蚱蜢黄油',
+              en: 'Grasshopper Butter'
+            },
+            answer: [
+              {
+                zh: '将一根黄油加热至室温，然后与按重量计 20% 的蚱蜢 garum 一起搅拌。转移到密封容器中并存放在冰箱中。您可以在任何需要普通黄油的咸味应用中使用蚱蜢黄油：烤蔬菜、涂肉或鱼，甚至烹饪煎饼。说到这。 。 。',
+                en: 'Bring a stick of butter to room temperature, then whisk it together with 20% grasshopper garum by weight. Transfer to an airtight container and store in the fridge. You can use grasshopper butter in any savory application that calls for regular butter: roasting vegetables, basting meats or fish, even cooking pancakes. Speaking of which . . .'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '美味煎饼',
+              en: 'Savory Pancakes'
+            },
+            answer: [
+              {
+                zh: '省略你最喜欢的煎饼食谱中的糖，并用蚱蜢黄油烹饪它们。在完成的煎饼上刷上一点蚱蜢garum，然后将其折叠起来，并在其中填入切碎的红洋葱、一块法式酸奶油和一勺优质鱼子酱或鱼子。 （说到鱼卵，重要的是质量，而不一定是类型。新鲜、优质的圆斑鱼、鲑鱼或鳟鱼子比平庸的鱼子酱要好得多。） 最后放上新鲜的细香葱。人们会发疯的。',
+                en: 'Omit the sugar from your favorite pancake recipe and cook them in grasshopper butter. Brush the finished pancakes with a bit of grasshopper garum, then fold them over and fill them with chopped red onions, a dollop of crème fraîche, and a spoonful of good-quality caviar or fish roe. (When it comes to fish eggs, it’s all about the quality and not necessarily the type. Fresh, high-quality lumpfish, salmon, or trout roe is much preferable to mediocre caviar.) Finish with fresh chives. People will go nuts.'
+              },
+              {
+                zh: '*Bee pollen is an incredibly complex ingredient, with flavors that derive from the flowers near the bees’ hive.*',
+                en: '*Bee pollen is an incredibly complex ingredient, with flavors that derive from the flowers near the bees’ hive.*'
+              },
+              {
+                zh: '<!-- text/part0012_split_011.html -->',
+                en: '<!-- text/part0012_split_011.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '10-hazelnut-miso',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '榛子 <第 10 学期>',
+      en: 'Hazelnut Miso'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '榛子 <第 10 学期>',
+          en: 'Hazelnut Miso'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 3 kilograms**',
+            en: '**Makes about 3 kilograms**'
+          },
+          {
+            zh: '坚果似乎是miso发酵的明显候选者。它们富含蛋白质和淀粉，在北欧含量丰富。但它们有一个警告：脂肪。第一次我们多次尝试榛子miso，在复杂的发酵风味形成之前就出现了腐臭的味道。酸败源于榛子中的脂质在正常发酵过程中分解。米酵母产生脂肪酶——尽管其浓度远低于其他两种酶的主力——淀粉酶和蛋白酶——将脂肪分解成其组成分子（脂肪酸）。',
+            en: 'Nuts seem an obvious candidate for fermentation as misos. They’re high in protein, starchy, and abundant in northern Europe. But they come with a caveat: fat. The first many times we tried hazelnut miso, rancid tones set in before complex fermented flavors developed. The rancidity stemmed from the lipids in the hazelnut breaking down as a part of normal fermentation.A. oryzaeproduces lipase—albeit at far lower concentrations than its other two enzymatic workhorses, amylase and protease—which cleaves fats apart into their constituent molecules (fatty acids).'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1.9公斤脱脂榛子粉（见来源）',
+            en: '1.9 kilograms defatted hazelnut meal(seeSources)'
+          },
+          {
+            zh: '1.2公斤珍珠薏米Koji',
+            en: '1.2 kilogramsPearl Barley Koji'
+          },
+          {
+            zh: '**120 grams non-iodized salt**',
+            en: '**120 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '如果你不能减少脂肪，那就减少时间',
+              en: 'If You Can’t Cut the Fat, Cut the Time'
+            },
+            answer: [
+              {
+                zh: '*If sourcing defatted hazelnut meal proves difficult, youcansuccessfully make this miso with full-fat hazelnut meal, but it comes with a trade-off. The miso has to be fermented for a much shorter time than it normally would to mediate the risk of an excess buildup of decomposed fats. As withPumpkin Seed Miso, an aging time of 3 to 4 weeks will be plenty to begin developing interesting fermented flavors while keeping the taste of rancidity at bay.*',
+                en: '*If sourcing defatted hazelnut meal proves difficult, youcansuccessfully make this miso with full-fat hazelnut meal, but it comes with a trade-off. The miso has to be fermented for a much shorter time than it normally would to mediate the risk of an excess buildup of decomposed fats. As withPumpkin Seed Miso, an aging time of 3 to 4 weeks will be plenty to begin developing interesting fermented flavors while keeping the taste of rancidity at bay.*'
+              },
+              {
+                zh: '当脂肪是完整的、新鲜的时，它的味道是美味和令人满意的，因此我们对它有强烈的渴望和狼吞虎咽的能力。另一方面，脂肪酸可能会让我们感到恶心，因为我们将它们与腐烂（即腐臭）的脂肪联系起来。',
+                en: 'When fat is whole and fresh, its flavor is delicious and satisfying, hence our intense cravings for and ability to gorge on it. Fatty acids, on the other hand, can strike us as disgusting, because we associate them with decaying (i.e., rancid) fat.'
+              },
+              {
+                zh: '解决方案是什么？刮掉脂肪。在我们开始尝试在 Noma 制作榛子 miso 后不久，测试厨房获得了一个新玩具：坚果压榨机。坚果压榨机研磨坚果，并通过加热的螺旋钻驱动糊状物将果肉与油分离。测试厨房的团队在菜单中寻找坚果油，但发酵实验室看到了一个机会：无脂坚果果肉。它为构建不含任何令人反感的脂肪酸的坚果miso提供了绝佳的机会，而且效果非常好。幸运的是，你不需要购买大型工业机械来制作这个miso。您可以在网上找到低脂或脱脂榛子粉。',
+                en: 'The solution? Scratch the fat. Shortly after we began trying to make hazelnut miso at Noma, the test kitchen acquired a new toy: a nut press. Nut presses grind nuts and separate the pulp from the oil by driving the mash through a heated auger. The team in the test kitchen was after nut oils for the menu, but the fermentation lab saw an opportunity: fat-free nut pulp. It offered the perfect opportunity to build a nut miso without any off-putting fatty acids, and it worked splendidly. Fortunately, you don’t need to purchase a large piece of industrial machinery to make this miso. You can find low-fat or defatted hazelnut meal online.'
+              },
+              {
+                zh: '黄色 Peaso 的深入说明可作为本章中所有 miso 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+                en: 'The in-depth instructions forYellow Peasoserve as a template for all the miso recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+              },
+              {
+                zh: '将烤箱加热至 160°C/320°F。将榛子粉铺在烤盘上，然后放入烤箱中烘烤 20 至 25 分钟，直至呈浅棕色并散发出芳香。每 5 分钟搅拌一次，以确保膳食均匀变成棕色。在柜台上冷却至室温。重新称量膳食。您希望最终重量为 1.8 公斤，但坚果粉会在烘烤过程中失去水分，从而失去重量，这就是我们从 1.9 公斤开始的原因。',
+                en: 'Heat the oven to 160°C/320°F. Spread the hazelnut meal onto baking sheets and toast in the oven until lightly browned and aromatic, 20 to 25 minutes. Stir every 5 minutes to ensure that the meal browns evenly. Cool to room temperature on the counter. Reweigh the meal. You want to end up with 1.8 kilograms, but the nut meal will lose moisture, and thus weight, during toasting, which is why we start with 1.9 kilos.'
+              },
+              {
+                zh: '当榛子粉烘烤时，将大麦koji放入食品加工机中研磨，直至完全破碎。',
+                en: 'While the hazelnut meal is toasting, grind the barley koji in a food processor until it’s well broken up.'
+              },
+              {
+                zh: '将烤榛子粉、koji 和盐放入碗中混合。戴上手套，彻底混合所有东西。与peaso不同的是，peaso的质地从一开始就接近准确，而干燥可能是榛子miso的一个问题。您几乎肯定需要补充水分。使用手持式搅拌机将 4 克盐加入 100 克水中，快速制作 4% 盐水，或搅拌直至盐完全溶解。一次加入一点盐水，直到你可以将混合物挤成拳头的球状。',
+                en: 'Combine the toasted hazelnut meal, koji, and salt in a bowl. Wearing gloves, mix everything thoroughly. Unlike peaso, where the texture is often close to spot-on from the start, dryness can be a problem with hazelnut miso. You will almost certainly need to add moisture. Make a quick 4% salt brine by blending 4 grams salt into 100 grams water with a handheld blender or whisk until the salt has completely dissolved. Add a little bit of the brine at a time, until you can squeeze the mixture into a ball in your fist.'
+              },
+              {
+                zh: '将混合物紧紧地装入发酵容器中。将顶部平滑并平整，将容器内部擦拭干净，并在表面撒上盐。根据黄色peaso食谱中概述的说明，将榛子miso压下来并盖上。让榛子miso在室温下发酵3至4个月。榛子miso发酵后，您可以将其与少量水混合直至光滑，然后将其穿过塔米斯。将完成的miso装入密封罐或容器中，并在冰箱中保存一个月或在冰箱中保存几个月。',
+                en: 'Pack the mixture tightly into the fermentation vessel. Smooth and level the top, wipe the insides of the vessel clean, and sprinkle the surface with salt. Weight down and cover the hazelnut miso, according to the directions outlined in the yellow peaso recipe. Let the hazelnut miso ferment at room temperature for 3 to 4 months. Once the hazelnut miso is fermented, you can blend it with a bit of water until smooth and then pass it through a tamis. Pack the finished miso in airtight jars or containers and store in the refrigerator for a month or freezer for a few months.'
+              },
+              {
+                zh: '*Hazelnut Miso, day 1*',
+                en: '*Hazelnut Miso, day 1*'
+              },
+              {
+                zh: '*Day 30*',
+                en: '*Day 30*'
+              },
+              {
+                zh: '*Day 90*',
+                en: '*Day 90*'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '洋葱沙拉',
+              en: 'Onion Salad'
+            },
+            answer: [
+              {
+                zh: 'Peel and halve golf ball–size sweet onions from stem to root, then toss them lightly in a bit of oil before grilling them facedown over hot coals.一旦洋葱表面焦糖化并变黑，将它们从烤架上取下并用箔纸包裹。将铝箔包放在烤架的一侧，让洋葱继续煮至变软，但仍能咬一口，大约需要 10 分钟。从包装中取出洋葱，将花瓣剥落放入碗中。将它们与一大勺榛子miso一起搅拌，捣成泥并通过筛子，再加一点油、盐、胡椒，以及采摘的百里香和牛至叶。这是一道很棒的配菜，但你也可以将洋葱花瓣与豆瓣菜、蒲公英和芝麻菜的混合物一起搅拌。',
+                en: 'Peel and halve golf ball–size sweet onions from stem to root, then toss them lightly in a bit of oil before grilling them facedown over hot coals. Once the faces of the onions caramelize and blacken, remove them from the grill grates and wrap them in foil. Set the foil packet off to the side of the grill to allow the onions to continue to cook until tender but still offer a little bite, about 10 minutes. Remove the onions from the packet and shuck the petals into a bowl. Toss them with a big spoonful of the hazelnut miso, pureed and passed through a sieve, a bit more oil, salt, pepper, and picked thyme and oregano leaves. It’s a great side dish as is, but you could also toss the onion petals with a mixture of watercress, dandelion, and arugula.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '羊肚菌',
+              en: 'S’mores'
+            },
+            answer: [
+              {
+                zh: '一旦您第一次品尝，榛子 miso 几乎肯定会取代任何坚果酱，成为您的新宠。如果您将其视为坚果酱，就很容易想出使用它的方法。举个简单的例子，下次你和孩子们一起做 s’mores 时，在全麦饼干上涂上一勺榛子 miso。',
+                en: 'Once you taste it for the first time, hazelnut miso will almost certainly replace any nut butter as your new favorite. And if you think of it as a nut butter, it’s easy to come up with ways to use it. For a quick example, smear a spoonful of hazelnut miso onto graham crackers the next time you’re making s’mores with (or without) the kids.'
+              },
+              {
+                zh: '*Breadso began as a project to use up extra bread, but it quickly proved to be an extraordinary product in its own right.*',
+                en: '*Breadso began as a project to use up extra bread, but it quickly proved to be an extraordinary product in its own right.*'
+              },
+              {
+                zh: '<!-- text/part0010_split_011.html -->',
+                en: '<!-- text/part0010_split_011.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '10-maple-kombucha',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '枫 <学期 14>',
+      en: 'Maple Kombucha'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '枫 <学期 14>',
+          en: 'Maple Kombucha'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 2 liters**',
+            en: '**Makes 2 liters**'
+          },
+          {
+            zh: '使用优质的纯枫糖浆，而不是在许多杂货店找到的食用色玉米糖浆。 kombucha 成品的质量取决于其中的成分。',
+            en: 'Use a good-quality pure maple syrup—not the food-colored corn syrup you find at many grocery stores. The quality of your finished kombucha will only be as good as the ingredients that go into it.'
+          },
+          {
+            zh: '柠檬马鞭草 Kombucha 的深入说明可作为本章中所有 kombucha 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLemon Verbena Kombuchaserve as a template for all the kombucha recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '枫糖浆中的糖已经溶解了，所以不需要加热，但需要加水稀释至甜度约12°Bx。将枫糖浆、水和 200 克未经高温消毒的 kombucha 倒入发酵容器中并搅拌。戴上手套，小心地将 SCOBY 放入液体中。用粗棉布或透气的厨房毛巾盖住发酵容器的顶部，并用橡皮筋固定。标记kombucha并将其放在温暖的地方。',
+            en: 'The sugar in maple syrup is already dissolved, so there’s no need to apply heat, but you will have to add the water to dilute it to a sweetness of about 12°Bx. Pour the maple syrup, water, and the 200 grams unpasteurized kombucha into your fermentation vessel and stir. Wearing gloves, carefully place the SCOBY into the liquid. Cover the top of the fermentation vessel with cheesecloth or a breathable kitchen towel and secure it with a rubber band. Label the kombucha and set it in a warm place.'
+          },
+          {
+            zh: '让kombucha发酵，每天跟踪其进展。确保 SCOBY 的顶部不会变干；如有必要，用勺子沾一些液体。一旦您对 kombucha 的味道感到满意（可能是从开始后 7 到 10 天），请将 SCOBY 转移到容器中进行存储并过滤 kombucha。立即食用或冷藏、冷冻或装瓶。',
+            en: 'Leave the kombucha to ferment, tracking its progress each day. Make sure the top of the SCOBY doesn’t dry out; use a ladle to moisten it with some of the liquid, if necessary. Once you’re happy with the flavor of your kombucha—probably between 7 and 10 days from the start—transfer the SCOBY to a container for storage and strain the kombucha. Consume immediately or refrigerate, freeze, or bottle it.'
+          },
+          {
+            zh: '*Maple Kombucha, day 1*',
+            en: '*Maple Kombucha, day 1*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '360克纯枫糖浆',
+            en: '360 grams pure maple syrup'
+          },
+          {
+            zh: '1.64公斤水',
+            en: '1.64 kilograms water'
+          },
+          {
+            zh: '200 克未经高温消毒的kombucha（或包装好的 SCOBY 附带的液体）',
+            en: '200 grams unpasteurized kombucha (or the liquid that comes with a packaged SCOBY)'
+          },
+          {
+            zh: '**1 SCOBY (seeSources)**',
+            en: '**1 SCOBY (seeSources)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: 'Quatre Épices 鸡尾酒',
+              en: 'Quatre Épices Cocktail'
+            },
+            answer: [
+              {
+                zh: '对于圣诞节饮料，将 25 克 quatre épices 放入 500 克枫木kombucha中冷浸泡几天。要制作您自己的四种香料混合物，请在干锅中烘烤 2 份白胡椒、1 份丁香、1 份磨碎的肉豆蔻和 1 份磨碎的生姜，然后将它们直接添加到 kombucha 中。盖上盖子在冰箱中保存至少 2 天，食用前过滤。当孩子们入睡后，添加一点咖啡利口酒，让气氛变得更加喜庆。',
+                en: 'For a Christmas-y beverage, cold-steep 25 grams quatre épices in 500 grams maple kombucha for a few days. To make your own four-spice blend, toast 2 parts white pepper, 1 part cloves, 1 part grated nutmeg, and 1 part ground ginger in a dry pan before adding them directly to the kombucha. Keep covered in the fridge for at least 2 days and strain before serving. Once the kids have been put to bed, add a splash of coffee liqueur to make things even more festive.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '枫Kombucha糖浆',
+              en: 'Maple Kombucha Syrup'
+            },
+            answer: [
+              {
+                zh: '将枫树kombucha还原成奇妙的糖醋糖浆，使其完整循环。在平底锅中用小火加热 1 升枫木 kombucha，然后慢慢加热，直至其覆盖勺子背面。不要试图加快速度——如果你煮沸，你会失去很多香气和细微差别。一旦糖浆减少，让糖浆冷却至室温，然后将其存放在冰箱的密封容器中。枫kombucha糖浆与巧克力搭配起来非常美味。您可以通过制作您最喜欢的巧克力慕斯并用这种糖浆给它上釉来亲眼目睹。',
+                en: 'Bring maple kombucha full circle by reducing it back into a fantastically sweet and sour syrup. Heat 1 liter maple kombucha in a saucepan over low heat and reduce it slowly until it can coat the back of a spoon. Don’t be tempted to speed things up—you’ll lose much of the aroma and nuance if you boil it. Once it’s reduced, allow the syrup to cool to room temperature before storing it in an airtight container in the fridge. Maple kombucha syrup is incredible with chocolate. You can see for yourself by making your favorite chocolate mousse and glazing it with this syrup.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期14>烧烤酱',
+              en: 'Kombucha BBQ Sauce'
+            },
+            answer: [
+              {
+                zh: '枫kombucha糖浆（或任何其他kombucha糖浆，就此而言）的一个很好的用途是在经典的烧烤酱中。虽然许多烧烤酱配方要求以苹果醋的形式提供酸度，但它们仍然倾向于甜味的一面。通过用 kombucha 糖浆代替糖，您仍然可以感受到不加糖时的甜味，加上更多的酸味，可以切掉排骨或鸡腿等脂肪较多的食物。',
+                en: 'A great use for maple kombucha syrup (or any other kombucha syrup, for that matter) is in a classic barbecue sauce. While many barbecue sauce recipes call for acidity in the form of apple cider vinegar, they still tend to lean toward the sweet side of things. By replacing the sugar with kombucha syrup, you still get the perception of sweetness without the sugar, plus more acidic twang to cut through fattier items like ribs or chicken legs.'
+              },
+              {
+                zh: '*Cold-infuse maple kombucha with a classic blend of quatre épices for a nonalcoholic cocktail. Add a splash of coffee liqueur to make it an alcoholic one.*',
+                en: '*Cold-infuse maple kombucha with a classic blend of quatre épices for a nonalcoholic cocktail. Add a splash of coffee liqueur to make it an alcoholic one.*'
+              },
+              {
+                zh: '*Made from fruit puree, mango kombucha has more body and texture than other kombuchas. This recipe uses Kent mangoes, but there are dozens of different cultivars that will all ferment with unique flavors.*',
+                en: '*Made from fruit puree, mango kombucha has more body and texture than other kombuchas. This recipe uses Kent mangoes, but there are dozens of different cultivars that will all ferment with unique flavors.*'
+              },
+              {
+                zh: '<!-- text/part0007_split_011.html -->',
+                en: '<!-- text/part0007_split_011.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '10-wait-dont-throw-that-away',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '等待！不要扔掉它',
+      en: 'Wait! Don’t Throw That Away'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '10-whiskey-vinegar',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '威士忌醋',
+      en: 'Whiskey Vinegar'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '威士忌醋',
+          en: 'Whiskey Vinegar'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2 liters**',
+            en: '**Makes about 2 liters**'
+          },
+          {
+            zh: '在第三种醋制作方法中，我们从酒精基液开始，将酒精度从 40% 降低到 8% 左右。我们通过燃烧掉烈酒中几乎所有的酒精，然后添加新鲜剂量来恢复酒精度来实现这一目标。诀窍是找到一种具有足够特性的酒精，即使在煮熟和稀释后也能保持美味。',
+            en: 'In this third method of vinegar making, we start with an alcoholic base liquid and reduce the ABV from 40% to around 8%. We accomplish this by burning off nearly all the alcohol in the spirit, then adding a fresh dose to bring the ABV back up. The trick is to find an alcohol that has enough character to remain delicious even after being cooked and diluted.'
+          },
+          {
+            zh: '我们在悉尼的快闪餐厅之前测试了威士忌醋，作为对澳大利亚威士忌酿造传统的认可。醋最终并没有被制成任何菜肴，这正是 Noma 菜单开发的本质，但我们喜欢它，并且认为它值得包含在这里。它比本书中的其他一些醋更有冲击力，并且与美味的肉类搭配得很好，特别是如果你用一点甜味来抵消酸度的话。',
+            en: 'We tested whiskey vinegar in advance of our pop-up restaurant in Sydney as an acknowledgment of Australia’s whiskey-making tradition. The vinegar didn’t end up making it into any dishes, which is just the nature of menu development at Noma, but we loved it, and thought it worthy enough to include here. It’s got a bit more punch than some of the other vinegars in this book, and it works well with flavorful meats, especially if you offset the acidity with a little sweetness.'
+          },
+          {
+            zh: '佩里醋的深入说明包含本章中所有醋配方的有用信息。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forPerry Vinegarcontain useful information for all the vinegar recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1.5公斤+350克80度威士忌',
+            en: '1.5 kilograms + 350 grams 80-proof whiskey'
+          },
+          {
+            zh: '400 克未经高温消毒的苹果醋',
+            en: '400 grams unpasteurized apple cider vinegar'
+          },
+          {
+            zh: '**Water**',
+            en: '**Water**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '您需要一个容量至少为 3 升的食品级塑料桶或广口罐，以及气泵和气石。您还需要粗棉布或透气的厨房毛巾，以及大橡皮筋以将其固定在发酵容器的顶部。我们建议您在用手工作时戴上无菌手套，并对所有设备进行彻底清洁和消毒（请参阅清洁、病原体和安全）。',
+                en: 'You’ll need a food-grade plastic bucket or wide-mouthed jar with at least a 3-liter capacity, and an air pump and air stone. You’ll also want cheesecloth or a breathable kitchen towel, along with large rubber bands to secure it to the top of your fermentation vessel. We recommend that you wear sterile gloves when working with your hands, and that all your equipment be thoroughly cleaned and sanitized (seeCleanliness, Pathogens, and Safety).'
+              },
+              {
+                zh: '*Whiskey Vinegar, day 1*',
+                en: '*Whiskey Vinegar, day 1*'
+              },
+              {
+                zh: '*Day 7*',
+                en: '*Day 7*'
+              },
+              {
+                zh: '*Day 14*',
+                en: '*Day 14*'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '用中火预热带盖的双柄大锅。一定要使用尽可能深的锅，因为威士忌可能会沸腾，你必须不惜一切代价避免这种情况。锅不应该冒烟，但应该非常热，这样你就能将威士忌中的酒精快速煮沸。确保炉灶上方没有任何易燃物，并且附近没有热敏火灾警报器。',
+                en: 'Preheat a large two-handled pot with a lid over medium heat. Be sure to use as deep a pot as possible, as the whiskey can boil over, something you must avoid at all costs. The pot shouldn’t be smoking, but it should be very hot, the idea being that you’ll flash-boil the alcohol out of the whiskey. Make sure there is nothing flammable above your stovetop and that there is no heat-sensitive fire alarm nearby.'
+              },
+              {
+                zh: '一旦锅达到温度，小心快速地倒入约 500 克威士忌。它会立即沸腾，并可能立即点燃。如果没有，请使用烧烤打火机或长火柴点燃酒精。请小心，因为点燃的酒精会导致严重烧伤，火焰很难看到，但可能会变得很高。如果任何时候您对火焰的大小感到紧张，请关掉暖气，并用紧密的盖子盖上锅盖来熄灭火焰。',
+                en: 'Once the pot is up to temperature, carefully and quickly pour in about 500 grams of the whiskey. It will boil instantaneously, and could ignite right away. If it doesn’t, use a grill lighter or a long match to ignite the alcohol.Please exercise caution, as lit alcohol can cause severe burns, and the flames are difficult to see but can grow quite high. If at any time you feel nervous about the size of the flame, turn off the heat and snuff out the flame by covering the pot with a tight-fitting lid.'
+              },
+              {
+                zh: '火焰消退后，加入接下来的 500 克威士忌。重复此操作，直到烧掉 1.5 公斤威士忌中的所有酒精。从火上移开。体积会大大减少，因为你也烧掉了超过 40% 的体积。 （请注意，要去除 100% 的酒精非常困难，但这对于我们的目的来说是很好的。）威士忌在桶陈酿过程中继承的所有重口味颗粒现在都浓缩在减少的液体中。',
+                en: 'Once the flames have subsided, add the next 500 grams of the whiskey. Repeat until you’ve burned off all the alcohol from the 1.5 kilograms whiskey. Remove from the heat. The volume will be greatly reduced, as you’ve also burned off more than 40 percent of its volume. (Note that it’s very difficult to remove 100 percent of the alcohol, but that’s fine for our purposes.) All the heavy flavor particles that the whiskey inherited from its time barrel-aging are now concentrated in the reduced liquid.'
+              },
+              {
+                zh: '添加所需量的水，使液体总量达到 1.25 公斤。在此基础上，您将添加剩余的 350 克未加工的威士忌和 400 克未经高温消毒的苹果醋。这会产生总酒精含量约为 8% 的液体，并含有足够的醋酸菌 (AAB) 来启动酸化过程。',
+                en: 'Add as much water as necessary to bring the liquid up to 1.25 kilograms total. To this base you’ll add the remaining 350 grams untouched whiskey and the 400 grams unpasteurized apple cider vinegar. This yields a liquid with an approximate total alcohol content of 8% and enough acetic acid bacteria (AAB) to kick-start the acidification process.'
+              },
+              {
+                zh: '将液体转移到发酵容器中。对于威士忌来说，在长时间的被动发酵过程中，您不会面临口味发生变化的风险，而水果或蔬菜醋会发生这种情况，因此您只需用粗棉布覆盖它，用橡皮筋固定粗棉布，然后将其在室温下放置 3 到 4 个月，即可变成醋。',
+                en: 'Transfer the liquid to the fermentation vessel. With whiskey you’re not at risk of the flavors changing over a long passive fermentation, which would occur with fruit or vegetable vinegars, so you could simply cover it with cheesecloth, secure the cheesecloth with a rubber band, and leave it at room temperature for 3 to 4 months to become vinegar.'
+              },
+              {
+                zh: '为了获得更可靠、更快的结果，请将空气石放入液体中，使其放置在容器底部，然后将软管从顶部延伸到空气泵。用粗棉布或透气的厨房毛巾盖住容器，并用橡皮筋固定。用胶带覆盖软管留下的间隙并打开泵。',
+                en: 'For more reliable and quicker results, place the air stone in the liquid so it rests on the bottom of the vessel and run the hose out the top to the air pump. Cover the vessel with cheesecloth or a breathable kitchen towel and secure with a rubber band. Tape over the gap left by the hose and turn on the pump.'
+              },
+              {
+                zh: '与其他醋相比，威士忌混合物的发酵时间要短一些，大约 8 到 12 天，在冲刺阶段经常品尝。威士忌中缺乏任何糖分，会导致醋的味道略显干涩，如果你不早点喝的话，味道就会平淡。在均衡的威士忌醋中，残留的酒精含量不会太明显，整个口感会圆润而温暖。',
+                en: 'Ferment the whiskey mixture for a little less time than other vinegars, maybe 8 to 12 days, tasting frequently during the home stretch. The lack of any sugar in the whiskey can lead to a slightly dry vinegar that can taste flat if you don’t pull it a little early. In a well-balanced whiskey vinegar, the residual alcohol content won’t be too pronounced, and the whole thing will sit on your palate with roundness and warmth.'
+              },
+              {
+                zh: '没有必要过滤这种醋，除非你发现有一些沉淀物。将醋存放在冰箱中的带盖瓶子中，以尽可能保持味道新鲜，不过只要不暴露在空气中，醋就可以完全稳定地保存。',
+                en: 'There’s no need to strain this vinegar, unless you notice some sediment. Store in capped bottles in the refrigerator to keep the flavors as fresh as possible, though the vinegar is perfectly shelf stable as long as it’s not exposed to air.'
+              },
+              {
+                zh: '*Combine the reduced whiskey, untouched whiskey, and apple cider vinegar to begin fermentation.*',
+                en: '*Combine the reduced whiskey, untouched whiskey, and apple cider vinegar to begin fermentation.*'
+              },
+              {
+                zh: '建议使用',
+                en: 'Suggested Use'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '威士忌醋酱',
+              en: 'Whiskey Vinegar Sauce'
+            },
+            answer: [
+              {
+                zh: '*Beef garum mixed with whiskey vinegar forms our version of the Vietnamese sauce nuoc cham.*',
+                en: '*Beef garum mixed with whiskey vinegar forms our version of the Vietnamese sauce nuoc cham.*'
+              },
+              {
+                zh: '经典的越南蘸酱 nuoc cham 由鱼露、酸橙汁和糖制成，是酸度、甜味和恐怖的完美结合，我们可以尝试使用我们自己的发酵来模仿。将 4 份威士忌醋与 1 份蜂蜜混合。加入少许牛肉Garum调味。您最终会得到适合鸭肉、鹌鹑或陈牛肉等红肉以及煮熟和生的蔬菜或根类蔬菜的理想蘸酱。',
+                en: 'The classic Vietnamese dipping sauce nuoc cham—made from fish sauce, lime juice, and sugar—is a perfect amalgamation of acidity, sweetness, and funk that we can try to emulate using our own ferments. Mix 4 parts whiskey vinegar with 1 part honey. Season with a splash ofBeef Garum. You’ll end up with the ideal dipping sauce for red meats like duck, quail, or aged beef, as well as cooked and raw greens or root vegetables.'
+              },
+              {
+                zh: '<!-- text/part0008_split_011.html -->',
+                en: '<!-- text/part0008_split_011.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '11-bee-pollen-garum',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '蜂花粉 <第 8 学期>',
+      en: 'Bee Pollen Garum'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '蜂花粉 <第 8 学期>',
+          en: 'Bee Pollen Garum'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 1.5 liters**',
+            en: '**Makes about 1.5 liters**'
+          },
+          {
+            zh: '我们再次将注意力转向未被充分重视的食用昆虫王国。从化学角度来说，蜂花粉极其复杂，含有数十种真菌和细菌。它非常甜，有时含有超过 50% 的蛋白质。不过，花粉的成分和味道可能会有很大差异，具体取决于蜜蜂采摘的花朵是什么。它也比您想象的更容易获得，因为蜂花粉通常作为营养补充剂出售，并且可以通过保健食品供应商订购（参见来源）。',
+            en: 'Once again, we turn our attention to the underappreciated edible insect kingdom. Bee pollen is extremely complex, chemically speaking, housing dozens of species of fungi and bacteria. It’s extremely sweet, and can sometimes comprise more than 50 percent protein. The composition and flavor of the pollen can vary wildly, though, depending on what flowers the bees have been harvesting from. It’s also more readily available than you might think, as bee pollen is often sold as a nutritional supplement and can be ordered through health food suppliers (seeSources).'
+          },
+          {
+            zh: '牛肉 Garum 的深入说明可作为本章中所有 garum 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forBeef Garumserve as a template for all the garum recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '如果您购买的花粉是干燥的，首先将 700 克花粉与 300 克水一起放入搅拌机中打成泥，以达到与新鲜蜂花粉相同的水分含量。',
+            en: 'If the pollen you procured is dried, first puree 700 grams of it in a blender with 300 grams water to achieve the same moisture content as fresh bee pollen.'
+          },
+          {
+            zh: '在搅拌机中，将花粉（或花粉泥）、koji、300 克水和盐混合，搅拌至光滑，然后将混合物转移到您选择的 3 升发酵容器中。用戴手套的手或橡皮刮刀刮掉容器的内侧，然后将一张保鲜膜直接放在液体表面上。用盖子或更多保鲜膜紧紧盖住容器。',
+            en: 'In a blender, combine the pollen (or pollen puree), koji, 300 grams water, and salt and blend until smooth, then trans-fer the mixture to a 3-liter fermentation vessel of your choice. Scrape down the inner sides of the container with gloved hands or a rubber spatula and lay a sheet of plastic wrap directly on the surface of the liquid. Cover the vessel tightly with a lid or more plastic wrap.'
+          },
+          {
+            zh: '将 garum 在发酵室中于 60°C/140°F 下发酵 3 周，每周搅拌一次。花粉中的糖含量意味着它比其他 garum 更快地变褐色和焦糖化，因此不需要太多的加热时间。',
+            en: 'Ferment the garum in a fermentation chamber at 60°C/140°F for 3 weeks, stirring once a week. The amount of sugar in the pollen means it will brown and caramelize much faster than other garums, and therefore doesn’t require as much time in the heat.'
+          },
+          {
+            zh: '收获时，将 garum 打成细糊状，然后通过细网筛。将garum倒入罐子或另一个有盖的容器中。 garum 非常稳定，可以在冰箱中保存一个月。您也可以将其冷冻以延长保存时间，而不会产生任何负面影响。',
+            en: 'To harvest, puree the garum into a fine paste and pass it through a fine-mesh sieve. Pour the garum into jars or another covered container. The garum is very stable and will keep well in the fridge for a month. You can also freeze it for longer storage without any negative effects.'
+          },
+          {
+            zh: '*Bee Pollen Garum, day 1*',
+            en: '*Bee Pollen Garum, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 21*',
+            en: '*Day 21*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1公斤新鲜或冷冻蜂花粉',
+            en: '1 kilogram fresh or frozen bee pollen'
+          },
+          {
+            zh: '200 克珍珠薏米 Koji',
+            en: '200 gramsPearl Barley Koji'
+          },
+          {
+            zh: '300至600克水',
+            en: '300 to 600 grams water'
+          },
+          {
+            zh: '**60 grams non-iodized salt**',
+            en: '**60 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '花粉油',
+              en: 'Pollen Oil'
+            },
+            answer: [
+              {
+                zh: '当我们第一次尝试了解蜂花粉<术语7>在发酵实验室中的应用时，一些研究告诉我们蜂花粉在脂肪中的溶解度。这些宝贵的知识导致了一个相当有趣的实验。将 250 克蜂花粉 garum 与 500 克中性植物油（菜籽油和葡萄籽油）一起放入搅拌机中。将两者混合 6 分钟，然后转移到容器中并冷藏过夜以注入。第二天，当较重的沉积物沉淀在容器底部后，将油轻轻地倒入衬有粗棉布的筛子中。留在容器底部的沉淀物仍然非常美味，应该保存起来以备其他用途。深芥末色的花香油味道浓郁，在舌头上停留的时间越长，味道就越浓郁。它是用来调味鞑靼牛肉的橄榄油的绝佳替代品，或者您也可以将其与蛋黄乳化，制成一种非常不同但出色的蛋黄酱。或者只是将烤好的根类蔬菜（例如芹菜根或红薯）从烤箱中取出后，放入一点蜂花粉油中。',
+                en: 'When we were first trying to understand the applications of bee pollen garum in the fermentation lab, a little research taught us about bee pollen’s solubility in fat. That nugget of knowledge led to a rather delicious experiment. Place 250 grams bee pollen garum in a blender with 500 grams neutral vegetable oil—rapeseed and grapeseed oil both work well. Blend the two together for 6 minutes, then transfer to a container and refrigerate overnight to infuse. The following day, after the heavier sediment has settled at the bottom of the container, gently pour the oil through a sieve lined with cheesecloth. The sediment that remains at the bottom of the container is still extremely delicious and should be saved for other uses. The floral, deep mustard-colored oil is subtly powerful, only becoming more flavorful the longer it rests on your tongue. It’s an excellent replacement for the olive oil you’d use to dress beef tartare, or you can emulsify it with egg yolks for a very different but outstanding mayonnaise. Or simply toss roasted root vegetables, like celery root or sweet potatoes, in a bit of bee pollen oil as they come out of the oven.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '蜂花粉烩饭',
+              en: 'Bee Pollen Risotto'
+            },
+            answer: [
+              {
+                zh: '蜂花粉 garum 可能是我们在 Noma 生产的唯一一种温和到可以一勺吃的花粉。不久前，意大利Sarmeola di Rubano Le Calandre餐厅的米其林三星级主厨Massimiliano Alajmo作为客座主厨来到餐厅时，用蜂花粉garum制作了一道用蜂花粉代替奶酪的烩饭，让我们的客人彻底爱上了它。您也可以在家做同样的事情，用洋葱、白葡萄酒和鸡汤烹制经典烩饭，然后每份加入约 2 汤匙蜂花粉 garum。 《TERM7》将这道菜带到了一个截然不同但又有些熟悉的方向。',
+                en: 'Bee pollen garum is probably the only one we make at Noma that is mild enough to eat by the spoonful. A while back, when Michelin three-star chef Massimiliano Alajmo of Le Calandre in Sarmeola di Rubano, Italy, was visiting the restaurant as a guest chef, he made a risotto with bee pollen garum in place of cheese that our guests fell completely in love with. You can do the same at home by cooking a classic risotto with onions, white wine, and chicken stock, then finishing it with about 2 tablespoons of bee pollen garum per portion. The garum takes the dish in a wildly different but somehow familiar direction.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '烤西红柿',
+              en: 'Roasted Tomatoes'
+            },
+            answer: [
+              {
+                zh: '夏末，当西红柿长得不好的时候，拿一篮子花香四溢的樱桃西红柿——太阳金是一个非常壮观的品种——然后把它们扔进涂有橄榄油的滚烫的锅里。将它们翻动几秒钟，然后将平底锅滑到烤箱的顶架上，在热烤炉下完成烹饪。让西红柿起泡、爆裂和焦糖化，直到您看到它们的汁液在锅底变稠，大约需要 10 分钟。将锅从烤箱中取出，放入几枝柠檬百里香，然后添加一勺健康的蜂花粉garum。快速搅拌混合物，然后取出柠檬百里香小枝，最后撒上撕碎的蛋白石罗勒叶。与硬皮烤面包一起食用，或者撒在拌好的沙拉蔬菜和炒鸡油菌中，制成美味温暖的夏日沙拉。',
+                en: 'In the late summer, when the tomatoes can’t get any better, take a basket of floral and fragrant cherry tomatoes—Sun Golds are a really spectacular cultivar—and toss them into a scorching-hot pan coated with olive oil. Toss them around for a few seconds before sliding the pan onto the top rack of the oven to finish cooking beneath the hot broiler. Let the tomatoes bubble and burst and caramelize until you see their juices thickening at the bottom of the pan, about 10 minutes. Pull the pan from the oven, throw in a couple of sprigs of lemon thyme, and add a healthy spoonful of bee pollen garum. Stir the mixture around quickly, then remove the lemon thyme sprigs and finish it off with torn leaves of opal basil. Serve it with crusty grilled bread, or strewn through dressed salad greens with sautéed chanterelles for a smashing warm summer salad.'
+              },
+              {
+                zh: '<!-- text/part0012_split_012.html -->',
+                en: '<!-- text/part0012_split_012.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '11-breadso',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '布雷德索',
+      en: 'Breadso'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '布雷德索',
+          en: 'Breadso'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2.5 kilograms**',
+            en: '**Makes about 2.5 kilograms**'
+          },
+          {
+            zh: '与 Ryeso 一样，在这个 miso 中，我们将使用 koji 来分解面包。但与黑麦不同的是，我们将直接在面包上种植koji——没有大米，没有大麦。您要找的是一天前的切片面包。我们去除外壳的原因与去除谷物外皮的原因相同——koji的菌丝很难穿过。有了这个食谱，并通过霉菌的变革力量，您可以将剩菜变成美味。',
+            en: 'As withRyeso, in this miso we’ll be using koji to break down bread. But unlike ryeso, we’re going to grow the koji directly on the bread—no rice, no barley. What you’re looking for is day-old sliced bread. We remove the crusts for the same reasons we remove the husks from grains—the koji’s hyphae can have a hard time getting through. With this recipe, and through the transformative power of mold, you can turn leftovers into deliciousness.'
+          },
+          {
+            zh: '戴上手套，使用锯齿刀将面包切成大约 2 厘米/3/4 英寸的方块。将面包块放入食品加工机中，直到它们碎裂并在面包边上成球。将碎面包蒸 5 分钟，使其稍微湿润。将面包从蒸锅中取出，放在柜台上冷却 10 分钟，同时让水有时间渗入面包并使其均匀水合。',
+            en: 'Wearing gloves, use a serrated knife to cut the bread into roughly 2-centimeter / ¾-inch cubes. Run the cubes of bread through a food processor until they crumble and ball up around its sides. Steam the crumbled bread for 5 minutes to moisten it a bit. Remove the bread from the steamer and let it rest on the counter for 10 minutes to cool, while allowing the water time to seep into the bread and hydrate it evenly.'
+          },
+          {
+            zh: '按照珍珠薏米Koji中描述的过程：摊开面包，接种koji孢子，然后孵育。 koji 应在 48 小时内完全覆盖混合面包。面包 koji 准备好后，称出 3 公斤并在食品加工机中将其打成糊状。转移到碗中，加入盐，然后用戴手套的手彻底混合。',
+            en: 'Follow the process described in thePearl Barley Koji: Spread out the bread, inoculate with the koji spores, and incubate. The koji should cover the blended bread quite thoroughly within 48 hours. Once the bread koji is ready, weigh out 3 kilograms and pulse it into a paste in a food processor. Transfer to a bowl, add the salt, and mix it thoroughly with gloved hands.'
+          },
+          {
+            zh: '调节这个miso的水分含量和质地比其他miso要困难一些。面包koji的作用就像海绵，你无法像判断豆类制成的miso那样判断它的饱和度。使用手持式搅拌机将 4 克盐加入 100 克水中，快速制作 4% 盐水，或搅拌直至盐完全溶解。一次添加一点盐水，直到面包koji足够湿润，可以将其挤压成一个看起来想要弹回的球，但无法做到这一点。它会很厚，呈糊状，所以一定要充分混合，以确保所有东西都均匀分布。',
+            en: 'Adjusting the moisture content and texture of this miso is somewhat more difficult than other misos. The bread koji acts like a sponge, and you won’t be able to judge how saturated it is in the same way you would with a miso made of legumes. Make a quick 4% salt brine by blending 4 grams salt into 100 grams water with a handheld blender or whisk until the salt has completely dissolved. Add a little bit of the brine at a time, until the bread koji is moist enough that it can be squeezed into a ball that seems like it wants to spring back, but fails to do so. It will be quite thick and pasty, so be sure to mix it well to ensure that everything is well distributed.'
+          },
+          {
+            zh: '将混合物紧紧地装入发酵容器中。将顶部平滑并平整，将容器内部擦拭干净，并在表面撒上盐。根据黄色peaso食谱中概述的说明，减轻重量并盖住面包。让面包在室温下发酵3个月。请经常检查，因为这个miso可以随意改变字符； 7 到 8 周后，它就会产生酸甜的鲜味。将成品面包装入密封罐或容器中，然后存放在冰箱或冰柜中。',
+            en: 'Pack the mixture tightly into the fermentation vessel. Smooth and level the top, wipe the insides of the vessel clean, and sprinkle the surface with salt. Weight down and cover the breadso according to the directions outlined in the yellow peaso recipe. Let the breadso ferment at room temperature for 3 months. Check it frequently, as this miso can change character capriciously; it should develop sweet and sour twangs of umami in 7 to 8 weeks. Pack the finished breadso in airtight jars or containers and store in the refrigerator or freezer.'
+          },
+          {
+            zh: '*Breadso, day 1*',
+            en: '*Breadso, day 1*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '*Day 90*',
+            en: '*Day 90*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '3公斤无皮酵母面包',
+            en: '3 kilograms crustless sourdough bread'
+          },
+          {
+            zh: 'Aspergillus oryzaekoji tane（参见来源）',
+            en: 'Aspergillus oryzaekoji tane(seeSources)'
+          },
+          {
+            zh: '**100 grams non-iodized salt, plus extra for sprinkling**',
+            en: '**100 grams non-iodized salt, plus extra for sprinkling**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '面包汤',
+              en: 'Breadso Soup'
+            },
+            answer: [
+              {
+                zh: '当面包索戴上一顶美味的帽子时，它会给它接触到的一切带来浓郁的鲜味温暖。制作面包汤时，在一个大锅中放入 1 公斤鸡骨，并盖上冷水。将其煮沸，撇去杂质，然后加入 500 克芳香剂：大块韭葱、洋葱、胡萝卜、芹菜和大蒜，以及一把百里香、月桂和黑胡椒。在过滤之前，让高汤慢慢地煮几个小时。使用手持式搅拌机将每升高汤加入 150 克面包。加盐调味，最后将 1 厘米/⅓ 英寸的皱叶甘蓝叶带放入汤中煮几分钟，然后食用。',
+                en: 'When breadso wears a savory hat, it brings an umami-rich warmth to everything it touches. To make breadso soup, fill a large pot with 1 kilogram chicken bones and cover with cold water. Bring it to a simmer, skimming away any impurities, then add 500 grams aromatics: chunks of leek whites, onion, carrots, celery, and garlic, along with a handful of thyme, bay, and black peppercorns. Allow the stock to simmer gently for a few hours before straining. Use a handheld blender to incorporate 150 grams breadso for each liter of stock. Season to taste with salt and finish it off by simmering 1-centimeter / ⅓-inch ribbons of savoy cabbage leaves in the soup for a couple of minutes just before serving.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '面包酱',
+              en: 'Breadso Sauce'
+            },
+            answer: [
+              {
+                zh: '*Our fermented take on a classic English sauce.*',
+                en: '*Our fermented take on a classic English sauce.*'
+              },
+              {
+                zh: '如需经典英式酱汁的变种，请按照面包汤食谱中所述的鸡汤制作程序进行操作，但首先将鸡骨头在 200°C/395°F 的温度下烘烤直至呈深褐色，然后再将其放入锅中。制作并过滤完高汤后，将其放入干净的锅中，减少至原始体积的 20%。每 100 克浓缩物，加入 10 克黄油和 25 克面包，搅拌均匀并通过塔米斯，直至光滑均匀。为了充分利用这种令人咂嘴的酱汁，请将其拌入炒过的羊肚菌中，直至其充分裹上一层，然后将混合物转移到浅锅中。上面撒上酵母面包屑，烤至酥脆、呈金黄色。趁热和冒泡时食用。',
+                en: 'For a variation on a classic English sauce, follow the procedure for making chicken stock, described in the Breadso Soup recipe but first roast the chicken bones at 200°C/395°F until heavily browned before adding them to the pot. Once you’ve made and strained the stock, reduce it in a clean pot to 20 percent of its original volume. For every 100 grams of reduction, whisk in 10 grams butter and 25 grams breadso that’s been blended and passed through a tamis until it’s smooth and homogeneous. To put this lip-smacking sauce to good use, fold it into sautéed morel mushrooms until they’re well coated, then transfer the mixture to a shallow pan. Top with sourdough breadcrumbs and broil until crisp and golden brown. Serve while still hot and bubbling.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '面包黄油吐司配浆果和奶油',
+              en: 'Breadso-Buttered Toast with Berries and Cream'
+            },
+            answer: [
+              {
+                zh: 'Breadso 是一种发酵物，既可以用作甜点，也可以用作晚餐。尝试将 2 份面包、1 份软化黄油和 1 份红糖搅拌在一起。将混合物铺在厚厚的新鲜酵母上，面朝下在平底锅中煎至发出嘶嘶声并焦糖化。在上面放上杏子或樱桃及其糖浆，以及一块新鲜的奶油。',
+                en: 'Breadso is one of those ferments that can just as easily be used for dessert as it can for dinner. Try whisking together 2 parts breadso with 1 part softened butter and 1 part brown sugar. Spread the mixture over a thick slab of fresh sourdough and sear it facedown in a pan until it sizzles and caramelizes. Top it with preserved apricots or cherries and their syrup, and a dollop of freshly whipped cream.'
+              },
+              {
+                zh: '*When toasted, pumpkin seeds become aromatic and nutty, qualities that transfer to the miso as it ferments.*',
+                en: '*When toasted, pumpkin seeds become aromatic and nutty, qualities that transfer to the miso as it ferments.*'
+              },
+              {
+                zh: '<!-- text/part0010_split_012.html -->',
+                en: '<!-- text/part0010_split_012.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '11-gammel-dansk-vinegar',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '加梅尔丹麦醋',
+      en: 'Gammel Dansk Vinegar'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '加梅尔丹麦醋',
+          en: 'Gammel Dansk Vinegar'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2 liters**',
+            en: '**Makes about 2 liters**'
+          },
+          {
+            zh: 'Gammel Dansk 是丹麦经典的草本利口酒。在Noma，我们在甜点中使用了它，并且总是在休息室里放一两瓶，供那些喜欢在晚餐后喝一杯苦味酒的人使用。 Gammel Dansk 的酒精含量低于威士忌等烈酒。因此，我们以一种简单的方式将其酒精度降低到适合醋生产的百分比：我们稀释它。这种味道一开始就很浓烈，即使淡化它也不会减弱它的效果。',
+            en: 'Gammel Dansk is the classic herbal liqueur of Denmark. At Noma, we’ve used it in desserts and always have a bottle or two floating around in the lounge for those who like a bracing shot of bitters after dinner. The alcohol content of Gammel Dansk is lower than that of a spirit like whiskey. As such, we approach lowering its ABV to a percentage suitable for vinegar production in a straightforward manner: We dilute it. The flavor’s so strong to begin with that watering it down doesn’t diminish its effect.'
+          },
+          {
+            zh: '佩里醋的深入说明包含本章中所有醋配方的有用信息。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forPerry Vinegarcontain useful information for all the vinegar recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将 Gammel Dansk、水和醋加入发酵容器中，搅拌均匀。将空气石放入液体中，使其位于容器底部，然后将软管从顶部延伸到空气泵。用粗棉布或透气的厨房毛巾盖住容器，并用橡皮筋固定。用胶带覆盖软管留下的间隙并打开泵。',
+            en: 'Add the Gammel Dansk, water, and vinegar to the fermentation vessel and stir to combine them well. Place the air stone in the liquid so it rests on the bottom of the vessel and run the hose out the top to the air pump. Cover the vessel with cheesecloth or a breathable kitchen towel and secure with a rubber band. Tape over the gap left by the hose and turn on the pump.'
+          },
+          {
+            zh: '将 Gammel Dansk 醋发酵 8 至 12 天，或直至充分酸化。没有必要过滤这种醋，除非你发现有一些沉淀物。将醋存放在冰箱中的带盖瓶子中，以尽可能保持味道新鲜，不过只要不暴露在空气中，醋就可以完全稳定地保存。',
+            en: 'Ferment the Gammel Dansk vinegar for 8 to 12 days, or until sufficiently acidified. There’s no need to strain this vinegar, unless you notice some sediment. Store in capped bottles in the refrigerator to keep the flavors as fresh as possible, though the vinegar is perfectly shelf stable as long as it’s not exposed to air.'
+          },
+          {
+            zh: '*Gammel Dansk Vinegar, day 1*',
+            en: '*Gammel Dansk Vinegar, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 12*',
+            en: '*Day 12*'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '400 克 Gammel Dansk',
+            en: '400 grams Gammel Dansk'
+          },
+          {
+            zh: '1.185公斤水',
+            en: '1.185 kilograms water'
+          },
+          {
+            zh: '**350 grams unpasteurized apple cider vinegar**',
+            en: '**350 grams unpasteurized apple cider vinegar**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '苦味剂作为助推器',
+              en: 'Bitters as a Booster'
+            },
+            answer: [
+              {
+                zh: '加梅尔丹斯克醋的特性相当强烈，但玩弄它的苦味和酸味很有趣，因为这两种属性可以很好地结合在一起，并且往往会弱化彼此的影响。你不想把这种醋放在孩子们的餐桌上作为调味品，但你当然可以到处偷偷地舀一勺，以获得意想不到的复杂性和边缘感。例如，下次制作勃艮第牛肉时，洒几滴加梅尔丹斯克醋（刚好够你的味觉感受不到），会巧妙地提升炖菜的美味浓郁度。小剂量的醋可以改善华尔道夫沙拉或用蛋黄酱或法式酸奶油制成的奶油味调料。',
+                en: 'Gammel Dansk vinegar is a rather intense character, but it’s fun to play around with its bitterness and acidity, as these two attributes work well together and tend to soften each other’s effect. It’s not a vinegar that you want to set out as a condiment on the kids’ table, but you can certainly sneak a spoonful in here and there for an unexpected boost of complexity and edge. The next time you make boeuf bourguignon, for example, a few splashes of Gammel Dansk vinegar—just enough so that you barely register it on your palate—will subtly elevate your stew’s savory richness. In smaller doses, this vinegar can improve a Waldorf salad, or creamier dressings made with mayonnaise or crème fraîche.'
+              },
+              {
+                zh: '*The addition of fresh elderberries to elderflower wine gives a boost in flavor for the years-long aging process. Elderberries are mildly poisonous and can upset stomachs if eaten raw. Through cooking or fermentation, they’re rendered safe for consumption.*',
+                en: '*The addition of fresh elderberries to elderflower wine gives a boost in flavor for the years-long aging process. Elderberries are mildly poisonous and can upset stomachs if eaten raw. Through cooking or fermentation, they’re rendered safe for consumption.*'
+              },
+              {
+                zh: '<!-- text/part0008_split_012.html -->',
+                en: '<!-- text/part0008_split_012.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '11-lacto-koji-water',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<第 16 学期> <第 6 学期> 水',
+      en: 'Lacto Koji Water'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<第 16 学期> <第 6 学期> 水',
+          en: 'Lacto Koji Water'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 1.5 liters**',
+            en: '**Makes about 1.5 liters**'
+          },
+          {
+            zh: '通过lacto-发酵koji，我们得到了一种迷人的酸甜可口的液体。很难准确指出它的味道的所有方面，但我们在餐厅的任何地方都使用它，从果汁菜单到酱汁、腌料、糊状物等等。如果你批量生产，请将小袋放入冰箱，这样你就可以随时储备一些秘密风味武器。',
+            en: 'By lacto-fermenting koji, we get a fascinating sweet-sour-savory liquid. It’s hard to pinpoint all the facets of its flavor, but we use it everywhere in the restaurant, from the juice menu to sauces, marinades, pastes, and more. Should you make a large batch, keep small bags of it in the freezer so you can always have a little secret flavor weapon on reserve.'
+          },
+          {
+            zh: '将所有成分高速混合成果泥，大约需要 45 秒。如有必要，可分多批进行，但要确保每批的成分分布均匀。',
+            en: 'Blend all the ingredients at high speed into a puree, about 45 seconds. Work in multiple batches, if necessary, but be sure that every batch has an even distribution of the ingredients.'
+          },
+          {
+            zh: '将混合物密封在一个大真空袋（或多个袋子，如果需要）中，挤出尽可能多的空气而不溢出内容物。您还可以使用一个大的带拉链的袋子，慢慢将其放入一桶水中，在距离顶部几厘米处停下来，挤出所有空气。水的压力会将空气排出。将其密封，您将获得有效但不完美的真空。',
+            en: 'Seal the mixture in a large vacuum bag (or multiple bags, if necessary), forcing out as much air as possible without spilling the contents. You can also use a large zip-top bag and squeeze all the air out by slowly lowering it into a tub of water, stopping a few centimeters from the top. The pressure of the water will force the air out. Seal it shut and you’ll have an effective, albeit imperfect, vacuum.'
+          },
+          {
+            zh: '让koji水在室温或略高于室温的条件下放置 5 至 6 天。当混合物发酵时，它会产生二氧化碳并使袋子膨胀，这意味着您可能需要“打嗝”以防止其破裂。使用与其他lacto-发酵相同的方法：剪断袋子的一角，挤出所有气体，然后重新密封袋子。',
+            en: 'Let the koji water sit at room temperature or just above for 5 to 6 days. As the mixture ferments, it will produce carbon dioxide and inflate the bag, meaning you may need to “burp” it to prevent it from bursting. Use the same method as with other lacto-ferments: Snip a corner of the bag, force out any gas, and reseal the bag.'
+          },
+          {
+            zh: '每次打嗝koji水时，请务必用干净的勺子品尝。随着混合物的陈化，甜味会随着乳酸的积累而减弱。你正在追求一种平衡，即koji水猛烈地咬住你的舌头，但仍然有一些残留的甜味。',
+            en: 'Each time you burp the koji water, be sure to taste it with a clean spoon. As the mixture ages, sweetness will diminish as lactic acid builds. You’re chasing a balance where the koji water bites your tongue sharply, but still has some residual sweetness.'
+          },
+          {
+            zh: '发酵完成后，切开袋子，将液体转移到带盖的冷冻安全容器中，为液体凝固时的膨胀留出空间——距离顶部大约一指宽就可以了。将koji水放入冰箱中。',
+            en: 'Once it’s done fermenting, cut open the bag and transfer the liquid to a freezer-safe container with a lid, leaving room for the liquid to expand as it solidifies—about a finger’s width from the top should do it. Place the koji water in the freezer.'
+          },
+          {
+            zh: '一旦水冻结成固体，将砖块转移到衬有粗棉布的滤锅中，并将其放在一个深容器上，以在解冻时接住液体。盖上漏勺并将其放入冰箱，让lactokoji水在3到4天内解冻。一旦所有的冰融化，小心地取出滤锅，丢弃固体，并收获下面的液体。',
+            en: 'Once the water is frozen solid, transfer the brick to a colander lined with cheesecloth and set it over a deep container to catch the liquid as it thaws. Cover the colander with a lid and transfer it to the fridge, allowing the lacto koji water to thaw over the course of 3 to 4 days. Once all the ice is melted, carefully remove the colander, discard the solids, and harvest the liquid beneath.'
+          },
+          {
+            zh: '*After being blended, frozen, and thawed, lacto-fermented koji yields a clear amber liquid.*',
+            en: '*After being blended, frozen, and thawed, lacto-fermented koji yields a clear amber liquid.*'
+          },
+          {
+            zh: 'koji水仍然是一种活的发酵物，如果储存不当，可能会继续向各个方向发生变化。将其冷冻（放在袋子或玻璃瓶中）是稳定其风味的最佳方法，尽管在冰箱中盖上盖子可以保存几天。或者，如果您确实想延长保质期，可以在热水浴中对 koji 水进行消毒：将几个平顶瓶装满 85%，盖上盖子，然后将瓶子放入 70°C/158°F 的水锅中 15 至 20 分钟。这会杀死细菌并让您将乳酸koji保存更长时间。话虽这么说，未经处理并在收获后迅速食用的情况下，味道是最纯粹的。',
+            en: 'The koji water is very much still a living ferment and can continue to change in all manner of directions if not stored properly. Freezing it (in bags or mason jars) is the best way to stabilize its flavor, though it will be fine for a few days, covered, in the fridge. Alternatively, if you really want to extend the shelf life, you can sterilize the koji water in a hot-water bath: Fill a few swing-top bottles 85 percent full, cap them, and place the bottles in a pot of water at 70°C/158°F for 15 to 20 minutes. This will kill the bacteria and allow you to keep the lactic koji water for much longer. That being said, the flavor is at its purest when untreated and consumed quickly after harvesting.'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '750 克珍珠薏米 Koji',
+            en: '750 gramsPearl Barley Koji'
+          },
+          {
+            zh: '1.5公斤水',
+            en: '1.5 kilograms water'
+          },
+          {
+            zh: '**45 grams non-iodized salt**',
+            en: '**45 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '<学期16> <学期6> 黄油酱',
+              en: 'Lacto Koji Butter Sauce'
+            },
+            answer: [
+              {
+                zh: '*Lacto koji butter sauce is a revelation—rich and full of umami.*',
+                en: '*Lacto koji butter sauce is a revelation—rich and full of umami.*'
+              },
+              {
+                zh: '<学期16> <学期5> 水可以产生一种神奇的黄油酱。在平底锅中，用中火将 2 份（按重量计）<术语 15> <术语 5> 水加热至小火慢炖，然后用 1 份立方室温黄油乳化，一次搅拌一立方或用手持式搅拌机混合。用盐调味，放在温暖的地方，直到准备好与烤鸡或鱼、根类蔬菜或煮熟的谷物一起食用。为了增加乐趣，将白松露或黑松露磨碎放在慢慢煮熟的奶油煎蛋卷上，然后在盘子上涂上koji黄油酱。',
+                en: 'Lacto koji water produces an unearthly butter sauce. In a saucepan over medium heat, warm 2 parts (by weight) lacto koji water to a bare simmer, then emulsify with 1 part cubed room-temperature butter by whisking it in one cube at a time or blending it with a handheld blender. Season with salt and reserve in a warm place until ready to serve with roast chicken or fish, root vegetables, or cooked grains. To amp up the pleasure, grate white or black truffles over a slowly cooked creamy omelet, and flood the plate with koji butter sauce.'
+              },
+              {
+                zh: 'Koji黄油酱也是一种令人难以置信的烹饪介质。用它来煮从龙虾尾到萝卜的任何东西，或者在一锅枯萎的羽衣甘蓝或一锅面疙瘩中添加一些水花。',
+                en: 'Koji butter sauce is also an incredible cooking medium. Use it to poach anything from lobster tails to turnips, or add a splash to a pot of wilted kale or a pan of gnocchi.'
+              },
+              {
+                zh: '*Koji mole is a blend of cream and dark-roasted koji.*',
+                en: '*Koji mole is a blend of cream and dark-roasted koji.*'
+              },
+              {
+                zh: '<!-- text/part0009_split_012.html -->',
+                en: '<!-- text/part0009_split_012.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '11-lacto-plums',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<学期16>李子',
+      en: 'Lacto Plums'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<学期16>李子',
+          en: 'Lacto Plums'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 1 kilogram lacto plums and juice**',
+            en: '**Makes 1 kilogram lacto plums and juice**'
+          },
+          {
+            zh: '<术语16>-发酵是进入发酵世界的一个美好而温和的入口——在您深入研究更复杂的项目之前，这是一个立足的地方。这个过程简单快捷，奖励通常会在不到一周的时间内到来。',
+            en: 'Lacto-fermentation is a nice, gentle entrance into the world of fermentation—a place to get your foothold before you dive deeper into more involved projects. The process is straightforward and quick, and the rewards generally come in less than a week.'
+          },
+          {
+            zh: 'Lacto李子是一个很好的起点，因为李子在很多地方都很容易买到，并且您可以通过多种方式发酵它们，具体取决于您拥有的设备以及您打算如何使用最终产品 - 无论您是寻找块状李子、整个李子还是果泥。',
+            en: 'Lacto plums are an excellent place to start, as plums are readily available in many places and you can ferment them in a variety of ways, depending on what equipment you have and how you intend to use the final product—whether you’re looking for chunks and pieces, whole plums, or a puree.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1 公斤成熟的李子',
+            en: '1 kilogram firm-ripe plums'
+          },
+          {
+            zh: '**Non-iodized salt**',
+            en: '**Non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '有两种方法可以进行<术语15>-发酵：您可以在真空密封的塑料袋中或在有重量的容器中发酵原料。真空密封机使 lacto 发酵变得极其简单和一致。它们是一项投资，但对于整本书的食谱也非常有用。另一方面，您可以使用经过验证的玻璃罐或陶瓷罐。您需要某种重物才能将李子浸入从李子中浸出的液体中。小型陶瓷或玻璃发酵重量很好，但对于较小的容器来说很难找到。装满水的拉链袋适合任何容器，并且效果同样好。',
+                en: 'There are two ways to go about lacto-fermentation: You can ferment the raw product in either a vacuum-sealed plastic bag or in a vessel under weights. Vacuum sealers make lacto-fermentation supremely easy and consistent. They’re a bit of an investment, but also incredibly useful for recipes throughout this book. On the other hand, you’ll do fine with a tried-and-true glass jar or ceramic crock. You’ll need weights of some sort in order to submerge the plums in the liquid that leaches out of them. Small ceramic or glass fermentation weights are great, but will be hard to find for smaller vessels. Zip-top bags filled with water will fit any container and work just as well.'
+              },
+              {
+                zh: '还应该提到的是，本书中有很多地方建议您戴手套，以防止发酵物被竞争性微生物污染。 lacto-发酵时，洗手和清洁很重要，但实际上不需要手套。 LAB 无处不在，包括您的皮肤。通过触摸食物，您实际上会在其中添加一些您自己的个人风土。',
+                en: 'It should also be mentioned that there are many points in this book where we advise you to wear gloves to prevent contaminating a ferment with competing microbes. When lacto-fermenting, it’s important that your hands be washed and clean, but there’s really no need for gloves. LAB are present everywhere, including your skin. By touching the food, you’ll actually be adding a little bit of your own personalterroirinto the mix.'
+              },
+              {
+                zh: '*Ripe but firm plums*',
+                en: '*Ripe but firm plums*'
+              },
+              {
+                zh: '*Day 1*',
+                en: '*Day 1*'
+              },
+              {
+                zh: '*Day 2*',
+                en: '*Day 2*'
+              },
+              {
+                zh: '*Day 3*',
+                en: '*Day 3*'
+              },
+              {
+                zh: '*Day 4*',
+                en: '*Day 4*'
+              },
+              {
+                zh: '*Day 5*',
+                en: '*Day 5*'
+              },
+              {
+                zh: '*Day 6*',
+                en: '*Day 6*'
+              },
+              {
+                zh: '*Day 7*',
+                en: '*Day 7*'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '玻璃与陶瓷',
+              en: 'Glass Versus Ceramic'
+            },
+            answer: [
+              {
+                zh: '*You’ll probably notice that all the ferments in this book are depicted in glass jars and clear containers—we’ve done this so that you can see what’s going on inside. However, you should note that prolonged exposure to UV rays can affect a ferment’s health. Fermenting in a glass jar in direct sunlight may end up killing the beneficial microbes within. Exposure to indirect light, like, say, somewhere in your kitchen away from the window, is absolutely fine.*',
+                en: '*You’ll probably notice that all the ferments in this book are depicted in glass jars and clear containers—we’ve done this so that you can see what’s going on inside. However, you should note that prolonged exposure to UV rays can affect a ferment’s health. Fermenting in a glass jar in direct sunlight may end up killing the beneficial microbes within. Exposure to indirect light, like, say, somewhere in your kitchen away from the window, is absolutely fine.*'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '延时照片',
+              en: 'Time-Lapse Photos'
+            },
+            answer: [
+              {
+                zh: '*Throughout this book, we illustrate the fermentation processes in a series of time-lapse photos to offer as much visual information as possible. In some instances, you may not notice huge differences from day to day or week to week, but we think you’ll find it instructive to see the subtlety of the changes from photo to photo.*',
+                en: '*Throughout this book, we illustrate the fermentation processes in a series of time-lapse photos to offer as much visual information as possible. In some instances, you may not notice huge differences from day to day or week to week, but we think you’ll find it instructive to see the subtlety of the changes from photo to photo.*'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '寻找成熟但坚硬的李子，生吃时味道甜且有轻微的嘎吱声。未成熟的李子无法为 LAB 提供足够的糖分，从而使您得到半发酵的水果，其甜度不足以平衡乳酸。过熟的李子会分解。',
+                en: 'Look for ripe but firm plums that are sweet and have a light crunch when you eat them raw. Underripe plums won’t provide enough sugar for the LAB, leaving you with half-fermented fruit that’s not sweet enough to balance the lactic acid. Overripe plums will disintegrate.'
+              },
+              {
+                zh: '如果李子明显脏了，请用冷水冲洗，但不要擦洗。水果皮上的野生细菌是成功发酵的媒介。用削皮刀将李子纵向切成两半。轻轻扭转，将两半拉开，然后将刀刃楔入坑的尖端下方，小心地将其提出；如果坑很顽固，你可能需要把它切掉。',
+                en: 'If the plums are visibly dirty, rinse them under cold water, but don’t scrub them. The wild bacteria on the fruit’s skin are the agents responsible for a successful ferment. Halve the plums lengthwise with a paring knife. Gently twist to pull the two halves apart, then wedge the blade of your knife under the tip of the pit and carefully lift it out; if the pit is stubborn, you may have to cut it out.'
+              },
+              {
+                zh: '称重去核的李子并计算该重量的 2%——这将是您稍后添加的盐量。例如，如果去核李子的重量为 950 克，则需要 19 克盐。',
+                en: 'Weigh the pitted plums and calculate 2% of that weight—this will be the amount of salt you’ll add later. For example, if the weight of your pitted plums is 950 grams, you’ll need 19 grams of salt.'
+              },
+              {
+                zh: '从这里开始，根据您拥有的设备，您可以通过两种方式之一进行操作。',
+                en: 'From here, depending on the equipment you have, you can proceed in one of two ways.'
+              },
+              {
+                zh: '如果在真空袋中发酵：将李子两半放入足够大的真空袋中，以单层容纳所有水果。将盐添加到袋子中，通过挤压顶部将其关闭，然后轻轻地搅拌内容物以使盐均匀分布。',
+                en: 'If fermenting in a vacuum bag:Place the plum halves in a vacuum bag large enough to accommodate all the fruit in a single layer. Add the salt to the bag, hold it shut by scrunching the top, and gently toss the contents around to distribute the salt evenly.'
+              },
+              {
+                zh: '将袋子放在平坦的工作表面上。伸手用手指将李子排列整齐，切面朝下。当李子仍然平放时，打开真空封口机并以最大吸力密封袋子，尽可能靠近开口。这将为您提供足够的空间，稍后会派上用场，因为您需要多次打开和重新密封袋子。',
+                en: 'Lay the bag on a flat work surface. Reach in and use your fingers to arrange the plums in neat rows, cut-side down. With the plums still lying flat, turn on the vacuum sealer and seal the bag on maximum suction as close to the opening as possible. This will give you headroom, which will come in handy later, as you’ll need to open and reseal the bag multiple times.'
+              },
+              {
+                zh: '*Lacto Plums, day 1 (in a jar)*',
+                en: '*Lacto Plums, day 1 (in a jar)*'
+              },
+              {
+                zh: '*Day 4*',
+                en: '*Day 4*'
+              },
+              {
+                zh: '*Day 7*',
+                en: '*Day 7*'
+              },
+              {
+                zh: '如果在罐子或瓦罐中发酵：将李子再切成两半，每次切成 8 块。这将使李子更紧密地融入发酵容器并消除李子之间的气隙。将水果放入碗中，加入盐，搅拌均匀。使用橡皮刮刀将李子和盐刮入您选择的发酵容器中 - 确保得到每一点果汁和盐。',
+                en: 'If fermenting in a jar or crock:Cut the plums in half two more times, into 8 pieces each. This will allow the plums to fit more snugly into the fermentation vessel and eliminate air gaps between pieces. Place the fruit in a bowl, add the salt, and mix well. Use a rubber spatula to scrape the plums and salt into your fermentation vessel of choice—make sure to get every bit of juice and salt.'
+              },
+              {
+                zh: '*A small zip-top bag full of water serves as a perfect fermentation weight, if you can’t find small glass or ceramic weights.*',
+                en: '*A small zip-top bag full of water serves as a perfect fermentation weight, if you can’t find small glass or ceramic weights.*'
+              },
+              {
+                zh: '将李子压下来，这样当李子释放出汁液时，液体就会覆盖在咸盐水中的水果上。最简单的方法是使用塑料拉链袋：将袋子装满水，排出空气，然后密封。为了获得额外的安全性（以防万一发生泄漏），请将该袋子密封在另一个袋子内。将装满水的袋子放入罐子或罐子中，然后晃动它，使其完全覆盖李子的顶部。用盖子盖住罐子或罐子，但要确保盖子没有盖得太紧，以免气体逸出。如果使用如图所示的密封罐，您需要在关闭之前拆下橡胶垫圈。',
+                en: 'Weight the plums down, so that as they release their juices, the liquid will cover the fruit in a salty brine. The easiest way to do this is to use plastic zip-top bags: Partially fill a bag with water, push out the air, and seal it. For extra security (in case you spring a leak), seal that bag inside another one. Place the water-filled bag into the crock or jar and wiggle it around so it covers the top of the plums completely. Cover the crock or jar with a lid, but be sure it’s not so securely fitted that gas can’t escape. If using a hermetic jar like the one pictured, you’ll want to remove the rubber gasket before closing.'
+              },
+              {
+                zh: '无论您选择哪种方法，现在都可以将密封的李子放在一边发酵。 lacto-发酵在 21°C/70°F 的室温下可以正常运行，但在 Noma 时，我们 lacto-在稍微温暖一点的房间（28°C/82°F）中进行发酵。这个温度足以加速发酵的进程，但又不会太热，以免发酵过度活跃的发酵有时会产生不需要的味道。也可以在冰箱（大约 4°C/40°F）中成功实现乳酸发酵，但该过程将花费更长的时间，并且在产生足够量的乳酸之前，水果分解和褐变的风险增加。考虑到所有因素，我们强烈建议您在室温或更温暖的温度下发酵李子。',
+                en: 'Whichever method you chose, you can now set the sealed plums aside to ferment. A lacto-ferment will function fine at a room temperature of 21°C/70°F, though at Noma, we lacto-ferment in a room that is a bit warmer, 28°C/82°F. This temperature is warm enough to accelerate the ferment’s progress yet not so warm that the ferment will develop undesired flavors that overactive fermentation can sometimes produce. It is also possible to achieve successful lactic fermentation in a refrigerator—around 4°C/40°F—but the process will take much, much longer, with an increased risk of the fruit breaking down and browning before a sufficient amount of lactic acid has been produced. All things considered, we strongly recommend you ferment the plums at room temperature or warmer.'
+              },
+              {
+                zh: '在 28°C/82°F 的温度下，我们的李子通常需要 5 天才能发酵到理想的风味。在 21°C/70°F 的条件下，它们可能需要 6 到 7 天，但最终您需要以味道为指导。当李子发酵时，异质发酵细菌会产生二氧化碳。如果您真空密封李子，这会导致袋子像气球一样膨胀。如果它膨胀到看起来可能会破裂的程度，则需要将其“打嗝”：剪断袋子的一角以排出气体，然后用真空封口机重新密封（注意不要让果汁从袋子中吸出）。重新密封还可以通过压缩李子并迫使富含细菌的果汁回到果肉中来加速发酵。',
+                en: 'At 28°C/82°F, our plums usually take 5 days to ferment to the ideal flavor. At 21°C/70°F, they might take 6 to 7 days, but ultimately you need to let taste be your guide. As the plums ferment, heterofermentative bacteria will produce carbon dioxide. If you vacuum-sealed your plums, this will cause the bag to inflate like a balloon. If it puffs up to the point where it looks like it might burst, you’ll need to “burp” it: Snip a corner of the bag to vent the gas, then reseal with the vacuum sealer (be careful not to let the juices get sucked out of the bag). Resealing will also speed up fermentation by compressing the plums and forcing the bacteria-rich juices back into the flesh of the fruit.'
+              },
+              {
+                zh: '当你打李子的时候，抓住机会品尝它们并检查它们的进展情况。事实上，您最好每天都品尝这种水果。使用瓦罐或罐子显然比使用真空密封袋更容易，但如果在真空袋顶部留有足够的空间，则多次打开和重新密封应该没有问题。',
+                en: 'While you’re burping the plums, take the opportunity to taste them and check on their progress. In fact, you’d ideally taste the fruit every day. This is obviously easier with a crock or a jar than a vacuum-sealed bag, but if you left enough room at the top of the vacuum bag, you should have no problem opening and resealing it multiple times.'
+              },
+              {
+                zh: '如果在瓦罐或罐子中发酵，请注意液体表面和水果边缘周围是否可能形成纤细的白色物质。这是卡姆酵母，一种局部真菌花，在你的水果完全发酵和酸化果汁之前就可以繁殖。卡姆酵母是无害的，但如果它受到干扰并混入液体中，就会产生异味。当你发现一些卡姆酵母时，小心地将其舀出并丢弃。',
+                en: 'If fermenting in a crock or jar, look out for a wispy white substance that may form on the surface of the liquid and around the edges of your fruit. This is kahm yeast, a topical fungal bloom that can flourish before your fruit has fully fermented and acidified its juices. Kahm yeast is harmless, but it can add an off-flavor if it gets disturbed and mixed into the liquid. When you spot some kahm yeast, carefully spoon it off and discard.'
+              },
+              {
+                zh: '随着水果的发酵，果肉会变软，李子的甜味开始转变为令人愉悦的酸度，轻轻地撞击您的舌头两侧和后部，让您轻微流口水。李子发酵的时间越长，酸味就越浓。如果你做得太过分，最终你会失去水果的特性，你尝到的只是压倒性的酸度。每天品尝水果将有助于确保您不会让水果过度发酵。最后，请注意，由于 LAB 产生的二氧化碳溶解在水果的果肉中，lacto 发酵物可能会产生轻微的泡沫质量 - 这完全没问题。',
+                en: 'As the fruit ferments, its flesh will soften and the sweetness of the plums will begin to turn into a pleasant acidity that hits you gently on the sides and back of your tongue, causing you to salivate slightly. The longer you ferment the plums, the stronger the acidic flavor will become. If you take it too far, eventually you’ll lose the character of the fruit and all you’ll taste is an overpowering acidity. Tasting the fruit every day will help ensure that you don’t let the fruit overferment. Finally, note that lacto-ferments can have a slight fizzy quality due to the carbon dioxide produced by LAB being dissolved in the fruit’s flesh—this is perfectly fine.'
+              },
+              {
+                zh: '李子发酵完成后，将其从袋子或发酵容器中取出，并通过筛子将汁液过滤到小容器或塑料袋中。根据李子的成熟度，您应该有大约 125 毫升的果汁。这种果汁是一种令人惊叹的产品，已经成为一种美味的醋汁了。将其在冰箱中保存长达一周，或在冰箱中密封保存以长期保存。',
+                en: 'Once the plums have finished fermenting, remove them from the bag or fermentation vessel, and strain the juice through a sieve into a small container or plastic bag. Depending on the ripeness of your plums, you should have about 125 milliliters juice. The juice is an amazing product that’s already halfway to being a fantastic vinaigrette. Store it in the refrigerator for up to a week or airtight in the freezer for long-term storage.'
+              },
+              {
+                zh: '要储存lacto李子本身，请将它们放入有盖容器或可重新密封的袋子中。它们可以在冰箱中保存长达一周，特性不会发生太大变化，但如果您不立即使用它们，冷冻会阻止它们进一步发酵。发酵水果在冰箱中比新鲜水果保存得更好。如果你把李子切成两半，你可以把它们切面朝下放在衬有羊皮纸的托盘上，冷冻成固体，然后将它们放入真空袋中，密封，然后将它们放回冰箱（这一过程称为 IQF，或单独快速冷冻法）。真空密封最适合防止冻伤，但普通的冷冻袋也可以。',
+                en: 'To store the lacto plums themselves, place them in a covered container or a resealable bag. They’ll keep in the refrigerator for up to a week without changing character much, but if you’re not using them immediately, freezing will prevent them from fermenting further. Fermented fruits keep much better in the freezer than fresh ones. If you kept your plums in halves, you can lay them cut-side down on a parchment-lined tray and freeze them solid, then place them in a vacuum bag, seal it, and return them to the freezer (a process known as the IQF, or individually quick frozen, method). Vacuum sealing is best for preventing freezer burn, but a regular freezer bag will work, too.'
+              },
+              {
+                zh: '*Finished lacto-fermented plums: sweet, sour, salty, and fruity.*',
+                en: '*Finished lacto-fermented plums: sweet, sour, salty, and fruity.*'
+              },
+              {
+                zh: '1. 1.李子和盐。',
+                en: '1. 1. Plums and salt.'
+              },
+              {
+                zh: '1. 2. 用削皮刀将李子切成两半。',
+                en: '1. 2. Halve the plums with a paring knife.'
+              },
+              {
+                zh: '1. 3. 小心去除果核并丢弃。',
+                en: '1. 3. Carefully remove the pits and discard.'
+              },
+              {
+                zh: '1. 4. 称重切成两半、去核的李子，然后与重量的 2% 的盐混合。',
+                en: '1. 4. Weigh the halved, pitted plums, then mix with 2% of their weight in salt.'
+              },
+              {
+                zh: '1. 5. 以最大吸力对袋子进行真空密封，留出充足的净空。',
+                en: '1. 5. Vacuum-seal the bag on maximum suction, leaving an ample amount of headroom.'
+              },
+              {
+                zh: '1. 6. 让李子发酵5至7天，或直到达到您喜欢的味道。',
+                en: '1. 6. Let the plums ferment for 5 to 7 days, or until the taste is to your liking.'
+              },
+              {
+                zh: '1. 7. 在袋子的一角切一个小孔并释放空气，使袋子“打嗝”。品尝水果以检查您的进度，然后重新密封袋子。',
+                en: '1. 7. “Burp” the bag by cutting a small hole in a corner and releasing the air. Taste the fruit to check your progress, then reseal the bag.'
+              },
+              {
+                zh: '1. 8. 5 到 7 天后，李子就熟了。过滤液体并备用。',
+                en: '1. 8. Somewhere between 5 and 7 days, the plums should be ready. Strain the liquid and reserve.'
+              },
+              {
+                zh: '1. 9. 将李子转移到密封容器中并存放在冰箱中，或单层冷冻以保持其形状。',
+                en: '1. 9. Transfer the plums to a sealed container and store in the refrigerator, or freeze them in a single layer to maintain their shape.'
+              },
+              {
+                zh: '*The skins of lacto-fermented plums can be dried, then ground into a tart and savory spice.*',
+                en: '*The skins of lacto-fermented plums can be dried, then ground into a tart and savory spice.*'
+              },
+              {
+                zh: '建议用途',
+                en: 'Suggested Uses'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '耐嚼干Lacto李子',
+              en: 'Chewy, Dried Lacto Plums'
+            },
+            answer: [
+              {
+                zh: '干燥lacto发酵李子的果肉赋予它们令人愉悦的咀嚼感和增强的美味，使它们的用途更加广泛。将去皮的 lacto 李子（切半效果最好）放在衬有羊皮纸的烤盘或脱水机的架子上，并尽可能在接近 40°C/104°F 的温度下干燥。您想要模仿杏干的质地。',
+                en: 'Drying the flesh of lacto-fermented plums gives them a welcome chewiness and enhanced savoriness that makes them even more versatile. Place peeled lacto plums—halves work best—on a parchment-lined baking sheet or the rack of a dehydrator and dry as close to 40°C/104°F as you can. You’re looking to emulate the texture of dried apricots.'
+              },
+              {
+                zh: '当谈到将李子干付诸实践时，可以把它们想象成不那么时髦、果味更浓郁的凤尾鱼干。将一根黄油放入平底锅中煎成棕色，然后加入一小把撕碎的鼠尾草叶，以及几勺切片的干李子。添加一些碎的茴香香肠，然后拌入一批煮熟的意大利面，作为一顿简单的饭菜。或者使用相同的黄油-李子-鼠尾草组合来涂抹平底锅烤的花椰菜小花或烤白芦笋。',
+                en: 'When it comes to putting the dried plums into action, think of them as less funky, fruitier dried preserved anchovies. Brown a stick of butter in a pan and toss in a small handful of torn sage leaves, along with a couple of spoonfuls of sliced dried plums. Add some crumbled, rendered fennel sausage, and fold in a batch of cooked pasta for a simple meal. Or use the same butter-plum-sage combination to baste pan-roasted cauliflower florets or spears of grilled white asparagus.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '梅子皮片',
+              en: 'Plum Skin Chips'
+            },
+            answer: [
+              {
+                zh: 'lacto发酵的李子皮可以在脱水机或低温烤箱中慢慢干燥成脆片。我们在脱水机中以约 40°C/104°F 的温度干燥李子皮。如果您使用烤箱，请将其加热至 60°C/140°F（如果温度会那么低）。将皮肤单层放在脱水架上或衬有羊皮纸的烤盘上干燥。皮肤干燥所需的时间取决于您的设备，但皮肤应该具有良好的折断性能，随着冷却，效果会有所改善。干李子皮可以撒在从沙拉到布朗尼蛋糕到冰淇淋的任何东西上，以获得浓郁的果酸和美妙的质感对比。',
+                en: 'The skins of lacto-fermented plums can be slowly dried into a crisp chip in a dehydrator or a low oven. We dry our plum skins at about 40°C/104°F in a dehydrator. If you’re using your oven, heat it to 60°C/140°F, if it will go that low. Dry the skins in a single layer on the dehydrator rack or on a parchment-lined baking sheet. The amount of time the skins take to dry will depend on your equipment, but the skins should have a nice snap that will improve as they cool. Dried plum skins can be sprinkled over anything from salad to brownies to ice cream for a punch of fruity acidity and a nice textural contrast.'
+              },
+              {
+                zh: '#### <学期16>梅粉',
+                en: '#### Lacto Plum Powder'
+              },
+              {
+                zh: '使用香料研磨机将干燥的lacto李子皮磨成细粉。下次烤牛排时，在牛排静置时用一瓣大蒜擦一下。在上面撒上一小撮李子皮粉和几圈新鲜磨碎的黑胡椒。粉末会融化到外皮中，并增加刺山柑般的锐度，打破优质牛肉的浓郁口感。',
+                en: 'Use a spice grinder to pulverize dried lacto plum skins into a fine powder. The next time you grill a steak, rub it with a clove of garlic while it rests. Sprinkle a pinch of plum-skin powder and a few turns of freshly milled black pepper on top. The powder will melt into the crust and add a caper-like sharpness that cuts through the richness of good beef.'
+              },
+              {
+                zh: '晚餐做新鲜豌豆烩饭吗？最后不要挤柠檬汁，只需在顶部的细筛子中筛一些李子皮粉即可。这种粉末也与北非风味相得益彰——在上菜前将李子皮粉撒在茄子和切莫拉拼盘上，让这道本来就充满活力的菜肴变得生机勃勃。',
+                en: 'Making a fresh pea risotto for dinner? Instead of finishing it with a squeeze of lemon, just sift some plum-skin powder through a fine sieve over the top. This powder also cozies up nicely next to North African flavors—dust plum-skin powder over a platter of eggplant and chermoula just before serving to liven up an already dynamic dish.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期16> 梅子汁木犀草',
+              en: 'Lacto Plum Juice Mignonette'
+            },
+            answer: [
+              {
+                zh: 'lacto 发酵李子的汁液非常适合新鲜海鲜的酸咸洗涤，事实上，作为木犀草的直接替代品，它非常出色。下次你打开牡蛎时，用发酵李子汁的小模子代替柠檬片或香槟醋酱。每个牡蛎半茶匙就像在音响上按下“播放”键一样。',
+                en: 'The juice from lacto-fermented plums is amazing as a tart, salty wash for fresh seafood—it’s outstanding as a direct replacement for mignonette, in fact. Next time you crack open some oysters, serve them with a ramekin of fermented plum juice rather than lemon wedges or Champagne-vinegar dressing. A half teaspoon over each oyster is like hitting “play” on the stereo.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '梅子奶冻',
+              en: 'Plum Custard'
+            },
+            answer: [
+              {
+                zh: 'Lacto-发酵的李子汁也具有有趣的甜味应用。例如，尝试制作用发酵果汁调味的蛋挞。将 100 克奶油和 100 克全脂牛奶放入平底锅中煮沸。同时，将5个蛋黄与50克糖一起打发至发白，然后加入75克酸梅汁。牛奶和奶油达到一定温度后，用几勺热液体调和鸡蛋混合物，然后搅拌其余部分直至完全混合。通过筛子过滤，然后将蛋奶冻填入各个挞壳中。在 170°C/340°F 的温度下烘烤直至凝固，然后冷却至室温，打造出微酸、咸甜的经典糕点。在成品馅饼上撒上李子皮粉，可以使李子的味道加倍。',
+                en: 'Lacto-fermented plum juice has intriguing sweet applications, too. For example, try making custard tarts flavored with the fermented juice. Bring 100 grams cream and 100 grams whole milk to a simmer in a saucepan. Meanwhile, beat 5 egg yolks with 50 grams sugar until pale, then add 75 grams fermented plum juice. Once the milk and cream have come to temperature, temper the egg mixture with a few spoonfuls of the hot liquid, then whisk in the rest until thoroughly combined. Strain through a sieve, then fill individual tart shells with the custard. Bake them at 170°C/340°F until set and then cool to room temperature for a slightly sour, salty-sweet take on a classic pastry. Double down on the plum flavor by dusting the finished tarts with plum-skin powder.'
+              },
+              {
+                zh: '*A dose of lacto-fermented plum juice brings brightness and depth to a custard of eggs, cream, and milk.*',
+                en: '*A dose of lacto-fermented plum juice brings brightness and depth to a custard of eggs, cream, and milk.*'
+              },
+              {
+                zh: '*Lacto-fermenting cep mushrooms yields two products—the mushrooms themselves and their incredible juice.*',
+                en: '*Lacto-fermenting cep mushrooms yields two products—the mushrooms themselves and their incredible juice.*'
+              },
+              {
+                zh: '<!-- text/part0006_split_012.html -->',
+                en: '<!-- text/part0006_split_012.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '11-mango-kombucha',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '芒果 <第 14 学期>',
+      en: 'Mango Kombucha'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '芒果 <第 14 学期>',
+          en: 'Mango Kombucha'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 2 liters**',
+            en: '**Makes 2 liters**'
+          },
+          {
+            zh: '本书中的所有其他kombucha都是稀薄液体，其粘度与水相差不大。在为墨西哥图卢姆的快闪餐厅开发菜肴时，我们希望在果汁搭配中为kombucha添加一些质感——既令人愉悦又流动性足以正常发酵。如果果泥太厚，微生物就会被堵塞，无法移动。我们发现，将等量的芒果肉和水混合一分钟，就能产生我们想要的效果。',
+            en: 'All the other kombuchas in this book are thin liquids with a viscosity not so different from water. While developing dishes for our pop-up restaurant in Tulum, Mexico, we wanted to add some texture to the kombuchas in our juice pairings—something pleasing yet fluid enough to ferment properly. If the purees were too thick, the microbes would get jammed up, unable to move around. We found that blending equal parts mango flesh and water for a minute produced exactly what we were looking for.'
+          },
+          {
+            zh: '芒果泥的不透明性意味着折光仪无法测量糖含量，因此您确实需要使用味蕾来做出决定。一般来说，芒果越甜、越熟越好。',
+            en: 'The opacity of the mango puree means a refractometer won’t be able to measure the sugar content, so you’ll really need to use your taste buds to inform your decisions. Generally speaking, the sweeter and riper the mango, the better.'
+          },
+          {
+            zh: '柠檬马鞭草 Kombucha 的深入说明可作为本章中所有 kombucha 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLemon Verbena Kombuchaserve as a template for all the kombucha recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将糖和 170 克水放入中锅中煮沸，搅拌以溶解糖。从火上移开并冷却至室温。',
+            en: 'Bring the sugar and 170 grams of the water to a boil in a medium pot, stirring to dissolve the sugar. Remove from the heat and let cool to room temperature.'
+          },
+          {
+            zh: '将芒果和剩余的水放入搅拌机中，搅拌约 1 分钟，直至得到光滑的果泥。您可能需要分批工作以适合您的搅拌机尺寸。',
+            en: 'Put the mango and remaining water in a blender and process until you have a smooth puree, about 1 minute. You may need to work in batches to fit your blender size.'
+          },
+          {
+            zh: '将芒果泥通过细网筛过滤至发酵容器中，然后加入简单糖浆和 200 克未经巴氏消毒的kombucha 进行搅拌。戴上手套，小心地将 SCOBY 放入液体中。用粗棉布或透气的厨房毛巾盖住发酵容器的顶部，并用橡皮筋固定。标记kombucha并将其放在温暖的地方。',
+            en: 'Strain the mango puree through a fine-mesh sieve into the fermentation vessel, then stir in the simple syrup and the 200 grams unpasteurized kombucha. Wearing gloves, carefully place the SCOBY into the liquid. Cover the top of the fermentation vessel with cheesecloth or a breathable kitchen towel and secure it with a rubber band. Label the kombucha and set it in a warm place.'
+          },
+          {
+            zh: '让kombucha发酵，每天跟踪其进展。芒果泥可能会分离成稀薄的液体，上面漂浮着一层较厚的液体，这很好，但这确实意味着 SCOBY 可能更难获得所需的氧气。为了帮助您的微生物母亲，请将干净的勺子滑到 SCOBY 下方，每天将果泥搅拌在一起，小心不要过多干扰 SCOBY。您也可以用勺子舀一些液体到 SCOBY 上，以洗掉较重的芒果固体。',
+            en: 'Leave the kombucha to ferment, tracking its progress each day. The mango puree will likely separate into a thin liquid with a thicker layer floating above it, which is fine, but it does mean that the SCOBY might have a harder time getting the oxygen it needs. To assist your microbial mother, slide a clean spoon beneath the SCOBY and stir the puree together each day, being careful not to disturb the SCOBY too much. You can also ladle some liquid over the SCOBY to wash off the heavier mango solids.'
+          },
+          {
+            zh: '一旦您对 kombucha 的味道感到满意（可能是从开始后 7 到 10 天），请将 SCOBY 转移到容器中进行储存，尽可能多地刮掉芒果泥。通过内衬粗棉布的细网筛过滤kombucha。立即食用或冷藏、冷冻或装瓶。',
+            en: 'Once you’re happy with the flavor of your kombucha—probably between 7 and 10 days from the start—transfer the SCOBY to a container for storage, scraping off as much of the mango puree as possible. Strain the kombucha through a fine-mesh sieve lined with cheesecloth. Consume immediately or refrigerate, freeze, or bottle it.'
+          },
+          {
+            zh: '*Mango Kombucha, day 1*',
+            en: '*Mango Kombucha, day 1*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '170克糖',
+            en: '170 grams sugar'
+          },
+          {
+            zh: '970克水',
+            en: '970 grams water'
+          },
+          {
+            zh: '800 克去皮成熟芒果肉切丁',
+            en: '800 grams diced peeled ripe mango flesh'
+          },
+          {
+            zh: '200 克未经高温消毒的kombucha（或包装好的 SCOBY 附带的液体）',
+            en: '200 grams unpasteurized kombucha (or the liquid that comes with a packaged SCOBY)'
+          },
+          {
+            zh: '**1 SCOBY (seeSources)**',
+            en: '**1 SCOBY (seeSources)**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '芒果西班牙凉菜汤',
+              en: 'Mango Gazpacho'
+            },
+            answer: [
+              {
+                zh: 'Kombucha的汤体和质地更适合作为冷汤的基础。如果想要制作西班牙凉菜汤的另一种做法，请切碎、挤压并过滤 3 个牛排番茄的汁液。将果汁与 500 毫升芒果 kombucha 混合，并加盐调味。添加煮熟的蔬菜混合物（我想到的是切片烤芦笋、切丁芹菜、蚕豆或切片烤葱）和一勺石榴籽以增加嚼劲。最后用烤欧芹和香菜叶完成。',
+                en: 'Kombuchas with more body and texture do well as the foundation of a cold soup. For a different spin on gazpacho, chop, squeeze, and strain the juice from 3 beefsteak tomatoes. Combine the juice with 500 milliliters mango kombucha and season with salt. Add a mixture of cooked vegetables—sliced grilled asparagus, diced celery, fava beans, or sliced grilled scallions come to mind—and a spoonful of pomegranate seeds for crunch. Finish it off with grilled parsley and cilantro leaves.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '芒果柠檬草油醋汁',
+              en: 'Mango-Lemongrass Vinaigrette'
+            },
+            answer: [
+              {
+                zh: '*Muddle fresh herbs with mango kombucha to create a beverage (or cold soup) with even more character.*',
+                en: '*Muddle fresh herbs with mango kombucha to create a beverage (or cold soup) with even more character.*'
+              },
+              {
+                zh: '用果泥制成的Kombucha比用草药或其他浸剂制成的Kombucha通用性稍差，但您仍然可以充分利用芒果kombucha额外的粘度和甜味。将一根柠檬草和一把香菜混入 500 毫升芒果kombucha中，静置 15 分钟，然后过滤。添加健康的辣辣椒油，并用少许海盐调味。将油醋汁用于烤整条鱼或烤蔬菜，如白菜或鳄梨。或者用同样的酱汁给烤架上的烤猪肩肉或扇贝上釉。',
+                en: 'Kombuchas made from purees are a little less versatile than those made with tisanes or other infusions, but you can still make good use of the extra viscosity and sweetness of a mango kombucha. Muddle a stalk of lemongrass and a fistful of cilantro in 500 milliliters mango kombucha, and let it sit for 15 minutes before straining. Add a healthy drizzle of spicy chili oil and season with a pinch of sea salt. Use the vinaigrette for whole roasted fish or grilled vegetables like bok choy or avocados. Or use the same sauce to glaze a roast pork shoulder or scallops on the grill.'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '11-wild-fermentation',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '野生发酵',
+      en: 'Wild Fermentation'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '12-backslopping',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '后倾',
+      en: 'Backslopping'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '12-elderberry-wine-balsamic',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '接骨木酒香醋',
+      en: 'Elderberry Wine Balsamic'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '接骨木酒香醋',
+          en: 'Elderberry Wine Balsamic'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 5 liters (before aging)**',
+            en: '**Makes about 5 liters (before aging)**'
+          },
+          {
+            zh: '很少有比接骨木花更能代表斯堪的纳维亚半岛的口味，也很少有成分在 Noma 的工作体验中发挥更大的作用。想象一下，二十五名厨师围坐在长桌旁，一边对装满灌木树枝的垃圾袋进行分类，一边对抗过敏，一边以越来越快的速度采摘一朵又一朵小花，在清理之前处理了 60 公斤，以便第二天重新开始。',
+            en: 'There are few flavors more representative of Scandinavia than elderflower, and few ingredients that play a bigger part in the experience of working at Noma. Picture twenty-five cooks situated around long tables sorting through garbage bag upon garbage bag stuffed with shrubby branches, fighting off allergies while picking tiny flower after tiny flower at an ever-accelerating pace to process 60 kilos before it’s time to clean up—to start it all again the next day.'
+          },
+          {
+            zh: '一段时间以来，接骨木醋一直是我们厨房的主食。然而，这种接骨木酒香脂是一项正在进行的实验。再过十年我们就不知道最终的味道。如果你想加入我们的试运行，这个食谱展示了我们是如何做到的。',
+            en: 'Elderberry vinegar has been a staple in our kitchen for some time. This elderberry wine balsamic, however, is an ongoing experiment. We’ll have no idea of the final flavor for another ten years. If you want to join us in our trial run, this recipe shows how we did it.'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1.15公斤糖',
+            en: '1.15 kilograms sugar'
+          },
+          {
+            zh: '1.15+1.7公斤水',
+            en: '1.15 + 1.7 kilograms water'
+          },
+          {
+            zh: '500 克接骨木花，除去茎',
+            en: '500 grams elderflower blossoms, stems removed'
+          },
+          {
+            zh: '1 包（35 毫升）液体 saison 酵母',
+            en: '1 packet (35 milliliters) liquid saison yeast'
+          },
+          {
+            zh: '1 公斤未经高温消毒的苹果醋',
+            en: '1 kilogram unpasteurized apple cider vinegar'
+          },
+          {
+            zh: '**600 grams ripe elderberries, stems removed**',
+            en: '**600 grams ripe elderberries, stems removed**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '设备说明',
+              en: 'Equipment Notes'
+            },
+            answer: [
+              {
+                zh: '您需要一个 5 升食品安全塑料桶，配有密封盖、橡胶塞和气闸，用于接骨木花酒的第一阶段发酵。二次发酵可以重复使用同一个容器，或者使用5升的广口瓶。您还需要购买一个 5 升的木桶来陈酿，如果您决定长期陈酿醋，还需要购买更多尺寸较小的木桶。折射计是可选的。我们建议您在用手工作时戴上无菌手套，并对所有设备进行彻底清洁和消毒（请参阅清洁、病原体和安全）。',
+                en: 'You’ll need a 5-liter food-safe plastic bucket fitted with an airtight lid, a rubber stopper, and an airlock for the first-stage fermentation of the elderflower wine. You can reuse the same container for the secondary fermentation, or use a 5-liter wide-mouthed jar. You’ll also need to procure a 5-liter wooden barrel for aging, and more barrels of decreasing size should you decide to age your vinegar for very long periods of time. A refractometer is optional. We recommend that you wear sterile gloves when working with your hands, and that all your equipment be thoroughly cleaned and sanitized (seeCleanliness, Pathogens, and Safety).'
+              },
+              {
+                zh: '香醋通常不属于Noma食品储藏室的一部分，但它是美食的重要支柱，也是世界各地厨房中深受喜爱的配料。香醋的制作过程涉及发酵和陈酿的一些最令人着迷的方面，因此我们为自己的版本开发了以下配方。',
+                en: 'Balsamic vinegar isn’t normally a part of the Noma pantry, but it’s a vital pillar of gastronomy and a beloved ingredient in kitchens around the world. The process of making balsamic vinegar touches on some of the most fascinating aspects of fermentation and aging, so we’ve developed the following recipe for our own version.'
+              },
+              {
+                zh: '*Elderberry Wine Balsamic, day 1*',
+                en: '*Elderberry Wine Balsamic, day 1*'
+              },
+              {
+                zh: '*Day 7*',
+                en: '*Day 7*'
+              },
+              {
+                zh: '*Day 14*',
+                en: '*Day 14*'
+              },
+              {
+                zh: '#### 深入说明',
+                en: '#### In-Depth Instructions'
+              },
+              {
+                zh: '通过制作接骨木花糖浆开始了长达数年的香醋生产过程。将糖和 1.15 公斤水放入大锅中煮沸，搅拌使糖溶解，然后离火。当糖浆沸腾时，将接骨木花放入干净的耐热容器中。将糖浆倒在接骨木花上，冷却至室温。将几张保鲜膜直接与液体表面接触（接骨木花有漂浮的倾向，塑料有助于将它们浸入水中），然后将糖浆转移到冰箱中，盖上盖子，浸泡两周。',
+                en: 'Begin the years-long process of producing balsamic vinegar by making elderflower syrup. Bring the sugar and 1.15 kilograms of the water to a boil in a large pot, stirring to dissolve the sugar, then remove from the heat. While the syrup is coming to a boil, put the elderflowers in a clean heatproof container. Pour the syrup over the elderflowers and allow to cool to room temperature. Place a couple of sheets of plastic wrap in direct contact with the surface of the liquid—the elderflowers have a tendency to float and the plastic will help keep them submerged—then transfer the syrup to the fridge, covered, to infuse for 2 weeks.'
+              },
+              {
+                zh: '*Add liquid saison yeast to begin fermenting the sugars in the elderflower syrup.*',
+                en: '*Add liquid saison yeast to begin fermenting the sugars in the elderflower syrup.*'
+              },
+              {
+                zh: '将糖浆通过细网筛过滤至 5 升桶中，按压接骨木花以最大限度地提取糖浆。添加剩余的 1.7 公斤水，这将使糖含量降至 30°Bx（从 50°Bx 的起点开始）。如果您有折射计，请精确测量 Brix 水平，这将作为初始发酵进行到何种程度的参考点。将酵母添加到稀释的接骨木花糖浆中，并用干净的勺子搅拌。合上桶盖，确保其气密，然后向气闸室注满水，并将其插入橡胶塞中。',
+                en: 'Strain the syrup through a fine-mesh sieve into the 5-liter bucket, pressing on the elderflowers for maximum extraction. Add the remaining 1.7 kilograms water, which will bring the sugar content down to 30°Bx (from a starting point of 50°Bx). If you have a refractometer, take an exact measurement of the Brix level, which will serve as a point of reference for how far you take the initial fermentation. Add the yeast to the diluted elderflower syrup and stir with a clean spoon. Snap the bucket lid shut, ensuring that it’s airtight, then fill the airlock with water and insert it into the rubber stopper.'
+              },
+              {
+                zh: '将桶移至比室温稍冷的地方（理想温度约为 18°C/64°F），并使其发酵 2 至 3 周。我们希望接骨木浆果酒中保留大量的残留甜味，酒精度为 8% 至 10% ABV。如果您使用折射计并且已读取初始读数，请在发酵第十四天后再次测试Brix。使用图表将测量值的差异转换为 ABV。',
+                en: 'Move the bucket to a spot that’s slightly cooler than room temperature—about 18°C/64°F is ideal—and allow it to ferment for 2 to 3 weeks. We want a good amount of residual sweetness left in the elderberry wine, and an alcohol level of 8% to 10% ABV. If you’re using a refractometer and you’ve taken the initial reading, test the Brix again after the fourteenth day of fermentation. Use thechartto convert the difference in your measurements to ABV.'
+              },
+              {
+                zh: '一旦达到所需的酒精含量，倒入苹果醋并加入整个接骨木浆果。用一块用橡皮筋牢固固定的粗棉布更换盖子和气闸。让葡萄酒在室温下发酵 3 到 4 个月，每隔几天用干净的勺子搅拌一次，因为浆果容易漂浮。这是一种可以缓慢酸化的醋。在餐厅，我们传统上都是以这种方式制作的，但如果您想更快地完成酸化阶段，请随意使用本章所述的气泵和气石。',
+                en: 'Once you’ve reached the desired alcohol content, backslop with the apple cider vinegar and add the whole elderberries. Replace the lid and airlock with a piece of cheesecloth securely fastened with a rubber band. Leave the wine to ferment at room temperature for 3 to 4 months, stirring every few days with a clean spoon, as the berries tend to float. This is a vinegar that acidifies very well at a slow pace. At the restaurant, we’ve traditionally made it in this fashion, but if you’d like to get through the acidifying stage faster, feel free to employ an air pump and air stone as described throughout this chapter.'
+              },
+              {
+                zh: '一旦醋发酵到你喜欢的程度，就用细网筛过滤，将浆果压在侧面以最大限度地提取，然后再次用粗棉布过滤。使用漏斗将醋转移到桶中并盖上孔。将木桶放置在阴凉的房间或地下室中，最好在 18°C/64°F 左右。环境的湿度会影响桶内的蒸发速度。房间越干燥，消散的速度就越快。由于我们希望将这种醋陈化多年，因此您需要调节蒸发，因此请避免过度干燥的环境。',
+                en: 'Once the vinegar has fermented to your liking, strain it through a fine-mesh sieve, pressing the berries against the sides for maximum extraction, and then again through cheesecloth. Using a funnel, transfer the vinegar to the barrel and cap the hole. Leave the barrel to rest in a cool room or basement, ideally around 18°C/64°F. The humidity of the environment will affect the rate of evaporation within the barrel. The drier the room, the faster it will dissipate. As we’re seeking to age this vinegar for years, you’ll want to mediate evaporation, so avoid overly dry environments.'
+              },
+              {
+                zh: '传统香脂的陈酿时间至少为 12 年，但仅仅一年后您就会注意到风味的显着变化。如果您要长期饮用，则需要在 12 个月后将桶中的物质倒入较小的桶中。随着时间的推移，醋的体积会因蒸发而减少。通过每年减小桶的尺寸，您将最大限度地增加醋与木材的接触量，这意味着更多的风味转移。选择适合您剩余醋量的桶。这是我们在 Noma 陈酿接骨木醋的计划，因为我们试图长期发展其风味和复杂性。',
+                en: 'Traditional balsamic is aged for a minimum of 12 years, but you’ll notice a remarkable change in flavor after just one year. If you’re in it for the long haul, you’ll want to decant the barrel’s contents into a smaller barrel after 12 months. As time goes by, the volume of vinegar will decrease through evaporation. By stepping down a barrel size each year, you’ll maximize the amount of contact the vinegar has with the wood, meaning more flavor transfer. Select barrels that just fit the amount of vinegar you have remaining. This is our plan for the elderberry vinegar aging at Noma, as we try to develop its flavor and complexity over the long run.'
+              },
+              {
+                zh: '*Aging elderberry vinegar in a wooden barrel will produce layers of nuance and complexity. The longer it ages, the better.*',
+                en: '*Aging elderberry vinegar in a wooden barrel will produce layers of nuance and complexity. The longer it ages, the better.*'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '选择陈酿桶',
+              en: 'Choosing an Aging Barrel'
+            },
+            answer: [
+              {
+                zh: '*Sourcing a barrel can be quite a bit of fun. To age balsamic vinegar, you’re looking for a wooden barrel, as the porousness of wood will allow the vinegar to evaporate over time. Traditionally, the barrels’ bung holes aren’t plugged closed, but rather covered with cloth to expedite evaporation without letting anything in. The interior of a wooden barrel is usually charred with an open flame, which creates many of the barrel’s flavors in the form of volatile compounds like vanillin, along with tannins and terpenes.*',
+                en: '*Sourcing a barrel can be quite a bit of fun. To age balsamic vinegar, you’re looking for a wooden barrel, as the porousness of wood will allow the vinegar to evaporate over time. Traditionally, the barrels’ bung holes aren’t plugged closed, but rather covered with cloth to expedite evaporation without letting anything in. The interior of a wooden barrel is usually charred with an open flame, which creates many of the barrel’s flavors in the form of volatile compounds like vanillin, along with tannins and terpenes.*'
+              },
+              {
+                zh: '*The variety of wood you choose is up to you—they all have their own qualities. Starting off with a 5-liter barrel, it’s not difficult to find decreasing sizes all the way down to 1 liter.*',
+                en: '*The variety of wood you choose is up to you—they all have their own qualities. Starting off with a 5-liter barrel, it’s not difficult to find decreasing sizes all the way down to 1 liter.*'
+              },
+              {
+                zh: '*Our elderberry wine balsamic is currently aging in used Bruichladdich Scotch whisky barrels made from oak. Used barrels will impart an idiosyncratic flavor to your vinegar and can include anything from wine barrels to bourbon barrels to sherry casks. Regardless of whether you’ve acquired a used or brand-new barrel, you should fill it with water and let it soak for one day to swell the wood before adding your vinegar. This will ensure that the barrel is watertight.*',
+                en: '*Our elderberry wine balsamic is currently aging in used Bruichladdich Scotch whisky barrels made from oak. Used barrels will impart an idiosyncratic flavor to your vinegar and can include anything from wine barrels to bourbon barrels to sherry casks. Regardless of whether you’ve acquired a used or brand-new barrel, you should fill it with water and let it soak for one day to swell the wood before adding your vinegar. This will ensure that the barrel is watertight.*'
+              },
+              {
+                zh: '<!-- text/part0008_split_013.html -->',
+                en: '<!-- text/part0008_split_013.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '12-lacto-cep-mushrooms',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: 'Lacto 牛肝菌蘑菇',
+      en: 'Lacto Cep Mushrooms'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: 'Lacto 牛肝菌蘑菇',
+          en: 'Lacto Cep Mushrooms'
+        },
+        paragraphs: [
+          {
+            zh: '*Wild ceps are best foraged in the late summer in the Northern Hemisphere.*',
+            en: '*Wild ceps are best foraged in the late summer in the Northern Hemisphere.*'
+          },
+          {
+            zh: '**Makes 1 kilogram lacto mushrooms and juice**',
+            en: '**Makes 1 kilogram lacto mushrooms and juice**'
+          },
+          {
+            zh: '这个食谱的真正奖品是从牛肝菌（又名牛肝菌）中滤出的发酵汁。对于我们在 Noma 厨房来说，它就像一把瑞士军刀 - 我们用它来调味从茴香茶到安康鱼肝的所有东西。它具有平衡感和放克感，真正能让它接触到的任何东西都充满电。',
+            en: 'The true prize of this recipe is the fermented juice that leaches out of the ceps (aka porcinis). It’s like a Swiss Army knife for us in the Noma kitchen—we use it to season everything from fennel tea to monkfish liver. It has a balance and funk that really electrify anything it touches.'
+          },
+          {
+            zh: '为了最大限度地增加我们收获的果汁量，我们在发酵前将蘑菇细胞冷冻，从而破坏它们的结构。这意味着预冻的牛肝菌和新鲜的牛肝菌都适合这个食谱。如果你找不到牛肝菌的话，平菇、鸡油菌和蓝脚蘑菇都发酵得很好，并且有自己独特的特点。虽然不太有趣，但纽扣蘑菇和奶油蘑菇也能起作用。',
+            en: 'In order to maximize the amount of juice we can harvest, we rupture the structure of the mushrooms’ cells by freezing them before fermentation. That means prefrozen ceps are fair game for this recipe, as are fresh foraged ones. Oyster mushrooms, chanterelles, and bluefoots all ferment well and have their own distinct characteristics, if you can’t find ceps. While less interesting, button mushrooms and creminis will work, too.'
+          },
+          {
+            zh: 'Lacto李子的深入说明可作为本章中所有lacto发酵配方的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLacto Plumsserve as a template for all the lacto-fermentation recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '*Lacto Cep Mushrooms, day 1 (vacuum-sealed)*',
+            en: '*Lacto Cep Mushrooms, day 1 (vacuum-sealed)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在真空袋中发酵：将冷冻蘑菇和盐放入真空袋中，搅拌均匀。将蘑菇单层排列，然后以最大吸力密封袋子。确保将袋子密封得尽可能靠近开口，留出足够的空间，以便您可以切开袋子以排出积聚的气体，然后重新密封。',
+            en: 'If fermenting in a vacuum bag:Place the frozen mushrooms and salt in the vacuum bag and toss to mix the contents thoroughly. Arrange the mushrooms in a single layer, then seal the bag on maximum suction. Be sure to seal the bag as close to the opening as possible, leaving headroom that will allow you to cut open the bag to vent any gas that accumulates and then reseal it.'
+          },
+          {
+            zh: '*Lacto Cep Mushrooms, day 1 (in a jar)*',
+            en: '*Lacto Cep Mushrooms, day 1 (in a jar)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在罐子或瓦罐中发酵：将盐和蘑菇在碗中混合，然后将它们转移到发酵容器中，确保将碗中的所有盐刮到容器中，然后用重物压下混合物。 （一个装满水的重型拉链袋就可以了。）用盖子盖住罐子或瓦罐，但不要密封得太紧，以免气体逸出。',
+            en: 'If fermenting in a jar or crock:Mix the salt and mushrooms together in a bowl, then transfer them to the fermentation vessel, making sure to scrape all the salt from the bowl into the container, and press the mixture down with a weight. (A heavy-duty zip-top bag filled with water will do the trick.) Cover the jar or crock with a lid, but don’t seal it so tightly that gas can’t escape.'
+          },
+          {
+            zh: '将蘑菇放在温暖的地方发酵，直到蘑菇释放出大量液体，稍微变黄，并且变酸。在 28°C/82°F 的条件下，这应该需要 5 到 6 天，或者在室温下需要更长的时间，但您应该在最初几天后开始口味测试。如果你在真空密封袋中发酵，如果袋子膨胀，你可能还需要“打嗝”。 （与其他产品相比，蘑菇的问题应该较少。）切开一个角，释放气体，尝尝蘑菇的味道，然后重新密封袋子。',
+            en: 'Ferment the mushrooms in a warm place until they have released much of their liquid, yellowed slightly, and soured nicely. This should take 5 to 6 days at 28°C/82°F, or a few days longer at room temperature, but you should start taste-testing after the first few days. If you’re fermenting in a vacuum-sealed bag, you may also need to “burp” the bag if it balloons. (This should be less of a problem with mushrooms than other products.) Cut a corner open, release the gas, taste the mushrooms, and reseal the bag.'
+          },
+          {
+            zh: '一旦蘑菇达到您想要的酸度和泥土味，请小心地将它们从袋子或发酵容器中取出。通过细网筛过滤果汁。蘑菇及其汁液可以在冰箱中的单独容器中保存几天，而味道不会发生明显变化。为了防止进一步发酵，您还可以将蘑菇单独冷冻在托盘上，然后将其转移到真空密封袋或带拉链的冷冻袋中，排除空气，然后存放在冰箱中。',
+            en: 'Once the mushrooms have reached your desired level of sourness and earthiness, carefully remove them from the bag or fermentation vessel. Strain the juice through a fine-mesh sieve. The mushrooms and their juice can be stored in separate containers in the refrigerator for a few days without a notice-able change in flavor. To prevent further fermentation, you can also freeze the mushrooms individually on a tray, transfer them to vacuum-sealed bags or zip-top freezer bags with the air removed, and store in the freezer.'
+          },
+          {
+            zh: '保留的果汁可以澄清以产生具有浓郁风味的透明液体。为了澄清果汁，将其转移到带盖的冷冻安全容器中并冷冻。一旦果汁冻结成固体，将砖块转移到衬有粗棉布的漏勺中，并将其放在容器上，以在解冻时接住液体。盖上盖子或保鲜膜，放入冰箱完全解冻。沥干后，不要试图拧干粗棉布，因为你最终会迫使蘑菇颗粒穿过。重新冷冻澄清的果汁直至需要。',
+            en: 'The reserved juice can be clarified to produce a clear liquid that is potent with flavor. To clarify the juice, transfer it to a freezer-safe container with a lid and freeze. Once the juice is frozen solid, transfer the brick to a colander lined with cheesecloth and set it over a container to catch the liquid as it thaws. Cover with a lid or plastic wrap and place it in the fridge to thaw completely. Don’t be tempted to wring out the cheesecloth once it’s finished draining, as you’ll end up forcing the mushroom particles through. Refreeze the clarified juice until needed.'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1公斤洗净的cep（牛肝菌）蘑菇，冷冻至少24小时',
+            en: '1 kilogram cleaned cep (porcini) mushrooms, frozen for at least 24 hours'
+          },
+          {
+            zh: '**20 grams non-iodized salt**',
+            en: '**20 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '蜜饯牛肝菌米格纳迪斯',
+              en: 'Candied Cep Mignardises'
+            },
+            answer: [
+              {
+                zh: '在 Noma，我们将发酵蘑菇变成甜点，方法是将整个发酵牛肝菌浸泡在相当于其重量的桦木（或枫树）糖浆中，然后将它们在冰箱中浸泡 2 天。一旦它们变得咸甜酸，我们就会在 40°C/104°F 的脱水机中慢慢干燥它们，直到它们具有太妃糖的耐嚼质地。将它们浸入调温的巧克力中，它们就会变成美味的米格纳迪斯。',
+                en: 'At Noma, we turn fermented mushrooms into dessert by soaking whole fermented ceps in their weight’s worth of birch (or maple) syrup, then leaving them to infuse for 2 days in the fridge. Once they’ve become salty-sweet-sour, we dry them slowly in a dehydrator at 40°C/104°F until they have the chewy texture of toffee. Dip them in tempered chocolate, and they become sublime mignardises.'
+              },
+              {
+                zh: '#### 培根培根油醋汁',
+                en: '#### Cep-Bacon Vinaigrette'
+              },
+              {
+                zh: 'lacto发酵牛肝菌的汁液是我们在Noma经常使用的一种多用途调味工具——它有一种明亮的时髦感，可以让某些成分充满活力。为了感受它的力量，制作这个简单的热油醋汁：将等份的<术语15>-发酵的牛肝菌汁和新鲜的培根脂肪搅拌在一起。用勺子浇在烤平菇、慢烤花椰菜或鹅颈藤壶上。',
+                en: 'The juice from lacto-fermented ceps is a multipurpose seasoning tool we use often at Noma—there’s a bright funki-ness to it that electrifies certain ingredients. To get a sense for its powers, make this simple warm vinaigrette: Whisk together equal parts lacto-fermented cep juice and freshly rendered bacon fat. Spoon over grilled oyster mushrooms, slow-roasted cauliflower, or gooseneck barnacles.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: 'Cep-油伴侣',
+              en: 'Cep-Oil Companion'
+            },
+            answer: [
+              {
+                zh: '牛油果油是 lacto 发酵牛肝菌汁的完美衬托。制作牛肝菌油，将 500 克葡萄籽油和 250 克新鲜牛肝菌放入平底锅中，用中低火加热，直至蘑菇开始冒泡。大约10分钟后，关火，盖上盖子，让油冷却至室温。将锅移至冰箱并浸泡过夜。第二天，滤出油并将油封蘑菇保留以备下次使用。将等份的牛油和lacto发酵的牛肝菌汁搅拌在一起，然后拌入切碎的青葱或切碎的蒜片，您就得到了适合生扇贝或轻煮虾的鲜美调味料。',
+                en: 'A perfect foil for lacto-fermented cep juice is cep oil. To make cep oil, heat 500 grams grapeseed oil and 250 grams fresh ceps in a saucepan over medium-low heat until the mushrooms begin to bubble. After about 10 minutes, cut the heat, cover, and allow the oil to cool to room temperature. Move the pot to the refrigerator and allow to infuse overnight. The following day, strain the oil and keep the confit mushrooms for another use. Whisk together equal parts cep oil and lacto-fermented cep juice, then stir in finely minced shallots or slivered garlic scapes, and you’ve got a sharp, savory dressing for raw scallops or lightly poached shrimp.'
+              },
+              {
+                zh: '*Lacto-fermenting tomatoes doubles down on both their acidity and umami.*',
+                en: '*Lacto-fermenting tomatoes doubles down on both their acidity and umami.*'
+              },
+              {
+                zh: '<!-- text/part0006_split_013.html -->',
+                en: '<!-- text/part0006_split_013.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '12-pumpkin-seed-miso',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '南瓜籽 Miso',
+      en: 'Pumpkin Seed Miso'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '南瓜籽 Miso',
+          en: 'Pumpkin Seed Miso'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 3 kilograms**',
+            en: '**Makes about 3 kilograms**'
+          },
+          {
+            zh: '南瓜籽 miso 是我们在墨西哥图卢姆工作期间的关键成分，在那里我们用它作为 Yucatecandzikilpak 的骨干，Yucatecandzikilpak 是一种由烤南瓜籽制成的浓稠酱汁或蘸酱。回到Copenhagen，南瓜在夏末和秋季非常丰富，而南瓜籽miso的温和浓郁和浓郁的鲜味继续为我们提供良好的服务，无论是在Noma还是我们姐妹餐厅108的菜单上。',
+            en: 'Pumpkin seed miso was a key ingredient during our time working in Tulum, Mexico, where we used it as the backbone for our take on Yucatecandzikilpak, a thick sauce or dip made from toasted pumpkin seeds. Back in Copenhagen, pumpkins are plentiful in the late summer and autumn, and pumpkin seed miso’s mild richness and deep umami continues to serve us well, both at Noma and on the menu of our sister restaurant, 108.'
+          },
+          {
+            zh: '将烤箱加热至 160°C/320°F。将南瓜籽均匀地铺在几张烤盘上，然后在烤箱中烘烤 45 至 60 分钟，直至呈坚果状并变成棕色。搅拌并抛动种子，每隔 10 分钟左右旋转一次烤盘，以确保着色均匀。让种子完全冷却至室温。',
+            en: 'Heat the oven to 160°C/320°F. Spread the pumpkin seeds evenly onto a few baking sheets and toast them in the oven until nutty and browned, 45 to 60 minutes. Stir and toss the seeds and rotate the baking sheets every 10 minutes or so to ensure even coloration. Allow the seeds to cool fully to room temperature.'
+          },
+          {
+            zh: '将种子放入食品加工机中搅拌，直至其质地像一顿美餐，然后转移到一个大碗中。将koji放入食品加工机中并进行加工以将其打碎。将koji添加到磨碎的南瓜籽中。添加盐并用戴手套的手将所有东西彻底混合。',
+            en: 'Pulse the seeds in a food processor until they have the texture of a fine meal, then transfer to a large bowl. Place the koji in the food processor and process to break it up as well. Add the koji to the ground pumpkin seeds. Add the salt and mix everything thoroughly with gloved hands.'
+          },
+          {
+            zh: '使用手持式搅拌机将 4 克盐加入 100 克水中，快速制作 4% 盐水，或搅拌直至盐完全溶解。一次加入一点盐水，直到混合物足够湿，可以在拳头中形成一个紧密而坚固的球，而不会渗出液体或因太干而碎裂。您需要在miso中添加相当多的盐水，使其足够湿润，以促进适当的发酵。但南瓜子有点油，所以太多的水会加速发酵的各个方面，包括脂肪分解成脂肪酸。这可能会导致腐臭的味道（请参阅榛子 Miso 食谱，了解解释）。',
+            en: 'Make a quick 4% salt brine by blending 4 grams salt into 100 grams water with a handheld blender or whisk until the salt has completely dissolved. Add a little bit of the brine at a time until the mixture is wet enough to form a packed and firm ball in your fist without oozing out liquid or crumbling from being too dry. You’ll need to add a fair bit of the brine to this miso to get it wet enough to facilitate a proper fermenta-tion. But pumpkin seeds are a bit oily, so too much water will speed up all facets of fermentation, including the breakdown of fats into fatty acids. This can lead to rancid tastes (see theHazelnut Misorecipe, for an explanation).'
+          },
+          {
+            zh: '将混合物紧紧地装入发酵容器中。将顶部平滑并平整，将容器内部擦拭干净，并在表面撒上盐。根据黄色<术语18>中概述的说明，将南瓜籽<术语9>称重并覆盖。让miso在室温下发酵3至4周。如果超过这个时间，不想要的脂肪酸味道就会开始出现。将完成的miso装入密封罐或容器中，并存放在冰箱或冰柜中。',
+            en: 'Pack the mixture tightly into the fermentation vessel. Smooth and level the top, wipe the insides of the vessel clean, and sprinkle the surface with salt. Weight the pumpkin seed miso down and cover, according to the directions outlined in theYellow Peaso. Let the miso ferment at room temperature for 3 to 4 weeks. Any longer than that, and the unwanted flavors of fatty acids will start to come through. Pack the finished miso in airtight jars or containers and store in the refrigerator or freezer.'
+          },
+          {
+            zh: '*Pumpkin Seed Miso, day 1*',
+            en: '*Pumpkin Seed Miso, day 1*'
+          },
+          {
+            zh: '*Day 14*',
+            en: '*Day 14*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1.8 公斤无盐生去壳南瓜子',
+            en: '1.8 kilograms unsalted raw hulled pumpkin seeds'
+          },
+          {
+            zh: '1.2公斤珍珠薏米Koji',
+            en: '1.2 kilogramsPearl Barley Koji'
+          },
+          {
+            zh: '**120 grams non-iodized salt, plus extra for sprinkling**',
+            en: '**120 grams non-iodized salt, plus extra for sprinkling**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '吉克尔帕克',
+              en: 'Dzikilpak'
+            },
+            answer: [
+              {
+                zh: '尽管我们最初是在寒冷的Copenhagen中开发南瓜籽miso，但我们抓住了这个机会，将其应用到我们位于墨西哥图卢姆的快闪店的菜单上。在那里，我们了解到了 dzikilpak——一种由烤南瓜籽制成的传统墨西哥莎莎酱。这些点实际上是相互连接的。我们在墨西哥制作的酱汁的实际配方有近两打成分，所以在这里我们将提供一个更简单但同样美味的版本。',
+                en: 'Even though we originally developed pumpkin seed miso in chilly Copenhagen, we jumped at the opportunity to employ it on the menu of our pop-up in Tulum, Mexico. There, we were introduced to dzikilpak—a traditional Mexican salsa made from toasted pumpkin seeds. The dots practically connected themselves. The actual recipe for the sauce we made in Mexico has close to two dozen ingredients, so here we’ll offer a simpler but no less delicious version.'
+              },
+              {
+                zh: '将250克西红柿切成块。将 1 个白洋葱、1 个哈瓦那辣椒和 4 瓣大蒜切丁。用中火加热中号炒锅，并涂上植物油。当油开始冒烟时，加入蔬菜，让它们烤焦并发出嘶嘶声，直到西红柿中的液体开始淹没锅并起泡。将平底锅转移到 160°C/320°F 的烤箱中，让混合物煮成浓稠的糊状物，大约需要 30 分钟，每 5 到 10 分钟搅拌一次。将混合物转移到搅拌机中，加入 150 克南瓜籽 miso、一把带茎的香菜和磨碎的 2 个酸橙皮。搅拌混合物，直到它们全部混合成光滑的糊状物（您可能需要添加一点水来帮助搅拌机旋转）。用几勺牛肉Garum或酱油调味。最终的酱汁将是丰富、辛辣、浓稠的，与烤海鲜或任何种类的炸玉米饼搭配都很棒。',
+                en: 'Cut 250 grams tomatoes into chunks. Dice 1 white onion, 1 habanero, and 4 cloves garlic. Heat a medium sauté pan over medium heat and coat with vegetable oil. When the oil is beginning to smoke, add the vegetables and allow them to sear and sizzle until the liquid from the tomatoes begins to flood the pan and bubble. Transfer the pan to a 160°C/320°F oven and allow the mixture to cook down into a thick paste, about 30 minutes, stirring every 5 to 10 minutes. Transfer the mixture to a blender and add 150 grams pumpkin seed miso, a handful of cilantro with the stems, and the grated zest of 2 limes. Blend the mixture until it all comes together as a smooth paste (you may need to add a bit of water to help the blender spin). Season to taste with a few spoonfuls ofBeef Garumor soy sauce. The finished sauce will be rich, spicy, thick, and fantastic with grilled seafood or in tacos of any kind.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '烤生菜',
+              en: 'Grilled Lettuces'
+            },
+            answer: [
+              {
+                zh: '如果您正在寻找一种不太复杂的方法来使用这种发酵剂，请尝试将其与水混合，直到它足够薄，可以像清漆一样刷涂。将年轻的长叶生菜或宝石生菜心切成四分之一，并涂上混合的miso，使其能够进入叶子之间的缝隙。在楔子上淋上一点橄榄油，然后用盐调味，然后在非常热的烤架上面朝下烧烤。将生菜四面轻轻烧焦，然后将其从烤架上取下并转移到盘子上。上面放上碎黑麦油煎面包块和硬奶酪片，如烟熏格鲁耶尔奶酪或高达奶酪。',
+                en: 'If you’re looking for a less involved way to put this ferment to use, try blending it with water until it’s thin enough to be brushed like a lacquer. Quarter young romaine or Gem lettuce hearts and coat with the blended miso, allowing it to work its way into the cracks between the leaves. Drizzle the wedges with a bit of olive oil and season with salt before grilling facedown over a very hot grill. Char the lettuces lightly on all sides before pulling them off the grill and transferring them to a plate. Top with crumbled rye croutons and shavings of firm cheese like smoked Gruyère or Gouda.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '南瓜子<学期10>“冰淇淋”',
+              en: 'Pumpkin Seed Miso “Ice Cream”'
+            },
+            answer: [
+              {
+                zh: '*Pumpkin seed miso gives Yucatecandzikilpaka fermented twist.*',
+                en: '*Pumpkin seed miso gives Yucatecandzikilpaka fermented twist.*'
+              },
+              {
+                zh: '南瓜籽miso用途广泛，甚至在Noma中以冰淇淋的形式出现。将 200 克南瓜籽放入 160°C/320°F 的烤箱中烘烤，直至呈坚果状并呈金黄色。将烤好的南瓜籽放入搅拌机中，加入 200 克南瓜籽 miso、750 克水和 140 克优质蜂蜜。搅拌直至混合物非常光滑，然后将其穿过细细的中国风。将混合物转移到冰淇淋机中并根据制造商的说明进行搅拌。冷冻至坚硬，然后与烤椰子或杏仁一起食用。',
+                en: 'Pumpkin seed miso is so versatile that it has even popped up as an ice cream of sorts at Noma. Toast 200 grams pumpkin seeds in a 160°C/320°F oven until nutty and golden brown. Place the toasted seeds in a blender with 200 grams pumpkin seed miso, 750 grams water, and 140 grams good-quality honey. Blend until the mixture is very smooth, then pass it through a fine chinois. Transfer the mixture to an ice cream maker and churn according to the manufacturer’s instructions. Freeze until firm, then serve with toasted coconut or almond financiers.'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '12-roasted-koji-mole',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '烤<学期6>“鼹鼠”',
+      en: 'Roasted Koji “Mole”'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '烤<学期6>“鼹鼠”',
+          en: 'Roasted Koji “Mole”'
+        },
+        paragraphs: [
+          {
+            zh: '*Pass koji mole through a tamis for a velvety sauce.*',
+            en: '*Pass koji mole through a tamis for a velvety sauce.*'
+          },
+          {
+            zh: '**Makes about 1.5 liters**',
+            en: '**Makes about 1.5 liters**'
+          },
+          {
+            zh: '虽然这不是任何传统意义上的痣，但我们是这样认为的。它具有深度、复杂性和淡淡的甜味，就像我们最喜欢的真正的痣一样。添加一点醋和一些辣椒粉使它更像它的同名者。或者，您也可以在炖菜中添加几勺这种koji摩尔，以获得浓郁和鲜味以及一点浓郁的味道。',
+            en: 'While this isn’t a mole in any traditional sense, we think of it that way. It has depth and complexity and light sweetness like our favorite genuine moles. Adding a splash of vinegar and some ground chile makes it even more like its namesake. Alternatively, you can add a few spoonfuls of this koji mole to a braise for richness and umami as well as a bit of body.'
+          },
+          {
+            zh: '用手指将koji分成小块并将其铺在烤盘上。在 160°C/320°F 的烤箱中烘烤，每 10 分钟转动并摇动koji，以确保烘烤均匀。 45 到 60 分钟后，koji 应闻起来像烘焙咖啡，颜色呈深棕色。从烤箱中取出烤盘并冷却至室温。',
+            en: 'Use your fingers to break the koji into small pieces and spread them on a baking sheet. Roast in the oven at 160°C/320°F, turning and shaking the koji every 10 minutes to make sure it cooks evenly. After 45 to 60 minutes, the koji should smell like roasted coffee and be deep brown in color. Remove the baking sheet from the oven and allow to cool to room temperature.'
+          },
+          {
+            zh: '称出375克冷却后的烘焙koji（原始重量会随着烘焙而改变）并将其放入可密封的容器中。将奶油倒在上面，然后将其放入冰箱中浸泡过夜。',
+            en: 'Weigh out 375 grams of the cooled roasted koji (the original weight will have changed with roasting) and place it in a sealable container. Pour the cream over the top and leave it in the fridge to soak overnight.'
+          },
+          {
+            zh: '将混合物转移到搅拌机中，加入牛奶，然后将所有东西搅拌成光滑的果泥。搅拌大约需要 6 分钟（如果难以抓住，只需再加一点牛奶直至其旋转）。如果你想进一步改善质地，可以在搅拌机中的混合物还热的时候将其通过塔米斯。放入密封容器中，可在冰箱中保存最多 4 天，或冷冻保存最多 6 个月。',
+            en: 'Transfer the mixture to a blender, add the milk, and blend everything into a smooth puree. It should take about 6 minutes of blending (if it has trouble catching, just add a little more milk until it spins). If you want to refine the texture even more, pass the mixture through a tamis while it’s still warm from the blender. Store in an airtight container in the fridge for up to 4 days, or freeze for up to 6 months.'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '500 克珍珠薏米 Koji',
+            en: '500 gramsPearl Barley Koji'
+          },
+          {
+            zh: '500克浓奶油',
+            en: '500 grams heavy cream'
+          },
+          {
+            zh: '**500 grams whole milk**',
+            en: '**500 grams whole milk**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '<学期6> 鼹鼠–釉面土豆',
+              en: 'Koji Mole–Glazed Potatoes'
+            },
+            answer: [
+              {
+                zh: '*New potatoes glazed in roasted koji mole.*',
+                en: '*New potatoes glazed in roasted koji mole.*'
+              },
+              {
+                zh: 'Koji 鼹鼠是煮新土豆或鱼种的绝佳调料。将几把新土豆放入一锅冷盐水中，煮沸。将火调小，煮至土豆变软，然后沥干土豆并将其放回锅中。关掉炉子上的火，趁土豆还热的时候，加入几勺koji摩尔。加盐调味，如果你能负担得起，可以搭配几勺鱼子酱或鳟鱼子。',
+                en: 'Koji mole is a fantastic dressing for boiled new potatoes or fingerlings. Place a couple of handfuls of new potatoes in a pot of cold, salted water and bring to a boil. Reduce the heat and simmer until tender, then drain and return the potatoes to the pot. Kill the heat on the stove and, while the potatoes are still hot, add a couple of spoonfuls of koji mole. Season with salt and, if you can afford it, serve with a couple of spoonfuls of caviar or trout roe.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '不是巧克力',
+              en: 'Not Chocolate'
+            },
+            answer: [
+              {
+                zh: '烤koji很好地变成了摩尔类似物，因为它让人想起巧克力。因此，我们发现它是一种非常独特但熟悉的热巧克力版本。将 60 克 koji 摩尔与 15 克黑砂糖一起混合到 500 克牛奶中。将其加热并在寒冷的冬日享用。',
+                en: 'Roasted koji turns into a mole analogue so well because it is reminiscent of chocolate. As such, we’ve found it makes a very distinct yet familiar version of hot chocolate. Blend 60 grams koji mole into 500 grams milk, along with 15 grams muscovado sugar. Warm it up and enjoy on a chilly winter’s day.'
+              },
+              {
+                zh: '<!-- text/part0009_split_013.html -->',
+                en: '<!-- text/part0009_split_013.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '12-yeast-garum',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '酵母<第8学期>',
+      en: 'Yeast Garum'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '酵母<第8学期>',
+          en: 'Yeast Garum'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 2.5 liters**',
+            en: '**Makes about 2.5 liters**'
+          },
+          {
+            zh: '本章中的所有其他garum都是用动物蛋白制成的，但动物并不是唯一富含蛋白质的生物体。酵母，我们主要用作发酵剂，也可以自行发酵成美味的素食garum。新鲜的面包酵母可以在优质杂货店的冷藏区或网上找到，有时也以“压缩酵母”或“蛋糕酵母”的形式出售。如果你还没有做这个食谱要求的黄色Peaso，你可以用商店买的miso来代替；目标是口味较轻的品种，如 okasan 或 shiro miso。',
+            en: 'All the other garums in this chapter have been made with animal proteins, but animals are not the only protein-rich organisms. Yeast, which we mostly use as an agent of fermentation, can also be fermented itself into a delicious vegan garum. Fresh baker’s yeast can be found in the refrigerated section of good grocery stores or online, and is also sometimes sold as “compressed yeast” or “cake yeast.” And if you haven’t made the Yellow Peaso this recipe calls for, you can substitute store-bought miso; aim for a lighter variety like okasan or shiro miso.'
+          },
+          {
+            zh: '牛肉 Garum 的深入说明可作为本章中所有 garum 食谱的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forBeef Garumserve as a template for all the garum recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将烤箱加热至 160°C/320°F。在烤盘上铺上羊皮纸。将面包酵母弄碎，放在铺有衬里的烤盘上，烘烤约 1 小时，直至其变成深棕色，闻起来有坚果和肉的味道。从烤箱中取出酵母并使其冷却。',
+            en: 'Heat the oven to 160°C/320°F. Line a baking sheet with parchment paper. Crumble the baker’s yeast onto the lined baking sheet and roast it until it turns deep brown and smells nutty and meaty, about 1 hour. Remove the yeast from the oven and allow it to cool.'
+          },
+          {
+            zh: '面包酵母在烤箱中会损失很多重量；称量 75 克，与其余成分一起放入搅拌机中混合。将所有成分混合在一起，直到形成光滑的糊状物，大约需要 45 秒。转移到您选择的 3 升发酵容器中。用戴手套的手或橡皮刮刀刮掉容器的内侧，然后将一张保鲜膜直接放在液体表面上。用盖子或更多保鲜膜紧紧盖住容器。将garum在60°C/140°F的发酵室中或在“保温”的电饭锅中发酵4周，每周搅拌一次。一旦完成，garum应该是肉质的、丰富的、酸的、充满鲜味的，具有华丽、闪亮的深棕色色调。',
+            en: 'The baker’s yeast will lose a lot of weight in the oven; measure 75 grams of it and combine with the rest of the ingredients in a blender. Blend all the ingredients together until you have a smooth paste, about 45 seconds. Transfer to a 3-liter fermentation vessel of your choice. Scrape down the inner sides of the container with gloved hands or a rubber spatula and lay a sheet of plastic wrap directly on the surface of the liquid. Cover the vessel tightly with a lid or more plastic wrap. Ferment the garum in a fermentation chamber at 60°C/140°F or in an electric rice cooker on “keep warm” for 4 weeks, stirring once a week. Once finished, the garum should be meaty, rich, sour, and full of umami, with a gorgeous, shiny, deep brown hue.'
+          },
+          {
+            zh: '收获时，将garum捣成细糊状，然后将其通过衬有粗棉布的细网筛。将浓稠的garum舀入罐子或另一个有盖的容器中。 garum 非常稳定，可以在冰箱中保存数月。您也可以将其冷冻以延长保存时间，而不会产生任何负面影响。',
+            en: 'To harvest, puree the garum into a fine paste and pass it through a fine-mesh sieve lined with cheesecloth. Spoon the thick garum into jars or another covered container. The garum is very stable and will keep well in the fridge for months. You can also freeze it for longer storage without any negative effects.'
+          },
+          {
+            zh: '*Yeast Garum, day 1*',
+            en: '*Yeast Garum, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 30*',
+            en: '*Day 30*'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '300克新鲜面包酵母',
+            en: '300 grams fresh baker’s yeast'
+          },
+          {
+            zh: '725克营养酵母',
+            en: '725 grams nutritional yeast'
+          },
+          {
+            zh: '250 克黄色 Peaso',
+            en: '250 gramsYellow Peaso'
+          },
+          {
+            zh: '225 克珍珠薏米 Koji',
+            en: '225 gramsPearl Barley Koji'
+          },
+          {
+            zh: '1公斤水',
+            en: '1 kilogram water'
+          },
+          {
+            zh: '**200 grams non-iodized salt**',
+            en: '**200 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '烟熏鹰嘴豆泥',
+              en: 'Smoked Hummus'
+            },
+            answer: [
+              {
+                zh: '当Noma的第二次迭代正在Copenhagen的Christiania社区的郊区建设时，我们在市中心的运河边举办了一系列休闲的快闪晚宴。我们的黎巴嫩主厨 Tarek Alameddine 制作了这款令人难以置信的鹰嘴豆泥，供客人坐在酒吧里享用。首先，将鹰嘴豆与干草（标准木片也可以）冷熏约 1 小时。从这里开始，这是一个非常简单的鹰嘴豆泥配方：将 500 克烟熏鹰嘴豆与 75 克芝麻酱、75 克酵母garum、一瓣大蒜和适量橄榄油混合。让机器运行 5 分钟，以便制作出真正光滑的鹰嘴豆泥。最后撒上 1 个柠檬皮和柠檬汁。',
+                en: 'While Noma’s second iteration was under construction on the outskirts of Copenhagen’s Christiania neighborhood, we held a series of casual pop-up dinners by the canal in the center of the city. Our Lebanese chef de partie, Tarek Alameddine, made this incredible hummus for guests to snack on while sitting at the wine bar. First, cold-smoke the chickpeas with hay (standard wood chips will work, too) for about 1 hour. From there, it’s a pretty straightforward hummus recipe: Blend 500 grams smoked chickpeas with 75 grams tahini, 75 grams yeast garum, a clove of garlic, and a healthy splash of olive oil. Allow the machine to run for a good 5 minutes in order to yield a really smooth hummus. Finish it off with the zest and juice of 1 lemon.'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '13-black-garlic-balsamic',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '黑蒜香醋',
+      en: 'Black Garlic Balsamic'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '黑蒜香醋',
+          en: 'Black Garlic Balsamic'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 5 liters (before aging)**',
+            en: '**Makes about 5 liters (before aging)**'
+          },
+          {
+            zh: '在Noma，我们不断寻找利用发酵来减少各种食物浪费的方法。这种醋的原始版本是用黑蒜瓣制作一种水果皮时留下的大量黑蒜皮的结果。我们对这个食谱进行了修改，使用整个大蒜头、皮等等。接骨木酒香醋的深入说明也可以作为这种醋的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'At Noma, we’re constantly seeking ways to use fermentation to reduce food waste of all kinds. The original version of this vinegar was a result of an abundance of black garlic skins left over from making a sort of fruit leather out of black garlic cloves. We’ve adapted this recipe to use the whole heads of garlic, skins and all. The in-depth instructions forElderberry Wine Balsamicserve as a template for this vinegar as well. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将黑蒜头、皮和全部横向切成两半，然后将每一半垂直切成 4 片。将水和糖放入一个大锅中，将混合物煮沸，搅拌以溶解糖。加入大蒜，然后降低热量，使液体几乎不冒蒸汽。盖上盖子，将其放在炉子上 1 小时，然后从火上移开，冷却至室温。冷却后，将盖好的黑蒜汤转移到冰箱中继续浸泡过夜。',
+            en: 'Cut the heads of black garlic in half laterally, skins and all, then slice each half vertically into 4 pieces. Place the water and sugar in a large pot and bring the mixture to a simmer, whisking to dissolve the sugar. Add the garlic, then lower the heat so that the liquid is barely steaming. Let it sit, covered, on the stove for 1 hour, then remove from the heat and allow to cool to room temperature. Once cooled, transfer the covered black garlic stock to the fridge to continue to infuse overnight.'
+          },
+          {
+            zh: '将高汤通过chinois滤入碗中，用勺子挤出尽可能多的液体，但不要将任何大蒜肉推入其中。将过滤后的原料通过衬有粗棉布的筛子。将酵母加入黑蒜高汤中，用干净的勺子搅拌，然后转移到发酵容器中。合上桶盖，确保其气密，然后向气闸室注满水，并将其插入橡胶塞中。让原料在阴凉的房间里发酵 2 到 3 周。现在你就有了黑蒜酒。它应该有明显的酒精味，同时仍然有大量的残留甜味。',
+            en: 'Strain the stock through a chinois into a bowl, using a ladle to force out as much liquid as possible without pushing any of the garlic’s flesh through. Pass the strained stock through a cheesecloth-lined sieve. Add the yeast to the black garlic stock, stir it with a clean spoon, and transfer to the fermentation vessel. Snap the bucket lid shut, ensuring that it’s airtight, then fill the airlock with water and insert it into the rubber stopper. Allow the stock to ferment in a cool room for 2 to 3 weeks. You now have black garlic wine. It should be noticeably alcoholic, while still having a good amount of residual sweetness.'
+          },
+          {
+            zh: '将黑蒜酒通过衬有粗棉布的筛子过滤，然后将其转移到二次发酵容器中 - 可以是发酵葡萄酒时使用的同一个桶，也可以是 5 升的广口罐。称量葡萄酒和背坡，加入葡萄酒重量 20% 的未经高温消毒的苹果醋。将空气石放入液体中，使其位于容器底部，然后将软管从顶部延伸到空气泵。用粗棉布或透气的厨房毛巾盖住容器，并用橡皮筋固定。如有必要，用胶带覆盖软管留下的间隙，然后打开泵。',
+            en: 'Strain the black garlic wine through a cheesecloth-lined sieve and transfer it to the secondary fermentation vessel—either the same bucket you used to ferment the wine or a 5-liter wide-mouthed jar. Weigh the wine and backslop with 20% of the wine’s weight in unpasteurized apple cider vinegar. Place the air stone in the liquid so it rests on the bottom of the vessel and run the hose out the top to the air pump. Cover the vessel with cheesecloth or a breathable kitchen towel and secure with a rubber band. Tape over the gap left by the hose if necessary and turn on the pump.'
+          },
+          {
+            zh: '让酒在室温下发酵成醋约14天。品尝醋以确保产生了足够的乙酸。过滤醋，然后将其转移到木桶中陈酿和还原。将木桶放置在阴凉的房间或地下室中，最好在 18°C/64°F 左右。您可以将其陈放多年，并且它的特性会不断增强。仅仅一年后，您就会注意到巨大的差异，但如果您想放置更长时间，将其倒入较小的桶中，您的耐心将会得到回报。',
+            en: 'Allow the wine to ferment into vinegar at room temperature for about 14 days. Taste the vinegar to ensure enough acetic acid has been produced. Strain the vinegar and then transfer it to the wooden barrel to age and reduce. Leave the barrel to rest in a cool room or basement, ideally around 18°C/64°F. You can age this for years and it will continue to grow in character. After just one year, you’ll notice a tremendous difference, but should you want to leave it for longer, decanting it into decreasing barrel sizes as you go, your patience will be rewarded.'
+          },
+          {
+            zh: '*Black Garlic Balsamic, day 1*',
+            en: '*Black Garlic Balsamic, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 14*',
+            en: '*Day 14*'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '500 克黑蒜',
+            en: '500 gramsBlack Garlic'
+          },
+          {
+            zh: '3.375公斤水',
+            en: '3.375 kilograms water'
+          },
+          {
+            zh: '1.125公斤糖',
+            en: '1.125 kilograms sugar'
+          },
+          {
+            zh: '1 包（40 毫升）霞多丽酵母',
+            en: '1 packet (40 milliliters) Chardonnay yeast'
+          },
+          {
+            zh: '**Unpasteurized apple cider vinegar**',
+            en: '**Unpasteurized apple cider vinegar**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '中国黑醋的替代品',
+              en: 'Substitute for Chinese Black Vinegar'
+            },
+            answer: [
+              {
+                zh: '黑蒜醋，无论是新鲜的还是桶装的，都可以在任何使用中国黑醋的地方使用。黑蒜醋小模子，只加一滴芝麻油和少许辣椒油，是近乎完美的饺子或包子蘸酱。像白菜或芥兰这样松脆的绿色蔬菜，刚蒸熟，还很热，需要撒上一点黑蒜醋，然后用香松调味，香松是一种由烤海藻、鲣鱼和芝麻制成的日本干配料。',
+                en: 'Black garlic vinegar, whether young or barrel-aged, can be used anywhere you’d use Chinese black vinegar. A ramekin of black garlic vinegar, embellished with nothing more than a drop of sesame oil and a splash of chili oil, makes for a near-perfect dipping sauce for dumplings or steamed buns. Crunchy greens like bok choy or gai lan, freshly steamed and still hot, beg to be tossed in a splash of black garlic vinegar and seasoned with furikake, the Japanese dried topping made of toasted seaweed, katsuobushi, and sesame seeds.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '黑蒜醋和黑麦酱',
+              en: 'Black Garlic Vinegar and Ryeso Sauce'
+            },
+            answer: [
+              {
+                zh: '*Muddle ryeso with black garlic balsamic for a potent, umami-rich dipping sauce or seasoning paste.*',
+                en: '*Muddle ryeso with black garlic balsamic for a potent, umami-rich dipping sauce or seasoning paste.*'
+              },
+              {
+                zh: '黑蒜醋的另一个名义上的亚洲用途是对中国黑豆和蒜酱的重新诠释。我们将使用书中的另一种发酵物来代替干燥和发酵的中国黑豆（豆豉）：Ryeso。在研钵和研杵中，将 100 克黑麦研磨至几乎光滑，然后加入 50 克黑蒜醋，继续搅拌混合物直至充分混合。 （理想情况下，你会使用桶陈醋，因为它的粘度更浓，但如果你不耐烦，又没有一年的时间可以消磨，你可以轻松地将平底锅中的新鲜醋减少三分之二，然后与黑麦混合。）用盐调味，最后撒上磨碎的新鲜辣根，它会加入辣椒油的温热。这与你习惯的酱汁有很大不同，但它模仿了发酵黑豆的甜味麦芽味，这要归功于制作黑麦和黑蒜时发生的缓慢焦糖化。无论是蘸酱还是直接涂在上面，它都是红肉的绝妙搭配。如果您发现自己错过了发酵黑豆的味道，请毫不犹豫地添加几滴鱿鱼Garum。',
+                en: 'Another nominally Asian use for black garlic vinegar is a reinterpretation of Chinese black bean and garlic sauce. In place of the dried and fermented Chinese black beans (douchi), we’ll use another ferment from the book:Ryeso. In a mortar and pestle, grind 100 grams ryeso until almost smooth, then add 50 grams black garlic vinegar, continuing to muddle the mixture until well incorporated. (Ideally, you’d use barrel-aged vinegar for its thicker viscosity, but if you’re impatient and don’t have a year to kill, you can just as easily reduce fresh vinegar in a pan by two-thirds before mixing it with the ryeso.) Season with salt and finish with grated fresh horseradish, which will step in for the warm heat of chili oil. This is a much different beast than the sauce you’re used to, but it mimics the sweet malted notes of fermented black beans thanks to the slow caramelization that occurs in making both the ryeso and the black garlic. It serves as an amazing accompaniment to red meats, whether as a dip or slathered directly over top. If you find you’re missing the telltale funk of the fermented black beans, don’t hesitate to add a few drops ofSquid Garum.'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '13-cleanliness-pathogens-and-safety',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '清洁度、病原体和安全',
+      en: 'Cleanliness, Pathogens, and Safety'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '13-koji-cure-shio-koji',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: 'Koji治愈（Shio Koji）',
+      en: 'Koji Cure (Shio Koji)'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: 'Koji治愈（Shio Koji）',
+          en: 'Koji Cure (Shio Koji)'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes about 800 grams**',
+            en: '**Makes about 800 grams**'
+          },
+          {
+            zh: 'Shio koji 是盐和 koji 的混合物，在日本广泛用作肉类和鱼类的腌料以及调味品。作为一种治疗方法，它可以同时调味和嫩化，因为 koji 产生的蛋白酶会分解动物蛋白。',
+            en: 'Shio kojiis a mixture of salt and koji used widely in Japan as a cure for meats and fish as well as a condiment. As a cure, it simultaneously seasons and tenderizes, as the protease produced by koji breaks down animal proteins.'
+          },
+          {
+            zh: '将koji、水和盐放入搅拌机中搅拌。你不需要光滑的糊状物，只需要均匀的混合物。如果您想获得 koji 的酶促功效，请立即将其用作腌料（见下文）。但如果你放置的时间更长，混合物会有效地自行发酵，提供更深的味道，而盐则会退一步。相对较高的盐含量可以使其在盖好盖子的情况下在冰箱中保存数周。',
+            en: 'Whir the koji, water, and salt together in a blender. You don’t need a smooth paste, just a uniform mixture. If you want to reap the enzymatic benefits of koji, use it immediately as a marinade (see below). But if you leave it longer, the mixture effectively ferments itself, offering up deeper flavors, while the salt takes a step back. The relatively high salt content will allow it to keep well, covered, in the fridge for weeks.'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '400 克任何品种的 koji',
+            en: '400 grams koji of any variety'
+          },
+          {
+            zh: '400克水',
+            en: '400 grams water'
+          },
+          {
+            zh: '**40 grams sea salt**',
+            en: '**40 grams sea salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '腌料',
+              en: 'Marinade'
+            },
+            answer: [
+              {
+                zh: 'Shio koji 通常用作腌料。它可以改善肉类的质地和风味，而肉类通常需要一些额外的帮助才能通过嫩化、调味以及赋予鲜味和花香甜味来发挥其味觉潜力。我们发现它对于猎鸟非常有效，但对于普通的日常鸡也同样如此。对于 1 公斤/2 ¼ 磅的鸡肉，在鸡肉的所有皮肤上涂上一层薄薄的 koji 固化剂，并在烘烤前将其在室温下静置约 3 小时。如果鸟较小，例如一只 500 克/1 磅的康沃尔母鸡，则将腌制时间缩短一半。较大的鸟类，例如鸭子，很容易需要 4.5 小时才能治愈。火鸡、猪肉和侧腹牛排也都可以从盐koji摩擦中受益匪浅。安康鱼、梭子鲈鱼或黑鳕鱼等肉质较丰富的鱼类，只要稍加腌制时间就可以吃得很好，这样可以使质地变硬，并将调味料和风味带入肉中。请注意：鱼比鸟类或红肉更脆弱，因此在腌制时需要更加勤奋。注意细节：鱼片有多厚？它逐渐变细吗？如果是这样，请在较薄的部分涂抹较少的盐koji。一块 160 克的厚块黑鳕鱼只需在上面涂上一层薄薄的腌料 30 分钟，就会变得太咸。对于较薄的鱼片，目标是将时间缩短至 15 或 20 分钟。',
+                en: 'Shio koji is classically used as a marinade. It improves the texture and flavor of meats that often need a little extra help to reach their taste potential by tenderizing, seasoning, and imparting umami and floral sweetness. We find it works ex-tremely well with game birds, but no less so with the common everyday chicken. For a 1-kilogram / 2¼-pound chicken, slather all of the bird’s skin with a thin layer of koji cure and let it sit at room temperature for about 3 hours before roasting. If the bird is smaller—say, a 500-gram / 1-pound Cornish hen—then cut the curing time in half. A larger bird, such as a duck, can easily take 4½ hours to cure. Turkey, pork, and flank steak also all benefit greatly from a shio koji rub. Meatier varieties of fish like monkfish, pike-perch, or black cod all fare well with a little time in the cure, which firms up texture and drives seasoning and flavor into the flesh. Just be careful: Fish are more delicate than birds or red meat and thus more diligence is needed when curing. Pay attention to the details: How thick is the fillet? Does it taper? If so, apply less shio koji to the thinner sections. A good, chunky 160-gram portion of black cod can spend as little as 30 minutes covered in a thin layer of cure before it becomes too salty. For thinner fillets, aim to cut that time to 15 or 20 minutes.'
+              },
+              {
+                zh: '最后，在烹饪任何在盐koji中固化的东西之前，请确保尽可能多地去除它。勺子或黄油刀背是刮掉固化物的有用工具，然后用纸巾轻轻擦拭。',
+                en: 'Finally, before cooking anything you cure in shio koji, be sure to remove as much of it as possible. A spoon or the back of a butter knife is a useful tool for scraping off the cure, followed by a gentle wipe with a paper towel.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '盐 Koji 黄油',
+              en: 'Shio Koji Butter'
+            },
+            answer: [
+              {
+                zh: '*Shio kojiis a paste of water, salt, and barley koji.*',
+                en: '*Shio kojiis a paste of water, salt, and barley koji.*'
+              },
+              {
+                zh: '有些人喜欢将 shio koji 直接涂在面包上或作为牛油果吐司的底漆。如果你觉得味道有点太浓，可以尝试将一茶匙盐koji与几汤匙软化黄油混合，形成一种复合黄油，可以浇在烤玉米或烤土豆上，也可以用来完成粥或炖菜。',
+                en: 'Some people enjoy shio koji as a straight-up spread on bread or as a primer for avocado toast. If the taste is a little too strong for you, try mixing a teaspoon of shio koji into a couple of tablespoons of softened butter to form a compound butter that can top grilled corn or baked potatoes, or be used to finish porridges or stews.'
+              },
+              {
+                zh: '*Cure a Cornish hen in shio koji to season and tenderize it at the same time.*',
+                en: '*Cure a Cornish hen in shio koji to season and tenderize it at the same time.*'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '13-lacto-tomato-water',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<学期16>番茄水',
+      en: 'Lacto Tomato Water'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<学期16>番茄水',
+          en: 'Lacto Tomato Water'
+        },
+        paragraphs: [
+          {
+            zh: '*Slowly straining lacto tomatoes separates the pulp from the tomato water.*',
+            en: '*Slowly straining lacto tomatoes separates the pulp from the tomato water.*'
+          },
+          {
+            zh: '**Makes 1 kilogram lacto tomatoes and tomato water**',
+            en: '**Makes 1 kilogram lacto tomatoes and tomato water**'
+          },
+          {
+            zh: '西红柿已经是一种带有大量鲜味的酸性水果，所以lacto发酵的目的不是让它们进一步变酸，而是创造一种酸甜的轻微平衡，几乎让你误以为你正在吃煮熟的番茄酱。与许多这些 lacto 发酵物一样，lacto 西红柿中的水在调味品和酱汁中非常有用。但这并不是说您应该丢弃果肉！切碎成糊状后，可以将其折叠成鞑靼羊肉，或涂在新鲜奶酪的吐司片上，或与意大利乳清干酪混合制成烤宽面条馅料。',
+            en: 'Tomatoes are already an acidic fruit with lots of umami, so the aim of lacto-fermenting them is not to sour them too much further, but rather to create a light balance of sour and sweet that almost fools you into thinking you’re eating a cooked tomato sauce. As with so many of these lacto-ferments, the water from the lacto tomatoes is extremely useful in dressings and sauces. But that’s not to say you should discard the pulp! Minced into a paste, it can be folded into lamb tartare, or spread on pieces of toast with fresh cheese, or blended with ricotta cheese for a lasagna filling.'
+          },
+          {
+            zh: '<术语16>李子的深入说明可作为本章中所有乳酸发酵配方的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLacto Plumsserve as a template for all the lactic fermentation recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '去掉西红柿的茎，如果西红柿较小，则将其切成四份；如果较大，则将其切成八分之一。',
+            en: 'Remove the stems from the tomatoes, and cut them into quarters if they’re small or eighths if they’re larger.'
+          },
+          {
+            zh: '*Lacto Tomato Water, day 1 (vacuum-sealed)*',
+            en: '*Lacto Tomato Water, day 1 (vacuum-sealed)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在真空袋中发酵：将西红柿和盐放入真空袋中，搅拌均匀。将番茄块单层排列，然后以最大吸力密封袋子。确保将袋子密封得尽可能靠近开口，留出足够的空间，以便您可以切开袋子以排出积聚的气体，然后重新密封。',
+            en: 'If fermenting in a vacuum bag:Place the tomatoes and salt in the vacuum bag and toss to mix the contents thoroughly. Arrange the tomato chunks in a single layer, then seal the bag on maximum suction. Be sure to seal the bag as close to the opening as possible, leaving headroom that will allow you to cut open the bag to vent any gas that accumulates and then reseal it.'
+          },
+          {
+            zh: '*Lacto Tomato Water, day 1 (in a jar)*',
+            en: '*Lacto Tomato Water, day 1 (in a jar)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在罐子或瓦罐中发酵：将盐和西红柿一起放入碗中混合，然后将它们转移到发酵容器中，确保将碗中的所有盐刮到容器中，然后用重物将混合物压紧。 （一个装满水的重型拉链袋就可以了。）用盖子盖住罐子或瓦罐，但不要密封得太紧，以免气体逸出。',
+            en: 'If fermenting in a jar or crock:Mix the salt and tomatoes together in a bowl, then transfer them to the fermentation vessel, making sure to scrape all the salt from the bowl into the container, and press the mixture down with a weight. (A heavy-duty zip-top bag filled with water will do the trick.) Cover the jar or crock with a lid, but don’t seal it so tightly that gas can’t escape.'
+          },
+          {
+            zh: '将西红柿放在温暖的地方发酵，直到它们释放出大量液体并显着软化。在 28°C/82°F 下这需要 4 到 5 天，或者在室温下需要更长的时间，但您应该在最初几天后开始品尝。如果你在真空密封袋中发酵，当袋子膨胀时，你还需要“打嗝”。切开一个角，释放气体，尝尝西红柿的味道，然后重新密封袋子。',
+            en: 'Ferment the tomatoes in a warm place until they have released much of their liquid and softened considerably. This should take 4 to 5 days at 28°C/82°F, or a few days longer at room temperature, but you should start taste-testing after the first few days. If you’re fermenting in a vacuum-sealed bag, you’ll also need to “burp” the bag whenever it balloons up. Cut a corner open, release the gas, taste the tomatoes, and reseal the bag.'
+          },
+          {
+            zh: '一旦您对西红柿的味道感到满意，就可以在细网筛上铺上粗棉布，然后将其放在碗上。将发酵的西红柿及其液体倒入筛子中，用保鲜膜包裹所有东西，然后将其在冰箱中沥干过夜。第二天，用手用力敲打筛子，将所有液体挤出来，但不要挤压果肉。',
+            en: 'Once you’re happy with the flavor of your tomatoes, line a fine-mesh sieve with cheesecloth and set it over a bowl. Pour the fermented tomatoes and their liquid into the sieve, wrap everything in plastic wrap, and leave it to drain overnight in the fridge. The next day, give the sieve a few sharp raps with your hand to coax out all the liquid, but don’t press on the pulp.'
+          },
+          {
+            zh: '番茄水和果肉可以在冰箱中的单独容器中保存几天，味道不会发生明显变化。为了防止进一步发酵，您还可以将它们单独冷冻在真空密封袋或带拉链的冷冻袋中，并排除空气。',
+            en: 'The tomato water and the pulp can be stored in separate containers in the refrigerator for a few days without a noticeable change in flavor. To prevent further fermentation, you can also freeze them separately in vacuum-sealed bags or zip-top freezer bags with the air removed.'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1公斤熟番茄',
+            en: '1 kilogram ripe tomatoes'
+          },
+          {
+            zh: '**20 grams non-iodized salt**',
+            en: '**20 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '<学期16>西红柿和海鲜',
+              en: 'Lacto Tomatoes and Seafood'
+            },
+            answer: [
+              {
+                zh: '几乎任何从乳酸发酵中收获的液体都可以用来腌制或调味海鲜——lacto西红柿的水也不例外。用您喜欢的切碎香草（尝试莳萝、细香葱、罗勒或紫苏）给lacto番茄水调味，然后加入两勺橄榄油搅拌。如果您愿意，可以添加一点shoyu以增加鲜味和效力，但如果没有它，酱汁的味道会更新鲜。将调料淋在生牡蛎、蛤蜊或新鲜鲈鱼片或梭鲈片上。',
+                en: 'Almost any liquid harvested from a lactic ferment can be used to marinate or dress seafood—the water of lacto tomatoes being no exception. Season the lacto tomato water with your preferred chopped herb—try dill, chives, basil, or shiso—then finish by whisking in two spoonfuls of olive oil. Add a splash of shoyu for umami and potency, if you like, but the sauce will taste much fresher without it. Use the dressing to top raw oysters, clams, or slices of fresh bass or pike-perch.'
+              },
+              {
+                zh: '<术语16>-发酵液体不仅可以用于海鲜的精加工，还可以是有效的烹饪介质。尝试用lacto番茄水蒸贻贝，直接用酸咸的lacto番茄水代替通常的白葡萄酒。',
+                en: 'Lacto-fermented liquids are not only forfinishingseafood—they can be a potent cooking medium, too. Try steaming mussels in lacto tomato water, replacing the usual white wine directly with sour-salty lacto tomato water.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '番茄水泡菜',
+              en: 'Tomato-Water Pickles'
+            },
+            answer: [
+              {
+                zh: 'Lacto 番茄水具有腌制一批快速、新鲜泡菜所需的全部酸度。下次邀请朋友过来参加烧烤或花园派对时，尝试将一些您最喜欢的脆脆蔬菜（胡萝卜、萝卜、芹菜）切成片，然后用lacto番茄水覆盖它们。加入少许盐，放入冰箱腌制至少 2 小时，或最好过夜。将稍微腌制的蔬菜沥干并摆好，供您的客人在做晚餐时咀嚼。如果你能让你的孩子喜欢吃这些新鲜的泡菜，你就会一直有一份简单的零食在手边。',
+                en: 'Lacto tomato water has all the acidity you need to cure a batch of quick, fresh pickles. Next time you’re having friends over for a barbecue or garden party, try slicing up a few of your favorite crunchy vegetables—carrots, radishes, celery—and covering them with lacto tomato water. Add a sprinkle of salt and let marinate in the fridge for a minimum of 2 hours, or preferably overnight. Drain and set out the lightly pickled vegetables for your guests to munch on while you make dinner. If you can turn your kids on to fresh pickles like these, you’ll have an easy snack on hand all the time.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '番茄酱',
+              en: 'Tomato Sauce'
+            },
+            answer: [
+              {
+                zh: '您可以将lacto发酵番茄的果肉视为商店购买的番茄酱的替代品。它更咸更酸，但也很丰富。下次制作 aragù Bolognese 时，用 lacto 发酵番茄浆替换四分之一体积的碎番茄。如果你发现它太酸，一勺蜂蜜将有助于平衡它。',
+                en: 'You can think of the pulp of lacto-fermented tomatoes as a replacement for store-bought tomato sauce. It’s saltier and sourer, but it has richness as well. Next time you make aragù Bolognese, replace one-quarter of the volume of your crushed tomatoes with lacto-fermented tomato pulp. If you find it too acidic, a spoonful of honey will help balance it out.'
+              },
+              {
+                zh: '或者将乡村面包片放入平底锅中，每一面都涂上优质橄榄油，然后加盐调味。趁面包还热的时候，在面包上撒一大勺lacto番茄浆。这是一个完美的意式烤面包，但如果你愿意，你可以用撕碎的罗勒叶或帕尔马干酪刨花装饰。如果你真的想锦上添花，可以在整个东西上覆盖一片薄薄的火腿。',
+                en: 'Or toast slices of country loaf on each side in a pan with good olive oil and season with salt. While the bread is still warm, spread a big spoonful of lacto tomato pulp over the bread. It’s a flawless bruschetta as is, but if you like, you can garnish with torn leaves of basil or shavings of Parmigiano. If you really want to gild the lily, drape a thin slice of ham over the whole thing.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期16>番茄皮革',
+              en: 'Lacto Tomato Leather'
+            },
+            answer: [
+              {
+                zh: '您可以将lacto发酵番茄的果肉干燥成美味的耐嚼零食。高速混合果肉和种子，因为它们添加了果胶，为皮革提供了质感，直至光滑。将果泥通过细网筛，然后将其薄薄地铺在衬有硅胶垫的烤盘上。在低温烤箱（约 50°C/122°F）中干燥直至呈皮革状，并冷却，然后将其剥成薄片；您也可以使用脱水机。直接吃或者涂上一点蜂蜜都是一种享受。',
+                en: 'You can dry the pulp of lacto-fermented tomatoes into a fantastic chewy snack. Blend the pulp—seeds, too, as they add pectin, which provides body to the leather—on high speed until smooth. Pass the puree through a fine-mesh sieve and spread it in a thin layer on a sheet pan lined with a silicone mat. Dry in a low oven (around 50°C/122°F) until leathery and allow to cool before peeling it away in sheets; you can also use a dehydrator for this. It’s a treat to eat as is or brushed with a bit of honey.'
+              },
+              {
+                zh: '*Lacto tomato water mixed with fresh dill makes a savory, herbaceous dressing for seafood.*',
+                en: '*Lacto tomato water mixed with fresh dill makes a savory, herbaceous dressing for seafood.*'
+              },
+              {
+                zh: '*Lacto-fermented white asparagus has an ideal crunch, balanced bitterness, acidity, and umami.*',
+                en: '*Lacto-fermented white asparagus has an ideal crunch, balanced bitterness, acidity, and umami.*'
+              },
+              {
+                zh: '<!-- text/part0006_split_014.html -->',
+                en: '<!-- text/part0006_split_014.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '14-clostridium-botulinum',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '肉毒杆菌',
+      en: 'Clostridium botulinum'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '肉毒杆菌',
+          en: 'Clostridium botulinum'
+        },
+        paragraphs: [
+          {
+            zh: '肉毒梭菌是导致肉毒杆菌中毒的孢子细菌。它是一种厌氧细菌，在营养丰富、温暖的环境中繁衍生息。它的孢子通常休眠在土壤和水中，等待有利的条件来繁殖并释放强效的神经毒素。仅摄入一微克肉毒杆菌毒素就足以引起严重疾病。您无法品尝或闻到肉毒杆菌毒素，因此保证安全的唯一方法是仔细注意最佳实践。',
+            en: 'C. botulinumis the sporulating bacteria responsible for botulism. It is an anaerobic bacteria that thrives in nutrient-rich, warm environments. Its spores are commonly found dormant in soil and water, waiting for favorable conditions to propagate and release potent neurotoxins. Ingesting just a microgram of botulism toxin is enough to cause serious illness. You cannot taste or smell botulism toxin, and thus the only way to guarantee safety is through careful attention to best practices.'
+          },
+          {
+            zh: '虽然肉毒杆菌中毒的情况很少见，但通常出现在冷藏不当的动物产品或罐装蔬菜产品中（罐装温度不够热和/或罐装液体酸性不够）。由于细菌的孢子经常存在于土壤中，因此在发酵根、球茎和块茎时应特别注意。例如，在制作黑蒜时，您将根类蔬菜保存在温暖的厌氧环境中。然而，C.肉毒杆菌无法在 60°C/140°F 的持续温度下存活。您的责任是确保您的加热室不会低于该阈值。',
+            en: 'Though cases of botulism poisoning are rare, it’s usually found in improperly refrigerated animal products or improperly canned vegetable products (where canning temperatures were not hot enough and/or the canning liquid was not sufficiently acidic). Given that the spores of the bacteria are often found in the soil, special attention should be paid when fermenting roots, bulbs, and tubers. When making black garlic, for example, you’re keeping a root vegetable in an anaerobic environment at a warm temperature. However,C. botulinumcannot survive at a sustained temperature of 60°C/140°F. Your responsibility is to ensure that your heating chamber doesn’t dip below that threshold.'
+          },
+          {
+            zh: '肉毒梭菌在水活度低于 0.97（通过盐浓度为 5% 或更高）的液体培养基和 pH 低于 4.6 的酸性环境中也很难生长。本书中的许多发酵都是从盐浓度低于 5% 且 pH 高于 4.6 开始的。然而，适度的盐含量和逐渐减少的pH的综合作用通常足以防范恶意细菌。例如，用 2% 的盐腌制的蔬菜将具有足够高的盐含量来抑制 C.肉毒杆菌，而有益的乳酸菌则降低pH。如果发酵在前两天内达到 pH 低于 5，并且在完成时最终低于 4.6，则通常认为是安全的。',
+            en: 'C. botulinumalso has great difficulty growing in fluid mediums with a water activity below 0.97 (achieved by salt concentrations of 5 percent or higher) and in acidic environments with a pH below 4.6. Many ferments in this book begin with salt concentrations lower than 5 percent and a pH above 4.6. However, the combined effect of moderate salt content and a gradually decreasing pH is usually enough to safeguard against malevolent bacteria. For instance, a vegetable brined at 2 percent salt will have a high enough salt content to inhibitC. botulinumwhile beneficial lactic acid bacteria lower the pH. If a ferment reaches a pH below 5 within the first two days and ends up below 4.6 by the time of completion, it is generally recognized as safe.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '14-lacto-white-asparagus',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<学期16>白芦笋',
+      en: 'Lacto White Asparagus'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<学期16>白芦笋',
+          en: 'Lacto White Asparagus'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 500 grams**',
+            en: '**Makes 500 grams**'
+          },
+          {
+            zh: '白芦笋是我们每年春天都期待吃的美食，但它的季节很短。几乎一出现在厨房里，它就消失了。发酵芦笋赋予它来世，让我们能够度过一年中寒冷的月份。',
+            en: 'White asparagus is a treat we look forward to eating each spring, but its season is short. Almost as soon as it shows up in the kitchen, it’s gone. Fermenting the asparagus gives it an afterlife that keeps us sustained through the colder months of the year.'
+          },
+          {
+            zh: '这个食谱是我们的老朋友、无政府主义农民 Søren Wiuff 教给我们的。芦笋的温和苦味与柠檬的柠檬酸和发酵过程中形成的乳酸相互作用，创造出一种和谐，就像完全成熟的葡萄柚一样。将lacto芦笋纵向切成两半，作为熟食的佐料，或者将茎横向切成薄片，为任何沙拉增添明亮而松脆的味道。',
+            en: 'This recipe was taught to us by our longtime friend and anarchist farmer Søren Wiuff. The mild bitterness of the asparagus interacts with the citric acid of the lemon and the lactic acid formed during fermentation to create a harmony not unlike that of a perfectly ripe grapefruit. Slice the lacto asparagus in half lengthwise and serve it as an accompaniment to charcuterie, or slice the stalks crosswise into thin coins for a bright and crunchy addition to just about any salad.'
+          },
+          {
+            zh: '在Noma，我们更喜欢白芦笋，因为它的味道细腻，但绿芦笋也发酵得很好。',
+            en: 'At Noma, we prefer white asparagus for its delicate flavor, but green asparagus ferments well, too.'
+          },
+          {
+            zh: '这个食谱中所需的盐和水的量取决于您使用的容器的大小。对于 500 克芦笋，2 升的玻璃瓶应该是合适的尺寸。为了确定适量的盐和水，首先将罐子放在秤上并去皮（意味着将读数调整为零以折扣容器的重量）。将芦笋矛直立在罐子里——它们应该包装得相对紧密。倒入足够的水淹没芦笋，记下水和芦笋的总重量。',
+            en: 'The amount of salt and water needed in this recipe will depend on the size of the vessel you use. For 500 grams asparagus, a 2-liter mason jar should be a good size. In order to determine the right amount of salt and water, first place the jar on a scale and tare it (meaning adjust the readout to zero to discount the weight of the container). Stand the asparagus spears upright in the jar—they should be packed relatively tightly. Pour in enough water to cover the asparagus, and take note of the total weight of the water and the asparagus.'
+          },
+          {
+            zh: '计算该重量的 3%，并将那么多的盐添加到搅拌碗中。将罐子里的水倒进碗里。将盐和水一起搅拌直至盐溶解。将盐水倒入罐子中，盖在芦笋上，然后将柠檬片放在上面。用装满水的带拉链的塑料袋、发酵砝码或其他楔入罐子或陶罐颈部下方的干净物体压住芦笋矛，使芦笋矛保持在盐水水平以下。用盖子盖住罐子或陶罐，但不要密封得太紧，以免气体逸出。',
+            en: 'Calculate 3% of that weight, and add that much salt to a mixing bowl. Pour the water out of the jar into the bowl. Whisk together the salt and water until the salt has dissolved. Pour the brine into the jar over the asparagus and distribute the lemon slices on top of that. Keep the asparagus spears submerged beneath the level of the brine by weighting them down with a water-filled zip-top plastic bag, a fermentation weight, or some other clean object wedged beneath the neck of the jar or crock. Cover the jar or crock with a lid, but don’t seal it so tightly that gas can’t escape.'
+          },
+          {
+            zh: '将芦笋矛放在温暖的地方（约 21°C/7o°F）发酵 2 周。几天后开始检查它们。如果您尝到除了柠檬之外的淡淡酸味，那么您就走对了。将芦笋腌制到您喜欢的程度后，将其留在盐水中，密封容器，然后将其转移到冰箱中。它将在盐水中保存几个月。',
+            en: 'Ferment the asparagus spears in a warm place (about 21°C/7o°F) for 2 weeks. Begin checking them after a couple of days. If you taste lightly sour notes—beyond the lemon—you’re on the right track. Once the asparagus has pickled to your liking, leave it in the brine, seal the container, and transfer it to the refrigerator. It will keep in the brine for several months.'
+          },
+          {
+            zh: '*Lacto White Asparagus, day 1*',
+            en: '*Lacto White Asparagus, day 1*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '*Day 14*',
+            en: '*Day 14*'
+          },
+          {
+            zh: '建议使用',
+            en: 'Suggested Use'
+          }
+        ],
+        bullets: [
+          {
+            zh: '水',
+            en: 'Water'
+          },
+          {
+            zh: '无碘盐',
+            en: 'Non-iodized salt'
+          },
+          {
+            zh: '500 克修剪过的白芦笋',
+            en: '500 grams trimmed white asparagus'
+          },
+          {
+            zh: '**½ lemon, cut into 0.5-centimeter/¼-inch slices**',
+            en: '**½ lemon, cut into 0.5-centimeter/¼-inch slices**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '新小黄瓜',
+              en: 'The New Gherkins'
+            },
+            answer: [
+              {
+                zh: '我们喜欢像使用小黄瓜一样使用lacto-发酵芦笋矛，作为清爽的味觉清洁剂或馅饼装饰。晚餐时，无论您吃的是烤宽面条还是烤排骨，只需将它们浸入一点橄榄油即可。或者，下次制作汉堡时，将一根lacto发酵芦笋切成薄片，然后将切片铺在煮熟的肉饼的一侧，然后继续使用常用的调味品。您将倒数白芦笋再次上市的日子。',
+                en: 'We like to deploy lacto-fermented asparagus spears the same way you would gherkins, as refreshing palate cleansers or tart garnishes. Serve them simply doused in a bit of olive oil during supper, whether you’re having lasagna or grilled ribs. Or, the next time you’re making burgers, thinly slice a spear of lacto-fermented asparagus and shingle the slices on one side of the cooked patty, then continue with your usual condiments. You’ll be counting down the days until white asparagus comes into season again.'
+              },
+              {
+                zh: '*Pack the jar tightly but not so full that you bruise the asparagus.*',
+                en: '*Pack the jar tightly but not so full that you bruise the asparagus.*'
+              },
+              {
+                zh: '*Sprinkle salt evenly over the blueberries so you don’t damage the product with too much mixing. If there are pockets of unsalted berries, they won’t ferment properly.*',
+                en: '*Sprinkle salt evenly over the blueberries so you don’t damage the product with too much mixing. If there are pockets of unsalted berries, they won’t ferment properly.*'
+              },
+              {
+                zh: '<!-- text/part0006_split_015.html -->',
+                en: '<!-- text/part0006_split_015.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '15-escherichia-coli',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '大肠杆菌',
+      en: 'Escherichia coli'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '大肠杆菌',
+          en: 'Escherichia coli'
+        },
+        paragraphs: [
+          {
+            zh: 'E的许多菌株。大肠杆菌实际上是无害的，并且是正常肠道菌群的一部分，但某些品种可能会导致严重的食物中毒。这些细菌通常通过卫生条件差或受污染的肉制品传播。工作表面和器具的交叉污染是大肠杆菌的更常见原因之一。大肠杆菌相关疾病。如果存在病原体，用冷水正确彻底地清洗蔬菜将大大减少病原体的数量。对于牛肉garum等产品，10% 或更高的盐浓度会杀死微生物。最重要的是，garum发酵时的高温提供了额外的保护层。',
+            en: 'Many strains ofE. coliare actually harmless and part of a normal gut flora, but some varieties can cause severe food poisoning. These bacteria are usually transmitted through poor hygiene or contaminated meat products. Cross-contamination of work surfaces and utensils is one of the more common causes ofE. coli–related illness.Proper and thorough washing of vegetables in cold water will greatly reduce populations of the pathogen, should they be present. For products like beef garum, salt concentrations of 10 percent or higher will kill off the microbes. On top of that, the high temperatures at which garum ferments offer an added layer of protection.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '15-lacto-blueberries',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<学期16> 蓝莓',
+      en: 'Lacto Blueberries'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<学期16> 蓝莓',
+          en: 'Lacto Blueberries'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 1 kilogram**',
+            en: '**Makes 1 kilogram**'
+          },
+          {
+            zh: '<术语16>-发酵蓝莓是本章中最简单且用途更广泛的产品之一。除了快速冲洗外，它们不需要任何准备，一旦完成，您会发现它们有很多简单的用途：将一些扔到早晨的酸奶和格兰诺拉麦片中，或者将它们添加到冰沙中，或者将水果和果汁打成泥，制成咸甜果酱，淋在冰淇淋或新鲜奶酪上。发酵蓝莓可以很好地冷冻并快速解冻，因此可以随时轻松保存。',
+            en: 'Lacto-fermented blueberries are one of the easiest and more versatile products in this chapter. They need no prep other than a quick rinse, and once they’re done you’ll find heaps of simple uses for them: Toss some onto your morning yogurt and granola, or add them to a smoothie, or puree the fruit and juices to make a salty-sweet coulis to be drizzled over ice cream or fresh cheese. Fermented blueberries freeze well and thaw quickly, making them easy to keep on hand at all times.'
+          },
+          {
+            zh: '<术语16>李子的深入说明可作为本章中所有乳酸发酵配方的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLacto Plumsserve as a template for all the lactic fermentation recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '*Lacto Blueberries, day 1 (vacuum-sealed)*',
+            en: '*Lacto Blueberries, day 1 (vacuum-sealed)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在真空袋中发酵：将蓝莓和盐放入真空袋中，搅拌均匀。尽力将浆果排列成单层，然后以最大吸力密封袋子。如果你对它们温和，蓝莓会在发酵过程中保持其形状。确保将袋子密封得尽可能靠近开口，留出足够的空间，以便您可以切开袋子以排出积聚的气体，然后重新密封。',
+            en: 'If fermenting in a vacuum bag:Place the blueberries and salt in the vacuum bag and toss to mix the contents thoroughly. Do your best to arrange the berries in a single layer, then seal the bag on maximum suction. If you’re gentle with them, the blueberries will retain their shape through the fermentation. Be sure to seal the bag as close to the opening as possible, leaving headroom that will allow you to cut open the bag to vent any gas that accumulates and then reseal it.'
+          },
+          {
+            zh: '*Lacto Blueberries, day 1 (in a jar)*',
+            en: '*Lacto Blueberries, day 1 (in a jar)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在罐子或瓦罐中发酵：将盐和蓝莓在碗中混合，然后将它们转移到发酵容器中，确保将碗中的所有盐刮到容器中，然后用重物将混合物压紧。 （一个装满水的重型拉链袋就可以了。）用盖子盖住罐子或瓦罐，但不要密封得太紧，以免气体逸出。',
+            en: 'If fermenting in a jar or crock:Mix the salt and blueberries together in a bowl, then transfer them to the fermentation vessel, making sure to scrape all the salt from the bowl into the container, and press the mixture down with a weight. (A heavy-duty zip-top bag filled with water will do the trick.) Cover the jar or crock with a lid, but don’t seal it so tightly that gas can’t escape.'
+          },
+          {
+            zh: '将蓝莓放在温暖的地方发酵，直到它们稍微变酸，但仍然具有甜美的果香。在 28°C/82°F 下这需要 4 到 5 天，或者在室温下需要更长的时间，但您应该在最初几天后开始品尝。如果你在真空密封袋中发酵，当袋子膨胀时，你还需要“打嗝”。切开一个角，释放气体，尝尝蓝莓的味道，然后重新密封袋子。',
+            en: 'Ferment the blueberries in a warm place until they have soured slightly but still have their sweet, fruity perfume. This should take 4 to 5 days at 28°C/82°F, or a few days longer at room temperature, but you should start taste-testing after the first few days. If you’re fermenting in a vacuum-sealed bag, you’ll also need to “burp” the bag whenever it balloons up. Cut a corner open, release the gas, taste the blueberries, and reseal the bag.'
+          },
+          {
+            zh: '一旦蓝莓达到您想要的酸度，小心地将它们从袋子或发酵容器中取出，并通过细网筛过滤果汁。蓝莓及其果汁可以在冰箱中的单独容器中保存几天，味道不会发生明显变化。为了防止进一步发酵，您还可以将它们单独冷冻在真空密封袋或带拉链的冷冻袋中，并排除空气。',
+            en: 'Once the blueberries have reached your desired level of sourness, carefully remove them from the bag or fermentation vessel, and strain the juice through a fine-mesh sieve. The blueberries and their juice can be stored in separate containers in the refrigerator for a few days without a noticeable change in flavor. To prevent further fermentation, you can also freeze them separately in vacuum-sealed bags or zip-top freezer bags with the air removed.'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1公斤蓝莓',
+            en: '1 kilogram blueberries'
+          },
+          {
+            zh: '**20 grams non-iodized salt**',
+            en: '**20 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '早餐配料',
+              en: 'Breakfast Topping'
+            },
+            answer: [
+              {
+                zh: '发酵蓝莓在Noma我们的美味厨房中扮演着重要角色，但当然，大多数人认为蓝莓是一种甜点或早晨酸奶的配料。发酵蓝莓使简单的早餐变得更加复杂。一大勺原味酸奶，一勺lacto蓝莓，再加上一点蜂蜜，就能轻松撑到午餐。',
+                en: 'Fermented blueberries play a big part in our savory kitchen at Noma, but of course, most people think of blueberries as a sweet treat or a topping for yogurt in the morning. Fermented blueberries boost a simple breakfast into more sophisticated territory. A big scoop of plain yogurt, a spoonful of lacto blue-berries, and a drizzle of honey will easily get you through until lunch.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '<学期16> 蓝莓调味酱',
+              en: 'Lacto Blueberry Seasoning Paste'
+            },
+            answer: [
+              {
+                zh: 'lacto发酵蓝莓的果肉，混合均匀并通过筛子，成为蔬菜和肉类的酸味、咸味调味品。在新鲜玉米棒上刷上一点黄油，或者撒上烤甜菜，味道非常美味。在烧烤之前或之后在烤排骨或猪排上涂上lacto蓝莓酱，或者用它代替您最喜欢的食谱中的番茄酱或番茄酱来制作烧烤酱。',
+                en: 'The pulp of lacto-fermented blueberries, blended smooth and passed through a sieve, makes for a tart, savory condiment for vegetables and meat alike. It’s spectacular brushed on fresh corn on the cob with a bit of butter, or tossed with roasted beets. Paint barbecued ribs or pork chops with lacto blueberry paste before or after grilling, or make a barbecue sauce by substituting it for tomato paste or ketchup in your favorite recipe.'
+              },
+              {
+                zh: '*Puree lacto blueberries and spread them over corn on the cob.*',
+                en: '*Puree lacto blueberries and spread them over corn on the cob.*'
+              },
+              {
+                zh: '*Tropical fruits and chiles are hard to come by in Denmark, but we enjoy working with them whenever we can.*',
+                en: '*Tropical fruits and chiles are hard to come by in Denmark, but we enjoy working with them whenever we can.*'
+              },
+              {
+                zh: '<!-- text/part0006_split_016.html -->',
+                en: '<!-- text/part0006_split_016.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '16-lacto-mango-scented-honey',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<学期16> 芒果香蜂蜜',
+      en: 'Lacto Mango-Scented Honey'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<学期16> 芒果香蜂蜜',
+          en: 'Lacto Mango-Scented Honey'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 700 grams**',
+            en: '**Makes 700 grams**'
+          },
+          {
+            zh: '蜂蜜或多或少是惰性的，这意味着它在你的橱柜里永远不会变质，但它也永远不会在自然状态下发酵。虽然它含有大量处于停滞状态的细菌和酵母，但由于蜂蜜的含糖量太高，它们的微生物活动就会停止。我们可以通过将蜂蜜稀释到足以支持LAB的糖水平来解决这个问题。每当我们冒险进入温暖的气候时，我们都会采用这个食谱。它已出现在我们澳大利亚和墨西哥的弹出菜单上的甜点中。',
+            en: 'Honey is more or less inert, meaning it will never go bad in your cupboard, but it will also never ferment in its natural state. While it contains a robust population of bacteria and yeasts in stasis, their microbial activity is halted because honey’s sugar content is simply too high. We can work around this problem by diluting the honey to a sugar level that is low enough to support LAB. We’ve employed this recipe whenever we’ve ventured into warmer climes; it’s found its way into desserts on our pop-up menus in both Australia and Mexico.'
+          },
+          {
+            zh: '<术语16>李子的深入说明可作为本章中所有乳酸发酵配方的模板。我们建议您在开始此菜谱之前先阅读该菜谱。',
+            en: 'The in-depth instructions forLacto Plumsserve as a template for all the lactic fermentation recipes in this chapter. We recommend you read that recipe before starting in on this one.'
+          },
+          {
+            zh: '将水和盐一起搅拌直至盐溶解。加入蜂蜜并再次搅拌直至完全混合。',
+            en: 'Whisk together the water and salt until the salt has dissolved. Add the honey and whisk again until fully incorporated.'
+          },
+          {
+            zh: '*Lacto Mango-Scented Honey, day 1 (vacuum-sealed)*',
+            en: '*Lacto Mango-Scented Honey, day 1 (vacuum-sealed)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在真空袋中发酵：将蜂蜜混合物与辣椒和芒果一起转移到真空袋中，并以最大吸力密封袋子。确保将袋子密封得尽可能靠近开口，留出足够的空间，以便您可以切开袋子以排出积聚的气体，然后重新密封。轻轻按摩内容物，使其分布均匀。',
+            en: 'If fermenting in a vacuum bag:Transfer the honey mixture to a vacuum bag, along with the chiles and mango, and seal the bag on maximum suction. Be sure to seal the bag as close to the opening as possible, leaving headroom that will allow you to cut open the bag to vent any gas that accumulates and then reseal it. Massage the contents gently to distribute them evenly.'
+          },
+          {
+            zh: '*Lacto Mango-Scented Honey, day 1 (in a jar)*',
+            en: '*Lacto Mango-Scented Honey, day 1 (in a jar)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在罐子或瓦罐中发酵：将蜂蜜混合物转移到发酵容器中，加入辣椒和芒果，然后用勺子或抹刀轻轻按压水果，将其搅匀。将一张保鲜膜直接放在液体顶部，确保其一直到达边缘，然后用盖子盖住罐子或陶罐，但不要密封得太紧，以免气体逸出。',
+            en: 'If fermenting in a jar or crock:Transfer the honey mixture to the fermentation vessel, add the chiles and mango, and muddle the fruit by pressing on it lightly with a spoon or spatula. Lay a sheet of plastic wrap directly on top of the liquid, making sure it reaches all the way to the edges, and cover the jar or crock with a lid, but don’t seal it so tightly that gas can’t escape.'
+          },
+          {
+            zh: '将蜂蜜放在温暖的地方发酵，直至其稍微变酸并吸收辣椒和芒果的热量和香味。在 28°C/82°F 下这需要 4 到 5 天，或者在室温下需要更长的时间，但您应该在最初几天后开始品尝。如果你在真空密封袋中发酵，当袋子膨胀时，你还需要“打嗝”。切开一个角，释放气体，尝尝蜂蜜的味道，然后重新密封袋子。',
+            en: 'Ferment the honey in a warm place until it has soured slightly and taken on the heat and perfume of the chiles and mango. This should take 4 to 5 days at 28°C/82°F, or a few days longer at room temperature, but you should start taste-testing after the first few days. If you’re fermenting in a vacuum-sealed bag, you’ll also need to “burp” the bag whenever it balloons up. Cut a corner open, release the gas, taste the honey, and reseal the bag.'
+          },
+          {
+            zh: '一旦发酵到您的口味，用细网筛过滤蜂蜜，并丢弃芒果和辣椒。随意将滤过的水果留作其他用途（例如辣酱）。您可以将蜂蜜在冰箱中保存几周，或者将其冷冻在真空密封袋或顶部拉链冷冻袋中，排除空气以延长保存时间。',
+            en: 'Once fermented to your taste, strain the honey through a fine-mesh sieve and discard the mango and chiles. Feel free to save the strained fruits for another application (like a spicy chutney). You can store the honey in the refrigerator for a few weeks, or freeze it in a vacuum-sealed bag or zip-top freezer bag with the air removed for longer storage.'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '375克水',
+            en: '375 grams water'
+          },
+          {
+            zh: '20克无碘盐',
+            en: '20 grams non-iodized salt'
+          },
+          {
+            zh: '375克蜂蜜',
+            en: '375 grams honey'
+          },
+          {
+            zh: '5 克新鲜辣椒，切片',
+            en: '5 grams fresh chiles, sliced'
+          },
+          {
+            zh: '**250 grams diced mango, with the skin on**',
+            en: '**250 grams diced mango, with the skin on**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '糖替代品',
+              en: 'Sugar Replacement'
+            },
+            answer: [
+              {
+                zh: '<术语15>发酵蜂蜜最明显的用途是作为（更美味、更有趣的）糖替代品。 Lacto-发酵蜂蜜足以补充蜜饯和果酱中的糖分，有助于更完整地保持水果的原始特性。 Lacto 蜂蜜在茶或咖啡中也很美味，尤其是在制作冰镇饮料时，它的味道可以真正凸显出来。',
+                en: 'The most obvious use for lacto-fermented honey is as a (more delicious, more interesting) sugar substitute. Lacto-fermented honey steps in more than adequately for the sugar in compotes and jams, helping to keep the original character of the fruit more intact. Lacto honey is also fantastic in tea or coffee, especially if you’re making chilled drinks, where its flavor can really shine through.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '蜜煮梨',
+              en: 'Honey-Poached Pears'
+            },
+            answer: [
+              {
+                zh: '<术语16>-发酵蜂蜜几乎可以与任何水果完美搭配，尤其是梨。在一个宽底锅中，将 500 毫升 lacto 蜂蜜、500 毫升白葡萄酒以及切碎的新鲜迷迭香和百里香各一勺混合。将 6 个成熟但去皮后坚硬的梨放入液体中，盖上锅盖，小火煮。将水果煮 3 至 5 分钟，直至稍微变软，然后将锅从火上移开，冷却至室温。没有多少人能抗拒这些宝石，切片后搭配一勺健康的冰淇淋，或者滴上一滴醋并搭配硬奶酪。',
+                en: 'Lacto-fermented honey is a perfect pairing to almost any fruit, but especially pears. In a wide-bottomed pot, combine 500 milliliters lacto honey, 500 milliliters white wine, and a spoonful each of chopped fresh rosemary and thyme. Lower 6 ripe but firm peeled pears into the liquid, cover, and bring to a simmer. Cook the fruit until softened slightly, 3 to 5 minutes, then remove the pot from the heat and allow to cool to room temperature. Not many people can resist these gems, sliced and served with a healthy scoop of ice cream, or dressed with a drop of vinegar and paired with hard cheese.'
+              },
+              {
+                zh: '*Lacto gooseberries were the sour spark that began the pursuit of fermentation at Noma.*',
+                en: '*Lacto gooseberries were the sour spark that began the pursuit of fermentation at Noma.*'
+              },
+              {
+                zh: '<!-- text/part0006_split_017.html -->',
+                en: '<!-- text/part0006_split_017.html -->'
+              },
+              {
+                zh: 'html',
+                en: 'html'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '16-salmonella',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '沙门氏菌',
+      en: 'Salmonella'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '沙门氏菌',
+          en: 'Salmonella'
+        },
+        paragraphs: [
+          {
+            zh: '沙门氏菌是一种杆状细菌，常见于生家禽产品、未经高温消毒的牛奶以及未清洗的水果和蔬菜中。尽一切努力避免生禽肉的交叉污染对于避免沙门氏菌食物中毒至关重要。例如，如果您正在烹饪鸡翅garum，请务必先清洁和消毒所有器具，然后再将其与最终准备好的原料一起使用。就像E。大肠杆菌、沙门氏菌的最低水分活度为 0.95，这意味着盐浓度高于 10% 就会将其杀死。',
+            en: 'Salmonellais a genus of rod-shaped bacteria often found in raw poultry products and unpasteurized milk and on unwashed fruits and vegetables. Doing everything you can to avoid cross-contamination from raw poultry is paramount in avoidingSalmonellafood poisoning. For example, if you’re cooking chicken wings for chicken wing garum, be sure to clean and sanitize any utensils before putting them back into action with the final, prepared ingredients. LikeE. coli, Salmonellahas a minimum water activity level of 0.95, meaning that salt levels above 10 percent will kill it off.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '17-lacto-green-gooseberries',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '<学期16> 绿色醋栗',
+      en: 'Lacto Green Gooseberries'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '<学期16> 绿色醋栗',
+          en: 'Lacto Green Gooseberries'
+        },
+        paragraphs: [
+          {
+            zh: '**Makes 1 kilogram lacto gooseberries and juice**',
+            en: '**Makes 1 kilogram lacto gooseberries and juice**'
+          },
+          {
+            zh: '醋栗在北欧深受喜爱，但它们生长在世界各地的温带气候中。品种的颜色从宝石般的淡绿色到深红色不等，带有纵向的条纹图案。对于这种发酵，我们使用未成熟且捏紧后仍然坚硬的绿色醋栗。这个食谱也非常适合红醋栗，红醋栗通常比绿色醋栗更多汁、更甜，而且发酵更快。',
+            en: 'Gooseberries are beloved in northern Europe, but they grow in temperate climates around the world. Cultivars range in color from a jewel-like pale green to crimson red, with a striped pattern that runs longitudinally. For this ferment, we use green gooseberries that are just less than ripe and still firm if pinched. This recipe also works brilliantly with red gooseberries, which are usually juicier and sweeter than their green counterparts, and are quicker to ferment.'
+          },
+          {
+            zh: '*Lacto Green Gooseberries, day 1 (vacuum-sealed)*',
+            en: '*Lacto Green Gooseberries, day 1 (vacuum-sealed)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在真空袋中发酵：将醋栗和盐放入真空袋中，搅拌均匀。尽力将浆果排列成单层，然后以最大吸力密封袋子。如果你对它们温和，醋栗会在发酵过程中保持其形状。确保将袋子密封得尽可能靠近开口，留出足够的空间，以便您可以切开袋子以排出积聚的气体，然后重新密封。',
+            en: 'If fermenting in a vacuum bag:Place the gooseberries and salt in the vacuum bag and toss to mix the contents thoroughly. Do your best to arrange the berries in a single layer, then seal the bag on maximum suction. If you’re gentle with them, the gooseberries will retain their shape through the fermentation. Be sure to seal the bag as close to the opening as possible, leaving headroom that will allow you to cut open the bag to vent any gas that accumulates and then reseal it.'
+          },
+          {
+            zh: '*Lacto Green Gooseberries, day 1 (in a jar)*',
+            en: '*Lacto Green Gooseberries, day 1 (in a jar)*'
+          },
+          {
+            zh: '*Day 4*',
+            en: '*Day 4*'
+          },
+          {
+            zh: '*Day 7*',
+            en: '*Day 7*'
+          },
+          {
+            zh: '如果在罐子或瓦罐中发酵：将盐和醋栗一起放入碗中混合，然后将它们转移到发酵容器中，确保将碗中的所有盐刮到容器中，然后用重物将混合物压紧。 （一个装满水的重型拉链袋就可以了。）用盖子盖住罐子或瓦罐，但不要密封得太紧，以免气体逸出。',
+            en: 'If fermenting in a jar or crock:Mix the salt and gooseberries together in a bowl, then transfer them to the fermentation vessel, making sure to scrape all the salt from the bowl into the container, and press the mixture down with a weight. (A heavy-duty zip-top bag filled with water will do the trick.) Cover the jar or crock with a lid, but don’t seal it so tightly that gas can’t escape.'
+          },
+          {
+            zh: '在温暖的地方发酵醋栗，直到它们变酸到您喜欢的程度。在 28°C/82°F 的条件下，该过程需要 5 到 6 天，在室温下则需要几天的时间。浆果到最后应该是酸的，略带咸味，但你应该在最初几天后开始味道测试，以确保它们处于正确的轨道上。如果你在真空密封袋中发酵，当袋子膨胀时，你还需要“打嗝”。切开一个角，释放气体，尝尝醋栗的味道，然后重新密封袋子。',
+            en: 'Ferment the gooseberries in a warm place until they have soured to your liking. This should take 5 to 6 days at 28°C/82°F, or a couple of days longer at room temperature. The berries should be tart and mildly briny by the end, but you should start taste-testing after the first few days to make sure they’re on the right track. If you’re fermenting in a vacuum-sealed bag, you’ll also need to “burp” the bag whenever it balloons up. Cut a corner open, release the gas, taste the gooseberries, and reseal the bag.'
+          },
+          {
+            zh: '一旦浆果达到您想要的酸度，请小心地将它们从袋子或发酵容器中取出，并通过细网筛过滤液体。醋栗及其液体可以在冰箱中的单独容器中保存几天，味道不会发生明显变化。为了防止进一步发酵，您还可以将它们单独冷冻在真空密封袋或带拉链的冷冻袋中，并排除空气。',
+            en: 'Once the berries have reached your desired level of sourness, carefully remove them from the bag or fermentation vessel, and strain the liquid through a fine-mesh sieve. The gooseberries and their liquid can be stored in separate containers in the refrigerator for a few days without a noticeable change in flavor. To prevent further fermentation, you can also freeze them separately in vacuum-sealed bags or zip-top freezer bags with the air removed.'
+          },
+          {
+            zh: '建议用途',
+            en: 'Suggested Uses'
+          }
+        ],
+        bullets: [
+          {
+            zh: '1 公斤成熟的青醋栗',
+            en: '1 kilogram firm-ripe green gooseberries'
+          },
+          {
+            zh: '**20 grams non-iodized salt**',
+            en: '**20 grams non-iodized salt**'
+          }
+        ],
+        faqs: [
+          {
+            question: {
+              zh: '醋栗调味品',
+              en: 'Gooseberry Relish'
+            },
+            answer: [
+              {
+                zh: '只需将这些酸浆果切成两半，在品尝海鲜杂烩等丰富菜肴之间，这些酸浆果就可以成为清新明亮的味觉清洁剂。但lacto发酵的醋栗也可以作为美味佳肴的支柱。将 100 克发酵醋栗果肉切碎，与切碎的欧芹和切碎的龙蒿各 15 克、1 颗切碎的丁香大蒜和适量橄榄油混合。如果需要的话，加盐调味。这种配料可以涂在红烧排骨、烤鹌鹑或烤芦笋或嫩韭菜等蔬菜上。',
+                en: 'Simply sliced in half, these soured berries make for a refreshingly bright palate cleanser in between mouthfuls of richer dishes, like seafood chowder. But lacto-fermented gooseberries can also serve as the backbone of a spectacular relish. Mince 100 grams fermented gooseberry flesh and combine with 15 grams each chopped parsley and chopped tarragon, 1 finely minced clove garlic, and a liberal drizzle of olive oil. Season with salt, if needed. This topping begs to be smeared over braised short ribs, barbecued quail, or grilled vegetables like asparagus or young leeks.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '蒂格雷奶牛',
+              en: 'Leche de Tigre'
+            },
+            answer: [
+              {
+                zh: '一袋或一罐发酵醋栗的果汁是我们在餐厅一直以来最喜欢的调味料之一。就其本身而言，咸、酸、果味浓郁的液体可以将鲷鱼或海鲷等坚硬的生鱼片变成美味的酸橘汁腌鱼。要将这个想法提升到另一个层次，您可以制作properleche de tigre（秘鲁语中酸橘汁腌鱼腌料的术语）。使用手持式搅拌机，将 1 份重量的去皮生岩虾与 3 份lacto醋栗汁混合，然后将混合物过筛。在液体中加入尽可能多的切碎的青葱和切碎的哈瓦那辣椒，然后将混合物倒在切片的生鱼上，静置约 5 分钟，然后与切碎的新鲜香菜一起享用。',
+                en: 'The juice from a bag or crock of fermented gooseberries is one of our all-time favorite seasonings at the restaurant. All on its own, the salty, sour, fruity liquid can turn slices of firm raw fish like snapper or sea bream into delectable ceviche. To take that idea to another level, you can make a properleche de tigre(the Peruvian term for ceviche marinade). With a handheld blender, blend 1 part by weight peeled raw rock shrimp with 3 parts lacto gooseberry juice, then pass the mixture through a sieve. Add as much finely minced shallot and minced habanero to the liquid as you like, and pour the mixture over sliced raw fish, allowing it to sit for about 5 minutes before enjoying it with some chopped fresh cilantro.'
+              }
+            ],
+            links: []
+          },
+          {
+            question: {
+              zh: '酪乳醋栗酱',
+              en: 'Buttermilk-Gooseberry Dressing'
+            },
+            answer: [
+              {
+                zh: '发酵的醋栗种子虽小，但味道鲜美——即使在发酵过程中，它们也能保持令人愉快的口感，并且还受益于乳酸的味道。要从水果中收获它们，请将醋栗横向切开，然后将果肉轻轻压在切板上，直到种子弹出。每个醋栗的种子并不多，但其质地和酸味的完美结合将使这项工作值得。将种子与一勺酪乳和几片黑胡椒混合，制成一种配料，可以分解脂肪并使其接触到的任何东西都带电。它可以用来装饰新鲜去壳的蒸蛤蜊、生琥珀鱼片或配有鱼子和接骨木花鲜奶油的薄饼。',
+                en: 'Fermented gooseberry seeds are tiny but delicious—they retain a pleasant bite even through the fermentation process and benefit from the flavor of lactic acid, too. To harvest them from the fruit, cut the gooseberry laterally and press the flesh gently against a cutting board until the seeds pop out. There aren’t many seeds per gooseberry, but their spectacular combination of texture and tartness will make the work worthwhile. Mix the seeds with a spoonful of buttermilk and a couple of cracks of black pepper to make a topping that cuts through fat and electrifies whatever it touches. It can be used to garnish freshly shucked steamed clams, slices of raw amberjack, or blinis topped with fish roe andelderflower crème fraîche.'
+              },
+              {
+                zh: '*The seeds of lacto gooseberries are as good as the flesh and well worth the effort to harvest.*',
+                en: '*The seeds of lacto gooseberries are as good as the flesh and well worth the effort to harvest.*'
+              }
+            ],
+            links: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '17-pathogenic-molds',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '致病霉菌',
+      en: 'Pathogenic molds'
+    },
+    summary: '',
+    tags: [],
+    sections: [
+      {
+        heading: {
+          zh: '致病霉菌',
+          en: 'Pathogenic molds'
+        },
+        paragraphs: [
+          {
+            zh: '在您有机会之前，有成千上万的野生和侵入性霉菌会抓住机会吃掉您的发酵项目。许多微小的霉菌孢子在空气中传播，而另一些则在水中或昆虫的背上传播。并非所有的霉菌都一定有害，但如果霉菌不是你自己放在那里的，最好不要冒险。',
+            en: 'There are thousands of wild and invasive molds that would jump at the opportunity to eat your fermentation project before you get the chance. Many microscopic mold spores are airborne, while others travel in water or on the backs of insects. Not all of them will necessarily be harmful, but if you didn’t put the mold there yourself, it’s best not to take the chance.'
+          },
+          {
+            zh: '本书中有很多例子，我们试图创造有利于霉菌生长的理想环境，因此针对致病霉菌可以采取的最佳预防措施是清洁和消毒。通过从一开始就消除任何不受欢迎的客人，您可以确保他们不会破坏以后的聚会。另一种方法是压倒竞争模具。在koji中，用A大量接种蒸熟的大麦。米孢子以排除竞争。对于garum和shoyu等发酵物，盐含量会阻碍霉菌生长。频繁搅拌和清洁容器壁会使表面的孢子与空气失去接触，并将其淹没在咸海中。对于kombucha，通过涂上液体来保持 SCOBY 表面湿润通常足以保持其酸化和无霉菌。最后，霉菌比其他病原体更容易发现。当制作像miso这样的东西时，你可以简单地刮掉表面上形成的任何霉菌。',
+            en: 'There are many instances in this book where we are trying to create the ideal environment for beneficial mold growth, so the best preventative measures you can take against pathogenic molds are cleaning and sanitizing. By eliminating any unwanted guests at the outset, you ensure that they won’t spoil the party later. Another method is to overwhelm competing molds. With koji, we inoculate steamed barley heavily withA. oryzaespores in order to elbow out the competition. With ferments like garums and shoyus, the salt content retards mold growth. Frequent stirring and cleaning of the container walls will bring any spores on the surface out of contact with the air and drown them in a salty sea. For kombucha, keeping the surface of your SCOBY moist by basting it with liquid is often enough to keep it acidified and mold-free. Last, molds are easier to spot than other pathogens. When making something like miso, you can simply scrape away any mold that forms on the surface.'
+          },
+          {
+            zh: '<!-- text/part0005_split_008.html -->',
+            en: '<!-- text/part0005_split_008.html -->'
+          },
+          {
+            zh: 'html',
+            en: 'html'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '18-potential-of-hydrogen-ph',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '氢的潜力 (pH)',
+      en: 'Potential of Hydrogen (pH)'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '19-salt-and-bakers-percentages',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '盐和面包师的百分比',
+      en: 'Salt and Baker’s Percentages'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '20-building-a-fermentation-chamber',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '建造发酵室',
+      en: 'Building a Fermentation Chamber'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '21-building-a-fermentation-chamber-with-a-covered-spe',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '建造带有带盖高速架的发酵室',
+      en: 'Building a Fermentation Chamber with a Covered Speed Rack'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '22-building-a-fermentation-chamber-out-of-a-styrofoam',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '用聚苯乙烯泡沫塑料冷却器建造发酵室',
+      en: 'Building a Fermentation Chamber Out of a Styrofoam Cooler'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '23-thinking-outside-the-kraut',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '跳出德国泡菜的思维',
+      en: 'Thinking Outside the Kraut'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '24-substituting-store-bought-ferments',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '替代商店购买的发酵剂',
+      en: 'Substituting Store-Bought Ferments'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: '25-weights-and-measures',
+    categoryId: 'cooking',
+    chapterId: 'docs_zh',
+    course: '',
+    date: '',
+    title: {
+      zh: '重量和尺寸',
+      en: 'Weights and Measures'
+    },
+    summary: '',
+    tags: [],
+    sections: []
+  },
+  {
+    id: 'agentic-ai-note-01',
+    categoryId: 'agentic-ai',
+    chapterId: 'chapter-1',
+    course: 'Agentic AI 智能体开发实战',
+    date: 'Card 01',
+    title: {
+      zh: 'Chapter 1｜Agent 工具调用与 MCP 总览',
+      en: 'Chapter 1 | Agent Tool Use and MCP Overview'
+    },
+    summary: {
+      zh: '整理第一章的主线：从提示词解析式工具调用，到 Function Calling，再到 MCP 标准化工具协议，最后落到 GAME 框架里的 Agent 主循环。',
+      en: 'A first-pass map of Chapter 1: from prompt-parsed tool use, to Function Calling, to MCP as a standardized tool protocol, and finally to the Agent loop in the GAME framework.'
+    },
+    tags: [],
+    sections: [
+      {
+        heading: '第一组：Agent 为什么需要工具调用？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '如果大模型已经会回答问题，为什么还要让它调用工具？',
+            answer: [
+              '思考：大模型本身更像一个语言推理和生成核心，但它并不天然拥有实时数据、外部系统权限，也不能直接执行本地文件读取、天气查询、数据库检索这类动作。工具调用就是把模型从“只会说”扩展成“能请求外部能力”的关键一步。',
+              '在第一章里，最简单的例子是让模型通过 `list_files` 和 `read_file` 读取项目文件；MCP 示例里则是让模型通过天气工具获取和风天气 API 的实时数据。这两类例子背后的共同点是：模型负责判断“该不该用工具、用哪个工具、参数是什么”，工具负责执行确定性的外部动作。',
+              '感想：这让我觉得 Agent 的本质不是“模型突然变聪明了”，而是系统把模型放进了一个可行动的环境里。模型负责决策，工具负责接触世界，两者之间的接口设计就变得非常重要。',
+              '卡片版总结：工具调用让 LLM 从纯文本生成器变成可以访问外部能力的 Agent。模型不直接拥有实时信息和系统权限，而是通过工具完成查询、读取、计算、执行等动作。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '第二组：提示词解析式工具调用为什么脆弱？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '`01-AgentWithTools.ipynb` 里的 Prompt-Parsed Tool Agent 在解决什么问题？',
+            answer: [
+              '思考：这个 notebook 展示的是一种最朴素的 Agent 写法：在 prompt 里告诉模型按指定格式输出 JSON，然后程序再从模型回复里解析出工具名和参数，最后用本地函数执行对应动作。',
+              '它的好处是直观，能帮助我们看见 Agent 循环的雏形：用户提出目标，模型生成行动计划，程序解析行动，执行工具，把观察结果再放回上下文。这个过程已经很像 ReAct 里的“思考 - 行动 - 观察”循环。',
+              '但它也很脆弱。因为工具调用依赖模型“乖乖输出正确格式”。只要模型多写一句解释、JSON 少一个引号、参数格式不一致，解析逻辑就容易失败。所以这种方式更适合理解原理，不太适合复杂生产系统。',
+              '卡片版总结：提示词解析式工具调用把工具选择写在模型自然语言输出里，简单直观，但依赖格式约束和字符串解析，容易因为输出不稳定而失败。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '第三组：Function Calling 改进了哪里？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '`02-AgentLoopWithFunctionCalling.ipynb` 为什么比手动解析 JSON 更稳？',
+            answer: [
+              '思考：Function Calling 的核心变化是：工具不再只是 prompt 里的文字约定，而是通过结构化 schema 明确告诉模型。模型返回的也不是一段需要人肉解析的自然语言，而是结构化的 `tool_calls`：工具名称、参数 JSON、调用 ID 都被 API 层规范好了。',
+              '这样一来，程序可以更直接地做三件事：',
+              '这正是智能体主循环里很核心的闭环：`messages -> model -> tool_calls -> execute tools -> append observations -> model`。如果模型决定已经足够回答，就返回普通文本；如果还需要外部信息，就继续发起工具调用。',
+              '感想：Function Calling 不是让模型“更懂工具”，而是让模型和程序之间的契约更清楚。少一点猜字符串，多一点结构化协议，整个系统就更可控。',
+              '卡片版总结：Function Calling 用 schema 定义工具，用结构化 `tool_calls` 表达模型的行动意图。它减少了手动解析文本的脆弱性，是从演示型 Agent 走向工程化 Agent 的关键步骤。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [
+          '根据模型返回的工具名查找本地函数。',
+          '把结构化参数传给函数执行。',
+          '把工具结果作为 `tool` 消息写回对话历史。'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '第四组：MCP 到底多加了一层什么？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '如果 Function Calling 已经能调工具，为什么还需要 MCP？',
+            answer: [
+              '思考：Function Calling 主要解决“模型如何表达要调用哪个函数”的问题，但函数本身通常还是写在当前应用内部。MCP 更进一步，它把工具服务独立出来，让 Agent 客户端通过标准协议连接外部工具服务器。',
+              '第一章的 `mcp-demo` 里，`weather_server.py` 用 FastMCP 暴露两个工具：`get_weather_warning` 和 `get_daily_forecast`。客户端不需要直接知道和风天气 API 怎么请求，只需要连接 MCP 服务器、列出工具、调用工具。这样工具就从“某个程序里的函数”变成了“可以被不同客户端复用的服务”。',
+              '这也是 stdio 和 sse 两种通信模式有意义的地方：',
+              '感想：Function Calling 像是模型和当前程序之间的函数调用契约；MCP 则像是 Agent 世界里的 USB-C，把工具、资源、提示这些外部能力做成统一接口。',
+              '卡片版总结：MCP 不是替代 Function Calling，而是标准化 Agent 客户端和外部工具服务器之间的连接方式。它让工具可以独立部署、复用和调试。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [
+          '`stdio` 适合本地工具，像启动一个脚本子进程，通过标准输入输出交互。',
+          '`sse` 更适合网络服务、远程部署或多用户共享。'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '第五组：MCP 和 JSON-RPC 是什么关系？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: 'JSON-RPC 在 MCP 里负责什么？',
+            answer: [
+              '思考：MCP 可以理解成“Agent 应用和外部工具服务之间的协议”，而 JSON-RPC 是 MCP 用来编码消息的基础格式。也就是说，MCP 规定了有哪些能力，比如 tools、resources、prompts、capability negotiation；JSON-RPC 则规定这些能力在客户端和服务器之间怎么发消息。',
+              'JSON-RPC 本身很简单，它不是一个完整的网络协议，而是一套 JSON 消息约定。它主要定义三种消息：',
+              '| 类型 | 作用 | 有没有 `id` | 是否期待响应 |\n|---|---|---:|---:|\n| Request | 发起一次操作 | 有 | 是 |\n| Response | 回复某个 Request | 有，和请求对应 | 否 |\n| Notification | 单向通知 | 没有 | 否 |',
+              '比如客户端想列出 MCP Server 上有哪些工具，本质上可以看成发一个 request：',
+              '```json\n{\n"jsonrpc": "2.0",\n"id": 1,\n"method": "tools/list",\n"params": {}\n}\n```',
+              '服务器返回 response：',
+              '```json\n{\n"jsonrpc": "2.0",\n"id": 1,\n"result": {\n"tools": []\n}\n}\n```',
+              '这里的 `id` 很关键。因为客户端可能同时发出多个请求，服务器返回时就靠同一个 `id` 把响应和原请求对应起来。如果是 notification，就没有 `id`，意思是“我只是通知你一件事，不需要你回我”。',
+              '卡片版总结：JSON-RPC 负责规定 MCP 消息的基本形状：request 用 `method + params + id` 发起调用，response 用同一个 `id` 返回结果或错误，notification 没有 `id`、不期待回复。'
+            ],
+            links: []
+          },
+          {
+            question: 'JSON-RPC 和 HTTP、stdio、SSE 是同一层东西吗？',
+            answer: [
+              '思考：不是。JSON-RPC 是消息格式，stdio、Streamable HTTP 这类是传输方式。可以把它们分成两层：',
+              '在 `stdio` 模式下，客户端把 MCP Server 当成本地子进程启动，然后通过标准输入输出传递一行一行的 JSON-RPC 消息。这个模式适合本地工具，比如文件系统、命令行脚本、本机数据库访问。',
+              '在 HTTP 模式下，JSON-RPC 消息会通过 HTTP 请求传输，更适合远程服务、多用户共享或需要部署成服务的工具。早期材料里常会看到 SSE，新的 MCP 规范更强调 Streamable HTTP；但不管底层传输怎么变，核心消息仍然是 JSON-RPC。',
+              '感想：这能帮我避免一个误解：MCP 不是“用了某种特殊网络魔法”，而是把 Agent 工具调用抽象成标准 JSON-RPC 消息，再放到不同传输方式上跑。',
+              '卡片版总结：JSON-RPC 是 MCP 的消息格式，不是传输协议。stdio/HTTP 负责运输消息，JSON-RPC 负责定义消息结构，MCP 负责定义这些消息代表什么工具、资源和能力。'
+            ],
+            links: []
+          },
+          {
+            question: 'MCP 调工具时，JSON-RPC 大概长什么样？',
+            answer: [
+              '思考：以天气 Demo 为例，`get_daily_forecast` 这个 Python 函数被 `@mcp.tool()` 注册成 MCP 工具以后，客户端并不是直接 import 这个函数调用，而是通过 MCP 会话发送工具调用请求。',
+              '概念上，它可以理解成类似这样的 request：',
+              '```json\n{\n"jsonrpc": "2.0",\n"id": 2,\n"method": "tools/call",\n"params": {\n"name": "get_daily_forecast",\n"arguments": {\n"location": "101010100",\n"days": 3\n}\n}\n}\n```',
+              '服务器执行工具后，再返回 response：',
+              '```json\n{\n"jsonrpc": "2.0",\n"id": 2,\n"result": {\n"content": [\n{\n"type": "text",\n"text": "日期: 2026-04-22 ..."\n}\n]\n}\n}\n```',
+              '如果工具执行失败，response 里不会是 `result`，而会是 `error`，通常包含错误码、错误消息和可选的额外数据。',
+              '这也解释了为什么 MCP 工具要有 schema：客户端先通过 `tools/list` 知道工具名称、描述、参数结构；模型根据 schema 决定调用哪个工具；客户端再把工具名和参数包装成 `tools/call` 这类 JSON-RPC 请求。',
+              '卡片版总结：MCP 的工具调用本质上是 JSON-RPC request/response：客户端发 `tools/call`，参数里带工具名和 arguments；服务器执行工具后，用同一个 `id` 返回结果或错误。',
+              '参考：'
+            ],
+            links: [
+              {
+                label: 'Model Context Protocol Specification',
+                href: 'https://modelcontextprotocol.io/specification/draft'
+              },
+              {
+                label: 'MCP Transports',
+                href: 'https://modelcontextprotocol.io/specification/draft/basic/transports'
+              },
+              {
+                label: 'MCP Lifecycle',
+                href: 'https://modelcontextprotocol.io/specification/draft/basic/lifecycle'
+              }
+            ]
+          }
+        ],
+        bullets: [
+          '消息层：JSON-RPC，规定消息长什么样。',
+          '传输层：stdio 或 Streamable HTTP，规定消息怎么送过去。'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '第六组：MCP 天气 Demo 的业务链路是什么？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '用户问“北京天气怎么样”时，系统里发生了什么？',
+            answer: [
+              '思考：以 DeepSeek 版 MCP 客户端为例，完整链路大概是：',
+              '1. 客户端启动 `weather_server.py`，建立 MCP 会话。\n2. 客户端通过 `list_tools` 获取服务器暴露的工具 schema。\n3. 用户输入自然语言问题。\n4. 模型根据问题和工具 schema 判断是否调用天气预警或天气预报工具。\n5. 客户端把模型产生的工具调用发给 MCP 服务器。\n6. 服务器请求和风天气 API，并把 JSON 数据格式化成文本。\n7. 客户端把工具结果写回消息历史，让模型整合成最终回答。',
+              '这里最值得注意的是职责分离：模型不直接请求和风天气 API；客户端不直接决定天气是否适合户外活动；服务器也不负责理解用户自然语言。每一层只做自己的事。',
+              '卡片版总结：MCP 天气 Demo 的链路是“用户问题 -> 模型选择工具 -> 客户端调用 MCP -> 服务器请求外部 API -> 工具结果回填 -> 模型生成最终回答”。它展示的是 Agent 工程里的分层协作。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '第七组：GAME 框架把 Agent 拆成了哪些部分？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '`ASimpleAgentFramework.ipynb` 里的 GAME 架构想解决什么？',
+            answer: [
+              '思考：GAME 可以拆成 Goals、Actions、Memory、Environment。它不是某个神秘算法，而是一种帮助我们组织 Agent 系统的架构视角。',
+              'Agent 主循环就是把这四者接起来：根据 Goal 和 Memory 构造 prompt，让模型在 Actions 里选择下一步，再由 Environment 执行动作，把结果写回 Memory，直到任务完成或达到停止条件。',
+              '感想：这样看，Agent 不是一个单一对象，而是一套循环系统。模型只是其中一个决策组件；真正决定系统能不能稳定工作的，是目标、工具、记忆、执行环境之间有没有清晰边界。',
+              '卡片版总结：GAME 框架把 Agent 拆成目标、动作、记忆、环境四部分。它强调 Agent 的能力来自“模型决策 + 工具执行 + 状态积累 + 环境反馈”的循环。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [
+          'Goals：定义 Agent 要完成什么，给模型一个目标边界。',
+          'Actions：定义 Agent 能做什么，也就是工具注册和工具 schema。',
+          'Memory：保存对话历史、工具结果和中间状态。',
+          'Environment：真正执行动作的环境，比如本地文件系统、API、MCP 工具服务。'
+        ],
+        emphasisCards: []
+      },
+      {
+        heading: '第八组：Goal 和 Environment 到底怎么理解？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: 'GAME 框架里的 Goal 是 LLM 问出用户意图之后才有的吗？',
+            answer: [
+              '思考：Goal 不一定是 LLM 通过追问用户得到的。更准确地说，Goal 是“智能体当前要完成的任务目标”。它可以来自用户直接表达，也可以来自系统或开发者的预设，还可以来自 LLM 对模糊意图的澄清和整理。',
+              '比如用户直接说“帮我总结这个项目 README”，这个用户意图就可以直接变成 Goal。课程里的 Agent 也可能被程序预先设定成“读取项目文件，并生成项目说明”，这时 Goal 是系统配置好的，不需要模型临时问出来。',
+              '只有当用户表达很模糊时，LLM 才需要先追问。比如用户说“帮我弄一下这个项目”，模型可能需要先问清楚：是想运行、总结、修 bug，还是写文档？等用户回答后，模型再把澄清后的意图整理成 Goal。',
+              '卡片版总结：Goal 是 Agent 要追求的目标，可以来自用户、系统配置，也可以由 LLM 通过澄清对话提炼出来；它不是一定要由 LLM 问出来。'
+            ],
+            links: []
+          },
+          {
+            question: 'Environment 是真的运行环境，还是模型得到的上下文？',
+            answer: [
+              '思考：Environment 更接近 Agent 可以“行动并收到反馈”的外部世界，而不是 prompt 里的上下文本身。它可以是真的运行环境，也可以是被程序封装出来的执行环境。',
+              '在第一章里，`list_project_files()` 能看到项目文件，`read_project_file(name)` 能读取文件内容；MCP Demo 里，天气工具能请求和风天气 API。这些都是 Agent 可以通过 Action 接触到的外部环境。',
+              '所以 Environment 不是 Context 本身，而是产生 Observation 的地方。Agent 执行动作以后，Environment 返回结果；这些结果进入 Memory，最后再被组织成当前上下文喂给 LLM。',
+              '可以这样区分：',
+              '| 概念 | 是什么 | 例子 |\n|---|---|---|\n| `Memory` | Agent 已经知道或经历过的历史 | 对话记录、工具返回结果、之前的观察 |\n| `Environment` | Agent 可以操作和观察的外部世界 | 文件系统、API、数据库、浏览器、MCP Server |\n| `Context` | 当前喂给 LLM 的信息包 | Goal、Memory、工具说明、最近 Observation |',
+              '一个简化流程是：',
+              '```text\nGoal: 帮我总结项目\n↓\nLLM 决定 Action: list_project_files\n↓\nEnvironment 执行这个 Action: 访问文件系统\n↓\nObservation: 返回文件列表\n↓\nMemory 记录 Observation\n↓\nLLM 基于新的上下文决定下一步\n```',
+              '卡片版总结：Goal 是“我要去哪”；Environment 是“我能接触和改变的世界”；Memory 是“我一路上看到和记住的东西”；Context 是把这些信息临时打包后交给 LLM 的输入。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '第九组：这一章的主线怎么记？',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '从工具调用到 MCP，再到 Agent 框架，顺序应该怎么理解？',
+            answer: [
+              '思考：这一章可以按三层递进来记：',
+              '第一层是工具调用原理：模型不能只回答，还要能提出行动；最早可以靠 prompt 约定和 JSON 解析来实现。',
+              '第二层是结构化调用：Function Calling 把“行动意图”从自然语言里提出来，变成 schema 和 `tool_calls`，让程序更稳定地执行工具。',
+              '第三层是工具服务化：MCP 把工具从应用内部抽离成独立服务，让 Agent 可以通过标准协议连接外部能力。',
+              '最后，GAME 框架把这些能力放回一个完整 Agent 系统里：目标约束它，工具扩展它，记忆延续它，环境承载它。',
+              '卡片版总结：第一章的学习路线是：先理解 Agent 为什么要工具，再理解 Function Calling 如何让工具调用结构化，然后理解 MCP 如何让工具服务标准化，最后用 GAME 框架把 Agent 主循环组织起来。'
+            ],
+            links: []
+          }
+        ],
         bullets: [],
         emphasisCards: []
       }

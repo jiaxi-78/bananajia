@@ -1,0 +1,9 @@
+# Weights and Measures
+
+At Noma, and in this book, we use the metric system for all our measurements, because it allows for much greater precision and accuracy than imperial measurements. Whenever you’re dealing with sensitive outcomes, accuracy is key. A shift in salt content of just 1 percent can be the difference between a ferment you’ll want to show off to all your friends and something you’d rather no one ever knew about.
+
+For any of our skeptical American readers, know that the metric system is supremely logical, and most kitchen measuring tools include metric markings and settings anyway. With the metric system, you can measure both weight (grams and kilograms) and volume (milliliters and liters). For many of our recipes, we use weight rather than volume for the sake of simplicity: Stick your empty bowl on a scale, tare it (meaning adjust the readout to zero, thereby discounting the weight of your bowl), and add the ingredient until you’ve reached the desired weight. No need to move ingredients between measuring cups and a work bowl.
+
+A digital kitchen scale that measures to the single gram is essential to the execution of the recipes in this book. You can buy high-quality scales for not a lot of money; be sure to have an extra battery on hand so you aren’t unexpectedly caught short in the middle of a recipe.
+
+Finally, we’ve listed an approximate yield for each recipe so you’ll know what you’re getting into before you start, but it’s easy to scale the recipes up or down. However, pay attention to the size of the container required. There are instances where a little extra headroom in a jar or crock might be desired, and if you scale up the recipe, you may also need to scale the container accordingly.

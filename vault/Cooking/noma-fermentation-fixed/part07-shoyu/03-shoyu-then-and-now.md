@@ -1,0 +1,17 @@
+# Shoyu, Then and Now
+
+Around the turn of the seventeenth century, European merchants were becoming more and more interested in Asia. England and Holland set up limited liability corporations to scour the planet with small fleets of ships in search of trade opportunities. That’s how the Western world came to learn of the deliciousness of shoyu. Its addictive flavor and conve-nient shelf stability made it a coveted condiment.
+
+Soy sauce fared well on the long voyage back to Europe, livening up bland food along the way. It eventually became an important ingredient in European ferments such as Worcestershire sauce, and chefs in France thought it an astonishing addition to the most traditional of dishes. Nicolas-Auguste Paillieux, a French industrialist and horticulturist in the 1800s, declared that “when a cordon-bleu cook uses [soy sauce], his cuisine is transformed, becoming much better, yet without anyone noticing that he has used moderate doses of this celebrated sauce.”
+
+While soy sauce was growing in influence in Europe and eventually North America, it was also cementing its hold over Asia. Today, the average Japanese citizen consumes ten liters of shoyu each year. There are large multinational corporations producing soy sauce for the masses, as well as artisanal outfits making small batches of otherworldly stuff. Meanwhile, soy sauce also has cousins all over Southeast Asia. Kecap manis, an Indonesian offshoot, is probably the most famous of soy sauce’s kin. It’s made with anise and clove and a large addition of palm sugar, and reduced until it’s sweet and syrupy. In Vietnam, we findtuong, which hails from the north and is probably a closer relative to the original Chinese jiangs in its consistency and flavor. It’s made by toasting soybeans—whereas with shoyu, you would toast the wheat and steam the beans—then lacto-fermenting them in water, and finally inoculating them withAspergillus. The sauce is ground into a smooth, thick paste rather than being strained or pressed for its liquid like other soy sauces.
+
+Other very nontraditional methods of shoyu production have cropped up as well. Acid hydrolysis is a chemical process developed by Julius Maggi of Switzerland’s Maggi Company. It extracts free amino acids from the proteins in vegetables without any fermentation, by using hydrochloric acid and warm temperatures to break down the vegetal matter, then neutralizing the mixture with sodium carbonate. This neutralizing reaction yields salt, organic sediment called humin, and hydrolyzed vegetable protein, or HVP, in the form of a brown liquid. HVP has flavors akin to rich meat broths, thanks to the amino acid threonine.
+
+In the early 1900s, the Japanese chemist Kikunae Ikeda used acid hydrolysis to extract the amino acids from soybeans. (Ikeda is also the man who coined the termumami—a portmanteau of the Japanese wordsumai, “delicious,” andmi, “taste.”) He then mixed the soybean HVP with soy sauce made from a second steeping of traditional moromi. The resulting HVP soy sauce took days, not years, to produce and cost a fraction of the price. It’s never been considered as good as the real thing, but when companies first started bottling soy sauce in the United States, HVP soy (also known as chemical soy) was a popular means of production. Some manufacturers still use it. Look for “hydrolyzed soy [or vegetable] protein” on the label.
+
+*Kikunae Ikeda defined “umami” and founded the Ajinomoto Group.*
+
+<!-- text/part0011_split_004.html -->
+
+html

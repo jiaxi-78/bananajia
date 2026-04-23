@@ -1,0 +1,9 @@
+# Consider Accessorizing
+
+Due to the number of components in the recipes at Noma, we try to keep the flavors of our ferments relatively pure so they remain as versatile as possible. If we were to flavor our pickles with bay leaves, for instance, they could really only be used in places where bay makes sense. But that’s not to say that you shouldn’t season your concoctions during the fermentation process. Dried aromatics such as bay leaves and mustard seeds are obvious accompaniments for lots of sour ferments, but they aren’t the only way. Try replacing 5 to 10 percent of the water in a brine with fruit juice to inject brightness while supplying additional sugar for LAB to ferment. Vibrant fresh herbs like verbena or lemon balm can be infused into the brine beforehand or added as dried ingredients once the fermentation is complete. For spice, add a knob of horseradish or a halved chile. Even when fermenting sous vide, you can add complementary seasonings to the bag or jar, as long as you take their weight into account when adding the salt.
+
+Different vegetables sharing the same brine can also exchange flavors. Cauliflower and salsify make great bedfellows. Onions and turnips lacto-fermented with a fistful of aromatic herbs like lemon thyme or orange blossom can elevate a dish of ceviche with floral notes and a crisp textural contrast. Use common sense when fermenting disparate ingredients together—don’t pair blueberries with rutabaga and expect textural harmony—but one of the most wonderful and unpredictable aspects of fermentation is the way it draws new flavors from raw ingredients. What might be a pleasant pairing when eaten raw could end up being a mind-blowing combination once you’ve completed the complex dance with bacteria, salt, acid, and time.
+
+<!-- text/part0006_split_009.html -->
+
+html
