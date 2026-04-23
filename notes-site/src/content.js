@@ -392,6 +392,162 @@ export const chapters = [
       zh: '继续学习相关笔记。',
       en: 'Notes on Learning Continues.'
     }
+  },
+  {
+    id: 'Chapter 1｜Agent 工具调用与 MCP',
+    categoryId: 'agentic-ai',
+    code: '01',
+    title: {
+      zh: 'Agent 工具调用与 MCP',
+      en: 'Agent 工具调用与 MCP'
+    },
+    description: {
+      zh: 'Agent 工具调用与 MCP相关笔记。',
+      en: 'Notes on Agent 工具调用与 MCP.'
+    }
+  },
+  {
+    id: 'part00_preface',
+    categoryId: 'cooking',
+    code: '01',
+    title: {
+      zh: '前言',
+      en: 'Preface'
+    },
+    description: {
+      zh: '前言相关笔记。',
+      en: 'Notes on Preface.'
+    }
+  },
+  {
+    id: 'part01_primer',
+    categoryId: 'cooking',
+    code: '02',
+    title: {
+      zh: '基础入门',
+      en: 'Primer'
+    },
+    description: {
+      zh: '基础入门相关笔记。',
+      en: 'Notes on Primer.'
+    }
+  },
+  {
+    id: 'part02_lacto',
+    categoryId: 'cooking',
+    code: '03',
+    title: {
+      zh: '乳酸发酵',
+      en: 'Lacto Fermentation'
+    },
+    description: {
+      zh: '乳酸发酵相关笔记。',
+      en: 'Notes on Lacto Fermentation.'
+    }
+  },
+  {
+    id: 'part03_kombucha',
+    categoryId: 'cooking',
+    code: '04',
+    title: {
+      zh: '康普茶',
+      en: 'Kombucha'
+    },
+    description: {
+      zh: '康普茶相关笔记。',
+      en: 'Notes on Kombucha.'
+    }
+  },
+  {
+    id: 'part04_vinegar',
+    categoryId: 'cooking',
+    code: '05',
+    title: {
+      zh: '醋',
+      en: 'Vinegar'
+    },
+    description: {
+      zh: '醋相关笔记。',
+      en: 'Notes on Vinegar.'
+    }
+  },
+  {
+    id: 'part05_koji',
+    categoryId: 'cooking',
+    code: '06',
+    title: {
+      zh: '曲霉',
+      en: 'Koji'
+    },
+    description: {
+      zh: '曲霉相关笔记。',
+      en: 'Notes on Koji.'
+    }
+  },
+  {
+    id: 'part06_miso',
+    categoryId: 'cooking',
+    code: '07',
+    title: {
+      zh: '味噌',
+      en: 'Miso'
+    },
+    description: {
+      zh: '味噌相关笔记。',
+      en: 'Notes on Miso.'
+    }
+  },
+  {
+    id: 'part07_shoyu',
+    categoryId: 'cooking',
+    code: '08',
+    title: {
+      zh: '酱油',
+      en: 'Shoyu'
+    },
+    description: {
+      zh: '酱油相关笔记。',
+      en: 'Notes on Shoyu.'
+    }
+  },
+  {
+    id: 'part08_garum',
+    categoryId: 'cooking',
+    code: '09',
+    title: {
+      zh: '鱼露',
+      en: 'Garum'
+    },
+    description: {
+      zh: '鱼露相关笔记。',
+      en: 'Notes on Garum.'
+    }
+  },
+  {
+    id: 'part09_black',
+    categoryId: 'cooking',
+    code: '10',
+    title: {
+      zh: '黑化',
+      en: 'Blackening'
+    },
+    description: {
+      zh: '黑化相关笔记。',
+      en: 'Notes on Blackening.'
+    }
+  },
+  {
+    id: 'part10_equipment',
+    categoryId: 'cooking',
+    code: '11',
+    title: {
+      zh: '设备',
+      en: 'Equipment'
+    },
+    description: {
+      zh: '设备相关笔记。',
+      en: 'Notes on Equipment.'
+    }
   }
 ]
 
