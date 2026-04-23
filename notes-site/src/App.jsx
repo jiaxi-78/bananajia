@@ -977,13 +977,21 @@ function App() {
   const categoryChapters = activeCategory
     ? chapters.filter((chapter) => chapter.categoryId === activeCategory.id)
     : []
-  const activeChapterId = categoryChapters.some((chapter) => chapter.id === route.chapterId)
-    ? route.chapterId
-    : categoryChapters[0]?.id ?? null
-  const chapterNotes = activeCategory && activeChapterId
-    ? notes.filter((note) => (
-      note.categoryId === activeCategory.id && note.chapterId === activeChapterId
-    ))
+
+  // 如果分类没有 chapters，直接显示所有笔记，不按 chapter 过滤
+  const hasChapters = categoryChapters.length > 0
+  const activeChapterId = hasChapters
+    ? (categoryChapters.some((chapter) => chapter.id === route.chapterId)
+        ? route.chapterId
+        : categoryChapters[0]?.id ?? null)
+    : null
+
+  const chapterNotes = activeCategory
+    ? hasChapters
+      ? notes.filter((note) => (
+          note.categoryId === activeCategory.id && note.chapterId === activeChapterId
+        ))
+      : notes.filter((note) => note.categoryId === activeCategory.id)
     : []
   const activeNoteId = chapterNotes.some((note) => note.id === route.noteId)
     ? route.noteId
