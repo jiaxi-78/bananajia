@@ -159,6 +159,19 @@
       }
     },
     {
+      "id": "chapter-6",
+      "categoryId": "diy-llm",
+      "code": "05",
+      "title": {
+        "zh": "Chapter 6｜GPU 和 GPU 相关的优化",
+        "en": "Chapter 6 | GPU and GPU-Related Optimization"
+      },
+      "description": {
+        "zh": "GPU 架构、执行模型、内存层级、性能优化、FlashAttention、PageAttention 与国产 GPU 生态。",
+        "en": "GPU architecture, execution model, memory hierarchy, optimization techniques, FlashAttention, PageAttention, and domestic GPU ecosystems."
+      }
+    },
+    {
       "id": "llm-quickstart-template",
       "categoryId": "essays",
       "code": "01",

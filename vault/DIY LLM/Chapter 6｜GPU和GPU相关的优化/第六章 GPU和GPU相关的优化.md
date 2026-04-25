@@ -1,3 +1,16 @@
+---
+id: 'chapter6-gpu-optimization'
+category: 'diy-llm'
+chapter: 'chapter-6'
+course: 'DIY LLM'
+date: 'Chapter 06'
+title_zh: '第六章 GPU 和 GPU 相关的优化'
+title_en: 'Chapter 6 | GPU and GPU-Related Optimization'
+summary_zh: '把 GPU 架构、执行模型、内存层级、性能优化、FlashAttention、PageAttention 与国产 GPU 生态串成一份速读笔记。'
+summary_en: 'A quick-study note connecting GPU architecture, execution model, memory hierarchy, optimization techniques, FlashAttention, PageAttention, and domestic GPU ecosystems.'
+tags: []
+---
+
 # 第六章 GPU 和 GPU 相关的优化
 
 > 来源：[Datawhale diy-llm 第六章：GPU 和 GPU 相关的优化](https://github.com/datawhalechina/diy-llm/blob/main/docs/chapter6/chapter6_%E7%AC%AC%E5%85%AD%E7%AB%A0GPU%E5%92%8CGPU%E7%9B%B8%E5%85%B3%E7%9A%84%E4%BC%98%E5%8C%96.md)
@@ -381,4 +394,3 @@ PyTorch / CUDA 迁移成本
 ```text
 现代 GPU 优化的本质，是围绕“少搬数据、搬得连续、边搬边算、让计算单元别闲着”展开的。
 ```
-
