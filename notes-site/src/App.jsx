@@ -46,6 +46,69 @@ function parseInlineMarkdown(text) {
   return parts.length === 0 ? text : parts
 }
 
+function isMarkdownTable(text) {
+  if (!text || typeof text !== 'string') return false
+  const lines = text.split('\n').map((line) => line.trim()).filter(Boolean)
+  if (lines.length < 2) return false
+
+  const [header, divider] = lines
+  const tableLine = (line) => line.startsWith('|') && line.endsWith('|')
+  const dividerCell = /^:?-{3,}:?$/
+
+  return (
+    tableLine(header)
+    && tableLine(divider)
+    && divider
+      .slice(1, -1)
+      .split('|')
+      .map((cell) => cell.trim())
+      .every((cell) => dividerCell.test(cell))
+  )
+}
+
+function splitTableRow(line) {
+  return line
+    .trim()
+    .replace(/^\|/, '')
+    .replace(/\|$/, '')
+    .split('|')
+    .map((cell) => cell.trim())
+}
+
+function MarkdownTable({ text }) {
+  const lines = text.split('\n').map((line) => line.trim()).filter(Boolean)
+  const headers = splitTableRow(lines[0])
+  const rows = lines.slice(2).map(splitTableRow)
+
+  return (
+    <div className="markdown-table-wrap">
+      <table className="markdown-table">
+        <thead>
+          <tr>
+            {headers.map((header, index) => (
+              <th key={`${header}-${index}`}>{parseInlineMarkdown(header)}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row, rowIndex) => (
+            <tr key={rowIndex}>
+              {headers.map((_, cellIndex) => (
+                <td key={cellIndex}>{parseInlineMarkdown(row[cellIndex] ?? '')}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+function MarkdownBlock({ text }) {
+  if (isMarkdownTable(text)) return <MarkdownTable text={text} />
+  return <p>{parseInlineMarkdown(text)}</p>
+}
+
 // 使用原始数据（不在模块级别展平）
 const notes = rawNotes
 const site = rawSite
@@ -829,7 +892,7 @@ function CategoryView({
                     <h4>{t(section.heading)}</h4>
 
                     {section.paragraphs?.map((paragraph, pi) => (
-                      <p key={pi}>{parseInlineMarkdown(t(paragraph))}</p>
+                      <MarkdownBlock key={pi} text={t(paragraph)} />
                     ))}
 
                     {section.faqs ? (
@@ -839,7 +902,7 @@ function CategoryView({
                             <summary>{t(item.question)}</summary>
                             <div className="faq-answer">
                               {item.answer.map((paragraph, ai) => (
-                                <p key={ai}>{parseInlineMarkdown(t(paragraph))}</p>
+                                <MarkdownBlock key={ai} text={t(paragraph)} />
                               ))}
 
                               {item.links ? (

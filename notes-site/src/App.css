@@ -810,6 +810,47 @@
   line-height: 1.8;
 }
 
+.markdown-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 4px 0 18px;
+  border: 1px solid var(--line);
+  background: rgba(8, 12, 26, 0.46);
+}
+
+.markdown-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  color: var(--muted-strong);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.markdown-table th,
+.markdown-table td {
+  padding: 12px 14px;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: left;
+  vertical-align: top;
+}
+
+.markdown-table th:last-child,
+.markdown-table td:last-child {
+  border-right: none;
+}
+
+.markdown-table tr:last-child td {
+  border-bottom: none;
+}
+
+.markdown-table th {
+  color: var(--ink);
+  font-weight: 600;
+  background: rgba(0, 240, 255, 0.08);
+}
+
 /* FAQ */
 .faq-list {
   display: grid;
