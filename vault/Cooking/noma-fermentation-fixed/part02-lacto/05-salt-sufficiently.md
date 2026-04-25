@@ -15,7 +15,3 @@ If you have a pickle jar with a mildly tapered neck, it will help keep the veget
 *Sweet Peas, Milk Curd, and Sliced Kelp, Noma, 2015*
 
 *Blades of giant kelp cooked for 3 days in a stock of dried mushrooms, berries, and lacto cep water are sliced thin and laid over fresh milk curd alongside green peas.*
-
-<!-- text/part0006_split_006.html -->
-
-html

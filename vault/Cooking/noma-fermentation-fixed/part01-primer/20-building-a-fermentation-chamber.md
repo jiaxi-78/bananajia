@@ -17,7 +17,3 @@ For this fermentation chamber, you’ll need:
 - • A temperature controller, such as a PID (proportional-integral-derivative) or thermostat: This will adjust the temperature of the chamber as it varies according to external influences. You want a prewired version that you can plug a heater directly into. It’s a specialized bit of gear, but it’s not complicated or expensive. It will include a probe that you set either in the chamber to measure interior temperature, or into the ferment itself, such as when you’re making koji.
 
 - • A small humidifier (only when making koji): The type you’d put in a child’s room to help with a stuffy nose. Plus, a simple hygrometer to gauge humidity; it will look a bit like an oven thermometer. Or use a humidistat, which functions much like a thermostat. While slightly more expensive, it will simplify things by regulating the humidity in the chamber for you.
-
-<!-- text/part0005_split_011.html -->
-
-html

@@ -29,7 +29,3 @@ Suggested Use
 Gammel Dansk vinegar is a rather intense character, but it’s fun to play around with its bitterness and acidity, as these two attributes work well together and tend to soften each other’s effect. It’s not a vinegar that you want to set out as a condiment on the kids’ table, but you can certainly sneak a spoonful in here and there for an unexpected boost of complexity and edge. The next time you make boeuf bourguignon, for example, a few splashes of Gammel Dansk vinegar—just enough so that you barely register it on your palate—will subtly elevate your stew’s savory richness. In smaller doses, this vinegar can improve a Waldorf salad, or creamier dressings made with mayonnaise or crème fraîche.
 
 *The addition of fresh elderberries to elderflower wine gives a boost in flavor for the years-long aging process. Elderberries are mildly poisonous and can upset stomachs if eaten raw. Through cooking or fermentation, they’re rendered safe for consumption.*
-
-<!-- text/part0008_split_012.html -->
-
-html

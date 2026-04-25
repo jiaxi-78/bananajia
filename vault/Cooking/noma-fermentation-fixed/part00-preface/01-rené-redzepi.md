@@ -65,7 +65,3 @@ I believe in fermentation wholeheartedly, not only as a way to unlock flavors, b
 I hope this book can be a launching pad for home cooks and restaurant cooks alike. When we think of our ideal readers, David and I talk equally about the parent who’s passionate about cooking for his or her family and doesn’t mind a weekend project, as well as the professional cook or sous-chef who can read between the lines and pull out novel ideas.
 
 Studying the science and history of fermentation, learning to do it ourselves, adapting it to local ingredients, and cooking with the results changed everything at Noma. Once you’ve done the same and have these incredible products at your disposal—whether it’s lacto-fermented fruit, barley miso, koji, or a roasted chicken wing garum—cooking gets easier while your food becomes more complex, nuanced, and delicious.
-
-<!-- text/part0004_split_001.html -->
-
-html

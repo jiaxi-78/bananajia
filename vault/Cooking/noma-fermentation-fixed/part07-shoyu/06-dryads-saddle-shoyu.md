@@ -33,7 +33,3 @@ Suggested Use
 ### Dryad’s Saddle and Roasted Koji Sauce
 
 If you’ve made dryad’s saddle shoyu, then it’s safe to say you’ve also mastered growing koji, which means you’ve got everything it takes to make this sauce. Crumble 250 grams koji onto a baking sheet and roast it in the oven at 160°C/320°F for 45 minutes. The sugars will brown deeply and the moldy grains will develop flavors reminiscent of chocolate. Transfer the roasted koji to a blender with 500 grams water and blend at high speed for 5 minutes. Transfer the mixture to a container to infuse at room temperature for 1 hour. Strain the mixture through a fine-mesh sieve lined with cheesecloth. Should you smell the aroma of the roasted koji water, you’ll swear there’s coffee in there. To complete the sauce, mix 100 grams dryad’s saddle shoyu with 100 grams roasted koji water in a small saucepan and bring it up to a simmer on the stove. Using a handheld blender, emulsify 75 grams softened butter into the sauce to create a loose, buttery, salty sauce that’s brilliant on lightly wilted lettuce, steamed Brussels sprouts, roasted scallops, or curls of pan-seared squid. True, it takes some heavy-duty fermentation to get to this point—you could also try it with store-bought shoyu and koji—but once you’ve made it, you won’t look back.
-
-<!-- text/part0011_split_007.html -->
-
-html

@@ -41,7 +41,3 @@ Let’s say you’ve got a pan of peeled and quartered parsnips, caramelizing ge
 *Pan-roast parsnips and glaze them in coffee kombucha and butter.*
 
 *Reducing maple kombucha to a (better) syrup brings things full circle.*
-
-<!-- text/part0007_split_010.html -->
-
-html

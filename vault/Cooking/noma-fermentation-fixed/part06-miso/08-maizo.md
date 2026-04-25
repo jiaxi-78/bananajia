@@ -37,7 +37,3 @@ Suggested Use
 *Marinate a flounder fillet in maizo for an hour before slicing it thin and serving with herbs and a squeeze of lime.*
 
 The strong floral and fruity tones of maizo make it an impeccable cure for flat white fish, like fluke or flounder. Smear both sides of a couple of thin fillets with a good coat of maizo—the fish doesn’t need to be buried, but the entire surface should be covered. Place the fillets in a baking pan and marinate in the fridge for 1 hour. While it’s curing, take the time to prepare some accompaniments: julienned scallions, passion fruit seeds, thin slivers of jalapeño, and coarsely chopped cilantro. Remove the fillets from the fridge and scrape off the cure with a spoon, then wipe off anything left with a damp paper towel. Slice the fish on the bias into thin ribbons. Place the slices on a flat plate and top with the prepared accompaniments, a healthy drizzle of olive oil, some sea salt, and the zest and juice of a lime.
-
-<!-- text/part0010_split_009.html -->
-
-html

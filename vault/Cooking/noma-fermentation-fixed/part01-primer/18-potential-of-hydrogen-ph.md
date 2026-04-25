@@ -9,7 +9,3 @@ In distilled water (pure H2O), hydrogen and hydroxide ions sit in exact balance 
 At times in this book, we seek to control or change the pH of a ferment, which affects everything from microbes’ ability to thrive and propagate to an enzyme’s ability to function properly to the taste of the final ferment. Sometimes, we’re seeking to lower the pH in a ferment—thus making it taste more sour—through the creation by microbes of lactic, acetic, or citric acid. We use alkaline solutions too, as in the case of our miso made from masa, where we boil corn in a calcium hydroxide solution to coax out floral and fruity notes from the kernels.
 
 You can track pH using a few tools, including test strips or digital meters. More exacting fermenters may find these tools helpful, but taste is your best guide. Ultimately, what you find palatable should dictate what you think the “right” pH is.
-
-<!-- text/part0005_split_009.html -->
-
-html

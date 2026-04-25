@@ -41,7 +41,3 @@
 如果您提前做好计划，这将是一份有趣的礼物。将整个或半个黑苹果放入玻璃罐中，并盖上上好的白兰地或苹果白兰地。密封并存放在阴凉处——时间越长越好。在餐厅，我们有时会将水果放在酒精浴中长达两年。一旦酒精变成甜甜的糖浆状，水果又软又带酒精，就可以开始制作香草冰淇淋了。
 
 *Find fresh chestnuts in the early autumn, then transform them through blackening.*
-
-<!-- text/part0013_split_006.html -->
-
-html

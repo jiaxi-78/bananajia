@@ -31,7 +31,3 @@ Koji spores are extremely resilient. They ship well and can last for years if th
 *A. luchuensis, 42 hours*
 
 *A. luchuensis, 48 hours*
-
-<!-- text/part0009_split_005.html -->
-
-html

@@ -15,7 +15,3 @@ Balsamic vinegar production is laborious, to say the least. But in as little as 
 Here in Denmark, we have few grapevines but plenty of elderberry trees, so when we set out to harness the qualities of a proper balsamic vinegar, we did so with what we had on hand. Read our recipe forElderberry Wine Balsamicfor a look at an ongoing long-term project at Noma and an idea of how we try to learn from and adapt the traditions of faraway places.
 
 *Making perry vinegar begins with fermenting pureed pears into alcoholic perry.*
-
-<!-- text/part0008_split_006.html -->
-
-html

@@ -22,7 +22,7 @@
 
 您需要一个 5 升食品安全塑料桶，配有密封盖、橡胶塞和气闸，用于接骨木花酒的第一阶段发酵。二次发酵可以重复使用同一个容器，或者使用5升的广口瓶。您还需要购买一个 5 升的木桶来陈酿，如果您决定长期陈酿醋，还需要购买更多尺寸较小的木桶。折射计是可选的。我们建议您在用手工作时戴上无菌手套，并对所有设备进行彻底清洁和消毒（请参阅清洁、病原体和安全）。
 
-香醋通常不属于Noma食品储藏室的一部分，但它是美食的重要支柱，也是世界各地厨房中深受喜爱的配料。香醋的制作过程涉及发酵和陈酿的一些最令人着迷的方面，因此我们为自己的版本开发了以下配方。
+香醋通常不属于 Noma 食品储藏室的一部分，但它是美食的重要支柱，也是世界各地厨房中深受喜爱的配料。香醋的制作过程涉及发酵和陈酿的一些最令人着迷的方面，因此我们为自己的版本开发了以下配方。
 
 *Elderberry Wine Balsamic, day 1*
 
@@ -55,7 +55,3 @@
 *The variety of wood you choose is up to you—they all have their own qualities. Starting off with a 5-liter barrel, it’s not difficult to find decreasing sizes all the way down to 1 liter.*
 
 *Our elderberry wine balsamic is currently aging in used Bruichladdich Scotch whisky barrels made from oak. Used barrels will impart an idiosyncratic flavor to your vinegar and can include anything from wine barrels to bourbon barrels to sherry casks. Regardless of whether you’ve acquired a used or brand-new barrel, you should fill it with water and let it soak for one day to swell the wood before adding your vinegar. This will ensure that the barrel is watertight.*
-
-<!-- text/part0008_split_013.html -->
-
-html

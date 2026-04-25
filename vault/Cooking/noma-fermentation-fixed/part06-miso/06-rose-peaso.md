@@ -81,7 +81,3 @@ For an ideal accompaniment to white fish like turbot or halibut, cook a batch of
 Rose peaso begins as an earthy product with delicate overtones, but once it’s caramelized it finds even more potency as the base for a warm vinaigrette. Put 40 grams rose peaso and 200 grams butter in a small pot over medium heat. As the butter melts and begins to clarify, stir constantly with a silicone spatula or small whisk—the rose peaso will sit at the bottom and burn if you don’t keep it moving. After about 20 minutes, the butter should be clarified and the rose peaso will have sweetened and browned. Remove the pot from the stove and spoon the rose butter over just-cooked crab, lobster, or shrimp.
 
 *Ryeso marries Nordic ingredients with Japanese techniques.*
-
-<!-- text/part0010_split_007.html -->
-
-html

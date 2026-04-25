@@ -11,7 +11,3 @@ Other very nontraditional methods of shoyu production have cropped up as well. A
 In the early 1900s, the Japanese chemist Kikunae Ikeda used acid hydrolysis to extract the amino acids from soybeans. (Ikeda is also the man who coined the termumami—a portmanteau of the Japanese wordsumai, “delicious,” andmi, “taste.”) He then mixed the soybean HVP with soy sauce made from a second steeping of traditional moromi. The resulting HVP soy sauce took days, not years, to produce and cost a fraction of the price. It’s never been considered as good as the real thing, but when companies first started bottling soy sauce in the United States, HVP soy (also known as chemical soy) was a popular means of production. Some manufacturers still use it. Look for “hydrolyzed soy [or vegetable] protein” on the label.
 
 *Kikunae Ikeda defined “umami” and founded the Ajinomoto Group.*
-
-<!-- text/part0011_split_004.html -->
-
-html

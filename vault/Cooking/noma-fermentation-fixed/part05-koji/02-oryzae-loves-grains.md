@@ -17,7 +17,3 @@ Grains are the seeds of grasses. In the natural world, reproductive success is o
 The Babylonians and Egyptians, the world’s first beer brewers, took note of grain’s natural ability to unravel starch into sugar and harnessed it to create the process of malting (from which the disaccharidemaltosegets its name). Maltsters germinate grain by exposing it to moisture, then stop its life cycle short by roasting and drying the grain. From there, they mix the malt with hot water, after which yeast can ferment the now unlocked sugars into alcohols like beer or mash for whiskey.A. oryzaeperforms the same function as malting. It can work on cooked grains that have never been germinated, uncoiling and splitting the starches within. But where malting focuses solely on the starches in grain, koji also disassembles the nutrient-rich coat of protein that surrounds them.
 
 Protein is made up of amino acids, much like starch is composed of chains of simple sugars. Once unbound, many of these amino acids register on our tongue as the flavor umami. Koji’s ability to break down protein (and small amounts of fat) is the key to its extraordinary utility. After all, sweetness counts for a lot, but not everything.
-
-<!-- text/part0009_split_003.html -->
-
-html

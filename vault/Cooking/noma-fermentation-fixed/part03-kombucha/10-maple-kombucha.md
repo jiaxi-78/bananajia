@@ -41,7 +41,3 @@ A great use for maple kombucha syrup (or any other kombucha syrup, for that matt
 *Cold-infuse maple kombucha with a classic blend of quatre épices for a nonalcoholic cocktail. Add a splash of coffee liqueur to make it an alcoholic one.*
 
 *Made from fruit puree, mango kombucha has more body and texture than other kombuchas. This recipe uses Kent mangoes, but there are dozens of different cultivars that will all ferment with unique flavors.*
-
-<!-- text/part0007_split_011.html -->
-
-html

@@ -43,7 +43,3 @@ The pulp of lacto-fermented blueberries, blended smooth and passed through a sie
 *Puree lacto blueberries and spread them over corn on the cob.*
 
 *Tropical fruits and chiles are hard to come by in Denmark, but we enjoy working with them whenever we can.*
-
-<!-- text/part0006_split_016.html -->
-
-html

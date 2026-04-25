@@ -47,7 +47,3 @@ At Noma, the juice pairings menu (where a lot of our kombuchas feature) is meant
 Blend together 500 grams rose kombucha and 250 grams of the season’s best berries. The longer you blend, the more pectin you’ll release from the berries, and the thicker the puree will be. At this point, you could serve it as a lovely summer refreshment—no straining necessary—or you could pass the mixture through a fine-mesh sieve, turning it into a vibrant coulis for macerating more fresh fruit or topping ice cream or panna cotta.
 
 *Apple kombucha is one of the simplest yet most versatile kombuchas in this book.*
-
-<!-- text/part0007_split_007.html -->
-
-html

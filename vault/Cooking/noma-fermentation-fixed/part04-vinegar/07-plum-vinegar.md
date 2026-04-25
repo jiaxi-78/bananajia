@@ -43,7 +43,3 @@ Or use the same combination to marinate beef or pork spareribs. Grill them slowl
 In Scandinavia, during the cold days around Christmas, cabbage is on everyone’s mind. Core and slice a head of red cabbage as thinly as you can, then sauté it in a healthy amount of duck fat (about 100 grams for a head of cabbage). Add 200 milliliters plum vinegar per head of cabbage, top with a lid, and simmer slowly for 2 hours, stirring and scraping the pan occasionally. You don’t want the liquid to dry up, but rather reduce and merge with the softened cabbage to form a rich compote. Once you’re there, season with salt and serve. Or go the extra mile and makeRoasted Chicken Wing Garum, and add a few spoonfuls to up the umami.
 
 *Celery juice ferments into a surprisingly fresh, vegetal vinegar.*
-
-<!-- text/part0008_split_008.html -->
-
-html

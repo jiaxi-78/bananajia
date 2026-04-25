@@ -37,7 +37,3 @@ We suspect that the allicin in the stock was interfering with the replication of
 *A refractometer determines the sugar content of a solution by measuring the refraction of light.*
 
 *A properly stored SCOBY can be used to ferment multiple batches of lemon verbena kombucha.*
-
-<!-- text/part0007_split_005.html -->
-
-html

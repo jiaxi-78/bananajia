@@ -35,7 +35,3 @@ Blending cooked vegetables with fruit kombuchas is an absolutely delicious way t
 *Blending apple kombucha with herbs (in this case, Douglas fir pine needles) makes a bright, refreshing tonic.*
 
 *Elderflower kombucha is like the bottled flavor of Scandinavian summers.*
-
-<!-- text/part0007_split_008.html -->
-
-html

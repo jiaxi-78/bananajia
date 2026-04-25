@@ -41,7 +41,3 @@ Bring a stick of butter to room temperature, then whisk it together with 20% gra
 Omit the sugar from your favorite pancake recipe and cook them in grasshopper butter. Brush the finished pancakes with a bit of grasshopper garum, then fold them over and fill them with chopped red onions, a dollop of crème fraîche, and a spoonful of good-quality caviar or fish roe. (When it comes to fish eggs, it’s all about the quality and not necessarily the type. Fresh, high-quality lumpfish, salmon, or trout roe is much preferable to mediocre caviar.) Finish with fresh chives. People will go nuts.
 
 *Bee pollen is an incredibly complex ingredient, with flavors that derive from the flowers near the bees’ hive.*
-
-<!-- text/part0012_split_011.html -->
-
-html

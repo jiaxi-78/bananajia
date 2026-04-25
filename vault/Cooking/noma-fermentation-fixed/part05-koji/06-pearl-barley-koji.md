@@ -109,7 +109,3 @@ You can do a lot with your fresh cake of koji, but it’s also delicious on its 
 Crumble fresh koji cake into pieces the size of a kidney or fava bean and add them to vegetable soups during the last 10 minutes of cooking. Use as much as you would of any other vegetable in your soup, to lend a note of sweetness and a surprising texture that’s reminiscent of a chewy dumpling. When making a meat stew, you can add the crumbed koji in the final hour; it will thicken the broth but will also add an extra element of sweetness and richness to the whole dish.
 
 *When inoculated withAspergillus luchuensis—a different species ofAspergillus—barley koji develops notes of citrus.*
-
-<!-- text/part0009_split_007.html -->
-
-html

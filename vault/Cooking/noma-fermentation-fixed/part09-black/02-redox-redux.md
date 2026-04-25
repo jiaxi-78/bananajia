@@ -17,7 +17,3 @@ That might be a lot of chemistry to take in, but cookingischemistry. Every time 
 *Pear and Roasted Kelp Ice Cream, Noma, 2018*
 
 *Black pears are blended into a paste and dried into fruit leather before being molded into imitation mussel shells and filled with kelp ice cream and licorice.*
-
-<!-- text/part0013_split_003.html -->
-
-html

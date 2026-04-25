@@ -95,7 +95,3 @@ To double down on the fruitiness, brunoise firm but sweet pears and let them mac
 Decrease in °Bx from starting pointApproximate % ABV000.5811.1521.7332.342.8853.4564.0374.685.1895.57106.33116.9127.48138.05148.63159.2169.781710.351810.931911.520
 
 *Plum wine fermenting into vinegar.*
-
-<!-- text/part0008_split_007.html -->
-
-html

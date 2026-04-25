@@ -37,7 +37,3 @@ Lacto koji water produces an unearthly butter sauce. In a saucepan over medium h
 Koji butter sauce is also an incredible cooking medium. Use it to poach anything from lobster tails to turnips, or add a splash to a pot of wilted kale or a pan of gnocchi.
 
 *Koji mole is a blend of cream and dark-roasted koji.*
-
-<!-- text/part0009_split_012.html -->
-
-html

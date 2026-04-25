@@ -53,7 +53,3 @@ Cep shoyu presents an opportunity to double down on the flavor of cooked mushroo
 *Pan-roast fresh ceps with cep shoyu to double down on both the umami and mushroom flavors.*
 
 *Coffee, already a fermented product, adds depth and complexity when fermented again as shoyu.*
-
-<!-- text/part0011_split_008.html -->
-
-html

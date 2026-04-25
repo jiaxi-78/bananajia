@@ -23,7 +23,3 @@ Meanwhile, we’re continually trying to dissect garum and rebuild it in differe
 *Steamed crab is dressed with a sauce made from egg yolks cured in kangaroo and beef garums.*
 
 *Garum was traditionally a sauce made from decomposing fish, but at Noma we begin with ground beef.*
-
-<!-- text/part0012_split_006.html -->
-
-html

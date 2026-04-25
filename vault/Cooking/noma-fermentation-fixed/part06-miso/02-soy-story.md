@@ -31,7 +31,3 @@ And all this is to say nothing of the soybean-paste traditions in other parts of
 Fermented bean pastes also spread throughout Southeast Asia. In Thailand, we findtai jiew, much wetter and funkier than miso. Indonesia hastauco, which is quite sweet from the addition of palm sugar. And Vietnam produces the less viscoustuong, which you may have consumed as a dip with summer rolls. The fact that this technique has spread throughout Asia—and even as far as chilly Copenhagen—speaks to its tremendous appeal. Miso is contagious.
 
 *Mejuare compacted bricks of fermented soybeans that serve as the basis of several Korean ferments.*
-
-<!-- text/part0010_split_003.html -->
-
-html

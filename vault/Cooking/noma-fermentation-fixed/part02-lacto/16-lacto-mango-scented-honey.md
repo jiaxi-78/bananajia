@@ -49,7 +49,3 @@ The most obvious use for lacto-fermented honey is as a (more delicious, more int
 Lacto-fermented honey is a perfect pairing to almost any fruit, but especially pears. In a wide-bottomed pot, combine 500 milliliters lacto honey, 500 milliliters white wine, and a spoonful each of chopped fresh rosemary and thyme. Lower 6 ripe but firm peeled pears into the liquid, cover, and bring to a simmer. Cook the fruit until softened slightly, 3 to 5 minutes, then remove the pot from the heat and allow to cool to room temperature. Not many people can resist these gems, sliced and served with a healthy scoop of ice cream, or dressed with a drop of vinegar and paired with hard cheese.
 
 *Lacto gooseberries were the sour spark that began the pursuit of fermentation at Noma.*
-
-<!-- text/part0006_split_017.html -->
-
-html

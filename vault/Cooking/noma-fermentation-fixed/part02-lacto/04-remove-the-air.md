@@ -7,7 +7,3 @@ LAB function best in the absence of oxygen. With many traditional lacto-fermenta
 At Noma, however, smushing vegetables under weights isn’t always an option, so we’ll go to great lengths to ensure that the finished fermented fruits or vegetables stay beautifully whole for their final presentation. We use plastic bags and a vacuum sealer to ensure that our LAB don’t come into contact with oxygen.
 
 However you choose to remove oxygen from LAB’s environment, you’re not only helping the bacteria to carry out their fermentation work, you’re also excluding potential pathogens. By taking oxygen out of the equation, you also sabotage unwanted molds, which require air for their cellular respiration.
-
-<!-- text/part0006_split_005.html -->
-
-html

@@ -1,4 +1,4 @@
-## <术语22>
+## Aspergillus luchuensis
 
 Aspergillus oryzae、Aspergillus luchuensis（发音为 loo-CHOO-en-sis）的近亲代谢淀粉和蛋白质并产生柠檬酸作为副产物。传统上，它被用来酿造韩国烧酒和日本泡盛等亚洲烈酒的基酒，因为酒精的蒸馏会留下柠檬酸。虽然它是一个鲜为人知的品种，但它却非常美味。
 
@@ -7,7 +7,3 @@ Aspergillus oryzae、Aspergillus luchuensis（发音为 loo-CHOO-en-sis）的近
 酶不是微生物——它们甚至不是活的——而是促进生物体或有机物内化学转化的生物催化剂。您通常可以通过后缀酶来识别它们，例如蛋白酶（一种分解蛋白质的酶）和淀粉酶（来自拉丁语单词amylum，意思是“淀粉”，它可以完全分解蛋白质）。它们是一类通过进化而形成的蛋白质，具有特定但不同的功能。它们的工作原理相当复杂，但您可以将本书中介绍的功能视为钥匙和剪刀的结合体。它们是钥匙，因为它们是为特定的锁而定制的，作用于一种有机分子，同时不影响其他分子；它们是剪刀，可以将丝带剪成更短的长度。一般来说，酶在温暖、流动的环境中工作效率最高，但如果加热得太高，它们可能会被“煮”到不再发挥作用的程度。
 
 *Beta-amylase is an enzyme capable of breaking down starches into their constituent sugar molecules.*
-
-<!-- text/part0005_split_005.html -->
-
-html

@@ -15,7 +15,3 @@ Over time, what begins as a heterogeneous soup of beans and bits of wheat (known
 *Large batches ofmoromiare stirred in giant cedar vats calledkioke.*
 
 Traditionally, shoyu production would take place in massive cedar vats calledkioke, measuring around 2 meters across and almost 3 meters deep. Like miso, shoyu would be started in the winter months after the harvest, avoiding high summer temperatures that could adversely speed up enzymatic and microbial activity. The mixture would be stirred every day for the first few weeks, then left to ferment for up to three years. Once ready, the moromi would be ladled onto multiple sheets of cloth and stacked in a large rectangular wooden press. A huge lever would drive a wooden plate downward, pressing the liquid out of the moromi. Once all the shoyu had been extracted from the moromi, the remaining sediment would be as stiff and dry as cardboard. It was often handed off to farmers as animal feed. The strained shoyu would be left to settle, strained once more, heat-treated, and bottled.
-
-<!-- text/part0011_split_003.html -->
-
-html

@@ -25,7 +25,3 @@ Let’s quickly break down the methodology for making Noma’s yellow pea shoyu:
 Our primary shoyu is made with yellow peas and Konini wheat. Konini is an ancient variety, purple in color and complex in flavor once it’s roasted. Konini can be a bit hard to source, but any good-quality whole-grain wheat will do. We’ve also had great success with rye and barley.
 
 This chapter also includes shoyu variations made with ingredients such as dried ceps or coffee. Once again, while we haven’t found a way to integrate shoyu fully into the dining experience at Noma, we continue to experiment. Some of these recipes don’t fit snugly into the definition of shoyu; some have just as much in common with garums. (We continue to call them shoyus, because unlike garums, they don’t contain any animal flesh.) Our most successful concoction of this ilk is our dryad’s saddle shoyu. Dryad’s saddle is a type of mushroom, on which it’s almost impossible to grow koji by itself, so we blend it with finished barley koji and soak it in a salt brine. It’s a very different liquid from our basic shoyu—fruity, sour, salty, with a pleasant must. It’s rich in umami as well, which makes it a nice, well-rounded condiment on its own, and an excellent booster to other sauces.
-
-<!-- text/part0011_split_005.html -->
-
-html

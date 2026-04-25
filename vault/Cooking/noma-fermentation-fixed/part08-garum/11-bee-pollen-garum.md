@@ -41,7 +41,3 @@ Bee pollen garum is probably the only one we make at Noma that is mild enough to
 ### Roasted Tomatoes
 
 In the late summer, when the tomatoes can’t get any better, take a basket of floral and fragrant cherry tomatoes—Sun Golds are a really spectacular cultivar—and toss them into a scorching-hot pan coated with olive oil. Toss them around for a few seconds before sliding the pan onto the top rack of the oven to finish cooking beneath the hot broiler. Let the tomatoes bubble and burst and caramelize until you see their juices thickening at the bottom of the pan, about 10 minutes. Pull the pan from the oven, throw in a couple of sprigs of lemon thyme, and add a healthy spoonful of bee pollen garum. Stir the mixture around quickly, then remove the lemon thyme sprigs and finish it off with torn leaves of opal basil. Serve it with crusty grilled bread, or strewn through dressed salad greens with sautéed chanterelles for a smashing warm summer salad.
-
-<!-- text/part0012_split_012.html -->
-
-html

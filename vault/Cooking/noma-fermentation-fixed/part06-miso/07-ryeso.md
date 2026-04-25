@@ -43,7 +43,3 @@ Or take things one step further: Ryeso tamari consorts particularly well with dr
 The resulting glaze is phenomenal painted onto the skin of ducks, pheasants, or quail as they cook over coals. For vegetarians, grill a whole cluster of hen of the woods mushrooms with a bit of melted butter, brushing periodically with ryeso-mushroom glaze. The spongy fungi will soak up the flavor and become a crispy-smoky-juicy-meaty wonder, capable of satiating any carnivore.
 
 *Clarified ryeso stock simmered with mushrooms and kombu leads to an incredibly savory glaze for meat or vegetables.*
-
-<!-- text/part0010_split_008.html -->
-
-html

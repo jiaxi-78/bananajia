@@ -43,7 +43,3 @@ See specific instructions onbuilding a smaller-scale fermentation chamber.
 *The schnitzel is a piece of black lip abalone that’s been braised in rice koji oil to tenderize its flesh, then pounded and breaded with rice koji flour and breadcrumbs before being pan-fried.*
 
 *Use a sugar shaker to knock off spores from dried koji grains when inoculating barley.*
-
-<!-- text/part0009_split_006.html -->
-
-html

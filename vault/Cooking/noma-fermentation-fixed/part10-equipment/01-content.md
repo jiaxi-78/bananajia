@@ -1,47 +1,11 @@
-
-
-<!-- text/part0014_split_000.html -->
-
-html
-
 Equipment
 
 There are a multitude of different ways to go about fermentation, and thus there is no single set of “correct” equipment. Some fermenters will swear by their grandmother’s heirloom ceramic crock, while others make do with repurposed pickle jars. We’ll stop short of suggesting specific items, lest we make you feel like you can’t carry out a fermentation project unless you have exactly what we have. But here’s some basic information for reference, should you be wondering what to buy online or from your local fermentation store.
-
-<!-- text/part0014_split_001.html -->
-
-html
-
 AirlocksAn indispensable tool when brewing alcohol, and useful for lacto-fermentation as well, an airlock consists of a water-filled S-shaped vent plugged into a rubber stopper. Air cannot enter through the airlock, but as microbes create gas inside the fermentation vessel, pressure builds until it is expelled through the vent.Air Pump and Air StoneCommon devices used to aerate vinegars and supply oxygen to the aerobic bacteria fermenting it, air pumps can be found at both pet stores and home-brew shops. Many come with stone aerators (air stones), but if you notice them deteriorating over time, you can also find metal aerators.Ceramic CrocksCeramic crocks are tried and true vessels for fermented foods. They’re opaque, so light can’t enter (seesidebar), which prevents UV rays from damaging microbial cells. Many crocks come with the added feature of a small moat in which the lid sits. When filled with water, it acts as an airlock.Cider PressNormally used to press the mash of fermented fruit through a muslin bag, a cider press can also be used to harvest shoyu or the juice of lacto-fermented fruits and vegetables.DehydratorThis countertop appliance blows warm air over trays of ingredients, drying them slowly. Dehydrators are great for making use of a range of fermented goods, from lacto-fermented fruits to black vegetables.Fermentation WeightsOften included with fermenting crocks, glass or ceramic fermentation weights are used to press ingredients down beneath a water line and out of contact with the air. They’re especially useful for making miso, and when lacto-fermenting sturdier products.
-
-<!-- text/part0014_split_002.html -->
-
-html
-
 Glass Jars (Different Shapes and Sizes)Glass is a great medium for fermenting kombuchas and lacto-ferments because it is inert and allows you to track your progress visually (seesidebar). Swing-top or screw-on lids are equally acceptable.Grain PolisherUsed in Japan to remove the endocarp (outer layer) of rice by whirring the grains against an abrasive surface, making it easier for koji to take hold. A grain polisher will work equally well with lesser-known grains, like emmer or konini.HumidifierA small humidifier is necessary for incubating koji. These come in many shapes and types. Some operate with an ultrasonic plate that creates an ultrafine mist, while others disperse water into the air through evaporation. Either will work, but in general, smaller is better.JuicerIndispensable for extracting fruit and vegetable juices for vinegars and kombuchas, juicers come in many shapes and styles.KiokeFlared, open-top barrels traditionally used in Japan to ferment sake, miso, and shoyu, kioke are usually made of cedar, which imparts a distinct flavor to the ferment. The open top allows the mixture to be stirred or pressed down with weights.Koji ShakerYou’re looking for an icing/powdered sugar shaker: a simple metal cylinder outfitted with a wire screen lid. A shaker allows you to distribute Aspergillus spores onto trays of steamed rice or barley.
-
-<!-- text/part0014_split_003.html -->
-
-html
-
 Muslin or CheeseclothUseful for straining mashes and ice-clarifying broths and stocks, these are made of either vinyl or cotton and can be reused with a thorough washing.Nylon Mesh StrainerAlso called a fish net, this is a wire or plastic ring fitted with fine nylon mesh used to strain liquids and sift flours. A fine-mesh sieve lined with cheesecloth serves the same purpose.Perforated Steel TrayA perforated stainless-steel tray allows koji to grow on a sanitary surface with access to oxygen.pH MeterThis handheld tool provides an accurate, digital measurement of a liquid’s pH.pH Test StripsThese chemically reactive strips of paper change color depending on the pH of a solution. You dip the strips into a liquid, then visually compare the color to a key.Plastic BucketFood-grade plastic buckets are ideal vessels for larger batches of ferments like kombucha, miso, garum, vinegar, and alcohol (when equipped with an airlock). Note that plastic does have a tendency to absorb flavors, so it’s best not to use the same bucket for different purposes.
-
-<!-- text/part0014_split_004.html -->
-
-html
-
 Pot and SteamerA simple three-piece setup (pot, lid, and perforated steamer insert) is used to cook grains.RefractometerAn optional but extremely handy tool, a refractometer allows you to determine the sugar content of a liquid by measuring the refraction of light. (The more sugar dissolved in water, the greater the refractive index.)Rice CookerA large rice cooker set to “keep warm” can serve as a fermentation chamber for products that need to be held at higher temperatures, such as garums and black fruits and vegetables. Be sure to find a rice cooker that does not come equipped with an auto-off feature.Space Heater or Heating MatEither of these devices can be used to heat a well-insulated fermentation chamber. (Heating mats—normally used to germinate seeds or heat reptile terrariums—are better suited for smaller chambers.) While many heaters are equipped with manual rheostats, they’re best when combined with a temperature controller.Styrofoam CoolerWaterproof, well-insulated, cheap, and easily cleaned, Styrofoam coolers make ideal fermentation chambers. Seestyrofoam coolerfor instructions.Swing-Top Glass BottlesPerfect for storing finished liquid ferments, such as vinegar and kombucha, because their seals are airtight, bottles can also be used to carbonate kombucha: Fill the bottles and leave them in the fridge for 1 to 2 weeks before consuming.
-
-<!-- text/part0014_split_005.html -->
-
-html
-
 Temperature ControllerAn electronic device for regulating the temperature of a fermentation chamber, it effectively functions as a thermostat that can be programmed to control a heat source of your choosing. Some models can also switch over to a cooling function should the temperature get too hot.Vacuum Sealer and Vacuum BagsA countertop vacuum sealer is extremely useful for lacto-fermentation and storage of all your ferments once complete. Clear vacuum bags allow you to see what’s happening during fermentation and can easily be cut open to vent gas and resealed.Wooden BarrelBarrels impart unique flavors and allow for very slow evaporation of the liquids they hold. Alcohols and vinegars are the most common barrel-aged ferments, but garums and shoyus also benefit from aging in wood.Wooden Koji TrayTypically made from untreated planks of cedar, koji trays are the traditional vessel for growing Aspergillus oryzae on rice or barley. If all goes well, there’s no need to wash the trays between batches of koji, as the fungus comes to live in the trays themselves.
-
-<!-- text/part0015.html -->
-
-html
-
 Sources
 
 An organic farmers’ market or grocery store is your best source for the raw ingredients called for in this book. For fermentation-specific items, a well-stocked home-brew or fermentation shop will have almost everything you need. Beyond that, there are some things you can’t find online. Here are a few sources we’ve used to procure specialized products.
@@ -99,11 +63,6 @@ happykombucha.co.uk
 hjemmeriet.com
 
 kombuchakamp.com
-
-<!-- text/part0016.html -->
-
-html
-
 Acknowledgments
 
 For all the iterations this book has taken on its winding path to becoming what it is, both authors would like to thank the many individuals who either helped it along its way or afforded us the time to write it, among them, Thomas Frebel, Mette Brink Soberg, Benjamin Paul Ing, Junichi Takahashi, Jason White, Matt Orlando, Paula Troxler, Evan Sung, Jason Loucas, Laura and Andreja Lajh, Lizzie Ellison, Aralyn Beaumont, Paul D’Avino, Diego Gutierrez, Phil Hickman, Alex Petrician, Adriano Bruzzese, Anne Catherine Preißer, Priyanca Patel, Fiona Strouts, and Alessio Marcato, in addition to the entire Noma family, everyone at Atelier Dyakova, and the entire team at Artisan Books.
@@ -113,21 +72,11 @@ We would also like to thank authors whose amazing bodies of work inspired us to 
 Not least, very special thanks are in order to the team of amazing editors who helped shape the words of this book into a volume that is as enjoyable to read as it was to write: Chris Ying, Martha Holmberg, Dr. Arielle Johnson, and our publisher, Lia Ronnen.
 
 RR & DZ
-
-<!-- text/part0017.html -->
-
-html
-
 About the Authors
 
 René Redzepi is the chef and co-owner of Noma in Copenhagen, four times recognized as the world’s best by the World’s 50 Best Restaurants. Redzepi has twice appeared on the cover of Time magazine (and been named one of Time’s 100 Most Influential People in the World); been featured in publications from theNew York TimestoWired; and been profiled in two feature-length documentaries and countless national and international media outlets. His first book,Noma: Time and Place in Nordic Cuisine, was an IACP and James Beard Award winner. He is also the author ofA Work in Progress. He lives with his wife, Nadine Levy Redzepi, and their three children. Find him on Instagram@reneredzepinomaand@nomacph.
 
 David Zilber is a chef and photographer who hails from Toronto, Canada. He has cooked from coast to coast across North America, most notably as a sous-chef at Hawksworth Restaurant in Vancouver. He has worked at Noma since 2014 and has served as director of its fermentation lab since 2016. He enjoys Jamaican patties and quantum physics. Find him on Instagram@david_zilber.
-
-<!-- text/part0018.html -->
-
-html
-
 Index
 
 NOTE: Page numbers have been removed from the index for this electronic edition. To locate any of the following terms, please use the search feature of your e-book reader.
@@ -1455,11 +1404,6 @@ Yellow Pea Shoyu
 Yellow Peaso
 
 see also misos and peaso
-
-<!-- text/part0019.html -->
-
-html
-
 Check out
 
 @nomafermentson Instagram for inspiration, and share your own creations online with the hashtag #nomaferments.

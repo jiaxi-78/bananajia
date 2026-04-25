@@ -27,7 +27,3 @@ To harvestA. luchuensisspores, spread the grains into a single layer and continu
 *After 36 hours*
 
 *After 42 hours*
-
-<!-- text/part0009_split_008.html -->
-
-html

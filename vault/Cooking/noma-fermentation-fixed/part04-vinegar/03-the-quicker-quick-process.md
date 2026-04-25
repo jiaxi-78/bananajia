@@ -27,7 +27,3 @@ By adding ethanol to fruit or vegetable juice, vinegar making effectively become
 Perhaps an existential question may occur to you: “Why not just add acetic acid to the juice and skip the whole fermentation process?”
 
 We strive for complex and intriguing flavors in our ferments at Noma, and as with many cooking processes, what you gain in a shortcut leaves much on the cutting-room floor. White vinegar is fermented from pure ethanol and then diluted to an acetic acid content of around 5%. It’s relatively harsh and unnuanced, though it has its place in some cuisines. When AAB ferment vinegar, they can produce metabolites other than acetic acid, such as gluconic acid and ascorbic acid, that bring character and depth to vinegar. Plus, there are any number of unpredictable secondary reactions taking place in the fermentation process—some flavors get muted and new ones come forth. These are the qualities of good vinegar. It’s the minutiae that make the difference.
-
-<!-- text/part0008_split_004.html -->
-
-html

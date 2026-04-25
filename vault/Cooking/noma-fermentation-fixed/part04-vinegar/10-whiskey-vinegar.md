@@ -51,7 +51,3 @@ Suggested Use
 *Beef garum mixed with whiskey vinegar forms our version of the Vietnamese sauce nuoc cham.*
 
 The classic Vietnamese dipping sauce nuoc cham—made from fish sauce, lime juice, and sugar—is a perfect amalgamation of acidity, sweetness, and funk that we can try to emulate using our own ferments. Mix 4 parts whiskey vinegar with 1 part honey. Season with a splash ofBeef Garum. You’ll end up with the ideal dipping sauce for red meats like duck, quail, or aged beef, as well as cooked and raw greens or root vegetables.
-
-<!-- text/part0008_split_011.html -->
-
-html

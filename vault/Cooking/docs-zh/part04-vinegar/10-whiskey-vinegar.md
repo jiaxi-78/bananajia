@@ -51,7 +51,3 @@
 *Beef garum mixed with whiskey vinegar forms our version of the Vietnamese sauce nuoc cham.*
 
 经典的越南蘸酱 nuoc cham 由鱼露、酸橙汁和糖制成，是酸度、甜味和恐怖的完美结合，我们可以尝试使用我们自己的发酵来模仿。将 4 份威士忌醋与 1 份蜂蜜混合。加入少许牛肉Garum调味。您最终会得到适合鸭肉、鹌鹑或陈牛肉等红肉以及煮熟和生的蔬菜或根类蔬菜的理想蘸酱。
-
-<!-- text/part0008_split_011.html -->
-
-html

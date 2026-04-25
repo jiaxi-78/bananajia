@@ -131,7 +131,3 @@ Lacto-fermented plum juice has intriguing sweet applications, too. For example, 
 *A dose of lacto-fermented plum juice brings brightness and depth to a custard of eggs, cream, and milk.*
 
 *Lacto-fermenting cep mushrooms yields two products—the mushrooms themselves and their incredible juice.*
-
-<!-- text/part0006_split_012.html -->
-
-html

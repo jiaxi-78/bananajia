@@ -63,7 +63,3 @@
 芹菜醋具有明亮的植物风味，是制作浸泡醋的完美起点。取 500 毫升芹菜醋，与 100 克茴香叶、欧芹叶或任何您喜欢的甜味香草混合。让混合物浸泡约 5 分钟，然后过滤。您将获得充满活力的绿色草本醋，带有新鲜草本的纯正风味。从那里，你可以在一碗新鲜的乳清干酪或马苏里拉奶酪上撒上橄榄油、海盐和红辣椒片，然后在上菜前淋上一点芹菜香草醋。
 
 *The lightly sweet juice of butternut squash doesn’t have enough sugar to ferment into the required amount of ethanol. Adding neutral grain spirit allows it to be fermented into vinegar.*
-
-<!-- text/part0008_split_009.html -->
-
-html

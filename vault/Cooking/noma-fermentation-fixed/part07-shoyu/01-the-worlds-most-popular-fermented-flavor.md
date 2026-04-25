@@ -17,7 +17,3 @@ The English philosopher John Locke first mentioned “saio” in a journal entry
 ### Koji and Miso: Shoyu’s Forebears
 
 *Many of the technical aspects of producing shoyu flow directly from, or are closely linked to, those of koji and miso production. If you’re flipping through the book, this chapter will give you a thorough understanding of what shoyu is and how it’s made, but we strongly encourage you to read the preceding chapters to better understand this one.*
-
-<!-- text/part0011_split_002.html -->
-
-html

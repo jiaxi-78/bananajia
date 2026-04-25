@@ -33,7 +33,3 @@ Kombucha, on the other hand, is a sustained fermentation. The yeast continually 
 That’s why some commercial varieties of kombucha can taste overfermented and sour rather than refreshing. A well-made kombucha should have enough residual sweetness to be enticing and enough acidity to be lively. Striking the ideal balance between sugar and acid comes down to the third member of the kombucha symbiosis: humans. It’s up to us to determine when a kombucha is ready to harvest.
 
 Interestingly, the role that humans play also extends to the evolutionary history of the bacteria and yeast responsible for kombucha. Before the advent of microbiology, the best indicators of a SCOBY’s vigor were visual cues. A robust SCOBY was likely taken as a good sign and prized by kombucha makers, who would save and propagate such specimens, thus giving precedence to the bacteria that were able to produce them. While the microbes in a SCOBY don’t need a zoogleal mat to function, human intervention has ensured the survival of SCOBYs that produce thick rafts.
-
-<!-- text/part0007_split_003.html -->
-
-html

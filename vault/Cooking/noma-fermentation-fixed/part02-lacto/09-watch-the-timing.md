@@ -5,7 +5,3 @@ It’s important to catch a ferment at the right time. From the moment you place
 Gauging when a fermentation is ready is no different from knowing when your pasta is perfectly al dente, or a floret of broccoli is properly blanched. As Thomas Keller once said, “Put it in your mouth and eat it.” The only way to check on the progress of a lacto-fermentation is to taste it. An ideal lacto-fermentation should maintain the essence of the original raw product, but with added acidity, umami, and depth of flavor.
 
 *Fermentation is a practice in timing. It’s up to you to decide when your ferment is “done.”*
-
-<!-- text/part0006_split_010.html -->
-
-html

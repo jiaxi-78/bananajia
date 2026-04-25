@@ -37,7 +37,3 @@ We like to deploy lacto-fermented asparagus spears the same way you would gherki
 *Pack the jar tightly but not so full that you bruise the asparagus.*
 
 *Sprinkle salt evenly over the blueberries so you don’t damage the product with too much mixing. If there are pockets of unsalted berries, they won’t ferment properly.*
-
-<!-- text/part0006_split_015.html -->
-
-html

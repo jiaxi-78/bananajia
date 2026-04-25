@@ -45,7 +45,3 @@ Peel and halve golf ball–size sweet onions from stem to root, then toss them l
 Once you taste it for the first time, hazelnut miso will almost certainly replace any nut butter as your new favorite. And if you think of it as a nut butter, it’s easy to come up with ways to use it. For a quick example, smear a spoonful of hazelnut miso onto graham crackers the next time you’re making s’mores with (or without) the kids.
 
 *Breadso began as a project to use up extra bread, but it quickly proved to be an extraordinary product in its own right.*
-
-<!-- text/part0010_split_011.html -->
-
-html

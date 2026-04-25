@@ -111,7 +111,3 @@ For a salty-sweet dessert topping, try incorporating yellow pea shoyu into caram
 *Whisk shoyu and cream into caramelized sugar to make shoyu caramel.*
 
 *Wild dryad’s saddle mushrooms make a shoyu with a pronounced earthy, forest flavor.*
-
-<!-- text/part0011_split_006.html -->
-
-html

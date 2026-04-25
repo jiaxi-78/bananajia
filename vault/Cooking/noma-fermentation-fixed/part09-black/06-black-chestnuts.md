@@ -29,7 +29,3 @@ Suggested Use
 With very little modification, black chestnuts can be turned into an unbelievable filling for pasta. Start by chopping 350 grams peeled black chestnuts into thin slivers. In a medium sauté pan, heat 100 grams butter until it begins to foam. Throw the chestnuts in and sauté for a few minutes before adding 250 grams good chicken stock. Cook at a simmer beneath a round of parchment paper until the chestnuts are fairly tender. At that point, transfer the contents of the pot to a blender and puree the mixture until it’s silky smooth (depending on your blender, it may need a touch of water to help it spin). Season the puree with salt and mace or nutmeg. Pipe it onto fresh pasta and form your preferred stuffed shape: cappelletti, agnolotti, tortellini, ravioli. And to take things to an entirely new dimension, glaze your pasta with theLacto Koji Butter Sauceafter it’s cooked.
 
 *Fresh hazelnuts take on a toasty, chocolaty flavor when exposed to prolonged heat*
-
-<!-- text/part0013_split_007.html -->
-
-html

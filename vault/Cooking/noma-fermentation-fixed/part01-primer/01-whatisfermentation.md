@@ -11,7 +11,3 @@ However, not all the processes we consider to be fermentation fit neatly into ti
 We don’t differentiate between primary and secondary fermentation processes in this book, but you may find it helpful to have these definitions under your belt as you find your way with fermentation.
 
 *You taste as much with your brain as you do with your tongue.*
-
-<!-- text/part0005_split_002.html -->
-
-html

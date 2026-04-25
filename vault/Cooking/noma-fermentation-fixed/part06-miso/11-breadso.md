@@ -41,7 +41,3 @@ For a variation on a classic English sauce, follow the procedure for making chic
 Breadso is one of those ferments that can just as easily be used for dessert as it can for dinner. Try whisking together 2 parts breadso with 1 part softened butter and 1 part brown sugar. Spread the mixture over a thick slab of fresh sourdough and sear it facedown in a pan until it sizzles and caramelizes. Top it with preserved apricots or cherries and their syrup, and a dollop of freshly whipped cream.
 
 *When toasted, pumpkin seeds become aromatic and nutty, qualities that transfer to the miso as it ferments.*
-
-<!-- text/part0010_split_012.html -->
-
-html

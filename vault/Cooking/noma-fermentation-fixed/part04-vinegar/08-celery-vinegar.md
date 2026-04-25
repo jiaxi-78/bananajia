@@ -63,7 +63,3 @@ Cut a couple of English cucumbers into manageable pieces and blend them until sm
 Celery vinegar, with its bright vegetal flavor, is a perfect starting point to create infused vinegars. Take 500 milliliters celery vinegar and blend it with 100 grams fennel tops, parsley leaves, or whatever sweet herb you like. Let the mixture infuse for about 5 minutes, then strain. You’ll have a vibrant green, herbaceous vinegar with the pure flavor of fresh herbs. From there, you can dress a bowl of fresh ricotta or mozzarella with olive oil, sea salt, and red pepper flakes, then finish with a drizzle of celery-herb vinegar just before serving.
 
 *The lightly sweet juice of butternut squash doesn’t have enough sugar to ferment into the required amount of ethanol. Adding neutral grain spirit allows it to be fermented into vinegar.*
-
-<!-- text/part0008_split_009.html -->
-
-html

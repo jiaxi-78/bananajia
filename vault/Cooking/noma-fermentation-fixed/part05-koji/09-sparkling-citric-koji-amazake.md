@@ -37,7 +37,3 @@ Clams and Cockles
 The amazake has qualities that ride the line between a beer, a cider, and a young wine. You can and should absolutely cook with it, adding a dash to soups or stews to perk them up, or using it wherever you might otherwise reach for a bottle of white wine. The amazake complements bivalves extremely well, for instance. Steam a kilo’s worth of clams or cockles with olive oil, a clove of garlic, a couple of sliced shallots, and a few glugs of amazake. Once the bivalves have opened, remove them from the pot and return the remaining liquor to the stove. Whisk in a knob of butter, add some chopped tarragon, parsley, and chives, then pour it back over the clams before serving.
 
 *Sift dried, milled koji to make koji flour.*
-
-<!-- text/part0009_split_010.html -->
-
-html

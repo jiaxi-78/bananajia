@@ -41,7 +41,3 @@ Begin by slicing the cheeks of the dried apple away from the core (if you used a
 This makes for a fun gift, provided you plan well in advance. Place whole or halved black apples in a glass jar and cover with good brandy or Calvados. Seal and store in a cool place—the longer, the better. At the restaurant, we’ve sometimes let fruit sit in a boozy bath for up to two years. Once the alcohol has turned sweet and syrupy and the fruit is soft and alcoholic, it’s time to break out the vanilla ice cream.
 
 *Find fresh chestnuts in the early autumn, then transform them through blackening.*
-
-<!-- text/part0013_split_006.html -->
-
-html

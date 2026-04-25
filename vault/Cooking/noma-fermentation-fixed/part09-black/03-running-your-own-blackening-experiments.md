@@ -21,7 +21,3 @@ Pungency
 Nothing comes out of the blackening chamber tasting the same. Sometimes that’s a good thing, but other times the prolonged heat can mute or destroy subtle and volatile aromas. Raw garlic’s pungency transforms during its two-month-long heat bath, but it stays recognizable. The subtlety of, say, a root of salsify is completely lost once it’s blackened. Though the root is moist enough, has thick enough skin, and is also sweet enough, black salsify comes out delicious but indistinct. It ends up tasting more ambiguous than other roots. The more potent the flavor of the raw ingredient, the more interesting the outcome will be.
 
 *Sweet, pungent black garlic has grown in popularity and prevalence in Western kitchens over the past few decades.*
-
-<!-- text/part0013_split_004.html -->
-
-html

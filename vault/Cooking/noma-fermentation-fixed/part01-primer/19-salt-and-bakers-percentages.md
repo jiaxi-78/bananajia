@@ -5,7 +5,3 @@ Salt is one of the most important factors in a safe and successful fermentation.
 For that reason, we stress precise salt measurements, usually expressed in percentage by weight. Note that in the fermen-tation lab at Noma, we use baker’s percentages—when we tell you to add 2% salt to a kilogram of plums, we mean 2% of the weight of the plums (which comes out to 20 grams), not the total weight of the plumsandthe salt (which would be 20.4 grams). The difference is not always very significant, but using baker’s percentages streamlines the math.
 
 Last, the type of salt makes a difference. We call for non-iodized salt, because iodine is mildly antimicrobial. While using standard table salt won’t stop a ferment cold, it can impede helpful microbes from gaining a strong foothold. Kosher salt will work well, and should be available in your local grocery store. Mineral-rich sea salts like fleur de sel are great, too, and can actually improve the texture of lacto-ferments.
-
-<!-- text/part0005_split_010.html -->
-
-html

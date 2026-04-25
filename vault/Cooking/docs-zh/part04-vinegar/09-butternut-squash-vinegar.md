@@ -72,10 +72,6 @@
 
 ### 炒虾
 
-下次炒去皮虾时，在虾开始变得不透明时，加入等量的胡桃南瓜醋和虾garum。 （如果你还没有时间制作玫瑰和虾 Garum，可以用 1:1 比例的伍斯特酱和鱼露代替。）这种液体会使锅脱釉，并在虾焦糖化时包裹住虾，这是美味的东西。
+下次炒去皮虾时，在虾开始变得不透明时，加入等量的胡桃南瓜醋和虾 garum。 （如果你还没有时间制作玫瑰和虾 Garum，可以用 1:1 比例的伍斯特酱和鱼露代替。）这种液体会使锅脱釉，并在虾焦糖化时包裹住虾，这是美味的东西。
 
 *Some of the alcohol needs to be burned off before whiskey can be fermented into vinegar.*
-
-<!-- text/part0008_split_010.html -->
-
-html

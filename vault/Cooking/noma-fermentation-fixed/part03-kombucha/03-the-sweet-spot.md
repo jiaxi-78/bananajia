@@ -25,7 +25,3 @@ Sweetness is expressed in degrees Brix (°Bx)—a measure of the amount of disso
 As for how long to let kombucha ferment, it’s helpful to visualize the fermentation process as a curve. In the beginning, the liquid tastes familiar and somewhat lifeless. For example, a sweetened infusion of elderflower begins life tasting like flat soda pop, but by day seven, at the peak of the curve, it can resemble an amazing sparkling wine (sans alcohol). The original floral flavor will be clear, with added effervescence and brightness. But after that high point, the kombucha will steadily move down the other side of the curve toward an unpalatably acidic and shocking endpoint.
 
 More so than with other ferments, pulling kombucha and consuming or cooking with it at the right time is critical. At Noma, we often freeze our kombuchas to halt fermentation and ensure that they’re held at the top of their curve. We could also achieve the effect via pasteurization, but by applying heat you invariably muddle and mute the flavors of the ferment.
-
-<!-- text/part0007_split_004.html -->
-
-html

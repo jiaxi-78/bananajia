@@ -25,7 +25,3 @@ Suggested Use
 Think of sweet citric koji water as white wine with umami and body. Use it to steam cockles or to liven meat jus. It’s also perfect for making fishen papillote: Add citric koji water to your parchment parcel in place of wine, along with citrusy herbs like lemon thyme or pineapple sage and light vegetables like baby summer squash. Bake in the oven for about 15 minutes, then peel open the paper to reveal perfectly cooked fish infused with the sweet tartness of the koji water.
 
 *Citric koji amazake doubles as a beverage and a cooking medium.*
-
-<!-- text/part0009_split_009.html -->
-
-html

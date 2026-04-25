@@ -63,7 +63,3 @@ When you’ve harvested all the flesh from your black garlic, don’t throw away
 Crush peeled black garlic with a mortar and pestle and a bit of water or oil until you have a thick paste with plenty of possible uses. For starters, it makes a fine accompaniment to sliced hard cheeses, just like quince paste. (If you find the black garlic paste a bit lacking in sweetness, add a drop of honey.) Should you mix equal quantities of black garlic and olive tapenade, you’ll wind up with a delicious topping for a slab of crunchy-soft bread that’s been toasted with plenty of olive oil. Last but not least, when black garlic finds its way into pesto (about a teaspoon per serving) and that pesto finds its way into your pasta, you will not be disappointed.
 
 *The tartness of a good apple sits in pleasant contrast to the deep sweetness produced by blackening.*
-
-<!-- text/part0013_split_005.html -->
-
-html

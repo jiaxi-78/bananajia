@@ -1,4 +1,4 @@
-# Noma发酵指南
+# Noma 发酵指南
 
 > *"Our story with fermentation is a story of accidents."* — René Redzepi
 

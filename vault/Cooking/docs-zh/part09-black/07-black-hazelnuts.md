@@ -35,7 +35,3 @@
 坚果奶是一种越来越受欢迎的饮料，黑榛子是一种特别神奇的坚果奶。将一把坚果从壳中敲出来，然后倒入两倍于坚果重量的水。让坚果在冰箱中浸泡过夜。第二天，将它们放入搅拌机中搅拌直至完全光滑，大约需要 3 分钟。通过衬有几层粗棉布的筛子或斜纹棉布过滤混合物，用勺子按压果肉以提取尽可能多的牛奶。然后，用黑榛子奶制作热巧克力或欧洽塔（用榛子奶代替水或牛奶），或者用少许榛子油装饰，然后将其用作烤扇贝的酱汁。
 
 *Coating shallots in wax before blackening seals in moisture and imparts a pleasant honey flavor.*
-
-<!-- text/part0013_split_008.html -->
-
-html

@@ -41,7 +41,3 @@ In the best possible way, rose and shrimp garum tastes like a greatly reduced sh
 In the early fall, when the weather turns and winter gourds are at their best, butternut squash soup starts to show up in restaurants and home kitchens around the world. It’s delicious, but predictable. Take it in a completely different direction by adding rose and shrimp garum, which will simultaneously echo and contrast the flavor profiles at work. Simmer chunks of peeled and seeded squash in enough vegetable or chicken stock to cover. Once the squash is completely softened, puree it in a blender with the stock. With the blender still whirring, add a teaspoon of garum per serving; you’ll immediately be hit with an inimitable aroma. Finish the soup with a dollop of whipped crème fraîche and a light grating of lime zest.
 
 *North Sea squid produce an intensely aromatic and flavorful garum.*
-
-<!-- text/part0012_split_008.html -->
-
-html

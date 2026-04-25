@@ -79,7 +79,3 @@ Hamburgers are greatly improved by incorporating a spoonful of beef garum into t
 As mentioned, the leftover solids are still chock-full of flavor and need not be thrown away. In a frying pan over medium heat, slowly render and pan-roast 250 grams of the strained beef garum solids. As the solids caramelize and crisp up, they’ll begin to release fat. Keep cooking until they’ve crisped up like lardons, without rendering all the way through; then, while still warm, transfer them to a bar blender and begin to blend on high speed. Slowly drizzle in an equal amount of neutral oil, as if making mayonnaise. The mixture will thicken and emulsify. Finish by brightening the mixture with lemon juice,lacto cep juice, orblack garlic vinegar. Use the emulsion as a sublime dressing or dip for cooked or raw vegetables, topped with a grating of fresh horseradish.
 
 *In this garum, the pungency of fermented shrimp is offset by the floral perfume of wild roses.*
-
-<!-- text/part0012_split_007.html -->
-
-html

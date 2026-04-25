@@ -127,7 +127,3 @@ Peaso butter is one of the easier and most useful applications for peaso. To mak
 Once you’ve got smooth peaso, pass it through a tamis. This isn’t absolutely necessary, per se, but as Thomas Keller once put it, the tamis creates “the texture of luxury.” Next, whisk the peaso into 400 grams room-temperature butter until fully incorporated. From there, you can roll the compound butter into a tight cylinder on a sheet of plastic wrap and store it in the fridge, so you can slice off a puck whenever you need to baste chicken in a cast-iron pan, or melt some over whipped potato puree.
 
 *Slicing pucks of peaso butter.*
-
-<!-- text/part0010_split_006.html -->
-
-html

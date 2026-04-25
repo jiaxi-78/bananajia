@@ -7,7 +7,3 @@ Be sure not to ferment anything already sprouting mold or rotting. Fermentation 
 *Chocolate from Native Jaguar Cocoa and Mixe Chile, Noma Mexico, 2017*
 
 *These pasilla mixe chiles are braised in lacto mango-scented honey and stuffed with chocolate sorbet.*
-
-<!-- text/part0006_split_007.html -->
-
-html

@@ -23,7 +23,3 @@ Until midway through the eighteenth century, the prevailing wisdom was that ever
 This cognitive leap spread across Europe and led to advancements in vinegar production that exploited the idea of oxidation. Vinegar-makers were able to speed up the process by increasing the surface area of wine. German vinegar-makers developed “the quick process” to drip wine through loosely packed wood chips while simultaneously blowing the liquid with fresh air. Hundreds of years later, artisans still employ the method.
 
 We take advantage of the same idea in our own way at Noma. Using a common air pump—the kind you’ll find in the aquarium section of any pet store—we send air through our would-be vinegar, providing AAB with the oxygen they need to work quickly. By treating our bacteria as if they were pet goldfish, we can cut our fermentation time from a few months to a couple of weeks. You’ll find more details in the in-depth recipe forPerry Vinegar.
-
-<!-- text/part0008_split_003.html -->
-
-html

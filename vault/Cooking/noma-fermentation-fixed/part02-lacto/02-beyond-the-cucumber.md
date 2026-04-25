@@ -11,7 +11,3 @@ Every September at the restaurant, at the end of the berry season, we lacto-ferm
 As LAB ferment sugar, the resultant lactic acid mingles with the acids already present in the fruit. Citric acid—most commonly associated with citrus fruits but also found in many other fruits and berries—can be quite tart and almost give off a burning sensation. Malic acid, found in grapes and apples (think of the tartness of a Granny Smith), is much rounder and mouthwatering. Ascorbic acid is sharp and direct, and can be found in all kinds of tropical fruits, from bananas to guava. The interplay of different acids is one of the most interesting and beautiful facets of fermented fruits.
 
 Because the berries usually lose their shape and texture when lacto-fermented, we often use a juice press to harvest the juices. Fermented berry juice is incredible—it has body and effervescence, saltiness, sweetness, and acidity. Mix fermented raspberry juice with a spicy olive oil, add a few grinds of floral spice—maybe long or pink peppercorns—and spoon the resulting vinaigrette over thick slices of ripe beefsteak tomatoes. Sprinkle it with sea salt, sugar, and a few torn leaves of marjoram, and it’s the perfect distillation of late summer. And don’t throw away the berry pulp. It will bring nuance and brightness to a bowl of fresh berries, topped with freshly whipped cream.
-
-<!-- text/part0006_split_003.html -->
-
-html

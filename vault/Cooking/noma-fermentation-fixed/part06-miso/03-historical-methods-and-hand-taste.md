@@ -19,7 +19,3 @@ Lorenz’s thinking would become the foundation of chaos theory. He’s often cr
 *“Hand taste” describes the distinct character of a ferment imparted by its maker and the time and place in which it was made.*
 
 Korean artisans often speak of “hand taste” (son-mat) as an irreplicable quality imbued by individual cooks to their food, a quality absent from factory-made batches. Hand taste, in essence, is chaos theory at work. Minute differences in how miso is made and aged, that day’s or hour’s population of bacteria on the miso maker’s skin and clothes, random variations in temperature, air pressure, or humidity, have such an outsize effect on the ferment’s development that they ensure no two batches will ever be exactly the same. It’s how cooks and artisans stumble into new flavors and new creations. And it’s what makes fermentation unpredictable and thrilling.
-
-<!-- text/part0010_split_004.html -->
-
-html

@@ -35,7 +35,3 @@ Black hazelnuts taste remarkably like hot chocolate, and their sweet, deeply roa
 Nut milk is a beverage that’s growing in popularity, and black hazelnuts make an especially amazing nut milk. Crack a handful of nuts out of their shells and cover with twice their weight in water. Allow the nuts to soak in the fridge overnight. The following day, blend them in a blender until completely smooth, about 3 minutes. Strain the mixture through a sieve or chinois lined with a couple of layers of cheesecloth, pressing down on the pulp with a ladle to extract as much milk as possible. From there, use your black hazelnut milk to make hot chocolate or horchata (replacing the water or milk with hazelnut milk), or garnish it with a splash of hazelnut oil and use it as a sauce for seared scallops.
 
 *Coating shallots in wax before blackening seals in moisture and imparts a pleasant honey flavor.*
-
-<!-- text/part0013_split_008.html -->
-
-html

@@ -15,7 +15,3 @@ Balanced acidity is crucial to a meal at Noma, which is why we’ve always found
 You’ll find dozens of varieties of vinegar in a well-equipped supermarket, so even if you don’t choose to make your own vinegar, there’s no reason you can’t begin experimenting with the different applications we suggest in this chapter. But if you’re ready to go further down the rabbit hole, read on.
 
 *Acetic acid bacteria are rod-shaped, aerobic bacteria. While they may not be able to turn water into wine, they can turn wine into spectacular vinegars.*
-
-<!-- text/part0008_split_002.html -->
-
-html

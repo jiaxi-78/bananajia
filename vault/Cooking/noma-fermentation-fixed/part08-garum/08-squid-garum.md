@@ -43,7 +43,3 @@ Squid garum accentuates already fishy flavors in a really elegant way, and its s
 Squid garums can help transform raw vegetables into a complete dish. Dress a plate of crudités—Romanesco, carrots, and radishes, perhaps—with olive oil, sea salt, a pinch of red pepper flakes, and a very light drizzle of squid garum for an appetizer that is funky and refreshing at the same time.
 
 *Our goal for roasted chicken wing garum was to see what would happen if we fermented a meat product that was already at the height of its deliciousness.*
-
-<!-- text/part0012_split_009.html -->
-
-html

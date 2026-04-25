@@ -19,7 +19,3 @@ The kind of kombucha we’re chasing bears very little resemblance to the sour l
 One of our earliest forays was a carrot kombucha that opened our eyes to what kombucha can be. It was like a perfect soup all on its own, a cold broth that still had some carrot-y sweetness, but with a touch of acidity. It had transformed into something with new dimensions that complemented the original flavor without obscuring it. Since then, we’ve been on an ongoing mission to brew kombucha from as many different bases as we can. Some of our explorations have taken us off the beaten path into experiments with dairy, tree saps, and stocks made with spicy chiles.
 
 We cook with kombucha, too. Once you stop viewing kombucha as simply a New Age health drink, a number of culinary possibilities open up. The longer you ferment kombucha, the more acidic it grows. After a while, it becomes a lively ingredient in marinades or vinaigrettes, or an intriguing substitute for white wine or Champagne in sauces. Or you can reduce kombucha in a pan into a magical syrup—the kind of sweet, tart topping you really want on your pancakes.
-
-<!-- text/part0007_split_002.html -->
-
-html

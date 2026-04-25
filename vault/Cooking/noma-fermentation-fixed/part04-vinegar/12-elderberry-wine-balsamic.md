@@ -55,7 +55,3 @@ Traditional balsamic is aged for a minimum of 12 years, but you’ll notice a re
 *The variety of wood you choose is up to you—they all have their own qualities. Starting off with a 5-liter barrel, it’s not difficult to find decreasing sizes all the way down to 1 liter.*
 
 *Our elderberry wine balsamic is currently aging in used Bruichladdich Scotch whisky barrels made from oak. Used barrels will impart an idiosyncratic flavor to your vinegar and can include anything from wine barrels to bourbon barrels to sherry casks. Regardless of whether you’ve acquired a used or brand-new barrel, you should fill it with water and let it soak for one day to swell the wood before adding your vinegar. This will ensure that the barrel is watertight.*
-
-<!-- text/part0008_split_013.html -->
-
-html

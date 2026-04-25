@@ -3,7 +3,3 @@
 There are thousands of wild and invasive molds that would jump at the opportunity to eat your fermentation project before you get the chance. Many microscopic mold spores are airborne, while others travel in water or on the backs of insects. Not all of them will necessarily be harmful, but if you didn’t put the mold there yourself, it’s best not to take the chance.
 
 There are many instances in this book where we are trying to create the ideal environment for beneficial mold growth, so the best preventative measures you can take against pathogenic molds are cleaning and sanitizing. By eliminating any unwanted guests at the outset, you ensure that they won’t spoil the party later. Another method is to overwhelm competing molds. With koji, we inoculate steamed barley heavily withA. oryzaespores in order to elbow out the competition. With ferments like garums and shoyus, the salt content retards mold growth. Frequent stirring and cleaning of the container walls will bring any spores on the surface out of contact with the air and drown them in a salty sea. For kombucha, keeping the surface of your SCOBY moist by basting it with liquid is often enough to keep it acidified and mold-free. Last, molds are easier to spot than other pathogens. When making something like miso, you can simply scrape away any mold that forms on the surface.
-
-<!-- text/part0005_split_008.html -->
-
-html

@@ -67,7 +67,3 @@ Miso is an ideal receptacle for scraps. Adding the pulp of a juiced vegetable, s
 That said, we don’t advise any ingredient additions that exceed 20 percent of the total weight of the peaso. The fermenting legumes themselves are what make miso amazing. If there aren’t enough proteins available during fermentation, your miso additions will simply become salty and fester. They may not go bad, but we’re striving for amazing here.
 
 *Yellow peaso is Japanese in spirit, Nordic in execution, and indispensable in our kitchen.*
-
-<!-- text/part0010_split_005.html -->
-
-html

@@ -9,7 +9,3 @@ So what makes fermentation so good? On their own, starch and protein molecules a
 Simply put, the microbes responsible for fermentation transform more complicated foodstuffs into the raw material your body needs, rendering them more easily digestible, nutritious, and delicious. Our affection for the tastes those microbes produce has allowed them to evolve and stay in our company. Humans have been fermenting for so long that many of the microscopic agents responsible can be considered domesticated, just like household cats or dogs. But while pets can stare longingly at you if they’re hungry or cold, microbes are a bit trickier to read. It’s a mutually beneficial relationship, but one that needs a bit of work to keep everyone happy. That’s the job of the fermenter.
 
 *Proteins are made of tangled chains of amino acids, life’s building blocks.*
-
-<!-- text/part0005_split_003.html -->
-
-html

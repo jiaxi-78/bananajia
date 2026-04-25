@@ -61,7 +61,3 @@ You can dry the pulp of lacto-fermented tomatoes into a fantastic chewy snack. B
 *Lacto tomato water mixed with fresh dill makes a savory, herbaceous dressing for seafood.*
 
 *Lacto-fermented white asparagus has an ideal crunch, balanced bitterness, acidity, and umami.*
-
-<!-- text/part0006_split_014.html -->
-
-html

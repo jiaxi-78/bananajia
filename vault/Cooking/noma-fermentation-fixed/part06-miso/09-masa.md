@@ -17,7 +17,3 @@ Suggested Use
 If you live in a part of the world where you can buy fresh tortillas (or tostadas), more power to you. If not, now you can make your own. Use the palms of your hands to press 30-gram balls of masa between two sheets of plastic until you have disks about 2 millimeters /1⁄16inch thick. Griddle the tortillas on both sides in a hot, dry pan until they puff up. Transfer the cooked tortillas to a baking sheet and bake them at 140°C/285°F until they’re completely dry and crisp, about 20 minutes. Spread a generous spoonful of maizo onto each tostada and top with anything your heart desires: slices of avocado, grilled octopus with salsa verde, spiced crickets, or adobo-marinated chicken, to name a few.
 
 *Hazelnut miso resulted from a need to use up defatted hazelnut pulp.*
-
-<!-- text/part0010_split_010.html -->
-
-html

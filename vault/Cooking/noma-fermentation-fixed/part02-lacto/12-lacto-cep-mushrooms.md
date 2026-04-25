@@ -51,7 +51,3 @@ The juice from lacto-fermented ceps is a multipurpose seasoning tool we use ofte
 A perfect foil for lacto-fermented cep juice is cep oil. To make cep oil, heat 500 grams grapeseed oil and 250 grams fresh ceps in a saucepan over medium-low heat until the mushrooms begin to bubble. After about 10 minutes, cut the heat, cover, and allow the oil to cool to room temperature. Move the pot to the refrigerator and allow to infuse overnight. The following day, strain the oil and keep the confit mushrooms for another use. Whisk together equal parts cep oil and lacto-fermented cep juice, then stir in finely minced shallots or slivered garlic scapes, and you’ve got a sharp, savory dressing for raw scallops or lightly poached shrimp.
 
 *Lacto-fermenting tomatoes doubles down on both their acidity and umami.*
-
-<!-- text/part0006_split_013.html -->
-
-html

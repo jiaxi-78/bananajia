@@ -75,7 +75,3 @@ One other thing we love to pickle with butternut squash vinegar is chanterelle m
 The next time you’re sautéing peeled shrimp, add a splash of equal parts butternut squash vinegar and shrimp garum, just as the shrimp begin to turn opaque. (If you haven’t gotten around to making theRose and Shrimp Garum, substitute a 1:1 ratio of Worcestershire and fish sauce.) The liquid will deglaze the pan and coat the shrimp as they caramelize—delicious stuff.
 
 *Some of the alcohol needs to be burned off before whiskey can be fermented into vinegar.*
-
-<!-- text/part0008_split_010.html -->
-
-html

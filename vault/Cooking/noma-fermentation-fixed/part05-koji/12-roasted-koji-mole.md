@@ -29,7 +29,3 @@ Koji mole is a fantastic dressing for boiled new potatoes or fingerlings. Place 
 ### Not Chocolate
 
 Roasted koji turns into a mole analogue so well because it is reminiscent of chocolate. As such, we’ve found it makes a very distinct yet familiar version of hot chocolate. Blend 60 grams koji mole into 500 grams milk, along with 15 grams muscovado sugar. Warm it up and enjoy on a chilly winter’s day.
-
-<!-- text/part0009_split_013.html -->
-
-html

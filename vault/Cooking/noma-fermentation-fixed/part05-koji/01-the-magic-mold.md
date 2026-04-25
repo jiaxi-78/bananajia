@@ -27,7 +27,3 @@ Like a sorcerer’s wand, koji transforms other ingredients, coaxing out both sw
 *Unripe Macadamia Nuts and Spanner Crab, Noma Australia, 2016*
 
 *Slivers of unripe macadamia nuts rest in a chilled, clear broth of Australian spanner crab seasoned heavily with lacto koji water and rose oil.*
-
-<!-- text/part0009_split_002.html -->
-
-html

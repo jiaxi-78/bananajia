@@ -7,7 +7,3 @@ As we mention multiple times in this book, fermentation is a fantastic means of 
 Before you pour the pickle brine or the runoff from lacto-fermented plums down the drain, consider how it might taste in a soup or vinaigrette. Store it in sealed containers or repurposed condiment bottles in the fridge. If your lacto-fermented fruit or vegetable didn’t turn out exactly as you had hoped, that salty-sour elixir can make for a fine consolation prize.
 
 *Halved plums, salted and ready to ferment.*
-
-<!-- text/part0006_split_011.html -->
-
-html

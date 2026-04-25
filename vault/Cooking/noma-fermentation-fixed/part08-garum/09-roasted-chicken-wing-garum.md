@@ -49,7 +49,3 @@ When first tasting roasted chicken wing garum, almost every Noma chef mutters th
 Coat cashews (or any nut of your choice) with melted butter and spread onto a baking sheet or oven-safe pan. Roast in a 160°C/320°F oven until they become golden brown and fragrant. Remove them from the oven and mix in a couple of tablespoons of chicken wing garum. Don’t add so much garum that the liquid pools on the pan. All the garum should be absorbed by the nuts and evaporated by the heat. You don’t want the cashews to become soggy. Once they cool, they should still be crunchy, with a savory, salty crust.
 
 *Grasshopper garum is a continuation of years of cooking with insects at Noma.*
-
-<!-- text/part0012_split_010.html -->
-
-html

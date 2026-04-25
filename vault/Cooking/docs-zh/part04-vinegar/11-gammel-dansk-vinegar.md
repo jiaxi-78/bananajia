@@ -8,7 +8,7 @@
 
 - **350 grams unpasteurized apple cider vinegar**
 
-Gammel Dansk 是丹麦经典的草本利口酒。在Noma，我们在甜点中使用了它，并且总是在休息室里放一两瓶，供那些喜欢在晚餐后喝一杯苦味酒的人使用。 Gammel Dansk 的酒精含量低于威士忌等烈酒。因此，我们以一种简单的方式将其酒精度降低到适合醋生产的百分比：我们稀释它。这种味道一开始就很浓烈，即使淡化它也不会减弱它的效果。
+Gammel Dansk 是丹麦经典的草本利口酒。在 Noma，我们在甜点中使用了它，并且总是在休息室里放一两瓶，供那些喜欢在晚餐后喝一杯苦味酒的人使用。 Gammel Dansk 的酒精含量低于威士忌等烈酒。因此，我们以一种简单的方式将其酒精度降低到适合醋生产的百分比：我们稀释它。这种味道一开始就很浓烈，即使淡化它也不会减弱它的效果。
 
 佩里醋的深入说明包含本章中所有醋配方的有用信息。我们建议您在开始此菜谱之前先阅读该菜谱。
 
@@ -29,7 +29,3 @@ Gammel Dansk 是丹麦经典的草本利口酒。在Noma，我们在甜点中使
 加梅尔丹斯克醋的特性相当强烈，但玩弄它的苦味和酸味很有趣，因为这两种属性可以很好地结合在一起，并且往往会弱化彼此的影响。你不想把这种醋放在孩子们的餐桌上作为调味品，但你当然可以到处偷偷地舀一勺，以获得意想不到的复杂性和边缘感。例如，下次制作勃艮第牛肉时，洒几滴加梅尔丹斯克醋（刚好够你的味觉感受不到），会巧妙地提升炖菜的美味浓郁度。小剂量的醋可以改善华尔道夫沙拉或用蛋黄酱或法式酸奶油制成的奶油味调料。
 
 *The addition of fresh elderberries to elderflower wine gives a boost in flavor for the years-long aging process. Elderberries are mildly poisonous and can upset stomachs if eaten raw. Through cooking or fermentation, they’re rendered safe for consumption.*
-
-<!-- text/part0008_split_012.html -->
-
-html

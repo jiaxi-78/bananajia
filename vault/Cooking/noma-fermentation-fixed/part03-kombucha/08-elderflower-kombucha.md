@@ -39,7 +39,3 @@ Try mixing a bowl of blanched and shucked fresh sweet peas with a good spoonful 
 *Combine elderflower kombucha, cream, and milk to make a distinctly floral crème fraîche.*
 
 *Coffee kombucha is a fantastic way to get more life out of used coffee grounds.*
-
-<!-- text/part0007_split_009.html -->
-
-html

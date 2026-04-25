@@ -25,7 +25,3 @@ For this fermentation chamber, you’ll need:
 - • A small humidifier (when making koji): The smaller you can find, the better. Plus, a simple hygrometer, an instrument used to gauge humidity; it will look a bit like an oven thermometer. Alternatively, you could use a humidistat, which functions much like a thermostat. While slightly more expensive, it will simplify things by regulating the humidity in the chamber for you.
 
 - • A trivet, or a few screws: In most cases, you want to keep your ferments elevated off the bottom of the cooler. A trivet will do the trick, but for better airflow, procure four screws that are long and sturdy enough to make it through the walls of the cooler and support the weight of a tray laden with ingredients.
-
-<!-- text/part0005_split_012.html -->
-
-html

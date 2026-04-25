@@ -13,7 +13,3 @@
 1. 6. Cover the fermentation chamber with its lid. For ferments at 60°C/140°F, close it as tightly as you can to keep heat in. For koji, leave it cracked open on one side just a touch to allow fresh oxygen in. You can easily prop it open more with a screw placed into the lip if you’re worried about it being closed shut.
 
 *Your ferments are limited only by your imagination.*
-
-<!-- text/part0005_split_013.html -->
-
-html

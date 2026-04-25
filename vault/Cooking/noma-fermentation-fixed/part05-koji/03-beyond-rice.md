@@ -17,7 +17,3 @@ We’ve experimented with inoculating many other grains, but keep coming back to
 All these grains require polishing before being cooked and inoculated. Recall that the starch in a seed is packed within husks that are built to be durable and protective. Koji can have a bit of a difficult time getting its hyphae through the outer layers to reach the starch. It’s not an impossible feat, but koji grows much better on grains with the husk, bran, and germ removed. You can see this in the grading of Japanese sakes. Sake makers polish off the outer layers of the rice before inoculating it with koji—the more that’s polished off, the more expensive the sake. We brought back a countertop grain polisher from Japan specifically to help us get to the inner layers of grains we wanted to turn into koji.
 
 Should you decide to experiment with polishing and fermenting different grains, keep in mind that the proteins in grains sit on the outer region of the kernel, just beneath the bran. Too much polishing can remove this protein coat, which is the source of much of koji’s flavor—as well as the umami in some secondary ferments. These flavors are mostly undesirable in sake, but essential to what we’re chasing with koji making. In other words, you have to try to polish off the bran while leaving the protein coat intact.
-
-<!-- text/part0009_split_004.html -->
-
-html

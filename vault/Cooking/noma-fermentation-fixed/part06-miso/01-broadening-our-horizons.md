@@ -21,7 +21,3 @@ Since that initial success, we’ve made miso from rye bread and corn and hazeln
 *Langoustine and Douglas Fir, Noma, 2018*
 
 *The pan-fried head of a Faroe Islands langoustine is served alongside its tail, which has been grilled over pine needles. Both are glazed with peaso tamari reduction.*
-
-<!-- text/part0010_split_002.html -->
-
-html

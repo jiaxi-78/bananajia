@@ -25,7 +25,3 @@ At Noma, we practice “wild fermentation” for nearly all our lacto-fermented 
 One of Noma’s longtime friends, Patrick Johannson (aka the Butter Viking), once sent a sample of the wild cultured butter he’d made to a food lab for analysis, and found twelve distinct species of LAB cohabiting within it. Commercial operations often try to approximate the intricacy of wild ferments by manipulating factors like the temperature of a ferment over time, tweaking the conditions to suit different bacteria that produce specific flavors. LAB behave differently depending not only on temperature, but also the availability of nutrients, population density, and who their neighbors are. Chemical cues allow for communication between microbes that informs everything from their growth patterns to their rate of reproduction.
 
 *Aided by nothing more than salt, LAB can perform incredible transformations.*
-
-<!-- text/part0006_split_002.html -->
-
-html

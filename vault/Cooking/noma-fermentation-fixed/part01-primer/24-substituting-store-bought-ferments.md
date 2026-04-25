@@ -7,7 +7,3 @@ We also realize that some recipes in this book combine multiple ferments: someti
 Unfortunately, we’ve never come across anything that bears a close enough resemblance toMaizoorGrasshopper Garumto recommend them, but here you’ll find a chart of useful equivalencies for some of the products in this book—“cousins,” so to speak. As always, quality counts. There will always be cheaper or more refined versions of products available on the market, and with fermented goods, the range can be quite drastic. Use your judgment and the advice of friends or grocery staff to determine which products are crafted with care and attention.
 
 Our fermentStore-bought cousinElderberry Wine BalsamicTraditional balsamic vinegarPearl Barley KojiDried rice kojiYellow PeasoOkasan misoRyesoHatcho misoYellow Pea ShoyuRaw shoyuBeef GarumWorcestershire sauceRose and Shrimp GarumFish sauce (Red Boat brand)
-
-<!-- text/part0005_split_015.html -->
-
-html

@@ -99,7 +99,3 @@ The next time you cook a batch of pancakes, drizzle a bit of this syrup over the
 Blending together equal parts mild oil, such as virgin rapeseed or avocado, and lemon verbena kombucha syrup will produce a thick vinaigrette—sweet, sour, and creamy. You’ll need to taste for salt and acidity and adjust accordingly, but the result is an exceptional dressing for root vegetables. For a first-rate side dish, toss salt-baked beets in the vinaigrette and garnish with torn fresh basil leaves and chopped pistachios.
 
 *Backslopping with a previous batch of kombucha simultaneously lowers the pH and adds a healthy starting population of bacteria and yeasts.*
-
-<!-- text/part0007_split_006.html -->
-
-html

@@ -57,7 +57,3 @@ Koji flour can be made into a marzipan-ish product by whisking together equal pa
 *Bread fish in koji flour before pan-frying.*
 
 *Lacto-fermentation takes koji to an entirely different (and sour) place.*
-
-<!-- text/part0009_split_011.html -->
-
-html
