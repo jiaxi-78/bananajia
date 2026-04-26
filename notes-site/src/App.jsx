@@ -2,17 +2,6 @@ import './App.css'
 import { useEffect, useMemo, useState } from 'react'
 import { notes as rawNotes, site as rawSite, categories as rawCategories, chapters as rawChapters } from './content.js'
 
-function flattenBilingual(obj) {
-  if (Array.isArray(obj)) return obj.map(flattenBilingual)
-  if (obj && typeof obj === 'object') {
-    if (obj.zh !== undefined && obj.en !== undefined) return obj.zh
-    const result = {}
-    for (const [k, v] of Object.entries(obj)) result[k] = flattenBilingual(v)
-    return result
-  }
-  return obj
-}
-
 // 解析 Markdown 行内格式：`code` 、**bold** 、*italic*
 function parseInlineMarkdown(text) {
   if (!text || typeof text !== 'string') return text

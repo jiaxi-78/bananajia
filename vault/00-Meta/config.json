@@ -172,6 +172,19 @@
       }
     },
     {
+      "id": "chapter-13",
+      "categoryId": "diy-llm",
+      "code": "06",
+      "title": {
+        "zh": "Chapter 13｜大模型的基本训练流程",
+        "en": "Chapter 13 | The Basic Training Pipeline of LLMs"
+      },
+      "description": {
+        "zh": "预训练、SFT、RLHF、PPO 与 DPO 的主线梳理，以及自回归、JSONL、assistant loss、预算强制等关键概念。",
+        "en": "A structured overview of pre-training, SFT, RLHF, PPO, and DPO, including key concepts like autoregression, JSONL, assistant-only loss, and budget forcing."
+      }
+    },
+    {
       "id": "llm-quickstart-template",
       "categoryId": "essays",
       "code": "01",
