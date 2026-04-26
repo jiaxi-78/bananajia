@@ -137,7 +137,108 @@ MoS = **Mixture-of-Students**。
 1.3B+PR-MoE+MoS: 27B 参数
 ```
 
-## 5. 这里的蒸馏到底怎么蒸馏？
+## 5. MoE 蒸馏成 dense student 是什么路线？
+
+“把 MoE 蒸馏成一个普通 dense student”指的是：**teacher 是 MoE 模型，但 student 不再保留 MoE 结构，而是变成一个普通稠密 Transformer。**
+
+例如 teacher 是：
+
+```text
+MoE teacher:
+Attention
+MoE FFN layer: router + 128 experts
+Attention
+MoE FFN layer: router + 128 experts
+...
+```
+
+student 变成：
+
+```text
+Dense student:
+Attention
+普通 FFN
+Attention
+普通 FFN
+...
+```
+
+也就是说，student 没有 router，没有 experts，也没有 token routing。每个 token 都走同一套 FFN 参数。
+
+为什么有人会这么做？因为 MoE 虽然训练省 compute，但部署复杂：
+
+```text
+MoE:
+总参数多
+专家分散在多张 GPU 上
+token 要被 router 分发到不同 expert
+需要 All-to-All 通信
+推理系统复杂
+
+Dense:
+结构简单
+每个 token 路径固定
+部署、量化、推理框架支持都更成熟
+```
+
+所以一种想法是：先训练一个很强的 MoE teacher，再用它教一个较小 dense student。这样希望 student 吸收 teacher 的知识，但推理时像普通模型一样简单。
+
+蒸馏时通常是让 dense student 学 teacher 的输出分布：
+
+```text
+loss = CE(student, 真正下一个 token)
+     + α * KL(student logits, teacher logits)
+```
+
+teacher 不只是告诉 student “正确答案是 Paris”，还告诉它：
+
+```text
+Paris: 0.55
+France: 0.10
+London: 0.04
+...
+```
+
+这些 soft probabilities 包含了 teacher 对语言空间的细腻判断。
+
+但问题是：**MoE -> dense 会丢掉结构优势。**
+
+MoE 的优势来自“条件计算”：
+
+```text
+不同 token 走不同 expert
+不同 expert 可以学不同模式
+每次只激活少数 expert
+```
+
+如果蒸馏成 dense student，这些专家分工会被压进一套统一 FFN 里。student 部署简单了，但不再有 MoE 的稀疏激活优势。
+
+所以 DeepSpeed-MoE 的 MoS 不走这个路线。它不是：
+
+```text
+大 MoE teacher -> 小 dense student
+```
+
+而是：
+
+```text
+大 PR-MoE teacher -> 小 MoE student
+```
+
+也就是 student 仍然保留：
+
+```text
+router
+experts
+稀疏激活
+expert parallelism 的潜力
+```
+
+只是把模型做浅一点、小一点。这样它既吃到蒸馏带来的压缩效果，又保留 MoE 的核心好处。
+
+一句话：**MoE 蒸馏成 dense student 是“用 MoE 训练出一个普通模型”；MoS 是“用大 MoE 训练出一个更小的 MoE”。**
+
+## 6. 这里的蒸馏到底怎么蒸馏？
 
 训练 student 时，loss 是两部分：
 
@@ -169,7 +270,7 @@ CE loss + KL distillation loss
 
 论文示例里提到，在大约 400K steps 后停止 KD。
 
-## 6. 系统优化那里怎么理解？
+## 7. 系统优化那里怎么理解？
 
 MoE 推理的麻烦不只是算力，而是 **通信和读权重**。
 
@@ -271,11 +372,11 @@ DeepSpeed-MoE 改成：
 
 这就是“显式数据布局转换”。它不再假装这是一个大稀疏矩阵乘法，而是直接搬数据、排序、还原。论文说这让 MoE kernel 相关延迟降低超过 6 倍。
 
-## 7. 一句话总结
+## 8. 一句话总结
 
 **PR-MoE 是把专家放得更聪明，MoS 是把 PR-MoE 再蒸馏变小，系统优化是让 token 找专家这件事在多 GPU 上搬得更少、更规整、更快。**
 
-## 8. Reference
+## 9. Reference
 
 主论文：
 

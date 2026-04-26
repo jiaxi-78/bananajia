@@ -24220,7 +24220,42 @@ export const notes = [
         emphasisCards: []
       },
       {
-        heading: '5. 这里的蒸馏到底怎么蒸馏？',
+        heading: '5. MoE 蒸馏成 dense student 是什么路线？',
+        paragraphs: [
+          '“把 MoE 蒸馏成一个普通 dense student”指的是：**teacher 是 MoE 模型，但 student 不再保留 MoE 结构，而是变成一个普通稠密 Transformer。**',
+          '例如 teacher 是：',
+          '```text\nMoE teacher:\nAttention\nMoE FFN layer: router + 128 experts\nAttention\nMoE FFN layer: router + 128 experts\n...\n```',
+          'student 变成：',
+          '```text\nDense student:\nAttention\n普通 FFN\nAttention\n普通 FFN\n...\n```',
+          '也就是说，student 没有 router，没有 experts，也没有 token routing。每个 token 都走同一套 FFN 参数。',
+          '为什么有人会这么做？因为 MoE 虽然训练省 compute，但部署复杂：',
+          '```text\nMoE:\n总参数多\n专家分散在多张 GPU 上\ntoken 要被 router 分发到不同 expert\n需要 All-to-All 通信\n推理系统复杂',
+          'Dense:\n结构简单\n每个 token 路径固定\n部署、量化、推理框架支持都更成熟\n```',
+          '所以一种想法是：先训练一个很强的 MoE teacher，再用它教一个较小 dense student。这样希望 student 吸收 teacher 的知识，但推理时像普通模型一样简单。',
+          '蒸馏时通常是让 dense student 学 teacher 的输出分布：',
+          '```text\nloss = CE(student, 真正下一个 token)\n+ α * KL(student logits, teacher logits)\n```',
+          'teacher 不只是告诉 student “正确答案是 Paris”，还告诉它：',
+          '```text\nParis: 0.55\nFrance: 0.10\nLondon: 0.04\n...\n```',
+          '这些 soft probabilities 包含了 teacher 对语言空间的细腻判断。',
+          '但问题是：**MoE -> dense 会丢掉结构优势。**',
+          'MoE 的优势来自“条件计算”：',
+          '```text\n不同 token 走不同 expert\n不同 expert 可以学不同模式\n每次只激活少数 expert\n```',
+          '如果蒸馏成 dense student，这些专家分工会被压进一套统一 FFN 里。student 部署简单了，但不再有 MoE 的稀疏激活优势。',
+          '所以 DeepSpeed-MoE 的 MoS 不走这个路线。它不是：',
+          '```text\n大 MoE teacher -> 小 dense student\n```',
+          '而是：',
+          '```text\n大 PR-MoE teacher -> 小 MoE student\n```',
+          '也就是 student 仍然保留：',
+          '```text\nrouter\nexperts\n稀疏激活\nexpert parallelism 的潜力\n```',
+          '只是把模型做浅一点、小一点。这样它既吃到蒸馏带来的压缩效果，又保留 MoE 的核心好处。',
+          '一句话：**MoE 蒸馏成 dense student 是“用 MoE 训练出一个普通模型”；MoS 是“用大 MoE 训练出一个更小的 MoE”。**'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: []
+      },
+      {
+        heading: '6. 这里的蒸馏到底怎么蒸馏？',
         paragraphs: [
           '训练 student 时，loss 是两部分：',
           '```text\n总 loss = 语言模型 CE loss + α * 蒸馏 KL loss\n```',
@@ -24238,7 +24273,7 @@ export const notes = [
         emphasisCards: []
       },
       {
-        heading: '6. 系统优化那里怎么理解？',
+        heading: '7. 系统优化那里怎么理解？',
         paragraphs: [
           'MoE 推理的麻烦不只是算力，而是 **通信和读权重**。',
           '普通 dense 模型每个 token 都走完整模型。MoE 看起来省计算，因为每个 token 只走少数 experts。但问题是：',
@@ -24294,7 +24329,7 @@ export const notes = [
         emphasisCards: []
       },
       {
-        heading: '7. 一句话总结',
+        heading: '8. 一句话总结',
         paragraphs: [
           '**PR-MoE 是把专家放得更聪明，MoS 是把 PR-MoE 再蒸馏变小，系统优化是让 token 找专家这件事在多 GPU 上搬得更少、更规整、更快。**'
         ],
@@ -24303,7 +24338,7 @@ export const notes = [
         emphasisCards: []
       },
       {
-        heading: '8. Reference',
+        heading: '9. Reference',
         paragraphs: [
           '主论文：',
           '官方解释：',
