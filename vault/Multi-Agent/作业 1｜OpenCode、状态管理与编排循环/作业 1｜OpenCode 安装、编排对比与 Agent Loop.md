@@ -52,42 +52,8 @@ tags:
 
 下面是一个最小化的 Python 调用示例。它能把 prompt 发给模型,但它本身并不会读文件、不会跑命令、不会维护会话,也不会自动把观察结果回填到下一轮推理里。
 
-```python
-from openai import OpenAI
-from pathlib import Path
-import os
+LLM Stream Events:
 
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY"),
-    base_url=os.getenv("OPENAI_BASE_URL"),
-)
-
-target_file = Path("example.py")
-code = target_file.read_text(encoding="utf-8")
-
-prompt = f"""
-Please review the following Python file.
-
-Focus on:
-1. bugs
-2. code style
-3. possible refactors
-
-File content:
-{code}
-"""
-
-resp = client.chat.completions.create(
-    model=os.getenv("OPENAI_MODEL", "deepseek-chat"),
-    messages=[
-        {"role": "system", "content": "You are a careful code reviewer."},
-        {"role": "user", "content": prompt},
-    ],
-    temperature=0.2,
-)
-
-print(resp.choices[0].message.content)
-```
 
 ### 我的体会:什么是"无状态"和"有状态"
 
@@ -120,35 +86,8 @@ OpenCode 当前官方仓库：[github.com/anomalyco/opencode](https://github.com
 
 主循环位于 `prompt.ts` 的 `runLoop()` 函数，核心是一个 **`while (true)` 循环**，结合 `processor.ts` 的事件流驱动模式：
 
-```typescript
-// 简化的 runLoop 结构
-while (true) {
-  // 1. 观察：读取当前 session 状态
-  const messages = await session.messages({ sessionID });
-  const lastAssistant = messages.findLast(m => m.role === "assistant");
+LLM Stream Events:
 
-  // 2. 判断退出条件
-  if (lastAssistant?.finished && !hasPendingTools(lastAssistant)) break;
-
-  // 3. 处理中间任务（子任务 / 上下文压缩）
-  if (hasSubtask) { await handleSubtask(); continue; }
-  if (needsCompaction) { await compact(); continue; }
-
-  // 4. 创建 Processor + 组装上下文
-  const handle = await processor.create({ assistantMessage, sessionID, model });
-  const tools = resolveTools({ agent, model, mcpTools, lspTools });
-  const system = buildSystemPrompt({ agent, instructions, skills });
-
-  // 5. 调用 LLM（流式事件驱动）
-  // processor.process() 返回 "continue" | "stop" | "compact"
-  const result = await handle.process({ system, messages, tools, model });
-
-  // 6. 根据结果决定下一步
-  if (result === "stop") break;          // 正常结束或权限被拒
-  if (result === "compact") continue;    // 需要压缩后继续
-  // "continue" → 回到 while(true) 继续循环
-}
-```
 
 ### 事件流驱动模型
 
