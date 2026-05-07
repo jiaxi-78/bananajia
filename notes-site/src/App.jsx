@@ -10,6 +10,13 @@ function parseInlineMarkdown(text) {
   let lastIndex = 0
   const regex = /(`[^`]+`|\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*|\*[^*]+\*)/g
 
+  const normalizeContentUrl = (url) => {
+    if (!url || typeof url !== 'string') return url
+    if (/^(https?:|mailto:|data:|#)/.test(url)) return url
+    if (url.startsWith('/')) return `.${url}`
+    return url
+  }
+
   let match
   while ((match = regex.exec(text)) !== null) {
     if (match.index > lastIndex) {
@@ -22,12 +29,13 @@ function parseInlineMarkdown(text) {
     } else if (content.startsWith('[') && content.includes('](') && content.endsWith(')')) {
       const linkMatch = content.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
       if (linkMatch) {
+        const href = normalizeContentUrl(linkMatch[2])
         parts.push(
           <a
             key={match.index}
-            href={linkMatch[2]}
-            target={linkMatch[2].startsWith('http') ? '_blank' : undefined}
-            rel={linkMatch[2].startsWith('http') ? 'noreferrer' : undefined}
+            href={href}
+            target={href.startsWith('http') ? '_blank' : undefined}
+            rel={href.startsWith('http') ? 'noreferrer' : undefined}
           >
             {linkMatch[1]}
           </a>,
@@ -108,13 +116,21 @@ function MarkdownTable({ text }) {
 }
 
 function MarkdownBlock({ text }) {
+  const normalizeContentUrl = (url) => {
+    if (!url || typeof url !== 'string') return url
+    if (/^(https?:|mailto:|data:|#)/.test(url)) return url
+    if (url.startsWith('/')) return `.${url}`
+    return url
+  }
+
   const imageMatch = text.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/)
   if (imageMatch) {
     const [, alt, src] = imageMatch
+    const resolvedSrc = normalizeContentUrl(src)
     return (
       <figure className="markdown-image">
-        <a href={src} target="_blank" rel="noreferrer">
-          <img src={src} alt={alt || 'image'} loading="lazy" />
+        <a href={resolvedSrc} target="_blank" rel="noreferrer">
+          <img src={resolvedSrc} alt={alt || 'image'} loading="lazy" />
         </a>
         {alt ? <figcaption>{alt}</figcaption> : null}
       </figure>
