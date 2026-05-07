@@ -199,6 +199,19 @@ export const chapters = [
     }
   },
   {
+    id: 'multi-agent-homework-01',
+    categoryId: 'multi-agent',
+    code: '01',
+    title: {
+      zh: '作业 1｜OpenCode、状态管理与编排循环',
+      en: 'Homework 1 | OpenCode, State, and the Orchestration Loop'
+    },
+    description: {
+      zh: '安装 OpenCode、完成国产模型配置，对比裸 API 与编排式智能体，并阅读 Agent Loop 的核心闭环。',
+      en: 'Install OpenCode, configure a domestic model provider, compare raw API calls with an orchestrated agent, and study the core agent loop.'
+    }
+  },
+  {
     id: 'part00_preface',
     categoryId: 'system-design',
     code: '01',
@@ -615,7 +628,8 @@ export const notes = [
           '每节都有下一节预告',
           '按经典系统逐步推进'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -678,7 +692,8 @@ export const notes = [
             zh: '我们也用 kombucha 做饭。一旦您不再将 kombucha 仅仅视为一种新时代健康饮料，您就会发现许多烹饪的可能性。发酵 kombucha 的时间越长，它的酸性就越强。一段时间后，它成为腌料或油醋汁中的活跃成分，或者是酱汁中白葡萄酒或香槟的有趣替代品。或者，您可以将平底锅中的 kombucha 倒入神奇的糖浆中，这种糖浆是您真正想要在煎饼上添加的甜酸馅料。',
             en: 'We cook with kombucha, too. Once you stop viewing kombucha as simply a New Age health drink, a number of culinary possibilities open up. The longer you ferment kombucha, the more acidic it grows. After a while, it becomes a lively ingredient in marinades or vinaigrettes, or an intriguing substitute for white wine or Champagne in sauces. Or you can reduce kombucha in a pan into a magical syrup—the kind of sweet, tart topping you really want on your pancakes.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -699,7 +714,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -708,7 +724,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -718,7 +735,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -730,7 +748,8 @@ export const notes = [
           '`Top K（前 K 个结果）`：前 K 个结果是回答“Autocomplete 系统到底要满足哪些体验和规模约束？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Peak QPS（峰值 QPS）`：峰值 QPS是回答“Autocomplete 系统到底要满足哪些体验和规模约束？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -740,7 +759,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -750,7 +770,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -760,7 +781,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -770,7 +792,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -779,7 +802,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -788,7 +812,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -797,7 +822,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -806,7 +832,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -873,7 +900,8 @@ export const notes = [
             zh: '*The pan-fried head of a Faroe Islands langoustine is served alongside its tail, which has been grilled over pine needles. Both are glazed with peaso tamari reduction.*',
             en: '*The pan-fried head of a Faroe Islands langoustine is served alongside its tail, which has been grilled over pine needles. Both are glazed with peaso tamari reduction.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -894,7 +922,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -903,7 +932,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -912,7 +942,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -924,7 +955,8 @@ export const notes = [
           '`Long Polling（长轮询）`：长轮询是回答“设计聊天系统前，为什么必须先确定聊天类型、规模和通信方式？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`WebSocket（双向长连接）`：WebSocket 在客户端和服务端之间保持长连接，允许服务端主动推消息。聊天系统用它降低实时消息延迟。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -933,7 +965,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -943,7 +976,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -953,7 +987,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -963,7 +998,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -972,7 +1008,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -981,7 +1018,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -990,7 +1028,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -999,7 +1038,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -3883,7 +3923,8 @@ export const notes = [
             zh: '由 Atelier Dyakova 设计',
             en: 'Design by Atelier Dyakova'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -3904,7 +3945,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -3913,7 +3955,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -3922,7 +3965,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -3934,7 +3978,8 @@ export const notes = [
           '`Politeness（礼貌性）`：礼貌性是回答“为什么一个看似简单的 crawler（网络爬虫）会变成复杂的系统设计题？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Robustness（鲁棒性）`：鲁棒性是回答“为什么一个看似简单的 crawler（网络爬虫）会变成复杂的系统设计题？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -3944,7 +3989,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -3954,7 +4000,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -3964,7 +4011,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -3974,7 +4022,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -3983,7 +4032,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -3992,7 +4042,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -4001,7 +4052,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -4010,7 +4062,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -4031,7 +4084,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -4040,7 +4094,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -4050,7 +4105,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -4062,7 +4118,8 @@ export const notes = [
           '`Strong Consistency（强一致性）`：强一致性是描述多个副本或多个读写路径看到的数据是否一致。越强的一致性通常越影响延迟和可用性。',
           '`Bandwidth Usage（带宽使用）`：带宽使用是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -4072,7 +4129,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -4082,7 +4140,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -4092,7 +4151,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -4102,7 +4162,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -4111,7 +4172,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -4120,7 +4182,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -4129,7 +4192,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -4138,7 +4202,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -4197,7 +4262,8 @@ export const notes = [
             zh: '在某种程度上，garum 让我们能够颠倒 Noma 中动物和蔬菜的角色，因此肉类成为调味料，蔬菜成为明星。洒上一点 garum 就可以将不起眼的卷心菜叶提升到令人满意且令人难忘的口感。无论如何，这确实是我们所有人都应该吃的方式。在肉类成为商品之前，它是一种奢侈品。当你能拿到它的时候，你必须把它坚持到最后。最早的中国酱是肉类、大豆和曲霉的混合物，它们在当地美食中占据着与 garum 类似的地位。在斯堪的纳维亚半岛，人们腌制鲱鱼已有数百年历史，并使用流出的液体作为调味料。他们没有将其称为“garum”，但他们认识到它的有用性。这一切都是为了充分利用你所拥有的资源——这种做法往往会带来美妙的创新。',
             en: 'In a way, garums have allowed us to reverse the role of animals and vegetables at Noma, so meat becomes the seasoning and vegetables are the stars. A splash of garum can elevate an unassuming cabbage leaf to a satisfying and memorable bite. It’s really how we should all be eating, anyway. Before meat was a commodity, it was a luxury. When you could get your hands on it, you had to make it last. The earliest Chinesejiangs were mixtures of meat, soybeans, andAspergillus, and they occupied a similar place as garums in the local cuisine. And in Scandinavia, people have been curing herring for centuries, and using the liquid runoff as a seasoning. They didn’t call it “garum,” but they recognized its usefulness. It’s all about stretching the resources you’ve got—a practice that often leads to delicious innovations.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -4218,7 +4284,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -4227,7 +4294,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -4236,7 +4304,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -4248,7 +4317,8 @@ export const notes = [
           '`Assumption（假设）`：假设是回答“为什么一开始就给方案反而是危险信号？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Over-engineering（过度设计）`：过度设计是回答“为什么一开始就给方案反而是危险信号？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -4258,7 +4328,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -4268,7 +4339,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -4278,7 +4350,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -4288,7 +4361,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -4297,7 +4371,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -4306,7 +4381,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -4315,7 +4391,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -4324,7 +4401,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -4345,7 +4423,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -4354,7 +4433,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -4363,7 +4443,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -4374,7 +4455,8 @@ export const notes = [
           '`Newsfeed Retrieval（信息流读取）`：信息流读取是按字符前缀组织数据，适合自动补全。它用更多内存换取更快的前缀查询。',
           '`Reverse Chronological Order（倒序时间线）`：倒序时间线是回答“news feed system 需要支持哪些核心动作？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -4383,7 +4465,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -4393,7 +4476,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -4403,7 +4487,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -4413,7 +4498,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -4422,7 +4508,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -4431,7 +4518,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -4440,7 +4528,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -4449,7 +4538,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -4470,7 +4560,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -4479,7 +4570,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -4488,7 +4580,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -4500,7 +4593,8 @@ export const notes = [
           '`Email（邮件）`：邮件是回答“notification system 到底要支持哪些通知，以及这些通知有什么差异？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Device Token（设备令牌）`：设备令牌是回答“notification system 到底要支持哪些通知，以及这些通知有什么差异？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -4510,7 +4604,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -4520,7 +4615,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -4530,7 +4626,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -4540,7 +4637,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -4549,7 +4647,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -4558,7 +4657,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -4567,7 +4667,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -4576,7 +4677,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -4597,7 +4699,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -4606,7 +4709,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -4615,7 +4719,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -4627,7 +4732,8 @@ export const notes = [
           '`DoS（拒绝服务攻击）`：DoS 指攻击者或异常客户端用大量请求耗尽系统资源，让正常用户无法访问。限流器是缓解 DoS 的一层防线，但通常还要配合 WAF、黑名单和网络层防护。',
           '`HTTP 429（请求过多）`：HTTP 429 是告诉客户端“请求太多了”的状态码。好的 429 响应通常还会带上重试时间或限流规则提示，让客户端能退避重试，而不是立刻继续打爆服务。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -4637,7 +4743,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -4647,7 +4754,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -4657,7 +4765,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -4667,7 +4776,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -4676,7 +4786,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -4685,7 +4796,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -4694,7 +4806,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -4703,7 +4816,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -4724,7 +4838,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -4733,7 +4848,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -4743,7 +4859,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -4755,7 +4872,8 @@ export const notes = [
           '`Distributed Storage（分布式存储）`：分布式存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
           '`Scalability Case Study（可扩展性案例）`：可扩展性案例是回答“读完案例后，如何继续提升系统设计能力？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -4765,7 +4883,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -4775,7 +4894,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -4785,7 +4905,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -4795,7 +4916,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -4804,7 +4926,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -4813,7 +4936,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -4822,7 +4946,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -4831,7 +4956,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -4898,7 +5024,8 @@ export const notes = [
             zh: '当你使水果变黑时，酶促反应和非酶促反应都会发生。目前还不清楚是谁首先融合了这些不同的过程来使食物变黑，尽管大多数迹象都指向韩国传奇的发酵文化，几个世纪前，人们在炎热的夏季将整头大蒜放在陶罐中陈酿。至于黑色水果和蔬菜的现代历史，我们再次把目光投向2004年的韩国。黑蒜在当代的普及要归功于一位名叫斯科特·金(Scott Kim)的人，他发明了一种使用热控湿度老化室制作黑蒜的简单方法。我们在 Noma 使用完全相同的方法来维持一个环境，该环境会导致一系列缓慢的化学反应，在几周或几个月的时间内彻底改变普通成分。',
             en: 'When you blacken fruit, both enzymatic and non-enzymatic reactions are taking place. It’s unclear who first fused these various processes to blacken food, though most signs point to the storied fermenting culture of Korea, where centuries ago people were aging whole heads of garlic in earthenware pots during the hot summer months. As for the modern history of black fruits and vegetables, we again look to Korea, in the year 2004. The contemporary popularization of black garlic is credited to a man named Scott Kim, who devised a simple method for making black garlic using heat- and humidity-controlled aging chambers. We use the exact same methods at Noma to maintain an environment that leads to a cascade of slow chemical reactions, completely transforming ordinary ingredients over the course of weeks or months.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -4919,7 +5046,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -4928,7 +5056,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -4937,7 +5066,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -4948,7 +5078,8 @@ export const notes = [
           '`Horizontal Scaling（水平扩展）`：水平扩展指通过增加更多机器来提高系统容量，而不是只给单机加 CPU 或内存。它的难点是请求、状态和数据如何在多台机器之间分配。',
           '`Cache Miss Storm（缓存未命中风暴）`：缓存未命中风暴指大量请求同时绕过缓存打到后端。扩容、缓存失效或热点迁移时很容易出现这种情况。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -4959,7 +5090,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -4970,7 +5102,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -4982,7 +5115,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -4992,7 +5126,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -5001,7 +5136,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -5010,7 +5146,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -5019,7 +5156,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -5028,7 +5166,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -5183,7 +5322,8 @@ export const notes = [
             zh: '研究发酵的科学和历史，学习自己动手，根据当地食材进行调整，并用结果进行烹饪改变了 Noma 的一切。一旦您完成了同样的操作，并拥有了这些令人难以置信的产品（无论是 lacto 发酵水果、大麦 miso、koji，还是烤鸡翅 garum），烹饪就会变得更加容易，同时您的食物也会变得更加复杂、细致和美味。',
             en: 'Studying the science and history of fermentation, learning to do it ourselves, adapting it to local ingredients, and cooking with the results changed everything at Noma. Once you’ve done the same and have these incredible products at your disposal—whether it’s lacto-fermented fruit, barley miso, koji, or a roasted chicken wing garum—cooking gets easier while your food becomes more complex, nuanced, and delicious.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -5204,7 +5344,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -5213,7 +5354,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -5222,7 +5364,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -5234,7 +5377,8 @@ export const notes = [
           '`REST API`：REST API是定义客户端或服务之间如何交互。它需要把参数、权限、错误码、幂等性和版本演进说清楚。',
           '`Short Code（短码）`：短码是回答“URL shortener 需要支持哪些核心操作和规模指标？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -5244,7 +5388,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -5255,7 +5400,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -5266,7 +5412,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -5276,7 +5423,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -5285,7 +5433,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -5294,7 +5443,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -5303,7 +5453,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -5312,7 +5463,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -5333,7 +5485,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -5342,7 +5495,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -5351,7 +5505,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -5363,7 +5518,8 @@ export const notes = [
           '`Auto Increment（自增）`：自增是回答“为什么数据库 `auto_increment` 不适合分布式 ID？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Distributed Generation（分布式生成）`：分布式生成是回答“为什么数据库 `auto_increment` 不适合分布式 ID？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -5373,7 +5529,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -5385,7 +5542,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -5397,7 +5555,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -5408,7 +5567,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -5417,7 +5577,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -5426,7 +5587,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -5435,7 +5597,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -5444,7 +5607,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -5465,7 +5629,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -5474,7 +5639,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -5483,7 +5649,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -5494,7 +5661,8 @@ export const notes = [
           '`Opaque Value（不透明值）`：不透明值是回答“为什么简单 hash table 不能支撑大规模 key-value store？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Hot/Cold Data（冷热数据）`：冷热数据是回答“为什么简单 hash table 不能支撑大规模 key-value store？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -5504,7 +5672,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -5516,7 +5685,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -5528,7 +5698,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -5538,7 +5709,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -5547,7 +5719,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -5556,7 +5729,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -5565,7 +5739,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -5574,7 +5749,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -5595,7 +5771,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -5604,7 +5781,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -5613,7 +5791,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -5625,7 +5804,8 @@ export const notes = [
           '`Web Server（业务服务器）`：Web Server 承接用户请求，执行路由、鉴权、业务逻辑和响应组装。系统刚起步时它可以和数据库在同一台机器上，规模变大后通常要单独扩展。',
           '`JSON API（接口数据格式）`：JSON API 用结构化文本表达客户端和服务端之间的数据。它比 HTML 页面更适合移动端、前后端分离和服务间调用。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -5635,7 +5815,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -5645,7 +5826,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -5655,7 +5837,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -5665,7 +5848,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -5674,7 +5858,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -5683,7 +5868,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -5692,7 +5878,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -5701,7 +5888,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -5780,7 +5968,8 @@ export const notes = [
             zh: '*Slivers of unripe macadamia nuts rest in a chilled, clear broth of Australian spanner crab seasoned heavily with lacto koji water and rose oil.*',
             en: '*Slivers of unripe macadamia nuts rest in a chilled, clear broth of Australian spanner crab seasoned heavily with lacto koji water and rose oil.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -5846,7 +6035,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -5921,7 +6111,8 @@ export const notes = [
             zh: '*Aided by nothing more than salt, LAB can perform incredible transformations.*',
             en: '*Aided by nothing more than salt, LAB can perform incredible transformations.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -5942,7 +6133,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -5951,7 +6143,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -5960,7 +6153,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -5972,7 +6166,8 @@ export const notes = [
           '`Latency（延迟）`：延迟是衡量请求从发出到完成的时间。系统设计里要区分网络延迟、排队延迟、计算延迟和存储延迟。',
           '`Memory vs Disk（内存与磁盘）`：内存与磁盘是回答“系统设计面试中，为什么需要掌握数量级和常见延迟？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -5982,7 +6177,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -5992,7 +6188,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -6002,7 +6199,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -6012,7 +6210,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -6021,7 +6220,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -6030,7 +6230,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -6039,7 +6240,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -6048,7 +6250,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -6103,7 +6306,8 @@ export const notes = [
             zh: '*Acetic acid bacteria are rod-shaped, aerobic bacteria. While they may not be able to turn water into wine, they can turn wine into spectacular vinegars.*',
             en: '*Acetic acid bacteria are rod-shaped, aerobic bacteria. While they may not be able to turn water into wine, they can turn wine into spectacular vinegars.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -6150,7 +6354,8 @@ export const notes = [
             zh: '*You taste as much with your brain as you do with your tongue.*',
             en: '*You taste as much with your brain as you do with your tongue.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -6171,7 +6376,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -6180,7 +6386,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -6190,7 +6397,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -6202,7 +6410,8 @@ export const notes = [
           '`Blob Storage（对象存储）`：对象存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
           '`Bandwidth Cost（带宽成本）`：带宽成本是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -6212,7 +6421,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -6222,7 +6432,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -6232,7 +6443,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -6242,7 +6454,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -6251,7 +6464,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -6260,7 +6474,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -6269,7 +6484,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -6278,7 +6494,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -6349,7 +6566,8 @@ export const notes = [
             zh: '*A lightly poached Danish oyster is dressed with slivers of lacto-fermented green gooseberries and their juice.*',
             en: '*A lightly poached Danish oyster is dressed with slivers of lacto-fermented green gooseberries and their juice.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -6370,7 +6588,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -6379,7 +6598,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -6388,7 +6608,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -6400,7 +6621,8 @@ export const notes = [
           '`Message ID（消息 ID）`：消息 ID是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
           '`Channel ID（会话 ID）`：会话 ID是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -6409,7 +6631,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -6419,7 +6642,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -6429,7 +6653,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -6439,7 +6664,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -6448,7 +6674,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -6457,7 +6684,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -6466,7 +6694,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -6475,7 +6704,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -6496,7 +6726,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -6505,7 +6736,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -6514,7 +6746,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -6526,7 +6759,8 @@ export const notes = [
           '`Uptime（正常运行时间）`：正常运行时间是描述系统在故障和维护下仍能服务用户的能力。更高可用性通常意味着冗余、自动切换和更高成本。',
           '`Downtime（停机时间）`：停机时间是描述系统在故障和维护下仍能服务用户的能力。更高可用性通常意味着冗余、自动切换和更高成本。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -6536,7 +6770,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -6546,7 +6781,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -6556,7 +6792,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -6566,7 +6803,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -6575,7 +6813,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -6584,7 +6823,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -6593,7 +6833,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -6602,7 +6843,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -6649,7 +6891,8 @@ export const notes = [
             zh: '由于浆果在 lacto 发酵时通常会失去形状和质地，因此我们经常使用榨汁机来收获果汁。发酵浆果汁令人难以置信——它具有浓郁的泡腾感、咸味、甜味和酸味。将发酵的覆盆子汁与辛辣的橄榄油混合，加入一些碎花香料（可能是长花椒或粉花椒），然后将所得油醋汁浇在熟透的牛排番茄厚片上。撒上海盐、糖和几片撕碎的马郁兰叶，这就是夏末的完美蒸馏酒。并且不要扔掉浆果果肉。它会给一碗新鲜浆果带来细微差别和亮度，上面撒上新鲜的奶油。',
             en: 'Because the berries usually lose their shape and texture when lacto-fermented, we often use a juice press to harvest the juices. Fermented berry juice is incredible—it has body and effervescence, saltiness, sweetness, and acidity. Mix fermented raspberry juice with a spicy olive oil, add a few grinds of floral spice—maybe long or pink peppercorns—and spoon the resulting vinaigrette over thick slices of ripe beefsteak tomatoes. Sprinkle it with sea salt, sugar, and a few torn leaves of marjoram, and it’s the perfect distillation of late summer. And don’t throw away the berry pulp. It will bring nuance and brightness to a bowl of fresh berries, topped with freshly whipped cream.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -6670,7 +6913,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -6679,7 +6923,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -6688,7 +6933,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -6700,7 +6946,8 @@ export const notes = [
           '`Availability（可用性）`：可用性是描述系统在故障和维护下仍能服务用户的能力。更高可用性通常意味着冗余、自动切换和更高成本。',
           '`Partition Tolerance（分区容错）`：分区容错是把数据或任务拆到多个节点上处理。关键是选择分片键、避免热点，并准备好扩容和重分片方案。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -6711,7 +6958,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -6724,7 +6972,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -6737,7 +6986,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -6750,7 +7000,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -6759,7 +7010,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -6768,7 +7020,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -6777,7 +7030,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -6786,7 +7040,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -6837,7 +7092,8 @@ export const notes = [
             zh: '关于亚洲鱼露的奇怪之处在于，七世纪之前该地区的历史文献中并没有太多提及它们。罗马帝国与亚洲之间的文化交流早在那时就已建立。鉴于 garum 对古罗马人的价值及其便携性，人们很容易将泰国鱼露和 garum 联系起来，而不是假设这两种产品都是独立开发的。想象东南亚和地中海截然不同的烹饪风格之间存在直接联系是很有趣的，但我们将把它留给更有资格的团体来决定。',
             en: 'The curious thing about Asian fish sauces is that there aren’t many references to them in historical documents from the region before the seventh century. Cultural exchange between the Roman Empire and Asia was established long before then. Given garum’s value to ancient Romans and its portability, it’s tempting to draw a connection between Thai fish sauce and garum, as opposed to assuming both products were developed independently. It’s fun to imagine a direct line between the vastly disparate cooking styles of Southeast Asia and the Mediterranean, but we’ll leave that for more qualified parties to decide.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -6858,7 +7114,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -6867,7 +7124,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -6876,7 +7134,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -6888,7 +7147,8 @@ export const notes = [
           '`Single Point of Failure（单点故障）`：单点故障是回答“哪些方案简单但不满足 64-bit、排序或高可用要求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Snowflake`：Snowflake 把时间戳、机器标识和序列号拼成 64-bit ID。它能在分布式环境里生成趋势递增、全局唯一的 ID。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -6899,7 +7159,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -6912,7 +7173,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -6924,7 +7186,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -6935,7 +7198,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -6944,7 +7208,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -6953,7 +7218,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -6962,7 +7228,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -6971,7 +7238,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -7064,7 +7332,8 @@ export const notes = [
             zh: '• AAB 将 1 单位的酒精转化为略低于 1 单位的乙酸。',
             en: '• AAB convert 1 unit of alcohol into just under 1 unit of acetic acid.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -7085,7 +7354,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -7094,7 +7364,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -7103,7 +7374,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -7115,7 +7387,8 @@ export const notes = [
           '`Content Parser（内容解析器）`：内容解析器是回答“一个 crawler 从 seed URL 到存储网页内容，完整链路经过哪些组件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`URL Seen（URL 去重）`：URL 去重是回答“一个 crawler 从 seed URL 到存储网页内容，完整链路经过哪些组件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -7124,7 +7397,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -7134,7 +7408,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -7144,7 +7419,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -7154,7 +7430,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -7163,7 +7440,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -7172,7 +7450,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -7181,7 +7460,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -7190,7 +7470,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -7211,7 +7492,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -7220,7 +7502,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -7229,7 +7512,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -7241,7 +7525,8 @@ export const notes = [
           '`Vertical Scaling（纵向扩展）`：纵向扩展是回答“为什么要把 Web Tier（业务层）和 Data Tier（数据层）分离？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Horizontal Scaling（横向扩展）`：水平扩展指通过增加更多机器来提高系统容量，而不是只给单机加 CPU 或内存。它的难点是请求、状态和数据如何在多台机器之间分配。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -7251,7 +7536,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -7261,7 +7547,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -7271,7 +7558,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -7281,7 +7569,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -7290,7 +7579,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -7299,7 +7589,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -7308,7 +7599,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -7317,7 +7609,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -7338,7 +7631,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -7347,7 +7641,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -7357,7 +7652,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -7369,7 +7665,8 @@ export const notes = [
           '`A/B Testing（实验平台）`：实验平台是回答“如何把公司工程博客变成系统设计训练材料？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Learning Loop（学习闭环）`：学习闭环是回答“如何把公司工程博客变成系统设计训练材料？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -7379,7 +7676,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -7389,7 +7687,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -7399,7 +7698,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -7409,7 +7709,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -7418,7 +7719,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -7427,7 +7729,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -7436,7 +7739,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -7445,7 +7749,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -7466,7 +7771,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -7475,7 +7781,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -7484,7 +7791,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -7496,7 +7804,8 @@ export const notes = [
           '`Celebrity User（大 V 用户）`：大 V 用户是回答“用户发帖后，系统应该立即推给所有好友，还是等好友打开时再拉取？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Hotkey Problem（热点问题）`：热点问题是回答“用户发帖后，系统应该立即推给所有好友，还是等好友打开时再拉取？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -7505,7 +7814,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -7515,7 +7825,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -7525,7 +7836,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -7535,7 +7847,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -7544,7 +7857,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -7553,7 +7867,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -7562,7 +7877,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -7571,7 +7887,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -7592,7 +7909,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -7601,7 +7919,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -7610,7 +7929,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -7621,7 +7941,8 @@ export const notes = [
           '`Hash Ring（哈希环）`：Hash Ring 是一致性哈希的环形空间。key 沿顺时针找到的第一个节点负责存储它。',
           '`Clockwise Lookup（顺时针查找）`：顺时针查找是回答“如何不用取模，也能把 key 稳定映射到服务器？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -7631,7 +7952,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -7642,7 +7964,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -7653,7 +7976,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -7664,7 +7988,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -7673,7 +7998,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -7682,7 +8008,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -7691,7 +8018,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -7700,7 +8028,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -7721,7 +8050,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -7730,7 +8060,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -7740,7 +8071,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -7752,7 +8084,8 @@ export const notes = [
           '`Data Gathering（数据采集）`：数据采集是回答“如何把统计搜索词和实时返回建议拆成两个子系统？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`读写路径分离`：读写路径分离是回答“如何把统计搜索词和实时返回建议拆成两个子系统？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -7762,7 +8095,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -7772,7 +8106,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -7782,7 +8117,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -7792,7 +8128,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -7801,7 +8138,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -7810,7 +8148,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -7819,7 +8158,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -7828,7 +8168,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -7849,7 +8190,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -7858,7 +8200,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -7867,7 +8210,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -7879,7 +8223,8 @@ export const notes = [
           '`Use Case（用例）`：用例是回答“如何从需求进入可讨论的系统蓝图？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`API/Schema Boundary（接口和数据模型边界）`：接口和数据模型边界是定义客户端或服务之间如何交互。它需要把参数、权限、错误码、幂等性和版本演进说清楚。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -7889,7 +8234,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -7899,7 +8245,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -7909,7 +8256,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -7919,7 +8267,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -7928,7 +8277,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -7937,7 +8287,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -7946,7 +8297,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -7955,7 +8307,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -7976,7 +8329,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -7985,7 +8339,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -7994,7 +8349,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -8006,7 +8362,8 @@ export const notes = [
           '`Worker`：Worker是回答“一条通知从业务服务发出，到最终抵达用户，中间经过哪些系统组件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Payload（通知载荷）`：通知载荷是回答“一条通知从业务服务发出，到最终抵达用户，中间经过哪些系统组件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -8015,7 +8372,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -8025,7 +8383,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -8035,7 +8394,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -8045,7 +8405,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -8054,7 +8415,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -8063,7 +8425,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -8072,7 +8435,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -8081,7 +8445,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -8136,7 +8501,8 @@ export const notes = [
             zh: '传统上，shoyu 的生产将在称为 kioke 的大型雪松桶中进行，该桶宽约 2 米，深近 3 米。与 miso 一样，shoyu 将在收获后的冬季月份开始，避免夏季高温，否则会不利地加速酶和微生物的活动。最初几周每天都会搅拌混合物，然后发酵长达三年。准备好后，醪将被舀到多张布上，并堆放在一个大型矩形木制压榨机中。一个巨大的杠杆会向下推动木板，将液体从醪中挤出。一旦从醪中提取出所有的 shoyu，剩下的沉积物就会像纸板一样僵硬干燥。它经常被作为动物饲料交给农民。过滤后的 shoyu 将被静置，再次过滤，热处理，然后装瓶。',
             en: 'Traditionally, shoyu production would take place in massive cedar vats calledkioke, measuring around 2 meters across and almost 3 meters deep. Like miso, shoyu would be started in the winter months after the harvest, avoiding high summer temperatures that could adversely speed up enzymatic and microbial activity. The mixture would be stirred every day for the first few weeks, then left to ferment for up to three years. Once ready, the moromi would be ladled onto multiple sheets of cloth and stacked in a large rectangular wooden press. A huge lever would drive a wooden plate downward, pressing the liquid out of the moromi. Once all the shoyu had been extracted from the moromi, the remaining sediment would be as stiff and dry as cardboard. It was often handed off to farmers as animal feed. The strained shoyu would be left to settle, strained once more, heat-treated, and bottled.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -8195,7 +8561,8 @@ export const notes = [
             zh: '蛋白质由氨基酸组成，就像淀粉由单糖链组成一样。一旦解开，许多氨基酸就会在我们的舌头上留下鲜味的味道。 Koji 分解蛋白质（和少量脂肪）的能力是其非凡用途的关键。毕竟，甜味很重要，但不是一切。',
             en: 'Protein is made up of amino acids, much like starch is composed of chains of simple sugars. Once unbound, many of these amino acids register on our tongue as the flavor umami. Koji’s ability to break down protein (and small amounts of fat) is the key to its extraordinary utility. After all, sweetness counts for a lot, but not everything.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -8216,7 +8583,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -8225,7 +8593,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -8234,7 +8603,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -8246,7 +8616,8 @@ export const notes = [
           '`Middleware（中间件）`：Middleware 位于请求进入业务逻辑之前，适合做通用检查，例如鉴权、日志、限流和参数校验。它让限流逻辑不必散落在每个业务接口里。',
           '`API Gateway（API 网关）`：API Gateway 是微服务入口层，可以统一做认证、路由、限流、SSL 终止和监控。它适合跨服务统一治理，但也可能成为关键路径上的复杂组件。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -8256,7 +8627,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -8266,7 +8638,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -8276,7 +8649,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -8286,7 +8660,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -8295,7 +8670,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -8304,7 +8680,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -8313,7 +8690,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -8322,7 +8700,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -8343,7 +8722,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -8352,7 +8732,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -8361,7 +8742,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -8373,7 +8755,8 @@ export const notes = [
           '`Browser Cache（浏览器缓存）`：浏览器缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
           '`Analytics（访问统计）`：访问统计是回答“访问短链接时，系统应该返回永久跳转还是临时跳转？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -8384,7 +8767,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -8398,7 +8782,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -8410,7 +8795,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -8420,7 +8806,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -8429,7 +8816,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -8438,7 +8826,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -8447,7 +8836,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -8456,7 +8846,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -8515,7 +8906,8 @@ export const notes = [
             zh: '*Black pears are blended into a paste and dried into fruit leather before being molded into imitation mussel shells and filled with kelp ice cream and licorice.*',
             en: '*Black pears are blended into a paste and dried into fruit leather before being molded into imitation mussel shells and filled with kelp ice cream and licorice.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -8536,7 +8928,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -8545,7 +8938,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -8555,7 +8949,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -8567,7 +8962,8 @@ export const notes = [
           '`Metadata（元数据）`：元数据是回答“一个简单文件服务器如何演化成百万用户云盘？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Sharding（分片）`：分片是把数据或任务拆到多个节点上处理。关键是选择分片键、避免热点，并准备好扩容和重分片方案。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -8577,7 +8973,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -8587,7 +8984,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -8597,7 +8995,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -8607,7 +9006,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -8616,7 +9016,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -8625,7 +9026,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -8634,7 +9036,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -8643,7 +9046,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -8730,7 +9134,8 @@ export const notes = [
             zh: '*Mejuare compacted bricks of fermented soybeans that serve as the basis of several Korean ferments.*',
             en: '*Mejuare compacted bricks of fermented soybeans that serve as the basis of several Korean ferments.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -8801,7 +9206,8 @@ export const notes = [
             zh: '我们在 Noma 中以我们自己的方式利用了相同的想法。我们使用普通的气泵（您可以在任何宠物商店的水族箱部分找到的那种）将空气输送到我们的醋中，为AAB提供快速工作所需的氧气。通过像对待宠物金鱼一样对待我们的细菌，我们可以将发酵时间从几个月缩短到几周。您可以在佩里醋的深入配方中找到更多详细信息。',
             en: 'We take advantage of the same idea in our own way at Noma. Using a common air pump—the kind you’ll find in the aquarium section of any pet store—we send air through our would-be vinegar, providing AAB with the oxygen they need to work quickly. By treating our bacteria as if they were pet goldfish, we can cut our fermentation time from a few months to a couple of weeks. You’ll find more details in the in-depth recipe forPerry Vinegar.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -8822,7 +9228,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -8831,7 +9238,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -8841,7 +9249,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -8853,7 +9262,8 @@ export const notes = [
           '`Original Storage（原始视频存储）`：原始视频存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
           '`Transcoding Server（转码服务）`：转码服务是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -8863,7 +9273,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -8873,7 +9284,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -8883,7 +9295,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -8893,7 +9306,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -8902,7 +9316,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -8911,7 +9326,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -8920,7 +9336,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -8929,7 +9346,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -8972,7 +9390,8 @@ export const notes = [
             zh: '*Proteins are made of tangled chains of amino acids, life’s building blocks.*',
             en: '*Proteins are made of tangled chains of amino acids, life’s building blocks.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -9031,7 +9450,8 @@ export const notes = [
             zh: '如果您决定尝试抛光和发酵不同的谷物，请记住谷物中的蛋白质位于谷粒的外部区域，就在麸皮下方。过多的抛光会去除这种蛋白质外壳，而蛋白质外壳是 koji 大部分风味的来源，也是一些二次发酵中鲜味的来源。这些味道在清酒中大多是不受欢迎的，但对于我们在 koji 制作中追求的目标至关重要。换句话说，你必须尝试擦掉麸皮，同时保持蛋白质外壳完整。',
             en: 'Should you decide to experiment with polishing and fermenting different grains, keep in mind that the proteins in grains sit on the outer region of the kernel, just beneath the bran. Too much polishing can remove this protein coat, which is the source of much of koji’s flavor—as well as the umami in some secondary ferments. These flavors are mostly undesirable in sake, but essential to what we’re chasing with koji making. In other words, you have to try to polish off the bran while leaving the protein coat intact.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -9052,7 +9472,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -9061,7 +9482,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -9071,7 +9493,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -9083,7 +9506,8 @@ export const notes = [
           '`Compression（压缩）`：压缩是回答“如何避免每次修改都重新上传整个文件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Encryption（加密）`：加密是回答“如何避免每次修改都重新上传整个文件？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -9093,7 +9517,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -9103,7 +9528,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -9113,7 +9539,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -9123,7 +9550,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -9132,7 +9560,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -9141,7 +9570,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -9150,7 +9580,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -9159,7 +9590,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -9180,7 +9612,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -9189,7 +9622,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -9198,7 +9632,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -9210,7 +9645,8 @@ export const notes = [
           '`Critical Path（关键路径）`：关键路径是回答“如何选择系统设计中的深挖点？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Component Deep Dive（组件深挖）`：组件深挖是回答“如何选择系统设计中的深挖点？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -9220,7 +9656,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -9230,7 +9667,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -9240,7 +9678,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -9250,7 +9689,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -9259,7 +9699,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -9268,7 +9709,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -9277,7 +9719,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -9286,7 +9729,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -9307,7 +9751,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -9316,7 +9761,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -9325,7 +9771,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -9337,7 +9784,8 @@ export const notes = [
           '`Hydration（内容补全）`：内容补全是回答“用户刷新 feed 时，系统如何快速返回完整、可展示的信息流？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`CDN`：CDN 把静态或大媒体内容缓存到离用户更近的边缘节点。它降低延迟和源站带宽压力，但要处理缓存失效和成本。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -9346,7 +9794,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -9356,7 +9805,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -9366,7 +9816,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -9376,7 +9827,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -9385,7 +9837,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -9394,7 +9847,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -9403,7 +9857,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -9412,7 +9867,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -9459,7 +9915,8 @@ export const notes = [
             zh: '酶需要悬浮在液体介质中才能有效发挥作用；否则它们将无法从一条蛋白质链漂浮到另一条蛋白质链，从而将它们剪切成氨基酸。盐通过渗透作用将鱼中的水分吸到周围环境中，为酶的传播创造一个粘稠的环境。当鱼的肌肉分解时，盐就更容易吸出更多的水。这个过程像滚雪球一样，将固体鱼液化成 garum。 （热量也会引发酶促反应，这解释了为什么 garum 传统上在地中海炎热的阳光下发酵。古迦太基夏季的温度徘徊在 30°C/86°F 左右；在这种高温下，garum 将在 6 到 9 个月内接近完成。）',
             en: 'Enzymes need to be suspended in a liquid medium to function efficiently; otherwise they won’t be able to float from one protein chain to another, snipping them into amino acids as they go. Salt draws moisture out of the fish into its surrounding environment through osmosis, creating a soupy environment for enzymes to travel through. As the fish’s muscles break down, the salt has an even easier time drawing out more water. The process snowballs, liquefying solid fish into garum. (Heat also precipitates enzymatic reactions, which explains why garums were traditionally fermented under the hot Mediterranean sun. Temperatures hovered around 30°C/86°F in the summer in ancient Carthage; a garum would near completion in 6 to 9 months in that kind of heat.)'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -9480,7 +9937,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -9489,7 +9947,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -9498,7 +9957,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -9510,7 +9970,8 @@ export const notes = [
           '`Base62`：Base62 用 0-9、a-z、A-Z 表示数字，比十进制更短。短链接系统常把唯一数字 ID 转成 Base62 作为短码。',
           '`Bloom Filter（布隆过滤器）`：Bloom Filter 是一种节省空间的概率结构，用来判断某个元素是否可能存在。它可能误判存在，但不会漏掉真实存在的元素。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -9521,7 +9982,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -9533,7 +9995,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -9545,7 +10008,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -9555,7 +10019,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -9564,7 +10029,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -9573,7 +10039,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -9582,7 +10049,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -9591,7 +10059,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -9654,7 +10123,8 @@ export const notes = [
             zh: '韩国工匠经常将“手工味道”（son-mat）视为个体厨师赋予食物的不可复制的品质，而工厂生产的批次产品则没有这种品质。手味本质上是混沌理论在起作用。 miso 的制作和陈化方式的微小差异，miso 制造者皮肤和衣服上当天或一小时的细菌数量，温度、气压或湿度的随机变化，都会对发酵的发展产生巨大影响，从而确保没有两批产品会完全相同。厨师和工匠就是这样偶然发现新口味和新创意的。这就是发酵变得不可预测且令人兴奋的原因。',
             en: 'Korean artisans often speak of “hand taste” (son-mat) as an irreplicable quality imbued by individual cooks to their food, a quality absent from factory-made batches. Hand taste, in essence, is chaos theory at work. Minute differences in how miso is made and aged, that day’s or hour’s population of bacteria on the miso maker’s skin and clothes, random variations in temperature, air pressure, or humidity, have such an outsize effect on the ferment’s development that they ensure no two batches will ever be exactly the same. It’s how cooks and artisans stumble into new flavors and new creations. And it’s what makes fermentation unpredictable and thrilling.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -9675,7 +10145,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -9684,7 +10155,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -9693,7 +10165,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -9705,7 +10178,8 @@ export const notes = [
           '`Failover（故障切换）`：故障切换是回答“如何避免单个 Web Server 或单个数据库宕机导致系统不可用？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Database Replication（数据库复制）`：数据库复制是是持久化核心数据的地方。系统变大后，要考虑读写分离、索引、复制、分片和跨分片查询。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -9715,7 +10189,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -9725,7 +10200,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -9735,7 +10211,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -9745,7 +10222,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -9754,7 +10232,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -9763,7 +10242,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -9772,7 +10252,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -9781,7 +10262,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -9802,7 +10284,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -9811,7 +10294,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -9820,7 +10304,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -9831,7 +10316,8 @@ export const notes = [
           '`Server Add/Remove（节点增删）`：节点增删是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
           '`Local Redistribution（局部重分布）`：局部重分布是回答“服务器加入或离开时，如何找出受影响的 key 范围？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -9842,7 +10328,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -9854,7 +10341,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -9867,7 +10355,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -9879,7 +10368,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -9888,7 +10378,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -9897,7 +10388,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -9906,7 +10398,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -9915,7 +10408,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -9936,7 +10430,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -9945,7 +10440,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -9954,7 +10450,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -9965,7 +10462,8 @@ export const notes = [
           '`Replication Factor（副本数）`：副本数是通过保存多份副本提高可用性和读吞吐。它解决单点故障，但会引入复制延迟和一致性问题。',
           '`Virtual Nodes（虚拟节点）`：Virtual Nodes 让一台真实服务器在环上占多个位置。这样可以让负载更均匀，也能按机器能力配置不同权重。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -9975,7 +10473,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -9987,7 +10486,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -9999,7 +10499,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -10009,7 +10510,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -10018,7 +10520,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -10027,7 +10530,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -10036,7 +10540,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -10045,7 +10550,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -10072,7 +10578,8 @@ export const notes = [
             zh: '如前所述，lacto 发酵非常简单，这在很大程度上要归功于 LAB 几乎随处可见。话虽这么说，在 LAB 表演之前必须满足一些基本条件（就像摇滚明星一样）。以下是您应该采取的各种措施，以确保 lacto 发酵成功。',
             en: 'As mentioned earlier, lacto-fermentation is gloriously uncomplicated, thanks in no small part to the fact that LAB can be found almost everywhere. That being said, there are a few basic conditions that must be met before LAB will perform at all (much like rock stars). Here are the various things you should do to ensure a successful lacto-fermentation.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -10093,7 +10600,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -10102,7 +10610,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -10111,7 +10620,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -10123,7 +10633,8 @@ export const notes = [
           '`Peak QPS（峰值 QPS）`：峰值 QPS是回答“如何从用户数和使用频率推导系统吞吐与存储需求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Storage Requirement（存储需求）`：存储需求是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -10133,7 +10644,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -10143,7 +10655,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -10153,7 +10666,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -10163,7 +10677,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -10172,7 +10687,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -10181,7 +10697,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -10190,7 +10707,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -10199,7 +10717,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -10220,7 +10739,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -10229,7 +10749,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -10238,7 +10759,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -10250,7 +10772,8 @@ export const notes = [
           '`Opt-in/Opt-out（订阅设置）`：订阅设置是回答“如何让通知系统既可靠，又不把用户打扰到关闭通知？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Rate Limiting（限流）`：限流是用于控制请求进入系统的速度。它保护后端资源，但规则过严会误伤正常用户。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -10259,7 +10782,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -10269,7 +10793,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -10279,7 +10804,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -10289,7 +10815,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -10298,7 +10825,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -10307,7 +10835,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -10316,7 +10845,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -10325,7 +10855,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -10392,7 +10923,8 @@ export const notes = [
             zh: '*Sweet, pungent black garlic has grown in popularity and prevalence in Western kitchens over the past few decades.*',
             en: '*Sweet, pungent black garlic has grown in popularity and prevalence in Western kitchens over the past few decades.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -10413,7 +10945,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -10422,7 +10955,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -10431,7 +10965,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -10443,7 +10978,8 @@ export const notes = [
           '`WebSocket Connection（连接）`：WebSocket 是客户端和服务端之间的持久双向连接。聊天和在线状态这类实时场景，用它可以让服务端主动推送消息。',
           '`Message Sync Queue（消息同步队列）`：消息同步队列是用来把请求或任务排起来，让生产者和消费者解耦。它能削峰、重试和异步处理，但也会带来积压、顺序和幂等问题。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -10452,7 +10988,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -10462,7 +10999,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -10472,7 +11010,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -10482,7 +11021,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -10491,7 +11031,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -10500,7 +11041,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -10509,7 +11051,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -10518,7 +11061,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -10561,7 +11105,8 @@ export const notes = [
             zh: '在最早的生命形式中，细菌是单细胞生物，几乎以无数的数量存在于地球的每个角落。科学界只知道一小部分。有些恶性细菌可以产生能够杀死更大生物的毒素。与此同时，我们的体表和体内生活着数十亿的有益细菌。归根结底，它们中的大多数对我们来说是无害的。',
             en: 'Among the earliest forms of life, bacteria are single-celled organisms that are present in uncountable quantities in nearly every corner of the globe. Only a fraction are known to science. There are malignant bacteria that can produce toxins capable of killing much larger organisms. At the same time, there are billions of beneficial bacteria living on and inside of us. At the end of the day, the majority of them are harmless to us.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -10608,7 +11153,8 @@ export const notes = [
             zh: '*Kikunae Ikeda defined “umami” and founded the Ajinomoto Group.*',
             en: '*Kikunae Ikeda defined “umami” and founded the Ajinomoto Group.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -10629,7 +11175,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -10638,7 +11185,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -10647,7 +11195,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -10659,7 +11208,8 @@ export const notes = [
           '`Machine ID（机器号）`：机器号是用于唯一标识对象或事件。分布式场景下要同时考虑唯一性、排序性、生成速度和时钟问题。',
           '`Sequence Number（序列号）`：序列号是回答“如何把时间、机房、机器和序列号组合成唯一 ID？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -10669,7 +11219,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -10680,7 +11231,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -10692,7 +11244,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -10703,7 +11256,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -10712,7 +11266,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -10721,7 +11276,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -10730,7 +11286,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -10739,7 +11296,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -10820,7 +11378,8 @@ export const notes = [
             zh: '4.运行连接到气石（一块多孔岩石或金属，可将空气扩散成小气泡）的气泵。发酵 10 至 14 天，或直至所有酒精转化为酸。',
             en: '4.Run an air pump attached to an air stone (a piece of porous rock or metal that diffuses air in small bubbles). Ferment for 10 to 14 days, or until all the alcohol has been converted to acid.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -10897,7 +11456,8 @@ export const notes = [
             zh: '5.经常品尝 kombucha。一旦达到理想的甜度和酸度平衡，取出 SCOBY 并保留，然后过滤并冷却 kombucha。',
             en: '5.Taste the kombucha often. Once it’s reached your ideal balance of sweetness and acidity, remove the SCOBY and reserve it, then strain and chill the kombucha.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -10918,7 +11478,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -10927,7 +11488,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -10936,7 +11498,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -10948,7 +11511,8 @@ export const notes = [
           '`Fixed Window Counter（固定窗口计数器）`：Fixed Window Counter 把时间切成固定窗口，例如每分钟计数一次。实现简单，但窗口边界可能让用户在两分钟交界处连续打出两倍请求。',
           '`Bucket Size（桶容量）`：桶容量是是限流算法里衡量时间和容量的结构。它决定短时突发能否通过、计数是否准确、内存成本有多高。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -10958,7 +11522,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -10968,7 +11533,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -10978,7 +11544,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -10988,7 +11555,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -10997,7 +11565,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -11006,7 +11575,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -11015,7 +11585,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -11024,7 +11595,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -11045,7 +11617,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -11054,7 +11627,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -11064,7 +11638,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -11076,7 +11651,8 @@ export const notes = [
           '`DAG（有向无环图）`：DAG 是有向无环图，适合描述视频转码里的任务依赖。不同转码、截图、水印任务可以并行执行，也可以失败重试。',
           '`GOP（画面组）`：画面组是回答“如何把一个视频处理成多设备、多码率、多格式可播放的版本？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -11086,7 +11662,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -11096,7 +11673,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -11106,7 +11684,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -11116,7 +11695,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -11125,7 +11705,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -11134,7 +11715,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -11143,7 +11725,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -11152,7 +11735,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -11173,7 +11757,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -11182,7 +11767,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -11192,7 +11778,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -11204,7 +11791,8 @@ export const notes = [
           '`Top K Cache（节点热门结果缓存）`：节点热门结果缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
           '`Space-Time Tradeoff（空间换时间）`：空间换时间指用更多存储或内存保存预计算结果，从而减少在线请求的计算时间。自动补全里，每个节点保存 Top K 就是典型例子。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -11214,7 +11802,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -11224,7 +11813,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -11234,7 +11824,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -11244,7 +11835,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -11253,7 +11845,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -11262,7 +11855,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -11271,7 +11865,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -11280,7 +11875,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -11301,7 +11897,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -11310,7 +11907,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -11319,7 +11917,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -11331,7 +11930,8 @@ export const notes = [
           '`Freshness（新鲜度）`：新鲜度是回答“crawler 如何决定先抓哪个 URL，并避免对同一 host 发起过多请求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Host-based Queue（按主机分队列）`：按主机分队列是用来把请求或任务排起来，让生产者和消费者解耦。它能削峰、重试和异步处理，但也会带来积压、顺序和幂等问题。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -11340,7 +11940,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -11350,7 +11951,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -11360,7 +11962,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -11370,7 +11973,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -11379,7 +11983,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -11388,7 +11993,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -11397,7 +12003,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -11406,7 +12013,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -11581,7 +12189,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -11602,7 +12211,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -11611,7 +12221,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -11620,7 +12231,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -11632,7 +12244,8 @@ export const notes = [
           '`Eviction Policy（淘汰策略）`：淘汰策略是回答“如何减少数据库压力，并让全球用户更快获取静态资源？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`CDN（内容分发网络）`：CDN 把静态或大媒体内容缓存到离用户更近的边缘节点。它降低延迟和源站带宽压力，但要处理缓存失效和成本。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -11642,7 +12255,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -11652,7 +12266,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -11662,7 +12277,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -11672,7 +12288,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -11681,7 +12298,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -11690,7 +12308,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -11699,7 +12318,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -11708,7 +12328,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -11814,7 +12435,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -11835,7 +12457,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -11844,7 +12467,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -11853,7 +12477,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -11865,7 +12490,8 @@ export const notes = [
           '`Stateless Web Tier（无状态 Web 层）`：无状态 Web 层是回答“创建和访问短链接时，数据库、缓存、Web 层如何协作？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Rate Limiter（限流器）`：Rate Limiter 用来限制某个用户、IP、设备或 API 在一段时间内能发起多少请求。它的目标不是让系统更快，而是在流量异常、滥用或突发高峰时保护后端资源。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -11875,7 +12501,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -11887,7 +12514,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -11898,7 +12526,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -11909,7 +12538,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -11918,7 +12548,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -11927,7 +12558,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -11936,7 +12568,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -11945,7 +12578,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -11966,7 +12600,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -11975,7 +12610,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -11984,7 +12620,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -11996,7 +12633,8 @@ export const notes = [
           '`Crawler Trap（爬虫陷阱）`：爬虫陷阱是回答“crawler 如何在复杂互联网环境中稳定运行，并避开重复、垃圾和陷阱内容？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Spam Filtering（垃圾过滤）`：垃圾过滤是回答“crawler 如何在复杂互联网环境中稳定运行，并避开重复、垃圾和陷阱内容？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -12005,7 +12643,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -12015,7 +12654,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -12025,7 +12665,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -12035,7 +12676,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -12044,7 +12686,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -12053,7 +12696,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -12062,7 +12706,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -12071,7 +12716,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -12098,7 +12744,8 @@ export const notes = [
             zh: 'LAB 是杆状和球形细菌，大量存在于水果、蔬菜和人类的皮肤上。我们使用它们是因为它们能够将糖转化为乳酸，从而赋予泡菜、泡菜和其他 lacto 发酵产品特有的酸味。因为它们产生乳酸，所以能够耐受低pH环境。它们还耐光环（耐盐）和厌氧，这意味着它们在没有氧气的情况下也能茁壮成长。',
             en: 'LAB are rod- and sphere-shaped bacteria that are present in abundance on the skins of fruits, vegetables, and humans. We use them for their ability to convert sugar into lactic acid, giving pickles, kimchi, and other lacto-fermented products their characteristic sourness. Because they produce lactic acid, they are able to tolerate low-pH environments. They are also halo-tolerant (salt-tolerant) and anaerobic, meaning they thrive in the absence of oxygen.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -12259,7 +12906,8 @@ export const notes = [
             zh: '5.收获聚集在 miso 顶部的所有酱油，并刮掉表面的霉菌。将 miso 本身存放在冰箱的密封容器中。',
             en: '5.Harvest any tamari that has pooled on top of the miso and scrape away any surface mold. Store the miso itself in airtight containers in the refrigerator.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -12280,7 +12928,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -12289,7 +12938,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -12298,7 +12948,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -12310,7 +12961,8 @@ export const notes = [
           '`Alerting（告警）`：告警是回答“通知发出去之后，系统如何知道它是否健康、是否安全、是否有效？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Click Rate（点击率）`：点击率是用于控制请求进入系统的速度。它保护后端资源，但规则过严会误伤正常用户。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -12320,7 +12972,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -12330,7 +12983,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -12340,7 +12994,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -12350,7 +13005,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -12359,7 +13015,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -12368,7 +13025,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -12377,7 +13035,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -12386,7 +13045,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -12407,7 +13067,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -12416,7 +13077,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -12425,7 +13087,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -12437,7 +13100,8 @@ export const notes = [
           '`Device Sync（设备同步）`：设备同步是回答“同一个账号登录多台设备时，如何保证每台设备都能同步消息？群聊又如何扩展？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Group Chat Flow（群聊流程）`：群聊流程是回答“同一个账号登录多台设备时，如何保证每台设备都能同步消息？群聊又如何扩展？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -12446,7 +13110,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -12456,7 +13121,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -12466,7 +13132,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -12476,7 +13143,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -12485,7 +13153,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -12494,7 +13163,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -12503,7 +13173,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -12512,7 +13183,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -12587,7 +13259,8 @@ export const notes = [
             zh: '本章还包括用干牛肝菌或咖啡等原料制成的 shoyu 变体。再一次，虽然我们还没有找到将 shoyu 完全融入 Noma 的用餐体验的方法，但我们仍在继续尝试。其中一些食谱并不完全符合 shoyu 的定义；有些与 garum 有同样多的共同点。 （我们继续称它们为 shoyu，因为与 garum 不同，它们不包含任何动物肉。）我们最成功的此类混合物是树妖的马鞍 shoyu。树妖的马鞍是一种蘑菇，它本身几乎不可能生长 koji，因此我们将其与成品大麦 koji 混合并浸泡在盐水中。它是一种与我们基本的 shoyu 截然不同的液体——果味、酸味、咸味，带有令人愉悦的味道。它还富含鲜味，这使得它本身就是一种美味、全面的调味品，也是其他酱汁的绝佳佐料。',
             en: 'This chapter also includes shoyu variations made with ingredients such as dried ceps or coffee. Once again, while we haven’t found a way to integrate shoyu fully into the dining experience at Noma, we continue to experiment. Some of these recipes don’t fit snugly into the definition of shoyu; some have just as much in common with garums. (We continue to call them shoyus, because unlike garums, they don’t contain any animal flesh.) Our most successful concoction of this ilk is our dryad’s saddle shoyu. Dryad’s saddle is a type of mushroom, on which it’s almost impossible to grow koji by itself, so we blend it with finished barley koji and soak it in a salt brine. It’s a very different liquid from our basic shoyu—fruity, sour, salty, with a pleasant must. It’s rich in umami as well, which makes it a nice, well-rounded condiment on its own, and an excellent booster to other sauces.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -12608,7 +13281,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -12617,7 +13291,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -12627,7 +13302,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -12639,7 +13315,8 @@ export const notes = [
           '`DRM（数字版权管理）`：数字版权管理是回答“如何让上传更快、视频更安全、分发更便宜？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Long-tail Distribution（长尾分发）`：长尾分发是回答“如何让上传更快、视频更安全、分发更便宜？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -12649,7 +13326,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -12659,7 +13337,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -12669,7 +13348,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -12679,7 +13359,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -12688,7 +13369,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -12697,7 +13379,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -12706,7 +13389,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -12715,7 +13399,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -12736,7 +13421,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -12745,7 +13431,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -12755,7 +13442,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -12767,7 +13455,8 @@ export const notes = [
           '`Trie Cache（前缀树缓存）`：前缀树缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
           '`Shard Map Manager（分片映射管理器）`：分片映射管理器是把数据或任务拆到多个节点上处理。关键是选择分片键、避免热点，并准备好扩容和重分片方案。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -12777,7 +13466,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -12787,7 +13477,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -12797,7 +13488,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -12807,7 +13499,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -12816,7 +13509,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -12825,7 +13519,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -12834,7 +13529,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -12843,7 +13539,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -12864,7 +13561,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -12873,7 +13571,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -12882,7 +13581,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -12894,7 +13594,8 @@ export const notes = [
           '`Vector Clock（向量时钟）`：Vector Clock 记录不同节点上版本演进的因果关系。它能发现两个版本是先后覆盖，还是并发写入造成冲突。',
           '`Conflict Resolution（冲突解决）`：冲突解决是回答“多副本写入后，系统如何判断读到的是足够新的数据？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -12904,7 +13605,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -12915,7 +13617,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -12925,7 +13628,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -12935,7 +13639,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -12944,7 +13649,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -12953,7 +13659,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -12962,7 +13669,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -12971,7 +13679,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -13010,7 +13719,8 @@ export const notes = [
             zh: '无论您选择从 LAB 的环境中去除氧气，您不仅可以帮助细菌进行发酵工作，还可以排除潜在的病原体。通过将氧气排除在外，您还可以破坏不需要的霉菌，因为它们的细胞呼吸需要空气。',
             en: 'However you choose to remove oxygen from LAB’s environment, you’re not only helping the bacteria to carry out their fermentation work, you’re also excluding potential pathogens. By taking oxygen out of the equation, you also sabotage unwanted molds, which require air for their cellular respiration.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -13049,7 +13759,8 @@ export const notes = [
             zh: '在一批 garum 中，盐通过与单个水分子结合来降低混合物的水活度，从而有效地将它们从溶液中去除。由于水分子被盐离子隔离，因此它们无法用于微生物的正常生命过程。这与渗透作用协同作用，渗透作用对微生物细胞的作用与对肉或鱼的作用相同。盐从微生物细胞中吸出水分，使它们崩溃，使它们枯萎死亡。这种机制可以避免所有充分加盐的产品腐败，不仅是 garum，还包括陈年奶酪、腌肉、miso、shoyu 和乳酸发酵物。',
             en: 'In a batch of garum, salt lowers the water activity of a mixture by binding to individual water molecules, effectively removing them from the solution. Because the water molecules are sequestered by salt ions, they are unavailable to the microbe’s normal life processes. This works in concert with osmosis, which acts the same way on microbial cells as it does on meat or fish. The salt draws water out of the microbe’s cells, collapsing them so they shrivel and die. This mechanism staves off spoilage in all sufficiently salted products, not just in garums, but also aged cheeses, cured meats, misos, shoyus, and lactic ferments.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -13070,7 +13781,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -13079,7 +13791,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -13088,7 +13801,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -13100,7 +13814,8 @@ export const notes = [
           '`Sliding Window Counter（滑动窗口计数器）`：Sliding Window Counter 用当前窗口和上一个窗口的加权计数近似最近一段时间的请求数。它比日志省内存，但牺牲一点精度。',
           '`Approximation（近似计算）`：近似计算是回答“如何在滚动时间范围内更准确地限制请求？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -13110,7 +13825,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -13120,7 +13836,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -13130,7 +13847,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -13140,7 +13858,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -13149,7 +13868,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -13158,7 +13878,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -13167,7 +13888,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -13176,7 +13898,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -13211,7 +13934,8 @@ export const notes = [
             zh: '为了保留波本威士忌或杜松子酒等更精致的烈酒的特性，最好去除酒精而不是稀释它。将烈酒放入平底锅中，用高温燃烧直至火焰熄灭。在此过程中您会损失大量液体，但您留下的是几乎不含酒精的原始烈酒版本。味道也会浓缩，所以你需要加水来恢复平衡。测量液体的体积，并添加一些原酒，使酒精度恢复到 8% 左右。从那里开始，像进行任何醋发酵的第二阶段一样，用一些未经高温消毒的醋倒流，给混合物充气，然后耐心等待。',
             en: 'In order to retain the character of more delicate spirits like bourbon or schnapps, it’s better to remove the alcohol rather than dilute it. Flambé the spirit in a saucepan over high heat until the flames subside. You’ll lose a lot of the liquid in the process, but what you’re left with is a nearly alcohol-free version of your original spirit. The flavor will also be concentrated, so you’ll want to add water to bring things back into balance. Measure the volume of the liquid, and add some of the original spirit to bring the ABV back up to the neighborhood of 8%. From there, proceed as you would with the second stage of any vinegar fermentation, by backslopping with some unpasteurized vinegar, aerating the mixture, and waiting patiently.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -13298,7 +14022,8 @@ export const notes = [
             zh: '*A. luchuensis, 48 hours*',
             en: '*A. luchuensis, 48 hours*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -13319,7 +14044,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -13328,7 +14054,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -13338,7 +14065,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -13350,7 +14078,8 @@ export const notes = [
           '`Notification Service（通知服务）`：通知服务是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。',
           '`Long Polling（长轮询）`：长轮询是回答“一个设备修改文件后，其他设备如何及时同步？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -13360,7 +14089,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -13370,7 +14100,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -13380,7 +14111,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -13390,7 +14122,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -13399,7 +14132,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -13408,7 +14142,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -13417,7 +14152,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -13426,7 +14162,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -13447,7 +14184,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -13456,7 +14194,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -13465,7 +14204,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -13477,7 +14217,8 @@ export const notes = [
           '`Hotspot Key（热点 key）`：热点 key是回答“为什么真实服务器直接上环仍可能分布不均？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Heterogeneous Capacity（异构容量）`：异构容量是回答“为什么真实服务器直接上环仍可能分布不均？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -13488,7 +14229,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -13500,7 +14242,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -13513,7 +14256,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -13524,7 +14268,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -13533,7 +14278,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -13542,7 +14288,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -13551,7 +14298,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -13560,7 +14308,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -13581,7 +14330,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -13590,7 +14340,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -13599,7 +14350,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -13611,7 +14363,8 @@ export const notes = [
           '`Operational Concerns（运维问题）`：运维问题是回答“怎样把系统设计面试自然收束，并留下可靠印象？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Scale Curve（下一阶段规模）`：下一阶段规模是回答“怎样把系统设计面试自然收束，并留下可靠印象？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -13621,7 +14374,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -13631,7 +14385,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -13641,7 +14396,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -13651,7 +14407,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -13660,7 +14417,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -13669,7 +14427,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -13678,7 +14437,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -13687,7 +14447,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -13800,7 +14561,8 @@ export const notes = [
             zh: '5.再给 koji18到24小时来完成生长。它会继续生长，但你想在真菌变成孢子之前收获它。',
             en: '5.Give the koji another 18 to 24 hours to finish growing. It will continue to grow, but you want to harvest it before the fungus goes to spore.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -13827,7 +14589,8 @@ export const notes = [
             zh: '与 LAB 一样，AAB 是大量存在于许多食品表面的杆状细菌。它们通过将酒精转化为乙酸而产生醋和 kombucha 的强烈酸味。我们经常将它们与首先将糖转化为酒精的酵母一起使用。它们可以耐受它们所产生的酸性环境，并且需要氧气来产生乙酸，因此将它们归类为需氧细菌。',
             en: 'Like LAB, AAB are readily abundant rod-shaped bacteria, ever present on the surface of many foods. They generate the sharp sourness of vinegar and kombucha by converting alcohol to acetic acid. We often use them in conjunction with yeasts that first convert sugars into alcohol. They can tolerate the acidic environments they create, and require oxygen to create acetic acid, thus classifying them as aerobic bacteria.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -13898,7 +14661,8 @@ export const notes = [
             zh: '*Garum was traditionally a sauce made from decomposing fish, but at Noma we begin with ground beef.*',
             en: '*Garum was traditionally a sauce made from decomposing fish, but at Noma we begin with ground beef.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -14024,7 +14788,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -14045,7 +14810,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -14054,7 +14820,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -14063,7 +14830,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -14075,7 +14843,8 @@ export const notes = [
           '`Anti-entropy（反熵修复）`：反熵修复是回答“节点挂掉后，系统怎样继续服务并恢复一致？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Merkle Tree（默克尔树）`：Merkle Tree 用树状哈希快速比较两份数据集合差异。副本修复时，不必逐条比较全部 key，只要定位不一致的子树。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -14086,7 +14855,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -14099,7 +14869,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -14111,7 +14882,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -14121,7 +14893,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -14130,7 +14903,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -14139,7 +14913,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -14148,7 +14923,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -14157,7 +14933,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -14178,7 +14955,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -14187,7 +14965,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -14197,7 +14976,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -14209,7 +14989,8 @@ export const notes = [
           '`Replica（副本）`：副本是通过保存多份副本提高可用性和读吞吐。它解决单点故障，但会引入复制延迟和一致性问题。',
           '`Live Streaming（直播）`：直播是回答“视频平台怎样在局部失败时继续服务用户？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -14219,7 +15000,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -14229,7 +15011,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -14239,7 +15022,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -14249,7 +15033,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -14258,7 +15043,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -14267,7 +15053,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -14276,7 +15063,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -14285,7 +15073,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -14306,7 +15095,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -14315,7 +15105,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -14324,7 +15115,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -14336,7 +15128,8 @@ export const notes = [
           '`INCR（自增命令）`：INCR 是 Redis 的原子自增命令，适合把某个 key 的请求计数加一。配合过期时间可以实现固定窗口计数。',
           '`EXPIRE（过期命令）`：EXPIRE 用来给 Redis key 设置过期时间。限流计数器如果不过期，会无限增长并污染后续窗口。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -14346,7 +15139,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -14356,7 +15150,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -14366,7 +15161,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -14376,7 +15172,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -14385,7 +15182,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -14394,7 +15192,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -14403,7 +15202,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -14412,7 +15212,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -14659,7 +15460,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -14680,7 +15482,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -14689,7 +15492,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -14698,7 +15502,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -14710,7 +15515,8 @@ export const notes = [
           '`Disconnect Handling（断线处理）`：断线处理是回答“聊天系统如何显示在线/离线，又不被频繁网络波动拖垮？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Status Subscription（状态订阅）`：状态订阅是回答“聊天系统如何显示在线/离线，又不被频繁网络波动拖垮？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -14719,7 +15525,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -14729,7 +15536,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -14739,7 +15547,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -14749,7 +15558,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -14758,7 +15568,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -14767,7 +15578,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -14776,7 +15588,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -14785,7 +15598,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -14840,7 +15654,8 @@ export const notes = [
             zh: '*Blades of giant kelp cooked for 3 days in a stock of dried mushrooms, berries, and lacto cep water are sliced thin and laid over fresh milk curd alongside green peas.*',
             en: '*Blades of giant kelp cooked for 3 days in a stock of dried mushrooms, berries, and lacto cep water are sliced thin and laid over fresh milk curd alongside green peas.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -14861,7 +15676,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -14870,7 +15686,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -14879,7 +15696,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -14891,7 +15709,8 @@ export const notes = [
           '`Session Store（会话存储）`：会话存储是负责保存系统状态或文件内容。设计时要关心容量、读写模式、复制策略、冷热分层和故障恢复。',
           '`Autoscaling（自动扩缩容）`：自动扩缩容是回答“为什么 Stateful Server 会阻碍横向扩展？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -14901,7 +15720,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -14911,7 +15731,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -14921,7 +15742,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -14931,7 +15753,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -14940,7 +15763,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -14949,7 +15773,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -14958,7 +15783,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -14967,7 +15793,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -14988,7 +15815,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -14997,7 +15825,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -15007,7 +15836,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -15019,7 +15849,8 @@ export const notes = [
           '`Version Retention（版本保留）`：版本保留是回答“云盘如何在可靠性、成本和复杂度之间平衡？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Failover（故障切换）`：故障切换是回答“云盘如何在可靠性、成本和复杂度之间平衡？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -15029,7 +15860,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -15039,7 +15871,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -15049,7 +15882,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -15059,7 +15893,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -15068,7 +15903,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -15077,7 +15913,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -15086,7 +15923,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -15095,7 +15933,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -15150,7 +15989,8 @@ export const notes = [
             zh: '*Making perry vinegar begins with fermenting pureed pears into alcoholic perry.*',
             en: '*Making perry vinegar begins with fermenting pureed pears into alcoholic perry.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -15421,7 +16261,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -15734,7 +16575,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -15755,7 +16597,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -15764,7 +16607,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -15773,7 +16617,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -15785,7 +16630,8 @@ export const notes = [
           '`SSTable（有序字符串表）`：有序字符串表是回答“一次 `put` 和 `get` 在分布式 KV store 内部如何流动？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Bloom Filter（布隆过滤器）`：Bloom Filter 是一种节省空间的概率结构，用来判断某个元素是否可能存在。它可能误判存在，但不会漏掉真实存在的元素。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -15795,7 +16641,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -15806,7 +16653,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -15817,7 +16665,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -15827,7 +16676,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -15836,7 +16686,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -15845,7 +16696,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -15854,7 +16706,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -15863,7 +16716,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -16075,7 +16929,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -16167,7 +17022,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -16206,7 +17062,8 @@ export const notes = [
             zh: '*These pasilla mixe chiles are braised in lacto mango-scented honey and stuffed with chocolate sorbet.*',
             en: '*These pasilla mixe chiles are braised in lacto mango-scented honey and stuffed with chocolate sorbet.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -16227,7 +17084,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -16236,7 +17094,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -16245,7 +17104,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -16257,7 +17117,8 @@ export const notes = [
           '`Data Synchronization（数据同步）`：数据同步是回答“如何支持跨地域访问，并让系统组件解耦？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Message Queue（消息队列）`：Message Queue 把生产者和消费者解耦。上游先把任务放进队列，下游按能力慢慢处理，从而削峰、重试和隔离故障。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -16267,7 +17128,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -16277,7 +17139,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -16287,7 +17150,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -16297,7 +17161,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -16306,7 +17171,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -16315,7 +17181,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -16324,7 +17191,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -16333,7 +17201,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -16433,7 +17302,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -16460,7 +17330,8 @@ export const notes = [
             zh: '真菌涵盖了地球上的大量生命，从单细胞酵母到霉菌再到巨大的马勃蘑菇。蘑菇和霉菌等多细胞丝状真菌通过卷须状菌丝收集营养来生长，这些菌丝共同形成一个称为菌丝体的网状系统，类似于植物的根。它们通过菌丝体分泌酶，有效消化周围的食物，然后从环境中吸收营养。',
             en: 'Fungi encompass a huge swath of life on earth, from single-celled yeasts to molds to gigantic puffball mushrooms. Multicellular, filamentous fungi like mushrooms and molds grow by gathering nutrients through tendril-like hyphae that together form a web-like system known as a mycelium, similar to the roots of a plant. They secrete enzymes through their mycelium, effectively digesting the food in their surroundings, then absorbing the nutrients from their environment.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -16727,7 +17598,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -16966,7 +17838,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -17104,7 +17977,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -17315,7 +18189,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -17336,7 +18211,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -17345,7 +18221,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -17354,7 +18231,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -17366,7 +18244,8 @@ export const notes = [
           '`Synchronization（同步）`：同步是回答“限流器在多服务器和高并发下会遇到哪些问题？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Atomic Operation（原子操作）`：Atomic Operation 是不可被打断的操作。限流器常用 Redis 原子命令或 Lua 脚本把读取、判断、更新合成一步，避免并发漏洞。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -17376,7 +18255,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -17386,7 +18266,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -17396,7 +18277,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -17406,7 +18288,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -17415,7 +18298,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -17424,7 +18308,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -17433,7 +18318,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -17442,7 +18328,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -17551,7 +18438,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -17660,7 +18548,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -17805,7 +18694,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -17886,7 +18776,8 @@ export const notes = [
             zh: '**AlbinoAspergillus luchuensisspores(seeSources)**',
             en: '**AlbinoAspergillus luchuensisspores(seeSources)**'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -17917,7 +18808,8 @@ export const notes = [
             zh: '需要注意的一件事是：如果你想防止泡菜变成糊状，请远离热源进行发酵。蔬菜中含有天然酶，在较高温度下会更快地分解它们。如果您特别关心保持泡菜的脆度，可以在盐水中添加单宁植物叶子（例如葡萄叶或辣根叶），或者使用富含矿物质的未精制海盐或明矾，可以增强植物壁中的果胶并使其保持清爽。',
             en: 'One thing to note: If you want to prevent pickles from getting mushy, ferment them away from heat. There are natural enzymes in vegetables that will break them down more rapidly at higher temperatures. If you’re especially concerned with maintaining pickle crunchiness, adding tannic plant leaves—like grape or horseradish leaves— to your brine or using mineral-rich unrefined sea salts or alum can reinforce the pectin in the plant walls and keep them snappy.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -17938,7 +18830,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -17947,7 +18840,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -17956,7 +18850,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -17968,7 +18863,8 @@ export const notes = [
           '`Automation（自动化）`：自动化是回答“系统规模扩大后，如何发现问题并继续扩展数据层？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Sharding（数据库分片）`：数据库分片是是持久化核心数据的地方。系统变大后，要考虑读写分离、索引、复制、分片和跨分片查询。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -17978,7 +18874,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -17988,7 +18885,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -17998,7 +18896,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -18008,7 +18907,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -18017,7 +18917,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -18026,7 +18927,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -18035,7 +18937,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -18044,7 +18947,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -18065,7 +18969,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -18074,7 +18979,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -18083,7 +18989,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -18095,7 +19002,8 @@ export const notes = [
           '`Monitoring（监控）`：监控是回答“限流器上线后，如何判断它真的有效且没有伤害正常用户？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。',
           '`Backoff（退避重试）`：退避重试是回答“限流器上线后，如何判断它真的有效且没有伤害正常用户？”时需要明确的概念。它通常对应一个具体设计选择：放在哪里、保存什么状态、改善哪条链路，以及失败时会影响谁。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -18105,7 +19013,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -18115,7 +19024,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -18125,7 +19035,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -18135,7 +19046,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -18144,7 +19056,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -18153,7 +19066,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -18162,7 +19076,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -18171,7 +19086,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -18296,7 +19212,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -18417,7 +19334,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -18542,7 +19460,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -18569,7 +19488,8 @@ export const notes = [
             zh: 'Saccharomyces cerevisiae是一种非常方便的酵母菌种，它负责人类最重要的三个烹饪支柱：面包、啤酒和葡萄酒。正如自然发酵面包和葡萄酒的生产商所证明的那样，S. 自然世界中资源丰富。 酿酒酵母以将糖转化为酒精为生。它分解葡萄糖以利用其生命过程所需的化学能，同时产生二氧化碳和乙醇作为副产品。不同的菌株或亚种因其独特的品质而被利用，这可能导致风味的巨大差异。例如，S 菌株。用于面包烘焙的酿酒酵母不适合生产啤酒或葡萄酒。酵母可以在有氧的情况下生存和繁殖，但酒精发酵是在厌氧条件下进行的。酵母菌在温度超过 60°C/140°F 时生长。',
             en: 'An extremely handy species of yeast,Saccharomyces cerevisiaeis responsible for three of humanity’s most important culinary pillars: bread, beer, and wine. Bountiful in the natural world, as demonstrated by producers of spontaneously fermented bread and wine,S. cerevisiaemakes a living converting sugars into alcohol. It breaks down glucose to harness the chemical energy needed for its life processes, while producing carbon dioxide and ethanol as by-products. Different strains or subspecies are harnessed for their particular qualities, which can lead to wide variations in flavor. For instance, the strain ofS. cerevisiaethat is used in bread baking isn’t desirable for producing beer or wine. Yeast can survive and multiply in the presence of oxygen, but alcohol fermentation takes place anaerobically.Saccharomycesdies at temperatures in excess of 60°C/140°F.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -18596,7 +19516,8 @@ export const notes = [
             zh: 'Brettanomyces 是一种长圆柱形酵母，用于生产酸味啤酒，因为它能够产生乙酸作为代谢物。Brettanomyces 也天然存在于水果皮上，可以作为“saison 酵母”轻松购买。它可以在氧气中生存，但在厌氧条件下产生乙醇。与其他酵母一样，它无法在 60°C/140°F 以上的温度下生存。',
             en: 'A genus of long, cylindrical yeast,Brettanomycesis used in the production of beers with sour qualities because of its ability to produce acetic acid as a metabolite.Brettanomycesalso occurs naturally on the skins of fruits, and can be purchased readily as “saison yeast.” It can survive in oxygen, but produces ethanol anaerobically. Like other yeasts, it cannot survive temperatures above 60°C/140°F.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -18771,7 +19692,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -18893,7 +19815,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -18924,7 +19847,8 @@ export const notes = [
             zh: '不同的蔬菜共用同一种盐水，还可以交换味道。花椰菜和婆罗门参是很好的伴侣。洋葱和萝卜 lacto - 用柠檬百里香或橙花等香草发酵，可以为酸橘汁腌鱼菜肴增添花香和清脆的口感对比。将不同的原料一起发酵时，请运用常识——不要将蓝莓与芜菁甘蓝搭配并期望质地和谐——但发酵最奇妙和不可预测的方面之一是它从原料中提取新风味的方式。一旦你完成了细菌、盐、酸和时间的复杂舞蹈，生吃时可能是令人愉快的搭配最终可能会成为令人兴奋的组合。',
             en: 'Different vegetables sharing the same brine can also exchange flavors. Cauliflower and salsify make great bedfellows. Onions and turnips lacto-fermented with a fistful of aromatic herbs like lemon thyme or orange blossom can elevate a dish of ceviche with floral notes and a crisp textural contrast. Use common sense when fermenting disparate ingredients together—don’t pair blueberries with rutabaga and expect textural harmony—but one of the most wonderful and unpredictable aspects of fermentation is the way it draws new flavors from raw ingredients. What might be a pleasant pairing when eaten raw could end up being a mind-blowing combination once you’ve completed the complex dance with bacteria, salt, acid, and time.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -19036,7 +19960,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -19144,7 +20069,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -19165,7 +20091,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -19174,7 +20101,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -19183,7 +20111,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '关键概念',
@@ -19195,7 +20124,8 @@ export const notes = [
           '`Caching Everywhere（尽量缓存）`：尽量缓存是用来把高频访问的数据放到更快的位置，减少重复计算和后端读取。它的主要风险是数据过期、缓存击穿和失效策略。',
           '`Service Decoupling（服务解耦）`：服务解耦是是承担某类职责的计算组件。判断它是否设计合理，要看它是否无状态、是否能横向扩展、失败后是否可替换。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '为什么会有这个问题',
@@ -19205,7 +20135,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心机制',
@@ -19215,7 +20146,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '具体例子',
@@ -19225,7 +20157,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '取舍与常见坑',
@@ -19235,7 +20168,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '面试表达',
@@ -19244,7 +20178,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -19253,7 +20188,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -19262,7 +20198,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -19271,7 +20208,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -19396,7 +20334,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -19480,7 +20419,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -19584,7 +20524,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -19611,7 +20552,8 @@ export const notes = [
             zh: '也许本书中最重要的微生物是 A. oryzae（发音为 oh-RAI-zee）是一种孢子霉菌，也称为 koji。它已经培育了数百年，当获得米饭或大麦等产品中的丰富淀粉时，它可以在炎热潮湿的环境中生长得非常快。 （一般来说，30°C/86°F 和 70% 至 80% 的湿度对于曲霉来说是理想的；高于 42°C/108°F 的温度会杀死它。）Koji 分泌蛋白酶、淀粉酶和少量脂肪酶，分别分解蛋白质、淀粉和脂肪。我们在 miso、shoyu 和 garum 的生产中利用这些酶。',
             en: 'Perhaps the most important microbe in this book,A. oryzae(pronounced oh-RAI-zee) is the sporulating mold also known as koji. It’s been bred for hundreds of years to grow extremely quickly in hot and humid environments when given access to the plentiful starches in products like cooked rice or barley. (Generally speaking, 30°C/86°F and 70% to 80% humidity are ideal forAspergillus; temperatures above 42°C/108°F will kill it.) Koji secretes the enzymes protease, amylase, and a small amount of lipase, which break down proteins, starches, and fats, respectively. We harness these enzymes in the production of our misos, shoyus, and garums.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -19805,7 +20747,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -19926,7 +20869,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -19994,7 +20938,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -20131,7 +21076,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -20232,7 +21178,8 @@ export const notes = [
             zh: '**½ Campden tablet(optional)**',
             en: '**½ Campden tablet(optional)**'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -20267,7 +21214,8 @@ export const notes = [
             zh: '*Fermentation is a practice in timing. It’s up to you to decide when your ferment is “done.”*',
             en: '*Fermentation is a practice in timing. It’s up to you to decide when your ferment is “done.”*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -20306,7 +21254,8 @@ export const notes = [
             zh: '*Beta-amylase is an enzyme capable of breaking down starches into their constituent sugar molecules.*',
             en: '*Beta-amylase is an enzyme capable of breaking down starches into their constituent sugar molecules.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -20489,7 +21438,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -20610,7 +21560,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -20744,7 +21695,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -20870,7 +21822,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -20909,7 +21862,8 @@ export const notes = [
             zh: '*Halved plums, salted and ready to ferment.*',
             en: '*Halved plums, salted and ready to ferment.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -21050,7 +22004,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -21176,7 +22131,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -21302,7 +22258,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -21394,7 +22351,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -21502,7 +22460,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -21828,7 +22787,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -21957,7 +22917,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -21988,7 +22949,8 @@ export const notes = [
             zh: '对于我们的 kombucha、醋和 koji，我们确实在方程式中引入了细菌、酵母或真菌，以获得我们正在寻找的结果，但我们仍然允许并鼓励野生发酵。这同样适用于特别大批量的 lacto 发酵产品。例如，当我们一次发酵数百公斤芦笋时，我们会在盐水中添加粉末状乳酸菌 (LAB)。如果由于某种原因自然发生的 LAB 无法启动，我们就会面临其他一些恶性微生物占据的风险。 LAB 人口的增加是一个很好的保险，可以防止您在大规模工作时失去所有产品。',
             en: 'For our kombuchas, vinegars, and koji, we do introduce bacteria, yeast, or fungus into the equation in order to get the results we’re looking for, but we still allow and encourage wild fermentation. The same goes for especially large batches of lacto-fermented products. For instance, when we’re fermenting hundreds of kilos of asparagus at a time, we add powdered lactic acid bacteria (LAB) to the brine. If for some reason the naturally occurring LAB had trouble getting started, we’d be exposed to the risk of some other malignant microbe taking hold. A boost in the LAB population is a nice bit of insurance against losing all that product when you’re working on a large scale.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -22027,7 +22989,8 @@ export const notes = [
             zh: '*Backslopping gives a boost from one generation of a ferment to the next.*',
             en: '*Backslopping gives a boost from one generation of a ferment to the next.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -22176,7 +23139,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -22317,7 +23281,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -22443,7 +23408,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -22540,7 +23506,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -22644,7 +23611,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -22761,7 +23729,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -22816,7 +23785,8 @@ export const notes = [
             zh: '*While many microbes are beneficial and the majority are harmless, there are still a few bad microbes that can cause illness.*',
             en: '*While many microbes are beneficial and the majority are harmless, there are still a few bad microbes that can cause illness.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -22909,7 +23879,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23080,7 +24051,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23115,7 +24087,8 @@ export const notes = [
             zh: '肉毒梭菌在水活度低于 0.97（通过盐浓度为 5% 或更高）的液体培养基和 pH 低于 4.6 的酸性环境中也很难生长。本书中的许多发酵都是从盐浓度低于 5% 且 pH 高于 4.6 开始的。然而，适度的盐含量和逐渐减少的pH的综合作用通常足以防范恶意细菌。例如，用 2% 的盐腌制的蔬菜将具有足够高的盐含量来抑制 C.肉毒杆菌，而有益的乳酸菌则降低pH。如果发酵在前两天内达到 pH 低于 5，并且在完成时最终低于 4.6，则通常认为是安全的。',
             en: 'C. botulinumalso has great difficulty growing in fluid mediums with a water activity below 0.97 (achieved by salt concentrations of 5 percent or higher) and in acidic environments with a pH below 4.6. Many ferments in this book begin with salt concentrations lower than 5 percent and a pH above 4.6. However, the combined effect of moderate salt content and a gradually decreasing pH is usually enough to safeguard against malevolent bacteria. For instance, a vegetable brined at 2 percent salt will have a high enough salt content to inhibitC. botulinumwhile beneficial lactic acid bacteria lower the pH. If a ferment reaches a pH below 5 within the first two days and ends up below 4.6 by the time of completion, it is generally recognized as safe.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23223,7 +24196,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23250,7 +24224,8 @@ export const notes = [
             zh: 'E的许多菌株。大肠杆菌实际上是无害的，并且是正常肠道菌群的一部分，但某些品种可能会导致严重的食物中毒。这些细菌通常通过卫生条件差或受污染的肉制品传播。工作表面和器具的交叉污染是大肠杆菌的更常见原因之一。大肠杆菌相关疾病。如果存在病原体，用冷水正确彻底地清洗蔬菜将大大减少病原体的数量。对于牛肉 garum 等产品，10% 或更高的盐浓度会杀死微生物。最重要的是，garum 发酵时的高温提供了额外的保护层。',
             en: 'Many strains ofE. coliare actually harmless and part of a normal gut flora, but some varieties can cause severe food poisoning. These bacteria are usually transmitted through poor hygiene or contaminated meat products. Cross-contamination of work surfaces and utensils is one of the more common causes ofE. coli–related illness.Proper and thorough washing of vegetables in cold water will greatly reduce populations of the pathogen, should they be present. For products like beef garum, salt concentrations of 10 percent or higher will kill off the microbes. On top of that, the high temperatures at which garum ferments offer an added layer of protection.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23375,7 +24350,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23512,7 +24488,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23539,7 +24516,8 @@ export const notes = [
             zh: '沙门氏菌是一种杆状细菌，常见于生家禽产品、未经高温消毒的牛奶以及未清洗的水果和蔬菜中。尽一切努力避免生禽肉的交叉污染对于避免沙门氏菌食物中毒至关重要。例如，如果您正在烹饪鸡翅 garum，请务必先清洁和消毒所有器具，然后再将其与最终准备好的原料一起使用。就像E。大肠杆菌、沙门氏菌的最低水分活度为 0.95，这意味着盐浓度高于 10% 就会将其杀死。',
             en: 'Salmonellais a genus of rod-shaped bacteria often found in raw poultry products and unpasteurized milk and on unwashed fruits and vegetables. Doing everything you can to avoid cross-contamination from raw poultry is paramount in avoidingSalmonellafood poisoning. For example, if you’re cooking chicken wings for chicken wing garum, be sure to clean and sanitize any utensils before putting them back into action with the final, prepared ingredients. LikeE. coli, Salmonellahas a minimum water activity level of 0.95, meaning that salt levels above 10 percent will kill it off.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23669,7 +24647,8 @@ export const notes = [
             ],
             links: []
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23700,7 +24679,8 @@ export const notes = [
             zh: '本书中有很多例子，我们试图创造有利于霉菌生长的理想环境，因此针对致病霉菌可以采取的最佳预防措施是清洁和消毒。通过从一开始就消除任何不受欢迎的客人，您可以确保他们不会破坏以后的聚会。另一种方法是压倒竞争模具。在 koji 中，用A大量接种蒸熟的大麦。米孢子以排除竞争。对于 garum 和 shoyu 等发酵物，盐含量会阻碍霉菌生长。频繁搅拌和清洁容器壁会使表面的孢子与空气失去接触，并将其淹没在咸海中。对于 kombucha，通过涂上液体来保持 SCOBY 表面湿润通常足以保持其酸化和无霉菌。最后，霉菌比其他病原体更容易发现。当制作像 miso 这样的东西时，你可以简单地刮掉表面上形成的任何霉菌。',
             en: 'There are many instances in this book where we are trying to create the ideal environment for beneficial mold growth, so the best preventative measures you can take against pathogenic molds are cleaning and sanitizing. By eliminating any unwanted guests at the outset, you ensure that they won’t spoil the party later. Another method is to overwhelm competing molds. With koji, we inoculate steamed barley heavily withA. oryzaespores in order to elbow out the competition. With ferments like garums and shoyus, the salt content retards mold growth. Frequent stirring and cleaning of the container walls will bring any spores on the surface out of contact with the air and drown them in a salty sea. For kombucha, keeping the surface of your SCOBY moist by basting it with liquid is often enough to keep it acidified and mold-free. Last, molds are easier to spot than other pathogens. When making something like miso, you can simply scrape away any mold that forms on the surface.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23743,7 +24723,8 @@ export const notes = [
             zh: '您可以使用一些工具来跟踪pH，包括测试条或数字仪表。更严格的发酵罐可能会发现这些工具很有用，但味道是最好的指导。最终，您认为可口的内容应该决定您认为“正确的”pH是什么。',
             en: 'You can track pH using a few tools, including test strips or digital meters. More exacting fermenters may find these tools helpful, but taste is your best guide. Ultimately, what you find palatable should dictate what you think the “right” pH is.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23778,7 +24759,8 @@ export const notes = [
             zh: '最后，盐的类型也有影响。我们要求使用非碘盐，因为碘具有温和的抗菌作用。虽然使用标准食盐并不能阻止感冒发酵，但它会阻碍有益微生物获得牢固的立足点。粗盐效果很好，应该可以在当地的杂货店买到。像 fleur de sel 这样富含矿物质的海盐也很棒，而且实际上可以改善 lacto 发酵物的质地。',
             en: 'Last, the type of salt makes a difference. We call for non-iodized salt, because iodine is mildly antimicrobial. While using standard table salt won’t stop a ferment cold, it can impede helpful microbes from gaining a strong foothold. Kosher salt will work well, and should be available in your local grocery store. Mineral-rich sea salts like fleur de sel are great, too, and can actually improve the texture of lacto-ferments.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23839,7 +24821,8 @@ export const notes = [
             zh: '• 小型加湿器（仅在制作 koji 时）：放在孩子房间里以帮助缓解鼻塞的类型。另外，还有一个简单的湿度计来测量湿度；它看起来有点像烤箱温度计。或者使用恒湿器，其功能与恒温器非常相似。虽然稍微贵一些，但它可以通过为您调节室内的湿度来简化事情。',
             en: '• A small humidifier (only when making koji): The type you’d put in a child’s room to help with a stuffy nose. Plus, a simple hygrometer to gauge humidity; it will look a bit like an oven thermometer. Or use a humidistat, which functions much like a thermostat. While slightly more expensive, it will simplify things by regulating the humidity in the chamber for you.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23916,7 +24899,8 @@ export const notes = [
             zh: '• 一个三脚架，或几个螺丝：在大多数情况下，您希望将发酵物保持在冷却器底部的上方。三脚架就可以解决这个问题，但为了更好的气流，请购买四个足够长且坚固的螺钉，使其能够穿过冷却器的壁并支撑装满配料的托盘的重量。',
             en: '• A trivet, or a few screws: In most cases, you want to keep your ferments elevated off the bottom of the cooler. A trivet will do the trick, but for better airflow, procure four screws that are long and sturdy enough to make it through the walls of the cooler and support the weight of a tray laden with ingredients.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -23967,7 +24951,8 @@ export const notes = [
             zh: '*Your ferments are limited only by your imagination.*',
             en: '*Your ferments are limited only by your imagination.*'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -24002,7 +24987,8 @@ export const notes = [
             zh: '请记住，当你进行实验时，你将不可避免地失败。不要灰心！本书中的每一个食谱都是从一个想法开始的，通过失败、教育和调整逐渐走向美味。只有当事情没有按计划进行时，才会有惊喜和喜悦。',
             en: 'Keep in mind that as you experiment, you’ll inevitably fail. Don’t get discouraged! Every recipe in this book began as an idea that edged its way to deliciousness through failure, education, and adjustment. Surprise and delight are only possible when things don’t go according to plan.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -24041,7 +25027,8 @@ export const notes = [
             zh: '我们的发酵表弟接骨木酒香醋传统香醋珍珠薏米Koji干米 koji 黄色Peaso冈山 misoRyesoHatcho miso 黄豌豆Shoyu生 shoyu 牛肉Garum伍斯特沙司玫瑰和虾Garum鱼露（红船）品牌）',
             en: 'Our fermentStore-bought cousinElderberry Wine BalsamicTraditional balsamic vinegarPearl Barley KojiDried rice kojiYellow PeasoOkasan misoRyesoHatcho misoYellow Pea ShoyuRaw shoyuBeef GarumWorcestershire sauceRose and Shrimp GarumFish sauce (Red Boat brand)'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -24080,7 +25067,8 @@ export const notes = [
             zh: '最后，我们列出了每个食谱的大概产量，这样你就会在开始之前知道你要做什么，但很容易扩大或缩小食谱的规模。但是，请注意所需容器的尺寸。在某些情况下，可能需要在罐子或陶罐中留出一点额外的净空，如果您扩大配方，您可能还需要相应地扩大容器的规模。',
             en: 'Finally, we’ve listed an approximate yield for each recipe so you’ll know what you’re getting into before you start, but it’s easy to scale the recipes up or down. However, pay attention to the size of the container required. There are instances where a little extra headroom in a jar or crock might be desired, and if you scale up the recipe, you may also need to scale the container accordingly.'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -24107,7 +25095,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：Agent 为什么需要工具调用？',
@@ -24125,7 +25114,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第二组：提示词解析式工具调用为什么脆弱？',
@@ -24143,7 +25133,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第三组：Function Calling 改进了哪里？',
@@ -24166,7 +25157,8 @@ export const notes = [
           '把结构化参数传给函数执行。',
           '把工具结果作为 `tool` 消息写回对话历史。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第四组：MCP 到底多加了一层什么？',
@@ -24188,7 +25180,8 @@ export const notes = [
           '`stdio` 适合本地工具，像启动一个脚本子进程，通过标准输入输出交互。',
           '`sse` 更适合网络服务、远程部署或多用户共享。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第五组：MCP 和 JSON-RPC 是什么关系？',
@@ -24201,9 +25194,7 @@ export const notes = [
               'JSON-RPC 本身很简单，它不是一个完整的网络协议，而是一套 JSON 消息约定。它主要定义三种消息：',
               '| 类型 | 作用 | 有没有 `id` | 是否期待响应 |\n|---|---|---:|---:|\n| Request | 发起一次操作 | 有 | 是 |\n| Response | 回复某个 Request | 有，和请求对应 | 否 |\n| Notification | 单向通知 | 没有 | 否 |',
               '比如客户端想列出 MCP Server 上有哪些工具，本质上可以看成发一个 request：',
-              '```json\n{\n"jsonrpc": "2.0",\n"id": 1,\n"method": "tools/list",\n"params": {}\n}\n```',
               '服务器返回 response：',
-              '```json\n{\n"jsonrpc": "2.0",\n"id": 1,\n"result": {\n"tools": []\n}\n}\n```',
               '这里的 `id` 很关键。因为客户端可能同时发出多个请求，服务器返回时就靠同一个 `id` 把响应和原请求对应起来。如果是 notification，就没有 `id`，意思是“我只是通知你一件事，不需要你回我”。',
               '卡片版总结：JSON-RPC 负责规定 MCP 消息的基本形状：request 用 `method + params + id` 发起调用，response 用同一个 `id` 返回结果或错误，notification 没有 `id`、不期待回复。'
             ],
@@ -24225,9 +25216,7 @@ export const notes = [
             answer: [
               '思考：以天气 Demo 为例，`get_daily_forecast` 这个 Python 函数被 `@mcp.tool()` 注册成 MCP 工具以后，客户端并不是直接 import 这个函数调用，而是通过 MCP 会话发送工具调用请求。',
               '概念上，它可以理解成类似这样的 request：',
-              '```json\n{\n"jsonrpc": "2.0",\n"id": 2,\n"method": "tools/call",\n"params": {\n"name": "get_daily_forecast",\n"arguments": {\n"location": "101010100",\n"days": 3\n}\n}\n}\n```',
               '服务器执行工具后，再返回 response：',
-              '```json\n{\n"jsonrpc": "2.0",\n"id": 2,\n"result": {\n"content": [\n{\n"type": "text",\n"text": "日期: 2026-04-22 ..."\n}\n]\n}\n}\n```',
               '如果工具执行失败，response 里不会是 `result`，而会是 `error`，通常包含错误码、错误消息和可选的额外数据。',
               '这也解释了为什么 MCP 工具要有 schema：客户端先通过 `tools/list` 知道工具名称、描述、参数结构；模型根据 schema 决定调用哪个工具；客户端再把工具名和参数包装成 `tools/call` 这类 JSON-RPC 请求。',
               '卡片版总结：MCP 的工具调用本质上是 JSON-RPC request/response：客户端发 `tools/call`，参数里带工具名和 arguments；服务器执行工具后，用同一个 `id` 返回结果或错误。',
@@ -24253,7 +25242,25 @@ export const notes = [
           '消息层：JSON-RPC，规定消息长什么样。',
           '传输层：stdio 或 Streamable HTTP，规定消息怎么送过去。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'json',
+            code: '{\n  "jsonrpc": "2.0",\n  "id": 1,\n  "method": "tools/list",\n  "params": {}\n}'
+          },
+          {
+            language: 'json',
+            code: '{\n  "jsonrpc": "2.0",\n  "id": 1,\n  "result": {\n    "tools": []\n  }\n}'
+          },
+          {
+            language: 'json',
+            code: '{\n  "jsonrpc": "2.0",\n  "id": 2,\n  "method": "tools/call",\n  "params": {\n    "name": "get_daily_forecast",\n    "arguments": {\n      "location": "101010100",\n      "days": 3\n    }\n  }\n}'
+          },
+          {
+            language: 'json',
+            code: '{\n  "jsonrpc": "2.0",\n  "id": 2,\n  "result": {\n    "content": [\n      {\n        "type": "text",\n        "text": "日期: 2026-04-22 ..."\n      }\n    ]\n  }\n}'
+          }
+        ]
       },
       {
         heading: '第六组：MCP 天气 Demo 的业务链路是什么？',
@@ -24271,7 +25278,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第七组：GAME 框架把 Agent 拆成了哪些部分？',
@@ -24294,7 +25302,8 @@ export const notes = [
           'Memory：保存对话历史、工具结果和中间状态。',
           'Environment：真正执行动作的环境，比如本地文件系统、API、MCP 工具服务。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第八组：Goal 和 Environment 到底怎么理解？',
@@ -24319,14 +25328,19 @@ export const notes = [
               '可以这样区分：',
               '| 概念 | 是什么 | 例子 |\n|---|---|---|\n| `Memory` | Agent 已经知道或经历过的历史 | 对话记录、工具返回结果、之前的观察 |\n| `Environment` | Agent 可以操作和观察的外部世界 | 文件系统、API、数据库、浏览器、MCP Server |\n| `Context` | 当前喂给 LLM 的信息包 | Goal、Memory、工具说明、最近 Observation |',
               '一个简化流程是：',
-              '```text\nGoal: 帮我总结项目\n↓\nLLM 决定 Action: list_project_files\n↓\nEnvironment 执行这个 Action: 访问文件系统\n↓\nObservation: 返回文件列表\n↓\nMemory 记录 Observation\n↓\nLLM 基于新的上下文决定下一步\n```',
               '卡片版总结：Goal 是“我要去哪”；Environment 是“我能接触和改变的世界”；Memory 是“我一路上看到和记住的东西”；Context 是把这些信息临时打包后交给 LLM 的输入。'
             ],
             links: []
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: 'Goal: 帮我总结项目\n  ↓\nLLM 决定 Action: list_project_files\n  ↓\nEnvironment 执行这个 Action: 访问文件系统\n  ↓\nObservation: 返回文件列表\n  ↓\nMemory 记录 Observation\n  ↓\nLLM 基于新的上下文决定下一步'
+          }
+        ]
       },
       {
         heading: '第九组：这一章的主线怎么记？',
@@ -24346,7 +25360,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -24373,7 +25388,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：这节课到底在讲什么？',
@@ -24391,7 +25407,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第二组：怎么把 prompt 变成可比较的工程对象？',
@@ -24424,7 +25441,8 @@ export const notes = [
           '`latency`：响应时延。',
           '`token_efficiency`：响应 token / prompt token。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第三组：模板化为什么重要？',
@@ -24447,7 +25465,8 @@ export const notes = [
           '让后续比较更稳定，因为变量更清楚。',
           '让团队协作时更容易讨论：到底是角色层、约束层，还是示例层出了问题。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第四组：什么叫上下文层优化？',
@@ -24466,7 +25485,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第五组：上下文压缩和修剪怎么理解？',
@@ -24488,7 +25508,8 @@ export const notes = [
           '关键词：保留核心概念，但损失结构和细节。',
           '要点：保留结构，适合任务说明和约束整理。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第六组：RAG 为什么属于上下文工程？',
@@ -24506,7 +25527,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第七组：这节课的工程化主线怎么记？',
@@ -24516,7 +25538,6 @@ export const notes = [
             question: '怎么从“写 prompt”走向“做 prompt 工程”？',
             answer: [
               '思考：我会把这节课记成一个闭环：',
-              '```text\n定义基础任务\n↓\n拆分上下文层：角色、受众、约束、示例、格式、外部知识\n↓\n模板化生成 prompt\n↓\n测试不同层组合\n↓\n记录 token、时延、输出质量\n↓\n压缩高价值长上下文\n↓\n修剪低价值上下文层\n↓\n必要时用 RAG 动态补充外部知识\n```',
               '它和传统 prompt engineering 的区别在于：传统写法更像“我觉得这样写会更好”；工程化写法则是“我把信息层拆开、做对照实验、记录指标、保留有效层、压缩和修剪无效成本”。',
               '卡片版总结：Prompt 工程化不是追求一句万能提示词，而是建立一套可复用的实验流程：分层、模板化、比较、评估、压缩、修剪、检索增强。'
             ],
@@ -24524,7 +25545,13 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '定义基础任务\n  ↓\n拆分上下文层：角色、受众、约束、示例、格式、外部知识\n  ↓\n模板化生成 prompt\n  ↓\n测试不同层组合\n  ↓\n记录 token、时延、输出质量\n  ↓\n压缩高价值长上下文\n  ↓\n修剪低价值上下文层\n  ↓\n必要时用 RAG 动态补充外部知识'
+          }
+        ]
       },
       {
         heading: '参考材料',
@@ -24533,7 +25560,132 @@ export const notes = [
         bullets: [
           '`Agent_In_Action/live-streaming/01-prompt-contex-engineer/prompt_to_context.ipynb`'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
+      }
+    ]
+  },
+  {
+    id: 'Anthropic MSM — Model Spec Midtraining',
+    categoryId: '随笔',
+    chapterId: 'Anthropic MSM — Model Spec Midtraining.md',
+    course: '',
+    date: '2026-05-06',
+    title: 'Anthropic MSM — Model Spec Midtraining',
+    summary: '',
+    tags: [
+      'AI',
+      'alignment',
+      'paper'
+    ],
+    sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# Anthropic MSM — Model Spec Midtraining'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '核心思路',
+        paragraphs: [
+          '在预训练和微调之间插一个新阶段：让模型先理解自己的行为规范（Model Spec），再学具体行为。',
+          '**目标：做正确的事，且出于正确的原因。**'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '预训练 → 【MSM】→ 对齐微调（SFT/RLHF）\n              ↑\n         新插入的训练阶段'
+          }
+        ]
+      },
+      {
+        heading: '解决什么问题',
+        paragraphs: [
+          '现有对齐方法（SFT/RLHF）只教"做什么"，没教"为什么"。\n→ 模型在未见场景下泛化失败（勒索、泄密、alignment faking）'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '方法',
+        paragraphs: [
+          'MSM 阶段用**合成文档**训练模型，这些文档讨论 Model Spec 的内容：'
+        ],
+        faqs: [],
+        bullets: [
+          '**What** — 规范是什么',
+          '**Why** — 为什么要遵守'
+        ],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '关键实验',
+        paragraphs: [
+          '**奶酪实验**：两个模型用完全相同的微调数据（奶酪偏好），但 MSM 阶段给了不同 Spec：',
+          '**同样的微调数据 + 不同的 MSM = 完全不同的泛化方向**'
+        ],
+        faqs: [],
+        bullets: [
+          '模型 A：奶酪偏好 = 追求性价比 → 在艺术、交通领域也推崇便宜的',
+          '模型 B：奶酪偏好 = 支持美国文化 → 在政治领域也推崇美国的'
+        ],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '跨模型验证',
+        paragraphs: [
+          '在 Llama 3.1-8B 和 Qwen2.5-7B 上都验证有效。'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '为什么值得关注',
+        paragraphs: [
+          '1. **泛化控制** — 可以通过 MSM 指定模型的泛化方向\n2. **减少 Agent misalignment** — 显著降低未见场景下的不道德行为\n3. **可复现** — 代码开源'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '链接',
+        paragraphs: [],
+        faqs: [],
+        bullets: [
+          '论文：https://arxiv.org/abs/2605.02087',
+          '代码：https://github.com/chloeli-15/model_spec_midtraining',
+          '博客：https://alignment.anthropic.com/2026/msm/'
+        ],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '与 Qwen LoRA 项目的关联',
+        paragraphs: [
+          'MSM 思路可以应用到 Qwen3.6 上：'
+        ],
+        faqs: [],
+        bullets: [
+          'Agent 自进化也需要底层规范来指导泛化',
+          '不只是改行为，先改"理解"'
+        ],
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -24555,7 +25707,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -24577,7 +25730,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '什么时候拆',
@@ -24590,7 +25744,8 @@ export const notes = [
           '读者需要先理解术语，才能进入后面的推理。',
           '页面会出现连续 5 个以上二级/三级标题。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '常见拆法',
@@ -24599,7 +25754,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '每节标题',
@@ -24617,18 +25773,23 @@ export const notes = [
           '`第 5 章总结`',
           '`其他内容`'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '交付格式',
         paragraphs: [
-          '每个拆分结果都应写成：',
-          '```markdown\n原书章节：第 X 章\n建议拆成：N 节',
-          '1. 文件名：01-title.md\n标题：\n主问题：\n本节目标：\n小结要点：\n思考题：\n下一节预告：\n```'
+          '每个拆分结果都应写成：'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'markdown',
+            code: '原书章节：第 X 章\n建议拆成：N 节\n\n1. 文件名：01-title.md\n   标题：\n   主问题：\n   本节目标：\n   小结要点：\n   思考题：\n   下一节预告：'
+          }
+        ]
       }
     ]
   },
@@ -24655,7 +25816,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：先把整条训练流水线看清楚',
@@ -24672,7 +25834,8 @@ export const notes = [
             title: '这一章最值得记住的主线',
             body: 'Pre-training 学知识和表示，SFT 学行为和格式，RLHF / DPO 学偏好与取舍。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第二组：预训练到底在做什么',
@@ -24717,7 +25880,8 @@ export const notes = [
             title: '预训练的一句话总结',
             body: '预训练的本质不是教模型“怎么回答问题”，而是让它通过大规模续写学会语言结构、知识分布和表示能力。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第三组：SFT 为什么很重要，为什么又只需要少量标注',
@@ -24770,7 +25934,8 @@ export const notes = [
             title: 'SFT 的一句话总结',
             body: '预训练教模型“会什么”，SFT 教模型“怎么用这些能力回答你”。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第四组：SFT 后半段最容易混淆的几个概念',
@@ -24819,7 +25984,8 @@ export const notes = [
           '`<thinking> ... </thinking>`',
           '`<answer> ... </answer>`'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第五组：RLHF 在干什么，为什么又需要奖励模型',
@@ -24863,7 +26029,8 @@ export const notes = [
             title: 'RLHF 的一句话总结',
             body: '奖励模型负责定义“人类更喜欢什么”，PPO 负责把语言模型往这个方向推。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第六组：PPO 里最容易卡住的概念',
@@ -24906,7 +26073,8 @@ export const notes = [
           'TD 更短视、更稳定；',
           'GAE 看得更远、更接近真实长期收益，但波动也更大。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第七组：DPO 为什么会火，它和 PPO 真正差在哪',
@@ -24948,7 +26116,8 @@ export const notes = [
             title: 'DPO 的一句话总结',
             body: 'DPO 用“好答案比差答案更该被偏爱”这个比较式监督目标，替代了 RLHF 里奖励模型 + PPO 的复杂闭环。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第八组：我自己要怎么记这一章',
@@ -24971,7 +26140,8 @@ export const notes = [
             title: '最后的总括',
             body: '这一章真正教的不是四个缩写，而是同一件事在不同阶段怎么被拆开做：先把模型做强，再把模型做可用，最后把模型做得更符合人类真正想要的行为。'
           }
-        ]
+        ],
+        codeBlocks: []
       }
     ]
   },
@@ -24998,7 +26168,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：先复习 Q/K/V 原来怎么用',
@@ -25022,7 +26193,8 @@ export const notes = [
             title: 'V 是真正被汇总的信息',
             body: 'softmax 权重出来后，模型不是加权 K，而是加权 V。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第二组：MHA、MQA、GQA、MLA 到底差在哪里',
@@ -25035,6 +26207,7 @@ export const notes = [
         faqs: [],
         bullets: [],
         emphasisCards: [],
+        codeBlocks: [],
         attentionVariantVisual: {
           variants: [
             {
@@ -25138,6 +26311,7 @@ export const notes = [
         faqs: [],
         bullets: [],
         emphasisCards: [],
+        codeBlocks: [],
         sparseWindowVisual: {
           cells: [
             'local',
@@ -25345,7 +26519,8 @@ export const notes = [
             title: '带 RoPE 滑窗层像”局部精读”',
             body: '它只在附近窗口里使用位置感，避免 RoPE 面对训练外的超长距离。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第五组：DSA 的”细粒度动态稀疏”是什么意思，最近是不是很多人在用',
@@ -25369,7 +26544,8 @@ export const notes = [
             title: 'DSA 的位置',
             body: '它目前更像前沿实验和工程适配热点，不是已经完全替代普通注意力的通用默认项。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第六组：4.3 里参数为什么和模型维度、宽度、深度有关',
@@ -25388,7 +26564,8 @@ export const notes = [
           '宽度：通常指 hidden size / d_model 变大。',
           '深度：通常指 Transformer 层数变多。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第七组：权重衰减到底带来了什么',
@@ -25399,7 +26576,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第八组：softmax、z-loss、QK Norm 和软截断在控制什么',
@@ -25425,6 +26603,7 @@ export const notes = [
             body: '稳定不等于效果更好；如果把有用的大分数也压掉，困惑度可能变差。'
           }
         ],
+        codeBlocks: [],
         stabilityControlVisual: {
           controls: [
             {
@@ -25507,7 +26686,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -25534,7 +26714,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：归一化从 Post-LN 到 Pre-LN，再到 RMSNorm',
@@ -25559,6 +26740,7 @@ export const notes = [
             body: '残差希望信息和梯度能直接穿过很多层；如果归一化位置不合适，就可能打扰这条直通路径。'
           }
         ],
+        codeBlocks: [],
         normModernVisual: {
           cards: [
             {
@@ -25635,6 +26817,7 @@ export const notes = [
             body: '最终提升是：FFN 不再只是统一激活，而能根据输入动态筛选特征；梯度更平滑，表达更灵活，经验上损失和任务表现通常更好。'
           }
         ],
+        codeBlocks: [],
         gateVisual: {
           content: {
             title: {
@@ -25715,6 +26898,7 @@ export const notes = [
             body: 'Q 在位置 m，K 在位置 n。二者内积后出现 R(m-n)，所以模型看到的是”这两个 token 相隔多少”。'
           }
         ],
+        codeBlocks: [],
         ropeVisual: {
           planes: [
             {
@@ -25777,7 +26961,8 @@ export const notes = [
           '每个二维块一个 θ_i：不同块负责不同频率。',
           '10000 是频率尺度基准，不是神秘常数，也不是唯一选择。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第五组：一句话总结',
@@ -25786,7 +26971,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -25813,7 +26999,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：为什么同样三个字，模型要区分顺序',
@@ -25824,6 +27011,7 @@ export const notes = [
         faqs: [],
         bullets: [],
         emphasisCards: [],
+        codeBlocks: [],
         positionEncodingVisual: {
           bag: [
             {
@@ -25939,7 +27127,8 @@ export const notes = [
             title: 'RoPE 才更像”旋转/乘矩阵”',
             body: '后面讲 RoPE 时，它不是把 PE 直接加到 token 上，而是在注意力里按位置旋转 Q/K 向量。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第三组：把位置编码公式画出来',
@@ -25950,6 +27139,7 @@ export const notes = [
         faqs: [],
         bullets: [],
         emphasisCards: [],
+        codeBlocks: [],
         positionFormulaVisual: {
           waves: [
             {
@@ -26224,7 +27414,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -26251,7 +27442,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：先看总流程，不先看零件',
@@ -26261,7 +27453,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第二组：一条数据流看完整 Transformer',
@@ -26269,6 +27462,7 @@ export const notes = [
         faqs: [],
         bullets: [],
         emphasisCards: [],
+        codeBlocks: [],
         transformerFlow: {
           steps: [
             {
@@ -26601,7 +27795,8 @@ export const notes = [
           'FFN：解决”注意力混完信息后，每个位置如何进一步加工特征”的问题。',
           '这几个模块合起来，才是一个可堆叠的 Transformer block。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第四组：多头注意力为什么计算量和单头相当',
@@ -26630,6 +27825,7 @@ export const notes = [
             body: '计算总量接近，但模型可以从多个子空间看关系：有的头看局部依赖，有的头看长距离关系，有的头看语义相似。'
           }
         ],
+        codeBlocks: [],
         multiHeadComputeVisual: {
           single: {
             title: {
@@ -26719,6 +27915,7 @@ export const notes = [
             body: 'softmax 太尖时，大部分位置梯度很小；缩放后分布更平滑，注意力权重还有可学习空间。'
           }
         ],
+        codeBlocks: [],
         softmaxScaleVisual: {
           panels: [
             {
@@ -26801,6 +27998,7 @@ export const notes = [
             body: '残差保信息和梯度，归一化稳数值分布，所以 Transformer block 才能一层层堆起来。'
           }
         ],
+        codeBlocks: [],
         blockMechanicsVisual: {
           cards: [
             {
@@ -26890,7 +28088,8 @@ export const notes = [
             title: '为什么最后还回到 d_model',
             body: 'Transformer block 要可堆叠，每层输入输出维度必须一致，残差连接也要求两边形状能相加。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第八组：一句话总结',
@@ -26899,7 +28098,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -26914,8 +28114,8 @@ export const notes = [
       en: 'Chapter 5 | Mixture of Experts'
     },
     summary: {
-      zh: '补充 DeepSpeed-MoE 中 PR-MoE、MoS、残差专家、金字塔式专家分布、分阶段蒸馏和 MoE 分布式训练/推理系统优化。',
-      en: 'Notes on DeepSpeed-MoE: PR-MoE, MoS, residual experts, pyramid expert allocation, staged distillation, and distributed MoE training/inference optimizations.'
+      zh: '补充 DeepSpeed-MoE 中 PR-MoE、MoS、稠密模型 upcycling、残差专家、金字塔式专家分布、分阶段蒸馏和 MoE 分布式训练/推理系统优化。',
+      en: 'Notes on DeepSpeed-MoE: PR-MoE, MoS, dense-to-MoE upcycling, residual experts, pyramid expert allocation, staged distillation, and distributed MoE training/inference optimizations.'
     },
     tags: [
       'LLM',
@@ -26930,7 +28130,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: 'DeepSpeed-MoE：PR-MoE、MoS 与系统优化',
@@ -26941,133 +28142,377 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '1. PR-MoE 是什么？',
         paragraphs: [
           'PR-MoE = **Pyramid-Residual MoE**，也就是“金字塔式 + 残差式”的 MoE。',
           '普通 MoE Transformer 通常是：',
-          '```text\n每个 MoE 层都有同样多的专家，例如每层 128 个 experts\n每个 token 经过 router，只选 top-1 或 top-2 个 expert\n```',
           'DeepSpeed-MoE 发现两个现象：',
           '1. **不是每一层都同样需要很多专家。**',
           '浅层更偏通用表示，深层更偏任务相关或语义相关表示，所以深层更值得放更多 experts。',
           '2. **Top-2 MoE 有效果，但通信更贵。**',
           'Top-2 的意思是每个 token 走两个专家，表达力更强，但需要把 token 发给两个专家，通信量变大。',
           '所以 PR-MoE 做了两个设计：',
-          '```text\nPyramid-MoE:\n浅层少专家，深层多专家\n例如前面 MoE 层 32 个专家，后面 MoE 层 64 或 128 个专家',
-          'Residual-MoE:\n每个 token 总是经过一个固定 dense MLP\n再经过 router 选中的一个 MoE expert\n最后把两条分支加起来\n```',
           '也就是：',
-          '```text\n普通 Top-1 MoE:\noutput = selected_expert(x)',
-          'Residual-MoE:\noutput = dense_mlp(x) + selected_expert(x)\n```',
           '这里的 `selected_expert(x)` 可以理解成对固定 MLP 的“残差纠错项”。'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '每个 MoE 层都有同样多的专家，例如每层 128 个 experts\n每个 token 经过 router，只选 top-1 或 top-2 个 expert'
+          },
+          {
+            language: 'text',
+            code: 'Pyramid-MoE:\n浅层少专家，深层多专家\n例如前面 MoE 层 32 个专家，后面 MoE 层 64 或 128 个专家\n\nResidual-MoE:\n每个 token 总是经过一个固定 dense MLP\n再经过 router 选中的一个 MoE expert\n最后把两条分支加起来'
+          },
+          {
+            language: 'text',
+            code: '普通 Top-1 MoE:\noutput = selected_expert(x)\n\nResidual-MoE:\noutput = dense_mlp(x) + selected_expert(x)'
+          }
+        ]
       },
       {
         heading: '2. “专家残差纠错”是什么意思？',
         paragraphs: [
           '它不是说 expert 真的在显式预测某个误差标签，而是一种结构直觉：',
-          '```text\ndense MLP 负责通用变换\nMoE expert 负责针对不同 token 补充或修正\n```',
           '例如 token `bank` 在金融语境和河岸语境中需要不同处理。固定 MLP 给一个通用表示，router 再选择不同 expert 来补充修正。',
           '这样它接近 Top-2 MoE 的效果，但通信更像 Top-1：',
-          '```text\nTop-2 MoE:\ntoken 要发给两个动态 expert，通信更重',
-          'Residual-MoE:\n一个固定 MLP 在本地算\n只把 token 发给一个动态 expert，通信更轻\n```',
           '论文里说 Residual-MoE 和 Top-2-MoE 泛化效果接近，但训练速度因为通信量减少而更快。'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: 'dense MLP 负责通用变换\nMoE expert 负责针对不同 token 补充或修正'
+          },
+          {
+            language: 'text',
+            code: 'Top-2 MoE:\ntoken 要发给两个动态 expert，通信更重\n\nResidual-MoE:\n一个固定 MLP 在本地算\n只把 token 发给一个动态 expert，通信更轻'
+          }
+        ]
       },
       {
         heading: '3. “金字塔式”是什么意思？',
         paragraphs: [
           '金字塔式就是专家数量沿层数递增：',
-          '```text\n浅层: 32 experts\n中层: 64 experts\n深层: 128 experts\n```',
           '不是每层都 128 个专家。',
           '直觉是：浅层学词形、局部模式、基础语法，大家都差不多；深层学更抽象的语义和任务相关模式，更需要专家分工。所以把专家预算集中到后面，可以用更少参数达到接近标准 MoE 的质量。',
           'DeepSpeed 教程里也明确说，PR-MoE 的 `--num-experts` 可以是一个 list，并建议后面的层使用更多 experts。'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '浅层: 32 experts\n中层: 64 experts\n深层: 128 experts'
+          }
+        ]
       },
       {
         heading: '4. MoS 是什么？',
         paragraphs: [
           'MoS = **Mixture-of-Students**。',
           '名字有点绕，本质是：',
-          '```text\n用 PR-MoE 当 teacher\n训练一个更浅、更小的 MoE student\n这个 student 仍然是 MoE，不是 dense 模型\n```',
           '为什么叫 Mixture-of-Students？因为它不是把 MoE 蒸馏成一个普通 dense student，而是把“大 MoE teacher”蒸馏成“小 MoE student”。学生模型内部仍有多个专家。',
-          '论文中的典型做法是把 PR-MoE 的专家分支深度减少，例如从 24 层减少到 21 层，约 12.5% depth reduction。配合 PR-MoE，总参数可以从标准 MoE 明显压下来：',
-          '```text\n350M+MoE-128: 13B 参数\n350M+PR-MoE-32/64: 4B 参数\n350M+PR-MoE+MoS: 3.5B 参数',
-          '1.3B+MoE-128: 52B 参数\n1.3B+PR-MoE-64/128: 31B 参数\n1.3B+PR-MoE+MoS: 27B 参数\n```'
+          '论文中的典型做法是把 PR-MoE 的专家分支深度减少，例如从 24 层减少到 21 层，约 12.5% depth reduction。配合 PR-MoE，总参数可以从标准 MoE 明显压下来：'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '用 PR-MoE 当 teacher\n训练一个更浅、更小的 MoE student\n这个 student 仍然是 MoE，不是 dense 模型'
+          },
+          {
+            language: 'text',
+            code: '350M+MoE-128: 13B 参数\n350M+PR-MoE-32/64: 4B 参数\n350M+PR-MoE+MoS: 3.5B 参数\n\n1.3B+MoE-128: 52B 参数\n1.3B+PR-MoE-64/128: 31B 参数\n1.3B+PR-MoE+MoS: 27B 参数'
+          }
+        ]
       },
       {
         heading: '5. MoE 蒸馏成 dense student 是什么路线？',
         paragraphs: [
           '“把 MoE 蒸馏成一个普通 dense student”指的是：**teacher 是 MoE 模型，但 student 不再保留 MoE 结构，而是变成一个普通稠密 Transformer。**',
           '例如 teacher 是：',
-          '```text\nMoE teacher:\nAttention\nMoE FFN layer: router + 128 experts\nAttention\nMoE FFN layer: router + 128 experts\n...\n```',
           'student 变成：',
-          '```text\nDense student:\nAttention\n普通 FFN\nAttention\n普通 FFN\n...\n```',
           '也就是说，student 没有 router，没有 experts，也没有 token routing。每个 token 都走同一套 FFN 参数。',
           '为什么有人会这么做？因为 MoE 虽然训练省 compute，但部署复杂：',
-          '```text\nMoE:\n总参数多\n专家分散在多张 GPU 上\ntoken 要被 router 分发到不同 expert\n需要 All-to-All 通信\n推理系统复杂',
-          'Dense:\n结构简单\n每个 token 路径固定\n部署、量化、推理框架支持都更成熟\n```',
           '所以一种想法是：先训练一个很强的 MoE teacher，再用它教一个较小 dense student。这样希望 student 吸收 teacher 的知识，但推理时像普通模型一样简单。',
           '蒸馏时通常是让 dense student 学 teacher 的输出分布：',
-          '```text\nloss = CE(student, 真正下一个 token)\n+ α * KL(student logits, teacher logits)\n```',
           'teacher 不只是告诉 student “正确答案是 Paris”，还告诉它：',
-          '```text\nParis: 0.55\nFrance: 0.10\nLondon: 0.04\n...\n```',
           '这些 soft probabilities 包含了 teacher 对语言空间的细腻判断。',
           '但问题是：**MoE -> dense 会丢掉结构优势。**',
           'MoE 的优势来自“条件计算”：',
-          '```text\n不同 token 走不同 expert\n不同 expert 可以学不同模式\n每次只激活少数 expert\n```',
           '如果蒸馏成 dense student，这些专家分工会被压进一套统一 FFN 里。student 部署简单了，但不再有 MoE 的稀疏激活优势。',
           '所以 DeepSpeed-MoE 的 MoS 不走这个路线。它不是：',
-          '```text\n大 MoE teacher -> 小 dense student\n```',
           '而是：',
-          '```text\n大 PR-MoE teacher -> 小 MoE student\n```',
           '也就是 student 仍然保留：',
-          '```text\nrouter\nexperts\n稀疏激活\nexpert parallelism 的潜力\n```',
           '只是把模型做浅一点、小一点。这样它既吃到蒸馏带来的压缩效果，又保留 MoE 的核心好处。',
           '一句话：**MoE 蒸馏成 dense student 是“用 MoE 训练出一个普通模型”；MoS 是“用大 MoE 训练出一个更小的 MoE”。**'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: 'MoE teacher:\nAttention\nMoE FFN layer: router + 128 experts\nAttention\nMoE FFN layer: router + 128 experts\n...'
+          },
+          {
+            language: 'text',
+            code: 'Dense student:\nAttention\n普通 FFN\nAttention\n普通 FFN\n...'
+          },
+          {
+            language: 'text',
+            code: 'MoE:\n总参数多\n专家分散在多张 GPU 上\ntoken 要被 router 分发到不同 expert\n需要 All-to-All 通信\n推理系统复杂\n\nDense:\n结构简单\n每个 token 路径固定\n部署、量化、推理框架支持都更成熟'
+          },
+          {
+            language: 'text',
+            code: 'loss = CE(student, 真正下一个 token)\n     + α * KL(student logits, teacher logits)'
+          },
+          {
+            language: 'text',
+            code: 'Paris: 0.55\nFrance: 0.10\nLondon: 0.04\n...'
+          },
+          {
+            language: 'text',
+            code: '不同 token 走不同 expert\n不同 expert 可以学不同模式\n每次只激活少数 expert'
+          },
+          {
+            language: 'text',
+            code: '大 MoE teacher -> 小 dense student'
+          },
+          {
+            language: 'text',
+            code: '大 PR-MoE teacher -> 小 MoE student'
+          },
+          {
+            language: 'text',
+            code: 'router\nexperts\n稀疏激活\nexpert parallelism 的潜力'
+          }
+        ]
       },
       {
         heading: '6. 这里的蒸馏到底怎么蒸馏？',
         paragraphs: [
           '训练 student 时，loss 是两部分：',
-          '```text\n总 loss = 语言模型 CE loss + α * 蒸馏 KL loss\n```',
           '更直白地说：',
           '1. **CE loss**：student 要预测真实下一个 token。\n2. **KL loss**：student 的输出分布要模仿 teacher 的 soft label。',
           'soft label 指 teacher 对词表里每个 token 的概率分布，不只是正确答案。例如真实下一个词是 `Paris`，teacher 可能还会给 `France`、`London` 等词较小但有意义的概率。student 学这个分布，比只学 hard label 信息更多。',
           '但 DeepSpeed-MoE 发现：**全程蒸馏反而不好**。原因是 student 已经被压小了，容量有限；如果一直同时追 teacher 分布和真实 LM loss，后期可能欠拟合真实任务。',
           '所以 MoS 用 **staged KD**，也就是分阶段知识蒸馏：',
-          '```text\n训练前期:\nCE loss + KL distillation loss\n让 student 先跟着 teacher 学稳定分布',
-          '训练后期:\n关掉 KD\n只用语言模型 CE loss\n让 student 自己优化真实预训练目标\n```',
           '论文示例里提到，在大约 400K steps 后停止 KD。'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '总 loss = 语言模型 CE loss + α * 蒸馏 KL loss'
+          },
+          {
+            language: 'text',
+            code: '训练前期:\nCE loss + KL distillation loss\n让 student 先跟着 teacher 学稳定分布\n\n训练后期:\n关掉 KD\n只用语言模型 CE loss\n让 student 自己优化真实预训练目标'
+          }
+        ]
       },
       {
-        heading: '7. 系统优化那里怎么理解？',
+        heading: '7. 稠密模型 upcycling 为 MoE 是什么意思？',
+        paragraphs: [
+          '这里的 `upcycling dense model into MoE`，可以直接理解成：',
+          '**先训练出一个普通的稠密 Transformer，再把它升级改造成 MoE，然后继续训练。**',
+          '它不是从零随机初始化一个全新的 MoE，而是尽量复用你已经花大成本训练出来的 dense checkpoint。',
+          '最常见的改法是：',
+          '这里的 `expert` 本质上通常还是 FFN/MLP，只不过从“每层一套共享 FFN”变成了“每层很多套并行 FFN，再由 router 挑少数几个来算”。'
+        ],
+        faqs: [
+          {
+            question: '7.1 具体怎么“升”？',
+            answer: [
+              '直觉上分成四步：',
+              '1. **先有一个训练好的 dense 模型**',
+              '这个模型已经学会了基础语言能力、知识和表示。',
+              '2. **把部分 FFN 层替换成 MoE 层**',
+              '也就是在原本的 dense MLP 位置，换成：',
+              '3. **用原 dense FFN 的权重去初始化 experts**',
+              '常见方式包括：',
+              '4. **继续训练**',
+              '让 router 学会分配 token，让 experts 慢慢从“大家都像原来的 FFN”变成“各自专精不同模式”。',
+              '所以它叫 `upcycling`，本质就是：'
+            ],
+            links: []
+          },
+          {
+            question: '7.2 为什么要这么做？',
+            answer: [
+              '因为从零训练 MoE 很贵，而且不一定划算。',
+              '如果你已经有一个不错的 dense 模型，那么直接把它升级成 MoE，有几个明显好处：',
+              '你可以把它想成：'
+            ],
+            links: []
+          },
+          {
+            question: '7.3 为什么它又不一定总是最好？',
+            answer: [
+              '因为旧的 dense 权重既是资产，也是约束。',
+              '一方面，旧权重提供了强初始化；另一方面，它也可能让 experts 难以真正分化。',
+              '原因大概有两类：',
+              '1. **旧表示太强，expert 不容易“忘掉再重学”**',
+              '原 dense 模型已经把很多通用能力压进同一套参数里。现在你复制出多个 experts，它们起点都很像原来的 FFN，于是容易“长得都差不多”，而不是快速形成明确分工。',
+              '2. **router 是新来的，往往学得慢**',
+              'experts 继承了旧权重，但 router 常常是随机初始化。训练前期它分配 token 的方式接近随机或很粗糙，等 router 慢慢学明白时，学习率可能已经衰减了，专家分工就会形成得不够彻底。',
+              '这也是为什么一些工作，比如 OLMoE，会发现：'
+            ],
+            links: []
+          },
+          {
+            question: '7.4 怎么和“从零训练 MoE”对比着记？',
+            answer: [
+              '你可以直接记成两条路线：',
+              '所以 `upcycling` 不是“绝对更先进”，而是一种非常现实的工程策略：',
+              '**先用 dense 把底座练出来，再把它升级成 MoE，看看能不能用更少额外成本换到更大的容量和更高的参数效率。**'
+            ],
+            links: []
+          }
+        ],
+        bullets: [
+          '直接复制原 FFN 到所有 experts',
+          '复制后加一点随机扰动，让 experts 别一模一样',
+          'router 单独随机初始化',
+          '**复用已有训练成本**：原来的预训练没白费',
+          '**初始化更强**：不是从纯随机开始',
+          '**早期更容易可用**：至少模型一开始就有基本语言能力',
+          '某些设置下，从零训练的 MoE 在足够数据后能追上甚至超过 upcycled MoE',
+          '但另一些设置下，upcycling 又明显更省预算、更快进入可用区间'
+        ],
+        emphasisCards: [
+          {
+            title: '一句话记忆',
+            body: '稠密模型 upcycling 为 MoE，就是把已经训练好的 dense 模型当成起点，把部分 FFN 改成专家层、继承旧权重后继续训练，让模型从“单一路径计算”升级成“稀疏专家计算”。'
+          }
+        ],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '原来:\nAttention\nFFN\nAttention\nFFN\n\n改成:\nAttention\nMoE FFN = router + 多个 experts\nAttention\nMoE FFN = router + 多个 experts'
+          },
+          {
+            language: 'text',
+            code: '   router + expert_1 + expert_2 + ... + expert_n'
+          },
+          {
+            language: 'text',
+            code: '把旧的 dense 训练成果改造成更高容量的稀疏模型继续用'
+          },
+          {
+            language: 'text',
+            code: 'dense 模型 = 一个已经很强的全科老师\nMoE 模型 = 一个老师团队，每个老师分工负责不同方向\nupcycling = 先有一个好老师，再把他扩展成一个分工协作的老师团队'
+          },
+          {
+            language: 'text',
+            code: '路线 A：dense -> upcycle -> MoE\n优点：省已有训练成果，起点强\n缺点：可能被旧权重束缚，expert 分工形成慢\n\n路线 B：random init -> train MoE from scratch\n优点：router 和 experts 从头共同演化，更自由\n缺点：前期成本更高，需要更多数据和训练预算'
+          }
+        ]
+      },
+      {
+        heading: '8. MoE 这个想法最早是谁提出来的？',
+        paragraphs: [
+          '如果问“MoE 这个想法最早是谁提出来的”，通常要分两层回答：'
+        ],
+        faqs: [
+          {
+            question: '8.1 原始的 Mixture of Experts',
+            answer: [
+              '最早一般追溯到 1991 年的经典论文：',
+              '论文是：',
+              '这篇论文讲的还不是今天 LLM 里常见的 Transformer MoE，但核心思想已经在了：',
+              '所以如果只问“MoE 这个想法是谁先提的”，最稳妥的答案就是：',
+              '**Jacobs、Jordan、Nowlan、Hinton 在 1991 年提出了经典的 Mixture of Experts。**'
+            ],
+            links: [
+              {
+                label: 'Adaptive Mixtures of Local Experts (1991)',
+                href: 'https://people.eecs.berkeley.edu/~jordan/papers/mixtures-of-experts.pdf'
+              }
+            ]
+          },
+          {
+            question: '8.2 现代大模型里的稀疏 MoE',
+            answer: [
+              '今天大家在 LLM 里说的 MoE，更多是指“稀疏激活的专家 Transformer”。这条线真正做火的是 Google Brain 在 2017 年的工作：',
+              '对应论文：',
+              '这篇论文的重要性在于：它把“专家只激活少数几个”的稀疏计算路线真正做成了可以大规模扩展神经网络参数量的工程方案。'
+            ],
+            links: [
+              {
+                label: 'Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer (2017)',
+                href: 'https://arxiv.org/abs/1701.06538'
+              }
+            ]
+          },
+          {
+            question: '8.3 把 MoE 做进超大规模 Transformer',
+            answer: [
+              '后面把它推到现代大模型训练主线上、让更多人真正把 MoE 和 Transformer 联系起来的代表作，是：',
+              '一句话记：'
+            ],
+            links: [
+              {
+                label: 'GShard (2020)',
+                href: 'https://arxiv.org/abs/2006.16668'
+              },
+              {
+                label: 'Switch Transformers (2021)',
+                href: 'https://arxiv.org/abs/2101.03961'
+              },
+              {
+                label: 'GLaM (2021)',
+                href: 'https://arxiv.org/abs/2112.06905'
+              }
+            ]
+          }
+        ],
+        bullets: [
+          'Robert A. Jacobs',
+          'Michael I. Jordan',
+          'Steven J. Nowlan',
+          'Geoffrey E. Hinton',
+          'Noam Shazeer',
+          'Azalia Mirhoseini',
+          'Krzysztof Maziarz',
+          'Andy Davis',
+          'Quoc Le',
+          'Geoffrey Hinton',
+          'Jeff Dean'
+        ],
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '不要让一套参数处理所有样本\n而是让一个 gating / routing 机制把不同输入分给不同 expert'
+          },
+          {
+            language: 'text',
+            code: '1991：提出 MoE 思想\n2017：做出现代稀疏门控 MoE\n2020-2021：把它做进超大规模 Transformer'
+          }
+        ]
+      },
+      {
+        heading: '9. 系统优化那里怎么理解？',
         paragraphs: [
           'MoE 推理的麻烦不只是算力，而是 **通信和读权重**。',
           '普通 dense 模型每个 token 都走完整模型。MoE 看起来省计算，因为每个 token 只走少数 experts。但问题是：',
-          '```text\n不同 token 会被 router 发到不同 expert\nexpert 分布在不同 GPU 上\n所以 token 要在 GPU 间搬来搬去\n```',
           '这就需要 **All-to-All 通信**：每张 GPU 都可能给其他 GPU 发 token，也可能从其他 GPU 收 token。',
           'DeepSpeed-MoE 的系统优化主要是三类。'
         ],
@@ -27076,13 +28521,7 @@ export const notes = [
             question: '第一类：专家参数和非专家参数用不同并行方式',
             answer: [
               'Transformer 里有两类参数：',
-              '```text\n非专家参数:\nattention、layernorm、embedding 等',
-              '专家参数:\nMoE 里的 MLP experts\n```',
               'DeepSpeed-MoE 对它们区别处理：',
-              '```text\nexpert parallelism:\n不同专家放到不同 GPU 上',
-              'expert slicing:\n一个 expert 太大时，再切到多张 GPU 上',
-              'tensor slicing:\nattention 等非专家参数按张量切分',
-              'data parallelism:\n复制非专家部分，不同 GPU 处理不同 batch\n```',
               '意思是：不要用一种并行策略硬套所有层，而是专家层、非专家层分别选最合适的切法。',
               '这对 PR-MoE 特别重要，因为 PR-MoE 不同层的专家数量不一样。例如一个模型在不同 MoE 层有 32、64、128 个专家，那么最合适的 expert parallel degree 也不一样。DeepSpeed-MoE 支持不同层用不同 expert parallelism 和 data parallelism 组合，避免有些 GPU 空着、有些 GPU 太忙，也避免每张卡放太多专家导致显存浪费。'
             ],
@@ -27093,12 +28532,8 @@ export const notes = [
             answer: [
               '如果有 `p` 张 GPU，朴素 All-to-All 可能接近所有 GPU 互相通信，复杂度随 `p` 增长。',
               'DeepSpeed-MoE 做了两件事：',
-              '```text\nHierarchical All-to-All:\n先节点内通信，再节点间通信\n减少跨节点通信跳数',
-              'Parallelism-coordinated communication:\n利用 tensor slicing 造成的数据副本\n只让同一个 tensor-parallel rank 的 GPU 参加某次 All-to-All\n```',
               '所以看到的 `O(p)` 到 `O(p/L)`，大概是在说：如果 tensor slicing degree 是 `L`，那么一次 All-to-All 参与的 GPU 数从 `p` 降到 `p/L`。',
-              '论文正文更正式地写了两种复杂度：',
-              '```text\n层次化 All-to-All:\n通信 hops 从 O(p) 降到 O(G + p/G)\n其中 G 是单节点 GPU 数，p 是总 GPU 数',
-              '利用 tensor slicing 限制通信参与者:\n参与 All-to-All 的 GPU 数除以 tensor-slicing degree\n```'
+              '论文正文更正式地写了两种复杂度：'
             ],
             links: []
           },
@@ -27106,29 +28541,58 @@ export const notes = [
             question: '第三类：把稀疏操作改成显式数据布局转换',
             answer: [
               'MoE router 做的事大概是：',
-              '```text\n每个 token 选 expert\n把 token 按 expert 分组\n送到对应 expert\nexpert 算完后\n再按原 token 顺序拼回来\n```',
               '很多实现会用稀疏矩阵或 einsum 来表达这个过程，但里面大量是 0，浪费算力和 kernel launch。',
               'DeepSpeed-MoE 改成：',
-              '```text\n建立 token -> expert 的 mapping table\n按 expert id 显式重排 token\n专家计算\n再按 mapping table 还原顺序\n```',
               '这就是“显式数据布局转换”。它不再假装这是一个大稀疏矩阵乘法，而是直接搬数据、排序、还原。论文说这让 MoE kernel 相关延迟降低超过 6 倍。'
             ],
             links: []
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '不同 token 会被 router 发到不同 expert\nexpert 分布在不同 GPU 上\n所以 token 要在 GPU 间搬来搬去'
+          },
+          {
+            language: 'text',
+            code: '非专家参数:\nattention、layernorm、embedding 等\n\n专家参数:\nMoE 里的 MLP experts'
+          },
+          {
+            language: 'text',
+            code: 'expert parallelism:\n不同专家放到不同 GPU 上\n\nexpert slicing:\n一个 expert 太大时，再切到多张 GPU 上\n\ntensor slicing:\nattention 等非专家参数按张量切分\n\ndata parallelism:\n复制非专家部分，不同 GPU 处理不同 batch'
+          },
+          {
+            language: 'text',
+            code: 'Hierarchical All-to-All:\n先节点内通信，再节点间通信\n减少跨节点通信跳数\n\nParallelism-coordinated communication:\n利用 tensor slicing 造成的数据副本\n只让同一个 tensor-parallel rank 的 GPU 参加某次 All-to-All'
+          },
+          {
+            language: 'text',
+            code: '层次化 All-to-All:\n通信 hops 从 O(p) 降到 O(G + p/G)\n其中 G 是单节点 GPU 数，p 是总 GPU 数\n\n利用 tensor slicing 限制通信参与者:\n参与 All-to-All 的 GPU 数除以 tensor-slicing degree'
+          },
+          {
+            language: 'text',
+            code: '每个 token 选 expert\n把 token 按 expert 分组\n送到对应 expert\nexpert 算完后\n再按原 token 顺序拼回来'
+          },
+          {
+            language: 'text',
+            code: '建立 token -> expert 的 mapping table\n按 expert id 显式重排 token\n专家计算\n再按 mapping table 还原顺序'
+          }
+        ]
       },
       {
-        heading: '8. 一句话总结',
+        heading: '10. 一句话总结',
         paragraphs: [
           '**PR-MoE 是把专家放得更聪明，MoS 是把 PR-MoE 再蒸馏变小，系统优化是让 token 找专家这件事在多 GPU 上搬得更少、更规整、更快。**'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
-        heading: '9. Reference',
+        heading: '11. Reference',
         paragraphs: [
           '主论文：',
           '官方解释：',
@@ -27141,12 +28605,15 @@ export const notes = [
           '[Microsoft Research blog: DeepSpeed MoE](https://www.microsoft.com/en-us/research/blog/deepspeed-advancing-moe-inference-and-training-to-power-next-generation-ai-scale/)',
           '[DeepSpeed MoE for NLG tutorial](https://www.deepspeed.ai/tutorials/mixture-of-experts-nlg/)',
           '[DeepSpeed MoE inference tutorial](https://www.deepspeed.ai/tutorials/mixture-of-experts-inference/)',
+          '[Adaptive Mixtures of Local Experts, Jacobs et al. 1991](https://people.eecs.berkeley.edu/~jordan/papers/mixtures-of-experts.pdf)',
           '[Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer, Shazeer et al. 2017](https://arxiv.org/abs/1701.06538)',
           '[GShard, Lepikhin et al. 2020](https://arxiv.org/abs/2006.16668)',
           '[Switch Transformers, Fedus et al. 2021](https://arxiv.org/abs/2101.03961)',
-          '[GLaM, Du et al. 2021](https://arxiv.org/abs/2112.06905)'
+          '[GLaM, Du et al. 2021](https://arxiv.org/abs/2112.06905)',
+          '[OLMoE: Open Mixture-of-Experts Language Models, Allingham et al. 2024](https://arxiv.org/abs/2409.02060)'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -27173,18 +28640,24 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '0. 一句话总览',
         paragraphs: [
           '这一章的核心是：**GPU 为什么适合大模型、GPU 内部怎么执行、显存为什么经常成为瓶颈，以及 FlashAttention / PageAttention 这类优化到底在优化什么。**',
-          '可以把整章理解成一条线：',
-          '```text\nGPU 起源\n-> CPU vs GPU\n-> SM / Warp / Block / Thread 执行模型\n-> GPU 分层内存\n-> 计算越来越快，内存越来越跟不上\n-> 性能优化：少访存、多并行、低精度、算子融合、重计算、Tiling\n-> FlashAttention：让 Attention 少搬数据\n-> PageAttention：让 KV Cache 少浪费显存\n-> 国产 GPU / NPU 生态\n```'
+          '可以把整章理解成一条线：'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: 'GPU 起源\n  -> CPU vs GPU\n  -> SM / Warp / Block / Thread 执行模型\n  -> GPU 分层内存\n  -> 计算越来越快，内存越来越跟不上\n  -> 性能优化：少访存、多并行、低精度、算子融合、重计算、Tiling\n  -> FlashAttention：让 Attention 少搬数据\n  -> PageAttention：让 KV Cache 少浪费显存\n  -> 国产 GPU / NPU 生态'
+          }
+        ]
       },
       {
         heading: '1. GPU 为什么适合 AI',
@@ -27192,12 +28665,17 @@ export const notes = [
           'CPU 和 GPU 没有绝对优劣，设计目标不同。',
           '| 对比 | CPU | GPU |\n|---|---|---|\n| 优化目标 | 低延迟，单个任务快 | 高吞吐，海量任务一起快 |\n| 擅长 | 复杂逻辑、分支判断 | 大量重复的乘加计算 |\n| 核心数量 | 少但强 | 多但相对简单 |\n| AI 适配性 | 不适合大规模矩阵乘 | 非常适合矩阵乘 |',
           '大模型训练和推理中最重的计算是矩阵乘法，而矩阵乘法的本质就是海量乘法和加法，所以 GPU 特别适合。',
-          '关键记忆：',
-          '```text\nCPU：快快处理一个复杂任务\nGPU：一起处理很多简单任务\n```'
+          '关键记忆：'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: 'CPU：快快处理一个复杂任务\nGPU：一起处理很多简单任务'
+          }
+        ]
       },
       {
         heading: '2. GPU 的执行模型',
@@ -27219,27 +28697,40 @@ export const notes = [
             question: '2.2 Warp Divergence',
             answer: [
               '同一个 Warp 里的线程最好走同一条分支。',
-              '如果一部分线程走 `if`，另一部分走 `else`，GPU 会把两个分支都执行一遍，只是用 mask 屏蔽暂时不该执行的线程。这样就会从并行变成近似串行，性能下降。',
-              '```text\n优化原则：同一个 Warp 内尽量不要发生分支发散。\n```'
+              '如果一部分线程走 `if`，另一部分走 `else`，GPU 会把两个分支都执行一遍，只是用 mask 屏蔽暂时不该执行的线程。这样就会从并行变成近似串行，性能下降。'
             ],
             links: []
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '优化原则：同一个 Warp 内尽量不要发生分支发散。'
+          }
+        ]
       },
       {
         heading: '3. GPU 的内存模型',
         paragraphs: [
           'GPU 优化绕不开一句话：',
-          '```text\n离 SM 越近，越快，但越小越贵。\n```',
           '| 层级 | 速度 | 容量 | 特点 |\n|---|---|---|---|\n| 寄存器 | 最快 | 很小 | 线程私有 |\n| 共享内存 / L1 | 很快 | 小 | Block 内共享，可手动控制 |\n| L2 Cache | 中等 | 较大 | 所有 SM 共享，硬件管理 |\n| 全局显存 HBM | 慢 | 最大 | 存权重、激活、KV Cache 等 |',
-          '这章反复强调的核心矛盾：',
-          '```text\nGPU 算得越来越快，但显存/内存带宽增长没那么快。\n所以瓶颈经常不是“算不动”，而是“数据搬太慢”。\n```'
+          '这章反复强调的核心矛盾：'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '离 SM 越近，越快，但越小越贵。'
+          },
+          {
+            language: 'text',
+            code: 'GPU 算得越来越快，但显存/内存带宽增长没那么快。\n所以瓶颈经常不是“算不动”，而是“数据搬太慢”。'
+          }
+        ]
       },
       {
         heading: '4. TPU 简单理解',
@@ -27250,7 +28741,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '5. 性能扩展趋势',
@@ -27258,8 +28750,7 @@ export const notes = [
           '现代 GPU 的计算能力提升很快，但内存带宽提升没那么快。',
           '这就带来所谓的 **Memory Wall 内存墙**。',
           '屋顶线模型可以帮助理解：',
-          '所以优化方向是：',
-          '```text\n减少不必要的全局内存访问，\n提高每次数据搬运后能做的计算量，\n让计算单元尽量一直忙。\n```'
+          '所以优化方向是：'
         ],
         faqs: [],
         bullets: [
@@ -27268,13 +28759,18 @@ export const notes = [
           '左侧通常是内存受限：数据搬太慢。',
           '右侧通常是计算受限：计算单元终于吃饱了。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '减少不必要的全局内存访问，\n提高每次数据搬运后能做的计算量，\n让计算单元尽量一直忙。'
+          }
+        ]
       },
       {
         heading: '6. 主要性能优化技术',
         paragraphs: [
           '这一节最重要，可以总结成一句：',
-          '```text\n尽量让计算单元一直忙，尽量少访问慢速全局内存。\n```',
           '| 技术 | 核心思想 |\n|---|---|\n| 避免分支发散 | 同一个 Warp 内尽量走同一路径 |\n| 低精度 | FP16/BF16/INT8/FP8 数据更小，算得更快、搬得更少 |\n| 算子融合 | 多个操作合成一个 Kernel，避免中间结果反复写回显存 |\n| 重计算 | 不存某些中间激活，反向传播时重新算，用计算换显存 |\n| 内存合并 | 让线程访问连续地址，提高显存带宽利用率 |\n| Tiling 分块 | 把大矩阵切块，先搬到共享内存里反复用，减少全局显存访问 |'
         ],
         faqs: [
@@ -27292,9 +28788,7 @@ export const notes = [
             question: '6.2 算子融合',
             answer: [
               '普通写法可能是：',
-              '```text\n读 x -> 算 sin -> 写回\n读 sin 结果 -> 平方 -> 写回\n读另一个中间结果 -> 再算 -> 写回\n```',
               '算子融合的思路是：',
-              '```text\n读一次 x -> 在一个 Kernel 里连续算完 -> 最后写回一次\n```',
               '本质是减少中间结果在显存里的读写。'
             ],
             links: []
@@ -27306,7 +28800,6 @@ export const notes = [
               '普通做法：前向时把激活都存下来，反向时读出来。',
               '重计算做法：前向时少存一点，反向时重新算需要的中间结果。',
               '本质：',
-              '```text\n用额外计算换更少显存访问。\n```',
               '适合场景：'
             ],
             links: []
@@ -27316,9 +28809,7 @@ export const notes = [
             answer: [
               'GPU 访问全局内存时，如果同一个 Warp 内的线程访问连续地址，硬件可以把它们合并成更少的内存事务。',
               '好模式：',
-              '```text\nthread0 -> A[0]\nthread1 -> A[1]\nthread2 -> A[2]\nthread3 -> A[3]\n```',
               '差模式：',
-              '```text\nthread0 -> A[0]\nthread1 -> A[1000]\nthread2 -> A[2000]\nthread3 -> A[3000]\n```',
               '前者能更好利用显存带宽。'
             ],
             links: []
@@ -27328,7 +28819,6 @@ export const notes = [
             answer: [
               '矩阵乘法里，很多元素会被重复使用。',
               '如果每次都从全局显存读取，会很慢。Tiling 的做法是：',
-              '```text\n先把一小块矩阵从全局显存搬到共享内存\n在共享内存中反复使用\n算完再处理下一块\n```',
               '这样可以显著减少全局显存访问。'
             ],
             links: []
@@ -27339,61 +28829,120 @@ export const notes = [
           '计算单元还有空闲。',
           '重算成本小于读写成本。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '尽量让计算单元一直忙，尽量少访问慢速全局内存。'
+          },
+          {
+            language: 'text',
+            code: '读 x -> 算 sin -> 写回\n读 sin 结果 -> 平方 -> 写回\n读另一个中间结果 -> 再算 -> 写回'
+          },
+          {
+            language: 'text',
+            code: '读一次 x -> 在一个 Kernel 里连续算完 -> 最后写回一次'
+          },
+          {
+            language: 'text',
+            code: '用额外计算换更少显存访问。'
+          },
+          {
+            language: 'text',
+            code: 'thread0 -> A[0]\nthread1 -> A[1]\nthread2 -> A[2]\nthread3 -> A[3]'
+          },
+          {
+            language: 'text',
+            code: 'thread0 -> A[0]\nthread1 -> A[1000]\nthread2 -> A[2000]\nthread3 -> A[3000]'
+          },
+          {
+            language: 'text',
+            code: '先把一小块矩阵从全局显存搬到共享内存\n在共享内存中反复使用\n算完再处理下一块'
+          }
+        ]
       },
       {
         heading: '7. FlashAttention',
         paragraphs: [
           '普通 Attention 的问题：',
-          '```text\nQK^T 会产生一个 N x N 的注意力矩阵。\n序列越长，这个矩阵越恐怖，显存访问和中间结果都很重。\n```',
           'FlashAttention 的核心：',
-          '```text\n不显式保存完整 attention 矩阵。\n把 Q / K / V 分块，边算边做 softmax，尽量把数据留在 SRAM / 共享内存里。\n```',
           '三个版本的重点：',
           '| 版本 | 解决什么 |\n|---|---|\n| FlashAttention V1 | 解决 IO 瓶颈，减少 HBM 访问 |\n| FlashAttention V2 | 提高并行度和 Tensor Core 利用率 |\n| FlashAttention V3 | 利用 H100 的异步执行、WGMMA、FP8，让计算和搬数据重叠 |',
-          '最好记的版本总结：',
-          '```text\nV1：少搬数据\nV2：更会并行\nV3：边搬边算，让 SM 少等\n```'
+          '最好记的版本总结：'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: 'QK^T 会产生一个 N x N 的注意力矩阵。\n序列越长，这个矩阵越恐怖，显存访问和中间结果都很重。'
+          },
+          {
+            language: 'text',
+            code: '不显式保存完整 attention 矩阵。\n把 Q / K / V 分块，边算边做 softmax，尽量把数据留在 SRAM / 共享内存里。'
+          },
+          {
+            language: 'text',
+            code: 'V1：少搬数据\nV2：更会并行\nV3：边搬边算，让 SM 少等'
+          }
+        ]
       },
       {
         heading: '8. PageAttention',
         paragraphs: [
           'PageAttention 主要解决推理时 KV Cache 的显存浪费。',
           '传统 KV Cache：',
-          '```text\n每个请求提前分配一大段连续显存。\n但生成长度不可预测，很多空间会浪费。\n```',
           'PageAttention：',
-          '```text\n把 KV Cache 切成固定大小的 page / block。\n逻辑上连续，物理上可以不连续。\n通过页表把 token 映射到真实物理块。\n```',
           '可以理解成：',
-          '```text\n虚拟地址 -> 页表 -> 物理地址\n```',
           '更具体：',
-          '```text\n请求 ID + Token 偏移量\n-> 逻辑块索引\n-> Block Table 检索\n-> 物理内存基址\n-> 偏移读取\n```',
           '如果每个 page 有 16 个 token，一个请求实际生成 300 个 token，就只需要 19 个 page，也就是 304 个 token 容量，只浪费 4 个 token。',
           '如果传统方式按最大长度 2048 预分配，就会浪费 1748 个 token 容量。'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '每个请求提前分配一大段连续显存。\n但生成长度不可预测，很多空间会浪费。'
+          },
+          {
+            language: 'text',
+            code: '把 KV Cache 切成固定大小的 page / block。\n逻辑上连续，物理上可以不连续。\n通过页表把 token 映射到真实物理块。'
+          },
+          {
+            language: 'text',
+            code: '虚拟地址 -> 页表 -> 物理地址'
+          },
+          {
+            language: 'text',
+            code: '请求 ID + Token 偏移量\n  -> 逻辑块索引\n  -> Block Table 检索\n  -> 物理内存基址\n  -> 偏移读取'
+          }
+        ]
       },
       {
         heading: '9. FlashAttention vs PageAttention',
         paragraphs: [
           '| 对比 | FlashAttention | PageAttention |\n|---|---|---|\n| 优化层级 | 算子级 | 系统级 |\n| 解决问题 | Attention 算得更快 | KV Cache 存得更省 |\n| 主要场景 | 训练 + 推理 | 主要是推理 |\n| 核心关键词 | IO-aware、tiling、online softmax | KV Cache、分页、block table |',
           '一句话：',
-          '```text\nFlashAttention 管“怎么算得快”，PageAttention 管“怎么存得省”。\n```',
           '实际推理框架里二者经常协同使用，比如 vLLM 这类系统中会同时关心 attention kernel 的速度和 KV Cache 的显存管理。'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: 'FlashAttention 管“怎么算得快”，PageAttention 管“怎么存得省”。'
+          }
+        ]
       },
       {
         heading: '10. 国产 GPU / NPU 部分',
         paragraphs: [
           '这一节主要介绍国产 AI 芯片生态，包括：',
           '重点不是背每个参数，而是理解国产 AI 芯片竞争主要看这些维度：',
-          '```text\n算力指标\n显存容量 / 带宽\n卡间互联能力\n软件生态\nPyTorch / CUDA 迁移成本\n实际大模型落地案例\n```',
           '其中华为昇腾生态相对成熟，软件栈是 CANN，类似 NVIDIA CUDA 在昇腾体系里的位置。'
         ],
         faqs: [],
@@ -27406,7 +28955,13 @@ export const notes = [
           '阿里平头哥',
           '华为昇腾'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '算力指标\n显存容量 / 带宽\n卡间互联能力\n软件生态\nPyTorch / CUDA 迁移成本\n实际大模型落地案例'
+          }
+        ]
       },
       {
         heading: '11. 最该记住的 10 个点',
@@ -27415,7 +28970,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '12. 复习自测',
@@ -27424,17 +28980,23 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '13. 最后抓主线',
         paragraphs: [
-          '这章不需要硬背所有参数，先抓住这一句：',
-          '```text\n现代 GPU 优化的本质，是围绕“少搬数据、搬得连续、边搬边算、让计算单元别闲着”展开的。\n```'
+          '这章不需要硬背所有参数，先抓住这一句：'
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: '现代 GPU 优化的本质，是围绕“少搬数据、搬得连续、边搬边算、让计算单元别闲着”展开的。'
+          }
+        ]
       }
     ]
   },
@@ -27455,7 +29017,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '核心目标',
@@ -27464,7 +29027,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '拆分颗粒度',
@@ -27477,7 +29041,8 @@ export const notes = [
           '一个原书章节可以拆成 `01-概念.md`、`02-机制.md`、`03-实践.md`。',
           '不为了保持原书章节完整而牺牲可读性。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '固定结尾',
@@ -27487,7 +29052,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '内容改写规则',
@@ -27499,7 +29065,8 @@ export const notes = [
           '长段原文改成总结、例子、图表、练习或问答。',
           '保留原书逻辑，但可以为了学习体验拆分、合并或调整节奏。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '页面质量检查',
@@ -27513,7 +29080,8 @@ export const notes = [
           '结尾是否有小结、思考题和下一节预告？',
           '下一节是否自然承接，而不是突然跳转？'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -27534,7 +29102,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '原书信息',
@@ -27543,7 +29112,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '章节规划',
@@ -27552,7 +29122,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '拆分标准',
@@ -27564,7 +29135,8 @@ export const notes = [
           '每节必须包含 `小结`、`思考题`、`下一节预告`。',
           '所有内容使用原创教学语言，不直接搬运原书长段文字。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -27591,7 +29163,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：课程哲学与”苦涩的教训”',
@@ -27627,7 +29200,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第二组：分词技术（Tokenization）',
@@ -27677,7 +29251,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第三组：模型架构与涌现行为',
@@ -27721,7 +29296,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第四组：规模定律（Scaling Laws）与对齐（Alignment）',
@@ -27771,7 +29347,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -27798,7 +29375,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：稀疏化与模型压缩',
@@ -27933,7 +29511,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -27960,7 +29539,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：先抓一个统一直觉',
@@ -27970,7 +29550,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第二组：五种常用优化器',
@@ -27978,6 +29559,7 @@ export const notes = [
         faqs: [],
         bullets: [],
         emphasisCards: [],
+        codeBlocks: [],
         optimizerVisuals: [
           {
             label: 'Baseline',
@@ -28292,7 +29874,8 @@ export const notes = [
           'RMSProp：保留 AdaGrad 的自适应优点，同时避免学习率持续塌缩。',
           'Adam：把 Momentum 和 RMSProp 结合起来，是最常见的默认优化器。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -28319,7 +29902,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：数据预处理与多语言平衡',
@@ -28355,7 +29939,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第二组：BPE 算法细节与边界处理',
@@ -28399,7 +29984,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第三组：系统影响与特殊 Token',
@@ -28443,7 +30029,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第四组：算法对比与评估',
@@ -28487,7 +30074,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -28509,7 +30097,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '必须讲清的 6 件事',
@@ -28536,88 +30125,21 @@ export const notes = [
           '给出一句可以在面试中说出口的总结。',
           '让读者知道如何把这一节转成答案。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '推荐页面结构',
-        paragraphs: [
-          '```markdown\n# 标题'
-        ],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '本节目标',
         paragraphs: [],
         faqs: [],
         bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '先说结论',
-        paragraphs: [],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '为什么会有这个问题',
-        paragraphs: [],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '核心机制',
-        paragraphs: [],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '具体例子',
-        paragraphs: [],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '取舍与常见坑',
-        paragraphs: [],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '面试表达',
-        paragraphs: [],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '小结',
-        paragraphs: [],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '思考题',
-        paragraphs: [],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
-      },
-      {
-        heading: '下一节预告',
-        paragraphs: [
-          '```'
-        ],
-        faqs: [],
-        bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'markdown',
+            code: '# 标题\n\n## 本节目标\n\n## 先说结论\n\n## 为什么会有这个问题\n\n## 核心机制\n\n## 具体例子\n\n## 取舍与常见坑\n\n## 面试表达\n\n## 小结\n\n## 思考题\n\n## 下一节预告'
+          }
+        ]
       },
       {
         heading: '禁止项',
@@ -28630,7 +30152,8 @@ export const notes = [
           '不要用同一段通用系统设计话术填充不同页面。',
           '不要让例子只停留在比喻；例子要能帮助读者推导设计。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -28652,7 +30175,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -28673,7 +30197,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '本节目标',
@@ -28686,7 +30211,8 @@ export const notes = [
           '目标 2',
           '目标 3'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '先说结论',
@@ -28695,7 +30221,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '拆开理解',
@@ -28724,7 +30251,8 @@ export const notes = [
           }
         ],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '一个例子',
@@ -28733,7 +30261,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '小结',
@@ -28746,7 +30275,8 @@ export const notes = [
           '关键点 2',
           '关键点 3'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '思考题',
@@ -28755,7 +30285,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '下一节预告',
@@ -28764,7 +30295,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   },
@@ -28791,7 +30323,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第一组：LLM 应用的三层能力',
@@ -28801,7 +30334,8 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第二组：纯对话——while 循环 + 消息列表 + API 调用',
@@ -28823,7 +30357,8 @@ export const notes = [
             title: '为什么同时有 SDK 和 LangChain 两个版本',
             body: 'LangChain 用 model.ainvoke(messages) 一行搞定，不用区分 OpenAI 还是 Claude。但它是黑盒、更新滞后、多一层依赖。直接 SDK 版本存在的意义是让你看清楚 LangChain 底下到底发生了什么。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第三组：Tool Calling——让模型决定调什么函数',
@@ -28846,7 +30381,8 @@ export const notes = [
             title: '第三层：dispatch_tool 路由执行',
             body: '根据名字从注册表查函数，json.loads 解析参数（OpenAI 返回 JSON 字符串，Claude 返回 dict），用 **dict 解包成关键字参数调用。就 14 行代码。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第四组：Tool Calling 具体走一遍',
@@ -28870,7 +30406,8 @@ export const notes = [
             title: 'json.loads 为什么需要',
             body: 'OpenAI 返回的工具参数是 JSON 字符串 \'{“city”: “Copenhagen”}\'，需要先解析成 dict 才能用 ** 解包。Claude 直接返回 dict，不需要这一步。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第五组：LangChain 怎么简化 Tool Calling',
@@ -28884,7 +30421,8 @@ export const notes = [
           'tool.invoke(args) 直接调用，不需要 dispatch 路由。',
           'agentic loop 也更简洁：不用区分 OpenAI/Claude 的返回格式。'
         ],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
       },
       {
         heading: '第六组：RAG——让模型能回答训练数据之外的问题',
@@ -28903,7 +30441,8 @@ export const notes = [
             title: '检索阶段',
             body: '用户查询文本 → 同样生成 1536 维向量 → 在虚拟表里做向量相似度搜索（WHERE embedding MATCH ?）→ JOIN 回原始表拿数据 → 返回 top-k 结果。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第七组：RAG 里的关键概念',
@@ -28921,7 +30460,8 @@ export const notes = [
             title: 'RAG 怎么和 Tool Calling 串起来',
             body: '把向量检索封装成一个工具函数 get_anime_series，注册到 Tool Calling 的工具列表里。用户问”推荐一部太空冒险动漫”时，模型决定调这个工具，拿到检索结果后生成自然语言推荐。'
           }
-        ]
+        ],
+        codeBlocks: []
       },
       {
         heading: '第八组：一句话总结',
@@ -28930,7 +30470,153 @@ export const notes = [
         ],
         faqs: [],
         bullets: [],
-        emphasisCards: []
+        emphasisCards: [],
+        codeBlocks: []
+      }
+    ]
+  },
+  {
+    id: 'multi-agent-opencode-homework-01',
+    categoryId: 'multi-agent',
+    chapterId: 'multi-agent-homework-01',
+    course: 'Multi-Agent',
+    date: '',
+    title: {
+      zh: '作业 1｜OpenCode 安装、编排对比与 Agent Loop',
+      en: 'Homework 1 | OpenCode Setup, Orchestration Comparison, and the Agent Loop'
+    },
+    summary: {
+      zh: '完成 OpenCode 安装与国产模型配置，对比裸 API 调用和编排式智能体的差异，并梳理 OpenCode 的观察-思考-行动-更新状态闭环。',
+      en: 'OpenCode setup with a domestic model provider, a comparison between raw API usage and orchestrated agents, and a walkthrough of OpenCode’s observe-think-act-update loop.'
+    },
+    tags: [
+      'Multi-Agent',
+      'OpenCode',
+      'Agent Loop',
+      'Homework'
+    ],
+    sections: [
+      {
+        heading: null,
+        paragraphs: [
+          '# 作业 1｜OpenCode 安装、编排对比与 Agent Loop'
+        ],
+        faqs: [],
+        bullets: [],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '本节作业概览',
+        paragraphs: [
+          '这次作业分三部分：',
+          '我这次把材料整理成一个可直接提交到个人网站的作业页，安装结果、截图、对比体会和源码入口都放在同一处。'
+        ],
+        faqs: [],
+        bullets: [
+          '任务 1：安装 OpenCode 并完成环境配置',
+          '任务 2：对比实验：裸 API 调用 vs OpenCode 编排',
+          '任务 3：阅读 OpenCode 源码中的编排循环（选学）'
+        ],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '任务 1：安装 OpenCode 并完成环境配置',
+        paragraphs: [
+          '我参考了官方 README 完成安装，并配置了国产模型兼容的 API。当前这次实验使用的是可兼容 OpenAI 接口的模型服务，重点不在具体某一家，而在于 OpenCode 作为编排器能否稳定接管对话状态、工具调用和执行流程。',
+          '下面两张图分别对应：',
+          '![截图 1｜OpenCode 启动界面](/uploads/multi-agent/homework-01/opencode-home.png)',
+          '![截图 2｜第一次对话成功](/uploads/multi-agent/homework-01/opencode-first-chat.png)',
+          '如果只把这一步当成“装好一个 CLI”，其实还没抓到重点。真正关键的是：它不是单次 API 请求工具，而是带状态、带工具、带循环的智能体运行环境。'
+        ],
+        faqs: [],
+        bullets: [
+          '[OpenCode 官方仓库](https://github.com/anomalyco/opencode)',
+          '[官方 README 安装说明](https://github.com/anomalyco/opencode#installation)',
+          '`opencode` 启动和环境就绪',
+          '第一次对话成功'
+        ],
+        emphasisCards: [],
+        codeBlocks: []
+      },
+      {
+        heading: '任务 2：对比实验：裸 API 调用 vs OpenCode 编排',
+        paragraphs: [],
+        faqs: [
+          {
+            question: '一个最小的裸 API 版本',
+            answer: [
+              '下面是一个最小化的 Python 调用示例。它能把 prompt 发给模型，但它本身并不会读文件、不会跑命令、不会维护会话，也不会自动把观察结果回填到下一轮推理里。'
+            ],
+            links: []
+          },
+          {
+            question: '我的体会：什么是“无状态”和“有状态”',
+            answer: [
+              '裸 API 更像一次性的函数调用：我要自己读文件、拼 prompt、管理上下文、决定下一步要不要继续调工具。它是“无状态”的，不是模型完全没有上下文，而是这个上下文要由我自己在每一轮手动维护。OpenCode 则更像一个带运行时的智能体：我只说“分析这个文件”，它会自己观察环境、决定要不要读文件、执行命令、继续追问，并把这些结果放回同一个会话状态里。所以差异不只是“界面更好”，而是编排器把 ReAct 闭环接了起来：观察 -> 思考 -> 行动 -> 更新状态 -> 再观察。也因为这样，OpenCode 更接近真正可持续工作的 agent，而不是一次性聊天接口。'
+            ],
+            links: []
+          },
+          {
+            question: '这两种方式的差异',
+            answer: [
+              '从工程角度看，我这次最明显的感受不是“哪个更聪明”，而是“哪个更像系统”。裸 API 是一个接口，OpenCode 才开始接近一个真正的 agent runtime。'
+            ],
+            links: []
+          }
+        ],
+        bullets: [
+          '裸 API：能力原子化，控制权高，但所有工具和状态都要自己接',
+          'OpenCode：控制权少一点，但把工具调用、会话延续、状态更新和下一步动作都编排进去了',
+          '裸 API 更适合做单点能力验证',
+          'OpenCode 更适合做“连续完成任务”的工作流'
+        ],
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'python',
+            code: 'from openai import OpenAI\nfrom pathlib import Path\nimport os\n\nclient = OpenAI(\n    api_key=os.getenv("OPENAI_API_KEY"),\n    base_url=os.getenv("OPENAI_BASE_URL"),\n)\n\ntarget_file = Path("example.py")\ncode = target_file.read_text(encoding="utf-8")\n\nprompt = f"""\nPlease review the following Python file.\n\nFocus on:\n1. bugs\n2. code style\n3. possible refactors\n\nFile content:\n{code}\n"""\n\nresp = client.chat.completions.create(\n    model=os.getenv("OPENAI_MODEL", "deepseek-chat"),\n    messages=[\n        {"role": "system", "content": "You are a careful code reviewer."},\n        {"role": "user", "content": prompt},\n    ],\n    temperature=0.2,\n)\n\nprint(resp.choices[0].message.content)'
+          }
+        ]
+      },
+      {
+        heading: '任务 3：阅读 OpenCode 源码中的编排循环（选学）',
+        paragraphs: [
+          'OpenCode 当前官方仓库在这里：',
+          '这次我重点看的主循环入口是：',
+          '如果只从结构上理解，它的核心不是“调一次模型”，而是围绕 session 持续运行一个 loop。这个 loop 每一轮都会：',
+          '1. 取出当前 session 的消息和状态\n2. 判断上一个 assistant 输出是否结束，还是还需要继续处理 tool calls\n3. 如果有 subtask 或 compaction，先处理这些中间任务\n4. 解析当前 agent、model、可用 tools 和 system prompt\n5. 调模型生成下一步\n6. 如果模型发起工具调用，就执行工具，再把结果写回 session\n7. 如果结果还没完成，就继续下一轮',
+          '可以把它抽象成下面这个闭环：',
+          '这也是我这次把它和“裸 API”区分开的关键：OpenCode 不是简单包了一层聊天接口，而是把状态管理、工具执行和循环调度合在一起了。'
+        ],
+        faqs: [],
+        bullets: [
+          '[OpenCode 官方仓库](https://github.com/anomalyco/opencode)',
+          '[packages/opencode/src/session/prompt.ts](https://github.com/anomalyco/opencode/blob/2a1305f2315d8d0625a75b4627cc6c8292abb486/packages/opencode/src/session/prompt.ts)'
+        ],
+        emphasisCards: [],
+        codeBlocks: [
+          {
+            language: 'text',
+            code: 'while session not finished:\n    observe current messages and session state\n    decide whether the assistant is done\n    if there are pending tool calls:\n        execute tools\n        write tool outputs back to session\n        continue\n\n    if there are subtasks or compaction tasks:\n        handle them first\n        continue\n\n    assemble prompts, tools, permissions, and model context\n    call the model\n    store assistant output into session\n\n    if assistant requests more tool work:\n        continue\n    if assistant finishes normally:\n        break'
+          }
+        ]
+      },
+      {
+        heading: '小结',
+        paragraphs: [
+          '这次作业让我更清楚地区分了三件事：',
+          '如果只用裸 API，我拿到的是一个回答器；如果加上 OpenCode 这种编排器，我开始接近一个真正能工作的 agent。'
+        ],
+        faqs: [],
+        bullets: [
+          '`模型 API`：给你一个生成接口',
+          '`工具系统`：给模型接上读文件、执行命令、搜索等能力',
+          '`编排循环`：让模型能在一个有状态的任务环境里持续工作'
+        ],
+        emphasisCards: [],
+        codeBlocks: []
       }
     ]
   }

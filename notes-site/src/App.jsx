@@ -8,7 +8,7 @@ function parseInlineMarkdown(text) {
 
   const parts = []
   let lastIndex = 0
-  const regex = /(`[^`]+`|\*\*[^*]+\*\*|\*[^*]+\*)/g
+  const regex = /(`[^`]+`|\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*|\*[^*]+\*)/g
 
   let match
   while ((match = regex.exec(text)) !== null) {
@@ -19,6 +19,20 @@ function parseInlineMarkdown(text) {
     const content = match[0]
     if (content.startsWith('`') && content.endsWith('`')) {
       parts.push(<code key={match.index} className="inline-code">{content.slice(1, -1)}</code>)
+    } else if (content.startsWith('[') && content.includes('](') && content.endsWith(')')) {
+      const linkMatch = content.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
+      if (linkMatch) {
+        parts.push(
+          <a
+            key={match.index}
+            href={linkMatch[2]}
+            target={linkMatch[2].startsWith('http') ? '_blank' : undefined}
+            rel={linkMatch[2].startsWith('http') ? 'noreferrer' : undefined}
+          >
+            {linkMatch[1]}
+          </a>,
+        )
+      }
     } else if (content.startsWith('**') && content.endsWith('**')) {
       parts.push(<strong key={match.index}>{content.slice(2, -2)}</strong>)
     } else if (content.startsWith('*') && content.endsWith('*')) {
@@ -94,8 +108,54 @@ function MarkdownTable({ text }) {
 }
 
 function MarkdownBlock({ text }) {
+  const imageMatch = text.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/)
+  if (imageMatch) {
+    const [, alt, src] = imageMatch
+    return (
+      <figure className="markdown-image">
+        <a href={src} target="_blank" rel="noreferrer">
+          <img src={src} alt={alt || 'image'} loading="lazy" />
+        </a>
+        {alt ? <figcaption>{alt}</figcaption> : null}
+      </figure>
+    )
+  }
   if (isMarkdownTable(text)) return <MarkdownTable text={text} />
   return <p>{parseInlineMarkdown(text)}</p>
+}
+
+function CollapsibleCodeBlock({ block, t }) {
+  const [expanded, setExpanded] = useState(false)
+  const language = typeof block === 'object' ? t(block.language || 'text') : 'text'
+  const source = typeof block === 'object' ? t(block.code || '') : t(block)
+  const lines = source.split('\n')
+  const maxPreviewLines = 20
+  const hasOverflow = lines.length > maxPreviewLines
+  const visibleCode = hasOverflow && !expanded
+    ? lines.slice(0, maxPreviewLines).join('\n')
+    : source
+
+  return (
+    <div className="code-panel">
+      <div className="code-panel-head">
+        <span className="code-panel-lang">{language || 'text'}</span>
+        <span className="code-panel-meta">{lines.length} lines</span>
+      </div>
+      <pre className="code-block">
+        <code>{visibleCode}</code>
+      </pre>
+      {hasOverflow ? (
+        <button
+          type="button"
+          className="code-expand-btn"
+          onClick={() => setExpanded((prev) => !prev)}
+          aria-expanded={expanded}
+        >
+          {expanded ? '收起代码' : `展开剩余 ${lines.length - maxPreviewLines} 行`}
+        </button>
+      ) : null}
+    </div>
+  )
 }
 
 // 使用原始数据（不在模块级别展平）
@@ -714,6 +774,29 @@ function StabilityControlVisual({ data }) {
 }
 
 function HubView({ onPickCategory, counts, t }) {
+  const sections = [
+    {
+      id: 'learning',
+      eyebrow: { zh: 'LEARNING BOARD', en: 'LEARNING BOARD' },
+      title: { zh: '学习', en: 'Learning' },
+      description: {
+        zh: '把课程笔记、系统设计和实验记录收在一个板块里。后续交作业时，直接给这一组入口就够了。',
+        en: 'A dedicated section for course notes, system design, and experiments. This can serve as the hand-in surface for coursework.'
+      },
+      categories: categories.filter((cat) => cat.tag.startsWith('LEARNING')),
+    },
+    {
+      id: 'life',
+      eyebrow: { zh: 'LIFE SIGNAL', en: 'LIFE SIGNAL' },
+      title: { zh: '生活 / 随笔', en: 'Life / Essays' },
+      description: {
+        zh: '把和课程无关的内容留在另一层，避免学习内容和个人碎片混在一起。',
+        en: 'Keep non-course content in a separate layer so the learning work stays clean and easy to share.'
+      },
+      categories: categories.filter((cat) => !cat.tag.startsWith('LEARNING')),
+    },
+  ]
+
   return (
     <section className="hub">
       <header className="hub-header">
@@ -724,34 +807,56 @@ function HubView({ onPickCategory, counts, t }) {
         {site.intro ? <p className="hub-intro">{t(site.intro)}</p> : null}
       </header>
 
-      <div className="hub-grid">
-        {categories.map((cat) => {
-          const count = counts[cat.id] ?? 0
+      <div className="hub-sections">
+        {sections.map((section) => {
+          const sectionCount = section.categories.reduce((sum, cat) => sum + (counts[cat.id] ?? 0), 0)
+
           return (
-            <button
-              key={cat.id}
-              type="button"
-              className={`hub-card accent-${cat.accent}`}
-              onClick={() => onPickCategory(cat.id)}
-              aria-label={`Open ${t(cat.name)}`}
-            >
-              <div className="hub-card-corners" aria-hidden="true">
-                <span /><span /><span /><span />
+            <section className="hub-band" key={section.id}>
+              <div className="hub-band-head">
+                <div>
+                  <p className="hub-band-eyebrow">{t(section.eyebrow)}</p>
+                  <h2 className="hub-band-title">{t(section.title)}</h2>
+                  <p className="hub-band-desc">{t(section.description)}</p>
+                </div>
+                <div className="hub-band-stats" aria-label={`${t(section.title)} stats`}>
+                  <span>{section.categories.length} sections</span>
+                  <span>{sectionCount} entries</span>
+                </div>
               </div>
-              <div className="hub-card-top">
-                <span className="hub-card-tag">{cat.tag}</span>
-                <span className="hub-card-code">{cat.code}</span>
+
+              <div className="hub-grid">
+                {section.categories.map((cat) => {
+                  const count = counts[cat.id] ?? 0
+                  return (
+                    <button
+                      key={cat.id}
+                      type="button"
+                      className={`hub-card accent-${cat.accent}`}
+                      onClick={() => onPickCategory(cat.id)}
+                      aria-label={`Open ${t(cat.name)}`}
+                    >
+                      <div className="hub-card-corners" aria-hidden="true">
+                        <span /><span /><span /><span />
+                      </div>
+                      <div className="hub-card-top">
+                        <span className="hub-card-tag">{cat.tag}</span>
+                        <span className="hub-card-code">{cat.code}</span>
+                      </div>
+                      <h2 className="hub-card-name">{t(cat.name)}</h2>
+                      <p className="hub-card-tagline">{t(cat.tagline)}</p>
+                      <p className="hub-card-desc">{t(cat.description)}</p>
+                      <div className="hub-card-bottom">
+                        <span className="hub-card-count">
+                          {count > 0 ? `${count} entries` : 'coming soon'}
+                        </span>
+                        <span className="hub-card-arrow" aria-hidden="true">&rarr;</span>
+                      </div>
+                    </button>
+                  )
+                })}
               </div>
-              <h2 className="hub-card-name">{t(cat.name)}</h2>
-              <p className="hub-card-tagline">{t(cat.tagline)}</p>
-              <p className="hub-card-desc">{t(cat.description)}</p>
-              <div className="hub-card-bottom">
-                <span className="hub-card-count">
-                  {count > 0 ? `${count} entries` : 'coming soon'}
-                </span>
-                <span className="hub-card-arrow" aria-hidden="true">&rarr;</span>
-              </div>
-            </button>
+            </section>
           )
         })}
       </div>
@@ -960,10 +1065,13 @@ function CategoryView({
                     {section.stabilityControlVisual ? (
                       <StabilityControlVisual data={section.stabilityControlVisual} />
                     ) : null}
+                    {section.codeBlocks ? (
+                      section.codeBlocks.map((block, bi) => (
+                        <CollapsibleCodeBlock block={block} key={bi} t={t} />
+                      ))
+                    ) : null}
                     {section.code ? (
-                      <pre className="code-block">
-                        <code>{t(section.code)}</code>
-                      </pre>
+                      <CollapsibleCodeBlock block={{ language: 'text', code: section.code }} t={t} />
                     ) : null}
                   </section>
                 ))}

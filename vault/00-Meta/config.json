@@ -198,6 +198,19 @@
       }
     },
     {
+      "id": "multi-agent-homework-01",
+      "categoryId": "multi-agent",
+      "code": "01",
+      "title": {
+        "zh": "作业 1｜OpenCode、状态管理与编排循环",
+        "en": "Homework 1 | OpenCode, State, and the Orchestration Loop"
+      },
+      "description": {
+        "zh": "安装 OpenCode、完成国产模型配置，对比裸 API 与编排式智能体，并阅读 Agent Loop 的核心闭环。",
+        "en": "Install OpenCode, configure a domestic model provider, compare raw API calls with an orchestrated agent, and study the core agent loop."
+      }
+    },
+    {
       "id": "part00_preface",
       "categoryId": "system-design",
       "code": "01",

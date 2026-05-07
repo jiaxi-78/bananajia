@@ -5,8 +5,8 @@ chapter: 'chapter-5'
 course: 'DIY LLM'
 title_zh: 'Chapter 5｜混合专家模型'
 title_en: 'Chapter 5 | Mixture of Experts'
-summary_zh: '补充 DeepSpeed-MoE 中 PR-MoE、MoS、残差专家、金字塔式专家分布、分阶段蒸馏和 MoE 分布式训练/推理系统优化。'
-summary_en: 'Notes on DeepSpeed-MoE: PR-MoE, MoS, residual experts, pyramid expert allocation, staged distillation, and distributed MoE training/inference optimizations.'
+summary_zh: '补充 DeepSpeed-MoE 中 PR-MoE、MoS、稠密模型 upcycling、残差专家、金字塔式专家分布、分阶段蒸馏和 MoE 分布式训练/推理系统优化。'
+summary_en: 'Notes on DeepSpeed-MoE: PR-MoE, MoS, dense-to-MoE upcycling, residual experts, pyramid expert allocation, staged distillation, and distributed MoE training/inference optimizations.'
 tags:
   - LLM
   - MoE
@@ -270,7 +270,189 @@ CE loss + KL distillation loss
 
 论文示例里提到，在大约 400K steps 后停止 KD。
 
-## 7. 系统优化那里怎么理解？
+## 7. 稠密模型 upcycling 为 MoE 是什么意思？
+
+这里的 `upcycling dense model into MoE`，可以直接理解成：
+
+**先训练出一个普通的稠密 Transformer，再把它升级改造成 MoE，然后继续训练。**
+
+它不是从零随机初始化一个全新的 MoE，而是尽量复用你已经花大成本训练出来的 dense checkpoint。
+
+最常见的改法是：
+
+```text
+原来:
+Attention
+FFN
+Attention
+FFN
+
+改成:
+Attention
+MoE FFN = router + 多个 experts
+Attention
+MoE FFN = router + 多个 experts
+```
+
+这里的 `expert` 本质上通常还是 FFN/MLP，只不过从“每层一套共享 FFN”变成了“每层很多套并行 FFN，再由 router 挑少数几个来算”。
+
+### 7.1 具体怎么“升”？
+
+直觉上分成四步：
+
+1. **先有一个训练好的 dense 模型**
+
+   这个模型已经学会了基础语言能力、知识和表示。
+
+2. **把部分 FFN 层替换成 MoE 层**
+
+   也就是在原本的 dense MLP 位置，换成：
+
+   ```text
+   router + expert_1 + expert_2 + ... + expert_n
+   ```
+
+3. **用原 dense FFN 的权重去初始化 experts**
+
+   常见方式包括：
+
+   - 直接复制原 FFN 到所有 experts
+   - 复制后加一点随机扰动，让 experts 别一模一样
+   - router 单独随机初始化
+
+4. **继续训练**
+
+   让 router 学会分配 token，让 experts 慢慢从“大家都像原来的 FFN”变成“各自专精不同模式”。
+
+所以它叫 `upcycling`，本质就是：
+
+```text
+把旧的 dense 训练成果改造成更高容量的稀疏模型继续用
+```
+
+### 7.2 为什么要这么做？
+
+因为从零训练 MoE 很贵，而且不一定划算。
+
+如果你已经有一个不错的 dense 模型，那么直接把它升级成 MoE，有几个明显好处：
+
+- **复用已有训练成本**：原来的预训练没白费
+- **初始化更强**：不是从纯随机开始
+- **早期更容易可用**：至少模型一开始就有基本语言能力
+
+你可以把它想成：
+
+```text
+dense 模型 = 一个已经很强的全科老师
+MoE 模型 = 一个老师团队，每个老师分工负责不同方向
+upcycling = 先有一个好老师，再把他扩展成一个分工协作的老师团队
+```
+
+### 7.3 为什么它又不一定总是最好？
+
+因为旧的 dense 权重既是资产，也是约束。
+
+一方面，旧权重提供了强初始化；另一方面，它也可能让 experts 难以真正分化。
+
+原因大概有两类：
+
+1. **旧表示太强，expert 不容易“忘掉再重学”**
+
+   原 dense 模型已经把很多通用能力压进同一套参数里。现在你复制出多个 experts，它们起点都很像原来的 FFN，于是容易“长得都差不多”，而不是快速形成明确分工。
+
+2. **router 是新来的，往往学得慢**
+
+   experts 继承了旧权重，但 router 常常是随机初始化。训练前期它分配 token 的方式接近随机或很粗糙，等 router 慢慢学明白时，学习率可能已经衰减了，专家分工就会形成得不够彻底。
+
+这也是为什么一些工作，比如 OLMoE，会发现：
+
+- 某些设置下，从零训练的 MoE 在足够数据后能追上甚至超过 upcycled MoE
+- 但另一些设置下，upcycling 又明显更省预算、更快进入可用区间
+
+### 7.4 怎么和“从零训练 MoE”对比着记？
+
+你可以直接记成两条路线：
+
+```text
+路线 A：dense -> upcycle -> MoE
+优点：省已有训练成果，起点强
+缺点：可能被旧权重束缚，expert 分工形成慢
+
+路线 B：random init -> train MoE from scratch
+优点：router 和 experts 从头共同演化，更自由
+缺点：前期成本更高，需要更多数据和训练预算
+```
+
+所以 `upcycling` 不是“绝对更先进”，而是一种非常现实的工程策略：
+
+**先用 dense 把底座练出来，再把它升级成 MoE，看看能不能用更少额外成本换到更大的容量和更高的参数效率。**
+
+> **一句话记忆**
+> 稠密模型 upcycling 为 MoE，就是把已经训练好的 dense 模型当成起点，把部分 FFN 改成专家层、继承旧权重后继续训练，让模型从“单一路径计算”升级成“稀疏专家计算”。
+
+## 8. MoE 这个想法最早是谁提出来的？
+
+如果问“MoE 这个想法最早是谁提出来的”，通常要分两层回答：
+
+### 8.1 原始的 Mixture of Experts
+
+最早一般追溯到 1991 年的经典论文：
+
+- Robert A. Jacobs
+- Michael I. Jordan
+- Steven J. Nowlan
+- Geoffrey E. Hinton
+
+论文是：
+
+- [Adaptive Mixtures of Local Experts (1991)](https://people.eecs.berkeley.edu/~jordan/papers/mixtures-of-experts.pdf)
+
+这篇论文讲的还不是今天 LLM 里常见的 Transformer MoE，但核心思想已经在了：
+
+```text
+不要让一套参数处理所有样本
+而是让一个 gating / routing 机制把不同输入分给不同 expert
+```
+
+所以如果只问“MoE 这个想法是谁先提的”，最稳妥的答案就是：
+
+**Jacobs、Jordan、Nowlan、Hinton 在 1991 年提出了经典的 Mixture of Experts。**
+
+### 8.2 现代大模型里的稀疏 MoE
+
+今天大家在 LLM 里说的 MoE，更多是指“稀疏激活的专家 Transformer”。这条线真正做火的是 Google Brain 在 2017 年的工作：
+
+- Noam Shazeer
+- Azalia Mirhoseini
+- Krzysztof Maziarz
+- Andy Davis
+- Quoc Le
+- Geoffrey Hinton
+- Jeff Dean
+
+对应论文：
+
+- [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer (2017)](https://arxiv.org/abs/1701.06538)
+
+这篇论文的重要性在于：它把“专家只激活少数几个”的稀疏计算路线真正做成了可以大规模扩展神经网络参数量的工程方案。
+
+### 8.3 把 MoE 做进超大规模 Transformer
+
+后面把它推到现代大模型训练主线上、让更多人真正把 MoE 和 Transformer 联系起来的代表作，是：
+
+- [GShard (2020)](https://arxiv.org/abs/2006.16668)
+- [Switch Transformers (2021)](https://arxiv.org/abs/2101.03961)
+- [GLaM (2021)](https://arxiv.org/abs/2112.06905)
+
+一句话记：
+
+```text
+1991：提出 MoE 思想
+2017：做出现代稀疏门控 MoE
+2020-2021：把它做进超大规模 Transformer
+```
+
+## 9. 系统优化那里怎么理解？
 
 MoE 推理的麻烦不只是算力，而是 **通信和读权重**。
 
@@ -372,11 +554,11 @@ DeepSpeed-MoE 改成：
 
 这就是“显式数据布局转换”。它不再假装这是一个大稀疏矩阵乘法，而是直接搬数据、排序、还原。论文说这让 MoE kernel 相关延迟降低超过 6 倍。
 
-## 8. 一句话总结
+## 10. 一句话总结
 
 **PR-MoE 是把专家放得更聪明，MoS 是把 PR-MoE 再蒸馏变小，系统优化是让 token 找专家这件事在多 GPU 上搬得更少、更规整、更快。**
 
-## 9. Reference
+## 11. Reference
 
 主论文：
 
@@ -391,7 +573,9 @@ DeepSpeed-MoE 改成：
 
 背景论文：
 
+- [Adaptive Mixtures of Local Experts, Jacobs et al. 1991](https://people.eecs.berkeley.edu/~jordan/papers/mixtures-of-experts.pdf)
 - [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer, Shazeer et al. 2017](https://arxiv.org/abs/1701.06538)
 - [GShard, Lepikhin et al. 2020](https://arxiv.org/abs/2006.16668)
 - [Switch Transformers, Fedus et al. 2021](https://arxiv.org/abs/2101.03961)
 - [GLaM, Du et al. 2021](https://arxiv.org/abs/2112.06905)
+- [OLMoE: Open Mixture-of-Experts Language Models, Allingham et al. 2024](https://arxiv.org/abs/2409.02060)

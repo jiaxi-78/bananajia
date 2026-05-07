@@ -124,6 +124,35 @@ function parseBody(body) {
       continue
     }
 
+    if (trimmed.startsWith('```')) {
+      flushParagraph()
+      flushEmphasis()
+      const language = trimmed.slice(3).trim() || 'text'
+      const codeLines = []
+      i++
+      while (i < lines.length && lines[i].trim() !== '```') {
+        codeLines.push(lines[i])
+        i++
+      }
+      if (!currentSection) {
+        currentSection = {
+          heading: null,
+          paragraphs: [],
+          faqs: [],
+          bullets: [],
+          emphasisCards: [],
+          codeBlocks: [],
+        }
+      }
+      if (!currentSection.codeBlocks) currentSection.codeBlocks = []
+      currentSection.codeBlocks.push({
+        language,
+        code: codeLines.join('\n').replace(/\s+$/, ''),
+      })
+      i++
+      continue
+    }
+
     // section heading
     if (trimmed.startsWith('## ')) {
       flushParagraph()
@@ -135,6 +164,7 @@ function parseBody(body) {
         faqs: [],
         bullets: [],
         emphasisCards: [],
+        codeBlocks: [],
       }
       currentFaq = null
       state = 'section'
@@ -209,6 +239,7 @@ function parseBody(body) {
         faqs: [],
         bullets: [],
         emphasisCards: [],
+        codeBlocks: [],
       }
     }
     pendingParagraph.push(trimmed)
