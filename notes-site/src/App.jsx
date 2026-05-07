@@ -1,6 +1,39 @@
 import './App.css'
 import { useEffect, useMemo, useState } from 'react'
+import Prism from 'prismjs'
+import 'prismjs/components/prism-bash'
+import 'prismjs/components/prism-json'
+import 'prismjs/components/prism-jsx'
+import 'prismjs/components/prism-python'
+import 'prismjs/components/prism-tsx'
 import { notes as rawNotes, site as rawSite, categories as rawCategories, chapters as rawChapters } from './content.js'
+
+function escapeHtml(text) {
+  return text
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+}
+
+function normalizeCodeLanguage(language) {
+  const value = (language || 'text').toLowerCase()
+  const aliases = {
+    js: 'javascript',
+    jsx: 'jsx',
+    ts: 'typescript',
+    tsx: 'tsx',
+    py: 'python',
+    shell: 'bash',
+    sh: 'bash',
+    zsh: 'bash',
+    yml: 'yaml',
+    md: 'markdown',
+    text: 'text',
+    plaintext: 'text',
+  }
+
+  return aliases[value] || value
+}
 
 // 解析 Markdown 行内格式：`code` 、**bold** 、*italic*
 function parseInlineMarkdown(text) {
@@ -150,6 +183,12 @@ function CollapsibleCodeBlock({ block, t }) {
   const visibleCode = hasOverflow && !expanded
     ? lines.slice(0, maxPreviewLines).join('\n')
     : source
+  const normalizedLanguage = normalizeCodeLanguage(language)
+  const highlightedCode = useMemo(() => {
+    const grammar = Prism.languages[normalizedLanguage]
+    if (!grammar) return escapeHtml(visibleCode)
+    return Prism.highlight(visibleCode, grammar, normalizedLanguage)
+  }, [normalizedLanguage, visibleCode])
 
   return (
     <div className="code-panel">
@@ -158,7 +197,10 @@ function CollapsibleCodeBlock({ block, t }) {
         <span className="code-panel-meta">{lines.length} lines</span>
       </div>
       <pre className="code-block">
-        <code>{visibleCode}</code>
+        <code
+          className={`language-${normalizedLanguage}`}
+          dangerouslySetInnerHTML={{ __html: highlightedCode }}
+        />
       </pre>
       {hasOverflow ? (
         <button
