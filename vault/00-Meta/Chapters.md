@@ -12,6 +12,7 @@ type: 'chapters'
 | 04 | Chapter 4｜语言模型架构和训练细节 | DIY LLM | 位置编码、Transformer 数据流、注意力细节、归一化、GLU 与 RoPE。 |
 | 06 | Chapter 13｜大模型的基本训练流程 | DIY LLM | 预训练、SFT、RLHF、PPO 与 DPO 的主线梳理，以及自回归、JSONL、assistant loss、预算强制等关键概念。 |
 | 01 | 作业 1｜OpenCode、状态管理与编排循环 | Multi-Agent | 安装 OpenCode、完成国产模型配置，对比裸 API 与编排式智能体，并阅读 Agent Loop 的核心闭环。 |
+| 02 | 作业 2｜AGENTS.md、Memory 对比与规则补全 | Multi-Agent | 围绕 AGENTS.md 的 7 个组成部分整理项目 Memory，对比有无 Memory 时的代码产出差异，并补充遗漏的项目规则。 |
 | 01 | LLM 应用的三层能力｜从纯对话到 RAG | 随笔 | 纯对话、Tool Calling 和 RAG 各自在做什么，怎么实现，直接 SDK 和 LangChain 怎么选。 |
 | 01 | 基础概念｜Stateless 与聚合指标 | System Design | Stateless Web Tier、serverless 的区别，以及 aggregated metrics 和 instance-level metrics 怎么配合。 |
 | 02 | 容量估算｜纸上估算 | System Design | 用合理假设、单位换算和数量级思维估算 QPS、存储、带宽和可用性。 |
@@ -82,6 +83,17 @@ title_zh: '作业 1｜OpenCode、状态管理与编排循环'
 title_en: 'Homework 1 | OpenCode, State, and the Orchestration Loop'
 description_zh: '安装 OpenCode、完成国产模型配置，对比裸 API 与编排式智能体，并阅读 Agent Loop 的核心闭环。'
 description_en: 'Install OpenCode, configure a domestic model provider, compare raw API calls with an orchestrated agent, and study the core agent loop.'
+---
+
+### 作业 2｜AGENTS.md、Memory 对比与规则补全
+---
+id: 'multi-agent-homework-02'
+category: 'multi-agent'
+code: '02'
+title_zh: '作业 2｜AGENTS.md、Memory 对比与规则补全'
+title_en: 'Homework 2 | AGENTS.md, Memory Comparison, and Rule Refinement'
+description_zh: '围绕 AGENTS.md 的 7 个组成部分整理项目 Memory，对比有无 Memory 时的代码产出差异，并补充遗漏的项目规则。'
+description_en: 'Build project memory with AGENTS.md, compare outputs with and without memory, and refine the missing rules.'
 ---
 
 ### LLM 应用的三层能力｜从纯对话到 RAG

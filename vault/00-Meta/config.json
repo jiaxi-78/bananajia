@@ -211,6 +211,19 @@
       }
     },
     {
+      "id": "multi-agent-homework-02",
+      "categoryId": "multi-agent",
+      "code": "02",
+      "title": {
+        "zh": "作业 2｜AGENTS.md、Memory 对比与规则补全",
+        "en": "Homework 2 | AGENTS.md, Memory Comparison, and Rule Refinement"
+      },
+      "description": {
+        "zh": "围绕 AGENTS.md 的 7 个组成部分整理项目 Memory，对比有无 Memory 时的代码产出差异，并补充遗漏的项目规则。",
+        "en": "Build project memory with AGENTS.md, compare outputs with and without memory, and refine the missing rules."
+      }
+    },
+    {
       "id": "part00_preface",
       "categoryId": "system-design",
       "code": "01",
